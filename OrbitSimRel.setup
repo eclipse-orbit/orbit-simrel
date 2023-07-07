@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<setup:Project
+    xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:git="http://www.eclipse.org/oomph/setup/git/1.0"
+    xmlns:jdt="http://www.eclipse.org/oomph/setup/jdt/1.0"
+    xmlns:predicates="http://www.eclipse.org/oomph/predicates/1.0"
+    xmlns:setup="http://www.eclipse.org/oomph/setup/1.0"
+    xmlns:setup.p2="http://www.eclipse.org/oomph/setup/p2/1.0"
+    xmlns:setup.targlets="http://www.eclipse.org/oomph/setup/targlets/1.0"
+    xmlns:setup.workingsets="http://www.eclipse.org/oomph/setup/workingsets/1.0"
+    xmlns:workbench="http://www.eclipse.org/oomph/setup/workbench/1.0"
+    xmlns:workingsets="http://www.eclipse.org/oomph/workingsets/1.0"
+    xsi:schemaLocation="http://www.eclipse.org/oomph/setup/git/1.0 https://raw.githubusercontent.com/eclipse-oomph/oomph/master/setups/models/Git.ecore http://www.eclipse.org/oomph/setup/jdt/1.0 https://raw.githubusercontent.com/eclipse-oomph/oomph/master/setups/models/JDT.ecore http://www.eclipse.org/oomph/predicates/1.0 https://raw.githubusercontent.com/eclipse-oomph/oomph/master/setups/models/Predicates.ecore http://www.eclipse.org/oomph/setup/targlets/1.0 https://raw.githubusercontent.com/eclipse-oomph/oomph/master/setups/models/SetupTarglets.ecore http://www.eclipse.org/oomph/setup/workingsets/1.0 https://raw.githubusercontent.com/eclipse-oomph/oomph/master/setups/models/SetupWorkingSets.ecore http://www.eclipse.org/oomph/setup/workbench/1.0 https://raw.githubusercontent.com/eclipse-oomph/oomph/master/setups/models/Workbench.ecore http://www.eclipse.org/oomph/workingsets/1.0 https://raw.githubusercontent.com/eclipse-oomph/oomph/master/setups/models/WorkingSets.ecore"
+    name="orbit.simrel"
+    label="Orbit SimRel">
+  <annotation
+      source="http://www.eclipse.org/oomph/setup/BrandingInfo">
+    <detail
+        key="imageURI">
+      <value>https://www.eclipse.org/downloads/images/committers.png</value>
+    </detail>
+    <detail
+        key="siteURI">
+      <value>https://projects.eclipse.org/projects/tools.orbit/</value>
+    </detail>
+  </annotation>
+  <setupTask
+      xsi:type="setup:VariableTask"
+      name="github.org"
+      value="eclipse-orbit"/>
+  <setupTask
+      xsi:type="setup:VariableTask"
+      name="github.repo"
+      value="orbit-simrel"/>
+  <setupTask
+      xsi:type="setup:CompoundTask"
+      name="User Preferences">
+    <setupTask
+        xsi:type="setup:CompoundTask"
+        name="org.eclipse.core.resources">
+      <setupTask
+          xsi:type="setup:PreferenceTask"
+          key="/instance/org.eclipse.core.resources/missingNatureMarkerSeverity"
+          value="-1"/>
+      <setupTask
+          xsi:type="setup:PreferenceTask"
+          key="/instance/org.eclipse.core.resources/description.disableLinking"
+          value="false"/>
+      <setupTask
+          xsi:type="setup:PreferenceTask"
+          key="/instance/org.eclipse.core.resources/description.disableLinking"
+          value="false"/>
+    </setupTask>
+    <setupTask
+        xsi:type="setup:CompoundTask"
+        name="org.eclipse.egit.core">
+      <setupTask
+          xsi:type="setup:PreferenceTask"
+          key="/instance/org.eclipse.egit.core/core_autoIgnoreDerivedResources"
+          value="false"/>
+    </setupTask>
+    <setupTask
+        xsi:type="setup:CompoundTask"
+        name="org.eclipse.jdt.launching">
+      <setupTask
+          xsi:type="setup:PreferenceTask"
+          key="/instance/org.eclipse.jdt.launching/org.eclipse.jdt.launching.PREF_COMPILER_COMPLIANCE_DOES_NOT_MATCH_JRE"
+          value="ignore"/>
+      <setupTask
+          xsi:type="setup:PreferenceTask"
+          key="/instance/org.eclipse.jdt.launching/org.eclipse.jdt.launching.PREF_STRICTLY_COMPATIBLE_JRE_NOT_AVAILABLE"
+          value="ignore"/>
+    </setupTask>
+    <setupTask
+        xsi:type="setup:CompoundTask"
+        name="org.eclipse.oomph.setup.ui">
+      <setupTask
+          xsi:type="setup:PreferenceTask"
+          key="/instance/org.eclipse.oomph.setup.ui/showToolBarContributions"
+          value="true"/>
+    </setupTask>
+    <setupTask
+        xsi:type="setup:CompoundTask"
+        name="org.eclipse.pde">
+      <setupTask
+          xsi:type="setup:PreferenceTask"
+          key="/instance/org.eclipse.pde/compilers.p.exec-env-too-low"
+          value="2"/>
+    </setupTask>
+    <setupTask
+        xsi:type="setup:CompoundTask"
+        name="org.eclipse.pde.api.tools">
+      <setupTask
+          xsi:type="setup:PreferenceTask"
+          key="/instance/org.eclipse.pde.api.tools/missing_default_api_profile"
+          value="Ignore"/>
+    </setupTask>
+  </setupTask>
+  <setupTask
+      xsi:type="workbench:FileAssociationsTask">
+    <mapping
+        filePattern="*.launch"
+        defaultEditorID="org.eclipse.ui.genericeditor.GenericEditor"/>
+    <mapping
+        filePattern="*.sh"
+        defaultEditorID="org.eclipse.ui.genericeditor.GenericEditor"/>
+    <mapping
+        filePattern="*.jenkinsfile"
+        defaultEditorID="org.eclipse.ui.genericeditor.GenericEditor"/>
+    <description>Bindings for JET templates</description>
+  </setupTask>
+  <setupTask
+      xsi:type="setup.p2:P2Task"
+      label="CBI p2 Aggregator">
+    <requirement
+        name="org.eclipse.cbi.p2repo.aggregator.editor.feature.feature.group"/>
+    <requirement
+        name="org.eclipse.cbi.p2repo.aggregator.analyzer.editor.feature.feature.group"/>
+    <repository
+        url="https://download.eclipse.org/cbi/updates/p2-aggregator/tools/nightly/latest"/>
+  </setupTask>
+  <setupTask
+      xsi:type="setup:VariableTask"
+      type="BOOLEAN"
+      name="install.bnd"
+      defaultValue="false"
+      storageURI="scope://Installation"
+      label="Install BND Tools (read hover text)">
+    <description>Installing BND Tools requires installing unsigned jars.  The tools are very helpful for reviewing the generated results.</description>
+  </setupTask>
+  <setupTask
+      xsi:type="setup.p2:P2Task"
+      filter="(install.bnd=true)"
+      label="BND">
+    <requirement
+        name="bndtools.main.feature.feature.group"/>
+    <requirement
+        name="bndtools.m2e.feature.feature.group"/>
+    <requirement
+        name="bndtools.pde.feature.feature.group"/>
+    <repository
+        url="https://bndtools.jfrog.io/bndtools/update-latest"/>
+  </setupTask>
+  <setupTask
+      xsi:type="jdt:JRETask"
+      version="JavaSE-17"
+      location="${jre.location-17}"/>
+  <setupTask
+      xsi:type="setup:EclipseIniTask"
+      option="-Doomph.redirection.orbit.simrel.setup"
+      value="=https://raw.githubusercontent.com/${github.org}/${github.repo}/main/OrbitSimRel.setup->${github.clone.orbit.simrel.location|uri}/OrbitSimRel.setup"
+      vm="true">
+    <description>Redirect to the development version of the setup model.</description>
+  </setupTask>
+  <setupTask
+      xsi:type="setup:EclipseIniTask"
+      option="-Xmx"
+      value="2048m"
+      vm="true"/>
+  <setupTask
+      xsi:type="setup:ResourceCreationTask"
+      excludedTriggers="STARTUP MANUAL"
+      targetURL="${workspace.location|uri}/.metadata/.plugins/org.eclipse.jdt.ui/dialog_settings.xml"
+      encoding="UTF-8">
+    <description>Initialize the Package Explorer to display workings sets.</description>
+    <content>
+      &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>
+      &lt;section name=&quot;Workbench&quot;>
+      	&lt;section name=&quot;org.eclipse.jdt.internal.ui.packageview.PackageExplorerPart&quot;>
+      		&lt;item value=&quot;true&quot; key=&quot;group_libraries&quot;/>
+      		&lt;item value=&quot;false&quot; key=&quot;linkWithEditor&quot;/>
+      		&lt;item value=&quot;2&quot; key=&quot;layout&quot;/>
+      		&lt;item value=&quot;2&quot; key=&quot;rootMode&quot;/>
+      		&lt;item value=&quot;&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;UTF-8&amp;quot;?&amp;gt;&amp;#x0D;&amp;#x0A;&amp;lt;packageExplorer configured=&amp;quot;true&amp;quot; group_libraries=&amp;quot;1&amp;quot; layout=&amp;quot;2&amp;quot; linkWithEditor=&amp;quot;0&amp;quot; rootMode=&amp;quot;2&amp;quot; sortWorkingSets=&amp;quot;false&amp;quot; workingSetName=&amp;quot;&amp;quot;&amp;gt;&amp;#x0D;&amp;#x0A;&amp;lt;localWorkingSetManager&amp;gt;&amp;#x0D;&amp;#x0A;&amp;lt;workingSet editPageId=&amp;quot;org.eclipse.jdt.internal.ui.OthersWorkingSet&amp;quot; factoryID=&amp;quot;org.eclipse.ui.internal.WorkingSetFactory&amp;quot; id=&amp;quot;1382792884467_1&amp;quot; label=&amp;quot;Other Projects&amp;quot; name=&amp;quot;Other Projects&amp;quot;/&amp;gt;&amp;#x0D;&amp;#x0A;&amp;lt;/localWorkingSetManager&amp;gt;&amp;#x0D;&amp;#x0A;&amp;lt;activeWorkingSet workingSetName=&amp;quot;Other Projects&amp;quot;/&amp;gt;&amp;#x0D;&amp;#x0A;&amp;lt;allWorkingSets workingSetName=&amp;quot;Other Projects&amp;quot;/&amp;gt;&amp;#x0D;&amp;#x0A;&amp;lt;/packageExplorer&amp;gt;&quot; key=&quot;memento&quot;/>
+      	&lt;/section>
+      &lt;/section>
+
+    </content>
+  </setupTask>
+  <setupTask
+      xsi:type="setup:ResourceCreationTask"
+      excludedTriggers="STARTUP MANUAL"
+      targetURL="${workspace.location|uri}/.metadata/.plugins/org.eclipse.debug.ui/launchConfigurationHistory.xml"
+      encoding="UTF-8">
+    <description>Ensure that Run/Debug/External Tools contain favorites</description>
+    <content>
+      &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>
+      &lt;launchHistory>
+          &lt;launchGroup id=&quot;org.eclipse.debug.ui.launchGroup.debug&quot;>
+              &lt;favorites>
+                  &lt;launch memento=&quot;&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;UTF-8&amp;quot; standalone=&amp;quot;no&amp;quot;?&amp;gt;&amp;#13;&amp;#10;&amp;lt;launchConfiguration local=&amp;quot;false&amp;quot; path=&amp;quot;/org.eclipse.orbit.maven.generator/MavenOSGiDependencyAnalyzer.launch&amp;quot;/&amp;gt;&amp;#13;&amp;#10;&quot;/>
+                  &lt;launch memento=&quot;&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;UTF-8&amp;quot; standalone=&amp;quot;no&amp;quot;?&amp;gt;&amp;#13;&amp;#10;&amp;lt;launchConfiguration local=&amp;quot;false&amp;quot; path=&amp;quot;/org.eclipse.orbit.maven.bnd.generator/MavenBNDUpdater.launch&amp;quot;/&amp;gt;&amp;#13;&amp;#10;&quot;/>
+                  &lt;launch memento=&quot;&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;UTF-8&amp;quot; standalone=&amp;quot;no&amp;quot;?&amp;gt;&amp;#13;&amp;#10;&amp;lt;launchConfiguration local=&amp;quot;false&amp;quot; path=&amp;quot;/org.eclipse.orbit.maven.generator/MavenBNDDependencyAnalyzer.launch&amp;quot;/&amp;gt;&amp;#13;&amp;#10;&quot;/>
+              &lt;/favorites>
+          &lt;/launchGroup>
+          &lt;launchGroup id=&quot;org.eclipse.ui.externaltools.launchGroup&quot;>
+              &lt;favorites>
+                  &lt;launch memento=&quot;&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;UTF-8&amp;quot; standalone=&amp;quot;no&amp;quot;?&amp;gt;&amp;#13;&amp;#10;&amp;lt;launchConfiguration local=&amp;quot;false&amp;quot; path=&amp;quot;/org.eclipse.orbit.simrel/maven-osgi/Maven OSGi.launch&amp;quot;/&amp;gt;&amp;#13;&amp;#10;&quot;/>
+                  &lt;launch memento=&quot;&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;UTF-8&amp;quot; standalone=&amp;quot;no&amp;quot;?&amp;gt;&amp;#13;&amp;#10;&amp;lt;launchConfiguration local=&amp;quot;false&amp;quot; path=&amp;quot;/org.eclipse.orbit.simrel/maven-bnd/Maven BND.launch&amp;quot;/&amp;gt;&amp;#13;&amp;#10;&quot;/>
+                  &lt;launch memento=&quot;&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;UTF-8&amp;quot; standalone=&amp;quot;no&amp;quot;?&amp;gt;&amp;#13;&amp;#10;&amp;lt;launchConfiguration local=&amp;quot;false&amp;quot; path=&amp;quot;/org.eclipse.orbit.simrel/orbit-aggregation/Orbit Aggregation.launch&amp;quot;/&amp;gt;&amp;#13;&amp;#10;&quot;/>
+              &lt;/favorites>
+          &lt;/launchGroup>
+          &lt;launchGroup id=&quot;org.eclipse.debug.ui.launchGroup.run&quot;>
+              &lt;favorites>
+                  &lt;launch memento=&quot;&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;UTF-8&amp;quot; standalone=&amp;quot;no&amp;quot;?&amp;gt;&amp;#13;&amp;#10;&amp;lt;launchConfiguration local=&amp;quot;false&amp;quot; path=&amp;quot;/org.eclipse.orbit.maven.bnd.generator/MavenBNDUpdater.launch&amp;quot;/&amp;gt;&amp;#13;&amp;#10;&quot;/>
+                  &lt;launch memento=&quot;&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;UTF-8&amp;quot; standalone=&amp;quot;no&amp;quot;?&amp;gt;&amp;#13;&amp;#10;&amp;lt;launchConfiguration local=&amp;quot;false&amp;quot; path=&amp;quot;/org.eclipse.orbit.maven.generator/MavenBNDDependencyAnalyzer.launch&amp;quot;/&amp;gt;&amp;#13;&amp;#10;&quot;/>
+                  &lt;launch memento=&quot;&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;UTF-8&amp;quot; standalone=&amp;quot;no&amp;quot;?&amp;gt;&amp;#13;&amp;#10;&amp;lt;launchConfiguration local=&amp;quot;false&amp;quot; path=&amp;quot;/org.eclipse.orbit.maven.generator/MavenOSGiDependencyAnalyzer.launch&amp;quot;/&amp;gt;&amp;#13;&amp;#10;&quot;/>
+              &lt;/favorites>
+          &lt;/launchGroup>
+      &lt;/launchHistory>
+
+    </content>
+  </setupTask>
+  <setupTask
+      xsi:type="git:GitCloneTask"
+      id="github.clone.orbit.simrel"
+      remoteURI="${github.org}/${github.repo}"
+      checkoutBranch="main">
+    <annotation
+        source="http://www.eclipse.org/oomph/setup/InducedChoices">
+      <detail
+          key="inherit">
+        <value>github.remoteURIs</value>
+      </detail>
+      <detail
+          key="label">
+        <value>Orbit SimRel GitHub Repository</value>
+      </detail>
+      <detail
+          key="target">
+        <value>remoteURI</value>
+      </detail>
+    </annotation>
+    <description>Orbit SimRel</description>
+  </setupTask>
+  <setupTask
+      xsi:type="setup:VariableTask"
+      name="eclipse.target.platform"
+      value="${eclipse.target.platform.latest}"
+      storageURI="scope://Workspace"
+      label="Target Platform">
+    <description>Choose the compatibility level of the target platform</description>
+  </setupTask>
+  <setupTask
+      xsi:type="setup.targlets:TargletTask">
+    <targlet
+        name="Orbit SimRel"
+        includeAllPlatforms="true">
+      <requirement
+          name="*"/>
+      <sourceLocator
+          rootFolder="${github.clone.orbit.simrel.location}"
+          locateNestedProjects="true"/>
+      <repositoryList/>
+    </targlet>
+  </setupTask>
+  <setupTask
+      xsi:type="setup.workingsets:WorkingSetTask"
+      id="workingsets.orbit.simrel.incubator">
+    <workingSet
+        name="Orbit SimRel Root">
+      <predicate
+          xsi:type="predicates:AndPredicate">
+        <operand
+            xsi:type="predicates:RepositoryPredicate"
+            project="org.eclipse.orbit.simrel"/>
+        <operand
+            xsi:type="workingsets:ExclusionPredicate"
+            excludedWorkingSet="//'workingsets.orbit.simrel.incubator'/@workingSets[name='Orbit%20Maven%20OSGi%20%26%20BND%20Generators']"/>
+      </predicate>
+    </workingSet>
+    <workingSet
+        name="Orbit Maven OSGi &amp; BND Generators">
+      <predicate
+          xsi:type="predicates:AndPredicate">
+        <operand
+            xsi:type="predicates:RepositoryPredicate"
+            project="org.eclipse.orbit.simrel"
+            relativePathPattern="maven(-bnd|-osgi)?/.*"/>
+      </predicate>
+    </workingSet>
+  </setupTask>
+  <setupTask
+      xsi:type="setup:StringSubstitutionTask"
+      name="git.clone.orbit.simrel"
+      value="${github.clone.orbit.simrel.location}">
+    <description>The location of Orbit's SimRel Git clone.</description>
+  </setupTask>
+  <setupTask
+      xsi:type="setup:StringSubstitutionTask"
+      name="maven.build.java.home"
+      value="${jre.location-17}">
+    <description>The location used to specify JAVA_HOME in the External Tools Configurations.</description>
+  </setupTask>
+  <setupTask
+      xsi:type="setup:VariableTask"
+      filter="(osgi.os=win32)"
+      type="FILE"
+      name="maven.build.command"
+      defaultValue="mvn.cmd"
+      label="Maven Command">
+    <description>The absolute path location of the mvn command that will execute mvn on your operating system; it is used in the External Tools Configurations. You may leave the default if you don't intend to do Maven builds.</description>
+  </setupTask>
+  <setupTask
+      xsi:type="setup:VariableTask"
+      filter="(!(osgi.os=win32))"
+      type="FILE"
+      name="maven.build.command"
+      defaultValue="mvn"
+      label="Maven Command">
+    <description>The absolute path location of the mvn command that will execute mvn on your operating system; it is used in the External Tools Configurations. You may leave the default if you don't intend to do Maven builds.</description>
+  </setupTask>
+  <setupTask
+      xsi:type="setup:StringSubstitutionTask"
+      name="maven.build.command"
+      value="${maven.build.command}">
+    <description>The location of the mvn command that will execute mvn on your operating system; it is used in the External Tools Configurations.</description>
+  </setupTask>
+  <setupTask
+      xsi:type="setup:VariableTask"
+      filter="(osgi.os=win32)"
+      type="FILE"
+      name="maven.bash.home"
+      defaultValue="C:/Program Files/Git/bin"
+      label="Maven bash Home">
+    <description>The absolute path location of the folder containing the bash.exe on your operating system; it is used in the External Tools Configurations. You may leave the default if you don't intend to do Maven builds.</description>
+  </setupTask>
+  <setupTask
+      xsi:type="setup:VariableTask"
+      filter="(!(osgi.os=win32))"
+      type="FILE"
+      name="maven.bash.home"
+      defaultValue="/bin"
+      label="Maven bash Home">
+    <description>The absolute path location of the folder containing the bash executable on your operating system; it is used in the External Tools Configurations. You may leave the default if you don't intend to do Maven builds.</description>
+  </setupTask>
+  <setupTask
+      xsi:type="setup:StringSubstitutionTask"
+      name="maven.bash.home"
+      value="${maven.bash.home}">
+    <description>The location of the mvn command that will execute mvn on your operating system; it is used in the External Tools Configurations.</description>
+  </setupTask>
+  <stream name="main"
+      label="Main"/>
+  <logicalProjectContainer
+      xsi:type="setup:ProjectCatalog"
+      href="index:/org.eclipse.setup#//@projectCatalogs[name='org.eclipse']"/>
+  <description>The Orbit's SimRel project provides utilities to generate p2 update sites from Maven dependencies.</description>
+</setup:Project>

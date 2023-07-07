@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Automatic-Module-Name: org.eclipse.orbit.maven.generator
+Bundle-Name: org.eclipse.orbit.maven.generator
+Bundle-RequiredExecutionEnvironment: JavaSE-17
+Bundle-SymbolicName: org.eclipse.orbit.maven.generator;singleton:=true
+Bundle-Version: 0.1.0.qualifier

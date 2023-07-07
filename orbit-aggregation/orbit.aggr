@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aggregator:Aggregation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="Platform" buildRoot="target/aggregation" includeSources="true">
+  <validationSets label="orbit">
+    <contributions label="maven-osgi">
+      <repositories location="https://download.eclipse.org/tools/orbit/test/maven-osgi/nightly/latest" description="maven-osgi"/>
+    </contributions>
+    <contributions label="maven-bnd">
+      <repositories location="https://download.eclipse.org/tools/orbit/test/maven-bnd/nightly/latest" description="maven-bnd"/>
+    </contributions>
+    <contributions description="orbit" label="orbit">
+      <repositories location="https://download.eclipse.org/tools/orbit/downloads/latest-I" description="orbit"/>
+    </contributions>
+    <contributions label="orbit-legacy">
+      <repositories location="https://download.eclipse.org/tools/orbit/downloads/drops/R20201118194144/repository" description="orbit-legacy">
+        <bundles name="org.apache.commons.httpclient"/>
+      </repositories>
+    </contributions>
+    <contributions label="platform">
+      <repositories location="https://download.eclipse.org/eclipse/updates/4.28/R-4.28-202306050440" description="platform">
+        <bundles name="org.eclipse.osgi"/>
+      </repositories>
+    </contributions>
+    <validationRepositories location="https://download.eclipse.org/eclipse/updates/4.28/R-4.28-202306050440"/>
+  </validationSets>
+  <configurations operatingSystem="linux" windowSystem="gtk" architecture="aarch64"/>
+  <configurations operatingSystem="linux" windowSystem="gtk" architecture="ppc64le"/>
+  <configurations operatingSystem="linux" windowSystem="gtk" architecture="x86_64"/>
+  <configurations operatingSystem="macosx" windowSystem="cocoa" architecture="x86_64"/>
+  <configurations operatingSystem="macosx" windowSystem="cocoa" architecture="aarch64"/>
+  <configurations architecture="x86_64"/>
+</aggregator:Aggregation>

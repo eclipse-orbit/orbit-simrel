@@ -1,0 +1,164 @@
+pipeline {
+  agent any
+
+   options {
+    buildDiscarder(logRotator(numToKeepStr: '10'))
+    disableConcurrentBuilds()
+    skipDefaultCheckout true
+  }
+
+  tools {
+    maven 'apache-maven-latest'
+    jdk 'temurin-jdk17-latest'
+  }
+
+  environment {
+    PUBLISH_LOCATION = 'test/orbit-aggregation'
+  }
+
+  parameters {
+    choice(
+      name: 'BUILD_TYPE',
+      choices: ['nightly', 'milestone', 'release'],
+      description: '''
+        Choose the type of build.
+        Note that a release build will not promote the build, but rather will promote the most recent milestone build.
+        '''
+    )
+
+    string (
+      name: 'ORBIT',
+      defaultValue: 'https://download.eclipse.org/tools/orbit/downloads/latest-I',
+      description: 'The Orbit repository to aggregate.<br/>Visit <a href="https://download.eclipse.org/justj/?file=tools/orbit/downloads/drops">https://download.eclipse.org/tools/orbit/downloads/drops/</a> for choices.'
+    )
+
+    string (
+      name: 'MAVEN_OSGI',
+      defaultValue: 'https://download.eclipse.org/tools/orbit/test/maven-osgi/nightly/latest',
+      description: 'The Orbit Maven OSGi repository to aggregate.<br/>Visit <a href="https://download.eclipse.org/tools/orbit/test/maven-osgi/">https://download.eclipse.org/tools/orbit/test/maven-osgi/<a/> for choices'
+    )
+
+    string (
+      name: 'MAVEN_BND',
+      defaultValue: 'https://download.eclipse.org/tools/orbit/test/maven-bnd/nightly/latest',
+      description: 'The Orbit Maven BND repository to aggregate.<br/>Visit <a href="https://download.eclipse.org/tools/orbit/test/maven-bnd/">https://download.eclipse.org/tools/orbit/test/maven-bnd/<a/> for choices'
+    )
+
+    booleanParam(
+      name: 'PROMOTE',
+      defaultValue: false,
+      description: 'Whether to promote the build to the download server.'
+    )
+  }
+
+  stages {
+    stage('Display Parameters') {
+      steps {
+        echo """
+BUILD_TYPE=${params.BUILD_TYPE}
+PROMOTE=${params.PROMOTE}
+ORBIT=${params.ORBIT}
+MAVEN_OSGI=${params.MAVEN_OSGI}
+MAVEN_BND=${params.MAVEN_BND}
+"""
+        script {
+          env.BUILD_TYPE = params.BUILD_TYPE
+          env.PROMOTE = params.PROMOTE
+          env.ORBIT = params.ORBIT
+          env.MAVEN_OSGI = params.MAVEN_OSGI
+          env.MAVEN_BND = params.MAVEN_BND
+        }
+      }
+    }
+
+    stage('Git Checkout') {
+      steps {
+        script {
+          def gitVariables = checkout(
+            poll: false,
+            scm: [
+              $class: 'GitSCM',
+              branches: [[name: '*/main']],
+              doGenerateSubmoduleConfigurations: false,
+              submoduleCfg: [],
+              extensions: [
+                [$class: 'CloneOption', shallow: true],
+                [$class: 'SparseCheckoutPaths', sparseCheckoutPaths:[[$class:'SparseCheckoutPath', path:'orbit-aggregation/']]]
+              ],
+              userRemoteConfigs: [[url: 'https://github.com/eclipse-orbit/orbit-simrel.git' ]]
+            ]
+          )
+
+          echo "$gitVariables"
+          env.GIT_COMMIT = gitVariables.GIT_COMMIT
+        }
+      }
+    }
+
+    stage('Modify Aggregation') {
+      steps {
+        script {
+          def contents = readFile( file: 'orbit-aggregation/orbit.aggr' )
+          contents = contents.replaceAll('location="[^"]+" description="maven-osgi"', "location=\"${MAVEN_OSGI}\"").replaceAll('location="[^"]+" description="maven-bnd"', "location=\"${MAVEN_BND}\"").replaceAll('location="[^"]+" description="orbit"', "location=\"${ORBIT}\"")
+          echo "$contents"
+          writeFile( file: 'orbit-aggregation/orbit.aggr', text: contents)
+        }
+      }
+    }
+
+    stage('Build Orbit Aggregation') {
+      steps {
+        sshagent(['projects-storage.eclipse.org-bot-ssh']) {
+          dir('orbit-aggregation') {
+            withCredentials([
+                file(credentialsId: 'secret-subkeys.asc', variable: 'KEYRING'),
+                string(credentialsId: 'gpg-passphrase', variable: 'KEYRING_PASSPHRASE') ]) {
+              sh '''
+                if [[ $PROMOTE == false ]]; then
+                  promotion_argument='-Dorg.eclipse.justj.p2.manager.args='
+                fi
+                mvn \
+                  --no-transfer-progress \
+                  $promotion_argument \
+                  -Pgpg-sign \
+                  -Dgpg.passphrase="${KEYRING_PASSPHRASE}" \
+                  -Dtycho.pgp.signer.bc.secretKeys="${KEYRING}" \
+                  -Dorg.eclipse.justj.p2.manager.build.url=$JOB_URL \
+                  -Dorg.eclipse.justj.p2.manager.relative=$PUBLISH_LOCATION \
+                  -Dgit.commit=$GIT_COMMIT \
+                  -Dbuild.id=$BUILD_NUMBER \
+                  -Dbuild.type=$BUILD_TYPE \
+                  clean \
+                  verify
+                '''
+            }
+          }
+        }
+      }
+    }
+  }
+
+  post {
+    always {
+      archiveArtifacts 'orbit-aggregation/**'
+    }
+
+    failure {
+      mail to: 'ed.merks@gmail.com',
+      subject: "[Orbit CI] Build Failure ${currentBuild.fullDisplayName}",
+      mimeType: 'text/html',
+      body: "Project: ${env.JOB_NAME}<br/>Build Number: ${env.BUILD_NUMBER}<br/>Build URL: ${env.BUILD_URL}<br/>Console: ${env.BUILD_URL}/console"
+    }
+
+    fixed {
+      mail to: 'ed.merks@gmail.com',
+      subject: "[Orbit CI] Back to normal ${currentBuild.fullDisplayName}",
+      mimeType: 'text/html',
+      body: "Project: ${env.JOB_NAME}<br/>Build Number: ${env.BUILD_NUMBER}<br/>Build URL: ${env.BUILD_URL}<br/>Console: ${env.BUILD_URL}/console"
+    }
+
+    cleanup {
+      deleteDir()
+    }
+  }
+}

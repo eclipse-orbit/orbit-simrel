@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>org.eclipse.orbit.maven-bnd</groupId>
+  <artifactId>org.eclipse.orbit.maven-bnd.parent</artifactId>
+  <version>1.0.0-SNAPSHOT</version>
+  <packaging>pom</packaging>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <tycho-version>4.0.0</tycho-version>
+    <gpg-keyname>C1F58CF8</gpg-keyname>
+    <eclipse.repo>https://download.eclipse.org/releases/2023-06</eclipse.repo>
+    <justj.tools.repo>https://download.eclipse.org/justj/tools/updates/nightly/latest</justj.tools.repo>
+    <org.eclipse.storage.user>genie.orbit</org.eclipse.storage.user>
+    <org.eclipse.justj.p2.manager.args>-remote ${org.eclipse.storage.user}@projects-storage.eclipse.org:/home/data/httpd/download.eclipse.org/tools/orbit</org.eclipse.justj.p2.manager.args>
+    <org.eclipse.justj.p2.manager.extra.args></org.eclipse.justj.p2.manager.extra.args>
+    <org.eclipse.justj.p2.manager.relative>test/maven-bnd</org.eclipse.justj.p2.manager.relative>
+    <maven.build.timestamp.format>yyyyMMddHHmm</maven.build.timestamp.format>
+    <org.eclipse.justj.p2.manager.build.url>http://www.example.com/</org.eclipse.justj.p2.manager.build.url>
+    <build.type>nightly</build.type>
+  </properties>
+
+  <pluginRepositories>
+    <pluginRepository>
+      <id>tycho-snapshots</id>
+      <url>https://repo.eclipse.org/content/repositories/tycho-snapshots</url>
+    </pluginRepository>
+
+    <pluginRepository>
+      <id>eclipse-maven-releases</id>
+      <url>https://repo.eclipse.org/content/repositories/releases</url>
+    </pluginRepository>
+
+    <pluginRepository>
+      <id>eclipse-cbi-releases</id>
+      <url>https://repo.eclipse.org/content/repositories/cbi-releases</url>
+    </pluginRepository>
+
+	<pluginRepository>
+      <id>dash-licenses-snapshots</id>
+      <url>https://repo.eclipse.org/content/repositories/dash-licenses-snapshots/</url>
+        <snapshots>
+          <enabled>true</enabled>
+        </snapshots>
+      </pluginRepository>
+  </pluginRepositories>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.eclipse.dash</groupId>
+        <artifactId>license-tool-plugin</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+        <executions>
+          <execution>
+            <id>license-check</id>
+            <goals>
+              <goal>license-check</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+      <plugin>
+        <groupId>org.eclipse.tycho</groupId>
+        <artifactId>tycho-maven-plugin</artifactId>
+        <version>${tycho-version}</version>
+        <extensions>true</extensions>
+      </plugin>
+      <plugin>
+        <groupId>org.eclipse.tycho</groupId>
+        <artifactId>tycho-p2-publisher-plugin</artifactId>
+        <version>${tycho-version}</version>
+        <configuration>
+          <skip>true</skip>
+        </configuration>
+      </plugin>
+      <plugin>
+        <groupId>org.eclipse.tycho</groupId>
+        <artifactId>target-platform-configuration</artifactId>
+        <version>${tycho-version}</version>
+        <configuration>
+          <target>
+            <artifact>
+              <groupId>org.eclipse.orbit.maven-bnd</groupId>
+              <artifactId>org.eclipse.orbit.maven-bnd.tp</artifactId>
+              <version>1.0.0-SNAPSHOT</version>
+              <classifier>MavenBND</classifier>
+            </artifact>
+          </target>
+          <executionEnvironment>JavaSE-17</executionEnvironment>
+          <environments>
+            <environment>
+              <os>win32</os>
+              <ws>win32</ws>
+              <arch>x86_64</arch>
+            </environment>
+            <environment>
+              <os>macosx</os>
+              <ws>cocoa</ws>
+              <arch>x86_64</arch>
+            </environment>
+            <environment>
+              <os>macosx</os>
+              <ws>cocoa</ws>
+              <arch>aarch64</arch>
+            </environment>
+            <environment>
+              <os>linux</os>
+              <ws>gtk</ws>
+              <arch>x86_64</arch>
+            </environment>
+            <environment>
+              <os>linux</os>
+              <ws>gtk</ws>
+              <arch>aarch64</arch>
+            </environment>
+          </environments>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+
+  <modules>
+    <module>tp</module>
+    <module>site</module>
+    <module>promotion</module>
+  </modules>
+
+  <profiles>
+    <profile>
+      <id>promote</id>
+      <activation>
+        <property>
+          <name>promote</name>
+          <value>!false</value>
+        </property>
+      </activation>
+      <modules>
+        <module>promotion</module>
+      </modules>
+    </profile>
+  </profiles>
+
+</project>

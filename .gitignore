@@ -1,0 +1,5 @@
+build.log
+bin/
+target/
+updates/
+*.swp
