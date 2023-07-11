@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<setup:Configuration
+    xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:setup="http://www.eclipse.org/oomph/setup/1.0"
+    label="Orbit SimRel">
+  <annotation
+      source="http://www.eclipse.org/oomph/setup/BrandingInfo">
+    <detail
+        key="imageURI">
+      <value>https://www.eclipse.org/downloads/images/committers.png</value>
+    </detail>
+    <detail
+        key="badgeLabel">
+      <value>Orbit SimRel</value>
+    </detail>
+  </annotation>
+  <installation
+      name="orbit.simrel.installation"
+      label="Orbit SimRel Installation">
+    <productVersion
+        href="index:/org.eclipse.setup#//@productCatalogs[name='org.eclipse.products']/@products[name='epp.package.committers']/@versions[name='latest']"/>
+    <description>The Orbit SimRel installation provides the tools needed to work with  the set of projects from &lt;a href=&quot;https://github.com/eclipse-orbit/orbit-simrel&quot;>Orbit's SimRel GitHub repository&lt;/a>.</description>
+  </installation>
+  <workspace
+      name="orbit.simrel.workspace"
+      label="Orbit SimRel Workspace">
+    <stream
+        href="https://raw.githubusercontent.com/eclipse-orbit/orbit-simrel/main/OrbitSimRel.setup#//@streams[name='main']"/>
+    <description>The Orbit SimRel workspace provides the set of projects from &lt;a href=&quot;https://github.com/eclipse-orbit/orbit-simrel&quot;>Orbit's SimRel GitHub repository&lt;/a>.</description>
+  </workspace>
+  <description>
+    &lt;p>
+    The Orbit SimRel configuration provisions a dedicated development environment for working with the set of projects from &lt;a href=&quot;https://github.com/eclipse-orbit/orbit-simrel&quot;>Orbit's SimRel GitHub repository&lt;/a>.
+    &lt;/p>
+    &lt;p>
+    The installation is based on the latest EPP Committers package,
+    the workspace consists of the projects from Orbit's SimRel GitHub repository,
+    and the PDE target platform is minimal.
+    &lt;p>
+    &lt;/p>
+    Please &lt;a href=&quot;https://wiki.eclipse.org/Eclipse_Platform_SDK_Provisioning&quot;>read the tutorial instructions&lt;/a> for more details about how to use a configuration.
+    &lt;/p>
+  </description>
+</setup:Configuration>
