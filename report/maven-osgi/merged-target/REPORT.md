@@ -208,7 +208,6 @@
  - [org.slf4j](https://repo1.maven.org/maven2/org/slf4j/)
     - [slf4j-api](https://repo1.maven.org/maven2/org/slf4j/slf4j-api/) **[1.7.36](https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.36)**
     - [slf4j-api](https://repo1.maven.org/maven2/org/slf4j/slf4j-api/) **[2.0.7](https://repo1.maven.org/maven2/org/slf4j/slf4j-api/2.0.7)**
-    - [slf4j-nop](https://repo1.maven.org/maven2/org/slf4j/slf4j-nop/) **[1.7.36](https://repo1.maven.org/maven2/org/slf4j/slf4j-nop/1.7.36)**
     - [slf4j-nop](https://repo1.maven.org/maven2/org/slf4j/slf4j-nop/) **[2.0.7](https://repo1.maven.org/maven2/org/slf4j/slf4j-nop/2.0.7)**
     - [slf4j-simple](https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/) **[1.7.36](https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/1.7.36)**
  - [org.tukaani](https://repo1.maven.org/maven2/org/tukaani/)
