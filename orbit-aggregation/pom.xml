@@ -22,7 +22,7 @@
     <org.eclipse.storage.user>genie.orbit</org.eclipse.storage.user>
     <org.eclipse.justj.p2.manager.args>-remote ${org.eclipse.storage.user}@projects-storage.eclipse.org:/home/data/httpd/download.eclipse.org/tools/orbit</org.eclipse.justj.p2.manager.args>
     <org.eclipse.justj.p2.manager.extra.args></org.eclipse.justj.p2.manager.extra.args>
-    <org.eclipse.justj.p2.manager.relative>test/orbit-aggregation</org.eclipse.justj.p2.manager.relative>
+    <org.eclipse.justj.p2.manager.relative>simrel/orbit-aggregation</org.eclipse.justj.p2.manager.relative>
     <maven.build.timestamp.format>yyyyMMddHHmm</maven.build.timestamp.format>
     <org.eclipse.justj.p2.manager.build.url>http://www.example.com/</org.eclipse.justj.p2.manager.build.url>
     <build.type>nightly</build.type>

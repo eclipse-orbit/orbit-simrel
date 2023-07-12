@@ -13,7 +13,7 @@ pipeline {
   }
 
   environment {
-    PUBLISH_LOCATION = 'test/maven-bnd'
+    PUBLISH_LOCATION = 'simrel/maven-bnd'
   }
 
   parameters {

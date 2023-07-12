@@ -2,10 +2,10 @@
 <aggregator:Aggregation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="Platform" buildRoot="target/aggregation" includeSources="true">
   <validationSets label="orbit">
     <contributions label="maven-osgi">
-      <repositories location="https://download.eclipse.org/tools/orbit/test/maven-osgi/nightly/latest" description="maven-osgi"/>
+      <repositories location="https://download.eclipse.org/tools/orbit/simrel/maven-osgi/nightly/latest" description="maven-osgi"/>
     </contributions>
     <contributions label="maven-bnd">
-      <repositories location="https://download.eclipse.org/tools/orbit/test/maven-bnd/nightly/latest" description="maven-bnd"/>
+      <repositories location="https://download.eclipse.org/tools/orbit/simrel/maven-bnd/nightly/latest" description="maven-bnd"/>
     </contributions>
     <contributions description="orbit" label="orbit">
       <repositories location="https://download.eclipse.org/tools/orbit/downloads/latest-I" description="orbit"/>
