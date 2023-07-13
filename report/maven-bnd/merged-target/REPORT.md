@@ -1,9 +1,5 @@
 # Target Platform: [merged-target](https://github.com/eclipse-orbit/orbit-simrel/blob/main/maven-bnd/tp/MavenBND.target)
 
-## Major Updates
- - [xml-apis](https://repo1.maven.org/maven2/xml-apis/)
-    - [xml-apis](https://repo1.maven.org/maven2/xml-apis/xml-apis/) **[1.4.1](https://repo1.maven.org/maven2/xml-apis/xml-apis/1.4.1)** < [2.0.2](https://repo1.maven.org/maven2/xml-apis/xml-apis/2.0.2/)
-
 ## Content
  - [org.apache.lucene](https://repo1.maven.org/maven2/org/apache/lucene/)
     - [lucene-analysis-common](https://repo1.maven.org/maven2/org/apache/lucene/lucene-analysis-common/) **[9.7.0](https://repo1.maven.org/maven2/org/apache/lucene/lucene-analysis-common/9.7.0)**
@@ -17,5 +13,3 @@
     - [jcodings](https://repo1.maven.org/maven2/org/jruby/jcodings/jcodings/) **[1.0.58](https://repo1.maven.org/maven2/org/jruby/jcodings/jcodings/1.0.58)**
  - [org.jruby.joni](https://repo1.maven.org/maven2/org/jruby/joni/)
     - [joni](https://repo1.maven.org/maven2/org/jruby/joni/joni/) **[2.2.1](https://repo1.maven.org/maven2/org/jruby/joni/joni/2.2.1)**
- - [xml-apis](https://repo1.maven.org/maven2/xml-apis/)
-    - [xml-apis](https://repo1.maven.org/maven2/xml-apis/xml-apis/) **[1.4.1](https://repo1.maven.org/maven2/xml-apis/xml-apis/1.4.1)**
