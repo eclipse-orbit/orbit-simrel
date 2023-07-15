@@ -214,6 +214,7 @@ public class DependencyAnalyzer {
 			var artifactId = dependency.artifactId;
 			var type = dependency.type;
 			var actualVersion = dependency.version;
+			var classifier = dependency.classifier;
 			var nextMajor = dependency.nextMajorVersion(majorInclusions);
 
 			var versions = entry.getValue();
@@ -222,13 +223,18 @@ public class DependencyAnalyzer {
 				Pattern pattern = Pattern.compile("(<dependency>[^<]*" + //
 						"<groupId>" + Pattern.quote(groupId) + "</groupId>[^<]*" + //
 						"<artifactId>" + Pattern.quote(artifactId) + "</artifactId>[^<]*" + //
-						"<version>)" + Pattern.quote(actualVersion.toString()) + "(</version>)", //
+						"<version>)" + Pattern.quote(actualVersion.toString()) + "(</version>[^<]*" + //
+						"<type>" + Pattern.quote(type) + "</type>" + //
+						(classifier == null ? "" : "[^<]*<classifier>" + Pattern.quote(classifier) + "</classifier>") + //
+						")", //
 						Pattern.MULTILINE | Pattern.DOTALL);
 				Matcher matcher = pattern.matcher(content);
 				if (matcher.find()) {
 					StringBuilder builder = new StringBuilder();
-					matcher.appendReplacement(builder,
-							Matcher.quoteReplacement(matcher.group(1) + version.toString() + matcher.group(2)));
+					do {
+						matcher.appendReplacement(builder,
+								Matcher.quoteReplacement(matcher.group(1) + version.toString() + matcher.group(2)));
+					} while (matcher.find());
 					matcher.appendTail(builder);
 					content = builder.toString();
 				} else if (addMissing) {
@@ -240,12 +246,16 @@ public class DependencyAnalyzer {
 					var linefeed = matcher2.group(1);
 					var indent = matcher2.group(2);
 					String separator = linefeed + indent + indentation;
-					String dependencyElement = String.join(separator, List.of("<dependency>", //
+					var parts = new ArrayList<>(List.of( //
+							"<dependency>", //
 							indentation + "<groupId>" + groupId + "</groupId>", //
 							indentation + "<artifactId>" + artifactId + "</artifactId>", //
 							indentation + "<version>" + version + "</version>", //
-							indentation + "<type>" + (type == null ? "jar" : type) + "</type>", //
+							indentation + "<type>" + type + "</type>",
+							(classifier == null ? "" : indentation + "<classifier>" + classifier + "</classifier>"),
 							"</dependency>"));
+					parts.remove("");
+					String dependencyElement = String.join(separator, parts);
 
 					StringBuilder builder = new StringBuilder();
 					matcher2.appendReplacement(builder,
@@ -456,7 +466,9 @@ public class DependencyAnalyzer {
 				var version = getText(mavenDependency, "version");
 				var actualVersion = new Version(version);
 				var type = getText(mavenDependency, "type");
-				dependencies.add(new Dependency(groupId, artifactId, type == null ? "jar" : type, actualVersion));
+				var classifier = getText(mavenDependency, "classifier");
+				dependencies.add(
+						new Dependency(groupId, artifactId, type == null ? "jar" : type, actualVersion, classifier));
 			}
 
 			Collections.sort(dependencies);
@@ -624,13 +636,15 @@ public class DependencyAnalyzer {
 		private final String artifactId;
 		private final String type;
 		private final Version version;
+		private final String classifier;
 
-		public Dependency(String groupId, String artifactId, String type, Version version) {
+		public Dependency(String groupId, String artifactId, String type, Version version, String classifier) {
 			super();
 			this.groupId = groupId;
 			this.artifactId = artifactId;
 			this.type = type;
 			this.version = version;
+			this.classifier = classifier;
 		}
 
 		public Version nextMajorVersion(List<Pattern> majorInclusions) {
@@ -661,12 +675,12 @@ public class DependencyAnalyzer {
 				return this;
 			}
 
-			return new Dependency(groupId, artifactId, type, version);
+			return new Dependency(groupId, artifactId, type, version, classifier);
 		}
 
 		public boolean isSameArtfiact(Dependency other) {
 			return Objects.equals(artifactId, other.artifactId) && Objects.equals(groupId, other.groupId)
-					&& Objects.equals(type, other.type);
+					&& Objects.equals(type, other.type) && Objects.equals(classifier, other.classifier);
 		}
 
 		@Override
@@ -681,12 +695,15 @@ public class DependencyAnalyzer {
 			if (result == 0) {
 				result = compare(version, other.version);
 			}
+			if (result == 0) {
+				result = compare(classifier, other.classifier);
+			}
 			return result;
 		}
 
 		@Override
 		public int hashCode() {
-			return Objects.hash(artifactId, groupId, type, version);
+			return Objects.hash(artifactId, groupId, type, version, classifier);
 		}
 
 		@Override
@@ -699,12 +716,14 @@ public class DependencyAnalyzer {
 				return false;
 			Dependency other = (Dependency) obj;
 			return Objects.equals(artifactId, other.artifactId) && Objects.equals(groupId, other.groupId)
-					&& Objects.equals(type, other.type) && Objects.equals(version, other.version);
+					&& Objects.equals(type, other.type) && Objects.equals(version, other.version)
+					&& Objects.equals(classifier, other.classifier);
 		}
 
 		@Override
 		public String toString() {
-			return "" + groupId + ":" + artifactId + ":" + version + ":" + type;
+			return "" + groupId + ":" + artifactId + ":" + version + ":" + type
+					+ (classifier == null ? "" : ":" + classifier);
 		}
 
 		public boolean matches(Pattern pattern) {
