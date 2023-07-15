@@ -2,6 +2,9 @@
 <?pde version="3.8"?>
 <target name="MavenBND" sequenceNumber="1">
   <locations>
+
+<!-- _____________________________________________________ org.apache.lucene ___________________________________________________________________________________________________-->
+
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
       <feature id="org.eclipse.orbit.maven.lucene" label="Orbit Maven BND org.apache.lucene" provider-name="Eclipse Orbit" version="4.29.0.v20230703-0758">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
@@ -78,6 +81,8 @@ Export-Package:         *;version="${version}";-noimport:=true
       </instructions>
     </location>
 
+<!-- _______________________________________________________ org.jruby _________________________________________________________________________________________________-->
+
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
       <feature id="org.eclipse.orbit.maven.joni" label="Orbit Maven BND org.jruby.joni + org.jruby.jcodings" provider-name="Eclipse Orbit" version="4.29.0.v20230703-0749">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
@@ -114,6 +119,53 @@ Bundle-Name:            Bundle ${mvnGroupId} : ${mvnArtifactId}
 version:                ${versionmask;===;${version_cleanup;${mvnVersion}}}
 Bundle-SymbolicName:    org.${mvnArtifactId}
 Bundle-Version:         ${version}.v20230703-0749
+Eclipse-Wrapped-Bundle: ${mvnGroupId}:${mvnArtifactId}:${mvnVersion}
+Import-Package:         *
+Export-Package:         *;version="${version}";-noimport:=true
+-noextraheaders:        true
+-removeheaders:         Private-Package
+]]>
+      </instructions>
+    </location>
+
+<!-- ______________________________________________________ com.github.jnr __________________________________________________________________________________________________-->
+
+    <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
+      <feature id="org.eclipse.orbit.maven.jnr" label="Orbit Maven BND com.github.jnr" provider-name="Eclipse Orbit" version="4.29.0.v20230715-0746">
+        <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
+        <copyright>
+Copyright (c) 2023 Eclipse contributors and others.
+
+This program and the accompanying materials
+are made available under the terms of the Eclipse Public License 2.0
+which accompanies this distribution, and is available at
+https://www.eclipse.org/legal/epl-2.0/
+
+SPDX-License-Identifier: EPL-2.0
+        </copyright>
+        <license url="https://www.eclipse.org/legal/epl-2.0/"/>
+      </feature>
+      <dependencies>
+        <dependency>
+          <groupId>com.github.jnr</groupId>
+          <artifactId>jnr-a64asm</artifactId>
+          <version>1.0.0</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>com.github.jnr</groupId>
+          <artifactId>jnr-x86asm</artifactId>
+          <version>1.0.2</version>
+          <type>jar</type>
+        </dependency>
+      </dependencies>
+      <instructions>
+<!-- SHA1 c57ab30d5b9563930da3cf51594f87702aecd370 -->
+<![CDATA[
+Bundle-Name:            Bundle ${mvnGroupId} : ${mvnArtifactId}
+version:                ${versionmask;===;${version_cleanup;${mvnVersion}}}
+Bundle-SymbolicName:    com.github.jnr.${replacestring;${mvnArtifactId};jnr-;}
+Bundle-Version:         ${version}.v20230715-0746
 Eclipse-Wrapped-Bundle: ${mvnGroupId}:${mvnArtifactId}:${mvnVersion}
 Import-Package:         *
 Export-Package:         *;version="${version}";-noimport:=true
