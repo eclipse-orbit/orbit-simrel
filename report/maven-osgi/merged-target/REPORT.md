@@ -40,6 +40,14 @@
     - [jackson-annotations](https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/) **[2.15.2](https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.15.2)**
     - [jackson-core](https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/) **[2.15.2](https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.15.2)**
     - [jackson-databind](https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/) **[2.15.2](https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.15.2)**
+ - [com.github.jnr](https://repo1.maven.org/maven2/com/github/jnr/)
+    - [jffi](https://repo1.maven.org/maven2/com/github/jnr/jffi/) **[1.3.11](https://repo1.maven.org/maven2/com/github/jnr/jffi/1.3.11)**
+    - [jffi](https://repo1.maven.org/maven2/com/github/jnr/jffi/) **[1.3.11](https://repo1.maven.org/maven2/com/github/jnr/jffi/1.3.11)**
+    - [jnr-constants](https://repo1.maven.org/maven2/com/github/jnr/jnr-constants/) **[0.10.4](https://repo1.maven.org/maven2/com/github/jnr/jnr-constants/0.10.4)**
+    - [jnr-enxio](https://repo1.maven.org/maven2/com/github/jnr/jnr-enxio/) **[0.32.15](https://repo1.maven.org/maven2/com/github/jnr/jnr-enxio/0.32.15)**
+    - [jnr-ffi](https://repo1.maven.org/maven2/com/github/jnr/jnr-ffi/) **[2.2.14](https://repo1.maven.org/maven2/com/github/jnr/jnr-ffi/2.2.14)**
+    - [jnr-posix](https://repo1.maven.org/maven2/com/github/jnr/jnr-posix/) **[3.1.17](https://repo1.maven.org/maven2/com/github/jnr/jnr-posix/3.1.17)**
+    - [jnr-unixsocket](https://repo1.maven.org/maven2/com/github/jnr/jnr-unixsocket/) **[0.38.20](https://repo1.maven.org/maven2/com/github/jnr/jnr-unixsocket/0.38.20)**
  - [com.github.librepdf](https://repo1.maven.org/maven2/com/github/librepdf/)
     - [openpdf](https://repo1.maven.org/maven2/com/github/librepdf/openpdf/) **[1.3.30](https://repo1.maven.org/maven2/com/github/librepdf/openpdf/1.3.30)**
  - [com.google.code.gson](https://repo1.maven.org/maven2/com/google/code/gson/)

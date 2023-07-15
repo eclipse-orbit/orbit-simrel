@@ -85,6 +85,50 @@ SPDX-License-Identifier: EPL-2.0
           <type>jar</type>
         </dependency>
         <dependency>
+          <groupId>com.github.jnr</groupId>
+          <artifactId>jffi</artifactId>
+          <version>1.3.11</version>
+          <type>jar</type>
+          <classifier>complete</classifier>
+        </dependency>
+        <dependency>
+          <groupId>com.github.jnr</groupId>
+          <artifactId>jffi</artifactId>
+          <version>1.3.11</version>
+          <type>jar</type>
+          <classifier>native</classifier>
+        </dependency>
+        <dependency>
+          <groupId>com.github.jnr</groupId>
+          <artifactId>jnr-constants</artifactId>
+          <version>0.10.4</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>com.github.jnr</groupId>
+          <artifactId>jnr-enxio</artifactId>
+          <version>0.32.15</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>com.github.jnr</groupId>
+          <artifactId>jnr-ffi</artifactId>
+          <version>2.2.14</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>com.github.jnr</groupId>
+          <artifactId>jnr-posix</artifactId>
+          <version>3.1.17</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>com.github.jnr</groupId>
+          <artifactId>jnr-unixsocket</artifactId>
+          <version>0.38.20</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
           <groupId>com.github.librepdf</groupId>
           <artifactId>openpdf</artifactId>
           <version>1.3.30</version>
@@ -811,10 +855,17 @@ SPDX-License-Identifier: EPL-2.0
       <unit id="org.apache.commons.collections" version="0.0.0"/>
       -->
     </location>
+
     <location includeAllPlatforms="true" includeConfigurePhase="true" includeMode="slicer" includeSource="true" type="InstallableUnit">
       <repository location="https://download.eclipse.org/eclipse/updates/latest"/>
       <unit id="org.eclipse.jdt.core.compiler.batch" version="0.0.0"/>
     </location>
-		
+ 
+    <location includeAllPlatforms="true" includeConfigurePhase="true" includeMode="slicer" includeSource="true" type="InstallableUnit">
+      <repository location="https://download.eclipse.org/tools/orbit/simrel/maven-bnd/nightly/latest"/>
+      <unit id="com.github.jnr.a64asm" version="0.0.0"/>
+      <unit id="com.github.jnr.x86asm" version="0.0.0"/>
+    </location>
+
   </locations>
 </target>

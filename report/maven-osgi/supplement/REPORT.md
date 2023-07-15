@@ -12,6 +12,9 @@
 ## Content
  - [ch.qos.logback](https://repo1.maven.org/maven2/ch/qos/logback/)
     - [logback-core](https://repo1.maven.org/maven2/ch/qos/logback/logback-core/) **[1.4.8](https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.4.8)**
+ - [com.github.jnr](https://repo1.maven.org/maven2/com/github/jnr/)
+    - [jffi](https://repo1.maven.org/maven2/com/github/jnr/jffi/) **[1.3.11](https://repo1.maven.org/maven2/com/github/jnr/jffi/1.3.11)**
+    - [jffi](https://repo1.maven.org/maven2/com/github/jnr/jffi/) **[1.3.11](https://repo1.maven.org/maven2/com/github/jnr/jffi/1.3.11)**
  - [com.github.librepdf](https://repo1.maven.org/maven2/com/github/librepdf/)
     - [openpdf](https://repo1.maven.org/maven2/com/github/librepdf/openpdf/) **[1.3.30](https://repo1.maven.org/maven2/com/github/librepdf/openpdf/1.3.30)**
  - [com.google.errorprone](https://repo1.maven.org/maven2/com/google/errorprone/)

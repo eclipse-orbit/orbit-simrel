@@ -12,8 +12,8 @@ Orbit has traditionally been repackaging all libraries from Maven Central using 
 Eclipse [m2e](https://projects.eclipse.org/projects/technology.m2e) provides extensions to Eclipse [PDE](https://projects.eclipse.org/projects/eclipse.pde)
 that allow dependencies on Maven artifacts to be expressed directly in a target platform file,
 including the ability to wrap a non-OSGi jar as an OGI-bundle using BND instructions.
-This mechanism is also directly support by [Tycho](https://projects.eclipse.org/projects/technology.tycho).
-These technologies are utilized Orbit SimRel to evolve and modernize Orbit's infrastructure.
+This mechanism is also directly supported by [Tycho](https://projects.eclipse.org/projects/technology.tycho).
+These technologies are utilized by Orbit SimRel to evolve and modernize Orbit's infrastructure.
 
 
 ### Maven OSGi
@@ -34,10 +34,10 @@ The corresponding [readme](maven-bnd/README.md) provides details.
 
 ### Orbit Aggregation
 
-The `orbit-aggregation` folder provides infrastructure aggregating the results of the following:
+The `orbit-aggregation` folder provides infrastructure for aggregating a p2 repository from the following:
 
 - Traditional EBR-wrapped OSGi bundles.
-- Maven OSGi bundles.
+- Maven direct OSGi bundles.
 - Maven BND-wrapped OSGi bundles
 - Legacy OSGi bundles required by the above.
 
