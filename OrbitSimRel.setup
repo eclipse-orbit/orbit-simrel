@@ -32,14 +32,6 @@
         href="OrbitSimRelConfiguration.setup#/"/>
   </annotation>
   <setupTask
-      xsi:type="setup:VariableTask"
-      name="github.org"
-      value="eclipse-orbit"/>
-  <setupTask
-      xsi:type="setup:VariableTask"
-      name="github.repo"
-      value="orbit-simrel"/>
-  <setupTask
       xsi:type="setup:CompoundTask"
       name="User Preferences">
     <setupTask
@@ -47,16 +39,12 @@
         name="org.eclipse.core.resources">
       <setupTask
           xsi:type="setup:PreferenceTask"
+          key="/instance/org.eclipse.core.resources/description.disableLinking"
+          value="false"/>
+      <setupTask
+          xsi:type="setup:PreferenceTask"
           key="/instance/org.eclipse.core.resources/missingNatureMarkerSeverity"
           value="-1"/>
-      <setupTask
-          xsi:type="setup:PreferenceTask"
-          key="/instance/org.eclipse.core.resources/description.disableLinking"
-          value="false"/>
-      <setupTask
-          xsi:type="setup:PreferenceTask"
-          key="/instance/org.eclipse.core.resources/description.disableLinking"
-          value="false"/>
     </setupTask>
     <setupTask
         xsi:type="setup:CompoundTask"
@@ -102,7 +90,27 @@
           key="/instance/org.eclipse.pde.api.tools/missing_default_api_profile"
           value="Ignore"/>
     </setupTask>
+    <setupTask
+        xsi:type="setup:CompoundTask"
+        name="org.eclipse.ui.ide">
+      <setupTask
+          xsi:type="setup:PreferenceTask"
+          key="/instance/org.eclipse.ui.ide/IMPORT_FILES_AND_FOLDERS_MODE"
+          value="MOVE_COPY"/>
+      <setupTask
+          xsi:type="setup:PreferenceTask"
+          key="/instance/org.eclipse.ui.ide/IMPORT_FILES_AND_FOLDERS_VIRTUAL_FOLDER_MODE"
+          value="prompt"/>
+    </setupTask>
   </setupTask>
+  <setupTask
+      xsi:type="setup:VariableTask"
+      name="github.org"
+      value="eclipse-orbit"/>
+  <setupTask
+      xsi:type="setup:VariableTask"
+      name="github.repo"
+      value="orbit-simrel"/>
   <setupTask
       xsi:type="workbench:FileAssociationsTask">
     <mapping

@@ -52,6 +52,8 @@ import org.xml.sax.SAXException;
 
 public class DependencyAnalyzer {
 
+	private static final Pattern ARGUMENT_PATTERN = Pattern.compile("\"([^\"])+\"|(\\S+)");
+
 	private static final String REDIRECTION_PROPERTY_PREFIX = "org.eclipse.orbit.maven.generator.redirection.";
 
 	private static final String REDIRECTION_SEPARATOR = "->";
@@ -61,6 +63,23 @@ public class DependencyAnalyzer {
 	public static void main(String[] args) throws Exception {
 
 		var arguments = new ArrayList<>(Arrays.asList(args));
+		arguments.removeIf(it -> it.startsWith("//"));
+
+		var argsFile = getArgument(arguments, "-args");
+		if (argsFile != null) {
+			// Strip comments but be careful that // is used in URIs.
+			var argsFileContent = Files.readString(Path.of(argsFile)).replaceAll("(?m)(^| )//[^\r\n]*", "");
+			for (Matcher matcher = ARGUMENT_PATTERN.matcher(argsFileContent); matcher.find();) {
+				var quotedContent = matcher.group(1);
+				if (quotedContent != null) {
+					arguments.add(quotedContent);
+				}
+				var regularContent = matcher.group(2);
+				if (regularContent != null) {
+					arguments.add(regularContent);
+				}
+			}
+		}
 
 		var merge = getArgument(arguments, "-merge");
 		var mergeURI = getArgument(arguments, "-merge-uri");
@@ -74,20 +93,18 @@ public class DependencyAnalyzer {
 				getArgument(arguments, "-password"));
 
 		var ignores = getArguments(arguments, "-ignore");
-		var ignorePatterns = ignores.stream().filter(it -> !it.startsWith("/")).map(Pattern::compile)
-				.collect(Collectors.toList());
+		var ignorePatterns = ignores.stream().map(Pattern::compile).collect(Collectors.toList());
 
 		var majorInclusions = getArguments(arguments, "-include-major");
-		var majorInclusionPatterns = majorInclusions.stream().filter(it -> !it.startsWith("/")).map(Pattern::compile)
-				.collect(Collectors.toList());
+		var majorInclusionPatterns = majorInclusions.stream().map(Pattern::compile).collect(Collectors.toList());
 
 		var analyzer = new Analyzer(contentHandler, ignorePatterns, majorInclusionPatterns);
 
 		boolean update = getBooleanArgument(arguments, "-update");
 		var dependencies = new TreeSet<Dependency>();
 		var reporter = new Reporter(getArgument(arguments, "-report"));
-		var targets = getArguments(arguments, "-targets").stream().filter(it -> !it.startsWith("//"))
-				.map(it -> it.split("=")).collect(Collectors.toMap(it -> it[0], it -> it[1]));
+		var targets = getArguments(arguments, "-targets").stream().map(it -> it.split("="))
+				.collect(Collectors.toMap(it -> it[0], it -> it[1]));
 		for (var target : targets.entrySet()) {
 			var uri = createURI(target.getValue());
 			if (!update) {
@@ -97,8 +114,7 @@ public class DependencyAnalyzer {
 		}
 
 		var exclusions = getArguments(arguments, "-exclude");
-		var exclusionPatterns = exclusions.stream().filter(it -> !it.startsWith("/")).map(Pattern::compile)
-				.collect(Collectors.toList());
+		var exclusionPatterns = exclusions.stream().map(Pattern::compile).collect(Collectors.toList());
 		dependencies.removeIf(it -> {
 			return exclusionPatterns.stream().anyMatch(pattern -> it.matches(pattern));
 		});
