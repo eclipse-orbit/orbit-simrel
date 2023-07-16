@@ -107,6 +107,8 @@ public class DependencyAnalyzer {
 				.collect(Collectors.toMap(it -> it[0], it -> it[1]));
 		for (var target : targets.entrySet()) {
 			var uri = createURI(target.getValue());
+			System.out.println("Analyzing " + uri);
+
 			if (!update) {
 				reporter.generateReport(contentHandler, analyzer, target.getKey(), uri, majorInclusionPatterns);
 			}
@@ -135,6 +137,8 @@ public class DependencyAnalyzer {
 
 		if (merge != null) {
 			var mavenTarget = Path.of(merge);
+
+			System.out.println("Merging " + mavenTarget);
 
 			var mavenTargetContent = contentHandler.getContent(mavenTarget.toUri());
 
@@ -432,6 +436,12 @@ public class DependencyAnalyzer {
 					out.print(" **");
 					out.print(getMDLink(dependency.version, dependency.getVersionFolderURI()));
 					out.print("**");
+					if (dependency.classifier != null) {
+						out.print(" - ");
+						out.print("*");
+						out.print(dependency.classifier);
+						out.print("*");
+					}
 					out.println();
 				}
 			}
