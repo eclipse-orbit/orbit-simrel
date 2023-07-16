@@ -44,6 +44,13 @@ The `orbit-aggregation` folder provides infrastructure for aggregating a p2 repo
 The corresponding [readme](orbit-aggregation/README.md) provides details.
 
 
+### Reports
+
+Reports detailing Maven dependencies with links to Maven Central are generated.
+
+The corresponding [readme](report/README.md) provides details.
+
+
 ## Contributing
 
 Contributions are welcome.

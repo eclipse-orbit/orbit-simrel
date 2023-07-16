@@ -103,16 +103,40 @@ public class DependencyAnalyzer {
 		boolean update = getBooleanArgument(arguments, "-update");
 		var dependencies = new TreeSet<Dependency>();
 		var reporter = new Reporter(getArgument(arguments, "-report"));
-		var targets = getArguments(arguments, "-targets").stream().map(it -> it.split("="))
-				.collect(Collectors.toMap(it -> it[0], it -> it[1]));
+		var targets = new TreeMap<>(getArguments(arguments, "-targets").stream().map(it -> it.split("="))
+				.collect(Collectors.toMap(it -> it[0], it -> it[1])));
 		for (var target : targets.entrySet()) {
 			var uri = createURI(target.getValue());
 			System.out.println("Analyzing " + uri);
 
 			if (!update) {
-				reporter.generateReport(contentHandler, analyzer, target.getKey(), uri, majorInclusionPatterns);
+				String label = target.getKey();
+				reporter.generateReport(contentHandler, analyzer, label, uri, majorInclusionPatterns);
 			}
+
 			dependencies.addAll(analyzer.getTargetDependencies(uri));
+		}
+
+		if (reporter.reportRoot != null) {
+			var readme = reporter.reportRoot.resolve("../README.md");
+			if (Files.isRegularFile(readme)) {
+				var readmeContent = Files.readString(readme);
+				var reportFolder = reporter.reportRoot.getFileName().toString();
+				var marker = "(<!-- " + Pattern.quote(reportFolder) + " -->)";
+				var matcher = Pattern.compile(marker + ".*" + marker, Pattern.DOTALL).matcher(readmeContent);
+				if (matcher.find()) {
+					var index = new ArrayList<String>();
+					for (var label : targets.keySet()) {
+						index.add("- [" + label + "](" + reportFolder + "/" + label + "/REPORT.md)");
+					}
+
+					var updatedContent = new StringBuilder();
+					matcher.appendReplacement(updatedContent,
+							"$1\n\n" + Matcher.quoteReplacement(String.join("\n", index)) + "\n\n$2");
+					matcher.appendTail(updatedContent);
+					writeString(readme, updatedContent);
+				}
+			}
 		}
 
 		var exclusions = getArguments(arguments, "-exclude");
@@ -301,7 +325,7 @@ public class DependencyAnalyzer {
 
 	private static Pattern NL_PATTERN = Pattern.compile("\r?\n");
 
-	private static void writeString(Path path, String string) throws IOException {
+	private static void writeString(Path path, CharSequence string) throws IOException {
 		if (Files.isRegularFile(path)) {
 			Matcher matcher = NL_PATTERN.matcher(Files.readString(path));
 			if (matcher.find()) {
