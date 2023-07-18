@@ -1,10 +1,21 @@
 # Target Platform: [supplement](https://raw.githubusercontent.com/eclipse-orbit/orbit-simrel/main/maven-osgi/tp/other/MavenSupplement.target)
 
 ## Major Updates
+ - [jakarta.activation](https://repo1.maven.org/maven2/jakarta/activation/)
+    - [jakarta.activation-api](https://repo1.maven.org/maven2/jakarta/activation/jakarta.activation-api/) **[1.2.2](https://repo1.maven.org/maven2/jakarta/activation/jakarta.activation-api/1.2.2)** < [2.1.2](https://repo1.maven.org/maven2/jakarta/activation/jakarta.activation-api/2.1.2/)
+ - [jakarta.ws.rs](https://repo1.maven.org/maven2/jakarta/ws/rs/)
+    - [jakarta.ws.rs-api](https://repo1.maven.org/maven2/jakarta/ws/rs/jakarta.ws.rs-api/) **[2.1.6](https://repo1.maven.org/maven2/jakarta/ws/rs/jakarta.ws.rs-api/2.1.6)** < [3.1.0](https://repo1.maven.org/maven2/jakarta/ws/rs/jakarta.ws.rs-api/3.1.0/)
+ - [jakarta.xml.bind](https://repo1.maven.org/maven2/jakarta/xml/bind/)
+    - [jakarta.xml.bind-api](https://repo1.maven.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/) **[2.3.3](https://repo1.maven.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3)** < [4.0.0](https://repo1.maven.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/4.0.0/)
  - [javax.servlet](https://repo1.maven.org/maven2/javax/servlet/)
     - [javax.servlet-api](https://repo1.maven.org/maven2/javax/servlet/javax.servlet-api/) **[3.1.0](https://repo1.maven.org/maven2/javax/servlet/javax.servlet-api/3.1.0)** < [4.0.1](https://repo1.maven.org/maven2/javax/servlet/javax.servlet-api/4.0.1/)
  - [org.apache.felix](https://repo1.maven.org/maven2/org/apache/felix/)
     - [org.apache.felix.http.servlet-api](https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.http.servlet-api/) **[1.2.0](https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.http.servlet-api/1.2.0)** < [2.1.0](https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.http.servlet-api/2.1.0/)
+ - [org.glassfish.hk2](https://repo1.maven.org/maven2/org/glassfish/hk2/)
+    - [hk2-api](https://repo1.maven.org/maven2/org/glassfish/hk2/hk2-api/) **[2.6.1](https://repo1.maven.org/maven2/org/glassfish/hk2/hk2-api/2.6.1)** < [3.0.4](https://repo1.maven.org/maven2/org/glassfish/hk2/hk2-api/3.0.4/)
+    - [hk2-locator](https://repo1.maven.org/maven2/org/glassfish/hk2/hk2-locator/) **[2.6.1](https://repo1.maven.org/maven2/org/glassfish/hk2/hk2-locator/2.6.1)** < [3.0.4](https://repo1.maven.org/maven2/org/glassfish/hk2/hk2-locator/3.0.4/)
+    - [hk2-utils](https://repo1.maven.org/maven2/org/glassfish/hk2/hk2-utils/) **[2.6.1](https://repo1.maven.org/maven2/org/glassfish/hk2/hk2-utils/2.6.1)** < [3.0.4](https://repo1.maven.org/maven2/org/glassfish/hk2/hk2-utils/3.0.4/)
+    - [osgi-resource-locator](https://repo1.maven.org/maven2/org/glassfish/hk2/osgi-resource-locator/) **[1.0.3](https://repo1.maven.org/maven2/org/glassfish/hk2/osgi-resource-locator/1.0.3)** < [2.4.0](https://repo1.maven.org/maven2/org/glassfish/hk2/osgi-resource-locator/2.4.0/)
  - [org.mortbay.jasper](https://repo1.maven.org/maven2/org/mortbay/jasper/)
     - [apache-el](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-el/) **[9.0.52](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-el/9.0.52)** < [10.1.7](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-el/10.1.7/)
     - [apache-jsp](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-jsp/) **[9.0.52](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-jsp/9.0.52)** < [10.1.7](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-jsp/10.1.7/)
@@ -20,8 +31,14 @@
     - [guice](https://repo1.maven.org/maven2/com/google/inject/guice/) **[7.0.0](https://repo1.maven.org/maven2/com/google/inject/guice/7.0.0)**
  - [com.google.inject.extensions](https://repo1.maven.org/maven2/com/google/inject/extensions/)
     - [guice-assistedinject](https://repo1.maven.org/maven2/com/google/inject/extensions/guice-assistedinject/) **[7.0.0](https://repo1.maven.org/maven2/com/google/inject/extensions/guice-assistedinject/7.0.0)**
+ - [jakarta.activation](https://repo1.maven.org/maven2/jakarta/activation/)
+    - [jakarta.activation-api](https://repo1.maven.org/maven2/jakarta/activation/jakarta.activation-api/) **[1.2.2](https://repo1.maven.org/maven2/jakarta/activation/jakarta.activation-api/1.2.2)**
  - [jakarta.inject](https://repo1.maven.org/maven2/jakarta/inject/)
     - [jakarta.inject-api](https://repo1.maven.org/maven2/jakarta/inject/jakarta.inject-api/) **[2.0.1](https://repo1.maven.org/maven2/jakarta/inject/jakarta.inject-api/2.0.1)**
+ - [jakarta.ws.rs](https://repo1.maven.org/maven2/jakarta/ws/rs/)
+    - [jakarta.ws.rs-api](https://repo1.maven.org/maven2/jakarta/ws/rs/jakarta.ws.rs-api/) **[2.1.6](https://repo1.maven.org/maven2/jakarta/ws/rs/jakarta.ws.rs-api/2.1.6)**
+ - [jakarta.xml.bind](https://repo1.maven.org/maven2/jakarta/xml/bind/)
+    - [jakarta.xml.bind-api](https://repo1.maven.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/) **[2.3.3](https://repo1.maven.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3)**
  - [javax.servlet](https://repo1.maven.org/maven2/javax/servlet/)
     - [javax.servlet-api](https://repo1.maven.org/maven2/javax/servlet/javax.servlet-api/) **[3.1.0](https://repo1.maven.org/maven2/javax/servlet/javax.servlet-api/3.1.0)**
  - [org.apache.aries.spifly](https://repo1.maven.org/maven2/org/apache/aries/spifly/)
@@ -32,6 +49,11 @@
     - [org.apache.felix.http.servlet-api](https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.http.servlet-api/) **[1.2.0](https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.http.servlet-api/1.2.0)**
  - [org.eclipse.jetty.toolchain](https://repo1.maven.org/maven2/org/eclipse/jetty/toolchain/)
     - [jetty-servlet-api](https://repo1.maven.org/maven2/org/eclipse/jetty/toolchain/jetty-servlet-api/) **[4.0.6](https://repo1.maven.org/maven2/org/eclipse/jetty/toolchain/jetty-servlet-api/4.0.6)**
+ - [org.glassfish.hk2](https://repo1.maven.org/maven2/org/glassfish/hk2/)
+    - [hk2-api](https://repo1.maven.org/maven2/org/glassfish/hk2/hk2-api/) **[2.6.1](https://repo1.maven.org/maven2/org/glassfish/hk2/hk2-api/2.6.1)**
+    - [hk2-locator](https://repo1.maven.org/maven2/org/glassfish/hk2/hk2-locator/) **[2.6.1](https://repo1.maven.org/maven2/org/glassfish/hk2/hk2-locator/2.6.1)**
+    - [hk2-utils](https://repo1.maven.org/maven2/org/glassfish/hk2/hk2-utils/) **[2.6.1](https://repo1.maven.org/maven2/org/glassfish/hk2/hk2-utils/2.6.1)**
+    - [osgi-resource-locator](https://repo1.maven.org/maven2/org/glassfish/hk2/osgi-resource-locator/) **[1.0.3](https://repo1.maven.org/maven2/org/glassfish/hk2/osgi-resource-locator/1.0.3)**
  - [org.jacoco](https://repo1.maven.org/maven2/org/jacoco/)
     - [org.jacoco.agent](https://repo1.maven.org/maven2/org/jacoco/org.jacoco.agent/) **[0.8.10](https://repo1.maven.org/maven2/org/jacoco/org.jacoco.agent/0.8.10)**
     - [org.jacoco.core](https://repo1.maven.org/maven2/org/jacoco/org.jacoco.core/) **[0.8.10](https://repo1.maven.org/maven2/org/jacoco/org.jacoco.core/0.8.10)**
