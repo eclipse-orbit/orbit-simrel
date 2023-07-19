@@ -44,6 +44,8 @@
     - [jersey-hk2](https://repo1.maven.org/maven2/org/glassfish/jersey/inject/jersey-hk2/) **[2.40](https://repo1.maven.org/maven2/org/glassfish/jersey/inject/jersey-hk2/2.40)** < [3.1.2](https://repo1.maven.org/maven2/org/glassfish/jersey/inject/jersey-hk2/3.1.2/)
  - [org.glassfish.jersey.media](https://repo1.maven.org/maven2/org/glassfish/jersey/media/)
     - [jersey-media-json-jackson](https://repo1.maven.org/maven2/org/glassfish/jersey/media/jersey-media-json-jackson/) **[2.40](https://repo1.maven.org/maven2/org/glassfish/jersey/media/jersey-media-json-jackson/2.40)** < [3.1.2](https://repo1.maven.org/maven2/org/glassfish/jersey/media/jersey-media-json-jackson/3.1.2/)
+ - [org.mandas](https://repo1.maven.org/maven2/org/mandas/)
+    - [docker-client](https://repo1.maven.org/maven2/org/mandas/docker-client/) **[4.0.3](https://repo1.maven.org/maven2/org/mandas/docker-client/4.0.3)** < [7.0.3](https://repo1.maven.org/maven2/org/mandas/docker-client/7.0.3/)
  - [org.mortbay.jasper](https://repo1.maven.org/maven2/org/mortbay/jasper/)
     - [apache-el](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-el/) **[9.0.52](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-el/9.0.52)** < [10.1.7](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-el/10.1.7/)
     - [apache-jsp](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-jsp/) **[9.0.52](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-jsp/9.0.52)** < [10.1.7](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-jsp/10.1.7/)
@@ -221,6 +223,8 @@
     - [junit-platform-suite-engine](https://repo1.maven.org/maven2/org/junit/platform/junit-platform-suite-engine/) **[1.9.3](https://repo1.maven.org/maven2/org/junit/platform/junit-platform-suite-engine/1.9.3)**
  - [org.junit.vintage](https://repo1.maven.org/maven2/org/junit/vintage/)
     - [junit-vintage-engine](https://repo1.maven.org/maven2/org/junit/vintage/junit-vintage-engine/) **[5.9.3](https://repo1.maven.org/maven2/org/junit/vintage/junit-vintage-engine/5.9.3)**
+ - [org.mandas](https://repo1.maven.org/maven2/org/mandas/)
+    - [docker-client](https://repo1.maven.org/maven2/org/mandas/docker-client/) **[4.0.3](https://repo1.maven.org/maven2/org/mandas/docker-client/4.0.3)**
  - [org.mockito](https://repo1.maven.org/maven2/org/mockito/)
     - [mockito-core](https://repo1.maven.org/maven2/org/mockito/mockito-core/) **[5.4.0](https://repo1.maven.org/maven2/org/mockito/mockito-core/5.4.0)**
  - [org.mortbay.jasper](https://repo1.maven.org/maven2/org/mortbay/jasper/)

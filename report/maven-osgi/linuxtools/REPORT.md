@@ -1,6 +1,15 @@
 # Target Platform: [linuxtools](https://raw.githubusercontent.com/eclipse-linuxtools/org.eclipse.linuxtools/master/releng/org.eclipse.linuxtools.target/linuxtools-e4.29.target)
 
 ## Major Updates
+ - [jakarta.ws.rs](https://repo1.maven.org/maven2/jakarta/ws/rs/)
+    - [jakarta.ws.rs-api](https://repo1.maven.org/maven2/jakarta/ws/rs/jakarta.ws.rs-api/) **[2.1.6](https://repo1.maven.org/maven2/jakarta/ws/rs/jakarta.ws.rs-api/2.1.6)** < [3.1.0](https://repo1.maven.org/maven2/jakarta/ws/rs/jakarta.ws.rs-api/3.1.0/)
+ - [jakarta.xml.bind](https://repo1.maven.org/maven2/jakarta/xml/bind/)
+    - [jakarta.xml.bind-api](https://repo1.maven.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/) **[2.3.3](https://repo1.maven.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3)** < [4.0.0](https://repo1.maven.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/4.0.0/)
+ - [org.glassfish.hk2](https://repo1.maven.org/maven2/org/glassfish/hk2/)
+    - [hk2-api](https://repo1.maven.org/maven2/org/glassfish/hk2/hk2-api/) **[2.6.1](https://repo1.maven.org/maven2/org/glassfish/hk2/hk2-api/2.6.1)** < [3.0.4](https://repo1.maven.org/maven2/org/glassfish/hk2/hk2-api/3.0.4/)
+    - [hk2-locator](https://repo1.maven.org/maven2/org/glassfish/hk2/hk2-locator/) **[2.6.1](https://repo1.maven.org/maven2/org/glassfish/hk2/hk2-locator/2.6.1)** < [3.0.4](https://repo1.maven.org/maven2/org/glassfish/hk2/hk2-locator/3.0.4/)
+    - [hk2-utils](https://repo1.maven.org/maven2/org/glassfish/hk2/hk2-utils/) **[2.6.1](https://repo1.maven.org/maven2/org/glassfish/hk2/hk2-utils/2.6.1)** < [3.0.4](https://repo1.maven.org/maven2/org/glassfish/hk2/hk2-utils/3.0.4/)
+    - [osgi-resource-locator](https://repo1.maven.org/maven2/org/glassfish/hk2/osgi-resource-locator/) **[1.0.3](https://repo1.maven.org/maven2/org/glassfish/hk2/osgi-resource-locator/1.0.3)** < [2.4.0](https://repo1.maven.org/maven2/org/glassfish/hk2/osgi-resource-locator/2.4.0/)
  - [org.glassfish.jersey.connectors](https://repo1.maven.org/maven2/org/glassfish/jersey/connectors/)
     - [jersey-apache-connector](https://repo1.maven.org/maven2/org/glassfish/jersey/connectors/jersey-apache-connector/) **[2.40](https://repo1.maven.org/maven2/org/glassfish/jersey/connectors/jersey-apache-connector/2.40)** < [3.1.2](https://repo1.maven.org/maven2/org/glassfish/jersey/connectors/jersey-apache-connector/3.1.2/)
  - [org.glassfish.jersey.containers](https://repo1.maven.org/maven2/org/glassfish/jersey/containers/)
@@ -16,6 +25,8 @@
     - [jersey-hk2](https://repo1.maven.org/maven2/org/glassfish/jersey/inject/jersey-hk2/) **[2.40](https://repo1.maven.org/maven2/org/glassfish/jersey/inject/jersey-hk2/2.40)** < [3.1.2](https://repo1.maven.org/maven2/org/glassfish/jersey/inject/jersey-hk2/3.1.2/)
  - [org.glassfish.jersey.media](https://repo1.maven.org/maven2/org/glassfish/jersey/media/)
     - [jersey-media-json-jackson](https://repo1.maven.org/maven2/org/glassfish/jersey/media/jersey-media-json-jackson/) **[2.40](https://repo1.maven.org/maven2/org/glassfish/jersey/media/jersey-media-json-jackson/2.40)** < [3.1.2](https://repo1.maven.org/maven2/org/glassfish/jersey/media/jersey-media-json-jackson/3.1.2/)
+ - [org.mandas](https://repo1.maven.org/maven2/org/mandas/)
+    - [docker-client](https://repo1.maven.org/maven2/org/mandas/docker-client/) **[4.0.3](https://repo1.maven.org/maven2/org/mandas/docker-client/4.0.3)** < [7.0.3](https://repo1.maven.org/maven2/org/mandas/docker-client/7.0.3/)
 
 ## Content
  - [com.fasterxml.jackson.core](https://repo1.maven.org/maven2/com/fasterxml/jackson/core/)
@@ -39,8 +50,18 @@
     - [jnr-unixsocket](https://repo1.maven.org/maven2/com/github/jnr/jnr-unixsocket/) **[0.38.20](https://repo1.maven.org/maven2/com/github/jnr/jnr-unixsocket/0.38.20)**
  - [com.google.guava](https://repo1.maven.org/maven2/com/google/guava/)
     - [guava](https://repo1.maven.org/maven2/com/google/guava/guava/) **[32.1.1-jre](https://repo1.maven.org/maven2/com/google/guava/guava/32.1.1-jre)**
+ - [jakarta.ws.rs](https://repo1.maven.org/maven2/jakarta/ws/rs/)
+    - [jakarta.ws.rs-api](https://repo1.maven.org/maven2/jakarta/ws/rs/jakarta.ws.rs-api/) **[2.1.6](https://repo1.maven.org/maven2/jakarta/ws/rs/jakarta.ws.rs-api/2.1.6)**
+ - [jakarta.xml.bind](https://repo1.maven.org/maven2/jakarta/xml/bind/)
+    - [jakarta.xml.bind-api](https://repo1.maven.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/) **[2.3.3](https://repo1.maven.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3)**
  - [org.bouncycastle](https://repo1.maven.org/maven2/org/bouncycastle/)
     - [bcpkix-jdk18on](https://repo1.maven.org/maven2/org/bouncycastle/bcpkix-jdk18on/) **[1.75](https://repo1.maven.org/maven2/org/bouncycastle/bcpkix-jdk18on/1.75)**
+    - [bcutil-jdk18on](https://repo1.maven.org/maven2/org/bouncycastle/bcutil-jdk18on/) **[1.75](https://repo1.maven.org/maven2/org/bouncycastle/bcutil-jdk18on/1.75)**
+ - [org.glassfish.hk2](https://repo1.maven.org/maven2/org/glassfish/hk2/)
+    - [hk2-api](https://repo1.maven.org/maven2/org/glassfish/hk2/hk2-api/) **[2.6.1](https://repo1.maven.org/maven2/org/glassfish/hk2/hk2-api/2.6.1)**
+    - [hk2-locator](https://repo1.maven.org/maven2/org/glassfish/hk2/hk2-locator/) **[2.6.1](https://repo1.maven.org/maven2/org/glassfish/hk2/hk2-locator/2.6.1)**
+    - [hk2-utils](https://repo1.maven.org/maven2/org/glassfish/hk2/hk2-utils/) **[2.6.1](https://repo1.maven.org/maven2/org/glassfish/hk2/hk2-utils/2.6.1)**
+    - [osgi-resource-locator](https://repo1.maven.org/maven2/org/glassfish/hk2/osgi-resource-locator/) **[1.0.3](https://repo1.maven.org/maven2/org/glassfish/hk2/osgi-resource-locator/1.0.3)**
  - [org.glassfish.jersey.connectors](https://repo1.maven.org/maven2/org/glassfish/jersey/connectors/)
     - [jersey-apache-connector](https://repo1.maven.org/maven2/org/glassfish/jersey/connectors/jersey-apache-connector/) **[2.40](https://repo1.maven.org/maven2/org/glassfish/jersey/connectors/jersey-apache-connector/2.40)**
  - [org.glassfish.jersey.containers](https://repo1.maven.org/maven2/org/glassfish/jersey/containers/)
@@ -58,3 +79,5 @@
     - [jersey-media-json-jackson](https://repo1.maven.org/maven2/org/glassfish/jersey/media/jersey-media-json-jackson/) **[2.40](https://repo1.maven.org/maven2/org/glassfish/jersey/media/jersey-media-json-jackson/2.40)**
  - [org.javassist](https://repo1.maven.org/maven2/org/javassist/)
     - [javassist](https://repo1.maven.org/maven2/org/javassist/javassist/) **[3.29.2-GA](https://repo1.maven.org/maven2/org/javassist/javassist/3.29.2-GA)**
+ - [org.mandas](https://repo1.maven.org/maven2/org/mandas/)
+    - [docker-client](https://repo1.maven.org/maven2/org/mandas/docker-client/) **[4.0.3](https://repo1.maven.org/maven2/org/mandas/docker-client/4.0.3)**
