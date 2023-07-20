@@ -27,48 +27,8 @@
 					<skipArchive>true</skipArchive>
 					<xzCompress>false</xzCompress>
 				</configuration>
-				<executions>
-					<execution>
-						<id>fix</id>
-						<goals>
-							<goal>fix-artifacts-metadata</goal>
-						</goals>
-						<phase>integration-test</phase>
-					</execution>
-				</executions>
 			</plugin>
 		</plugins>
 	</build>
-
-	<profiles>
-		<profile>
-			<id>sign</id>
-			<activation>
-				<activeByDefault>false</activeByDefault>
-			</activation>
-			<build>
-				<plugins>
-					<plugin>
-						<groupId>org.eclipse.cbi.maven.plugins</groupId>
-						<artifactId>eclipse-jarsigner-plugin</artifactId>
-						<version>1.3.0</version>
-						<configuration>
-							<includes>plugins/*.jar,features/*.jar</includes>
-							<archiveDirectory>
-								${project.build.directory}/repository</archiveDirectory>
-						</configuration>
-						<executions>
-							<execution>
-								<id>sign</id>
-								<goals>
-									<goal>sign</goal>
-								</goals>
-							</execution>
-						</executions>
-					</plugin>
-				</plugins>
-			</build>
-		</profile>
-	</profiles>
 
 </project>

@@ -71,6 +71,8 @@ public class Analyzer {
 
 	private Path category;
 
+	private Path categoryMinimal;
+
 	public Analyzer(List<String> arguments) {
 		verbose = arguments.contains("-verbose");
 		version = getArgument(arguments, "-version");
@@ -79,10 +81,12 @@ public class Analyzer {
 
 		target = Path.of(getArgument(arguments, "-target"));
 		category = Path.of(getArgument(arguments, "-category"));
+		var categoryMinimalArgument = getArgument(arguments, "-category-minimal");
+		categoryMinimal = categoryMinimalArgument == null ? null : Path.of(categoryMinimalArgument);
 	}
 
 	public void analyze() throws IOException {
-		String currentTarget = Files.readString(target);
+		var currentTarget = Files.readString(target);
 		var transformedTarget = visitTarget(currentTarget);
 		Files.writeString(target, transformedTarget);
 		if (verbose) {
@@ -92,13 +96,25 @@ public class Analyzer {
 			System.out.println();
 		}
 
-		String curentCategory = Files.readString(category);
+		var curentCategory = Files.readString(category);
 		var transformedCategory = visitCategory(curentCategory);
 		Files.writeString(category, transformedCategory);
 		if (verbose) {
 			System.out.println("--- " + category.getFileName() + "---"
 					+ (!curentCategory.equals(transformedCategory) ? " CHANGED" : ""));
 			System.out.println(transformedCategory);
+		}
+
+		if (categoryMinimal != null) {
+			featureIDs.removeIf(id -> id.contains("exclude"));
+			var curentCategoryMinimal = Files.readString(categoryMinimal);
+			var transformedCategoryMinimal = visitCategory(curentCategoryMinimal);
+			Files.writeString(categoryMinimal, transformedCategoryMinimal);
+			if (verbose) {
+				System.out.println("--- " + categoryMinimal.getFileName() + "---"
+						+ (!curentCategoryMinimal.equals(transformedCategoryMinimal) ? " CHANGED" : ""));
+				System.out.println(transformedCategoryMinimal);
+			}
 		}
 	}
 
@@ -108,7 +124,7 @@ public class Analyzer {
 	}
 
 	private String visitCategory(String category) {
-		Matcher matcher = SITE_PATTERN.matcher(category);
+		var matcher = SITE_PATTERN.matcher(category);
 		matcher.find();
 		var nl = matcher.group("nl");
 
@@ -150,14 +166,14 @@ public class Analyzer {
 		if (!featureIDMatcher.find()) {
 			throw new IllegalStateException("Each feature must have an id.");
 		}
-		String featureID = featureIDMatcher.group("id");
+		var featureID = featureIDMatcher.group("id");
 		featureIDs.add(featureID);
 
-		Matcher featureVersionMatcher = FEATURE_VERSION_PATTERN.matcher(feature);
+		var featureVersionMatcher = FEATURE_VERSION_PATTERN.matcher(feature);
 		if (!featureVersionMatcher.find()) {
 			throw new IllegalStateException("Each feature must have a version.");
 		}
-		String featureVersion = featureVersionMatcher.group("version");
+		var featureVersion = featureVersionMatcher.group("version");
 
 		if (verbose) {
 			System.out.println("--- " + featureID + ":" + featureVersion + "---");
@@ -182,13 +198,13 @@ public class Analyzer {
 		var instructions = instructionsMatcher.group("instructions");
 
 		var dependencies = new StringBuilder();
-		for (Matcher dependencyMatcher = DEPENDENCY_PATTERN.matcher(location); dependencyMatcher.find();) {
-			String maven = dependencyMatcher.group("groupId") + ":" + dependencyMatcher.group("artifactId") + ":"
+		for (var dependencyMatcher = DEPENDENCY_PATTERN.matcher(location); dependencyMatcher.find();) {
+			var maven = dependencyMatcher.group("groupId") + ":" + dependencyMatcher.group("artifactId") + ":"
 					+ dependencyMatcher.group("version");
 			dependencies.append(maven).append("\n");
 		}
 
-		Matcher bndBundleVersionMatcher = BND_BUNDLE_VERSION_PATTERN.matcher(instructions);
+		var bndBundleVersionMatcher = BND_BUNDLE_VERSION_PATTERN.matcher(instructions);
 		if (!bndBundleVersionMatcher.find()) {
 			throw new IllegalStateException("Each BND instruction must have a Bundle-Version: header");
 		}
@@ -196,11 +212,11 @@ public class Analyzer {
 		// Compute the SHA1 from the dependency coordinates and the instructions without
 		// the qualifier and compare it with the current value.
 		//
-		String digest = getDigest(dependencies + replace(instructions, bndBundleVersionMatcher, "qualifier", ""));
+		var digest = getDigest(dependencies + replace(instructions, bndBundleVersionMatcher, "qualifier", ""));
 		if (!digest.equals(sha1)) {
 			// Replace the qualifier with the new current qualifier.
 			//
-			Matcher bundleVersionMatcherInLocation = BND_BUNDLE_VERSION_PATTERN.matcher(location);
+			var bundleVersionMatcherInLocation = BND_BUNDLE_VERSION_PATTERN.matcher(location);
 			bundleVersionMatcherInLocation.find(instructionsMatcher.start("instructions"));
 			location = replace(location, bundleVersionMatcherInLocation, "qualifier", "." + qualifier);
 
@@ -209,7 +225,7 @@ public class Analyzer {
 			location = replace(location, instructionsMatcher, "sha", digest);
 
 			// Replace the feature's qualifier with the new current qualifier.
-			Matcher featureVersionQualifierMatcher = FEATURE_VERSION_QUALIFIER_PATTERN.matcher(location);
+			var featureVersionQualifierMatcher = FEATURE_VERSION_QUALIFIER_PATTERN.matcher(location);
 			featureVersionQualifierMatcher.find();
 			location = replace(location, featureVersionQualifierMatcher, "qualifier", "." + qualifier);
 		}

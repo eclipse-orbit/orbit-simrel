@@ -79,7 +79,7 @@ SPDX-License-Identifier: EPL-2.0
                 -version-iu org.eclipse.orbit.maven.
                 -commit https://github.com/eclipse-orbit/orbit-simrel/commit/${git.commit}
                 -target-url https://download.eclipse.org/tools/orbit
-                -promote ${project.basedir}/../site/target/repository
+                -promote ${project.basedir}/../site-minimal/target/repository
                 -timestamp ${build.timestamp}
                 -type ${build.type}
                 -breadcrumb "Orbit https://projects.eclipse.org/projects/tools.orbit"

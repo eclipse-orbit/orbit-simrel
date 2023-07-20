@@ -125,6 +125,7 @@
   <modules>
     <module>tp</module>
     <module>site</module>
+    <module>site-minimal</module>
     <module>promotion</module>
   </modules>
 
