@@ -28,18 +28,27 @@
     - [jakarta.inject-api](https://repo1.maven.org/maven2/jakarta/inject/jakarta.inject-api/) **[2.0.1](https://repo1.maven.org/maven2/jakarta/inject/jakarta.inject-api/2.0.1)**
  - [javax.servlet](https://repo1.maven.org/maven2/javax/servlet/)
     - [javax.servlet-api](https://repo1.maven.org/maven2/javax/servlet/javax.servlet-api/) **[3.1.0](https://repo1.maven.org/maven2/javax/servlet/javax.servlet-api/3.1.0)**
+ - [jaxen](https://repo1.maven.org/maven2/jaxen/)
+    - [jaxen](https://repo1.maven.org/maven2/jaxen/jaxen/) **[2.0.0](https://repo1.maven.org/maven2/jaxen/jaxen/2.0.0)**
  - [org.apache.aries.spifly](https://repo1.maven.org/maven2/org/apache/aries/spifly/)
     - [org.apache.aries.spifly.dynamic.bundle](https://repo1.maven.org/maven2/org/apache/aries/spifly/org.apache.aries.spifly.dynamic.bundle/) **[1.3.6](https://repo1.maven.org/maven2/org/apache/aries/spifly/org.apache.aries.spifly.dynamic.bundle/1.3.6)**
  - [org.apache.derby](https://repo1.maven.org/maven2/org/apache/derby/)
     - [derby](https://repo1.maven.org/maven2/org/apache/derby/derby/) **[10.16.1.1](https://repo1.maven.org/maven2/org/apache/derby/derby/10.16.1.1)**
  - [org.apache.felix](https://repo1.maven.org/maven2/org/apache/felix/)
     - [org.apache.felix.http.servlet-api](https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.http.servlet-api/) **[1.2.0](https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.http.servlet-api/1.2.0)**
+ - [org.apache.httpcomponents](https://repo1.maven.org/maven2/org/apache/httpcomponents/)
+    - [httpclient-osgi](https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient-osgi/) **[4.5.14](https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient-osgi/4.5.14)**
+    - [httpcore-osgi](https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore-osgi/) **[4.4.16](https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore-osgi/4.4.16)**
  - [org.eclipse.jetty.toolchain](https://repo1.maven.org/maven2/org/eclipse/jetty/toolchain/)
     - [jetty-servlet-api](https://repo1.maven.org/maven2/org/eclipse/jetty/toolchain/jetty-servlet-api/) **[4.0.6](https://repo1.maven.org/maven2/org/eclipse/jetty/toolchain/jetty-servlet-api/4.0.6)**
+ - [org.hamcrest](https://repo1.maven.org/maven2/org/hamcrest/)
+    - [hamcrest](https://repo1.maven.org/maven2/org/hamcrest/hamcrest/) **[2.2](https://repo1.maven.org/maven2/org/hamcrest/hamcrest/2.2)**
  - [org.jacoco](https://repo1.maven.org/maven2/org/jacoco/)
     - [org.jacoco.agent](https://repo1.maven.org/maven2/org/jacoco/org.jacoco.agent/) **[0.8.10](https://repo1.maven.org/maven2/org/jacoco/org.jacoco.agent/0.8.10)**
     - [org.jacoco.core](https://repo1.maven.org/maven2/org/jacoco/org.jacoco.core/) **[0.8.10](https://repo1.maven.org/maven2/org/jacoco/org.jacoco.core/0.8.10)**
     - [org.jacoco.report](https://repo1.maven.org/maven2/org/jacoco/org.jacoco.report/) **[0.8.10](https://repo1.maven.org/maven2/org/jacoco/org.jacoco.report/0.8.10)**
+ - [org.junit.platform](https://repo1.maven.org/maven2/org/junit/platform/)
+    - [junit-platform-runner](https://repo1.maven.org/maven2/org/junit/platform/junit-platform-runner/) **[1.9.3](https://repo1.maven.org/maven2/org/junit/platform/junit-platform-runner/1.9.3)**
  - [org.mortbay.jasper](https://repo1.maven.org/maven2/org/mortbay/jasper/)
     - [apache-el](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-el/) **[9.0.52](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-el/9.0.52)**
     - [apache-jsp](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-jsp/) **[9.0.52](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-jsp/9.0.52)**
