@@ -8,7 +8,7 @@
       <repositories location="https://download.eclipse.org/tools/orbit/simrel/maven-bnd/nightly/latest" description="maven-bnd"/>
     </contributions>
     <contributions description="orbit" label="orbit">
-      <repositories location="https://download.eclipse.org/tools/orbit/downloads/latest-I" description="orbit"/>
+      <repositories location="https://download.eclipse.org/tools/orbit/downloads/latest-N" description="orbit"/>
     </contributions>
     <contributions label="orbit-legacy">
       <repositories location="https://download.eclipse.org/tools/orbit/downloads/drops/R20201118194144/repository" description="orbit-legacy">

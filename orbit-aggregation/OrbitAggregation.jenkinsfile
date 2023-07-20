@@ -28,7 +28,7 @@ pipeline {
 
     string (
       name: 'ORBIT',
-      defaultValue: 'https://download.eclipse.org/tools/orbit/downloads/latest-I',
+      defaultValue: 'https://download.eclipse.org/tools/orbit/downloads/latest-N',
       description: 'The Orbit repository to aggregate.<br/>Visit <a href="https://download.eclipse.org/justj/?file=tools/orbit/downloads/drops">https://download.eclipse.org/tools/orbit/downloads/drops/</a> for choices.'
     )
 
