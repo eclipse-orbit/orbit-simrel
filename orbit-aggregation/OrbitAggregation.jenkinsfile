@@ -7,6 +7,22 @@ pipeline {
     skipDefaultCheckout true
   }
 
+  properties(
+    [pipelineTriggers(
+      [upstream(
+          upstreamProjects: 'orbit-simrel-maven-osgi',
+          threshold: hudson.model.Result.SUCCESS
+      ),
+      upstream(
+          upstreamProjects: 'orbit-simrel-maven-bnd',
+          threshold: hudson.model.Result.SUCCESS
+      ),
+      upstream(
+          upstreamProjects: 'orbit-recipes',
+          threshold: hudson.model.Result.SUCCESS
+      )]
+    )]
+  )
   tools {
     maven 'apache-maven-latest'
     jdk 'temurin-jdk17-latest'
