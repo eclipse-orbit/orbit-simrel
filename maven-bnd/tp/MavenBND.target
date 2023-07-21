@@ -181,7 +181,7 @@ Export-Package:         *;version="${version}";-noimport:=true
 <!-- ______________________________________________________ org.hamcrest __________________________________________________________________________________________________-->
 
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
-      <feature id="org.eclipse.orbit.maven.hamcrest" label="Orbit Maven BND org.hamcrest" provider-name="Eclipse Orbit" version="4.29.0.v20230720-0705">
+      <feature id="org.eclipse.orbit.maven.hamcrest" label="Orbit Maven BND org.hamcrest" provider-name="Eclipse Orbit" version="4.29.0.v20230721-0740">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
 Copyright (c) 2023 Eclipse contributors and others.
@@ -204,15 +204,16 @@ SPDX-License-Identifier: EPL-2.0
         </dependency>
       </dependencies>
       <instructions>
-<!-- SHA1 3ff25bc848e27d491647a3f456cb10e3e0d20641 -->
+<!-- SHA1 89d57623c2c3ff1e219179d54e66e7b76d9e9ef7 -->
 <![CDATA[
 Bundle-Name:            Bundle ${mvnGroupId} : ${mvnArtifactId}
 version:                ${versionmask;===;${version_cleanup;${mvnVersion}}}
 Bundle-SymbolicName:    org.${replacestring;${mvnArtifactId};-;.}
-Bundle-Version:         ${version}.v20230720-0705
+Bundle-Version:         ${version}.v20230721-0740
 Eclipse-Wrapped-Bundle: ${mvnGroupId}:${mvnArtifactId}:${mvnVersion}
 Import-Package:         *
-Export-Package:         *;version="${version}";-noimport:=true
+Export-Package:         *.internal.*;x-internal:=true;version="${version}";-noimport:=true,\
+                        *;version="${version}";-noimport:=true
 -noextraheaders:        true
 -removeheaders:         Private-Package
 ]]>
@@ -223,7 +224,7 @@ Export-Package:         *;version="${version}";-noimport:=true
 <!-- ______________________________________________________ junit __________________________________________________________________________________________________-->
 
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
-      <feature id="org.eclipse.orbit.maven.junit" label="Orbit Maven BND junit" provider-name="Eclipse Orbit" version="4.29.0.v20230720-0743">
+      <feature id="org.eclipse.orbit.maven.junit" label="Orbit Maven BND junit" provider-name="Eclipse Orbit" version="4.29.0.v20230721-0759">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
 Copyright (c) 2023 Eclipse contributors and others.
@@ -246,15 +247,17 @@ SPDX-License-Identifier: EPL-2.0
         </dependency>
       </dependencies>
       <instructions>
-<!-- SHA1 7756c75dffe7629006e818ebecf3a9d75207d2ac -->
+<!-- SHA1 2b69b44ea36736cf3338b507488cc8759794d16c -->
 <![CDATA[
 Bundle-Name:            Bundle ${mvnGroupId} : ${mvnArtifactId}
 version:                ${versionmask;===;${version_cleanup;${mvnVersion}}}
 Bundle-SymbolicName:    org.${mvnArtifactId}
-Bundle-Version:         ${version}.v20230720-0743
+Bundle-Version:         ${version}.v20230721-0759
 Eclipse-Wrapped-Bundle: ${mvnGroupId}:${mvnArtifactId}:${mvnVersion}
-Import-Package:         *
-Export-Package:         *;version="${version}";-noimport:=true
+Import-Package:         org.hamcrest.*;version="${versionmask;==;${@}}",\
+                        *
+Export-Package:         *.internal.*;x-internal:=true;version="${version}";-noimport:=true,\
+                        *;version="${version}";-noimport:=true
 -noextraheaders:        true
 -removeheaders:         Private-Package
 ]]>
