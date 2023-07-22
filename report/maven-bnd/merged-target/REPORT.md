@@ -22,6 +22,8 @@
     - [lucene-queries](https://repo1.maven.org/maven2/org/apache/lucene/lucene-queries/) **[9.7.0](https://repo1.maven.org/maven2/org/apache/lucene/lucene-queries/9.7.0)**
     - [lucene-queryparser](https://repo1.maven.org/maven2/org/apache/lucene/lucene-queryparser/) **[9.7.0](https://repo1.maven.org/maven2/org/apache/lucene/lucene-queryparser/9.7.0)**
     - [lucene-sandbox](https://repo1.maven.org/maven2/org/apache/lucene/lucene-sandbox/) **[9.7.0](https://repo1.maven.org/maven2/org/apache/lucene/lucene-sandbox/9.7.0)**
+ - [org.codelibs](https://repo1.maven.org/maven2/org/codelibs/)
+    - [nekohtml](https://repo1.maven.org/maven2/org/codelibs/nekohtml/) **[2.1.2](https://repo1.maven.org/maven2/org/codelibs/nekohtml/2.1.2)**
  - [org.hamcrest](https://repo1.maven.org/maven2/org/hamcrest/)
     - [hamcrest-core](https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/) **[1.3](https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3)**
  - [org.jdom](https://repo1.maven.org/maven2/org/jdom/)

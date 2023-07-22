@@ -3,6 +3,9 @@
 ## Content
  - [com.google.code.gson](https://repo1.maven.org/maven2/com/google/code/gson/)
     - [gson](https://repo1.maven.org/maven2/com/google/code/gson/gson/) **[2.10.1](https://repo1.maven.org/maven2/com/google/code/gson/gson/2.10.1)**
+ - [com.google.guava](https://repo1.maven.org/maven2/com/google/guava/)
+    - [failureaccess](https://repo1.maven.org/maven2/com/google/guava/failureaccess/) **[1.0.1](https://repo1.maven.org/maven2/com/google/guava/failureaccess/1.0.1)**
+    - [guava](https://repo1.maven.org/maven2/com/google/guava/guava/) **[32.1.1-jre](https://repo1.maven.org/maven2/com/google/guava/guava/32.1.1-jre)**
  - [net.java.dev.jna](https://repo1.maven.org/maven2/net/java/dev/jna/)
     - [jna](https://repo1.maven.org/maven2/net/java/dev/jna/jna/) **[5.13.0](https://repo1.maven.org/maven2/net/java/dev/jna/jna/5.13.0)**
     - [jna-platform](https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/) **[5.13.0](https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/5.13.0)**
@@ -19,6 +22,12 @@
     - [junit-jupiter-engine](https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-engine/) **[5.9.3](https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.9.3)**
  - [org.mockito](https://repo1.maven.org/maven2/org/mockito/)
     - [mockito-core](https://repo1.maven.org/maven2/org/mockito/mockito-core/) **[5.4.0](https://repo1.maven.org/maven2/org/mockito/mockito-core/5.4.0)**
+ - [org.ow2.asm](https://repo1.maven.org/maven2/org/ow2/asm/)
+    - [asm](https://repo1.maven.org/maven2/org/ow2/asm/asm/) **[9.5](https://repo1.maven.org/maven2/org/ow2/asm/asm/9.5)**
+    - [asm-analysis](https://repo1.maven.org/maven2/org/ow2/asm/asm-analysis/) **[9.5](https://repo1.maven.org/maven2/org/ow2/asm/asm-analysis/9.5)**
+    - [asm-commons](https://repo1.maven.org/maven2/org/ow2/asm/asm-commons/) **[9.5](https://repo1.maven.org/maven2/org/ow2/asm/asm-commons/9.5)**
+    - [asm-tree](https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/) **[9.5](https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/9.5)**
+    - [asm-util](https://repo1.maven.org/maven2/org/ow2/asm/asm-util/) **[9.5](https://repo1.maven.org/maven2/org/ow2/asm/asm-util/9.5)**
  - [org.slf4j](https://repo1.maven.org/maven2/org/slf4j/)
     - [slf4j-api](https://repo1.maven.org/maven2/org/slf4j/slf4j-api/) **[2.0.7](https://repo1.maven.org/maven2/org/slf4j/slf4j-api/2.0.7)**
     - [slf4j-nop](https://repo1.maven.org/maven2/org/slf4j/slf4j-nop/) **[2.0.7](https://repo1.maven.org/maven2/org/slf4j/slf4j-nop/2.0.7)**
