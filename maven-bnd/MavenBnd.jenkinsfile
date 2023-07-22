@@ -113,10 +113,10 @@ PROMOTE=${params.PROMOTE}
 
   post {
     always {
-      archiveArtifacts 'maven-bnd/**'
     }
 
     failure {
+      archiveArtifacts 'maven-bnd/**'
       mail to: 'ed.merks@gmail.com',
       subject: "[Orbit CI] Build Failure ${currentBuild.fullDisplayName}",
       mimeType: 'text/html',
