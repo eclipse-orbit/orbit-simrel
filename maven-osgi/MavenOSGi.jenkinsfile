@@ -119,9 +119,6 @@ PROMOTE=${params.PROMOTE}
   }
 
   post {
-    always {
-    }
-
     failure {
       archiveArtifacts 'maven-osgi/**'
       mail to: 'ed.merks@gmail.com',

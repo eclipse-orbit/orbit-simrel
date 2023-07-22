@@ -143,9 +143,6 @@ MAVEN_BND=${params.MAVEN_BND}
   }
 
   post {
-    always {
-    }
-
     failure {
       archiveArtifacts 'orbit-aggregation/**'
       mail to: 'ed.merks@gmail.com',

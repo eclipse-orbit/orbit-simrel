@@ -112,9 +112,6 @@ PROMOTE=${params.PROMOTE}
   }
 
   post {
-    always {
-    }
-
     failure {
       archiveArtifacts 'maven-bnd/**'
       mail to: 'ed.merks@gmail.com',
