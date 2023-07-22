@@ -7,6 +7,10 @@ pipeline {
     skipDefaultCheckout true
   }
 
+  triggers {
+    upstream(upstreamProjects: 'orbit-simrel-maven-osgi,orbit-simrel-maven-bnd,orbit-recipes', threshold: hudson.model.Result.SUCCESS)
+  }
+
   tools {
     maven 'apache-maven-latest'
     jdk 'temurin-jdk17-latest'
@@ -35,13 +39,13 @@ pipeline {
     string (
       name: 'MAVEN_OSGI',
       defaultValue: 'https://download.eclipse.org/tools/orbit/simrel/maven-osgi/nightly/latest',
-      description: 'The Orbit Maven OSGi repository to aggregate.<br/>Visit <a href="https://download.eclipse.org/tools/orbit/simrel/maven-osgi/">https://download.eclipse.org/tools/orbit/simrel/maven-osgi/<a/> for choices'
+      description: 'The Orbit Maven OSGi repository to aggregate.<br/>Visit <a href="https://download.eclipse.org/tools/orbit/simrel/maven-osgi/">https://download.eclipse.org/tools/orbit/simrel/maven-osgi/<a/> for choices.'
     )
 
     string (
       name: 'MAVEN_BND',
       defaultValue: 'https://download.eclipse.org/tools/orbit/simrel/maven-bnd/nightly/latest',
-      description: 'The Orbit Maven BND repository to aggregate.<br/>Visit <a href="https://download.eclipse.org/tools/orbit/simrel/maven-bnd/">https://download.eclipse.org/tools/orbit/simrel/maven-bnd/<a/> for choices'
+      description: 'The Orbit Maven BND repository to aggregate.<br/>Visit <a href="https://download.eclipse.org/tools/orbit/simrel/maven-bnd/">https://download.eclipse.org/tools/orbit/simrel/maven-bnd/<a/> for choices.'
     )
 
     booleanParam(
