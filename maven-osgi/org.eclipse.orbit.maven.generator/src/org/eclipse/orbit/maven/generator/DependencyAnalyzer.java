@@ -315,10 +315,10 @@ public class DependencyAnalyzer {
 			if (s2 == null) {
 				return 0;
 			}
-			return -1;
+			return 1;
 		}
 		if (s2 == null) {
-			return 1;
+			return -1;
 		}
 		return s1.compareTo(s2);
 	}

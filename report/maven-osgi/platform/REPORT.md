@@ -16,6 +16,8 @@
     - [junit-platform-suite-engine](https://repo1.maven.org/maven2/org/junit/platform/junit-platform-suite-engine/) **[1.9.3](https://repo1.maven.org/maven2/org/junit/platform/junit-platform-suite-engine/1.9.3)** < [1.10.0](https://repo1.maven.org/maven2/org/junit/platform/junit-platform-suite-engine/1.10.0/)
  - [org.junit.vintage](https://repo1.maven.org/maven2/org/junit/vintage/)
     - [junit-vintage-engine](https://repo1.maven.org/maven2/org/junit/vintage/junit-vintage-engine/) **[5.9.3](https://repo1.maven.org/maven2/org/junit/vintage/junit-vintage-engine/5.9.3)** < [5.10.0](https://repo1.maven.org/maven2/org/junit/vintage/junit-vintage-engine/5.10.0/)
+ - [org.opentest4j](https://repo1.maven.org/maven2/org/opentest4j/)
+    - [opentest4j](https://repo1.maven.org/maven2/org/opentest4j/opentest4j/) **[1.2.0](https://repo1.maven.org/maven2/org/opentest4j/opentest4j/1.2.0)** < [1.3.0](https://repo1.maven.org/maven2/org/opentest4j/opentest4j/1.3.0/)
 
 ## Major Updates
  - [jakarta.annotation](https://repo1.maven.org/maven2/jakarta/annotation/)
