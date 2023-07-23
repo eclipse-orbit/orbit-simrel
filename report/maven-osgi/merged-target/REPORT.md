@@ -246,7 +246,7 @@
  - [org.objenesis](https://repo1.maven.org/maven2/org/objenesis/)
     - [objenesis](https://repo1.maven.org/maven2/org/objenesis/objenesis/) **[3.3](https://repo1.maven.org/maven2/org/objenesis/objenesis/3.3)**
  - [org.opentest4j](https://repo1.maven.org/maven2/org/opentest4j/)
-    - [opentest4j](https://repo1.maven.org/maven2/org/opentest4j/opentest4j/) **[1.2.0](https://repo1.maven.org/maven2/org/opentest4j/opentest4j/1.2.0)**
+    - [opentest4j](https://repo1.maven.org/maven2/org/opentest4j/opentest4j/) **[1.3.0](https://repo1.maven.org/maven2/org/opentest4j/opentest4j/1.3.0)**
  - [org.osgi](https://repo1.maven.org/maven2/org/osgi/)
     - [org.osgi.annotation.bundle](https://repo1.maven.org/maven2/org/osgi/org.osgi.annotation.bundle/) **[2.0.0](https://repo1.maven.org/maven2/org/osgi/org.osgi.annotation.bundle/2.0.0)**
     - [org.osgi.annotation.versioning](https://repo1.maven.org/maven2/org/osgi/org.osgi.annotation.versioning/) **[1.1.2](https://repo1.maven.org/maven2/org/osgi/org.osgi.annotation.versioning/1.1.2)**
