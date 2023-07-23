@@ -1,5 +1,13 @@
 # Target Platform: [cdt](https://raw.githubusercontent.com/eclipse-cdt/cdt/main/releng/org.eclipse.cdt.target/cdt.target)
 
+## Minor Updates
+ - [org.junit.jupiter](https://repo1.maven.org/maven2/org/junit/jupiter/)
+    - [junit-jupiter-api](https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-api/) **[5.9.3](https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-api/5.9.3)** < [5.10.0](https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-api/5.10.0/)
+    - [junit-jupiter-engine](https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-engine/) **[5.9.3](https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.9.3)** < [5.10.0](https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.10.0/)
+
+## Updates Applied
+[updated.target](updated.target)
+
 ## Content
  - [com.google.code.gson](https://repo1.maven.org/maven2/com/google/code/gson/)
     - [gson](https://repo1.maven.org/maven2/com/google/code/gson/gson/) **[2.10.1](https://repo1.maven.org/maven2/com/google/code/gson/gson/2.10.1)**
