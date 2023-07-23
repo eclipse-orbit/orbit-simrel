@@ -394,6 +394,49 @@ Export-Package:         org.codelibs.nekohtml.*;version="${version}";-noimport:=
     </location>
 
 
+<!-- ______________________________________________________ org.apache.ws.commons.util __________________________________________________________________________________________________-->
+
+
+    <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
+      <feature id="org.eclipse.orbit.maven.org.apache.ws.commons.util" label="Orbit Maven BND org.apache.ws.commons.util" provider-name="Eclipse Orbit" version="4.29.0.v20230723-0712">
+        <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
+        <copyright>
+Copyright (c) 2023 Eclipse contributors and others.
+
+This program and the accompanying materials
+are made available under the terms of the Eclipse Public License 2.0
+which accompanies this distribution, and is available at
+https://www.eclipse.org/legal/epl-2.0/
+
+SPDX-License-Identifier: EPL-2.0
+        </copyright>
+        <license url="https://www.eclipse.org/legal/epl-2.0/"/>
+      </feature>
+      <dependencies>
+        <dependency>
+          <groupId>org.apache.ws.commons.util</groupId>
+          <artifactId>ws-commons-util</artifactId>
+          <version>1.0.2</version>
+          <type>jar</type>
+        </dependency>
+      </dependencies>
+      <instructions>
+<!-- SHA1 29e0e686547cfae2ca79b6feebfa97bb3b601e9c -->
+<![CDATA[
+Bundle-Name:            Bundle ${mvnGroupId} : ${mvnArtifactId}
+version:                ${versionmask;===;${version_cleanup;${mvnVersion}}}
+Bundle-SymbolicName:    ${mvnGroupId}
+Bundle-Version:         ${version}.v20230723-0712
+Eclipse-Wrapped-Bundle: ${mvnGroupId}:${mvnArtifactId}:${mvnVersion}
+Import-Package:         *;version=!
+Export-Package:         *;version="${version}";-noimport:=true
+-noextraheaders:        true
+-removeheaders:         Private-Package
+]]>
+      </instructions>
+    </location>
+
+
 <!-- ______________________________________________________ EXCLUDE __________________________________________________________________________________________________-->
 
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="error" type="Maven">

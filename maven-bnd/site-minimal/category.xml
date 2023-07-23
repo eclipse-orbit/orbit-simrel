@@ -8,4 +8,5 @@
    <feature id="org.eclipse.orbit.maven.junit"/>
    <feature id="org.eclipse.orbit.maven.lucene"/>
    <feature id="org.eclipse.orbit.maven.nekohtml"/>
+   <feature id="org.eclipse.orbit.maven.org.apache.ws.commons.util"/>
 </site>
