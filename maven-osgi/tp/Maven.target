@@ -1023,9 +1023,7 @@ SPDX-License-Identifier: EPL-2.0
       <unit id="com.github.jnr.a64asm" version="0.0.0"/>
       <unit id="com.github.jnr.x86asm" version="0.0.0"/>
       <unit id="org.aopalliance" version="0.0.0"/>
-      <unit id="org.jdom2" version="0.0.0"/>
       <unit id="org.junit" version="0.0.0"/>
-      <unit id="org.hamcrest.core" version="0.0.0"/>
       <unit id="org.apache.ws.commons.util" version="0.0.0"/>
     </location>
 
