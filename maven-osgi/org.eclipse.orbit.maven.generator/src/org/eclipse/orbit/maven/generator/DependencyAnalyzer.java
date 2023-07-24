@@ -588,6 +588,7 @@ public class DependencyAnalyzer {
 		private final int minor;
 		private final int micro;
 		private final String qualifier;
+		private final Integer qualifierVersion;
 
 		public static boolean isValid(String value) {
 			return VERSION_PATTERN.matcher(value).matches();
@@ -611,17 +612,28 @@ public class DependencyAnalyzer {
 				micro = -1;
 			}
 			qualifier = matcher.group(4);
+
+			Integer qualifierVersion = null;
+			if (qualifier != null && qualifier.startsWith(".")) {
+				try {
+					qualifierVersion = Integer.parseInt(qualifier.substring(1));
+				} catch (NumberFormatException ex) {
+					//$FALL-THROUGH$
+				}
+			}
+			this.qualifierVersion = qualifierVersion;
 		}
 
-		private Version(int major, int minor, int micro, String qualifier) {
+		private Version(int major, int minor, int micro, String qualifier, Integer qualifierVersion) {
 			this.major = major;
 			this.minor = minor;
 			this.micro = micro;
 			this.qualifier = qualifier;
+			this.qualifierVersion = qualifierVersion;
 		}
 
 		public Version nextMajor() {
-			return new Version(major + 1, 0, -1, null);
+			return new Version(major + 1, 0, -1, null, null);
 		}
 
 		@Override
@@ -639,6 +651,15 @@ public class DependencyAnalyzer {
 				result = Integer.compare(micro, other.micro);
 			}
 			if (result == 0) {
+				if (qualifierVersion == null) {
+					if (other.qualifierVersion != null) {
+						return -1;
+					}
+				} else if (other.qualifierVersion == null) {
+					return 1;
+				} else {
+					return compare(qualifierVersion, other.qualifierVersion);
+				}
 				result = compare(qualifier, other.qualifier);
 			}
 			return result;
@@ -664,7 +685,7 @@ public class DependencyAnalyzer {
 	}
 
 	private static final class Dependency implements Comparable<Dependency> {
-		private static final Version MAX_VERSION = new Version(Short.MAX_VALUE, 0, -1, null);
+		private static final Version MAX_VERSION = new Version(Short.MAX_VALUE, 0, -1, null, null);
 
 		private final String groupId;
 		private final String artifactId;
