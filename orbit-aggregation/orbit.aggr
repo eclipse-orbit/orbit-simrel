@@ -208,11 +208,7 @@
         <bundles name="org.jgrapht.jgrapht-core" versionRange="[1.4.0.v20220411-2343]"/>
         <bundles name="org.jheaps.jheaps" versionRange="[0.14.0.v20220411-2343]"/>
         <bundles name="org.knowm.xchart" versionRange="[3.6.5.v20221112-0806]"/>
-        <bundles name="org.mandas.docker-client" versionRange="[3.2.1.v20221112-0806]"/>
-        <bundles name="org.mockito.junit-jupiter" versionRange="[4.8.1.v20221103-2317]"/>
-        <bundles name="org.mockito.mockito-core" versionRange="[4.8.1.v20221103-2317]"/>
         <bundles name="org.mozilla.javascript" versionRange="[1.7.10.v20221112-0806]"/>
-        <bundles name="org.opentest4j" versionRange="[1.2.0.v20211018-1956]"/>
         <bundles name="org.reactivestreams" versionRange="[1.0.2.v20181120-0809]"/>
         <bundles name="org.slf4j.api" versionRange="[1.7.30.v20221112-0806]"/>
         <bundles name="org.slf4j.apis.jcl" versionRange="[1.7.30.v20221112-0806]"/>
@@ -222,7 +218,6 @@
         <bundles name="org.slf4j.binding.simple" versionRange="[1.7.30.v20221112-0806]"/>
         <bundles name="org.slf4j.bridge.jul" versionRange="[1.7.30.v20221112-0806]"/>
         <bundles name="org.slf4j.ext" versionRange="[1.7.30.v20221112-0806]"/>
-        <bundles name="org.tukaani.xz" versionRange="[1.9.0.v20210624-1259]"/>
         <mapRules xsi:type="aggregator:ExclusionRule" name="com.fasterxml.jackson.core.jackson-annotations" versionRange="[2.13.2.v20220426-1653]"/>
         <mapRules xsi:type="aggregator:ExclusionRule" name="com.fasterxml.jackson.core.jackson-core" versionRange="[2.13.2.v20220426-1653]"/>
         <mapRules xsi:type="aggregator:ExclusionRule" name="com.fasterxml.jackson.core.jackson-databind" versionRange="[2.13.2.v20220426-1653]"/>
@@ -307,12 +302,17 @@
         <mapRules xsi:type="aggregator:ExclusionRule" name="org.junit.vintage.engine" versionRange="[5.9.1.v20221103-2317]"/>
         <mapRules xsi:type="aggregator:ExclusionRule" name="org.junit" versionRange="[4.13.2.v20211018-1956]"/>
         <mapRules xsi:type="aggregator:ExclusionRule" name="org.kohsuke.args4j" versionRange="[2.33.0.v20160323-2218]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="org.mandas.docker-client" versionRange="[3.2.1.v20221112-0806]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="org.mockito.junit-jupiter" versionRange="[4.8.1.v20221103-2317]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="org.mockito.mockito-core" versionRange="[4.8.1.v20221103-2317]"/>
         <mapRules xsi:type="aggregator:ExclusionRule" name="org.objectweb.asm.analysis" versionRange="[9.4.0.v20221107-1714]"/>
         <mapRules xsi:type="aggregator:ExclusionRule" name="org.objectweb.asm.commons" versionRange="[9.4.0.v20221107-1714]"/>
         <mapRules xsi:type="aggregator:ExclusionRule" name="org.objectweb.asm.tree" versionRange="[9.4.0.v20221107-1714]"/>
         <mapRules xsi:type="aggregator:ExclusionRule" name="org.objectweb.asm.util" versionRange="[9.4.0.v20221107-1714]"/>
         <mapRules xsi:type="aggregator:ExclusionRule" name="org.objectweb.asm" versionRange="[9.4.0.v20221107-1714]"/>
         <mapRules xsi:type="aggregator:ExclusionRule" name="org.objenesis" versionRange="[3.3.0.v20221103-2317]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="org.opentest4j" versionRange="[1.2.0.v20211018-1956]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="org.tukaani.xz" versionRange="[1.9.0.v20210624-1259]"/>
         <mapRules xsi:type="aggregator:ExclusionRule" name="org.yaml.snakeyaml" versionRange="[1.27.0.v20221112-0806]"/>
       </repositories>
     </contributions>
