@@ -796,9 +796,13 @@ public class DependencyAnalyzer {
 
 		private String password;
 
+		private HttpClient httpClient;
+
 		public ContentHandler(String cache, String username, String password) {
 			this.username = username;
 			this.password = password;
+
+			httpClient = HttpClient.newBuilder().followRedirects(HttpClient.Redirect.NORMAL).build();
 
 			try {
 				if (cache != null) {
@@ -816,10 +820,10 @@ public class DependencyAnalyzer {
 					REDIRECTIONS.put(createURI(components[0]), createURI(components[1]));
 				}
 			}
+
 		}
 
 		protected String basicGetContent(URI uri) throws IOException, InterruptedException {
-			var httpClient = HttpClient.newBuilder().followRedirects(HttpClient.Redirect.NORMAL).build();
 			var requestBuilder = HttpRequest.newBuilder(uri).GET();
 			if (username != null && password != null) {
 				requestBuilder = requestBuilder.header("Authorization", "Basic " + Base64.getEncoder()
