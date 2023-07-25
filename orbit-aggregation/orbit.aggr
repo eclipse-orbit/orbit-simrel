@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<aggregator:Aggregation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="Platform" buildRoot="target/aggregation" includeSources="true">
+<aggregator:Aggregation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="Platform" buildRoot="target/aggregation" includeSources="true">
   <validationSets label="orbit">
     <contributions label="maven-osgi">
       <repositories location="https://download.eclipse.org/tools/orbit/simrel/maven-osgi/nightly/latest" description="maven-osgi"/>
@@ -8,11 +8,317 @@
       <repositories location="https://download.eclipse.org/tools/orbit/simrel/maven-bnd/nightly/latest" description="maven-bnd"/>
     </contributions>
     <contributions description="orbit" label="orbit">
-      <repositories location="https://download.eclipse.org/tools/orbit/downloads/latest-N" description="orbit"/>
+      <repositories location="https://download.eclipse.org/tools/orbit/downloads/latest-N" description="orbit">
+        <bundles name="ca.odell.glazedlists" versionRange="[1.11.0.v20221112-0806]"/>
+        <bundles name="ch.qos.logback.classic" versionRange="[1.2.3.v20221112-0806]"/>
+        <bundles name="ch.qos.logback.core" versionRange="[1.2.3.v20221112-0806]"/>
+        <bundles name="ch.qos.logback.slf4j" versionRange="[1.2.3.v20221112-0806]"/>
+        <bundles name="com.atlassian.commonmark" versionRange="[0.15.1.v20221112-0806]"/>
+        <bundles name="com.atlassian.commonmark-gfm-strikethrough" versionRange="[0.15.1.v20221112-0806]"/>
+        <bundles name="com.atlassian.commonmark-gfm-tables" versionRange="[0.15.1.v20221112-0806]"/>
+        <bundles name="com.atlassian.commonmark-heading-anchor" versionRange="[0.15.1.v20221112-0806]"/>
+        <bundles name="com.atlassian.commonmark-image-attributes" versionRange="[0.15.1.v20221112-0806]"/>
+        <bundles name="com.atlassian.commonmark-ins" versionRange="[0.15.1.v20221112-0806]"/>
+        <bundles name="com.atlassian.commonmark-task-list-items" versionRange="[0.15.1.v20221112-0806]"/>
+        <bundles name="com.atlassian.commonmark-yaml" versionRange="[0.15.1.v20221112-0806]"/>
+        <bundles name="com.cronutils" versionRange="[5.0.5.v20221112-0806]"/>
+        <bundles name="com.github.oshi.oshi-core" versionRange="[3.8.0.v20221112-0806]"/>
+        <bundles name="com.github.virtuald.curvesapi" versionRange="[1.6.0.v20221112-0806]"/>
+        <bundles name="com.google.api.client-auth" versionRange="[1.2.3.v20221112-0806]"/>
+        <bundles name="com.google.api.client-auth-oauth2" versionRange="[1.2.3.v20221112-0806]"/>
+        <bundles name="com.google.api.client-escape" versionRange="[1.2.3.v20221112-0806]"/>
+        <bundles name="com.google.api.client-http" versionRange="[1.2.3.v20221112-0806]"/>
+        <bundles name="com.google.api.client-json" versionRange="[1.2.3.v20221112-0806]"/>
+        <bundles name="com.google.api.client-repackaged-com-google-common-base" versionRange="[1.2.3.v20221112-0806]"/>
+        <bundles name="com.google.api.client-util" versionRange="[1.2.3.v20221112-0806]"/>
+        <bundles name="com.google.auth.google-auth-library-credentials" versionRange="[0.20.0.v20221112-0806]"/>
+        <bundles name="com.google.auth.oauth2-http" versionRange="[0.20.0.v20221112-0806]"/>
+        <bundles name="com.google.auto.value.auto-value-annotations" versionRange="[1.7.0.v20221112-0806]"/>
+        <bundles name="com.google.flogger" versionRange="[0.1.0.v20180506-0038]"/>
+        <bundles name="com.google.flogger.systembackend" versionRange="[0.1.0.v20180506-0038]"/>
+        <bundles name="com.google.flogger.testing" versionRange="[0.1.0.v20180506-0038]"/>
+        <bundles name="com.google.gdata" versionRange="[1.47.1.v20221112-0806]"/>
+        <bundles name="com.google.guava" versionRange="[30.1.0.v20221112-0806]"/>
+        <bundles name="com.google.http-client.google-http-client" versionRange="[1.34.2.v20221112-0806]"/>
+        <bundles name="com.google.http-client.google-http-client-jackson2" versionRange="[1.34.2.v20221112-0806]"/>
+        <bundles name="com.google.j2objc.j2objc-annotations" versionRange="[1.3.0.v20221112-0806]"/>
+        <bundles name="com.google.javascript" versionRange="[0.0.20160315.v20161124-1903]"/>
+        <bundles name="com.google.oauth-client" versionRange="[1.30.6.v20221112-0806]"/>
+        <bundles name="com.google.oauth-client-java6" versionRange="[1.30.6.v20221112-0806]"/>
+        <bundles name="com.google.oauth-client-jetty" versionRange="[1.30.6.v20221112-0806]"/>
+        <bundles name="com.google.protobuf" versionRange="[2.4.1.v20220404-1934]"/>
+        <bundles name="com.graphql.java" versionRange="[11.0.0.v20221112-0806]"/>
+        <bundles name="com.graphql.java.dataloader" versionRange="[2.1.1.v20181120-0809]"/>
+        <bundles name="com.jcraft.jsch" versionRange="[0.1.55.v20221112-0806]"/>
+        <bundles name="com.jcraft.jzlib" versionRange="[1.1.3.v20220502-1820]"/>
+        <bundles name="com.konghq.unirest-java" versionRange="[3.4.2.v20221112-0806]"/>
+        <bundles name="com.sun.grid.drmaa" versionRange="[1.0.0.v20170818-1553]"/>
+        <bundles name="com.sun.jna" versionRange="[4.1.0.v20210503-0343]"/>
+        <bundles name="com.sun.jna" versionRange="[4.5.1.v20210503-0343]"/>
+        <bundles name="com.sun.jna" versionRange="[5.6.0.v20210503-0343]"/>
+        <bundles name="com.sun.jna" versionRange="[5.8.0.v20210503-0343]"/>
+        <bundles name="com.sun.jna" versionRange="[5.12.1.v20221103-2317]"/>
+        <bundles name="com.sun.jna.platform" versionRange="[4.1.0.v20170410-1117]"/>
+        <bundles name="com.sun.jna.platform" versionRange="[4.5.1.v20221112-0806]"/>
+        <bundles name="com.sun.jna.platform" versionRange="[5.6.0.v20221112-0806]"/>
+        <bundles name="com.sun.jna.platform" versionRange="[5.8.0.v20221112-0806]"/>
+        <bundles name="com.sun.jna.platform" versionRange="[5.12.1.v20221103-2317]"/>
+        <bundles name="com.sun.xml.bind" versionRange="[2.2.0.v20221112-0806]"/>
+        <bundles name="com.sun.xml.bind" versionRange="[2.3.3.v20221203-1659]"/>
+        <bundles name="io.github.classgraph" versionRange="[4.8.149.v20220915-0556]"/>
+        <bundles name="io.github.java-diff-utils" versionRange="[4.8.0.v20221112-0806]"/>
+        <bundles name="io.grpc.grpc-context" versionRange="[1.29.0.v20221112-0806]"/>
+        <bundles name="io.netty.buffer" versionRange="[4.1.56.v20221112-0806]"/>
+        <bundles name="io.netty.common" versionRange="[4.1.56.v20221112-0806]"/>
+        <bundles name="io.opencensus.opencensus-api" versionRange="[0.26.0.v20221112-0806]"/>
+        <bundles name="io.opencensus.opencensus-contrib-http-util" versionRange="[0.26.0.v20221112-0806]"/>
+        <bundles name="jakarta.activation" versionRange="[2.0.0.v20221203-1659]"/>
+        <bundles name="jakarta.el" versionRange="[4.0.0.v20221203-1659]"/>
+        <bundles name="jakarta.servlet" versionRange="[5.0.0.v20221203-1659]"/>
+        <bundles name="jakarta.servlet.jsp" versionRange="[3.0.0.v20221203-1659]"/>
+        <bundles name="jakarta.websocket" versionRange="[2.0.0.v20221203-1659]"/>
+        <bundles name="jakarta.xml.bind" versionRange="[2.3.3.v20221203-1659]"/>
+        <bundles name="java_cup" versionRange="[0.11.20150326.v20180425-1030]"/>
+        <bundles name="java_cup-runtime" versionRange="[0.11.20150326.v20180425-1030]"/>
+        <bundles name="javax.activation" versionRange="[1.2.2.v20221203-1659]"/>
+        <bundles name="javax.activation" versionRange="[2.0.0.v20221203-1659]"/>
+        <bundles name="javax.inject" versionRange="[1.0.0.v20220405-0441]"/>
+        <bundles name="javax.measure.unit-api" versionRange="[1.0.0.v20170818-1538]"/>
+        <bundles name="javax.validation" versionRange="[1.1.0.v20221112-0806]"/>
+        <bundles name="javax.ws.rs" versionRange="[2.1.6.v20221203-1659]"/>
+        <bundles name="javax.xml" versionRange="[1.4.1.v20220503-2331]"/>
+        <bundles name="net.i2p.crypto.eddsa" versionRange="[0.3.0.v20220506-1020]"/>
+        <bundles name="net.jini" versionRange="[2.1.0.v20221112-0806]"/>
+        <bundles name="net.sourceforge.plantuml" versionRange="[1.2019.0.v20221112-0806]"/>
+        <bundles name="org.antlr.runtime" versionRange="[3.2.0.v20220404-1927]"/>
+        <bundles name="org.antlr.runtime" versionRange="[3.5.2.v20221112-0806]"/>
+        <bundles name="org.antlr.runtime" versionRange="[4.5.1.v20160210-1233]"/>
+        <bundles name="org.antlr.runtime" versionRange="[4.7.1.v20181120-0808]"/>
+        <bundles name="org.antlr.runtime" versionRange="[4.7.2.v20221112-0806]"/>
+        <bundles name="org.antlr.runtime" versionRange="[4.10.1.v20230210-1433]"/>
+        <bundles name="org.aopalliance" versionRange="[1.0.0.v20220404-1927]"/>
+        <bundles name="org.apache.ant" versionRange="[1.10.12.v20211102-1452]"/>
+        <bundles name="org.apache.batik.anim" versionRange="[1.16.0.v20221027-0840]"/>
+        <bundles name="org.apache.batik.awt.util" versionRange="[1.16.0.v20221027-0840]"/>
+        <bundles name="org.apache.batik.bridge" versionRange="[1.16.0.v20230210-1249]"/>
+        <bundles name="org.apache.batik.codec" versionRange="[1.16.0.v20221027-0840]"/>
+        <bundles name="org.apache.batik.constants" versionRange="[1.16.0.v20221027-0840]"/>
+        <bundles name="org.apache.batik.css" versionRange="[1.16.0.v20221027-0840]"/>
+        <bundles name="org.apache.batik.dom" versionRange="[1.16.0.v20230210-1249]"/>
+        <bundles name="org.apache.batik.dom.svg" versionRange="[1.16.0.v20221027-0840]"/>
+        <bundles name="org.apache.batik.ext" versionRange="[1.16.0.v20221027-0840]"/>
+        <bundles name="org.apache.batik.gvt" versionRange="[1.16.0.v20221027-0840]"/>
+        <bundles name="org.apache.batik.i18n" versionRange="[1.16.0.v20221027-0840]"/>
+        <bundles name="org.apache.batik.parser" versionRange="[1.16.0.v20221027-0840]"/>
+        <bundles name="org.apache.batik.script" versionRange="[1.16.0.v20221027-0840]"/>
+        <bundles name="org.apache.batik.shared.resources" versionRange="[1.16.0.v20221027-0840]"/>
+        <bundles name="org.apache.batik.svggen" versionRange="[1.16.0.v20221027-0840]"/>
+        <bundles name="org.apache.batik.transcoder" versionRange="[1.16.0.v20221027-0840]"/>
+        <bundles name="org.apache.batik.util" versionRange="[1.16.0.v20221027-0840]"/>
+        <bundles name="org.apache.batik.xml" versionRange="[1.16.0.v20221027-0840]"/>
+        <bundles name="org.apache.commons.collections4" versionRange="[4.4.0.v20221112-0806]"/>
+        <bundles name="org.apache.commons.csv" versionRange="[1.8.0.v20221112-0806]"/>
+        <bundles name="org.apache.commons.lang3" versionRange="[3.12.0.v20221221-1931]"/>
+        <bundles name="org.apache.commons.math3" versionRange="[3.6.1.v20221112-0806]"/>
+        <bundles name="org.apache.httpcomponents.client5.httpclient5" versionRange="[5.1.3.v20221013-1742]"/>
+        <bundles name="org.apache.httpcomponents.client5.httpclient5-win" versionRange="[5.1.3.v20221013-1742]"/>
+        <bundles name="org.apache.httpcomponents.core5.httpcore5" versionRange="[5.1.4.v20221013-1742]"/>
+        <bundles name="org.apache.httpcomponents.core5.httpcore5-h2" versionRange="[5.1.4.v20221013-1742]"/>
+        <bundles name="org.apache.httpcomponents.httpasyncclient" versionRange="[4.1.3.v20221112-0806]"/>
+        <bundles name="org.apache.httpcomponents.httpclient" versionRange="[4.5.14.v20230516-1249]"/>
+        <bundles name="org.apache.httpcomponents.httpclient.win" versionRange="[4.5.14.v20221207-1049]"/>
+        <bundles name="org.apache.httpcomponents.httpcore" versionRange="[4.4.16.v20221207-1049]"/>
+        <bundles name="org.apache.httpcomponents.httpcore-nio" versionRange="[4.4.16.v20221207-1049]"/>
+        <bundles name="org.apache.jclouds.api.cloudwatch" versionRange="[1.8.0.v20160301-1110]"/>
+        <bundles name="org.apache.jclouds.api.ec2" versionRange="[1.8.0.v20160301-1110]"/>
+        <bundles name="org.apache.jclouds.api.openstack-cinder" versionRange="[1.8.0.v20160301-1110]"/>
+        <bundles name="org.apache.jclouds.api.openstack-keystone" versionRange="[1.8.0.v20160301-1110]"/>
+        <bundles name="org.apache.jclouds.api.openstack-nova" versionRange="[1.8.0.v20160301-1110]"/>
+        <bundles name="org.apache.jclouds.api.sts" versionRange="[1.8.0.v20160301-1110]"/>
+        <bundles name="org.apache.jclouds.common.openstack-common" versionRange="[1.8.0.v20160301-1110]"/>
+        <bundles name="org.apache.jclouds.driver.jclouds-slf4j" versionRange="[1.8.0.v20160301-1110]"/>
+        <bundles name="org.apache.jclouds.jclouds-blobstore" versionRange="[1.8.0.v20160301-1110]"/>
+        <bundles name="org.apache.jclouds.jclouds-compute" versionRange="[1.8.0.v20160301-1110]"/>
+        <bundles name="org.apache.jclouds.jclouds-core" versionRange="[1.8.0.v20181004-1955]"/>
+        <bundles name="org.apache.jclouds.jclouds-scriptbuilder" versionRange="[1.8.0.v20160301-1110]"/>
+        <bundles name="org.apache.jclouds.labs.docker" versionRange="[1.8.0.v20160301-1110]"/>
+        <bundles name="org.apache.jclouds.labs.openstack-neutron" versionRange="[1.8.0.v20160301-1110]"/>
+        <bundles name="org.apache.log4j" versionRange="[1.2.24.v20221221-2012]"/>
+        <bundles name="org.apache.logging.log4j" versionRange="[2.17.1.v20220106-2156]"/>
+        <bundles name="org.apache.maven.resolver.api" versionRange="[1.0.3.v20170405-0725]"/>
+        <bundles name="org.apache.maven.resolver.connector.basic" versionRange="[1.0.3.v20170405-0725]"/>
+        <bundles name="org.apache.maven.resolver.impl" versionRange="[1.0.3.v20170405-0725]"/>
+        <bundles name="org.apache.maven.resolver.spi" versionRange="[1.0.3.v20170405-0725]"/>
+        <bundles name="org.apache.maven.resolver.transport.file" versionRange="[1.0.3.v20170405-0725]"/>
+        <bundles name="org.apache.maven.resolver.transport.http" versionRange="[1.0.3.v20170405-0725]"/>
+        <bundles name="org.apache.maven.resolver.util" versionRange="[1.0.3.v20170405-0725]"/>
+        <bundles name="org.apache.onami.configuration" versionRange="[6.3.0.v20160301-1110]"/>
+        <bundles name="org.apache.pdfbox" versionRange="[2.0.6.v20221112-0806]"/>
+        <bundles name="org.apache.pdfbox.fontbox" versionRange="[2.0.6.v20221112-0806]"/>
+        <bundles name="org.apache.pdfbox.preflight" versionRange="[2.0.6.v20221112-0806]"/>
+        <bundles name="org.apache.pdfbox.xmpbox" versionRange="[2.0.6.v20221112-0806]"/>
+        <bundles name="org.apache.poi" versionRange="[4.1.1.v20221112-0806]"/>
+        <bundles name="org.apache.poi.ooxml" versionRange="[4.1.1.v20221112-0806]"/>
+        <bundles name="org.apache.poi.ooxml.schemas" versionRange="[4.1.1.v20221112-0806]"/>
+        <bundles name="org.apache.santuario.xmlsec" versionRange="[2.2.0.v20221112-0806]"/>
+        <bundles name="org.apache.tika.core" versionRange="[1.24.1.v20211101-1915]"/>
+        <bundles name="org.apache.tika.parsers" versionRange="[1.24.1.v20211101-1915]"/>
+        <bundles name="org.apache.ws.commons.util" versionRange="[1.0.2.v20160817-1930]"/>
+        <bundles name="org.apache.wsil4j" versionRange="[1.0.0.v20180522-1857]"/>
+        <bundles name="org.apache.xalan" versionRange="[2.7.2.v20221112-0806]"/>
+        <bundles name="org.apache.xerces" versionRange="[2.12.2.v20220131-0835]"/>
+        <bundles name="org.apache.xml.resolver" versionRange="[1.2.0.v20220715-1206]"/>
+        <bundles name="org.apache.xml.serializer" versionRange="[2.7.2.v20220406-0601]"/>
+        <bundles name="org.apache.xmlbeans" versionRange="[3.1.0.v20221112-0806]"/>
+        <bundles name="org.apache.xmlgraphics" versionRange="[2.7.0.v20221018-0736]"/>
+        <bundles name="org.apiguardian" versionRange="[1.1.2.v20211018-1956]"/>
+        <bundles name="org.conscrypt.conscrypt-openjdk-uber" versionRange="[2.5.1.v20220506-1020]"/>
+        <bundles name="org.dom4j" versionRange="[1.6.1.v20221112-0806]"/>
+        <bundles name="org.dom4j" versionRange="[2.1.1.v20221112-0806]"/>
+        <bundles name="org.eclipse.orbit.mongodb" versionRange="[3.2.2.v20181004-1955]"/>
+        <bundles name="org.ejml.core" versionRange="[0.29.0.v20221112-0806]"/>
+        <bundles name="org.ejml.dense64" versionRange="[0.29.0.v20221112-0806]"/>
+        <bundles name="org.ejml.denseC64" versionRange="[0.29.0.v20221112-0806]"/>
+        <bundles name="org.ejml.ejml-all" versionRange="[0.38.0.v20221112-0806]"/>
+        <bundles name="org.ejml.equation" versionRange="[0.29.0.v20221112-0806]"/>
+        <bundles name="org.ejml.experimental" versionRange="[0.29.0.v20221112-0806]"/>
+        <bundles name="org.ejml.simple" versionRange="[0.29.0.v20221112-0806]"/>
+        <bundles name="org.freemarker" versionRange="[2.3.22.v20160210-1233]"/>
+        <bundles name="org.ggf.drmaa" versionRange="[1.0.0.v20170818-1553]"/>
+        <bundles name="org.glassfish.hk2.api" versionRange="[2.5.0.v20161103-0227]"/>
+        <bundles name="org.glassfish.hk2.api" versionRange="[2.6.1.v20221203-1659]"/>
+        <bundles name="org.glassfish.hk2.locator" versionRange="[2.5.0.v20161103-0227]"/>
+        <bundles name="org.glassfish.hk2.locator" versionRange="[2.6.1.v20221203-1659]"/>
+        <bundles name="org.glassfish.hk2.osgi-resource-locator" versionRange="[1.0.3.v20221203-1659]"/>
+        <bundles name="org.glassfish.hk2.osgi-resource-locator" versionRange="[2.5.0.v20161103-1916]"/>
+        <bundles name="org.glassfish.hk2.utils" versionRange="[2.5.0.v20160210-1508]"/>
+        <bundles name="org.glassfish.hk2.utils" versionRange="[2.6.1.v20221203-1659]"/>
+        <bundles name="org.glassfish.jersey.apache.connector" versionRange="[2.30.1.v20221203-1659]"/>
+        <bundles name="org.glassfish.jersey.containers.servlet" versionRange="[2.30.1.v20221112-0806]"/>
+        <bundles name="org.glassfish.jersey.containers.servlet.core" versionRange="[2.30.1.v20221112-0806]"/>
+        <bundles name="org.glassfish.jersey.core.jersey-client" versionRange="[2.30.1.v20221112-0806]"/>
+        <bundles name="org.glassfish.jersey.core.jersey-common" versionRange="[2.30.1.v20221112-0806]"/>
+        <bundles name="org.glassfish.jersey.core.jersey-server" versionRange="[2.30.1.v20221112-0806]"/>
+        <bundles name="org.glassfish.jersey.ext.entityfiltering" versionRange="[2.30.1.v20221112-0806]"/>
+        <bundles name="org.glassfish.jersey.inject.jersey-hk2" versionRange="[2.30.1.v20221203-1659]"/>
+        <bundles name="org.glassfish.jersey.media.jersey-media-json-jackson" versionRange="[2.30.1.v20221112-0806]"/>
+        <bundles name="org.hamcrest.library" versionRange="[1.3.0.v20180524-2246]"/>
+        <bundles name="org.hsqldb" versionRange="[2.2.9.v20221112-0806]"/>
+        <bundles name="org.immutables.value" versionRange="[2.8.3.v20221112-0806]"/>
+        <bundles name="org.jaxen" versionRange="[1.1.6.v20221112-0806]"/>
+        <bundles name="org.jboss.logging" versionRange="[3.3.2.v20221112-0806]"/>
+        <bundles name="org.jcodings" versionRange="[1.0.18.v20170306-1742]"/>
+        <bundles name="org.jgrapht.jgrapht-core" versionRange="[1.4.0.v20220411-2343]"/>
+        <bundles name="org.jheaps.jheaps" versionRange="[0.14.0.v20220411-2343]"/>
+        <bundles name="org.knowm.xchart" versionRange="[3.6.5.v20221112-0806]"/>
+        <bundles name="org.mandas.docker-client" versionRange="[3.2.1.v20221112-0806]"/>
+        <bundles name="org.mockito.junit-jupiter" versionRange="[4.8.1.v20221103-2317]"/>
+        <bundles name="org.mockito.mockito-core" versionRange="[4.8.1.v20221103-2317]"/>
+        <bundles name="org.mozilla.javascript" versionRange="[1.7.10.v20221112-0806]"/>
+        <bundles name="org.opentest4j" versionRange="[1.2.0.v20211018-1956]"/>
+        <bundles name="org.reactivestreams" versionRange="[1.0.2.v20181120-0809]"/>
+        <bundles name="org.slf4j.api" versionRange="[1.7.30.v20221112-0806]"/>
+        <bundles name="org.slf4j.apis.jcl" versionRange="[1.7.30.v20221112-0806]"/>
+        <bundles name="org.slf4j.apis.log4j" versionRange="[1.7.30.v20221112-0806]"/>
+        <bundles name="org.slf4j.binding.log4j12" versionRange="[1.7.30.v20221112-0806]"/>
+        <bundles name="org.slf4j.binding.nop" versionRange="[1.7.30.v20221112-0806]"/>
+        <bundles name="org.slf4j.binding.simple" versionRange="[1.7.30.v20221112-0806]"/>
+        <bundles name="org.slf4j.bridge.jul" versionRange="[1.7.30.v20221112-0806]"/>
+        <bundles name="org.slf4j.ext" versionRange="[1.7.30.v20221112-0806]"/>
+        <bundles name="org.tukaani.xz" versionRange="[1.9.0.v20210624-1259]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="com.fasterxml.jackson.core.jackson-annotations" versionRange="[2.13.2.v20220426-1653]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="com.fasterxml.jackson.core.jackson-core" versionRange="[2.13.2.v20220426-1653]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="com.fasterxml.jackson.core.jackson-databind" versionRange="[2.13.2.v20220426-1653]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="com.fasterxml.jackson.datatype.jackson-datatype-guava" versionRange="[2.13.2.v20220426-1653]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="com.fasterxml.jackson.jaxrs.jackson-jaxrs-base" versionRange="[2.13.2.v20220426-1653]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="com.fasterxml.jackson.jaxrs.jackson-jaxrs-json-provider" versionRange="[2.13.2.v20220426-1653]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="com.fasterxml.jackson.module.jackson-module-jaxb-annotations" versionRange="[2.13.2.v20220426-1653]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="com.github.jnr.a64asm" versionRange="[1.0.0.v20221215-1656]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="com.github.jnr.constants" versionRange="[0.10.3.v20221215-1656]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="com.github.jnr.enxio" versionRange="[0.32.13.v20221215-1656]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="com.github.jnr.ffi" versionRange="[2.2.11.v20221215-1656]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="com.github.jnr.jffi.native" versionRange="[1.3.9.v20221215-1656]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="com.github.jnr.jffi" versionRange="[1.3.9.v20221215-1656]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="com.github.jnr.posix" versionRange="[3.1.15.v20221215-1656]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="com.github.jnr.unixsocket" versionRange="[0.38.17.v20221215-1656]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="com.github.jnr.x86asm" versionRange="[1.0.2.v20221112-0806]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="com.google.gson" versionRange="[2.10.1.v20230109-0753]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="com.google.guava" versionRange="[27.1.0.v20221112-0806]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="com.google.inject.assistedinject" versionRange="[5.0.1.v20221112-0806]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="com.google.inject" versionRange="[5.0.1.v20221112-0806]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="com.ibm.icu" versionRange="[72.1.0.v20221115-2007]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="jakarta.activation" versionRange="[1.2.2.v20221203-1659]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="javaewah" versionRange="[1.1.13.v20211029-0839]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="javax.annotation" versionRange="[1.3.5.v20230504-0748]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="net.bytebuddy.byte-buddy-agent" versionRange="[1.12.18.v20221114-2102]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="net.bytebuddy.byte-buddy-agent" versionRange="[1.7.9.v20180420-1519]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="net.bytebuddy.byte-buddy-agent" versionRange="[1.9.0.v20181106-1534]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="net.bytebuddy.byte-buddy" versionRange="[1.12.18.v20221114-2102]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="net.bytebuddy.byte-buddy" versionRange="[1.7.9.v20180420-1519]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="net.bytebuddy.byte-buddy" versionRange="[1.9.0.v20181107-1410]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="org.apache.commons.cli" versionRange="[1.4.0.v20221112-0806]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="org.apache.commons.codec" versionRange="[1.14.0.v20221112-0806]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="org.apache.commons.collections" versionRange="[3.2.2.v20220405-1659]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="org.apache.commons.compress" versionRange="[1.22.0.v20221207-1049]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="org.apache.commons.fileupload" versionRange="[1.3.2.v20170320-2229]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="org.apache.commons.io" versionRange="[2.8.0.v20210415-0900]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="org.apache.commons.lang" versionRange="[2.6.0.v20220406-2305]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="org.apache.commons.logging" versionRange="[1.2.0.v20180409-1502]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="org.apache.lucene.analysis-common" versionRange="[9.4.2.v20221211-0752]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="org.apache.lucene.analysis-smartcn" versionRange="[9.4.2.v20221211-0752]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="org.apache.lucene.analyzers-common" versionRange="[7.5.0.v20181003-1532]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="org.apache.lucene.analyzers-common" versionRange="[8.4.1.v20221112-0806]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="org.apache.lucene.analyzers-smartcn" versionRange="[7.5.0.v20181003-1532]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="org.apache.lucene.analyzers-smartcn" versionRange="[8.4.1.v20221112-0806]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="org.apache.lucene.core" versionRange="[7.5.0.v20181003-1532]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="org.apache.lucene.core" versionRange="[8.4.1.v20221112-0806]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="org.apache.lucene.core" versionRange="[9.4.2.v20221211-0752]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="org.apache.lucene.misc" versionRange="[7.5.0.v20181003-1532]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="org.apache.lucene.queryparser" versionRange="[7.5.0.v20181003-1532]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="org.apache.sshd.osgi" versionRange="[2.8.0.v20211227-1750]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="org.apache.sshd.osgi" versionRange="[2.9.2.v20221117-1942]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="org.apache.sshd.sftp" versionRange="[2.8.0.v20211227-1750]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="org.apache.sshd.sftp" versionRange="[2.9.2.v20221117-1942]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="org.apache.xmlrpc.client" versionRange="[3.1.3.v20160817-1930]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="org.apache.xmlrpc.common" versionRange="[3.1.3.v20181004-1955]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="org.apache.xmlrpc.server" versionRange="[3.1.3.v20181004-1955]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="org.assertj" versionRange="[3.20.2.v20210706-1104]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="org.bouncycastle.bcpg" versionRange="[1.72.0.v20221013-1810]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="org.bouncycastle.bcpkix" versionRange="[1.72.0.v20221013-1810]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="org.bouncycastle.bcprov" versionRange="[1.72.0.v20221013-1810]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="org.bouncycastle.bcutil" versionRange="[1.72.0.v20221013-1810]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="org.eclipse.orbit.releng.recipes.feature.aggregation.feature.group" versionRange="[1.0.0.v20230516-1249]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="org.hamcrest.core" versionRange="[1.3.0.v20180420-1519]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="org.hamcrest" versionRange="[2.2.0.v20210711-0821]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="org.jdom2" versionRange="[2.0.6.v20221112-0806]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="org.joni" versionRange="[2.1.11.v20170306-1742]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="org.jsoup" versionRange="[1.14.3.v20211012-1727]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="org.junit.jupiter.api" versionRange="[5.9.1.v20221103-2317]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="org.junit.jupiter.engine" versionRange="[5.9.1.v20221103-2317]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="org.junit.jupiter.migrationsupport" versionRange="[5.9.1.v20221103-2317]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="org.junit.jupiter.params" versionRange="[5.9.1.v20221103-2317]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="org.junit.platform.commons" versionRange="[1.9.1.v20221103-2317]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="org.junit.platform.engine" versionRange="[1.9.1.v20221103-2317]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="org.junit.platform.launcher" versionRange="[1.9.1.v20221103-2317]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="org.junit.platform.runner" versionRange="[1.9.1.v20221103-2317]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="org.junit.platform.suite.api" versionRange="[1.9.1.v20221103-2317]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="org.junit.platform.suite.commons" versionRange="[1.9.1.v20221103-2317]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="org.junit.platform.suite.engine" versionRange="[1.9.1.v20221103-2317]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="org.junit.vintage.engine" versionRange="[5.9.1.v20221103-2317]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="org.junit" versionRange="[4.13.2.v20211018-1956]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="org.kohsuke.args4j" versionRange="[2.33.0.v20160323-2218]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="org.objectweb.asm.analysis" versionRange="[9.4.0.v20221107-1714]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="org.objectweb.asm.commons" versionRange="[9.4.0.v20221107-1714]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="org.objectweb.asm.tree" versionRange="[9.4.0.v20221107-1714]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="org.objectweb.asm.util" versionRange="[9.4.0.v20221107-1714]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="org.objectweb.asm" versionRange="[9.4.0.v20221107-1714]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="org.objenesis" versionRange="[3.3.0.v20221103-2317]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="org.yaml.snakeyaml" versionRange="[1.27.0.v20221112-0806]"/>
+      </repositories>
     </contributions>
     <contributions label="orbit-legacy">
       <repositories location="https://download.eclipse.org/tools/orbit/downloads/drops/R20201118194144/repository" description="orbit-legacy">
-        <bundles name="org.apache.commons.httpclient"/>
+        <bundles name="org.uddi4j" versionRange="[2.0.5.v200805270300]"/>
       </repositories>
     </contributions>
     <contributions label="platform">
