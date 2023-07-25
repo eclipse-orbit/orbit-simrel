@@ -51,6 +51,8 @@
     - [org.jacoco.agent](https://repo1.maven.org/maven2/org/jacoco/org.jacoco.agent/) **[0.8.10](https://repo1.maven.org/maven2/org/jacoco/org.jacoco.agent/0.8.10)**
     - [org.jacoco.core](https://repo1.maven.org/maven2/org/jacoco/org.jacoco.core/) **[0.8.10](https://repo1.maven.org/maven2/org/jacoco/org.jacoco.core/0.8.10)**
     - [org.jacoco.report](https://repo1.maven.org/maven2/org/jacoco/org.jacoco.report/) **[0.8.10](https://repo1.maven.org/maven2/org/jacoco/org.jacoco.report/0.8.10)**
+ - [org.mockito](https://repo1.maven.org/maven2/org/mockito/)
+    - [mockito-junit-jupiter](https://repo1.maven.org/maven2/org/mockito/mockito-junit-jupiter/) **[5.4.0](https://repo1.maven.org/maven2/org/mockito/mockito-junit-jupiter/5.4.0)**
  - [org.mortbay.jasper](https://repo1.maven.org/maven2/org/mortbay/jasper/)
     - [apache-el](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-el/) **[9.0.52](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-el/9.0.52)**
     - [apache-jsp](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-jsp/) **[9.0.52](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-jsp/9.0.52)**
