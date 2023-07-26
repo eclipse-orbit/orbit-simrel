@@ -10,9 +10,6 @@
     <contributions description="orbit" label="orbit">
       <repositories location="https://download.eclipse.org/tools/orbit/downloads/latest-N" description="orbit">
         <bundles name="ca.odell.glazedlists" versionRange="[1.11.0.v20221112-0806]"/>
-        <bundles name="ch.qos.logback.classic" versionRange="[1.2.3.v20221112-0806]"/>
-        <bundles name="ch.qos.logback.core" versionRange="[1.2.3.v20221112-0806]"/>
-        <bundles name="ch.qos.logback.slf4j" versionRange="[1.2.3.v20221112-0806]"/>
         <bundles name="com.atlassian.commonmark" versionRange="[0.15.1.v20221112-0806]"/>
         <bundles name="com.atlassian.commonmark-gfm-strikethrough" versionRange="[0.15.1.v20221112-0806]"/>
         <bundles name="com.atlassian.commonmark-gfm-tables" versionRange="[0.15.1.v20221112-0806]"/>
@@ -201,6 +198,9 @@
         <bundles name="org.slf4j.binding.simple" versionRange="[1.7.30.v20221112-0806]"/>
         <bundles name="org.slf4j.bridge.jul" versionRange="[1.7.30.v20221112-0806]"/>
         <bundles name="org.slf4j.ext" versionRange="[1.7.30.v20221112-0806]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="ch.qos.logback.classic" versionRange="[1.2.3.v20221112-0806]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="ch.qos.logback.core" versionRange="[1.2.3.v20221112-0806]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="ch.qos.logback.slf4j" versionRange="[1.2.3.v20221112-0806]"/>
         <mapRules xsi:type="aggregator:ExclusionRule" name="com.fasterxml.jackson.core.jackson-annotations" versionRange="[2.13.2.v20220426-1653]"/>
         <mapRules xsi:type="aggregator:ExclusionRule" name="com.fasterxml.jackson.core.jackson-core" versionRange="[2.13.2.v20220426-1653]"/>
         <mapRules xsi:type="aggregator:ExclusionRule" name="com.fasterxml.jackson.core.jackson-databind" versionRange="[2.13.2.v20220426-1653]"/>
