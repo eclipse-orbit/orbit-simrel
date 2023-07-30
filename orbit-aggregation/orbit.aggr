@@ -60,7 +60,6 @@
         <bundles name="com.sun.jna.platform" versionRange="[5.6.0.v20221112-0806]"/>
         <bundles name="com.sun.jna.platform" versionRange="[5.8.0.v20221112-0806]"/>
         <bundles name="com.sun.jna.platform" versionRange="[5.12.1.v20221103-2317]"/>
-        <bundles name="com.sun.xml.bind" versionRange="[2.2.0.v20221112-0806]"/>
         <bundles name="com.sun.xml.bind" versionRange="[2.3.3.v20221203-1659]"/>
         <bundles name="io.github.classgraph" versionRange="[4.8.149.v20220915-0556]"/>
         <bundles name="io.github.java-diff-utils" versionRange="[4.8.0.v20221112-0806]"/>
@@ -71,10 +70,8 @@
         <bundles name="io.opencensus.opencensus-contrib-http-util" versionRange="[0.26.0.v20221112-0806]"/>
         <bundles name="jakarta.activation" versionRange="[2.0.0.v20221203-1659]"/>
         <bundles name="jakarta.el" versionRange="[4.0.0.v20221203-1659]"/>
-        <bundles name="jakarta.servlet" versionRange="[5.0.0.v20221203-1659]"/>
         <bundles name="jakarta.servlet.jsp" versionRange="[3.0.0.v20221203-1659]"/>
         <bundles name="jakarta.websocket" versionRange="[2.0.0.v20221203-1659]"/>
-        <bundles name="jakarta.xml.bind" versionRange="[2.3.3.v20221203-1659]"/>
         <bundles name="java_cup" versionRange="[0.11.20150326.v20180425-1030]"/>
         <bundles name="java_cup-runtime" versionRange="[0.11.20150326.v20180425-1030]"/>
         <bundles name="javax.activation" versionRange="[1.2.2.v20221203-1659]"/>
@@ -83,7 +80,6 @@
         <bundles name="javax.measure.unit-api" versionRange="[1.0.0.v20170818-1538]"/>
         <bundles name="javax.validation" versionRange="[1.1.0.v20221112-0806]"/>
         <bundles name="javax.ws.rs" versionRange="[2.1.6.v20221203-1659]"/>
-        <bundles name="javax.xml" versionRange="[1.4.1.v20220503-2331]"/>
         <bundles name="net.i2p.crypto.eddsa" versionRange="[0.3.0.v20220506-1020]"/>
         <bundles name="net.jini" versionRange="[2.1.0.v20221112-0806]"/>
         <bundles name="net.sourceforge.plantuml" versionRange="[1.2019.0.v20221112-0806]"/>
@@ -222,9 +218,13 @@
         <mapRules xsi:type="aggregator:ExclusionRule" name="com.google.inject.assistedinject" versionRange="[5.0.1.v20221112-0806]"/>
         <mapRules xsi:type="aggregator:ExclusionRule" name="com.google.inject" versionRange="[5.0.1.v20221112-0806]"/>
         <mapRules xsi:type="aggregator:ExclusionRule" name="com.ibm.icu" versionRange="[72.1.0.v20221115-2007]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="com.sun.xml.bind" versionRange="[2.2.0.v20221112-0806]"/>
         <mapRules xsi:type="aggregator:ExclusionRule" name="jakarta.activation" versionRange="[1.2.2.v20221203-1659]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="jakarta.servlet" versionRange="[5.0.0.v20221203-1659]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="jakarta.xml.bind" versionRange="[2.3.3.v20221203-1659]"/>
         <mapRules xsi:type="aggregator:ExclusionRule" name="javaewah" versionRange="[1.1.13.v20211029-0839]"/>
         <mapRules xsi:type="aggregator:ExclusionRule" name="javax.annotation" versionRange="[1.3.5.v20230504-0748]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="javax.xml" versionRange="[1.4.1.v20220503-2331]"/>
         <mapRules xsi:type="aggregator:ExclusionRule" name="net.bytebuddy.byte-buddy-agent" versionRange="[1.12.18.v20221114-2102]"/>
         <mapRules xsi:type="aggregator:ExclusionRule" name="net.bytebuddy.byte-buddy-agent" versionRange="[1.7.9.v20180420-1519]"/>
         <mapRules xsi:type="aggregator:ExclusionRule" name="net.bytebuddy.byte-buddy-agent" versionRange="[1.9.0.v20181106-1534]"/>
