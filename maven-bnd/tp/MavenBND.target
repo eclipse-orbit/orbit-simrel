@@ -438,6 +438,97 @@ Export-Package:         *;version="${version}";-noimport:=true
     </location>
 
 
+<!-- ______________________________________________________ javax.wsdl __________________________________________________________________________________________________-->
+
+    <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
+      <feature id="org.eclipse.orbit.maven.javax.wsdl" label="Orbit Maven BND javax.wsdl" provider-name="Eclipse Orbit" version="4.29.0.v20230730-0710">
+        <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
+        <copyright>
+Copyright (c) 2023 Eclipse contributors and others.
+
+This program and the accompanying materials
+are made available under the terms of the Eclipse Public License 2.0
+which accompanies this distribution, and is available at
+https://www.eclipse.org/legal/epl-2.0/
+
+SPDX-License-Identifier: EPL-2.0
+        </copyright>
+        <license url="https://www.eclipse.org/legal/epl-2.0/"/>
+      </feature>
+      <dependencies>
+        <dependency>
+          <groupId>wsdl4j</groupId>
+          <artifactId>wsdl4j</artifactId>
+          <version>1.6.3</version>
+          <type>jar</type>
+        </dependency>
+      </dependencies>
+      <instructions>
+<!-- SHA1 f14f5bbd550ddf87b832564df680d9559dd0a8ef -->
+<![CDATA[
+Bundle-Name:            Bundle ${mvnGroupId} : ${mvnArtifactId}
+version:                ${versionmask;===;${version_cleanup;${mvnVersion}}}
+Bundle-SymbolicName:    javax.wsdl
+Bundle-Version:         ${version}.v20230730-0710
+Eclipse-Wrapped-Bundle: ${mvnGroupId}:${mvnArtifactId}:${mvnVersion}
+Import-Package:         *
+Export-Package:         *;version="${version}";-noimport:=true
+-noextraheaders:        true
+-removeheaders:         Private-Package
+]]>
+      </instructions>
+    </location>
+
+<!-- ______________________________________________________ org.apache.axis __________________________________________________________________________________________________-->
+
+    <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
+      <feature id="org.eclipse.orbit.maven.org.apache.axis" label="Orbit Maven BND org.apache.axis" provider-name="Eclipse Orbit" version="4.29.0.v20230730-0709">
+        <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
+        <copyright>
+Copyright (c) 2023 Eclipse contributors and others.
+
+This program and the accompanying materials
+are made available under the terms of the Eclipse Public License 2.0
+which accompanies this distribution, and is available at
+https://www.eclipse.org/legal/epl-2.0/
+
+SPDX-License-Identifier: EPL-2.0
+        </copyright>
+        <license url="https://www.eclipse.org/legal/epl-2.0/"/>
+      </feature>
+      <dependencies>
+        <dependency>
+          <groupId>org.apache.axis</groupId>
+          <artifactId>axis</artifactId>
+          <version>1.4</version>
+          <type>jar</type>
+        </dependency>
+      </dependencies>
+      <instructions>
+<!-- SHA1 c40a83b99f97e1a596752f15835bf95b13f2cfa2 -->
+<![CDATA[
+Bundle-Name:            Bundle ${mvnGroupId} : ${mvnArtifactId}
+version:                ${versionmask;===;${version_cleanup;${mvnVersion}}}
+Bundle-SymbolicName:    org.apache.axis
+Bundle-Version:         ${version}.v20230730-0709
+Eclipse-Wrapped-Bundle: ${mvnGroupId}:${mvnArtifactId}:${mvnVersion}
+Import-Package:         javax.wsdl.*,\
+                        com.ibm.wsdl.*,\
+                        javax.activation.*,\
+                        javax.xml.*,\
+                        javax.servlet.*,\
+                        org.apache.commons.discovery.*,\
+                        org.w3c.dom.*,\
+                        org.xml.sax.*,\
+                        !org.exolab.castor.xml,\
+                        *;resolution:=optional;
+Export-Package:         *;version="${version}";-noimport:=true
+-noextraheaders:        true
+-removeheaders:         Private-Package
+]]>
+      </instructions>
+    </location>
+
 <!-- ______________________________________________________ EXCLUDE __________________________________________________________________________________________________-->
 
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="error" type="Maven">
@@ -462,6 +553,49 @@ SPDX-License-Identifier: EPL-2.0
           <version>2.0.0</version>
           <type>jar</type>
         </dependency>
+
+        <dependency>
+          <groupId>jakarta.servlet</groupId>
+          <artifactId>jakarta.servlet-api</artifactId>
+          <version>4.0.4</version>
+          <type>jar</type>
+        </dependency>
+
+        <dependency>
+          <groupId>jakarta.activation</groupId>
+          <artifactId>jakarta.activation-api</artifactId>
+          <version>1.2.2</version>
+          <type>jar</type>
+        </dependency>
+
+        <dependency>
+          <groupId>jakarta.xml.rpc</groupId>
+          <artifactId>jakarta.xml.rpc-api</artifactId>
+          <version>1.1.4</version>
+          <type>jar</type>
+        </dependency>
+
+        <dependency>
+          <groupId>jakarta.xml.soap</groupId>
+          <artifactId>jakarta.xml.soap-api</artifactId>
+          <version>1.4.2</version>
+          <type>jar</type>
+        </dependency>
+
+        <dependency>
+          <groupId>commons-discovery</groupId>
+          <artifactId>commons-discovery</artifactId>
+          <version>0.5</version>
+          <type>jar</type>
+        </dependency>
+
+        <dependency>
+          <groupId>commons-logging</groupId>
+          <artifactId>commons-logging</artifactId>
+          <version>1.2</version>
+          <type>jar</type>
+        </dependency>
+
       </dependencies>
     </location>
   </locations>
