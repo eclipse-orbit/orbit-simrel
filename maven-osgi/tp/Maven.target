@@ -249,6 +249,12 @@ SPDX-License-Identifier: EPL-2.0
           <type>jar</type>
         </dependency>
         <dependency>
+          <groupId>commons-discovery</groupId>
+          <artifactId>commons-discovery</artifactId>
+          <version>0.5</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
           <groupId>commons-fileupload</groupId>
           <artifactId>commons-fileupload</artifactId>
           <version>1.5</version>
@@ -342,6 +348,18 @@ SPDX-License-Identifier: EPL-2.0
           <groupId>jakarta.xml.bind</groupId>
           <artifactId>jakarta.xml.bind-api</artifactId>
           <version>2.3.3</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>jakarta.xml.rpc</groupId>
+          <artifactId>jakarta.xml.rpc-api</artifactId>
+          <version>1.1.4</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>jakarta.xml.soap</groupId>
+          <artifactId>jakarta.xml.soap-api</artifactId>
+          <version>1.4.2</version>
           <type>jar</type>
         </dependency>
         <dependency>

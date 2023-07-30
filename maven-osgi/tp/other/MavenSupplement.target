@@ -210,6 +210,27 @@
           <type>jar</type>
         </dependency>
 
+        <dependency>
+          <groupId>jakarta.xml.rpc</groupId>
+          <artifactId>jakarta.xml.rpc-api</artifactId>
+          <version>1.1.4</version>
+          <type>jar</type>
+        </dependency>
+
+        <dependency>
+          <groupId>jakarta.xml.soap</groupId>
+          <artifactId>jakarta.xml.soap-api</artifactId>
+          <version>1.4.2</version>
+          <type>jar</type>
+        </dependency>
+
+        <dependency>
+          <groupId>commons-discovery</groupId>
+          <artifactId>commons-discovery</artifactId>
+          <version>0.5</version>
+          <type>jar</type>
+        </dependency>
+
       </dependencies>
     </location>
   </locations>
