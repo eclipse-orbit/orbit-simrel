@@ -177,6 +177,12 @@ SPDX-License-Identifier: EPL-2.0
           <type>jar</type>
         </dependency>
         <dependency>
+          <groupId>com.github.oshi</groupId>
+          <artifactId>oshi-core</artifactId>
+          <version>6.4.4</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
           <groupId>com.google.code.gson</groupId>
           <artifactId>gson</artifactId>
           <version>2.10.1</version>
@@ -491,25 +497,25 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>org.bouncycastle</groupId>
           <artifactId>bcpg-jdk18on</artifactId>
-          <version>1.75</version>
+          <version>1.76</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.bouncycastle</groupId>
           <artifactId>bcpkix-jdk18on</artifactId>
-          <version>1.75</version>
+          <version>1.76</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.bouncycastle</groupId>
           <artifactId>bcprov-jdk18on</artifactId>
-          <version>1.75</version>
+          <version>1.76</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.bouncycastle</groupId>
           <artifactId>bcutil-jdk18on</artifactId>
-          <version>1.75</version>
+          <version>1.76</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -1002,6 +1008,12 @@ SPDX-License-Identifier: EPL-2.0
           <groupId>org.slf4j</groupId>
           <artifactId>slf4j-api</artifactId>
           <version>2.0.7</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>org.slf4j</groupId>
+          <artifactId>slf4j-nop</artifactId>
+          <version>1.7.36</version>
           <type>jar</type>
         </dependency>
         <dependency>

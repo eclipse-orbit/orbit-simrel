@@ -91,6 +91,8 @@
     - [jnr-unixsocket](https://repo1.maven.org/maven2/com/github/jnr/jnr-unixsocket/) **[0.38.20](https://repo1.maven.org/maven2/com/github/jnr/jnr-unixsocket/0.38.20)**
  - [com.github.librepdf](https://repo1.maven.org/maven2/com/github/librepdf/)
     - [openpdf](https://repo1.maven.org/maven2/com/github/librepdf/openpdf/) **[1.3.30](https://repo1.maven.org/maven2/com/github/librepdf/openpdf/1.3.30)**
+ - [com.github.oshi](https://repo1.maven.org/maven2/com/github/oshi/)
+    - [oshi-core](https://repo1.maven.org/maven2/com/github/oshi/oshi-core/) **[6.4.4](https://repo1.maven.org/maven2/com/github/oshi/oshi-core/6.4.4)**
  - [com.google.code.gson](https://repo1.maven.org/maven2/com/google/code/gson/)
     - [gson](https://repo1.maven.org/maven2/com/google/code/gson/gson/) **[2.10.1](https://repo1.maven.org/maven2/com/google/code/gson/gson/2.10.1)**
  - [com.google.errorprone](https://repo1.maven.org/maven2/com/google/errorprone/)
@@ -185,10 +187,10 @@
  - [org.assertj](https://repo1.maven.org/maven2/org/assertj/)
     - [assertj-core](https://repo1.maven.org/maven2/org/assertj/assertj-core/) **[3.24.2](https://repo1.maven.org/maven2/org/assertj/assertj-core/3.24.2)**
  - [org.bouncycastle](https://repo1.maven.org/maven2/org/bouncycastle/)
-    - [bcpg-jdk18on](https://repo1.maven.org/maven2/org/bouncycastle/bcpg-jdk18on/) **[1.75](https://repo1.maven.org/maven2/org/bouncycastle/bcpg-jdk18on/1.75)**
-    - [bcpkix-jdk18on](https://repo1.maven.org/maven2/org/bouncycastle/bcpkix-jdk18on/) **[1.75](https://repo1.maven.org/maven2/org/bouncycastle/bcpkix-jdk18on/1.75)**
-    - [bcprov-jdk18on](https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk18on/) **[1.75](https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk18on/1.75)**
-    - [bcutil-jdk18on](https://repo1.maven.org/maven2/org/bouncycastle/bcutil-jdk18on/) **[1.75](https://repo1.maven.org/maven2/org/bouncycastle/bcutil-jdk18on/1.75)**
+    - [bcpg-jdk18on](https://repo1.maven.org/maven2/org/bouncycastle/bcpg-jdk18on/) **[1.76](https://repo1.maven.org/maven2/org/bouncycastle/bcpg-jdk18on/1.76)**
+    - [bcpkix-jdk18on](https://repo1.maven.org/maven2/org/bouncycastle/bcpkix-jdk18on/) **[1.76](https://repo1.maven.org/maven2/org/bouncycastle/bcpkix-jdk18on/1.76)**
+    - [bcprov-jdk18on](https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk18on/) **[1.76](https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk18on/1.76)**
+    - [bcutil-jdk18on](https://repo1.maven.org/maven2/org/bouncycastle/bcutil-jdk18on/) **[1.76](https://repo1.maven.org/maven2/org/bouncycastle/bcutil-jdk18on/1.76)**
  - [org.eclipse.jetty.toolchain](https://repo1.maven.org/maven2/org/eclipse/jetty/toolchain/)
     - [jetty-servlet-api](https://repo1.maven.org/maven2/org/eclipse/jetty/toolchain/jetty-servlet-api/) **[4.0.6](https://repo1.maven.org/maven2/org/eclipse/jetty/toolchain/jetty-servlet-api/4.0.6)**
  - [org.freemarker](https://repo1.maven.org/maven2/org/freemarker/)
@@ -299,6 +301,7 @@
  - [org.slf4j](https://repo1.maven.org/maven2/org/slf4j/)
     - [slf4j-api](https://repo1.maven.org/maven2/org/slf4j/slf4j-api/) **[1.7.36](https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.36)**
     - [slf4j-api](https://repo1.maven.org/maven2/org/slf4j/slf4j-api/) **[2.0.7](https://repo1.maven.org/maven2/org/slf4j/slf4j-api/2.0.7)**
+    - [slf4j-nop](https://repo1.maven.org/maven2/org/slf4j/slf4j-nop/) **[1.7.36](https://repo1.maven.org/maven2/org/slf4j/slf4j-nop/1.7.36)**
     - [slf4j-nop](https://repo1.maven.org/maven2/org/slf4j/slf4j-nop/) **[2.0.7](https://repo1.maven.org/maven2/org/slf4j/slf4j-nop/2.0.7)**
     - [slf4j-simple](https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/) **[1.7.36](https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/1.7.36)**
  - [org.tukaani](https://repo1.maven.org/maven2/org/tukaani/)
