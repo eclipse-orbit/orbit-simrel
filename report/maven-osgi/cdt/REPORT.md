@@ -1,6 +1,8 @@
 # Target Platform: [cdt](https://raw.githubusercontent.com/eclipse-cdt/cdt/main/releng/org.eclipse.cdt.target/cdt.target)
 
 ## Minor Updates
+ - [com.google.guava](https://repo1.maven.org/maven2/com/google/guava/)
+    - [guava](https://repo1.maven.org/maven2/com/google/guava/guava/) **[32.1.1-jre](https://repo1.maven.org/maven2/com/google/guava/guava/32.1.1-jre)** < [32.1.2-jre](https://repo1.maven.org/maven2/com/google/guava/guava/32.1.2-jre/)
  - [org.junit.jupiter](https://repo1.maven.org/maven2/org/junit/jupiter/)
     - [junit-jupiter-api](https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-api/) **[5.9.3](https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-api/5.9.3)** < [5.10.0](https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-api/5.10.0/)
     - [junit-jupiter-engine](https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-engine/) **[5.9.3](https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.9.3)** < [5.10.0](https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.10.0/)

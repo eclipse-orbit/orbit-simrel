@@ -203,7 +203,7 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>com.google.guava</groupId>
           <artifactId>guava</artifactId>
-          <version>32.1.1-jre</version>
+          <version>32.1.2-jre</version>
           <type>jar</type>
         </dependency>
         <dependency>

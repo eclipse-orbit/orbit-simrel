@@ -1,6 +1,8 @@
 # Target Platform: [linuxtools](https://raw.githubusercontent.com/eclipse-linuxtools/org.eclipse.linuxtools/master/releng/org.eclipse.linuxtools.target/linuxtools-e4.29.target)
 
 ## Minor Updates
+ - [com.google.guava](https://repo1.maven.org/maven2/com/google/guava/)
+    - [guava](https://repo1.maven.org/maven2/com/google/guava/guava/) **[32.1.1-jre](https://repo1.maven.org/maven2/com/google/guava/guava/32.1.1-jre)** < [32.1.2-jre](https://repo1.maven.org/maven2/com/google/guava/guava/32.1.2-jre/)
  - [org.bouncycastle](https://repo1.maven.org/maven2/org/bouncycastle/)
     - [bcpkix-jdk18on](https://repo1.maven.org/maven2/org/bouncycastle/bcpkix-jdk18on/) **[1.75](https://repo1.maven.org/maven2/org/bouncycastle/bcpkix-jdk18on/1.75)** < [1.76](https://repo1.maven.org/maven2/org/bouncycastle/bcpkix-jdk18on/1.76/)
     - [bcutil-jdk18on](https://repo1.maven.org/maven2/org/bouncycastle/bcutil-jdk18on/) **[1.75](https://repo1.maven.org/maven2/org/bouncycastle/bcutil-jdk18on/1.75)** < [1.76](https://repo1.maven.org/maven2/org/bouncycastle/bcutil-jdk18on/1.76/)
