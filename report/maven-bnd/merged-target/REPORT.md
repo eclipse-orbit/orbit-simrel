@@ -9,6 +9,7 @@
     - [jakarta.xml.soap-api](https://repo1.maven.org/maven2/jakarta/xml/soap/jakarta.xml.soap-api/) **[1.4.2](https://repo1.maven.org/maven2/jakarta/xml/soap/jakarta.xml.soap-api/1.4.2)** < [3.0.0](https://repo1.maven.org/maven2/jakarta/xml/soap/jakarta.xml.soap-api/3.0.0/)
  - [org.hamcrest](https://repo1.maven.org/maven2/org/hamcrest/)
     - [hamcrest-core](https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/) **[1.3](https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3)** < [2.2](https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/2.2/)
+    - [hamcrest-library](https://repo1.maven.org/maven2/org/hamcrest/hamcrest-library/) **[1.3](https://repo1.maven.org/maven2/org/hamcrest/hamcrest-library/1.3)** < [2.2](https://repo1.maven.org/maven2/org/hamcrest/hamcrest-library/2.2/)
 
 ## Content
  - [aopalliance](https://repo1.maven.org/maven2/aopalliance/)
@@ -48,6 +49,7 @@
     - [nekohtml](https://repo1.maven.org/maven2/org/codelibs/nekohtml/) **[2.1.2](https://repo1.maven.org/maven2/org/codelibs/nekohtml/2.1.2)**
  - [org.hamcrest](https://repo1.maven.org/maven2/org/hamcrest/)
     - [hamcrest-core](https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/) **[1.3](https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3)**
+    - [hamcrest-library](https://repo1.maven.org/maven2/org/hamcrest/hamcrest-library/) **[1.3](https://repo1.maven.org/maven2/org/hamcrest/hamcrest-library/1.3)**
  - [org.jdom](https://repo1.maven.org/maven2/org/jdom/)
     - [jdom2](https://repo1.maven.org/maven2/org/jdom/jdom2/) **[2.0.6.1](https://repo1.maven.org/maven2/org/jdom/jdom2/2.0.6.1)**
  - [org.jruby.jcodings](https://repo1.maven.org/maven2/org/jruby/jcodings/)

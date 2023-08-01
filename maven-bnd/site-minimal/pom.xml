@@ -49,7 +49,7 @@
 					<plugin>
 						<groupId>org.eclipse.cbi.maven.plugins</groupId>
 						<artifactId>eclipse-jarsigner-plugin</artifactId>
-						<version>1.3.0</version>
+						<version>1.3.3</version>
 						<configuration>
 							<includes>plugins/*.jar,features/*.jar</includes>
 							<archiveDirectory>
