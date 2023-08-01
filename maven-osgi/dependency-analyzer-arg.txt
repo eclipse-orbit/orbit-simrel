@@ -13,6 +13,7 @@ linuxtools=https://raw.githubusercontent.com/eclipse-linuxtools/org.eclipse.linu
 egit=https://git.eclipse.org/c/egit/egit.git/plain/org.eclipse.egit.target/egit-4.28.target
 cdt=https://raw.githubusercontent.com/eclipse-cdt/cdt/main/releng/org.eclipse.cdt.target/cdt.target
 passage=https://raw.githubusercontent.com/eclipse-passage/passage/master/releng/org.eclipse.passage.target/org.eclipse.passage.target.target
+mylyn-docs=https://raw.githubusercontent.com/eclipse-mylyn/org.eclipse.mylyn.docs/master/target-platform/mylyn-docs.target
 
 // This augments those dependencies collected from other projects.
 // This is in our own Git repository so we have a redirection that ensures we analyze the local copy and not the remote copy.
