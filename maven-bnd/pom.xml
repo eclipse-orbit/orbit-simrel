@@ -117,6 +117,11 @@
               <arch>aarch64</arch>
             </environment>
           </environments>
+          <dependency-resolution>
+            <profileProperties>
+              <org.eclipse.orbit.maven.bnd.buildtime>true</org.eclipse.orbit.maven.bnd.buildtime>
+            </profileProperties>
+          </dependency-resolution>
         </configuration>
       </plugin>
     </plugins>
