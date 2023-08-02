@@ -1,12 +1,5 @@
 # Target Platform: [linuxtools](https://raw.githubusercontent.com/eclipse-linuxtools/org.eclipse.linuxtools/master/releng/org.eclipse.linuxtools.target/linuxtools-e4.29.target)
 
-## Minor Updates
- - [com.google.guava](https://repo1.maven.org/maven2/com/google/guava/)
-    - [guava](https://repo1.maven.org/maven2/com/google/guava/guava/) **[32.1.1-jre](https://repo1.maven.org/maven2/com/google/guava/guava/32.1.1-jre)** < [32.1.2-jre](https://repo1.maven.org/maven2/com/google/guava/guava/32.1.2-jre/)
- - [org.bouncycastle](https://repo1.maven.org/maven2/org/bouncycastle/)
-    - [bcpkix-jdk18on](https://repo1.maven.org/maven2/org/bouncycastle/bcpkix-jdk18on/) **[1.75](https://repo1.maven.org/maven2/org/bouncycastle/bcpkix-jdk18on/1.75)** < [1.76](https://repo1.maven.org/maven2/org/bouncycastle/bcpkix-jdk18on/1.76/)
-    - [bcutil-jdk18on](https://repo1.maven.org/maven2/org/bouncycastle/bcutil-jdk18on/) **[1.75](https://repo1.maven.org/maven2/org/bouncycastle/bcutil-jdk18on/1.75)** < [1.76](https://repo1.maven.org/maven2/org/bouncycastle/bcutil-jdk18on/1.76/)
-
 ## Major Updates
  - [jakarta.ws.rs](https://repo1.maven.org/maven2/jakarta/ws/rs/)
     - [jakarta.ws.rs-api](https://repo1.maven.org/maven2/jakarta/ws/rs/jakarta.ws.rs-api/) **[2.1.6](https://repo1.maven.org/maven2/jakarta/ws/rs/jakarta.ws.rs-api/2.1.6)** < [3.1.0](https://repo1.maven.org/maven2/jakarta/ws/rs/jakarta.ws.rs-api/3.1.0/)
@@ -35,9 +28,6 @@
  - [org.mandas](https://repo1.maven.org/maven2/org/mandas/)
     - [docker-client](https://repo1.maven.org/maven2/org/mandas/docker-client/) **[5.2.2](https://repo1.maven.org/maven2/org/mandas/docker-client/5.2.2)** < [7.0.3](https://repo1.maven.org/maven2/org/mandas/docker-client/7.0.3/)
 
-## Updates Applied
-[updated.target](updated.target)
-
 ## Content
  - [com.fasterxml.jackson.core](https://repo1.maven.org/maven2/com/fasterxml/jackson/core/)
     - [jackson-annotations](https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/) **[2.15.2](https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.15.2)**
@@ -59,7 +49,7 @@
     - [jnr-posix](https://repo1.maven.org/maven2/com/github/jnr/jnr-posix/) **[3.1.17](https://repo1.maven.org/maven2/com/github/jnr/jnr-posix/3.1.17)**
     - [jnr-unixsocket](https://repo1.maven.org/maven2/com/github/jnr/jnr-unixsocket/) **[0.38.20](https://repo1.maven.org/maven2/com/github/jnr/jnr-unixsocket/0.38.20)**
  - [com.google.guava](https://repo1.maven.org/maven2/com/google/guava/)
-    - [guava](https://repo1.maven.org/maven2/com/google/guava/guava/) **[32.1.1-jre](https://repo1.maven.org/maven2/com/google/guava/guava/32.1.1-jre)**
+    - [guava](https://repo1.maven.org/maven2/com/google/guava/guava/) **[32.1.2-jre](https://repo1.maven.org/maven2/com/google/guava/guava/32.1.2-jre)**
  - [jakarta.ws.rs](https://repo1.maven.org/maven2/jakarta/ws/rs/)
     - [jakarta.ws.rs-api](https://repo1.maven.org/maven2/jakarta/ws/rs/jakarta.ws.rs-api/) **[2.1.6](https://repo1.maven.org/maven2/jakarta/ws/rs/jakarta.ws.rs-api/2.1.6)**
  - [jakarta.xml.bind](https://repo1.maven.org/maven2/jakarta/xml/bind/)
@@ -67,8 +57,9 @@
  - [org.apache.commons](https://repo1.maven.org/maven2/org/apache/commons/)
     - [commons-compress](https://repo1.maven.org/maven2/org/apache/commons/commons-compress/) **[1.23.0](https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.23.0)**
  - [org.bouncycastle](https://repo1.maven.org/maven2/org/bouncycastle/)
-    - [bcpkix-jdk18on](https://repo1.maven.org/maven2/org/bouncycastle/bcpkix-jdk18on/) **[1.75](https://repo1.maven.org/maven2/org/bouncycastle/bcpkix-jdk18on/1.75)**
-    - [bcutil-jdk18on](https://repo1.maven.org/maven2/org/bouncycastle/bcutil-jdk18on/) **[1.75](https://repo1.maven.org/maven2/org/bouncycastle/bcutil-jdk18on/1.75)**
+    - [bcpkix-jdk18on](https://repo1.maven.org/maven2/org/bouncycastle/bcpkix-jdk18on/) **[1.76](https://repo1.maven.org/maven2/org/bouncycastle/bcpkix-jdk18on/1.76)**
+    - [bcprov-jdk18on](https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk18on/) **[1.76](https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk18on/1.76)**
+    - [bcutil-jdk18on](https://repo1.maven.org/maven2/org/bouncycastle/bcutil-jdk18on/) **[1.76](https://repo1.maven.org/maven2/org/bouncycastle/bcutil-jdk18on/1.76)**
  - [org.glassfish.hk2](https://repo1.maven.org/maven2/org/glassfish/hk2/)
     - [hk2-api](https://repo1.maven.org/maven2/org/glassfish/hk2/hk2-api/) **[2.6.1](https://repo1.maven.org/maven2/org/glassfish/hk2/hk2-api/2.6.1)**
     - [hk2-locator](https://repo1.maven.org/maven2/org/glassfish/hk2/hk2-locator/) **[2.6.1](https://repo1.maven.org/maven2/org/glassfish/hk2/hk2-locator/2.6.1)**

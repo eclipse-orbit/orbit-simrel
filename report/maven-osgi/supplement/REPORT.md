@@ -1,5 +1,9 @@
 # Target Platform: [supplement](https://raw.githubusercontent.com/eclipse-orbit/orbit-simrel/main/maven-osgi/tp/other/MavenSupplement.target)
 
+## Minor Updates
+ - [com.google.errorprone](https://repo1.maven.org/maven2/com/google/errorprone/)
+    - [error_prone_annotations](https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/) **[2.20.0](https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.20.0)** < [2.21.0](https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.21.0/)
+
 ## Major Updates
  - [jakarta.activation](https://repo1.maven.org/maven2/jakarta/activation/)
     - [jakarta.activation-api](https://repo1.maven.org/maven2/jakarta/activation/jakarta.activation-api/) **[1.2.2](https://repo1.maven.org/maven2/jakarta/activation/jakarta.activation-api/1.2.2)** < [2.1.2](https://repo1.maven.org/maven2/jakarta/activation/jakarta.activation-api/2.1.2/)
