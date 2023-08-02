@@ -192,6 +192,11 @@ public class Analyzer {
 			if (location.contains("missingManifest=\"error\"")) {
 				return location;
 			}
+			var featureIDMatcher = FEATURE_ID_PATTERN.matcher(location);
+			if (featureIDMatcher.find() && featureIDMatcher.group(1).contains("exclude")) {
+				return location;
+			}
+
 			throw new IllegalStateException("Each location must have BND instructions.");
 		}
 		var sha1 = instructionsMatcher.group("sha");

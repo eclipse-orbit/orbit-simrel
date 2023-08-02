@@ -177,11 +177,10 @@ Export-Package:         *;version="${version}";-noimport:=true
       </instructions>
     </location>
 
-
 <!-- ______________________________________________________ org.hamcrest __________________________________________________________________________________________________-->
 
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
-      <feature id="org.eclipse.orbit.maven.hamcrest" label="Orbit Maven BND org.hamcrest" provider-name="Eclipse Orbit" version="4.29.0.v20230801-0843">
+      <feature id="org.eclipse.orbit.maven.hamcrest" label="Orbit Maven BND org.hamcrest" provider-name="Eclipse Orbit" version="4.29.0.v20230802-0819">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
 Copyright (c) 2023 Eclipse contributors and others.
@@ -210,15 +209,16 @@ SPDX-License-Identifier: EPL-2.0
         </dependency>
       </dependencies>
       <instructions>
-<!-- SHA1 56c4a1e29248a73c33e01c8a86c61d5fbfe5a9dc -->
+<!-- SHA1 bc60e8a4a0a43145c72897c847901fc9497b86e7 -->
 <![CDATA[
 Bundle-Name:            Bundle ${mvnGroupId} : ${mvnArtifactId}
 version:                ${versionmask;===;${version_cleanup;${mvnVersion}}}
+suffix:                 ${replacestring;${mvnArtifactId};hamcrest-;}
 Bundle-SymbolicName:    org.${replacestring;${mvnArtifactId};-;.}
-Bundle-Version:         ${version}.v20230801-0843
+Bundle-Version:         ${version}.v20230802-0819
 Eclipse-Wrapped-Bundle: ${mvnGroupId}:${mvnArtifactId}:${mvnVersion}
 Import-Package:         *
-Export-Package:         org.hamcrest;library=split;version="${version}";mandatory:=library,\
+Export-Package:         org.hamcrest;${suffix}=split;version="${version}";mandatory:=${suffix};-noimport:=true,\
                         *.internal.*;x-internal:=true;version="${version}";-noimport:=true,\
                         *;version="${version}";-noimport:=true
 -noextraheaders:        true
@@ -361,7 +361,7 @@ Export-Package:         *;version="${version}";-noimport:=true
 <!-- ______________________________________________________ nekohtml __________________________________________________________________________________________________-->
 
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
-      <feature id="org.eclipse.orbit.maven.nekohtml" label="Orbit Maven BND nekohtml" provider-name="Eclipse Orbit" version="4.29.0.v20230721-0706">
+      <feature id="org.eclipse.orbit.maven.org.codelibs.nekohtml" label="Orbit Maven BND nekohtml" provider-name="Eclipse Orbit" version="4.29.0.v20230802-0829">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
 Copyright (c) 2023 Eclipse contributors and others.
@@ -384,17 +384,16 @@ SPDX-License-Identifier: EPL-2.0
         </dependency>
       </dependencies>
       <instructions>
-<!-- SHA1 76220fb7ae6b941cedc766b7bc0214d6e774957a -->
+<!-- SHA1 2dbd2276fb6e60fc29f827561a24842c32eea306 -->
 <![CDATA[
 Bundle-Name:            Bundle ${mvnGroupId} : ${mvnArtifactId}
 version:                ${versionmask;===;${version_cleanup;${mvnVersion}}}
-Bundle-SymbolicName:    org.${mvnArtifactId}
-Bundle-Version:         ${version}.v20230721-0706
+Bundle-SymbolicName:    ${mvnGroupId}.${mvnArtifactId}
+Bundle-Version:         ${version}.v20230802-0829
 Eclipse-Wrapped-Bundle: ${mvnGroupId}:${mvnArtifactId}:${mvnVersion}
 Import-Package:         org.codelibs.xerces.xml.resolver*|sun.io;resolution:=optional,\
                         *
-Export-Package:         org.codelibs.nekohtml.*;version="${version}";-noimport:=true,\
-                        *;x-internal:=true;version="${version}";-noimport:=true
+Export-Package:         *;version="${version}";-noimport:=true
 -noextraheaders:        true
 -removeheaders:         Private-Package
 ]]>
@@ -536,9 +535,50 @@ Export-Package:         *;version="${version}";-noimport:=true
       </instructions>
     </location>
 
+<!-- ______________________________________________________ org.apache.axis.ant __________________________________________________________________________________________________-->
+
+    <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
+      <feature id="org.eclipse.orbit.maven.org.apache.axis.ant" label="Orbit Maven BND org.apache.axis.ant" provider-name="Eclipse Orbit" version="4.29.0.v20230802-0838">
+        <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
+        <copyright>
+Copyright (c) 2023 Eclipse contributors and others.
+
+This program and the accompanying materials
+are made available under the terms of the Eclipse Public License 2.0
+which accompanies this distribution, and is available at
+https://www.eclipse.org/legal/epl-2.0/
+
+SPDX-License-Identifier: EPL-2.0
+        </copyright>
+        <license url="https://www.eclipse.org/legal/epl-2.0/"/>
+      </feature>
+      <dependencies>
+        <dependency>
+          <groupId>org.apache.axis</groupId>
+          <artifactId>axis-ant</artifactId>
+          <version>1.4</version>
+          <type>jar</type>
+        </dependency>
+      </dependencies>
+      <instructions>
+<!-- SHA1 308c443a7799b09cb1c1fe9a8f409a3bdca4c97b -->
+<![CDATA[
+Bundle-Name:            Bundle ${mvnGroupId} : ${mvnArtifactId}
+version:                ${versionmask;===;${version_cleanup;${mvnVersion}}}
+Bundle-SymbolicName:    org.apache.axis.ant
+Bundle-Version:         ${version}.v20230802-0838
+Eclipse-Wrapped-Bundle: ${mvnGroupId}:${mvnArtifactId}:${mvnVersion}
+Import-Package:         *
+Export-Package:         *;version="${version}";-noimport:=true
+-noextraheaders:        true
+-removeheaders:         Private-Package
+]]>
+      </instructions>
+    </location>
+
 <!-- ______________________________________________________ EXCLUDE __________________________________________________________________________________________________-->
 
-    <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="error" type="Maven">
+    <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
       <feature id="org.eclipse.orbit.maven.osgi.exclude" label="Orbit Maven OSGi (excluded because they are only for resolution validation)" provider-name="Eclipse Orbit" version="4.29.0">
         <description>This feature's dependencies are pulled directly from Maven central.</description>
         <copyright>
@@ -600,6 +640,13 @@ SPDX-License-Identifier: EPL-2.0
           <groupId>commons-logging</groupId>
           <artifactId>commons-logging</artifactId>
           <version>1.2</version>
+          <type>jar</type>
+        </dependency>
+
+        <dependency>
+          <groupId>org.apache.ant</groupId>
+          <artifactId>ant</artifactId>
+          <version>1.10.13</version>
           <type>jar</type>
         </dependency>
 

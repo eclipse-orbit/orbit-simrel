@@ -33,8 +33,11 @@
     - [jaxen](https://repo1.maven.org/maven2/jaxen/jaxen/) **[2.0.0](https://repo1.maven.org/maven2/jaxen/jaxen/2.0.0)**
  - [junit](https://repo1.maven.org/maven2/junit/)
     - [junit](https://repo1.maven.org/maven2/junit/junit/) **[4.13.2](https://repo1.maven.org/maven2/junit/junit/4.13.2)**
+ - [org.apache.ant](https://repo1.maven.org/maven2/org/apache/ant/)
+    - [ant](https://repo1.maven.org/maven2/org/apache/ant/ant/) **[1.10.13](https://repo1.maven.org/maven2/org/apache/ant/ant/1.10.13)**
  - [org.apache.axis](https://repo1.maven.org/maven2/org/apache/axis/)
     - [axis](https://repo1.maven.org/maven2/org/apache/axis/axis/) **[1.4](https://repo1.maven.org/maven2/org/apache/axis/axis/1.4)**
+    - [axis-ant](https://repo1.maven.org/maven2/org/apache/axis/axis-ant/) **[1.4](https://repo1.maven.org/maven2/org/apache/axis/axis-ant/1.4)**
  - [org.apache.lucene](https://repo1.maven.org/maven2/org/apache/lucene/)
     - [lucene-analysis-common](https://repo1.maven.org/maven2/org/apache/lucene/lucene-analysis-common/) **[9.7.0](https://repo1.maven.org/maven2/org/apache/lucene/lucene-analysis-common/9.7.0)**
     - [lucene-analysis-smartcn](https://repo1.maven.org/maven2/org/apache/lucene/lucene-analysis-smartcn/) **[9.7.0](https://repo1.maven.org/maven2/org/apache/lucene/lucene-analysis-smartcn/9.7.0)**
@@ -48,6 +51,7 @@
  - [org.codelibs](https://repo1.maven.org/maven2/org/codelibs/)
     - [nekohtml](https://repo1.maven.org/maven2/org/codelibs/nekohtml/) **[2.1.2](https://repo1.maven.org/maven2/org/codelibs/nekohtml/2.1.2)**
  - [org.hamcrest](https://repo1.maven.org/maven2/org/hamcrest/)
+    - [hamcrest-core](https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/) **[1.3](https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3)**
     - [hamcrest-core](https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/) **[1.3](https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3)**
     - [hamcrest-library](https://repo1.maven.org/maven2/org/hamcrest/hamcrest-library/) **[1.3](https://repo1.maven.org/maven2/org/hamcrest/hamcrest-library/1.3)**
  - [org.jdom](https://repo1.maven.org/maven2/org/jdom/)
