@@ -328,10 +328,22 @@
     </contributions>
     <validationRepositories location="https://download.eclipse.org/eclipse/updates/4.28/R-4.28-202306050440"/>
   </validationSets>
-  <configurations operatingSystem="linux" windowSystem="gtk" architecture="aarch64"/>
-  <configurations operatingSystem="linux" windowSystem="gtk" architecture="ppc64le"/>
-  <configurations operatingSystem="linux" windowSystem="gtk" architecture="x86_64"/>
-  <configurations operatingSystem="macosx" windowSystem="cocoa" architecture="x86_64"/>
-  <configurations operatingSystem="macosx" windowSystem="cocoa" architecture="aarch64"/>
-  <configurations architecture="x86_64"/>
+  <configurations operatingSystem="linux" windowSystem="gtk" architecture="aarch64">
+    <properties key="org.eclipse.orbit.maven.bnd.buildtime" value="true"/>
+  </configurations>
+  <configurations operatingSystem="linux" windowSystem="gtk" architecture="ppc64le">
+    <properties key="org.eclipse.orbit.maven.bnd.buildtime" value="true"/>
+  </configurations>
+  <configurations operatingSystem="linux" windowSystem="gtk" architecture="x86_64">
+    <properties key="org.eclipse.orbit.maven.bnd.buildtime" value="true"/>
+  </configurations>
+  <configurations operatingSystem="macosx" windowSystem="cocoa" architecture="x86_64">
+    <properties key="org.eclipse.orbit.maven.bnd.buildtime" value="true"/>
+  </configurations>
+  <configurations operatingSystem="macosx" windowSystem="cocoa" architecture="aarch64">
+    <properties key="org.eclipse.orbit.maven.bnd.buildtime" value="true"/>
+  </configurations>
+  <configurations architecture="x86_64">
+    <properties key="org.eclipse.orbit.maven.bnd.buildtime" value="true"/>
+  </configurations>
 </aggregator:Aggregation>
