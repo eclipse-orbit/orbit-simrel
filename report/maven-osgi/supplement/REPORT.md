@@ -3,6 +3,8 @@
 ## Major Updates
  - [jakarta.activation](https://repo1.maven.org/maven2/jakarta/activation/)
     - [jakarta.activation-api](https://repo1.maven.org/maven2/jakarta/activation/jakarta.activation-api/) **[1.2.2](https://repo1.maven.org/maven2/jakarta/activation/jakarta.activation-api/1.2.2)** < [2.1.2](https://repo1.maven.org/maven2/jakarta/activation/jakarta.activation-api/2.1.2/)
+ - [jakarta.mail](https://repo1.maven.org/maven2/jakarta/mail/)
+    - [jakarta.mail-api](https://repo1.maven.org/maven2/jakarta/mail/jakarta.mail-api/) **[1.6.7](https://repo1.maven.org/maven2/jakarta/mail/jakarta.mail-api/1.6.7)** < [2.1.2](https://repo1.maven.org/maven2/jakarta/mail/jakarta.mail-api/2.1.2/)
  - [jakarta.xml.soap](https://repo1.maven.org/maven2/jakarta/xml/soap/)
     - [jakarta.xml.soap-api](https://repo1.maven.org/maven2/jakarta/xml/soap/jakarta.xml.soap-api/) **[1.4.2](https://repo1.maven.org/maven2/jakarta/xml/soap/jakarta.xml.soap-api/1.4.2)** < [3.0.0](https://repo1.maven.org/maven2/jakarta/xml/soap/jakarta.xml.soap-api/3.0.0/)
  - [javax.servlet](https://repo1.maven.org/maven2/javax/servlet/)
@@ -34,6 +36,8 @@
     - [jakarta.activation-api](https://repo1.maven.org/maven2/jakarta/activation/jakarta.activation-api/) **[1.2.2](https://repo1.maven.org/maven2/jakarta/activation/jakarta.activation-api/1.2.2)**
  - [jakarta.inject](https://repo1.maven.org/maven2/jakarta/inject/)
     - [jakarta.inject-api](https://repo1.maven.org/maven2/jakarta/inject/jakarta.inject-api/) **[2.0.1](https://repo1.maven.org/maven2/jakarta/inject/jakarta.inject-api/2.0.1)**
+ - [jakarta.mail](https://repo1.maven.org/maven2/jakarta/mail/)
+    - [jakarta.mail-api](https://repo1.maven.org/maven2/jakarta/mail/jakarta.mail-api/) **[1.6.7](https://repo1.maven.org/maven2/jakarta/mail/jakarta.mail-api/1.6.7)**
  - [jakarta.xml.rpc](https://repo1.maven.org/maven2/jakarta/xml/rpc/)
     - [jakarta.xml.rpc-api](https://repo1.maven.org/maven2/jakarta/xml/rpc/jakarta.xml.rpc-api/) **[1.1.4](https://repo1.maven.org/maven2/jakarta/xml/rpc/jakarta.xml.rpc-api/1.1.4)**
  - [jakarta.xml.soap](https://repo1.maven.org/maven2/jakarta/xml/soap/)

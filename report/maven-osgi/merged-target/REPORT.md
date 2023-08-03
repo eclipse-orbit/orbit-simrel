@@ -11,6 +11,8 @@
     - [jakarta.enterprise.cdi-api](https://repo1.maven.org/maven2/jakarta/enterprise/jakarta.enterprise.cdi-api/) **[2.0.2](https://repo1.maven.org/maven2/jakarta/enterprise/jakarta.enterprise.cdi-api/2.0.2)** < [4.0.1](https://repo1.maven.org/maven2/jakarta/enterprise/jakarta.enterprise.cdi-api/4.0.1/)
  - [jakarta.interceptor](https://repo1.maven.org/maven2/jakarta/interceptor/)
     - [jakarta.interceptor-api](https://repo1.maven.org/maven2/jakarta/interceptor/jakarta.interceptor-api/) **[1.2.5](https://repo1.maven.org/maven2/jakarta/interceptor/jakarta.interceptor-api/1.2.5)** < [2.1.0](https://repo1.maven.org/maven2/jakarta/interceptor/jakarta.interceptor-api/2.1.0/)
+ - [jakarta.mail](https://repo1.maven.org/maven2/jakarta/mail/)
+    - [jakarta.mail-api](https://repo1.maven.org/maven2/jakarta/mail/jakarta.mail-api/) **[1.6.7](https://repo1.maven.org/maven2/jakarta/mail/jakarta.mail-api/1.6.7)** < [2.1.2](https://repo1.maven.org/maven2/jakarta/mail/jakarta.mail-api/2.1.2/)
  - [jakarta.servlet](https://repo1.maven.org/maven2/jakarta/servlet/)
     - [jakarta.servlet-api](https://repo1.maven.org/maven2/jakarta/servlet/jakarta.servlet-api/) **[4.0.4](https://repo1.maven.org/maven2/jakarta/servlet/jakarta.servlet-api/4.0.4)** < [6.0.0](https://repo1.maven.org/maven2/jakarta/servlet/jakarta.servlet-api/6.0.0/)
     - [jakarta.servlet-api](https://repo1.maven.org/maven2/jakarta/servlet/jakarta.servlet-api/) **[5.0.0](https://repo1.maven.org/maven2/jakarta/servlet/jakarta.servlet-api/5.0.0)** < [6.0.0](https://repo1.maven.org/maven2/jakarta/servlet/jakarta.servlet-api/6.0.0/)
@@ -139,6 +141,8 @@
     - [jakarta.inject-api](https://repo1.maven.org/maven2/jakarta/inject/jakarta.inject-api/) **[2.0.1](https://repo1.maven.org/maven2/jakarta/inject/jakarta.inject-api/2.0.1)**
  - [jakarta.interceptor](https://repo1.maven.org/maven2/jakarta/interceptor/)
     - [jakarta.interceptor-api](https://repo1.maven.org/maven2/jakarta/interceptor/jakarta.interceptor-api/) **[1.2.5](https://repo1.maven.org/maven2/jakarta/interceptor/jakarta.interceptor-api/1.2.5)**
+ - [jakarta.mail](https://repo1.maven.org/maven2/jakarta/mail/)
+    - [jakarta.mail-api](https://repo1.maven.org/maven2/jakarta/mail/jakarta.mail-api/) **[1.6.7](https://repo1.maven.org/maven2/jakarta/mail/jakarta.mail-api/1.6.7)**
  - [jakarta.servlet](https://repo1.maven.org/maven2/jakarta/servlet/)
     - [jakarta.servlet-api](https://repo1.maven.org/maven2/jakarta/servlet/jakarta.servlet-api/) **[4.0.4](https://repo1.maven.org/maven2/jakarta/servlet/jakarta.servlet-api/4.0.4)**
     - [jakarta.servlet-api](https://repo1.maven.org/maven2/jakarta/servlet/jakarta.servlet-api/) **[5.0.0](https://repo1.maven.org/maven2/jakarta/servlet/jakarta.servlet-api/5.0.0)**
