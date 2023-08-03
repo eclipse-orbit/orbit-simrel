@@ -37,6 +37,12 @@ pipeline {
     )
 
     string (
+      name: 'ORBIT_LEGACY',
+      defaultValue: 'https://download.eclipse.org/tools/orbit/simrel/orbit-legacy/nightly/latest',
+      description: 'The Orbit Legacy repository to aggregate.<br/>Visit <a href="https://download.eclipse.org/tools/orbit/simrel/orbit-legacy/">https://download.eclipse.org/tools/orbit/simrel/orbit-legacy/<a/> for choices.'
+    )
+
+    string (
       name: 'MAVEN_OSGI',
       defaultValue: 'https://download.eclipse.org/tools/orbit/simrel/maven-osgi/nightly/latest',
       description: 'The Orbit Maven OSGi repository to aggregate.<br/>Visit <a href="https://download.eclipse.org/tools/orbit/simrel/maven-osgi/">https://download.eclipse.org/tools/orbit/simrel/maven-osgi/<a/> for choices.'
@@ -62,6 +68,7 @@ pipeline {
 BUILD_TYPE=${params.BUILD_TYPE}
 PROMOTE=${params.PROMOTE}
 ORBIT=${params.ORBIT}
+ORBIT_LEGACY=${params.ORBIT_LEGACY}
 MAVEN_OSGI=${params.MAVEN_OSGI}
 MAVEN_BND=${params.MAVEN_BND}
 """
@@ -70,6 +77,7 @@ MAVEN_BND=${params.MAVEN_BND}
           env.PROMOTE = params.PROMOTE
           env.ORBIT = params.ORBIT
           env.MAVEN_OSGI = params.MAVEN_OSGI
+          env.ORBIT_LEGACY = params.ORBIT_LEGACY
           env.MAVEN_BND = params.MAVEN_BND
         }
       }
@@ -103,7 +111,11 @@ MAVEN_BND=${params.MAVEN_BND}
       steps {
         script {
           def contents = readFile( file: 'orbit-aggregation/orbit.aggr' )
-          contents = contents.replaceAll('location="[^"]+" description="maven-osgi"', "location=\"${MAVEN_OSGI}\"").replaceAll('location="[^"]+" description="maven-bnd"', "location=\"${MAVEN_BND}\"").replaceAll('location="[^"]+" description="orbit"', "location=\"${ORBIT}\"")
+          contents = contents.
+            replaceAll('location="[^"]+" description="maven-osgi"', "location=\"${MAVEN_OSGI}\"").
+            replaceAll('location="[^"]+" description="maven-bnd"', "location=\"${MAVEN_BND}\"").
+            replaceAll('location="[^"]+" description="orbit-legacy"', "location=\"${ORBIT_LEGACY}\"").
+            replaceAll('location="[^"]+" description="orbit"', "location=\"${ORBIT}\"")
           echo "$contents"
           writeFile( file: 'orbit-aggregation/orbit.aggr', text: contents)
         }
