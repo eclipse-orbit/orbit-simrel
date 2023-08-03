@@ -11,19 +11,27 @@
     - [jakarta.enterprise.cdi-api](https://repo1.maven.org/maven2/jakarta/enterprise/jakarta.enterprise.cdi-api/) **[2.0.2](https://repo1.maven.org/maven2/jakarta/enterprise/jakarta.enterprise.cdi-api/2.0.2)** < [4.0.1](https://repo1.maven.org/maven2/jakarta/enterprise/jakarta.enterprise.cdi-api/4.0.1/)
  - [jakarta.interceptor](https://repo1.maven.org/maven2/jakarta/interceptor/)
     - [jakarta.interceptor-api](https://repo1.maven.org/maven2/jakarta/interceptor/jakarta.interceptor-api/) **[1.2.5](https://repo1.maven.org/maven2/jakarta/interceptor/jakarta.interceptor-api/1.2.5)** < [2.1.0](https://repo1.maven.org/maven2/jakarta/interceptor/jakarta.interceptor-api/2.1.0/)
+ - [jakarta.jws](https://repo1.maven.org/maven2/jakarta/jws/)
+    - [jakarta.jws-api](https://repo1.maven.org/maven2/jakarta/jws/jakarta.jws-api/) **[2.1.0](https://repo1.maven.org/maven2/jakarta/jws/jakarta.jws-api/2.1.0)** < [3.0.0](https://repo1.maven.org/maven2/jakarta/jws/jakarta.jws-api/3.0.0/)
  - [jakarta.mail](https://repo1.maven.org/maven2/jakarta/mail/)
     - [jakarta.mail-api](https://repo1.maven.org/maven2/jakarta/mail/jakarta.mail-api/) **[1.6.7](https://repo1.maven.org/maven2/jakarta/mail/jakarta.mail-api/1.6.7)** < [2.1.2](https://repo1.maven.org/maven2/jakarta/mail/jakarta.mail-api/2.1.2/)
+ - [jakarta.persistence](https://repo1.maven.org/maven2/jakarta/persistence/)
+    - [jakarta.persistence-api](https://repo1.maven.org/maven2/jakarta/persistence/jakarta.persistence-api/) **[2.2.3](https://repo1.maven.org/maven2/jakarta/persistence/jakarta.persistence-api/2.2.3)** < [3.1.0](https://repo1.maven.org/maven2/jakarta/persistence/jakarta.persistence-api/3.1.0/)
  - [jakarta.servlet](https://repo1.maven.org/maven2/jakarta/servlet/)
     - [jakarta.servlet-api](https://repo1.maven.org/maven2/jakarta/servlet/jakarta.servlet-api/) **[4.0.4](https://repo1.maven.org/maven2/jakarta/servlet/jakarta.servlet-api/4.0.4)** < [6.0.0](https://repo1.maven.org/maven2/jakarta/servlet/jakarta.servlet-api/6.0.0/)
     - [jakarta.servlet-api](https://repo1.maven.org/maven2/jakarta/servlet/jakarta.servlet-api/) **[5.0.0](https://repo1.maven.org/maven2/jakarta/servlet/jakarta.servlet-api/5.0.0)** < [6.0.0](https://repo1.maven.org/maven2/jakarta/servlet/jakarta.servlet-api/6.0.0/)
  - [jakarta.transaction](https://repo1.maven.org/maven2/jakarta/transaction/)
     - [jakarta.transaction-api](https://repo1.maven.org/maven2/jakarta/transaction/jakarta.transaction-api/) **[1.3.3](https://repo1.maven.org/maven2/jakarta/transaction/jakarta.transaction-api/1.3.3)** < [2.0.1](https://repo1.maven.org/maven2/jakarta/transaction/jakarta.transaction-api/2.0.1/)
+ - [jakarta.websocket](https://repo1.maven.org/maven2/jakarta/websocket/)
+    - [jakarta.websocket-api](https://repo1.maven.org/maven2/jakarta/websocket/jakarta.websocket-api/) **[1.1.2](https://repo1.maven.org/maven2/jakarta/websocket/jakarta.websocket-api/1.1.2)** < [2.1.1](https://repo1.maven.org/maven2/jakarta/websocket/jakarta.websocket-api/2.1.1/)
  - [jakarta.ws.rs](https://repo1.maven.org/maven2/jakarta/ws/rs/)
     - [jakarta.ws.rs-api](https://repo1.maven.org/maven2/jakarta/ws/rs/jakarta.ws.rs-api/) **[2.1.6](https://repo1.maven.org/maven2/jakarta/ws/rs/jakarta.ws.rs-api/2.1.6)** < [3.1.0](https://repo1.maven.org/maven2/jakarta/ws/rs/jakarta.ws.rs-api/3.1.0/)
  - [jakarta.xml.bind](https://repo1.maven.org/maven2/jakarta/xml/bind/)
     - [jakarta.xml.bind-api](https://repo1.maven.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/) **[2.3.3](https://repo1.maven.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3)** < [4.0.0](https://repo1.maven.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/4.0.0/)
  - [jakarta.xml.soap](https://repo1.maven.org/maven2/jakarta/xml/soap/)
     - [jakarta.xml.soap-api](https://repo1.maven.org/maven2/jakarta/xml/soap/jakarta.xml.soap-api/) **[1.4.2](https://repo1.maven.org/maven2/jakarta/xml/soap/jakarta.xml.soap-api/1.4.2)** < [3.0.0](https://repo1.maven.org/maven2/jakarta/xml/soap/jakarta.xml.soap-api/3.0.0/)
+ - [jakarta.xml.ws](https://repo1.maven.org/maven2/jakarta/xml/ws/)
+    - [jakarta.xml.ws-api](https://repo1.maven.org/maven2/jakarta/xml/ws/jakarta.xml.ws-api/) **[2.3.3](https://repo1.maven.org/maven2/jakarta/xml/ws/jakarta.xml.ws-api/2.3.3)** < [4.0.0](https://repo1.maven.org/maven2/jakarta/xml/ws/jakarta.xml.ws-api/4.0.0/)
  - [javax.servlet](https://repo1.maven.org/maven2/javax/servlet/)
     - [javax.servlet-api](https://repo1.maven.org/maven2/javax/servlet/javax.servlet-api/) **[3.1.0](https://repo1.maven.org/maven2/javax/servlet/javax.servlet-api/3.1.0)** < [4.0.1](https://repo1.maven.org/maven2/javax/servlet/javax.servlet-api/4.0.1/)
  - [org.apache.felix](https://repo1.maven.org/maven2/org/apache/felix/)
@@ -141,13 +149,19 @@
     - [jakarta.inject-api](https://repo1.maven.org/maven2/jakarta/inject/jakarta.inject-api/) **[2.0.1](https://repo1.maven.org/maven2/jakarta/inject/jakarta.inject-api/2.0.1)**
  - [jakarta.interceptor](https://repo1.maven.org/maven2/jakarta/interceptor/)
     - [jakarta.interceptor-api](https://repo1.maven.org/maven2/jakarta/interceptor/jakarta.interceptor-api/) **[1.2.5](https://repo1.maven.org/maven2/jakarta/interceptor/jakarta.interceptor-api/1.2.5)**
+ - [jakarta.jws](https://repo1.maven.org/maven2/jakarta/jws/)
+    - [jakarta.jws-api](https://repo1.maven.org/maven2/jakarta/jws/jakarta.jws-api/) **[2.1.0](https://repo1.maven.org/maven2/jakarta/jws/jakarta.jws-api/2.1.0)**
  - [jakarta.mail](https://repo1.maven.org/maven2/jakarta/mail/)
     - [jakarta.mail-api](https://repo1.maven.org/maven2/jakarta/mail/jakarta.mail-api/) **[1.6.7](https://repo1.maven.org/maven2/jakarta/mail/jakarta.mail-api/1.6.7)**
+ - [jakarta.persistence](https://repo1.maven.org/maven2/jakarta/persistence/)
+    - [jakarta.persistence-api](https://repo1.maven.org/maven2/jakarta/persistence/jakarta.persistence-api/) **[2.2.3](https://repo1.maven.org/maven2/jakarta/persistence/jakarta.persistence-api/2.2.3)**
  - [jakarta.servlet](https://repo1.maven.org/maven2/jakarta/servlet/)
     - [jakarta.servlet-api](https://repo1.maven.org/maven2/jakarta/servlet/jakarta.servlet-api/) **[4.0.4](https://repo1.maven.org/maven2/jakarta/servlet/jakarta.servlet-api/4.0.4)**
     - [jakarta.servlet-api](https://repo1.maven.org/maven2/jakarta/servlet/jakarta.servlet-api/) **[5.0.0](https://repo1.maven.org/maven2/jakarta/servlet/jakarta.servlet-api/5.0.0)**
  - [jakarta.transaction](https://repo1.maven.org/maven2/jakarta/transaction/)
     - [jakarta.transaction-api](https://repo1.maven.org/maven2/jakarta/transaction/jakarta.transaction-api/) **[1.3.3](https://repo1.maven.org/maven2/jakarta/transaction/jakarta.transaction-api/1.3.3)**
+ - [jakarta.websocket](https://repo1.maven.org/maven2/jakarta/websocket/)
+    - [jakarta.websocket-api](https://repo1.maven.org/maven2/jakarta/websocket/jakarta.websocket-api/) **[1.1.2](https://repo1.maven.org/maven2/jakarta/websocket/jakarta.websocket-api/1.1.2)**
  - [jakarta.ws.rs](https://repo1.maven.org/maven2/jakarta/ws/rs/)
     - [jakarta.ws.rs-api](https://repo1.maven.org/maven2/jakarta/ws/rs/jakarta.ws.rs-api/) **[2.1.6](https://repo1.maven.org/maven2/jakarta/ws/rs/jakarta.ws.rs-api/2.1.6)**
  - [jakarta.xml.bind](https://repo1.maven.org/maven2/jakarta/xml/bind/)
@@ -156,6 +170,8 @@
     - [jakarta.xml.rpc-api](https://repo1.maven.org/maven2/jakarta/xml/rpc/jakarta.xml.rpc-api/) **[1.1.4](https://repo1.maven.org/maven2/jakarta/xml/rpc/jakarta.xml.rpc-api/1.1.4)**
  - [jakarta.xml.soap](https://repo1.maven.org/maven2/jakarta/xml/soap/)
     - [jakarta.xml.soap-api](https://repo1.maven.org/maven2/jakarta/xml/soap/jakarta.xml.soap-api/) **[1.4.2](https://repo1.maven.org/maven2/jakarta/xml/soap/jakarta.xml.soap-api/1.4.2)**
+ - [jakarta.xml.ws](https://repo1.maven.org/maven2/jakarta/xml/ws/)
+    - [jakarta.xml.ws-api](https://repo1.maven.org/maven2/jakarta/xml/ws/jakarta.xml.ws-api/) **[2.3.3](https://repo1.maven.org/maven2/jakarta/xml/ws/jakarta.xml.ws-api/2.3.3)**
  - [javax.servlet](https://repo1.maven.org/maven2/javax/servlet/)
     - [javax.servlet-api](https://repo1.maven.org/maven2/javax/servlet/javax.servlet-api/) **[3.1.0](https://repo1.maven.org/maven2/javax/servlet/javax.servlet-api/3.1.0)**
  - [javax.servlet.jsp](https://repo1.maven.org/maven2/javax/servlet/jsp/)
