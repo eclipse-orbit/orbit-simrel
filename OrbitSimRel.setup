@@ -104,14 +104,6 @@
     </setupTask>
   </setupTask>
   <setupTask
-      xsi:type="setup:VariableTask"
-      name="github.org"
-      value="eclipse-orbit"/>
-  <setupTask
-      xsi:type="setup:VariableTask"
-      name="github.repo"
-      value="orbit-simrel"/>
-  <setupTask
       xsi:type="workbench:FileAssociationsTask">
     <mapping
         filePattern="*.launch"
@@ -163,7 +155,7 @@
   <setupTask
       xsi:type="setup:EclipseIniTask"
       option="-Doomph.redirection.orbit.simrel.setup"
-      value="=https://raw.githubusercontent.com/${github.org}/${github.repo}/main/OrbitSimRel.setup->${github.clone.orbit.simrel.location|uri}/OrbitSimRel.setup"
+      value="=https://raw.githubusercontent.com/eclipse-orbit/orbit-simrel/main/OrbitSimRel.setup->${github.clone.orbit.simrel.location|uri}/OrbitSimRel.setup"
       vm="true">
     <description>Redirect to the development version of the setup model.</description>
   </setupTask>
@@ -204,22 +196,23 @@
           &lt;launchGroup id=&quot;org.eclipse.debug.ui.launchGroup.debug&quot;>
               &lt;favorites>
                   &lt;launch memento=&quot;&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;UTF-8&amp;quot; standalone=&amp;quot;no&amp;quot;?&amp;gt;&amp;#13;&amp;#10;&amp;lt;launchConfiguration local=&amp;quot;false&amp;quot; path=&amp;quot;/org.eclipse.orbit.maven.generator/MavenOSGiDependencyAnalyzer.launch&amp;quot;/&amp;gt;&amp;#13;&amp;#10;&quot;/>
-                  &lt;launch memento=&quot;&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;UTF-8&amp;quot; standalone=&amp;quot;no&amp;quot;?&amp;gt;&amp;#13;&amp;#10;&amp;lt;launchConfiguration local=&amp;quot;false&amp;quot; path=&amp;quot;/org.eclipse.orbit.maven.bnd.generator/MavenBNDUpdater.launch&amp;quot;/&amp;gt;&amp;#13;&amp;#10;&quot;/>
                   &lt;launch memento=&quot;&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;UTF-8&amp;quot; standalone=&amp;quot;no&amp;quot;?&amp;gt;&amp;#13;&amp;#10;&amp;lt;launchConfiguration local=&amp;quot;false&amp;quot; path=&amp;quot;/org.eclipse.orbit.maven.generator/MavenBNDDependencyAnalyzer.launch&amp;quot;/&amp;gt;&amp;#13;&amp;#10;&quot;/>
+                  &lt;launch memento=&quot;&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;UTF-8&amp;quot; standalone=&amp;quot;no&amp;quot;?&amp;gt;&amp;#13;&amp;#10;&amp;lt;launchConfiguration local=&amp;quot;false&amp;quot; path=&amp;quot;/org.eclipse.orbit.maven.bnd.generator/MavenBNDUpdater.launch&amp;quot;/&amp;gt;&amp;#13;&amp;#10;&quot;/>
               &lt;/favorites>
           &lt;/launchGroup>
           &lt;launchGroup id=&quot;org.eclipse.ui.externaltools.launchGroup&quot;>
               &lt;favorites>
                   &lt;launch memento=&quot;&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;UTF-8&amp;quot; standalone=&amp;quot;no&amp;quot;?&amp;gt;&amp;#13;&amp;#10;&amp;lt;launchConfiguration local=&amp;quot;false&amp;quot; path=&amp;quot;/org.eclipse.orbit.simrel/maven-osgi/Maven OSGi.launch&amp;quot;/&amp;gt;&amp;#13;&amp;#10;&quot;/>
                   &lt;launch memento=&quot;&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;UTF-8&amp;quot; standalone=&amp;quot;no&amp;quot;?&amp;gt;&amp;#13;&amp;#10;&amp;lt;launchConfiguration local=&amp;quot;false&amp;quot; path=&amp;quot;/org.eclipse.orbit.simrel/maven-bnd/Maven BND.launch&amp;quot;/&amp;gt;&amp;#13;&amp;#10;&quot;/>
+                  &lt;launch memento=&quot;&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;UTF-8&amp;quot; standalone=&amp;quot;no&amp;quot;?&amp;gt;&amp;#13;&amp;#10;&amp;lt;launchConfiguration local=&amp;quot;false&amp;quot; path=&amp;quot;/org.eclipse.orbit.legacy/Maven Legacy.launch&amp;quot;/&amp;gt;&amp;#13;&amp;#10;&quot;/>
                   &lt;launch memento=&quot;&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;UTF-8&amp;quot; standalone=&amp;quot;no&amp;quot;?&amp;gt;&amp;#13;&amp;#10;&amp;lt;launchConfiguration local=&amp;quot;false&amp;quot; path=&amp;quot;/org.eclipse.orbit.simrel/orbit-aggregation/Orbit Aggregation.launch&amp;quot;/&amp;gt;&amp;#13;&amp;#10;&quot;/>
               &lt;/favorites>
           &lt;/launchGroup>
           &lt;launchGroup id=&quot;org.eclipse.debug.ui.launchGroup.run&quot;>
               &lt;favorites>
-                  &lt;launch memento=&quot;&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;UTF-8&amp;quot; standalone=&amp;quot;no&amp;quot;?&amp;gt;&amp;#13;&amp;#10;&amp;lt;launchConfiguration local=&amp;quot;false&amp;quot; path=&amp;quot;/org.eclipse.orbit.maven.bnd.generator/MavenBNDUpdater.launch&amp;quot;/&amp;gt;&amp;#13;&amp;#10;&quot;/>
-                  &lt;launch memento=&quot;&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;UTF-8&amp;quot; standalone=&amp;quot;no&amp;quot;?&amp;gt;&amp;#13;&amp;#10;&amp;lt;launchConfiguration local=&amp;quot;false&amp;quot; path=&amp;quot;/org.eclipse.orbit.maven.generator/MavenBNDDependencyAnalyzer.launch&amp;quot;/&amp;gt;&amp;#13;&amp;#10;&quot;/>
                   &lt;launch memento=&quot;&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;UTF-8&amp;quot; standalone=&amp;quot;no&amp;quot;?&amp;gt;&amp;#13;&amp;#10;&amp;lt;launchConfiguration local=&amp;quot;false&amp;quot; path=&amp;quot;/org.eclipse.orbit.maven.generator/MavenOSGiDependencyAnalyzer.launch&amp;quot;/&amp;gt;&amp;#13;&amp;#10;&quot;/>
+                  &lt;launch memento=&quot;&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;UTF-8&amp;quot; standalone=&amp;quot;no&amp;quot;?&amp;gt;&amp;#13;&amp;#10;&amp;lt;launchConfiguration local=&amp;quot;false&amp;quot; path=&amp;quot;/org.eclipse.orbit.maven.generator/MavenBNDDependencyAnalyzer.launch&amp;quot;/&amp;gt;&amp;#13;&amp;#10;&quot;/>
+                  &lt;launch memento=&quot;&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;UTF-8&amp;quot; standalone=&amp;quot;no&amp;quot;?&amp;gt;&amp;#13;&amp;#10;&amp;lt;launchConfiguration local=&amp;quot;false&amp;quot; path=&amp;quot;/org.eclipse.orbit.maven.bnd.generator/MavenBNDUpdater.launch&amp;quot;/&amp;gt;&amp;#13;&amp;#10;&quot;/>
               &lt;/favorites>
           &lt;/launchGroup>
       &lt;/launchHistory>
@@ -229,7 +222,7 @@
   <setupTask
       xsi:type="git:GitCloneTask"
       id="github.clone.orbit.simrel"
-      remoteURI="${github.org}/${github.repo}"
+      remoteURI="eclipse-orbit/orbit-simrel"
       checkoutBranch="main">
     <annotation
         source="http://www.eclipse.org/oomph/setup/InducedChoices">
@@ -247,6 +240,28 @@
       </detail>
     </annotation>
     <description>Orbit SimRel</description>
+  </setupTask>
+  <setupTask
+      xsi:type="git:GitCloneTask"
+      id="github.clone.orbit.legacy"
+      remoteURI="eclipse-orbit/orbit-legacy"
+      checkoutBranch="main">
+    <annotation
+        source="http://www.eclipse.org/oomph/setup/InducedChoices">
+      <detail
+          key="inherit">
+        <value>github.remoteURIs</value>
+      </detail>
+      <detail
+          key="label">
+        <value>Orbit Legacy GitHub Repository</value>
+      </detail>
+      <detail
+          key="target">
+        <value>remoteURI</value>
+      </detail>
+    </annotation>
+    <description>Orbit Legacy</description>
   </setupTask>
   <setupTask
       xsi:type="setup:VariableTask"
@@ -267,6 +282,23 @@
           rootFolder="${github.clone.orbit.simrel.location}"
           locateNestedProjects="true"/>
       <repositoryList/>
+    </targlet>
+    <targlet
+        name="Orbit Legacy"
+        includeAllPlatforms="true">
+      <requirement
+          name="*"/>
+      <sourceLocator
+          rootFolder="${github.clone.orbit.legacy.location}"
+          locateNestedProjects="true"/>
+      <repositoryList>
+        <repository
+            url="https://download.eclipse.org/cbi/updates/license"/>
+        <repository
+            url="https://download.eclipse.org/tools/orbit/simrel/maven-bnd/nightly/latest"/>
+        <repository
+            url="https://download.eclipse.org/tools/orbit/simrel/maven-osgi/nightly/latest"/>
+      </repositoryList>
     </targlet>
   </setupTask>
   <setupTask
@@ -294,12 +326,48 @@
             relativePathPattern="maven(-bnd|-osgi)?/.*"/>
       </predicate>
     </workingSet>
+    <workingSet
+        name="Orbit Legacy Root">
+      <predicate
+          xsi:type="predicates:AndPredicate">
+        <operand
+            xsi:type="predicates:RepositoryPredicate"
+            project="org.eclipse.orbit.legacy"/>
+        <operand
+            xsi:type="workingsets:ExclusionPredicate"
+            excludedWorkingSet="//'workingsets.orbit.simrel.incubator'/@workingSets[name='Orbit%20Legacy%20Bundles%20and%20Features']"/>
+      </predicate>
+    </workingSet>
+    <workingSet
+        name="Orbit Legacy Bundles and Features">
+      <predicate
+          xsi:type="predicates:AndPredicate">
+        <operand
+            xsi:type="predicates:RepositoryPredicate"
+            project="org.eclipse.orbit.legacy"/>
+        <operand
+            xsi:type="predicates:OrPredicate">
+          <operand
+              xsi:type="predicates:NaturePredicate"
+              nature="org.eclipse.pde.FeatureNature"/>
+          <operand
+              xsi:type="predicates:NaturePredicate"
+              nature="org.eclipse.pde.PluginNature"/>
+        </operand>
+      </predicate>
+    </workingSet>
   </setupTask>
   <setupTask
       xsi:type="setup:StringSubstitutionTask"
       name="git.clone.orbit.simrel"
       value="${github.clone.orbit.simrel.location}">
     <description>The location of Orbit's SimRel Git clone.</description>
+  </setupTask>
+  <setupTask
+      xsi:type="setup:StringSubstitutionTask"
+      name="git.clone.orbit.legacy"
+      value="${github.clone.orbit.legacy.location}">
+    <description>The location of Orbit's Legcacy Git clone.</description>
   </setupTask>
   <setupTask
       xsi:type="setup:StringSubstitutionTask"
@@ -354,6 +422,24 @@
       name="maven.bash.home"
       value="${maven.bash.home}">
     <description>The location of the mvn command that will execute mvn on your operating system; it is used in the External Tools Configurations.</description>
+  </setupTask>
+  <setupTask
+      xsi:type="setup:StringSubstitutionTask"
+      name="org.eclipse.cbi.p2repo.maven-osgi"
+      value="${github.clone.orbit.simrel.location|uri}/maven-osgi/site-minimal/target/repository">
+    <description>The location of the locally buit maven-osgi repository</description>
+  </setupTask>
+  <setupTask
+      xsi:type="setup:StringSubstitutionTask"
+      name="org.eclipse.cbi.p2repo.maven-bnd"
+      value="${github.clone.orbit.simrel.location|uri}/maven-bnd/site-minimal/target/repository">
+    <description>The location of the locally buit maven-bnd repository</description>
+  </setupTask>
+  <setupTask
+      xsi:type="setup:StringSubstitutionTask"
+      name="org.eclipse.cbi.p2repo.orbit-legacy"
+      value="${github.clone.orbit.legacy.location|uri}/site/target/repository">
+    <description>The location of the locally buit orbit-legacy repository</description>
   </setupTask>
   <stream name="main"
       label="Main"/>
