@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
    <feature id="org.eclipse.orbit.maven.aopalliance"/>
+   <feature id="org.eclipse.orbit.maven.com.konghq"/>
    <feature id="org.eclipse.orbit.maven.hamcrest"/>
    <feature id="org.eclipse.orbit.maven.javax.wsdl"/>
    <feature id="org.eclipse.orbit.maven.jdom2"/>
