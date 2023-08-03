@@ -238,6 +238,13 @@
           <type>jar</type>
         </dependency>
 
+        <dependency>
+          <groupId>jakarta.mail</groupId>
+          <artifactId>jakarta.mail-api</artifactId>
+          <version>1.6.7</version>
+          <type>jar</type>
+        </dependency>
+
       </dependencies>
     </location>
   </locations>

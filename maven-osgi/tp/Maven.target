@@ -327,6 +327,12 @@ SPDX-License-Identifier: EPL-2.0
           <type>jar</type>
         </dependency>
         <dependency>
+          <groupId>jakarta.mail</groupId>
+          <artifactId>jakarta.mail-api</artifactId>
+          <version>1.6.7</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
           <groupId>jakarta.servlet</groupId>
           <artifactId>jakarta.servlet-api</artifactId>
           <version>4.0.4</version>
