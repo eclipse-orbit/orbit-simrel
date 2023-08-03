@@ -27,6 +27,9 @@
     <org.eclipse.justj.p2.manager.build.url>http://www.example.com/</org.eclipse.justj.p2.manager.build.url>
     <build.type>nightly</build.type>
     <git.commit>unknown</git.commit>
+    <org.eclipse.cbi.p2repo.maven-bnd></org.eclipse.cbi.p2repo.maven-bnd>
+    <org.eclipse.cbi.p2repo.maven-osgi></org.eclipse.cbi.p2repo.maven-osgi>
+    <org.eclipse.cbi.p2repo.orbit-legacy></org.eclipse.cbi.p2repo.orbit-legacy>
   </properties>
 
   <pluginRepositories>
@@ -72,6 +75,9 @@
                 <jvmArg>-Xms256M</jvmArg>
                 <jvmArg>-Xmx2048M</jvmArg>
                 <jvmArg>-Duser.home=${project.build.directory}</jvmArg>
+                <jvmArg>-Dorg.eclipse.cbi.p2repo.maven-bnd=${org.eclipse.cbi.p2repo.maven-bnd}</jvmArg>
+                <jvmArg>-Dorg.eclipse.cbi.p2repo.maven-osgi=${org.eclipse.cbi.p2repo.maven-osgi}</jvmArg>
+                <jvmArg>-Dorg.eclipse.cbi.p2repo.orbit-legacy=${org.eclipse.cbi.p2repo.orbit-legacy}</jvmArg>
               </jvmArgs>
               <repositories>
                 <repository>

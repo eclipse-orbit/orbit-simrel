@@ -12,6 +12,6 @@
         <listEntry value="org.eclipse.ui.externaltools.launchGroup"/>
     </listAttribute>
     <stringAttribute key="org.eclipse.ui.externaltools.ATTR_LOCATION" value="${maven.build.command}"/>
-    <stringAttribute key="org.eclipse.ui.externaltools.ATTR_TOOL_ARGUMENTS" value="-DU&#13;&#10;-DX&#13;&#10;-DDtycho.debug.resolver=true&#13;&#10;-Dmaven.artifact.threads=16&#13;&#10;-Duser.home=${system_property:user.home}&#13;&#10;-Dorg.eclipse.justj.p2.manager.args=&quot;-remote localhost:${project_loc:/org.eclipse.orbit.simrel}/orbit-aggregation/updates&quot;&#13;&#10;-Dbuild.type=nightly&#13;&#10;clean&#13;&#10;verify"/>
+    <stringAttribute key="org.eclipse.ui.externaltools.ATTR_TOOL_ARGUMENTS" value="-DU&#13;&#10;-DX&#13;&#10;-DDtycho.debug.resolver=true&#13;&#10;-Dmaven.artifact.threads=16&#13;&#10;-Duser.home=${system_property:user.home}&#13;&#10;-Dorg.eclipse.justj.p2.manager.args=&quot;-remote localhost:${project_loc:/org.eclipse.orbit.simrel}/orbit-aggregation/updates&quot;&#13;&#10;-Dbuild.type=nightly&#13;&#10;-Dorg.eclipse.cbi.p2repo.maven-bnd=${org.eclipse.cbi.p2repo.maven-bnd}&#13;&#10;-Dorg.eclipse.cbi.p2repo.maven-osgi=${org.eclipse.cbi.p2repo.maven-osgi}&#13;&#10;-Dorg.eclipse.cbi.p2repo.orbit-legacy=${org.eclipse.cbi.p2repo.orbit-legacy}&#13;&#10;clean&#13;&#10;verify"/>
     <stringAttribute key="org.eclipse.ui.externaltools.ATTR_WORKING_DIRECTORY" value="${project_loc:/org.eclipse.orbit.simrel}/orbit-aggregation"/>
 </launchConfiguration>
