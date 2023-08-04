@@ -46,6 +46,7 @@ import javax.xml.xpath.XPathFactory;
 
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
+import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 import org.xml.sax.InputSource;
 import org.xml.sax.SAXException;
@@ -337,10 +338,10 @@ public class DependencyAnalyzer {
 
 	static final XPathFactory XPATH_FACTORY = XPathFactory.newInstance();
 
-	private static List<Element> evaluate(Document document, String expression) {
+	private static List<Element> evaluate(Node node, String expression) {
 		XPath xPath = XPATH_FACTORY.newXPath();
 		try {
-			var nodeList = (NodeList) xPath.compile(expression).evaluate(document, XPathConstants.NODESET);
+			var nodeList = (NodeList) xPath.compile(expression).evaluate(node, XPathConstants.NODESET);
 			var result = new ArrayList<Element>();
 			for (int i = 0, length = nodeList.getLength(); i < length; ++i) {
 				result.add((Element) nodeList.item(i));
@@ -382,7 +383,7 @@ public class DependencyAnalyzer {
 				writeString(report.resolve("original.target"), content);
 			}
 
-			var targetDependencies = analyzer.getTargetDependencies(uri);
+			var targetDependencies = analyzer.getTargetDependencies(uri, Pattern.compile(".*\\.exclude.*"));
 			var targetDependencyVersions = analyzer.getAllUpdateVersions(targetDependencies);
 			var newContent = replace(content, targetDependencyVersions, true, false, majorInclusions);
 
@@ -491,10 +492,24 @@ public class DependencyAnalyzer {
 		}
 
 		public List<Dependency> getTargetDependencies(URI location) throws IOException {
+			return getTargetDependencies(location, null);
+		}
+
+		public List<Dependency> getTargetDependencies(URI location, Pattern excludedFeaturesPattern)
+				throws IOException {
 			var targetPlatform = contentHandler.getXMLContent(location);
 			var mavenDependencies = evaluate(targetPlatform, "//dependency");
 			var dependencies = new ArrayList<Dependency>();
 			for (var mavenDependency : mavenDependencies) {
+				if (excludedFeaturesPattern != null) {
+					var features = evaluate(mavenDependency, "../../feature");
+					if (!features.isEmpty()) {
+						String id = features.get(0).getAttribute("id");
+						if (id != null && excludedFeaturesPattern.matcher(id).matches()) {
+							continue;
+						}
+					}
+				}
 				var groupId = getText(mavenDependency, "groupId");
 				var artifactId = getText(mavenDependency, "artifactId");
 				var version = getText(mavenDependency, "version");

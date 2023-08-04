@@ -1,12 +1,6 @@
 # Target Platform: [merged-target](https://github.com/eclipse-orbit/orbit-simrel/blob/main/maven-bnd/tp/MavenBND.target)
 
 ## Major Updates
- - [jakarta.activation](https://repo1.maven.org/maven2/jakarta/activation/)
-    - [jakarta.activation-api](https://repo1.maven.org/maven2/jakarta/activation/jakarta.activation-api/) **[1.2.2](https://repo1.maven.org/maven2/jakarta/activation/jakarta.activation-api/1.2.2)** < [2.1.2](https://repo1.maven.org/maven2/jakarta/activation/jakarta.activation-api/2.1.2/)
- - [jakarta.servlet](https://repo1.maven.org/maven2/jakarta/servlet/)
-    - [jakarta.servlet-api](https://repo1.maven.org/maven2/jakarta/servlet/jakarta.servlet-api/) **[4.0.4](https://repo1.maven.org/maven2/jakarta/servlet/jakarta.servlet-api/4.0.4)** < [6.0.0](https://repo1.maven.org/maven2/jakarta/servlet/jakarta.servlet-api/6.0.0/)
- - [jakarta.xml.soap](https://repo1.maven.org/maven2/jakarta/xml/soap/)
-    - [jakarta.xml.soap-api](https://repo1.maven.org/maven2/jakarta/xml/soap/jakarta.xml.soap-api/) **[1.4.2](https://repo1.maven.org/maven2/jakarta/xml/soap/jakarta.xml.soap-api/1.4.2)** < [3.0.0](https://repo1.maven.org/maven2/jakarta/xml/soap/jakarta.xml.soap-api/3.0.0/)
  - [org.hamcrest](https://repo1.maven.org/maven2/org/hamcrest/)
     - [hamcrest-core](https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/) **[1.3](https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3)** < [2.2](https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/2.2/)
     - [hamcrest-library](https://repo1.maven.org/maven2/org/hamcrest/hamcrest-library/) **[1.3](https://repo1.maven.org/maven2/org/hamcrest/hamcrest-library/1.3)** < [2.2](https://repo1.maven.org/maven2/org/hamcrest/hamcrest-library/2.2/)
@@ -17,31 +11,10 @@
  - [com.github.jnr](https://repo1.maven.org/maven2/com/github/jnr/)
     - [jnr-a64asm](https://repo1.maven.org/maven2/com/github/jnr/jnr-a64asm/) **[1.0.0](https://repo1.maven.org/maven2/com/github/jnr/jnr-a64asm/1.0.0)**
     - [jnr-x86asm](https://repo1.maven.org/maven2/com/github/jnr/jnr-x86asm/) **[1.0.2](https://repo1.maven.org/maven2/com/github/jnr/jnr-x86asm/1.0.2)**
- - [commons-codec](https://repo1.maven.org/maven2/commons-codec/)
-    - [commons-codec](https://repo1.maven.org/maven2/commons-codec/commons-codec/) **[1.16.0](https://repo1.maven.org/maven2/commons-codec/commons-codec/1.16.0)**
- - [commons-discovery](https://repo1.maven.org/maven2/commons-discovery/)
-    - [commons-discovery](https://repo1.maven.org/maven2/commons-discovery/commons-discovery/) **[0.5](https://repo1.maven.org/maven2/commons-discovery/commons-discovery/0.5)**
- - [commons-logging](https://repo1.maven.org/maven2/commons-logging/)
-    - [commons-logging](https://repo1.maven.org/maven2/commons-logging/commons-logging/) **[1.2](https://repo1.maven.org/maven2/commons-logging/commons-logging/1.2)**
- - [jakarta.activation](https://repo1.maven.org/maven2/jakarta/activation/)
-    - [jakarta.activation-api](https://repo1.maven.org/maven2/jakarta/activation/jakarta.activation-api/) **[1.2.2](https://repo1.maven.org/maven2/jakarta/activation/jakarta.activation-api/1.2.2)**
- - [jakarta.servlet](https://repo1.maven.org/maven2/jakarta/servlet/)
-    - [jakarta.servlet-api](https://repo1.maven.org/maven2/jakarta/servlet/jakarta.servlet-api/) **[4.0.4](https://repo1.maven.org/maven2/jakarta/servlet/jakarta.servlet-api/4.0.4)**
- - [jakarta.xml.rpc](https://repo1.maven.org/maven2/jakarta/xml/rpc/)
-    - [jakarta.xml.rpc-api](https://repo1.maven.org/maven2/jakarta/xml/rpc/jakarta.xml.rpc-api/) **[1.1.4](https://repo1.maven.org/maven2/jakarta/xml/rpc/jakarta.xml.rpc-api/1.1.4)**
- - [jakarta.xml.soap](https://repo1.maven.org/maven2/jakarta/xml/soap/)
-    - [jakarta.xml.soap-api](https://repo1.maven.org/maven2/jakarta/xml/soap/jakarta.xml.soap-api/) **[1.4.2](https://repo1.maven.org/maven2/jakarta/xml/soap/jakarta.xml.soap-api/1.4.2)**
- - [jaxen](https://repo1.maven.org/maven2/jaxen/)
-    - [jaxen](https://repo1.maven.org/maven2/jaxen/jaxen/) **[2.0.0](https://repo1.maven.org/maven2/jaxen/jaxen/2.0.0)**
+ - [com.konghq](https://repo1.maven.org/maven2/com/konghq/)
+    - [unirest-java](https://repo1.maven.org/maven2/com/konghq/unirest-java/) **[3.14.5](https://repo1.maven.org/maven2/com/konghq/unirest-java/3.14.5)**
  - [junit](https://repo1.maven.org/maven2/junit/)
     - [junit](https://repo1.maven.org/maven2/junit/junit/) **[4.13.2](https://repo1.maven.org/maven2/junit/junit/4.13.2)**
- - [net.java.dev.jna](https://repo1.maven.org/maven2/net/java/dev/jna/)
-    - [jna](https://repo1.maven.org/maven2/net/java/dev/jna/jna/) **[5.13.0](https://repo1.maven.org/maven2/net/java/dev/jna/jna/5.13.0)**
-    - [jna-platform](https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/) **[5.13.0](https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/5.13.0)**
- - [org.apache.ant](https://repo1.maven.org/maven2/org/apache/ant/)
-    - [ant](https://repo1.maven.org/maven2/org/apache/ant/ant/) **[1.10.13](https://repo1.maven.org/maven2/org/apache/ant/ant/1.10.13)**
- - [org.apache.aries.spifly](https://repo1.maven.org/maven2/org/apache/aries/spifly/)
-    - [org.apache.aries.spifly.dynamic.bundle](https://repo1.maven.org/maven2/org/apache/aries/spifly/org.apache.aries.spifly.dynamic.bundle/) **[1.3.6](https://repo1.maven.org/maven2/org/apache/aries/spifly/org.apache.aries.spifly.dynamic.bundle/1.3.6)**
  - [org.apache.axis](https://repo1.maven.org/maven2/org/apache/axis/)
     - [axis](https://repo1.maven.org/maven2/org/apache/axis/axis/) **[1.4](https://repo1.maven.org/maven2/org/apache/axis/axis/1.4)**
     - [axis-ant](https://repo1.maven.org/maven2/org/apache/axis/axis-ant/) **[1.4](https://repo1.maven.org/maven2/org/apache/axis/axis-ant/1.4)**
@@ -72,19 +45,5 @@
     - [jcodings](https://repo1.maven.org/maven2/org/jruby/jcodings/jcodings/) **[1.0.58](https://repo1.maven.org/maven2/org/jruby/jcodings/jcodings/1.0.58)**
  - [org.jruby.joni](https://repo1.maven.org/maven2/org/jruby/joni/)
     - [joni](https://repo1.maven.org/maven2/org/jruby/joni/joni/) **[2.2.1](https://repo1.maven.org/maven2/org/jruby/joni/joni/2.2.1)**
- - [org.osgi](https://repo1.maven.org/maven2/org/osgi/)
-    - [org.osgi.dto](https://repo1.maven.org/maven2/org/osgi/org.osgi.dto/) **[1.1.1](https://repo1.maven.org/maven2/org/osgi/org.osgi.dto/1.1.1)**
-    - [org.osgi.framework](https://repo1.maven.org/maven2/org/osgi/org.osgi.framework/) **[1.10.0](https://repo1.maven.org/maven2/org/osgi/org.osgi.framework/1.10.0)**
-    - [org.osgi.resource](https://repo1.maven.org/maven2/org/osgi/org.osgi.resource/) **[1.0.1](https://repo1.maven.org/maven2/org/osgi/org.osgi.resource/1.0.1)**
-    - [org.osgi.util.tracker](https://repo1.maven.org/maven2/org/osgi/org.osgi.util.tracker/) **[1.5.4](https://repo1.maven.org/maven2/org/osgi/org.osgi.util.tracker/1.5.4)**
- - [org.ow2.asm](https://repo1.maven.org/maven2/org/ow2/asm/)
-    - [asm](https://repo1.maven.org/maven2/org/ow2/asm/asm/) **[9.5](https://repo1.maven.org/maven2/org/ow2/asm/asm/9.5)**
-    - [asm-analysis](https://repo1.maven.org/maven2/org/ow2/asm/asm-analysis/) **[9.5](https://repo1.maven.org/maven2/org/ow2/asm/asm-analysis/9.5)**
-    - [asm-commons](https://repo1.maven.org/maven2/org/ow2/asm/asm-commons/) **[9.5](https://repo1.maven.org/maven2/org/ow2/asm/asm-commons/9.5)**
-    - [asm-tree](https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/) **[9.5](https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/9.5)**
-    - [asm-util](https://repo1.maven.org/maven2/org/ow2/asm/asm-util/) **[9.5](https://repo1.maven.org/maven2/org/ow2/asm/asm-util/9.5)**
- - [org.slf4j](https://repo1.maven.org/maven2/org/slf4j/)
-    - [slf4j-api](https://repo1.maven.org/maven2/org/slf4j/slf4j-api/) **[2.0.7](https://repo1.maven.org/maven2/org/slf4j/slf4j-api/2.0.7)**
-    - [slf4j-nop](https://repo1.maven.org/maven2/org/slf4j/slf4j-nop/) **[2.0.7](https://repo1.maven.org/maven2/org/slf4j/slf4j-nop/2.0.7)**
  - [wsdl4j](https://repo1.maven.org/maven2/wsdl4j/)
     - [wsdl4j](https://repo1.maven.org/maven2/wsdl4j/wsdl4j/) **[1.6.3](https://repo1.maven.org/maven2/wsdl4j/wsdl4j/1.6.3)**
