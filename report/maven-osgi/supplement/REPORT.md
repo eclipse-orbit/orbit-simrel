@@ -25,7 +25,7 @@
 
 ## Content
  - [ch.qos.logback](https://repo1.maven.org/maven2/ch/qos/logback/)
-    - [logback-core](https://repo1.maven.org/maven2/ch/qos/logback/logback-core/) **[1.4.8](https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.4.8)**
+    - [logback-core](https://repo1.maven.org/maven2/ch/qos/logback/logback-core/) **[1.4.9](https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.4.9)**
  - [com.evolvedbinary.thirdparty.org.apache.xmlrpc](https://repo1.maven.org/maven2/com/evolvedbinary/thirdparty/org/apache/xmlrpc/)
     - [xmlrpc-client](https://repo1.maven.org/maven2/com/evolvedbinary/thirdparty/org/apache/xmlrpc/xmlrpc-client/) **[5.0.0](https://repo1.maven.org/maven2/com/evolvedbinary/thirdparty/org/apache/xmlrpc/xmlrpc-client/5.0.0)**
     - [xmlrpc-common](https://repo1.maven.org/maven2/com/evolvedbinary/thirdparty/org/apache/xmlrpc/xmlrpc-common/) **[5.0.0](https://repo1.maven.org/maven2/com/evolvedbinary/thirdparty/org/apache/xmlrpc/xmlrpc-common/5.0.0)**
@@ -33,7 +33,7 @@
  - [com.github.librepdf](https://repo1.maven.org/maven2/com/github/librepdf/)
     - [openpdf](https://repo1.maven.org/maven2/com/github/librepdf/openpdf/) **[1.3.30](https://repo1.maven.org/maven2/com/github/librepdf/openpdf/1.3.30)**
  - [com.google.errorprone](https://repo1.maven.org/maven2/com/google/errorprone/)
-    - [error_prone_annotations](https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/) **[2.21.0](https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.21.0)**
+    - [error_prone_annotations](https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/) **[2.21.1](https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.21.1)**
  - [com.google.inject](https://repo1.maven.org/maven2/com/google/inject/)
     - [guice](https://repo1.maven.org/maven2/com/google/inject/guice/) **[7.0.0](https://repo1.maven.org/maven2/com/google/inject/guice/7.0.0)**
  - [com.google.inject.extensions](https://repo1.maven.org/maven2/com/google/inject/extensions/)

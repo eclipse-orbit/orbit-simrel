@@ -6,6 +6,8 @@
  - [org.junit.jupiter](https://repo1.maven.org/maven2/org/junit/jupiter/)
     - [junit-jupiter-api](https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-api/) **[5.9.3](https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-api/5.9.3)** < [5.10.0](https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-api/5.10.0/)
     - [junit-jupiter-engine](https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-engine/) **[5.9.3](https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.9.3)** < [5.10.0](https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.10.0/)
+ - [org.yaml](https://repo1.maven.org/maven2/org/yaml/)
+    - [snakeyaml](https://repo1.maven.org/maven2/org/yaml/snakeyaml/) **[2.0](https://repo1.maven.org/maven2/org/yaml/snakeyaml/2.0)** < [2.1](https://repo1.maven.org/maven2/org/yaml/snakeyaml/2.1/)
 
 ## Major Updates
  - [jakarta.activation](https://repo1.maven.org/maven2/jakarta/activation/)

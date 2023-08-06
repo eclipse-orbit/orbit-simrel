@@ -1,5 +1,9 @@
 # Target Platform: [platform](https://raw.githubusercontent.com/eclipse-platform/eclipse.platform.releng.aggregator/master/eclipse.platform.releng.prereqs.sdk/eclipse-sdk-prereqs.target)
 
+## Minor Updates
+ - [org.yaml](https://repo1.maven.org/maven2/org/yaml/)
+    - [snakeyaml](https://repo1.maven.org/maven2/org/yaml/snakeyaml/) **[2.0](https://repo1.maven.org/maven2/org/yaml/snakeyaml/2.0)** < [2.1](https://repo1.maven.org/maven2/org/yaml/snakeyaml/2.1/)
+
 ## Major Updates
  - [jakarta.annotation](https://repo1.maven.org/maven2/jakarta/annotation/)
     - [jakarta.annotation-api](https://repo1.maven.org/maven2/jakarta/annotation/jakarta.annotation-api/) **[1.3.5](https://repo1.maven.org/maven2/jakarta/annotation/jakarta.annotation-api/1.3.5)** < [2.1.1](https://repo1.maven.org/maven2/jakarta/annotation/jakarta.annotation-api/2.1.1/)
@@ -18,6 +22,9 @@
     - [jetty-servlet](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-servlet/) **[10.0.15](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-servlet/10.0.15)** < [11.0.15](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-servlet/11.0.15/)
     - [jetty-util](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/) **[10.0.15](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/10.0.15)** < [11.0.15](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/11.0.15/)
     - [jetty-util-ajax](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util-ajax/) **[10.0.15](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util-ajax/10.0.15)** < [11.0.15](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util-ajax/11.0.15/)
+
+## Updates Applied
+[updated.target](updated.target)
 
 ## Content
  - [biz.aQute.bnd](https://repo1.maven.org/maven2/biz/aQute/bnd/)

@@ -74,8 +74,8 @@
     - [biz.aQute.bndlib](https://repo1.maven.org/maven2/biz/aQute/bnd/biz.aQute.bndlib/) **[6.4.1](https://repo1.maven.org/maven2/biz/aQute/bnd/biz.aQute.bndlib/6.4.1)**
     - [biz.aQute.repository](https://repo1.maven.org/maven2/biz/aQute/bnd/biz.aQute.repository/) **[6.4.1](https://repo1.maven.org/maven2/biz/aQute/bnd/biz.aQute.repository/6.4.1)**
  - [ch.qos.logback](https://repo1.maven.org/maven2/ch/qos/logback/)
-    - [logback-classic](https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/) **[1.4.8](https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.4.8)**
-    - [logback-core](https://repo1.maven.org/maven2/ch/qos/logback/logback-core/) **[1.4.8](https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.4.8)**
+    - [logback-classic](https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/) **[1.4.9](https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.4.9)**
+    - [logback-core](https://repo1.maven.org/maven2/ch/qos/logback/logback-core/) **[1.4.9](https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.4.9)**
  - [com.evolvedbinary.thirdparty.org.apache.xmlrpc](https://repo1.maven.org/maven2/com/evolvedbinary/thirdparty/org/apache/xmlrpc/)
     - [xmlrpc-client](https://repo1.maven.org/maven2/com/evolvedbinary/thirdparty/org/apache/xmlrpc/xmlrpc-client/) **[5.0.0](https://repo1.maven.org/maven2/com/evolvedbinary/thirdparty/org/apache/xmlrpc/xmlrpc-client/5.0.0)**
     - [xmlrpc-common](https://repo1.maven.org/maven2/com/evolvedbinary/thirdparty/org/apache/xmlrpc/xmlrpc-common/) **[5.0.0](https://repo1.maven.org/maven2/com/evolvedbinary/thirdparty/org/apache/xmlrpc/xmlrpc-common/5.0.0)**
@@ -106,7 +106,7 @@
  - [com.google.code.gson](https://repo1.maven.org/maven2/com/google/code/gson/)
     - [gson](https://repo1.maven.org/maven2/com/google/code/gson/gson/) **[2.10.1](https://repo1.maven.org/maven2/com/google/code/gson/gson/2.10.1)**
  - [com.google.errorprone](https://repo1.maven.org/maven2/com/google/errorprone/)
-    - [error_prone_annotations](https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/) **[2.21.0](https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.21.0)**
+    - [error_prone_annotations](https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/) **[2.21.1](https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.21.1)**
  - [com.google.guava](https://repo1.maven.org/maven2/com/google/guava/)
     - [failureaccess](https://repo1.maven.org/maven2/com/google/guava/failureaccess/) **[1.0.1](https://repo1.maven.org/maven2/com/google/guava/failureaccess/1.0.1)**
     - [guava](https://repo1.maven.org/maven2/com/google/guava/guava/) **[32.1.2-jre](https://repo1.maven.org/maven2/com/google/guava/guava/32.1.2-jre)**
@@ -328,4 +328,4 @@
  - [org.tukaani](https://repo1.maven.org/maven2/org/tukaani/)
     - [xz](https://repo1.maven.org/maven2/org/tukaani/xz/) **[1.9](https://repo1.maven.org/maven2/org/tukaani/xz/1.9)**
  - [org.yaml](https://repo1.maven.org/maven2/org/yaml/)
-    - [snakeyaml](https://repo1.maven.org/maven2/org/yaml/snakeyaml/) **[2.0](https://repo1.maven.org/maven2/org/yaml/snakeyaml/2.0)**
+    - [snakeyaml](https://repo1.maven.org/maven2/org/yaml/snakeyaml/) **[2.1](https://repo1.maven.org/maven2/org/yaml/snakeyaml/2.1)**
