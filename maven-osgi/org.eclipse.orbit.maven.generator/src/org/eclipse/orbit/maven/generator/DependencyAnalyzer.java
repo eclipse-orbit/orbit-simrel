@@ -797,7 +797,9 @@ public class DependencyAnalyzer {
 		}
 
 		public boolean matches(Pattern pattern) {
-			return pattern.matcher("" + groupId + ":" + artifactId + ":" + version).matches();
+			return pattern.matcher(
+					"" + groupId + ":" + artifactId + ":" + version + (classifier == null ? "" : ":" + classifier))
+					.matches();
 		}
 	}
 
