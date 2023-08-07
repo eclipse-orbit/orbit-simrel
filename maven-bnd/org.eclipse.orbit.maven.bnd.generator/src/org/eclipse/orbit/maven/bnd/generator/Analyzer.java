@@ -41,8 +41,13 @@ public class Analyzer {
 			"^\s*<instructions>\\s*<!--\\s+SHA1\\s+(?<sha>[^ ]*)\\s*-->\\s*<!\\[CDATA\\[\\s*(?<instructions>.*?)\\]\\]>\\s*</instructions>",
 			Pattern.MULTILINE | Pattern.DOTALL);
 
-	private static final Pattern DEPENDENCY_PATTERN = Pattern.compile(
-			"^\\s*<dependency>\\s*<groupId>(?<groupId>.*?)</groupId>\\s*<artifactId>(?<artifactId>.*?)</artifactId>\\s*<version>(?<version>.*?)</version>.*?</dependency>",
+	private static final Pattern DEPENDENCY_PATTERN = Pattern.compile("^\\s*<dependency>\\s*" //
+			+ "<groupId>(?<groupId>.*?)</groupId>\\s*" //
+			+ "<artifactId>(?<artifactId>.*?)</artifactId>\\s*" //
+			+ "<version>(?<version>.*?)</version>\\s*" //
+			+ "<type>(?<type>.*?)</type>" //
+			+ "(:?\\s*<classifier>(?<classifier>.*?)</classifier>)?.*?" //
+			+ "</dependency>", //
 			Pattern.MULTILINE | Pattern.DOTALL);
 
 	private static final Pattern BND_BUNDLE_VERSION_PATTERN = Pattern
@@ -79,10 +84,9 @@ public class Analyzer {
 		year = new SimpleDateFormat("yyyy").format(new Date());
 		qualifier = new SimpleDateFormat("'v'yyyyMMdd-MMss").format(new Date());
 
-		target = Path.of(getArgument(arguments, "-target"));
-		category = Path.of(getArgument(arguments, "-category"));
-		var categoryMinimalArgument = getArgument(arguments, "-category-minimal");
-		categoryMinimal = categoryMinimalArgument == null ? null : Path.of(categoryMinimalArgument);
+		target = getPathArgument(arguments, "-target");
+		category = getPathArgument(arguments, "-category");
+		categoryMinimal = getPathArgument(arguments, "-category-minimal");
 	}
 
 	public void analyze() throws IOException {
@@ -96,13 +100,15 @@ public class Analyzer {
 			System.out.println();
 		}
 
-		var curentCategory = Files.readString(category);
-		var transformedCategory = visitCategory(curentCategory);
-		Files.writeString(category, transformedCategory);
-		if (verbose) {
-			System.out.println("--- " + category.getFileName() + "---"
-					+ (!curentCategory.equals(transformedCategory) ? " CHANGED" : ""));
-			System.out.println(transformedCategory);
+		if (category != null) {
+			var curentCategory = Files.readString(category);
+			var transformedCategory = visitCategory(curentCategory);
+			Files.writeString(category, transformedCategory);
+			if (verbose) {
+				System.out.println("--- " + category.getFileName() + "---"
+						+ (!curentCategory.equals(transformedCategory) ? " CHANGED" : ""));
+				System.out.println(transformedCategory);
+			}
 		}
 
 		if (categoryMinimal != null) {
@@ -156,19 +162,30 @@ public class Analyzer {
 			throw new IllegalStateException("Each location must contain feature.");
 		}
 
-		featureMatcher.appendReplacement(result, Matcher.quoteReplacement(visitFeature(featureMatcher.group())));
-		featureMatcher.appendTail(result);
-		return visitDependencies(result.toString());
-	}
-
-	private String visitFeature(String feature) {
-		var featureIDMatcher = FEATURE_ID_PATTERN.matcher(feature);
-		if (!featureIDMatcher.find()) {
+		String feature = featureMatcher.group();
+		var featureID = getFeatureID(feature);
+		if (featureID == null) {
 			throw new IllegalStateException("Each feature must have an id.");
 		}
-		var featureID = featureIDMatcher.group("id");
-		featureIDs.add(featureID);
 
+		if (!featureIDs.add(featureID)) {
+			throw new IllegalStateException("Each feature must have unique id: " + featureID);
+		}
+
+		featureMatcher.appendReplacement(result, Matcher.quoteReplacement(visitFeature(feature, featureID)));
+		featureMatcher.appendTail(result);
+		return visitDependencies(result.toString(), featureID);
+	}
+
+	private String getFeatureID(String feature) {
+		var featureIDMatcher = FEATURE_ID_PATTERN.matcher(feature);
+		if (featureIDMatcher.find()) {
+			return featureIDMatcher.group("id");
+		}
+		return null;
+	}
+
+	private String visitFeature(String feature, String featureID) {
 		var featureVersionMatcher = FEATURE_VERSION_PATTERN.matcher(feature);
 		if (!featureVersionMatcher.find()) {
 			throw new IllegalStateException("Each feature must have a version.");
@@ -186,32 +203,34 @@ public class Analyzer {
 		return feature.replaceAll("Copyright \\(c\\) [0-9]+", "Copyright (c) " + year);
 	}
 
-	private String visitDependencies(String location) {
+	private String visitDependencies(String location, String featureID) {
 		var instructionsMatcher = INSTRUCTIONS_PATTERN.matcher(location);
 		if (!instructionsMatcher.find()) {
 			if (location.contains("missingManifest=\"error\"")) {
 				return location;
 			}
-			var featureIDMatcher = FEATURE_ID_PATTERN.matcher(location);
-			if (featureIDMatcher.find() && featureIDMatcher.group(1).contains("exclude")) {
+			if (featureID.contains(".exclude")) {
 				return location;
 			}
 
 			throw new IllegalStateException("Each location must have BND instructions.");
 		}
+
 		var sha1 = instructionsMatcher.group("sha");
 		var instructions = instructionsMatcher.group("instructions");
-
-		var dependencies = new StringBuilder();
-		for (var dependencyMatcher = DEPENDENCY_PATTERN.matcher(location); dependencyMatcher.find();) {
-			var maven = dependencyMatcher.group("groupId") + ":" + dependencyMatcher.group("artifactId") + ":"
-					+ dependencyMatcher.group("version");
-			dependencies.append(maven).append("\n");
-		}
 
 		var bndBundleVersionMatcher = BND_BUNDLE_VERSION_PATTERN.matcher(instructions);
 		if (!bndBundleVersionMatcher.find()) {
 			throw new IllegalStateException("Each BND instruction must have a Bundle-Version: header");
+		}
+
+		var dependencies = new StringBuilder();
+		for (var dependencyMatcher = DEPENDENCY_PATTERN.matcher(location); dependencyMatcher.find();) {
+			var groupId = dependencyMatcher.group("groupId");
+			var artifactId = dependencyMatcher.group("artifactId");
+			var artifactVersion = dependencyMatcher.group("version");
+			var maven = groupId + ":" + artifactId + ":" + artifactVersion;
+			dependencies.append(maven).append("\n");
 		}
 
 		// Compute the SHA1 from the dependency coordinates and the instructions without
@@ -260,6 +279,14 @@ public class Analyzer {
 		} catch (NoSuchAlgorithmException e) {
 			throw new RuntimeException(e);
 		}
+	}
+
+	private Path getPathArgument(List<String> arguments, String name) {
+		String argument = getArgument(arguments, name);
+		if (argument != null) {
+			return Path.of(argument);
+		}
+		return null;
 	}
 
 	private String getArgument(List<String> arguments, String name) {
