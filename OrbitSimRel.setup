@@ -437,6 +437,12 @@
   </setupTask>
   <setupTask
       xsi:type="setup:StringSubstitutionTask"
+      name="org.eclipse.cbi.p2repo.maven-sign"
+      value="${github.clone.orbit.simrel.location|uri}/maven-sign/site-signed/target/repository">
+    <description>The location of the locally buit mavensign repository</description>
+  </setupTask>
+  <setupTask
+      xsi:type="setup:StringSubstitutionTask"
       name="org.eclipse.cbi.p2repo.orbit-legacy"
       value="${github.clone.orbit.legacy.location|uri}/site/target/repository">
     <description>The location of the locally buit orbit-legacy repository</description>

@@ -54,6 +54,12 @@ pipeline {
       description: 'The Orbit Maven BND repository to aggregate.<br/>Visit <a href="https://download.eclipse.org/tools/orbit/simrel/maven-bnd/">https://download.eclipse.org/tools/orbit/simrel/maven-bnd/<a/> for choices.'
     )
 
+    string (
+      name: 'MAVEN_SIGN',
+      defaultValue: 'https://download.eclipse.org/tools/orbit/simrel/maven-sign/nightly/latest',
+      description: 'The Orbit Maven Sign repository to aggregate.<br/>Visit <a href="https://download.eclipse.org/tools/orbit/simrel/maven-sign/">https://download.eclipse.org/tools/orbit/simrel/maven-sign/<a/> for choices.'
+    )
+
     booleanParam(
       name: 'PROMOTE',
       defaultValue: true,
@@ -71,6 +77,7 @@ ORBIT=${params.ORBIT}
 ORBIT_LEGACY=${params.ORBIT_LEGACY}
 MAVEN_OSGI=${params.MAVEN_OSGI}
 MAVEN_BND=${params.MAVEN_BND}
+MAVEN_SIGN=${params.MAVEN_SIGN}
 """
         script {
           env.BUILD_TYPE = params.BUILD_TYPE
@@ -79,6 +86,7 @@ MAVEN_BND=${params.MAVEN_BND}
           env.MAVEN_OSGI = params.MAVEN_OSGI
           env.ORBIT_LEGACY = params.ORBIT_LEGACY
           env.MAVEN_BND = params.MAVEN_BND
+          env.MAVEN_SIGN = params.MAVEN_SIGN
         }
       }
     }
@@ -114,6 +122,7 @@ MAVEN_BND=${params.MAVEN_BND}
           contents = contents.
             replaceAll('location="[^"]+" description="maven-osgi"', "location=\"${MAVEN_OSGI}\"").
             replaceAll('location="[^"]+" description="maven-bnd"', "location=\"${MAVEN_BND}\"").
+            replaceAll('location="[^"]+" description="maven-sign"', "location=\"${MAVEN_SIGN}\"").
             replaceAll('location="[^"]+" description="orbit-legacy"', "location=\"${ORBIT_LEGACY}\"").
             replaceAll('location="[^"]+" description="orbit"', "location=\"${ORBIT}\"")
           echo "$contents"

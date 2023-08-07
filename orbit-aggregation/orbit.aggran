@@ -9,6 +9,8 @@
   <contribution
       contribution="orbit.aggr#//@validationSets[label='orbit']/@contributions[label='maven-bnd']"/>
   <contribution
+      contribution="orbit.aggr#//@validationSets[label='orbit']/@contributions[label='maven-sign']"/>
+  <contribution
       contribution="orbit.aggr#//@validationSets[label='orbit']/@contributions[label='orbit-legacy']"/>
   <contribution
       contribution="orbit.aggr#//@validationSets[label='orbit']/@contributions[label='orbit']"/>

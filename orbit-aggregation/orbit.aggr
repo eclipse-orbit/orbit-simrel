@@ -7,6 +7,9 @@
     <contributions label="maven-bnd">
       <repositories location="https://download.eclipse.org/tools/orbit/simrel/maven-bnd/nightly/latest" description="maven-bnd"/>
     </contributions>
+    <contributions label="maven-sign">
+      <repositories location="https://download.eclipse.org/tools/orbit/simrel/maven-sign/nightly/latest" description="maven-sign"/>
+    </contributions>
     <contributions label="orbit-legacy">
       <repositories location="https://download.eclipse.org/tools/orbit/simrel/orbit-legacy/nightly/latest" description="orbit-legacy"/>
     </contributions>

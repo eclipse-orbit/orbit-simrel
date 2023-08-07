@@ -35,6 +35,8 @@ org.apache.maven.archetype:.*  // Not a bundle
 org.apache.maven.shared:.* // Not a bundle
 org.jdom:jdom2:.* // Not a bundle
 org.yaml:snakeyaml:1.33 // Ignore old version
+com.github.jnr:jffi:.*:native // Needs signing
+net.java.dev.jna:jna:.* // Needs signing
 
 
 // There are dependencies for which we want to update to major versions automatically because these provides mostly only increment to major versions.
