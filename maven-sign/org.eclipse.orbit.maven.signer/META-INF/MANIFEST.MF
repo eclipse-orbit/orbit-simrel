@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Signer
+Bundle-SymbolicName: org.eclipse.orbit.maven.signer
+Bundle-Version: 1.0.0.qualifier
+Automatic-Module-Name: org.eclipse.orbit.maven.signer
+Bundle-RequiredExecutionEnvironment: JavaSE-17

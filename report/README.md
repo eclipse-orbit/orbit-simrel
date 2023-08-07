@@ -35,8 +35,16 @@ The generator updates [Maven.target](../maven-osgi/tp/Maven.target) with any ava
 
 ## Maven BND Report
 
-Following report is generated for the content of [MavenBND.target](../maven-bnd/tp/other/MavenBND.target);
+Following report is generated for the content of [MavenBND.target](../maven-bnd/tp/MavenBND.target):
 
 - [bnd-target](maven-bnd/merged-target/REPORT.md)
+
+The generator updates it with any available minor version updates.
+
+## Maven Sign Report
+
+Following report is generated for the content of [MavenSign.target](../maven-sign/tp/MavenSign.target):
+
+- [sign-target](maven-sign/merged-target/REPORT.md)
 
 The generator updates it with any available minor version updates.
