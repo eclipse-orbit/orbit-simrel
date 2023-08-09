@@ -72,6 +72,8 @@
     - [httpasyncclient-osgi](https://repo1.maven.org/maven2/org/apache/httpcomponents/httpasyncclient-osgi/) **[4.1.5](https://repo1.maven.org/maven2/org/apache/httpcomponents/httpasyncclient-osgi/4.1.5)**
     - [httpclient-osgi](https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient-osgi/) **[4.5.14](https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient-osgi/4.5.14)**
     - [httpcore-osgi](https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore-osgi/) **[4.4.16](https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore-osgi/4.4.16)**
+ - [org.easymock](https://repo1.maven.org/maven2/org/easymock/)
+    - [easymock](https://repo1.maven.org/maven2/org/easymock/easymock/) **[5.1.0](https://repo1.maven.org/maven2/org/easymock/easymock/5.1.0)**
  - [org.eclipse.jetty.toolchain](https://repo1.maven.org/maven2/org/eclipse/jetty/toolchain/)
     - [jetty-servlet-api](https://repo1.maven.org/maven2/org/eclipse/jetty/toolchain/jetty-servlet-api/) **[4.0.6](https://repo1.maven.org/maven2/org/eclipse/jetty/toolchain/jetty-servlet-api/4.0.6)**
  - [org.hamcrest](https://repo1.maven.org/maven2/org/hamcrest/)

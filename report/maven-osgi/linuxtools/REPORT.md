@@ -42,13 +42,13 @@
     - [jackson-module-jaxb-annotations](https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/) **[2.15.2](https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.15.2)**
  - [com.github.jnr](https://repo1.maven.org/maven2/com/github/jnr/)
     - [jffi](https://repo1.maven.org/maven2/com/github/jnr/jffi/) **[1.3.11](https://repo1.maven.org/maven2/com/github/jnr/jffi/1.3.11)** - *complete*
-    - [jffi](https://repo1.maven.org/maven2/com/github/jnr/jffi/) **[1.3.11](https://repo1.maven.org/maven2/com/github/jnr/jffi/1.3.11)** - *native*
     - [jnr-constants](https://repo1.maven.org/maven2/com/github/jnr/jnr-constants/) **[0.10.4](https://repo1.maven.org/maven2/com/github/jnr/jnr-constants/0.10.4)**
     - [jnr-enxio](https://repo1.maven.org/maven2/com/github/jnr/jnr-enxio/) **[0.32.15](https://repo1.maven.org/maven2/com/github/jnr/jnr-enxio/0.32.15)**
     - [jnr-ffi](https://repo1.maven.org/maven2/com/github/jnr/jnr-ffi/) **[2.2.14](https://repo1.maven.org/maven2/com/github/jnr/jnr-ffi/2.2.14)**
     - [jnr-posix](https://repo1.maven.org/maven2/com/github/jnr/jnr-posix/) **[3.1.17](https://repo1.maven.org/maven2/com/github/jnr/jnr-posix/3.1.17)**
     - [jnr-unixsocket](https://repo1.maven.org/maven2/com/github/jnr/jnr-unixsocket/) **[0.38.20](https://repo1.maven.org/maven2/com/github/jnr/jnr-unixsocket/0.38.20)**
  - [com.google.guava](https://repo1.maven.org/maven2/com/google/guava/)
+    - [failureaccess](https://repo1.maven.org/maven2/com/google/guava/failureaccess/) **[1.0.1](https://repo1.maven.org/maven2/com/google/guava/failureaccess/1.0.1)**
     - [guava](https://repo1.maven.org/maven2/com/google/guava/guava/) **[32.1.2-jre](https://repo1.maven.org/maven2/com/google/guava/guava/32.1.2-jre)**
  - [jakarta.ws.rs](https://repo1.maven.org/maven2/jakarta/ws/rs/)
     - [jakarta.ws.rs-api](https://repo1.maven.org/maven2/jakarta/ws/rs/jakarta.ws.rs-api/) **[2.1.6](https://repo1.maven.org/maven2/jakarta/ws/rs/jakarta.ws.rs-api/2.1.6)**

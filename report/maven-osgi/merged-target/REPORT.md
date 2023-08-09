@@ -210,6 +210,8 @@
     - [bcpkix-jdk18on](https://repo1.maven.org/maven2/org/bouncycastle/bcpkix-jdk18on/) **[1.76](https://repo1.maven.org/maven2/org/bouncycastle/bcpkix-jdk18on/1.76)**
     - [bcprov-jdk18on](https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk18on/) **[1.76](https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk18on/1.76)**
     - [bcutil-jdk18on](https://repo1.maven.org/maven2/org/bouncycastle/bcutil-jdk18on/) **[1.76](https://repo1.maven.org/maven2/org/bouncycastle/bcutil-jdk18on/1.76)**
+ - [org.easymock](https://repo1.maven.org/maven2/org/easymock/)
+    - [easymock](https://repo1.maven.org/maven2/org/easymock/easymock/) **[5.1.0](https://repo1.maven.org/maven2/org/easymock/easymock/5.1.0)**
  - [org.eclipse.jetty.toolchain](https://repo1.maven.org/maven2/org/eclipse/jetty/toolchain/)
     - [jetty-servlet-api](https://repo1.maven.org/maven2/org/eclipse/jetty/toolchain/jetty-servlet-api/) **[4.0.6](https://repo1.maven.org/maven2/org/eclipse/jetty/toolchain/jetty-servlet-api/4.0.6)**
  - [org.freemarker](https://repo1.maven.org/maven2/org/freemarker/)
