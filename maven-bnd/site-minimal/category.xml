@@ -1,21 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
    <feature id="org.eclipse.orbit.maven.aopalliance"/>
+   <feature id="org.eclipse.orbit.maven.aopalliance.source"/>
    <feature id="org.eclipse.orbit.maven.com.konghq"/>
+   <feature id="org.eclipse.orbit.maven.com.konghq.source"/>
    <feature id="org.eclipse.orbit.maven.hamcrest.core"/>
+   <feature id="org.eclipse.orbit.maven.hamcrest.core.source"/>
    <feature id="org.eclipse.orbit.maven.hamcrest.deprecated"/>
+   <feature id="org.eclipse.orbit.maven.hamcrest.deprecated.source"/>
    <feature id="org.eclipse.orbit.maven.hamcrest.library"/>
+   <feature id="org.eclipse.orbit.maven.hamcrest.library.source"/>
    <feature id="org.eclipse.orbit.maven.javax.wsdl"/>
+   <feature id="org.eclipse.orbit.maven.javax.wsdl.source"/>
    <feature id="org.eclipse.orbit.maven.jdom2"/>
+   <feature id="org.eclipse.orbit.maven.jdom2.source"/>
    <feature id="org.eclipse.orbit.maven.jnr"/>
+   <feature id="org.eclipse.orbit.maven.jnr.source"/>
    <feature id="org.eclipse.orbit.maven.joni"/>
+   <feature id="org.eclipse.orbit.maven.joni.source"/>
    <feature id="org.eclipse.orbit.maven.junit"/>
+   <feature id="org.eclipse.orbit.maven.junit.source"/>
    <feature id="org.eclipse.orbit.maven.lucene"/>
+   <feature id="org.eclipse.orbit.maven.lucene.source"/>
    <feature id="org.eclipse.orbit.maven.org.apache.axis"/>
+   <feature id="org.eclipse.orbit.maven.org.apache.axis.source"/>
    <feature id="org.eclipse.orbit.maven.org.apache.axis.ant"/>
+   <feature id="org.eclipse.orbit.maven.org.apache.axis.ant.source"/>
    <feature id="org.eclipse.orbit.maven.org.apache.httpcomponents.client5.httpclient5"/>
+   <feature id="org.eclipse.orbit.maven.org.apache.httpcomponents.client5.httpclient5.source"/>
    <feature id="org.eclipse.orbit.maven.org.apache.httpcomponents.client5.httpclient5-win"/>
+   <feature id="org.eclipse.orbit.maven.org.apache.httpcomponents.client5.httpclient5-win.source"/>
    <feature id="org.eclipse.orbit.maven.org.apache.httpcomponents.core5"/>
+   <feature id="org.eclipse.orbit.maven.org.apache.httpcomponents.core5.source"/>
    <feature id="org.eclipse.orbit.maven.org.apache.ws.commons.util"/>
+   <feature id="org.eclipse.orbit.maven.org.apache.ws.commons.util.source"/>
    <feature id="org.eclipse.orbit.maven.org.codelibs.nekohtml"/>
+   <feature id="org.eclipse.orbit.maven.org.codelibs.nekohtml.source"/>
 </site>
