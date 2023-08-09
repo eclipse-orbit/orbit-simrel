@@ -180,7 +180,7 @@ Export-Package:         *;version="${version}";-noimport:=true
 <!-- ______________________________________________________ org.hamcrest.core __________________________________________________________________________________________________-->
 
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
-      <feature id="org.eclipse.orbit.maven.hamcrest.core" label="Orbit Maven BND org.hamcrest.core" provider-name="Eclipse Orbit" version="4.29.0.v20230806-0849">
+      <feature id="org.eclipse.orbit.maven.hamcrest.core" label="Orbit Maven BND org.hamcrest.core" provider-name="Eclipse Orbit" version="4.29.0.v20230809-0828">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
 Copyright (c) 2023 Eclipse contributors and others.
@@ -203,16 +203,16 @@ SPDX-License-Identifier: EPL-2.0
         </dependency>
       </dependencies>
       <instructions>
-<!-- SHA1 5b8d29efdcecf29ee7994dec220020325339f6ab -->
+<!-- SHA1 7416791427ef4e812ebda5aa9acc0639e5c42d84 -->
 <![CDATA[
 Bundle-Name:            Bundle ${mvnGroupId} : ${mvnArtifactId}
 version:                ${versionmask;===;${version_cleanup;${mvnVersion}}}
 suffix:                 ${replacestring;${mvnArtifactId};hamcrest-;}
 Bundle-SymbolicName:    org.${replacestring;${mvnArtifactId};-;.}
-Bundle-Version:         ${version}.v20230806-0849
+Bundle-Version:         ${version}.v20230809-1000
 Eclipse-Wrapped-Bundle: ${mvnGroupId}:${mvnArtifactId}:${mvnVersion}
 Import-Package:         *
-Export-Package:         org.hamcrest;${suffix}=split;version="${version}";-noimport:=true,\
+Export-Package:         org.hamcrest;${suffix}=split;version="${version}";mandatory:=${suffix};-noimport:=true,\
                         *.internal.*;x-internal:=true;version="${version}";-noimport:=true,\
                         *;version="${version}";-noimport:=true
 -noextraheaders:        true
@@ -225,7 +225,7 @@ Export-Package:         org.hamcrest;${suffix}=split;version="${version}";-noimp
 <!-- ______________________________________________________ org.hamcrest.library __________________________________________________________________________________________________-->
 
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
-      <feature id="org.eclipse.orbit.maven.hamcrest.library" label="Orbit Maven BND org.hamcrest.library" provider-name="Eclipse Orbit" version="4.29.0.v20230806-0831">
+      <feature id="org.eclipse.orbit.maven.hamcrest.library" label="Orbit Maven BND org.hamcrest.library" provider-name="Eclipse Orbit" version="4.29.0.v20230809-0853">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
 Copyright (c) 2023 Eclipse contributors and others.
@@ -248,15 +248,17 @@ SPDX-License-Identifier: EPL-2.0
         </dependency>
       </dependencies>
       <instructions>
-<!-- SHA1 c252bdf240100cedf366a3d69072b7d44c660839 -->
+<!-- SHA1 363b3a386ae8da5e20bde69645ae13b5626a0f52 -->
 <![CDATA[
 Bundle-Name:            Bundle ${mvnGroupId} : ${mvnArtifactId}
 version:                ${versionmask;===;${version_cleanup;${mvnVersion}}}
 suffix:                 ${replacestring;${mvnArtifactId};hamcrest-;}
 Bundle-SymbolicName:    org.${replacestring;${mvnArtifactId};-;.}
-Bundle-Version:         ${version}.v20230806-0831
+Bundle-Version:         ${version}.v20230809-1000
 Eclipse-Wrapped-Bundle: ${mvnGroupId}:${mvnArtifactId}:${mvnVersion}
-Import-Package:         *
+Import-Package:         !org.hamcrest.core,\
+                        *
+Require-Bundle          org.hamcrest.core;bundle-version="1.3.0"
 Export-Package:         org.hamcrest;${suffix}=split;version="${version}";mandatory:=${suffix};core=!;-noimport:=true,\
                         *.internal.*;x-internal:=true;version="${version}";-noimport:=true,\
                         *;version="${version}";-noimport:=true
@@ -267,10 +269,63 @@ Export-Package:         org.hamcrest;${suffix}=split;version="${version}";mandat
     </location>
 
 
+<!-- ______________________________________________________ org.hamcrest.deprecated __________________________________________________________________________________________________-->
+
+    <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
+      <feature id="org.eclipse.orbit.maven.hamcrest.deprecated" label="Orbit Maven BND org.hamcrest.deprecated" provider-name="Eclipse Orbit" version="4.29.0.v20230809-0853">
+        <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
+        <copyright>
+Copyright (c) 2023 Eclipse contributors and others.
+
+This program and the accompanying materials
+are made available under the terms of the Eclipse Public License 2.0
+which accompanies this distribution, and is available at
+https://www.eclipse.org/legal/epl-2.0/
+
+SPDX-License-Identifier: EPL-2.0
+        </copyright>
+        <license url="https://www.eclipse.org/legal/epl-2.0/"/>
+      </feature>
+      <dependencies>
+        <dependency>
+          <groupId>org.hamcrest</groupId>
+          <artifactId>hamcrest-core</artifactId>
+          <version>2.2</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>org.hamcrest</groupId>
+          <artifactId>hamcrest-library</artifactId>
+          <version>2.2</version>
+          <type>jar</type>
+        </dependency>
+      </dependencies>
+      <instructions>
+<!-- SHA1 6a135f3cc72917bc9ba7e0a4b435907b8a54985b -->
+<![CDATA[
+Bundle-Name:            Bundle ${mvnGroupId} : ${mvnArtifactId}
+version:                ${versionmask;===;${version_cleanup;${mvnVersion}}}
+suffix:                 ${replacestring;${mvnArtifactId};hamcrest-;}
+Bundle-SymbolicName:    org.${replacestring;${mvnArtifactId};-;.}
+Bundle-Version:         ${version}.v20230809-1000
+Eclipse-Wrapped-Bundle: ${mvnGroupId}:${mvnArtifactId}:${mvnVersion}
+Bundle-Require
+Import-Package:         *
+Require-Bundle:         org.hamcrest;bundle-version="2.2.0";visibility:=reexport
+Export-Package:         !org.hamcrest.core.deprecated,\
+                        !org.hamcrest.library.deprecated,\
+                        *
+-noextraheaders:        true
+-removeheaders:         Private-Package
+]]>
+      </instructions>
+    </location>
+
+
 <!-- ______________________________________________________ junit __________________________________________________________________________________________________-->
 
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
-      <feature id="org.eclipse.orbit.maven.junit" label="Orbit Maven BND junit" provider-name="Eclipse Orbit" version="4.29.0.v20230725-0701">
+      <feature id="org.eclipse.orbit.maven.junit" label="Orbit Maven BND junit" provider-name="Eclipse Orbit" version="4.29.0.v20230809-0813">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
 Copyright (c) 2023 Eclipse contributors and others.
@@ -293,16 +348,15 @@ SPDX-License-Identifier: EPL-2.0
         </dependency>
       </dependencies>
       <instructions>
-<!-- SHA1 d1de06b0d92b5da41e025a9986ca9a703b786048 -->
+<!-- SHA1 82575a6590dd63cbe62227e964bb4e31f220866e -->
 <![CDATA[
 Bundle-Name:            Bundle ${mvnGroupId} : ${mvnArtifactId}
 version:                ${versionmask;===;${version_cleanup;${mvnVersion}}}
 Bundle-SymbolicName:    org.${mvnArtifactId}
-Bundle-Version:         ${version}.v20230725-0701
+Bundle-Version:         ${version}.v20230809-1000
 Eclipse-Wrapped-Bundle: ${mvnGroupId}:${mvnArtifactId}:${mvnVersion}
-Require-Bundle:         org.hamcrest.core;bundle-version="1.3.0";resolution:=optional;visibility:=reexport;x-installation:=greedy
-Import-Package:         org.hamcrest.*;version="${versionmask;==;${@}}",\
-                        *
+Require-Bundle:         org.hamcrest.core;bundle-version="1.3.0";visibility:=reexport
+Import-Package:         !*
 Export-Package:         *.internal.*;x-internal:=true;version="${version}";-noimport:=true,\
                         *;version="${version}";-noimport:=true
 -noextraheaders:        true
@@ -1012,6 +1066,14 @@ SPDX-License-Identifier: EPL-2.0
           <version>4.4.16</version>
           <type>jar</type>
         </dependency>
+
+        <dependency>
+          <groupId>org.hamcrest</groupId>
+          <artifactId>hamcrest</artifactId>
+          <version>2.2</version>
+          <type>jar</type>
+        </dependency>
+
       </dependencies>
     </location>
   </locations>

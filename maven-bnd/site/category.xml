@@ -3,6 +3,7 @@
    <feature id="org.eclipse.orbit.maven.aopalliance"/>
    <feature id="org.eclipse.orbit.maven.com.konghq"/>
    <feature id="org.eclipse.orbit.maven.hamcrest.core"/>
+   <feature id="org.eclipse.orbit.maven.hamcrest.deprecated"/>
    <feature id="org.eclipse.orbit.maven.hamcrest.library"/>
    <feature id="org.eclipse.orbit.maven.javax.wsdl"/>
    <feature id="org.eclipse.orbit.maven.jdom2"/>
