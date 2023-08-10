@@ -40,7 +40,6 @@
     - [freemarker](https://repo1.maven.org/maven2/org/freemarker/freemarker/) **[2.3.32](https://repo1.maven.org/maven2/org/freemarker/freemarker/2.3.32)**
  - [org.hamcrest](https://repo1.maven.org/maven2/org/hamcrest/)
     - [hamcrest](https://repo1.maven.org/maven2/org/hamcrest/hamcrest/) **[2.2](https://repo1.maven.org/maven2/org/hamcrest/hamcrest/2.2)**
-    - [hamcrest](https://repo1.maven.org/maven2/org/hamcrest/hamcrest/) **[2.2](https://repo1.maven.org/maven2/org/hamcrest/hamcrest/2.2)**
  - [org.junit.jupiter](https://repo1.maven.org/maven2/org/junit/jupiter/)
     - [junit-jupiter-api](https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-api/) **[5.9.3](https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-api/5.9.3)**
     - [junit-jupiter-engine](https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-engine/) **[5.9.3](https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.9.3)**

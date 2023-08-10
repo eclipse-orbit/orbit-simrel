@@ -57,13 +57,13 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>ch.qos.logback</groupId>
           <artifactId>logback-classic</artifactId>
-          <version>1.4.9</version>
+          <version>1.4.11</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>ch.qos.logback</groupId>
           <artifactId>logback-core</artifactId>
-          <version>1.4.9</version>
+          <version>1.4.11</version>
           <type>jar</type>
         </dependency>
         <dependency>

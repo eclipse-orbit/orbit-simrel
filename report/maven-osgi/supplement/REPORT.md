@@ -25,7 +25,7 @@
 
 ## Content
  - [ch.qos.logback](https://repo1.maven.org/maven2/ch/qos/logback/)
-    - [logback-core](https://repo1.maven.org/maven2/ch/qos/logback/logback-core/) **[1.4.9](https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.4.9)**
+    - [logback-core](https://repo1.maven.org/maven2/ch/qos/logback/logback-core/) **[1.4.11](https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.4.11)**
  - [com.evolvedbinary.thirdparty.org.apache.xmlrpc](https://repo1.maven.org/maven2/com/evolvedbinary/thirdparty/org/apache/xmlrpc/)
     - [xmlrpc-client](https://repo1.maven.org/maven2/com/evolvedbinary/thirdparty/org/apache/xmlrpc/xmlrpc-client/) **[5.0.0](https://repo1.maven.org/maven2/com/evolvedbinary/thirdparty/org/apache/xmlrpc/xmlrpc-client/5.0.0)**
     - [xmlrpc-common](https://repo1.maven.org/maven2/com/evolvedbinary/thirdparty/org/apache/xmlrpc/xmlrpc-common/) **[5.0.0](https://repo1.maven.org/maven2/com/evolvedbinary/thirdparty/org/apache/xmlrpc/xmlrpc-common/5.0.0)**

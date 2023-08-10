@@ -74,8 +74,8 @@
     - [biz.aQute.bndlib](https://repo1.maven.org/maven2/biz/aQute/bnd/biz.aQute.bndlib/) **[6.4.1](https://repo1.maven.org/maven2/biz/aQute/bnd/biz.aQute.bndlib/6.4.1)**
     - [biz.aQute.repository](https://repo1.maven.org/maven2/biz/aQute/bnd/biz.aQute.repository/) **[6.4.1](https://repo1.maven.org/maven2/biz/aQute/bnd/biz.aQute.repository/6.4.1)**
  - [ch.qos.logback](https://repo1.maven.org/maven2/ch/qos/logback/)
-    - [logback-classic](https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/) **[1.4.9](https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.4.9)**
-    - [logback-core](https://repo1.maven.org/maven2/ch/qos/logback/logback-core/) **[1.4.9](https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.4.9)**
+    - [logback-classic](https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/) **[1.4.11](https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.4.11)**
+    - [logback-core](https://repo1.maven.org/maven2/ch/qos/logback/logback-core/) **[1.4.11](https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.4.11)**
  - [com.evolvedbinary.thirdparty.org.apache.xmlrpc](https://repo1.maven.org/maven2/com/evolvedbinary/thirdparty/org/apache/xmlrpc/)
     - [xmlrpc-client](https://repo1.maven.org/maven2/com/evolvedbinary/thirdparty/org/apache/xmlrpc/xmlrpc-client/) **[5.0.0](https://repo1.maven.org/maven2/com/evolvedbinary/thirdparty/org/apache/xmlrpc/xmlrpc-client/5.0.0)**
     - [xmlrpc-common](https://repo1.maven.org/maven2/com/evolvedbinary/thirdparty/org/apache/xmlrpc/xmlrpc-common/) **[5.0.0](https://repo1.maven.org/maven2/com/evolvedbinary/thirdparty/org/apache/xmlrpc/xmlrpc-common/5.0.0)**
