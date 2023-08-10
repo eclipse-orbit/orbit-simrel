@@ -1,10 +1,5 @@
 # Target Platform: [merged-target](https://github.com/eclipse-orbit/orbit-simrel/blob/main/maven-bnd/tp/MavenBND.target)
 
-## Major Updates
- - [org.hamcrest](https://repo1.maven.org/maven2/org/hamcrest/)
-    - [hamcrest-core](https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/) **[1.3](https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3)** < [2.2](https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/2.2/)
-    - [hamcrest-library](https://repo1.maven.org/maven2/org/hamcrest/hamcrest-library/) **[1.3](https://repo1.maven.org/maven2/org/hamcrest/hamcrest-library/1.3)** < [2.2](https://repo1.maven.org/maven2/org/hamcrest/hamcrest-library/2.2/)
-
 ## Content
  - [aopalliance](https://repo1.maven.org/maven2/aopalliance/)
     - [aopalliance](https://repo1.maven.org/maven2/aopalliance/aopalliance/) **[1.0](https://repo1.maven.org/maven2/aopalliance/aopalliance/1.0)**
@@ -38,7 +33,9 @@
     - [nekohtml](https://repo1.maven.org/maven2/org/codelibs/nekohtml/) **[2.1.2](https://repo1.maven.org/maven2/org/codelibs/nekohtml/2.1.2)**
  - [org.hamcrest](https://repo1.maven.org/maven2/org/hamcrest/)
     - [hamcrest-core](https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/) **[1.3](https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3)**
+    - [hamcrest-core](https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/) **[2.2](https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/2.2)**
     - [hamcrest-library](https://repo1.maven.org/maven2/org/hamcrest/hamcrest-library/) **[1.3](https://repo1.maven.org/maven2/org/hamcrest/hamcrest-library/1.3)**
+    - [hamcrest-library](https://repo1.maven.org/maven2/org/hamcrest/hamcrest-library/) **[2.2](https://repo1.maven.org/maven2/org/hamcrest/hamcrest-library/2.2)**
  - [org.jdom](https://repo1.maven.org/maven2/org/jdom/)
     - [jdom2](https://repo1.maven.org/maven2/org/jdom/jdom2/) **[2.0.6.1](https://repo1.maven.org/maven2/org/jdom/jdom2/2.0.6.1)**
  - [org.jruby.jcodings](https://repo1.maven.org/maven2/org/jruby/jcodings/)
