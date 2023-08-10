@@ -280,6 +280,13 @@
           <type>jar</type>
         </dependency>
 
+        <dependency>
+          <groupId>org.apache.velocity</groupId>
+          <artifactId>velocity</artifactId>
+          <version>1.7</version>
+          <type>jar</type>
+        </dependency>
+
       </dependencies>
     </location>
   </locations>
