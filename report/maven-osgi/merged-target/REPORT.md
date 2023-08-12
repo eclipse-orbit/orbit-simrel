@@ -129,6 +129,8 @@
     - [commons-fileupload](https://repo1.maven.org/maven2/commons-fileupload/commons-fileupload/) **[1.5](https://repo1.maven.org/maven2/commons-fileupload/commons-fileupload/1.5)**
  - [commons-io](https://repo1.maven.org/maven2/commons-io/)
     - [commons-io](https://repo1.maven.org/maven2/commons-io/commons-io/) **[2.13.0](https://repo1.maven.org/maven2/commons-io/commons-io/2.13.0)**
+ - [commons-jxpath](https://repo1.maven.org/maven2/commons-jxpath/)
+    - [commons-jxpath](https://repo1.maven.org/maven2/commons-jxpath/commons-jxpath/) **[1.3](https://repo1.maven.org/maven2/commons-jxpath/commons-jxpath/1.3)**
  - [commons-lang](https://repo1.maven.org/maven2/commons-lang/)
     - [commons-lang](https://repo1.maven.org/maven2/commons-lang/commons-lang/) **[2.6](https://repo1.maven.org/maven2/commons-lang/commons-lang/2.6)**
  - [commons-logging](https://repo1.maven.org/maven2/commons-logging/)

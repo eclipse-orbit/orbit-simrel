@@ -30,7 +30,6 @@ org.mockito:mockito-inline:.* // Not a bundle
 org.apache.commons:commons-digester3:3.* // requires 'java.package; net.sf.cglib.proxy 0.0.0' but it could not be found
 org.eclipse.jetty:.*:.* // Ignore all Jetty artifacts
 io.takari.m2e.workspace:org.eclipse.m2e.workspace.cli:.* // This is not generally useful except for m2e
-commons-jxpath:commons-jxpath:1.3 // Depends on really old orbit things
 org.apache.maven.archetype:.*  // Not a bundle
 org.apache.maven.shared:.* // Not a bundle
 org.jdom:jdom2:.* // Not a bundle
