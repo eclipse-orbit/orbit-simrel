@@ -546,7 +546,7 @@ public class DependencyAnalyzer {
 
 			for (var availableVersion : availableVersions) {
 				if (!ignorePatterns.stream().anyMatch(it -> dependency.create(availableVersion).matches(it))) {
-					if (isIncludedQualifier(availableVersion.qualifier)) {
+					if (isIncludedQualifier(availableVersion)) {
 						if (availableVersion.compareTo(nextMajor) < 0
 								&& availableVersion.compareTo(nextAvailableVersion) > 0) {
 							nextAvailableVersion = availableVersion;
@@ -583,7 +583,11 @@ public class DependencyAnalyzer {
 
 		private static Pattern INCLUDED_QUALIFIER = Pattern.compile("[-.][0-9]+|[.]v20[0-9]+|-ga|-GA|-jre");
 
-		private boolean isIncludedQualifier(String qualifier) {
+		private static Pattern INCLUDED_PURE_QUALIFIER = Pattern.compile("v20[0-9]+");
+
+		private boolean isIncludedQualifier(Version version) {
+			var qualifier = version.qualifier;
+
 			if (qualifier == null) {
 				return true;
 			}
@@ -592,12 +596,16 @@ public class DependencyAnalyzer {
 				return true;
 			}
 
+			if (version.major == -1 && INCLUDED_PURE_QUALIFIER.matcher(qualifier).matches()) {
+				return true;
+			}
+
 			return false;
 		}
 	}
 
 	private static class Version implements Comparable<Version> {
-		private static final Pattern VERSION_PATTERN = Pattern.compile("([0-9]+)\\.([0-9]+)(?:\\.([0-9]+))?(.+)?");
+		private static final Pattern VERSION_PATTERN = Pattern.compile("(?:([0-9]+)\\.([0-9]+)(?:\\.([0-9]+))?)?(.+)?");
 
 		private final int major;
 		private final int minor;
@@ -619,13 +627,25 @@ public class DependencyAnalyzer {
 				throw new IllegalArgumentException("Invalid version" + value);
 			}
 
-			major = Integer.parseInt(matcher.group(1));
-			minor = Integer.parseInt(matcher.group(2));
+			if (matcher.group(1) != null) {
+				major = Integer.parseInt(matcher.group(1));
+			} else {
+				major = -1;
+			}
+
+			if (matcher.group(2) != null) {
+				minor = Integer.parseInt(matcher.group(2));
+			} else {
+				minor = -1;
+
+			}
+
 			if (matcher.group(3) != null) {
 				micro = Integer.parseInt(matcher.group(3));
 			} else {
 				micro = -1;
 			}
+
 			qualifier = matcher.group(4);
 
 			Integer qualifierVersion = null;
@@ -653,6 +673,9 @@ public class DependencyAnalyzer {
 
 		@Override
 		public String toString() {
+			if (major == -1) {
+				return qualifier;
+			}
 			return major + "." + minor + (micro != -1 ? "." + micro : "") + (qualifier == null ? "" : qualifier);
 		}
 
