@@ -36,7 +36,7 @@ SPDX-License-Identifier: EPL-2.0
 version:                ${versionmask;===;${version_cleanup;${mvnVersion}}}
 # Bundles that match this pattern will be updated to use this qualifier.
 # bundle-pattern:       com\.github\.jnr\.jffi\.native(\.source)?
-Bundle-Version:         ${version}.v20230807-0900
+Bundle-Version:         ${version}.v20230812-1000
 ]]>
       </instructions>
     </location>
@@ -45,7 +45,7 @@ Bundle-Version:         ${version}.v20230807-0900
 <!-- _______________________________________________________ net.java.dev.jna _________________________________________________________________________________________________-->
 
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="error" type="Maven">
-      <feature id="org.eclipse.orbit.maven.net.java.dev.jna" label="Orbit Maven BND net.java.dev.jna" provider-name="Eclipse Orbit" version="4.29.0.v20230807-0858">
+      <feature id="org.eclipse.orbit.maven.net.java.dev.jna" label="Orbit Maven BND net.java.dev.jna" provider-name="Eclipse Orbit" version="4.29.0.v20230812-0843">
         <description>This feature's dependencies are pulled directly from Maven central and is signed.</description>
         <copyright>
 Copyright (c) 2023 Eclipse contributors and others.
@@ -75,7 +75,7 @@ SPDX-License-Identifier: EPL-2.0
 version:                ${versionmask;===;${version_cleanup;${mvnVersion}}}
 # Bundles that match this pattern will be updated to use this qualifier.
 # bundle-pattern:       com\.sun\.jna(\.source)?
-Bundle-Version:         ${version}.v20230807-0900
+Bundle-Version:         ${version}.v20230812-1000
 ]]>
       </instructions>
     </location>
@@ -84,7 +84,7 @@ Bundle-Version:         ${version}.v20230807-0900
 <!-- _______________________________________________________ EXCLUDE _________________________________________________________________________________________________-->
 
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
-      <feature id="org.eclipse.orbit.maven.com.exclude" label="Orbit Maven BND exclude" provider-name="Eclipse Orbit" version="4.29.0.v20230806-0841">
+      <feature id="org.eclipse.orbit.maven.com.exclude" label="Orbit Maven BND exclude" provider-name="Eclipse Orbit" version="4.29.0.v20230812-0843">
         <description>This feature's dependencies are pulled directly from Maven central and is signed.</description>
         <copyright>
 Copyright (c) 2023 Eclipse contributors and others.
@@ -113,7 +113,7 @@ SPDX-License-Identifier: EPL-2.0
 Bundle-Name:            Bundle ${mvnGroupId} : ${mvnArtifactId}
 version:                ${versionmask;===;${version_cleanup;${mvnVersion}}}
 Bundle-SymbolicName:    org.${mvnArtifactId}
-Bundle-Version:         ${version}.v20230806-0841
+Bundle-Version:         ${version}.v20230812-1000
 Eclipse-Wrapped-Bundle: ${mvnGroupId}:${mvnArtifactId}:${mvnVersion}
 Import-Package:         *
 Export-Package:         *;version="${version}";-noimport:=true

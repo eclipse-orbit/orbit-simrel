@@ -158,9 +158,9 @@ public class Signer {
 					} else if (relativePathInJar.endsWith("jnilib")) {
 						System.out.println(targetRoot.getFileName() + "/" + relativePathInJar);
 						sign(file, targetFile, "https://cbi.eclipse.org/macos/codesign/sign");
-					} else if (relativePathInJar.endsWith("dll")) {
-						System.out.println(targetRoot.getFileName() + "/" + relativePathInJar);
-						sign(file, targetFile, "https://cbi.eclipse.org/authenticode/sign");
+//					} else if (relativePathInJar.endsWith("dll")) {
+//						System.out.println(targetRoot.getFileName() + "/" + relativePathInJar);
+//						sign(file, targetFile, "https://cbi.eclipse.org/authenticode/sign");
 					} else {
 						Files.copy(file, targetFile);
 					}
