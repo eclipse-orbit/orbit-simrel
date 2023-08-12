@@ -82,7 +82,7 @@ public class Analyzer {
 		verbose = arguments.contains("-verbose");
 		version = getArgument(arguments, "-version");
 		year = new SimpleDateFormat("yyyy").format(new Date());
-		qualifier = new SimpleDateFormat("'v'yyyyMMdd-MMss").format(new Date());
+		qualifier = new SimpleDateFormat("'v'yyyyMMdd-HHmm").format(new Date());
 
 		target = getPathArgument(arguments, "-target");
 		category = getPathArgument(arguments, "-category");
