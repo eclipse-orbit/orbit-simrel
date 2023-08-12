@@ -61,8 +61,6 @@
  - [org.mortbay.jasper](https://repo1.maven.org/maven2/org/mortbay/jasper/)
     - [apache-el](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-el/) **[9.0.52](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-el/9.0.52)** < [10.1.7](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-el/10.1.7/)
     - [apache-jsp](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-jsp/) **[9.0.52](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-jsp/9.0.52)** < [10.1.7](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-jsp/10.1.7/)
- - [org.slf4j](https://repo1.maven.org/maven2/org/slf4j/)
-    - [slf4j-simple](https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/) **[1.7.36](https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/1.7.36)** < [2.0.7](https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/2.0.7/)
 
 ## Content
  - [args4j](https://repo1.maven.org/maven2/args4j/)
@@ -327,6 +325,7 @@
     - [slf4j-nop](https://repo1.maven.org/maven2/org/slf4j/slf4j-nop/) **[1.7.36](https://repo1.maven.org/maven2/org/slf4j/slf4j-nop/1.7.36)**
     - [slf4j-nop](https://repo1.maven.org/maven2/org/slf4j/slf4j-nop/) **[2.0.7](https://repo1.maven.org/maven2/org/slf4j/slf4j-nop/2.0.7)**
     - [slf4j-simple](https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/) **[1.7.36](https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/1.7.36)**
+    - [slf4j-simple](https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/) **[2.0.7](https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/2.0.7)**
  - [org.tukaani](https://repo1.maven.org/maven2/org/tukaani/)
     - [xz](https://repo1.maven.org/maven2/org/tukaani/xz/) **[1.9](https://repo1.maven.org/maven2/org/tukaani/xz/1.9)**
  - [org.yaml](https://repo1.maven.org/maven2/org/yaml/)
