@@ -36,4 +36,6 @@
    <feature id="org.eclipse.orbit.maven.org.apache.ws.commons.util.source"/>
    <feature id="org.eclipse.orbit.maven.org.codelibs.nekohtml"/>
    <feature id="org.eclipse.orbit.maven.org.codelibs.nekohtml.source"/>
+   <feature id="org.eclipse.orbit.maven.org.jdom"/>
+   <feature id="org.eclipse.orbit.maven.org.jdom.source"/>
 </site>
