@@ -1,5 +1,9 @@
 # Target Platform: [merged-target](https://github.com/eclipse-orbit/orbit-simrel/blob/main/maven-bnd/tp/MavenBND.target)
 
+## Major Updates
+ - [org.jdom](https://repo1.maven.org/maven2/org/jdom/)
+    - [jdom](https://repo1.maven.org/maven2/org/jdom/jdom/) **[1.1.3](https://repo1.maven.org/maven2/org/jdom/jdom/1.1.3)** < [2.0.2](https://repo1.maven.org/maven2/org/jdom/jdom/2.0.2/)
+
 ## Content
  - [aopalliance](https://repo1.maven.org/maven2/aopalliance/)
     - [aopalliance](https://repo1.maven.org/maven2/aopalliance/aopalliance/) **[1.0](https://repo1.maven.org/maven2/aopalliance/aopalliance/1.0)**
@@ -37,6 +41,7 @@
     - [hamcrest-library](https://repo1.maven.org/maven2/org/hamcrest/hamcrest-library/) **[1.3](https://repo1.maven.org/maven2/org/hamcrest/hamcrest-library/1.3)**
     - [hamcrest-library](https://repo1.maven.org/maven2/org/hamcrest/hamcrest-library/) **[2.2](https://repo1.maven.org/maven2/org/hamcrest/hamcrest-library/2.2)**
  - [org.jdom](https://repo1.maven.org/maven2/org/jdom/)
+    - [jdom](https://repo1.maven.org/maven2/org/jdom/jdom/) **[1.1.3](https://repo1.maven.org/maven2/org/jdom/jdom/1.1.3)**
     - [jdom2](https://repo1.maven.org/maven2/org/jdom/jdom2/) **[2.0.6.1](https://repo1.maven.org/maven2/org/jdom/jdom2/2.0.6.1)**
  - [org.jruby.jcodings](https://repo1.maven.org/maven2/org/jruby/jcodings/)
     - [jcodings](https://repo1.maven.org/maven2/org/jruby/jcodings/jcodings/) **[1.0.58](https://repo1.maven.org/maven2/org/jruby/jcodings/jcodings/1.0.58)**

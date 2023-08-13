@@ -287,6 +287,13 @@
           <type>jar</type>
         </dependency>
 
+        <dependency>
+          <groupId>org.json</groupId>
+          <artifactId>json</artifactId>
+          <version>20230227</version>
+          <type>jar</type>
+        </dependency>
+
       </dependencies>
     </location>
   </locations>
