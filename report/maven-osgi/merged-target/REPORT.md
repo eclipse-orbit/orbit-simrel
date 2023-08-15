@@ -178,8 +178,8 @@
  - [jaxen](https://repo1.maven.org/maven2/jaxen/)
     - [jaxen](https://repo1.maven.org/maven2/jaxen/jaxen/) **[2.0.0](https://repo1.maven.org/maven2/jaxen/jaxen/2.0.0)**
  - [net.bytebuddy](https://repo1.maven.org/maven2/net/bytebuddy/)
-    - [byte-buddy](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/) **[1.14.5](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.14.5)**
-    - [byte-buddy-agent](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/) **[1.14.5](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.14.5)**
+    - [byte-buddy](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/) **[1.14.6](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.14.6)**
+    - [byte-buddy-agent](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/) **[1.14.6](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.14.6)**
  - [net.java.dev.jna](https://repo1.maven.org/maven2/net/java/dev/jna/)
     - [jna-platform](https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/) **[5.13.0](https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/5.13.0)**
  - [org.apache.aries.spifly](https://repo1.maven.org/maven2/org/apache/aries/spifly/)

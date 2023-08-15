@@ -1,5 +1,13 @@
 # Target Platform: [mylyn-docs](https://raw.githubusercontent.com/eclipse-mylyn/org.eclipse.mylyn.docs/master/target-platform/mylyn-docs.target)
 
+## Minor Updates
+ - [net.bytebuddy](https://repo1.maven.org/maven2/net/bytebuddy/)
+    - [byte-buddy](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/) **[1.14.5](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.14.5)** < [1.14.6](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.14.6/)
+    - [byte-buddy-agent](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/) **[1.14.5](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.14.5)** < [1.14.6](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.14.6/)
+
+## Updates Applied
+[updated.target](updated.target)
+
 ## Content
  - [com.google.guava](https://repo1.maven.org/maven2/com/google/guava/)
     - [guava](https://repo1.maven.org/maven2/com/google/guava/guava/) **[32.1.2-jre](https://repo1.maven.org/maven2/com/google/guava/guava/32.1.2-jre)**
