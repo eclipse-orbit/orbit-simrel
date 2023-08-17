@@ -62,6 +62,9 @@ public class Analyzer {
 	private static final Pattern FEATURE_VERSION_QUALIFIER_PATTERN = Pattern.compile(
 			"\\s*<feature.*?version=\"[^\"]+?(?<qualifier>\\.v[-0-9]+||)\"", Pattern.MULTILINE | Pattern.DOTALL);
 
+	private static final Pattern FEATURE_SHA_PATTERN = Pattern.compile(
+			"^\\s*<feature.*?<!--\\s+SHA1\\s+(?<sha>[^ ]*)\\s*-->.*?</feature>", Pattern.MULTILINE | Pattern.DOTALL);
+
 	boolean verbose;
 
 	private String version;
@@ -208,6 +211,10 @@ public class Analyzer {
 		var instructionsMatcher = INSTRUCTIONS_PATTERN.matcher(location);
 		if (!instructionsMatcher.find()) {
 			if (location.contains("missingManifest=\"error\"")) {
+				var featureSHAMatcher = FEATURE_SHA_PATTERN.matcher(location);
+				if (featureSHAMatcher.find()) {
+					return visitOSGiDependencies(location, featureID, featureSHAMatcher);
+				}
 				return location;
 			}
 			if (featureID.contains(".exclude")) {
@@ -217,6 +224,32 @@ public class Analyzer {
 			throw new IllegalStateException("Each location must have BND instructions.");
 		}
 
+		return visitBNDDependencies(location, featureID, instructionsMatcher);
+	}
+
+	private String visitOSGiDependencies(String location, String featureID, Matcher featureSHAMatcher) {
+		var sha1 = featureSHAMatcher.group("sha");
+
+		// Compute the SHA1 from the dependency coordinates.
+		//
+		var dependencies = getDependenciesForDigest(location);
+		var digest = getDigest(dependencies);
+		if (!digest.equals(sha1)) {
+			// Replace the SHA1 digest with the new digest.
+			//
+			location = replace(location, featureSHAMatcher, "sha", digest);
+
+			// Replace the feature's qualifier with the new current qualifier.
+			var featureVersionQualifierMatcher = FEATURE_VERSION_QUALIFIER_PATTERN.matcher(location);
+			featureVersionQualifierMatcher.find();
+			location = replace(location, featureVersionQualifierMatcher, "qualifier", "." + qualifier);
+		}
+
+		return location;
+	}
+
+	private String visitBNDDependencies(String location, String featureID, Matcher instructionsMatcher) {
+
 		var sha1 = instructionsMatcher.group("sha");
 		var instructions = instructionsMatcher.group("instructions");
 
@@ -225,14 +258,7 @@ public class Analyzer {
 			throw new IllegalStateException("Each BND instruction must have a Bundle-Version: header");
 		}
 
-		var dependencies = new StringBuilder();
-		for (var dependencyMatcher = DEPENDENCY_PATTERN.matcher(location); dependencyMatcher.find();) {
-			var groupId = dependencyMatcher.group("groupId");
-			var artifactId = dependencyMatcher.group("artifactId");
-			var artifactVersion = dependencyMatcher.group("version");
-			var maven = groupId + ":" + artifactId + ":" + artifactVersion;
-			dependencies.append(maven).append("\n");
-		}
+		var dependencies = getDependenciesForDigest(location);
 
 		// Compute the SHA1 from the dependency coordinates and the instructions without
 		// the qualifier and compare it with the current value.
@@ -256,6 +282,18 @@ public class Analyzer {
 		}
 
 		return location;
+	}
+
+	private String getDependenciesForDigest(String location) {
+		var dependencies = new StringBuilder();
+		for (var dependencyMatcher = DEPENDENCY_PATTERN.matcher(location); dependencyMatcher.find();) {
+			var groupId = dependencyMatcher.group("groupId");
+			var artifactId = dependencyMatcher.group("artifactId");
+			var artifactVersion = dependencyMatcher.group("version");
+			var maven = groupId + ":" + artifactId + ":" + artifactVersion;
+			dependencies.append(maven).append("\n");
+		}
+		return dependencies.toString();
 	}
 
 	private static String replace(String string, Matcher matcher, String group, String replacement) {
