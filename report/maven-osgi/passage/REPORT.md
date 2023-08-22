@@ -2,7 +2,7 @@
 
 ## Minor Updates
  - [com.github.oshi](https://repo1.maven.org/maven2/com/github/oshi/)
-    - [oshi-core](https://repo1.maven.org/maven2/com/github/oshi/oshi-core/) **[6.2.2](https://repo1.maven.org/maven2/com/github/oshi/oshi-core/6.2.2)** < [6.4.4](https://repo1.maven.org/maven2/com/github/oshi/oshi-core/6.4.4/)
+    - [oshi-core](https://repo1.maven.org/maven2/com/github/oshi/oshi-core/) **[6.2.2](https://repo1.maven.org/maven2/com/github/oshi/oshi-core/6.2.2)** < [6.4.5](https://repo1.maven.org/maven2/com/github/oshi/oshi-core/6.4.5/)
 
 ## Major Updates
  - [org.slf4j](https://repo1.maven.org/maven2/org/slf4j/)
