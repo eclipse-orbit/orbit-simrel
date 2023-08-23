@@ -27,5 +27,3 @@
     - [archetype-descriptor](https://repo1.maven.org/maven2/org/apache/maven/archetype/archetype-descriptor/) **[3.2.1](https://repo1.maven.org/maven2/org/apache/maven/archetype/archetype-descriptor/3.2.1)**
  - [org.apache.maven.shared](https://repo1.maven.org/maven2/org/apache/maven/shared/)
     - [maven-artifact-transfer](https://repo1.maven.org/maven2/org/apache/maven/shared/maven-artifact-transfer/) **[0.13.1](https://repo1.maven.org/maven2/org/apache/maven/shared/maven-artifact-transfer/0.13.1)**
- - [org.jdom](https://repo1.maven.org/maven2/org/jdom/)
-    - [jdom2](https://repo1.maven.org/maven2/org/jdom/jdom2/) **[2.0.6.1](https://repo1.maven.org/maven2/org/jdom/jdom2/2.0.6.1)**

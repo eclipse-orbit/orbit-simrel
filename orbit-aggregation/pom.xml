@@ -9,7 +9,7 @@
   <packaging>pom</packaging>
 
   <properties>
-    <tycho-version>4.0.0</tycho-version>
+    <tycho-version>4.0.2</tycho-version>
     <download.eclipse.org>https://download.eclipse.org</download.eclipse.org>
     <eclipse.repo>${download.eclipse.org}/releases/2023-06</eclipse.repo>
     <eclipse.repo.url>${download.eclipse.org}/eclipse/updates/4.28/R-4.28-202306050440</eclipse.repo.url>

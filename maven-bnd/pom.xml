@@ -9,7 +9,7 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <tycho-version>5.0.0-SNAPSHOT</tycho-version>
+    <tycho-version>4.0.2</tycho-version>
     <jarsigner-version>1.3.0</jarsigner-version>
     <gpg-keyname>C1F58CF8</gpg-keyname>
     <eclipse.repo>https://download.eclipse.org/releases/2023-06</eclipse.repo>
