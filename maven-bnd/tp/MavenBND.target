@@ -673,7 +673,7 @@ Export-Package:         *;version="${version}";-noimport:=true
 <!-- ______________________________________________________ org.apache.axis.ant __________________________________________________________________________________________________-->
 
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
-      <feature id="org.eclipse.orbit.maven.org.apache.axis.ant" label="Orbit Maven BND org.apache.axis.ant" provider-name="Eclipse Orbit" version="4.29.0.v20230802-0838">
+      <feature id="org.eclipse.orbit.maven.org.apache.axis.ant" label="Orbit Maven BND org.apache.axis.ant" provider-name="Eclipse Orbit" version="4.29.0.v20230825-1400">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
 Copyright (c) 2023 Eclipse contributors and others.
@@ -696,15 +696,18 @@ SPDX-License-Identifier: EPL-2.0
         </dependency>
       </dependencies>
       <instructions>
-<!-- SHA1 308c443a7799b09cb1c1fe9a8f409a3bdca4c97b -->
+<!-- SHA1 f086294fdbea3258e99098c6053bcd074d1bea4c -->
 <![CDATA[
 Bundle-Name:            Bundle ${mvnGroupId} : ${mvnArtifactId}
 version:                ${versionmask;===;${version_cleanup;${mvnVersion}}}
+axis-version-range:     ${range;[==,+);${version}}
 Bundle-SymbolicName:    org.apache.axis.ant
-Bundle-Version:         ${version}.v20230802-0838
+Bundle-Version:         ${version}.v20230825-1400
 Eclipse-Wrapped-Bundle: ${mvnGroupId}:${mvnArtifactId}:${mvnVersion}
-Import-Package:         *
-Export-Package:         *;version="${version}";-noimport:=true
+Import-Package:         org.apache.axis.*;version="${axis-version-range}";split=!,\
+                        *
+Export-Package:         org.apache.axis;split=ant;mandatory:=split;version="${version}",\
+                        *;version="${version}";-noimport:=true
 -noextraheaders:        true
 -removeheaders:         Private-Package
 ]]>
