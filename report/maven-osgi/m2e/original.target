@@ -13,7 +13,7 @@
 			<unit id="org.mockito.mockito-core" version="0.0.0"/>
 		</location>
 		<location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="planner" includeSource="true" type="InstallableUnit">
-			<repository location="https://download.eclipse.org/tools/orbit/simrel/orbit-aggregation/2023-09/"/><!--Keep in sync with repo-ref in org.eclipse.m2e.repository/category.xml-->
+			<repository location="https://download.eclipse.org/tools/orbit/simrel/orbit-aggregation/2023-09/"/>
 			<unit id="org.jdom2" version="0.0.0"/>
 		</location>
 		<location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="planner" includeSource="true" type="InstallableUnit">
@@ -124,6 +124,7 @@ Bundle-Name:           M2Eclipse's ${mvnArtifactId}
 version:               ${version_cleanup;${mvnVersion}}
 Bundle-SymbolicName:   org.eclipse.m2e.archetype.common
 Bundle-Version:        ${version}.1
+Bundle-Vendor: 	       Eclipse.org - m2e
 Eclipse-ExtensibleAPI: true
 Export-Package:        META-INF.plexus;-noimport:=true;x-internal:=true, \
                        org.apache.maven.archetype.*;provider=m2e;mandatory:=provider;version="${version}";x-friends:="org.eclipse.m2e.core.ui"
@@ -157,6 +158,7 @@ Bundle-Name:           M2Eclipse's ${mvnArtifactId}
 version:               ${version_cleanup;${mvnVersion}}
 Bundle-SymbolicName:   org.eclipse.m2e.archetype.${replacestring;${mvnArtifactId};archetype-}
 Bundle-Version:        ${version}.1
+Bundle-Vendor: 	       Eclipse.org - m2e
 Fragment-Host:         org.eclipse.m2e.archetype.common;bundle-version="${range;[===,+);3.2.1}"
 Export-Package:        org.apache.maven.*;-noimport:=true;provider=m2e;mandatory:=provider;version="${version}";x-friends:="org.eclipse.m2e.core.ui"
 Import-Package:        !*

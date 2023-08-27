@@ -9,7 +9,7 @@
  - [org.mockito](https://repo1.maven.org/maven2/org/mockito/)
     - [mockito-core](https://repo1.maven.org/maven2/org/mockito/mockito-core/) **[5.4.0](https://repo1.maven.org/maven2/org/mockito/mockito-core/5.4.0)** < [5.5.0](https://repo1.maven.org/maven2/org/mockito/mockito-core/5.5.0/)
  - [org.yaml](https://repo1.maven.org/maven2/org/yaml/)
-    - [snakeyaml](https://repo1.maven.org/maven2/org/yaml/snakeyaml/) **[2.0](https://repo1.maven.org/maven2/org/yaml/snakeyaml/2.0)** < [2.1](https://repo1.maven.org/maven2/org/yaml/snakeyaml/2.1/)
+    - [snakeyaml](https://repo1.maven.org/maven2/org/yaml/snakeyaml/) **[2.0](https://repo1.maven.org/maven2/org/yaml/snakeyaml/2.0)** < [2.2](https://repo1.maven.org/maven2/org/yaml/snakeyaml/2.2/)
 
 ## Major Updates
  - [jakarta.activation](https://repo1.maven.org/maven2/jakarta/activation/)
