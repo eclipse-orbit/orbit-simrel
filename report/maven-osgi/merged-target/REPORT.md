@@ -5,6 +5,8 @@
     - [jakarta.activation-api](https://repo1.maven.org/maven2/jakarta/activation/jakarta.activation-api/) **[1.2.2](https://repo1.maven.org/maven2/jakarta/activation/jakarta.activation-api/1.2.2)** < [2.1.2](https://repo1.maven.org/maven2/jakarta/activation/jakarta.activation-api/2.1.2/)
  - [jakarta.annotation](https://repo1.maven.org/maven2/jakarta/annotation/)
     - [jakarta.annotation-api](https://repo1.maven.org/maven2/jakarta/annotation/jakarta.annotation-api/) **[1.3.5](https://repo1.maven.org/maven2/jakarta/annotation/jakarta.annotation-api/1.3.5)** < [2.1.1](https://repo1.maven.org/maven2/jakarta/annotation/jakarta.annotation-api/2.1.1/)
+ - [jakarta.ejb](https://repo1.maven.org/maven2/jakarta/ejb/)
+    - [jakarta.ejb-api](https://repo1.maven.org/maven2/jakarta/ejb/jakarta.ejb-api/) **[3.2.6](https://repo1.maven.org/maven2/jakarta/ejb/jakarta.ejb-api/3.2.6)** < [4.0.1](https://repo1.maven.org/maven2/jakarta/ejb/jakarta.ejb-api/4.0.1/)
  - [jakarta.el](https://repo1.maven.org/maven2/jakarta/el/)
     - [jakarta.el-api](https://repo1.maven.org/maven2/jakarta/el/jakarta.el-api/) **[3.0.3](https://repo1.maven.org/maven2/jakarta/el/jakarta.el-api/3.0.3)** < [5.0.1](https://repo1.maven.org/maven2/jakarta/el/jakarta.el-api/5.0.1/)
  - [jakarta.enterprise](https://repo1.maven.org/maven2/jakarta/enterprise/)
@@ -139,6 +141,8 @@
     - [jakarta.activation-api](https://repo1.maven.org/maven2/jakarta/activation/jakarta.activation-api/) **[1.2.2](https://repo1.maven.org/maven2/jakarta/activation/jakarta.activation-api/1.2.2)**
  - [jakarta.annotation](https://repo1.maven.org/maven2/jakarta/annotation/)
     - [jakarta.annotation-api](https://repo1.maven.org/maven2/jakarta/annotation/jakarta.annotation-api/) **[1.3.5](https://repo1.maven.org/maven2/jakarta/annotation/jakarta.annotation-api/1.3.5)**
+ - [jakarta.ejb](https://repo1.maven.org/maven2/jakarta/ejb/)
+    - [jakarta.ejb-api](https://repo1.maven.org/maven2/jakarta/ejb/jakarta.ejb-api/) **[3.2.6](https://repo1.maven.org/maven2/jakarta/ejb/jakarta.ejb-api/3.2.6)**
  - [jakarta.el](https://repo1.maven.org/maven2/jakarta/el/)
     - [jakarta.el-api](https://repo1.maven.org/maven2/jakarta/el/jakarta.el-api/) **[3.0.3](https://repo1.maven.org/maven2/jakarta/el/jakarta.el-api/3.0.3)**
  - [jakarta.enterprise](https://repo1.maven.org/maven2/jakarta/enterprise/)

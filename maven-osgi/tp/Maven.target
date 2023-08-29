@@ -3,7 +3,7 @@
 <target name="Maven" sequenceNumber="1">
   <locations>
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="error" type="Maven">
-      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.29.0.v20230828-1111">
+      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.29.0.v20230829-1214">
         <description>This feature's dependencies are pulled directly from Maven central.</description>
         <copyright>
 Copyright (c) 2023 Eclipse contributors and others.
@@ -16,7 +16,7 @@ https://www.eclipse.org/legal/epl-2.0/
 SPDX-License-Identifier: EPL-2.0
         </copyright>
         <license url="https://www.eclipse.org/legal/epl-2.0/"/>
-        <!-- SHA1 abe37bbb5d118977ab23f381e31d521f7bb51dfe -->
+        <!-- SHA1 3a5161e0eda7ffff30146cfce2ac9afd61bb8688 -->
       </feature>
       <dependencies>
         <dependency>
@@ -294,6 +294,12 @@ SPDX-License-Identifier: EPL-2.0
           <groupId>jakarta.annotation</groupId>
           <artifactId>jakarta.annotation-api</artifactId>
           <version>1.3.5</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>jakarta.ejb</groupId>
+          <artifactId>jakarta.ejb-api</artifactId>
+          <version>3.2.6</version>
           <type>jar</type>
         </dependency>
         <dependency>
