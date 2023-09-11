@@ -1,6 +1,8 @@
 # Target Platform: [supplement](https://raw.githubusercontent.com/eclipse-orbit/orbit-simrel/main/maven-osgi/tp/other/MavenSupplement.target)
 
 ## Minor Updates
+ - [org.easymock](https://repo1.maven.org/maven2/org/easymock/)
+    - [easymock](https://repo1.maven.org/maven2/org/easymock/easymock/) **[5.1.0](https://repo1.maven.org/maven2/org/easymock/easymock/5.1.0)** < [5.2.0](https://repo1.maven.org/maven2/org/easymock/easymock/5.2.0/)
  - [org.mockito](https://repo1.maven.org/maven2/org/mockito/)
     - [mockito-junit-jupiter](https://repo1.maven.org/maven2/org/mockito/mockito-junit-jupiter/) **[5.4.0](https://repo1.maven.org/maven2/org/mockito/mockito-junit-jupiter/5.4.0)** < [5.5.0](https://repo1.maven.org/maven2/org/mockito/mockito-junit-jupiter/5.5.0/)
 

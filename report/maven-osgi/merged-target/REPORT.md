@@ -191,7 +191,7 @@
  - [org.apache.aries.spifly](https://repo1.maven.org/maven2/org/apache/aries/spifly/)
     - [org.apache.aries.spifly.dynamic.bundle](https://repo1.maven.org/maven2/org/apache/aries/spifly/org.apache.aries.spifly.dynamic.bundle/) **[1.3.6](https://repo1.maven.org/maven2/org/apache/aries/spifly/org.apache.aries.spifly.dynamic.bundle/1.3.6)**
  - [org.apache.commons](https://repo1.maven.org/maven2/org/apache/commons/)
-    - [commons-compress](https://repo1.maven.org/maven2/org/apache/commons/commons-compress/) **[1.23.0](https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.23.0)**
+    - [commons-compress](https://repo1.maven.org/maven2/org/apache/commons/commons-compress/) **[1.24.0](https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.24.0)**
  - [org.apache.derby](https://repo1.maven.org/maven2/org/apache/derby/)
     - [derby](https://repo1.maven.org/maven2/org/apache/derby/derby/) **[10.16.1.1](https://repo1.maven.org/maven2/org/apache/derby/derby/10.16.1.1)**
  - [org.apache.felix](https://repo1.maven.org/maven2/org/apache/felix/)
@@ -219,7 +219,7 @@
     - [bcprov-jdk18on](https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk18on/) **[1.76](https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk18on/1.76)**
     - [bcutil-jdk18on](https://repo1.maven.org/maven2/org/bouncycastle/bcutil-jdk18on/) **[1.76](https://repo1.maven.org/maven2/org/bouncycastle/bcutil-jdk18on/1.76)**
  - [org.easymock](https://repo1.maven.org/maven2/org/easymock/)
-    - [easymock](https://repo1.maven.org/maven2/org/easymock/easymock/) **[5.1.0](https://repo1.maven.org/maven2/org/easymock/easymock/5.1.0)**
+    - [easymock](https://repo1.maven.org/maven2/org/easymock/easymock/) **[5.2.0](https://repo1.maven.org/maven2/org/easymock/easymock/5.2.0)**
  - [org.eclipse.jetty.toolchain](https://repo1.maven.org/maven2/org/eclipse/jetty/toolchain/)
     - [jetty-servlet-api](https://repo1.maven.org/maven2/org/eclipse/jetty/toolchain/jetty-servlet-api/) **[4.0.6](https://repo1.maven.org/maven2/org/eclipse/jetty/toolchain/jetty-servlet-api/4.0.6)**
  - [org.freemarker](https://repo1.maven.org/maven2/org/freemarker/)
@@ -331,11 +331,11 @@
     - [org.ow2.sat4j.pb](https://repo1.maven.org/maven2/org/ow2/sat4j/org.ow2.sat4j.pb/) **[2.3.6](https://repo1.maven.org/maven2/org/ow2/sat4j/org.ow2.sat4j.pb/2.3.6)**
  - [org.slf4j](https://repo1.maven.org/maven2/org/slf4j/)
     - [slf4j-api](https://repo1.maven.org/maven2/org/slf4j/slf4j-api/) **[1.7.36](https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.36)**
-    - [slf4j-api](https://repo1.maven.org/maven2/org/slf4j/slf4j-api/) **[2.0.7](https://repo1.maven.org/maven2/org/slf4j/slf4j-api/2.0.7)**
+    - [slf4j-api](https://repo1.maven.org/maven2/org/slf4j/slf4j-api/) **[2.0.9](https://repo1.maven.org/maven2/org/slf4j/slf4j-api/2.0.9)**
     - [slf4j-nop](https://repo1.maven.org/maven2/org/slf4j/slf4j-nop/) **[1.7.36](https://repo1.maven.org/maven2/org/slf4j/slf4j-nop/1.7.36)**
-    - [slf4j-nop](https://repo1.maven.org/maven2/org/slf4j/slf4j-nop/) **[2.0.7](https://repo1.maven.org/maven2/org/slf4j/slf4j-nop/2.0.7)**
+    - [slf4j-nop](https://repo1.maven.org/maven2/org/slf4j/slf4j-nop/) **[2.0.9](https://repo1.maven.org/maven2/org/slf4j/slf4j-nop/2.0.9)**
     - [slf4j-simple](https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/) **[1.7.36](https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/1.7.36)**
-    - [slf4j-simple](https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/) **[2.0.7](https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/2.0.7)**
+    - [slf4j-simple](https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/) **[2.0.9](https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/2.0.9)**
  - [org.tukaani](https://repo1.maven.org/maven2/org/tukaani/)
     - [xz](https://repo1.maven.org/maven2/org/tukaani/xz/) **[1.9](https://repo1.maven.org/maven2/org/tukaani/xz/1.9)**
  - [org.yaml](https://repo1.maven.org/maven2/org/yaml/)
