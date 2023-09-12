@@ -1,6 +1,12 @@
 # Target Platform: [linuxtools](https://raw.githubusercontent.com/eclipse-linuxtools/org.eclipse.linuxtools/master/releng/org.eclipse.linuxtools.target/linuxtools-e4.29.target)
 
 ## Minor Updates
+ - [com.github.jnr](https://repo1.maven.org/maven2/com/github/jnr/)
+    - [jffi](https://repo1.maven.org/maven2/com/github/jnr/jffi/) **[1.3.11](https://repo1.maven.org/maven2/com/github/jnr/jffi/1.3.11)** < [1.3.12](https://repo1.maven.org/maven2/com/github/jnr/jffi/1.3.12/)
+    - [jnr-enxio](https://repo1.maven.org/maven2/com/github/jnr/jnr-enxio/) **[0.32.15](https://repo1.maven.org/maven2/com/github/jnr/jnr-enxio/0.32.15)** < [0.32.16](https://repo1.maven.org/maven2/com/github/jnr/jnr-enxio/0.32.16/)
+    - [jnr-ffi](https://repo1.maven.org/maven2/com/github/jnr/jnr-ffi/) **[2.2.14](https://repo1.maven.org/maven2/com/github/jnr/jnr-ffi/2.2.14)** < [2.2.15](https://repo1.maven.org/maven2/com/github/jnr/jnr-ffi/2.2.15/)
+    - [jnr-posix](https://repo1.maven.org/maven2/com/github/jnr/jnr-posix/) **[3.1.17](https://repo1.maven.org/maven2/com/github/jnr/jnr-posix/3.1.17)** < [3.1.18](https://repo1.maven.org/maven2/com/github/jnr/jnr-posix/3.1.18/)
+    - [jnr-unixsocket](https://repo1.maven.org/maven2/com/github/jnr/jnr-unixsocket/) **[0.38.20](https://repo1.maven.org/maven2/com/github/jnr/jnr-unixsocket/0.38.20)** < [0.38.21](https://repo1.maven.org/maven2/com/github/jnr/jnr-unixsocket/0.38.21/)
  - [org.apache.commons](https://repo1.maven.org/maven2/org/apache/commons/)
     - [commons-compress](https://repo1.maven.org/maven2/org/apache/commons/commons-compress/) **[1.23.0](https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.23.0)** < [1.24.0](https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.24.0/)
 
