@@ -14,7 +14,7 @@
  - [jakarta.ws.rs](https://repo1.maven.org/maven2/jakarta/ws/rs/)
     - [jakarta.ws.rs-api](https://repo1.maven.org/maven2/jakarta/ws/rs/jakarta.ws.rs-api/) **[2.1.6](https://repo1.maven.org/maven2/jakarta/ws/rs/jakarta.ws.rs-api/2.1.6)** < [3.1.0](https://repo1.maven.org/maven2/jakarta/ws/rs/jakarta.ws.rs-api/3.1.0/)
  - [jakarta.xml.bind](https://repo1.maven.org/maven2/jakarta/xml/bind/)
-    - [jakarta.xml.bind-api](https://repo1.maven.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/) **[2.3.3](https://repo1.maven.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3)** < [4.0.0](https://repo1.maven.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/4.0.0/)
+    - [jakarta.xml.bind-api](https://repo1.maven.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/) **[2.3.3](https://repo1.maven.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3)** < [4.0.1](https://repo1.maven.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/4.0.1/)
  - [org.glassfish.hk2](https://repo1.maven.org/maven2/org/glassfish/hk2/)
     - [hk2-api](https://repo1.maven.org/maven2/org/glassfish/hk2/hk2-api/) **[2.6.1](https://repo1.maven.org/maven2/org/glassfish/hk2/hk2-api/2.6.1)** < [3.0.4](https://repo1.maven.org/maven2/org/glassfish/hk2/hk2-api/3.0.4/)
     - [hk2-locator](https://repo1.maven.org/maven2/org/glassfish/hk2/hk2-locator/) **[2.6.1](https://repo1.maven.org/maven2/org/glassfish/hk2/hk2-locator/2.6.1)** < [3.0.4](https://repo1.maven.org/maven2/org/glassfish/hk2/hk2-locator/3.0.4/)

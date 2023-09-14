@@ -3,6 +3,9 @@
 ## Minor Updates
  - [commons-codec](https://repo1.maven.org/maven2/commons-codec/)
     - [commons-codec](https://repo1.maven.org/maven2/commons-codec/commons-codec/) **[1.15](https://repo1.maven.org/maven2/commons-codec/commons-codec/1.15)** < [1.16.0](https://repo1.maven.org/maven2/commons-codec/commons-codec/1.16.0/)
+ - [net.bytebuddy](https://repo1.maven.org/maven2/net/bytebuddy/)
+    - [byte-buddy](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/) **[1.14.7](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.14.7)** < [1.14.8](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.14.8/)
+    - [byte-buddy-agent](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/) **[1.14.7](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.14.7)** < [1.14.8](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.14.8/)
  - [org.apache.commons](https://repo1.maven.org/maven2/org/apache/commons/)
     - [commons-compress](https://repo1.maven.org/maven2/org/apache/commons/commons-compress/) **[1.23.0](https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.23.0)** < [1.24.0](https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.24.0/)
  - [org.eclipse.jetty](https://repo1.maven.org/maven2/org/eclipse/jetty/)
