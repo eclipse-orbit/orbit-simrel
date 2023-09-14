@@ -42,6 +42,10 @@
       <!-- This version contains with notarized *.jnilib -->
       <unit id="com.sun.jna" version="5.13.0.v20230812-1000"/>
 
+      <!-- Batik dependnecies -->
+      <unit id="org.eclipse.orbit.xml-apis-ext" version="1.0.0.v20230815-1152"/>
+      <unit id="org.eclipse.orbit.xml-apis-ext.source" version="1.0.0.v20230815-1152"/>
+
       <!-- This is the "normal" Orbit repository.
            This is the repo that is expected to be updated on milestones and releases based on Orbit deliveries. -->
       <repository location="https://download.eclipse.org/tools/orbit/simrel/orbit-aggregation/release/4.29.0"/>
@@ -238,13 +242,13 @@
 			  <dependency>
 				  <groupId>org.slf4j</groupId>
 				  <artifactId>slf4j-api</artifactId>
-				  <version>2.0.7</version>
+				  <version>2.0.9</version>
 				  <type>jar</type>
 			  </dependency>
 			  <dependency>
 				  <groupId>org.slf4j</groupId>
 				  <artifactId>slf4j-simple</artifactId>
-				  <version>2.0.7</version>
+				  <version>2.0.9</version>
 				  <type>jar</type>
 			  </dependency>
 			  <dependency>
