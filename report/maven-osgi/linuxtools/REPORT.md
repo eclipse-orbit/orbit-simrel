@@ -1,4 +1,4 @@
-# Target Platform: [linuxtools](https://raw.githubusercontent.com/eclipse-linuxtools/org.eclipse.linuxtools/master/releng/org.eclipse.linuxtools.target/linuxtools-e4.29.target)
+# Target Platform: [linuxtools](https://raw.githubusercontent.com/eclipse-linuxtools/org.eclipse.linuxtools/master/releng/org.eclipse.linuxtools.target/linuxtools-e4.30.target)
 
 ## Minor Updates
  - [com.github.jnr](https://repo1.maven.org/maven2/com/github/jnr/)
