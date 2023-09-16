@@ -3,7 +3,7 @@
 <target name="Maven" sequenceNumber="1">
   <locations>
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="error" type="Maven">
-      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.30.0.v20230914-1622">
+      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.30.0.v20230916-1418">
         <description>This feature's dependencies are pulled directly from Maven central.</description>
         <copyright>
 Copyright (c) 2023 Eclipse contributors and others.
@@ -16,7 +16,7 @@ https://www.eclipse.org/legal/epl-2.0/
 SPDX-License-Identifier: EPL-2.0
         </copyright>
         <license url="https://www.eclipse.org/legal/epl-2.0/"/>
-        <!-- SHA1 9b07edae4dcd6d6d0727ad918260a0dccafd0aa7 -->
+        <!-- SHA1 67a66f4a268b1515ac91f3f87757f2d5b7dae848 -->
       </feature>
       <dependencies>
         <dependency>
@@ -666,12 +666,6 @@ SPDX-License-Identifier: EPL-2.0
           <groupId>org.glassfish.jersey.media</groupId>
           <artifactId>jersey-media-json-jackson</artifactId>
           <version>2.40</version>
-          <type>jar</type>
-        </dependency>
-        <dependency>
-          <groupId>org.glassfish.web</groupId>
-          <artifactId>javax.servlet.jsp</artifactId>
-          <version>2.3.4</version>
           <type>jar</type>
         </dependency>
         <dependency>

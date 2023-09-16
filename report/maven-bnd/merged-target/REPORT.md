@@ -10,6 +10,9 @@
  - [com.github.jnr](https://repo1.maven.org/maven2/com/github/jnr/)
     - [jnr-a64asm](https://repo1.maven.org/maven2/com/github/jnr/jnr-a64asm/) **[1.0.0](https://repo1.maven.org/maven2/com/github/jnr/jnr-a64asm/1.0.0)**
     - [jnr-x86asm](https://repo1.maven.org/maven2/com/github/jnr/jnr-x86asm/) **[1.0.2](https://repo1.maven.org/maven2/com/github/jnr/jnr-x86asm/1.0.2)**
+ - [com.jcraft](https://repo1.maven.org/maven2/com/jcraft/)
+    - [jsch](https://repo1.maven.org/maven2/com/jcraft/jsch/) **[0.1.55](https://repo1.maven.org/maven2/com/jcraft/jsch/0.1.55)**
+    - [jzlib](https://repo1.maven.org/maven2/com/jcraft/jzlib/) **[1.1.3](https://repo1.maven.org/maven2/com/jcraft/jzlib/1.1.3)**
  - [com.konghq](https://repo1.maven.org/maven2/com/konghq/)
     - [unirest-java](https://repo1.maven.org/maven2/com/konghq/unirest-java/) **[3.14.5](https://repo1.maven.org/maven2/com/konghq/unirest-java/3.14.5)**
  - [junit](https://repo1.maven.org/maven2/junit/)
