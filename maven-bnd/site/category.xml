@@ -2,6 +2,10 @@
 <site>
    <feature id="org.eclipse.orbit.maven.aopalliance"/>
    <feature id="org.eclipse.orbit.maven.aopalliance.source"/>
+   <feature id="org.eclipse.orbit.maven.com.jcraft.jsch"/>
+   <feature id="org.eclipse.orbit.maven.com.jcraft.jsch.source"/>
+   <feature id="org.eclipse.orbit.maven.com.jcraft.jzlib"/>
+   <feature id="org.eclipse.orbit.maven.com.jcraft.jzlib.source"/>
    <feature id="org.eclipse.orbit.maven.com.konghq"/>
    <feature id="org.eclipse.orbit.maven.com.konghq.source"/>
    <feature id="org.eclipse.orbit.maven.hamcrest.core"/>
