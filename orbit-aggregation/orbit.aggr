@@ -136,7 +136,6 @@
         <bundles name="org.apache.xml.resolver" versionRange="[1.2.0.v20220715-1206]"/>
         <bundles name="org.apache.xml.serializer" versionRange="[2.7.2.v20220406-0601]"/>
         <bundles name="org.apache.xmlbeans" versionRange="[3.1.0.v20221112-0806]"/>
-        <bundles name="org.apache.xmlgraphics" versionRange="[2.7.0.v20221018-0736]"/>
         <bundles name="org.apiguardian" versionRange="[1.1.2.v20211018-1956]"/>
         <bundles name="org.conscrypt.conscrypt-openjdk-uber" versionRange="[2.5.1.v20220506-1020]"/>
         <bundles name="org.dom4j" versionRange="[1.6.1.v20221112-0806]"/>
@@ -252,6 +251,7 @@
         <mapRules xsi:type="aggregator:ExclusionRule" name="org.apache.sshd.sftp" versionRange="[2.9.2.v20221117-1942]"/>
         <mapRules xsi:type="aggregator:ExclusionRule" name="org.apache.ws.commons.util" versionRange="[1.0.2.v20160817-1930]"/>
         <mapRules xsi:type="aggregator:ExclusionRule" name="org.apache.wsil4j" versionRange="[1.0.0.v20180522-1857]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="org.apache.xmlgraphics" versionRange="[2.7.0.v20221018-0736]"/>
         <mapRules xsi:type="aggregator:ExclusionRule" name="org.apache.xmlrpc.client" versionRange="[3.1.3.v20160817-1930]"/>
         <mapRules xsi:type="aggregator:ExclusionRule" name="org.apache.xmlrpc.common" versionRange="[3.1.3.v20181004-1955]"/>
         <mapRules xsi:type="aggregator:ExclusionRule" name="org.apache.xmlrpc.server" versionRange="[3.1.3.v20181004-1955]"/>

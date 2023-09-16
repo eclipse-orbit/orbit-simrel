@@ -4,7 +4,7 @@
   <locations>
 
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
-      <feature id="org.eclipse.orbit.maven.XXXXXXXXXXX" label="Orbit Maven BND XXXXXXXXXXX" provider-name="Eclipse Orbit" version="4.29.0">
+      <feature id="org.eclipse.orbit.maven.XXXXXXXXXXX" label="Orbit Maven BND XXXXXXXXXXX" provider-name="Eclipse Orbit" version="4.30.0">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
 Copyright (c) 2023 Eclipse contributors and others.
