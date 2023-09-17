@@ -1150,7 +1150,7 @@ SPDX-License-Identifier: EPL-2.0
         </dependency>
       </dependencies>
       <instructions>
-<!-- SHA1 209c1463b502ee4068b7c5ea853a15f592f4f065 -->
+<!-- SHA1 8f2cd16ff81ac96ca398d7fa43eda440d993ec5f -->
 <![CDATA[
 Bundle-Name:            Bundle ${mvnGroupId} : ${mvnArtifactId}
 version:                ${versionmask;===;${version_cleanup;${mvnVersion}}}
@@ -1163,7 +1163,7 @@ Import-Package:         org.w3c.dom.smil*;version="1.0.0",\
                         org.w3c.dom.svg*;version="1.1.0",\
                         javax.xml*|org.w3c.dom*|org.xml.sax*;version=!,\
                         org.mozilla.javascript*|org.python*;resolution:=optional,\
-                        org.apache.xmlgraphics*;version="${range;[=00,+00);${@}}",\
+                        org.apache.xmlgraphics*;version="${range;[=,+);${@}}",\
                         *
 Export-Package:         *;version="${version}";-noimport:=true
 -noextraheaders:        true
