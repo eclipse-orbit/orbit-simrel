@@ -30,6 +30,8 @@
    <feature id="org.eclipse.orbit.maven.org.apache.axis.source"/>
    <feature id="org.eclipse.orbit.maven.org.apache.axis.ant"/>
    <feature id="org.eclipse.orbit.maven.org.apache.axis.ant.source"/>
+   <feature id="org.eclipse.orbit.maven.org.apache.batik"/>
+   <feature id="org.eclipse.orbit.maven.org.apache.batik.source"/>
    <feature id="org.eclipse.orbit.maven.org.apache.httpcomponents.client5.httpclient5"/>
    <feature id="org.eclipse.orbit.maven.org.apache.httpcomponents.client5.httpclient5.source"/>
    <feature id="org.eclipse.orbit.maven.org.apache.httpcomponents.client5.httpclient5-win"/>

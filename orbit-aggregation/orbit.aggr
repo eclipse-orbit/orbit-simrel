@@ -75,24 +75,6 @@
         <bundles name="org.antlr.runtime" versionRange="[4.7.2.v20221112-0806]"/>
         <bundles name="org.antlr.runtime" versionRange="[4.10.1.v20230210-1433]"/>
         <bundles name="org.apache.ant" versionRange="[1.10.12.v20211102-1452]"/>
-        <bundles name="org.apache.batik.anim" versionRange="[1.16.0.v20221027-0840]"/>
-        <bundles name="org.apache.batik.awt.util" versionRange="[1.16.0.v20221027-0840]"/>
-        <bundles name="org.apache.batik.bridge" versionRange="[1.16.0.v20230210-1249]"/>
-        <bundles name="org.apache.batik.codec" versionRange="[1.16.0.v20221027-0840]"/>
-        <bundles name="org.apache.batik.constants" versionRange="[1.16.0.v20221027-0840]"/>
-        <bundles name="org.apache.batik.css" versionRange="[1.16.0.v20221027-0840]"/>
-        <bundles name="org.apache.batik.dom" versionRange="[1.16.0.v20230210-1249]"/>
-        <bundles name="org.apache.batik.dom.svg" versionRange="[1.16.0.v20221027-0840]"/>
-        <bundles name="org.apache.batik.ext" versionRange="[1.16.0.v20221027-0840]"/>
-        <bundles name="org.apache.batik.gvt" versionRange="[1.16.0.v20221027-0840]"/>
-        <bundles name="org.apache.batik.i18n" versionRange="[1.16.0.v20221027-0840]"/>
-        <bundles name="org.apache.batik.parser" versionRange="[1.16.0.v20221027-0840]"/>
-        <bundles name="org.apache.batik.script" versionRange="[1.16.0.v20221027-0840]"/>
-        <bundles name="org.apache.batik.shared.resources" versionRange="[1.16.0.v20221027-0840]"/>
-        <bundles name="org.apache.batik.svggen" versionRange="[1.16.0.v20221027-0840]"/>
-        <bundles name="org.apache.batik.transcoder" versionRange="[1.16.0.v20221027-0840]"/>
-        <bundles name="org.apache.batik.util" versionRange="[1.16.0.v20221027-0840]"/>
-        <bundles name="org.apache.batik.xml" versionRange="[1.16.0.v20221027-0840]"/>
         <bundles name="org.apache.commons.collections4" versionRange="[4.4.0.v20221112-0806]"/>
         <bundles name="org.apache.commons.csv" versionRange="[1.8.0.v20221112-0806]"/>
         <bundles name="org.apache.commons.lang3" versionRange="[3.12.0.v20221221-1931]"/>
@@ -217,6 +199,24 @@
         <mapRules xsi:type="aggregator:ExclusionRule" name="net.bytebuddy.byte-buddy" versionRange="[1.7.9.v20180420-1519]"/>
         <mapRules xsi:type="aggregator:ExclusionRule" name="net.bytebuddy.byte-buddy" versionRange="[1.9.0.v20181107-1410]"/>
         <mapRules xsi:type="aggregator:ExclusionRule" name="org.aopalliance" versionRange="[1.0.0.v20220404-1927]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="org.apache.batik.anim" versionRange="[1.16.0.v20221027-0840]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="org.apache.batik.awt.util" versionRange="[1.16.0.v20221027-0840]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="org.apache.batik.bridge" versionRange="[1.16.0.v20230210-1249]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="org.apache.batik.codec" versionRange="[1.16.0.v20221027-0840]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="org.apache.batik.constants" versionRange="[1.16.0.v20221027-0840]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="org.apache.batik.css" versionRange="[1.16.0.v20221027-0840]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="org.apache.batik.dom.svg" versionRange="[1.16.0.v20221027-0840]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="org.apache.batik.dom" versionRange="[1.16.0.v20230210-1249]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="org.apache.batik.ext" versionRange="[1.16.0.v20221027-0840]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="org.apache.batik.gvt" versionRange="[1.16.0.v20221027-0840]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="org.apache.batik.i18n" versionRange="[1.16.0.v20221027-0840]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="org.apache.batik.parser" versionRange="[1.16.0.v20221027-0840]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="org.apache.batik.script" versionRange="[1.16.0.v20221027-0840]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="org.apache.batik.shared.resources" versionRange="[1.16.0.v20221027-0840]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="org.apache.batik.svggen" versionRange="[1.16.0.v20221027-0840]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="org.apache.batik.transcoder" versionRange="[1.16.0.v20221027-0840]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="org.apache.batik.util" versionRange="[1.16.0.v20221027-0840]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="org.apache.batik.xml" versionRange="[1.16.0.v20221027-0840]"/>
         <mapRules xsi:type="aggregator:ExclusionRule" name="org.apache.commons.cli" versionRange="[1.4.0.v20221112-0806]"/>
         <mapRules xsi:type="aggregator:ExclusionRule" name="org.apache.commons.codec" versionRange="[1.14.0.v20221112-0806]"/>
         <mapRules xsi:type="aggregator:ExclusionRule" name="org.apache.commons.collections" versionRange="[3.2.2.v20220405-1659]"/>
@@ -327,7 +327,7 @@
         <bundles name="org.eclipse.osgi"/>
       </repositories>
     </contributions>
-    <validationRepositories location="https://download.eclipse.org/eclipse/updates/4.28/R-4.28-202306050440"/>
+    <validationRepositories location="https://download.eclipse.org/eclipse/updates/4.29/R-4.29-202309031000"/>
   </validationSets>
   <configurations operatingSystem="linux" windowSystem="gtk" architecture="aarch64">
     <properties key="org.eclipse.orbit.maven.bnd.buildtime" value="true"/>

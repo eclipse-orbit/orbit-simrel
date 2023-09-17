@@ -34,7 +34,7 @@ version:                ${versionmask;===;${version_cleanup;${mvnVersion}}}
 Bundle-SymbolicName:    ${mvnGroupId}.${mvnArtifactId}
 Bundle-Version:         ${version}
 Eclipse-Wrapped-Bundle: ${mvnGroupId}:${mvnArtifactId}:${mvnVersion}
-Import-Package:         *;resolution:=optional;
+Import-Package:         *;resolution:=optional
 Export-Package:         *;version="${version}";-noimport:=true
 -noextraheaders:        true
 -removeheaders:         Private-Package
