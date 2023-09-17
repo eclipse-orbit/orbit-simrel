@@ -36,6 +36,26 @@
     - [lucene-sandbox](https://repo1.maven.org/maven2/org/apache/lucene/lucene-sandbox/) **[9.7.0](https://repo1.maven.org/maven2/org/apache/lucene/lucene-sandbox/9.7.0)**
  - [org.apache.ws.commons.util](https://repo1.maven.org/maven2/org/apache/ws/commons/util/)
     - [ws-commons-util](https://repo1.maven.org/maven2/org/apache/ws/commons/util/ws-commons-util/) **[1.0.2](https://repo1.maven.org/maven2/org/apache/ws/commons/util/ws-commons-util/1.0.2)**
+ - [org.apache.xmlgraphics](https://repo1.maven.org/maven2/org/apache/xmlgraphics/)
+    - [batik-anim](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-anim/) **[1.17](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-anim/1.17)**
+    - [batik-awt-util](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-awt-util/) **[1.17](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-awt-util/1.17)**
+    - [batik-bridge](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-bridge/) **[1.17](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-bridge/1.17)**
+    - [batik-codec](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-codec/) **[1.17](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-codec/1.17)**
+    - [batik-constants](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-constants/) **[1.17](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-constants/1.17)**
+    - [batik-css](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-css/) **[1.17](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-css/1.17)**
+    - [batik-dom](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-dom/) **[1.17](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-dom/1.17)**
+    - [batik-ext](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-ext/) **[1.17](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-ext/1.17)**
+    - [batik-gvt](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-gvt/) **[1.17](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-gvt/1.17)**
+    - [batik-i18n](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-i18n/) **[1.17](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-i18n/1.17)**
+    - [batik-parser](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-parser/) **[1.17](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-parser/1.17)**
+    - [batik-script](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-script/) **[1.17](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-script/1.17)**
+    - [batik-shared-resources](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-shared-resources/) **[1.17](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-shared-resources/1.17)**
+    - [batik-svg-dom](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-svg-dom/) **[1.17](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-svg-dom/1.17)**
+    - [batik-svggen](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-svggen/) **[1.17](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-svggen/1.17)**
+    - [batik-transcoder](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-transcoder/) **[1.17](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-transcoder/1.17)**
+    - [batik-util](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-util/) **[1.17](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-util/1.17)**
+    - [batik-xml](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-xml/) **[1.17](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-xml/1.17)**
+    - [xmlgraphics-commons](https://repo1.maven.org/maven2/org/apache/xmlgraphics/xmlgraphics-commons/) **[2.9](https://repo1.maven.org/maven2/org/apache/xmlgraphics/xmlgraphics-commons/2.9)**
  - [org.codelibs](https://repo1.maven.org/maven2/org/codelibs/)
     - [nekohtml](https://repo1.maven.org/maven2/org/codelibs/nekohtml/) **[2.1.2](https://repo1.maven.org/maven2/org/codelibs/nekohtml/2.1.2)**
  - [org.hamcrest](https://repo1.maven.org/maven2/org/hamcrest/)
