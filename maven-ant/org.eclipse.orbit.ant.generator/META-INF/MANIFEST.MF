@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Generator
+Bundle-SymbolicName: org.eclipse.orbit.ant.generator
+Bundle-Version: 1.0.0.qualifier
+Automatic-Module-Name: org.eclipse.orbit.ant.generator
+Bundle-RequiredExecutionEnvironment: JavaSE-17

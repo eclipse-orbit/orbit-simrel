@@ -313,17 +313,17 @@
             project="org.eclipse.orbit.simrel"/>
         <operand
             xsi:type="workingsets:ExclusionPredicate"
-            excludedWorkingSet="//'workingsets.orbit.simrel.incubator'/@workingSets[name='Orbit%20Maven%20OSGi%20%26%20BND%20Generators']"/>
+            excludedWorkingSet="//'workingsets.orbit.simrel.incubator'/@workingSets[name='Orbit%20Maven%20Generators%20%26%20Analayzers']"/>
       </predicate>
     </workingSet>
     <workingSet
-        name="Orbit Maven OSGi &amp; BND Generators">
+        name="Orbit Maven Generators &amp; Analayzers">
       <predicate
           xsi:type="predicates:AndPredicate">
         <operand
             xsi:type="predicates:RepositoryPredicate"
             project="org.eclipse.orbit.simrel"
-            relativePathPattern="maven(-bnd|-osgi)?/.*"/>
+            relativePathPattern="maven(-bnd|-osgi|-ant|-sign)?/.*"/>
       </predicate>
     </workingSet>
     <workingSet

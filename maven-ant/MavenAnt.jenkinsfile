@@ -1,0 +1,103 @@
+pipeline {
+  agent any
+
+   options {
+    buildDiscarder(logRotator(numToKeepStr: '10'))
+    disableConcurrentBuilds()
+    skipDefaultCheckout true
+  }
+
+  tools {
+    maven 'apache-maven-latest'
+    jdk 'temurin-jdk17-latest'
+  }
+
+  parameters {
+    booleanParam(
+      name: 'PROMOTE',
+      defaultValue: false,
+      description: 'Whether to promote the result to repo.eclipse.org.'
+    )
+  }
+
+  stages {
+    stage('Display Parameters') {
+      steps {
+        echo """
+PROMOTE=${params.PROMOTE}
+          """
+        script {
+          env.PROMOTE = params.PROMOTE
+        }
+      }
+    }
+
+    stage('Git Checkout') {
+      steps {
+        script {
+          def gitVariables = checkout(
+            poll: false,
+            scm: [
+              $class: 'GitSCM',
+              branches: [[name: '*/main']],
+              doGenerateSubmoduleConfigurations: false,
+              submoduleCfg: [],
+              extensions: [
+                [$class: 'CloneOption', shallow: true],
+                [$class: 'SparseCheckoutPaths', sparseCheckoutPaths:[[$class:'SparseCheckoutPath', path:'maven-ant/']]]
+              ],
+              userRemoteConfigs: [[url: 'https://github.com/eclipse-orbit/orbit-simrel.git' ]]
+            ]
+          )
+
+          echo "$gitVariables"
+          env.GIT_COMMIT = gitVariables.GIT_COMMIT
+        }
+      }
+    }
+
+    stage('Build Orbit Maven Ant') {
+      steps {
+        sshagent(['projects-storage.eclipse.org-bot-ssh']) {
+          dir('maven-ant') {
+              sh '''
+                if [[ $PROMOTE == false ]]; then
+                  promotion_argument="-Durl=file:$PWD/repository"
+                else
+                  promotion_argument="-Durl=https://repo.eclipse.org/content/repositories/orbit-approved-artifacts"
+                fi
+                echo mvn \
+                  --no-transfer-progress \
+                  $promotion_argument \
+                  -Dgit.commit=$GIT_COMMIT \
+                  -Dbuild.id=$BUILD_NUMBER \
+                  clean \
+                  verify
+                '''
+            }
+        }
+      }
+    }
+  }
+
+  post {
+    failure {
+      archiveArtifacts 'maven-ant/**'
+      mail to: 'ed.merks@gmail.com',
+      subject: "[Orbit CI] Build Failure ${currentBuild.fullDisplayName}",
+      mimeType: 'text/html',
+      body: "Project: ${env.JOB_NAME}<br/>Build Number: ${env.BUILD_NUMBER}<br/>Build URL: ${env.BUILD_URL}<br/>Console: ${env.BUILD_URL}/console"
+    }
+
+    fixed {
+      mail to: 'ed.merks@gmail.com',
+      subject: "[Orbit CI] Back to normal ${currentBuild.fullDisplayName}",
+      mimeType: 'text/html',
+      body: "Project: ${env.JOB_NAME}<br/>Build Number: ${env.BUILD_NUMBER}<br/>Build URL: ${env.BUILD_URL}<br/>Console: ${env.BUILD_URL}/console"
+    }
+
+    cleanup {
+      deleteDir()
+    }
+  }
+}

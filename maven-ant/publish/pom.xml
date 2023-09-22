@@ -1,0 +1,57 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>org.eclipse.orbit.maven-ant</groupId>
+    <artifactId>org.eclipse.orbit.maven-ant.parent</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+    <relativePath>..</relativePath>
+  </parent>
+
+  <artifactId>ant</artifactId>
+
+  <distributionManagement>
+    <repository>
+      <id>repo.eclipse.org</id>
+      <name>Orbit Approved Artifacts Repository - Releases</name>
+      <url>
+        https://repo.eclipse.org/content/repositories/orbit-approved-artifacts/</url>
+    </repository>
+    <snapshotRepository>
+      <id>repo.eclipse.org</id>
+      <name>Orbit Approved Artifacts Repository - Snapshots</name>
+      <url>
+        https://repo.eclipse.org/content/repositories/orbit-approved-artifacts/</url>
+    </snapshotRepository>
+  </distributionManagement>
+
+  <build>
+    <plugins>
+      <plugin>
+        <artifactId>maven-deploy-plugin</artifactId>
+        <version>3.1.1</version>
+        <executions>
+          <execution>
+            <id>deploy-file</id>
+            <phase>verify</phase>
+            <goals>
+              <goal>deploy-file</goal>
+            </goals>
+            <configuration>
+              <repositoryId>repo.eclipse.org</repositoryId>
+              <file>artifact-bin.jar</file>
+              <sources>artifact-src.jar</sources>
+              <url>${project.baseUri}repository</url>
+              <groupId>org.eclipse.orbit</groupId>
+              <artifactId>ant</artifactId>
+              <version>${ant.version}</version>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+    </plugins>
+  </build>
+
+</project>
