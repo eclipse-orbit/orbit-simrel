@@ -16,7 +16,7 @@ pipeline {
     booleanParam(
       name: 'PROMOTE',
       defaultValue: false,
-      description: 'Whether to promote the result to repo.eclipse.org.'
+      description: 'Whether to promote the result to <a href="https://repo.eclipse.org/content/repositories/orbit-approved-artifacts/org/eclipse/orbit/ant/">repo.eclipse.org</a>.'
     )
   }
 

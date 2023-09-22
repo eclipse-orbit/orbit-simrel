@@ -51,8 +51,8 @@
 						<artifactId>eclipse-jarsigner-plugin</artifactId>
 						<configuration>
 							<includes>plugins/*.jar,features/*.jar</includes>
-							<archiveDirectory>
-								${project.build.directory}/repository</archiveDirectory>
+							<excludeInnerJars>false</excludeInnerJars>
+							<archiveDirectory>${project.build.directory}/repository</archiveDirectory>
 						</configuration>
 						<executions>
 							<execution>
