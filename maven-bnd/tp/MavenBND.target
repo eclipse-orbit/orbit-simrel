@@ -1173,6 +1173,86 @@ Export-Package:         *;version="${version}";-noimport:=true
     </location>
 
 
+<!-- ______________________________________________________ org.apache.ant __________________________________________________________________________________________________-->
+
+    <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
+      <feature id="org.eclipse.orbit.maven.org.apache.ant" label="Orbit Maven BND org.apache.ant" provider-name="Eclipse Orbit" version="4.30.0.v20230922-1200">
+        <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
+        <copyright>
+Copyright (c) 2023 Eclipse contributors and others.
+
+This program and the accompanying materials
+are made available under the terms of the Eclipse Public License 2.0
+which accompanies this distribution, and is available at
+https://www.eclipse.org/legal/epl-2.0/
+
+SPDX-License-Identifier: EPL-2.0
+        </copyright>
+        <license url="https://www.eclipse.org/legal/epl-2.0/"/>
+      </feature>
+      <dependencies>
+        <dependency>
+          <groupId>org.eclipse.orbit</groupId>
+          <artifactId>ant</artifactId>
+          <version>1.10.14</version>
+          <type>jar</type>
+        </dependency>
+      </dependencies>
+      <repositories>
+        <repository>
+          <id>maven-ant-repository</id>
+<!-- 
+          <url>file:/D:/Users/merks/orbit-simrel/git/orbit-simrel/maven-ant/publish/repository</url>
+          <url>https://ci.eclipse.org/orbit/job/orbit-simrel-maven-ant/lastSuccessfulBuild/artifact/maven-ant/publish/repository</url>
+-->
+          <url>https://repo.eclipse.org/content/repositories/orbit-approved-artifacts</url>
+        </repository>
+      </repositories>
+      <instructions>
+<!-- SHA1 6fdabb0b0b06be3f6742371c8f3e0276852657c4 -->
+<![CDATA[
+Bundle-Name:            Apache Ant
+version:                ${versionmask;===;${version_cleanup;${mvnVersion}}}
+Bundle-ClassPath:       lib/ant-antlr.jar,\
+                        lib/ant-apache-bcel.jar,\
+                        lib/ant-apache-bsf.jar,\
+                        lib/ant-apache-log4j.jar,\
+                        lib/ant-apache-oro.jar,\
+                        lib/ant-apache-regexp.jar,\
+                        lib/ant-apache-resolver.jar,\
+                        lib/ant-apache-xalan2.jar,\
+                        lib/ant-commons-logging.jar,\
+                        lib/ant-commons-net.jar,\
+                        lib/ant-imageio.jar,\
+                        lib/ant-jakartamail.jar,\
+                        lib/ant-javamail.jar,\
+                        lib/ant-jdepend.jar,\
+                        lib/ant-jmf.jar,\
+                        lib/ant-jsch.jar,\
+                        lib/ant-junit.jar,\
+                        lib/ant-junit4.jar,\
+                        lib/ant-junitlauncher.jar,\
+                        lib/ant-launcher.jar,\
+                        lib/ant-netrexx.jar,\
+                        lib/ant-swing.jar,\
+                        lib/ant-testutil.jar,\
+                        lib/ant-xz.jar,\
+                        lib/ant.jar
+Bundle-SymbolicName:    org.apache.ant
+Bundle-Version:         ${version}.v20230922-1200
+Eclipse-Wrapped-Bundle: org.apache.ant:ant:${mvnVersion}
+Import-Package:         *;resolution:=optional
+Export-Package:         !images,\
+                        *;version="${version}"
+Eclipse-BundleShape:    dir
+Automatic-Module-Name:  org.apache.ant
+-noextraheaders:        true
+-removeheaders:         Private-Package
+]]>
+      </instructions>
+    </location>
+
+
 <!-- ______________________________________________________ EXCLUDE __________________________________________________________________________________________________-->
 
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
@@ -1250,6 +1330,195 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>org.apache.ant</groupId>
           <artifactId>ant</artifactId>
+          <version>1.10.14</version>
+          <type>jar</type>
+        </dependency>
+
+        <dependency>
+          <groupId>org.apache.ant</groupId>
+          <artifactId>ant-antlr</artifactId>
+          <version>1.10.14</version>
+          <type>jar</type>
+        </dependency>
+
+        <dependency>
+          <groupId>org.apache.ant</groupId>
+          <artifactId>ant-apache-bcel</artifactId>
+          <version>1.10.14</version>
+          <type>jar</type>
+        </dependency>
+
+        <dependency>
+          <groupId>org.apache.ant</groupId>
+          <artifactId>ant-apache-bsf</artifactId>
+          <version>1.10.14</version>
+          <type>jar</type>
+        </dependency>
+
+        <dependency>
+          <groupId>org.apache.ant</groupId>
+          <artifactId>ant-apache-log4j</artifactId>
+          <version>1.10.14</version>
+          <type>jar</type>
+        </dependency>
+
+        <dependency>
+          <groupId>org.apache.ant</groupId>
+          <artifactId>ant-apache-oro</artifactId>
+          <version>1.10.14</version>
+          <type>jar</type>
+        </dependency>
+
+        <dependency>
+          <groupId>org.apache.ant</groupId>
+          <artifactId>ant-apache-regexp</artifactId>
+          <version>1.10.14</version>
+          <type>jar</type>
+        </dependency>
+
+        <dependency>
+          <groupId>org.apache.ant</groupId>
+          <artifactId>ant-apache-resolver</artifactId>
+          <version>1.10.14</version>
+          <type>jar</type>
+        </dependency>
+
+        <dependency>
+          <groupId>org.apache.ant</groupId>
+          <artifactId>ant-apache-xalan2</artifactId>
+          <version>1.10.14</version>
+          <type>jar</type>
+        </dependency>
+
+        <dependency>
+          <groupId>org.apache.ant</groupId>
+          <artifactId>ant-apache-log4j</artifactId>
+          <version>1.10.14</version>
+          <type>jar</type>
+        </dependency>
+
+        <dependency>
+          <groupId>org.apache.ant</groupId>
+          <artifactId>ant-commons-logging</artifactId>
+          <version>1.10.14</version>
+          <type>jar</type>
+        </dependency>
+
+        <dependency>
+          <groupId>org.apache.ant</groupId>
+          <artifactId>ant-commons-net</artifactId>
+          <version>1.10.14</version>
+          <type>jar</type>
+        </dependency>
+
+        <dependency>
+          <groupId>org.apache.ant</groupId>
+          <artifactId>ant-imageio</artifactId>
+          <version>1.10.14</version>
+          <type>jar</type>
+        </dependency>
+
+        <dependency>
+          <groupId>org.apache.ant</groupId>
+          <artifactId>ant-jakaratamail</artifactId>
+          <version>1.10.14</version>
+          <type>jar</type>
+        </dependency>
+
+        <dependency>
+          <groupId>org.apache.ant</groupId>
+          <artifactId>ant-javamail</artifactId>
+          <version>1.10.14</version>
+          <type>jar</type>
+        </dependency>
+
+        <dependency>
+          <groupId>org.apache.ant</groupId>
+          <artifactId>ant-jdepend</artifactId>
+          <version>1.10.14</version>
+          <type>jar</type>
+        </dependency>
+
+        <dependency>
+          <groupId>org.apache.ant</groupId>
+          <artifactId>ant-jmf</artifactId>
+          <version>1.10.14</version>
+          <type>jar</type>
+        </dependency>
+
+        <dependency>
+          <groupId>org.apache.ant</groupId>
+          <artifactId>ant-jsch</artifactId>
+          <version>1.10.14</version>
+          <type>jar</type>
+        </dependency>
+
+        <dependency>
+          <groupId>org.apache.ant</groupId>
+          <artifactId>ant-junit</artifactId>
+          <version>1.10.14</version>
+          <type>jar</type>
+        </dependency>
+
+        <dependency>
+          <groupId>org.apache.ant</groupId>
+          <artifactId>ant-junitlauncher</artifactId>
+          <version>1.10.14</version>
+          <type>jar</type>
+        </dependency>
+
+        <dependency>
+          <groupId>org.apache.ant</groupId>
+          <artifactId>ant-junit4</artifactId>
+          <version>1.10.14</version>
+          <type>jar</type>
+        </dependency>
+
+        <dependency>
+          <groupId>org.apache.ant</groupId>
+          <artifactId>ant-launcher</artifactId>
+          <version>1.10.14</version>
+          <type>jar</type>
+        </dependency>
+
+        <dependency>
+          <groupId>org.apache.ant</groupId>
+          <artifactId>ant-netrexx</artifactId>
+          <version>1.10.14</version>
+          <type>jar</type>
+        </dependency>
+
+        <dependency>
+          <groupId>org.apache.ant</groupId>
+          <artifactId>ant-</artifactId>
+          <version>1.10.14</version>
+          <type>jar</type>
+        </dependency>
+
+        <dependency>
+          <groupId>org.apache.ant</groupId>
+          <artifactId>ant-nodeps</artifactId>
+          <version>1.10.14</version>
+          <type>jar</type>
+        </dependency>
+
+        <dependency>
+          <groupId>org.apache.ant</groupId>
+          <artifactId>ant-swing</artifactId>
+          <version>1.10.14</version>
+          <type>jar</type>
+        </dependency>
+
+        <dependency>
+          <groupId>org.apache.ant</groupId>
+          <artifactId>ant-testutil</artifactId>
+          <version>1.10.14</version>
+          <type>jar</type>
+        </dependency>
+
+        <dependency>
+          <groupId>org.apache.ant</groupId>
+          <artifactId>ant-xz</artifactId>
           <version>1.10.14</version>
           <type>jar</type>
         </dependency>

@@ -74,7 +74,6 @@
         <bundles name="org.antlr.runtime" versionRange="[4.7.1.v20181120-0808]"/>
         <bundles name="org.antlr.runtime" versionRange="[4.7.2.v20221112-0806]"/>
         <bundles name="org.antlr.runtime" versionRange="[4.10.1.v20230210-1433]"/>
-        <bundles name="org.apache.ant" versionRange="[1.10.12.v20211102-1452]"/>
         <bundles name="org.apache.commons.collections4" versionRange="[4.4.0.v20221112-0806]"/>
         <bundles name="org.apache.commons.csv" versionRange="[1.8.0.v20221112-0806]"/>
         <bundles name="org.apache.commons.lang3" versionRange="[3.12.0.v20221221-1931]"/>
@@ -199,6 +198,7 @@
         <mapRules xsi:type="aggregator:ExclusionRule" name="net.bytebuddy.byte-buddy" versionRange="[1.7.9.v20180420-1519]"/>
         <mapRules xsi:type="aggregator:ExclusionRule" name="net.bytebuddy.byte-buddy" versionRange="[1.9.0.v20181107-1410]"/>
         <mapRules xsi:type="aggregator:ExclusionRule" name="org.aopalliance" versionRange="[1.0.0.v20220404-1927]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="org.apache.ant" versionRange="[1.10.12.v20211102-1452]"/>
         <mapRules xsi:type="aggregator:ExclusionRule" name="org.apache.batik.anim" versionRange="[1.16.0.v20221027-0840]"/>
         <mapRules xsi:type="aggregator:ExclusionRule" name="org.apache.batik.awt.util" versionRange="[1.16.0.v20221027-0840]"/>
         <mapRules xsi:type="aggregator:ExclusionRule" name="org.apache.batik.bridge" versionRange="[1.16.0.v20230210-1249]"/>
