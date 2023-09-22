@@ -10,6 +10,10 @@
     <relativePath>..</relativePath>
   </parent>
 
+  <properties>
+    <url>${project.baseUri}repository</url>
+  </properties>
+
   <artifactId>ant</artifactId>
 
   <distributionManagement>
@@ -43,7 +47,7 @@
               <repositoryId>repo.eclipse.org</repositoryId>
               <file>artifact-bin.jar</file>
               <sources>artifact-src.jar</sources>
-              <url>${project.baseUri}repository</url>
+              <url>${url}</url>
               <groupId>org.eclipse.orbit</groupId>
               <artifactId>ant</artifactId>
               <version>${ant.version}</version>
