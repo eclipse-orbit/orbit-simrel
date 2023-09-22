@@ -13,7 +13,6 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <tycho-version>4.0.2</tycho-version>
-    <jarsigner-version>1.3.3</jarsigner-version>
     <gpg-keyname>C1F58CF8</gpg-keyname>
     <ant.version>1.10.14</ant.version>
   </properties>
@@ -58,18 +57,6 @@
           <artifactId>tycho-maven-plugin</artifactId>
           <version>${tycho-version}</version>
           <extensions>true</extensions>
-        </plugin>
-        <plugin>
-          <groupId>org.eclipse.cbi.maven.plugins</groupId>
-          <artifactId>eclipse-jarsigner-plugin</artifactId>
-          <version>${jarsigner-version}</version>
-          <dependencies>
-            <dependency>
-              <groupId>org.apache.maven.shared</groupId>
-              <artifactId>maven-shared-utils</artifactId>
-              <version>3.4.2</version>
-            </dependency>
-          </dependencies>
         </plugin>
       </plugins>
     </pluginManagement>
