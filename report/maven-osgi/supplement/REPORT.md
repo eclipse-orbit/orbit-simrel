@@ -1,11 +1,5 @@
 # Target Platform: [supplement](https://raw.githubusercontent.com/eclipse-orbit/orbit-simrel/main/maven-osgi/tp/other/MavenSupplement.target)
 
-## Minor Updates
- - [org.easymock](https://repo1.maven.org/maven2/org/easymock/)
-    - [easymock](https://repo1.maven.org/maven2/org/easymock/easymock/) **[5.1.0](https://repo1.maven.org/maven2/org/easymock/easymock/5.1.0)** < [5.2.0](https://repo1.maven.org/maven2/org/easymock/easymock/5.2.0/)
- - [org.mockito](https://repo1.maven.org/maven2/org/mockito/)
-    - [mockito-junit-jupiter](https://repo1.maven.org/maven2/org/mockito/mockito-junit-jupiter/) **[5.4.0](https://repo1.maven.org/maven2/org/mockito/mockito-junit-jupiter/5.4.0)** < [5.5.0](https://repo1.maven.org/maven2/org/mockito/mockito-junit-jupiter/5.5.0/)
-
 ## Major Updates
  - [jakarta.activation](https://repo1.maven.org/maven2/jakarta/activation/)
     - [jakarta.activation-api](https://repo1.maven.org/maven2/jakarta/activation/jakarta.activation-api/) **[1.2.2](https://repo1.maven.org/maven2/jakarta/activation/jakarta.activation-api/1.2.2)** < [2.1.2](https://repo1.maven.org/maven2/jakarta/activation/jakarta.activation-api/2.1.2/)
@@ -31,9 +25,6 @@
     - [apache-el](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-el/) **[9.0.52](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-el/9.0.52)** < [10.1.7](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-el/10.1.7/)
     - [apache-jsp](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-jsp/) **[9.0.52](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-jsp/9.0.52)** < [10.1.7](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-jsp/10.1.7/)
 
-## Updates Applied
-[updated.target](updated.target)
-
 ## Content
  - [ch.qos.logback](https://repo1.maven.org/maven2/ch/qos/logback/)
     - [logback-core](https://repo1.maven.org/maven2/ch/qos/logback/logback-core/) **[1.4.11](https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.4.11)**
@@ -44,7 +35,7 @@
  - [com.github.librepdf](https://repo1.maven.org/maven2/com/github/librepdf/)
     - [openpdf](https://repo1.maven.org/maven2/com/github/librepdf/openpdf/) **[1.3.30](https://repo1.maven.org/maven2/com/github/librepdf/openpdf/1.3.30)**
  - [com.google.errorprone](https://repo1.maven.org/maven2/com/google/errorprone/)
-    - [error_prone_annotations](https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/) **[2.21.1](https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.21.1)**
+    - [error_prone_annotations](https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/) **[2.22.0](https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.22.0)**
  - [com.google.inject](https://repo1.maven.org/maven2/com/google/inject/)
     - [guice](https://repo1.maven.org/maven2/com/google/inject/guice/) **[7.0.0](https://repo1.maven.org/maven2/com/google/inject/guice/7.0.0)**
  - [com.google.inject.extensions](https://repo1.maven.org/maven2/com/google/inject/extensions/)
@@ -90,7 +81,7 @@
  - [org.apache.velocity](https://repo1.maven.org/maven2/org/apache/velocity/)
     - [velocity](https://repo1.maven.org/maven2/org/apache/velocity/velocity/) **[1.7](https://repo1.maven.org/maven2/org/apache/velocity/velocity/1.7)**
  - [org.easymock](https://repo1.maven.org/maven2/org/easymock/)
-    - [easymock](https://repo1.maven.org/maven2/org/easymock/easymock/) **[5.1.0](https://repo1.maven.org/maven2/org/easymock/easymock/5.1.0)**
+    - [easymock](https://repo1.maven.org/maven2/org/easymock/easymock/) **[5.2.0](https://repo1.maven.org/maven2/org/easymock/easymock/5.2.0)**
  - [org.eclipse.jetty.toolchain](https://repo1.maven.org/maven2/org/eclipse/jetty/toolchain/)
     - [jetty-servlet-api](https://repo1.maven.org/maven2/org/eclipse/jetty/toolchain/jetty-servlet-api/) **[4.0.6](https://repo1.maven.org/maven2/org/eclipse/jetty/toolchain/jetty-servlet-api/4.0.6)**
  - [org.hamcrest](https://repo1.maven.org/maven2/org/hamcrest/)
@@ -102,7 +93,7 @@
  - [org.json](https://repo1.maven.org/maven2/org/json/)
     - [json](https://repo1.maven.org/maven2/org/json/json/) **[20230227](https://repo1.maven.org/maven2/org/json/json/20230227)**
  - [org.mockito](https://repo1.maven.org/maven2/org/mockito/)
-    - [mockito-junit-jupiter](https://repo1.maven.org/maven2/org/mockito/mockito-junit-jupiter/) **[5.4.0](https://repo1.maven.org/maven2/org/mockito/mockito-junit-jupiter/5.4.0)**
+    - [mockito-junit-jupiter](https://repo1.maven.org/maven2/org/mockito/mockito-junit-jupiter/) **[5.5.0](https://repo1.maven.org/maven2/org/mockito/mockito-junit-jupiter/5.5.0)**
  - [org.mortbay.jasper](https://repo1.maven.org/maven2/org/mortbay/jasper/)
     - [apache-el](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-el/) **[9.0.52](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-el/9.0.52)**
     - [apache-jsp](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-jsp/) **[9.0.52](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-jsp/9.0.52)**

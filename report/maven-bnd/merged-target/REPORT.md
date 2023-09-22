@@ -24,8 +24,8 @@
     - [httpclient5](https://repo1.maven.org/maven2/org/apache/httpcomponents/client5/httpclient5/) **[5.2.1](https://repo1.maven.org/maven2/org/apache/httpcomponents/client5/httpclient5/5.2.1)**
     - [httpclient5-win](https://repo1.maven.org/maven2/org/apache/httpcomponents/client5/httpclient5-win/) **[5.2.1](https://repo1.maven.org/maven2/org/apache/httpcomponents/client5/httpclient5-win/5.2.1)**
  - [org.apache.httpcomponents.core5](https://repo1.maven.org/maven2/org/apache/httpcomponents/core5/)
-    - [httpcore5](https://repo1.maven.org/maven2/org/apache/httpcomponents/core5/httpcore5/) **[5.2.2](https://repo1.maven.org/maven2/org/apache/httpcomponents/core5/httpcore5/5.2.2)**
-    - [httpcore5-h2](https://repo1.maven.org/maven2/org/apache/httpcomponents/core5/httpcore5-h2/) **[5.2.2](https://repo1.maven.org/maven2/org/apache/httpcomponents/core5/httpcore5-h2/5.2.2)**
+    - [httpcore5](https://repo1.maven.org/maven2/org/apache/httpcomponents/core5/httpcore5/) **[5.2.3](https://repo1.maven.org/maven2/org/apache/httpcomponents/core5/httpcore5/5.2.3)**
+    - [httpcore5-h2](https://repo1.maven.org/maven2/org/apache/httpcomponents/core5/httpcore5-h2/) **[5.2.3](https://repo1.maven.org/maven2/org/apache/httpcomponents/core5/httpcore5-h2/5.2.3)**
  - [org.apache.lucene](https://repo1.maven.org/maven2/org/apache/lucene/)
     - [lucene-analysis-common](https://repo1.maven.org/maven2/org/apache/lucene/lucene-analysis-common/) **[9.7.0](https://repo1.maven.org/maven2/org/apache/lucene/lucene-analysis-common/9.7.0)**
     - [lucene-analysis-smartcn](https://repo1.maven.org/maven2/org/apache/lucene/lucene-analysis-smartcn/) **[9.7.0](https://repo1.maven.org/maven2/org/apache/lucene/lucene-analysis-smartcn/9.7.0)**
@@ -58,6 +58,8 @@
     - [xmlgraphics-commons](https://repo1.maven.org/maven2/org/apache/xmlgraphics/xmlgraphics-commons/) **[2.9](https://repo1.maven.org/maven2/org/apache/xmlgraphics/xmlgraphics-commons/2.9)**
  - [org.codelibs](https://repo1.maven.org/maven2/org/codelibs/)
     - [nekohtml](https://repo1.maven.org/maven2/org/codelibs/nekohtml/) **[2.1.2](https://repo1.maven.org/maven2/org/codelibs/nekohtml/2.1.2)**
+ - [org.eclipse.orbit](https://repo.eclipse.org/content/repositories/orbit-approved-artifacts/org/eclipse/orbit/)
+    - [ant](https://repo.eclipse.org/content/repositories/orbit-approved-artifacts/org/eclipse/orbit/ant/) **[1.10.14](https://repo.eclipse.org/content/repositories/orbit-approved-artifacts/org/eclipse/orbit/ant/1.10.14)**
  - [org.hamcrest](https://repo1.maven.org/maven2/org/hamcrest/)
     - [hamcrest-core](https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/) **[1.3](https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3)**
     - [hamcrest-core](https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/) **[2.2](https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/2.2)**

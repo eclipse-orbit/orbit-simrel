@@ -3,8 +3,6 @@
 ## Major Updates
  - [jakarta.activation](https://repo1.maven.org/maven2/jakarta/activation/)
     - [jakarta.activation-api](https://repo1.maven.org/maven2/jakarta/activation/jakarta.activation-api/) **[1.2.2](https://repo1.maven.org/maven2/jakarta/activation/jakarta.activation-api/1.2.2)** < [2.1.2](https://repo1.maven.org/maven2/jakarta/activation/jakarta.activation-api/2.1.2/)
- - [jakarta.annotation](https://repo1.maven.org/maven2/jakarta/annotation/)
-    - [jakarta.annotation-api](https://repo1.maven.org/maven2/jakarta/annotation/jakarta.annotation-api/) **[1.3.5](https://repo1.maven.org/maven2/jakarta/annotation/jakarta.annotation-api/1.3.5)** < [2.1.1](https://repo1.maven.org/maven2/jakarta/annotation/jakarta.annotation-api/2.1.1/)
  - [jakarta.ejb](https://repo1.maven.org/maven2/jakarta/ejb/)
     - [jakarta.ejb-api](https://repo1.maven.org/maven2/jakarta/ejb/jakarta.ejb-api/) **[3.2.6](https://repo1.maven.org/maven2/jakarta/ejb/jakarta.ejb-api/3.2.6)** < [4.0.1](https://repo1.maven.org/maven2/jakarta/ejb/jakarta.ejb-api/4.0.1/)
  - [jakarta.el](https://repo1.maven.org/maven2/jakarta/el/)
@@ -105,7 +103,7 @@
  - [com.google.code.gson](https://repo1.maven.org/maven2/com/google/code/gson/)
     - [gson](https://repo1.maven.org/maven2/com/google/code/gson/gson/) **[2.10.1](https://repo1.maven.org/maven2/com/google/code/gson/gson/2.10.1)**
  - [com.google.errorprone](https://repo1.maven.org/maven2/com/google/errorprone/)
-    - [error_prone_annotations](https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/) **[2.21.1](https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.21.1)**
+    - [error_prone_annotations](https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/) **[2.22.0](https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.22.0)**
  - [com.google.guava](https://repo1.maven.org/maven2/com/google/guava/)
     - [failureaccess](https://repo1.maven.org/maven2/com/google/guava/failureaccess/) **[1.0.1](https://repo1.maven.org/maven2/com/google/guava/failureaccess/1.0.1)**
     - [guava](https://repo1.maven.org/maven2/com/google/guava/guava/) **[32.1.2-jre](https://repo1.maven.org/maven2/com/google/guava/guava/32.1.2-jre)**
@@ -141,6 +139,7 @@
     - [jakarta.activation-api](https://repo1.maven.org/maven2/jakarta/activation/jakarta.activation-api/) **[1.2.2](https://repo1.maven.org/maven2/jakarta/activation/jakarta.activation-api/1.2.2)**
  - [jakarta.annotation](https://repo1.maven.org/maven2/jakarta/annotation/)
     - [jakarta.annotation-api](https://repo1.maven.org/maven2/jakarta/annotation/jakarta.annotation-api/) **[1.3.5](https://repo1.maven.org/maven2/jakarta/annotation/jakarta.annotation-api/1.3.5)**
+    - [jakarta.annotation-api](https://repo1.maven.org/maven2/jakarta/annotation/jakarta.annotation-api/) **[2.1.1](https://repo1.maven.org/maven2/jakarta/annotation/jakarta.annotation-api/2.1.1)**
  - [jakarta.ejb](https://repo1.maven.org/maven2/jakarta/ejb/)
     - [jakarta.ejb-api](https://repo1.maven.org/maven2/jakarta/ejb/jakarta.ejb-api/) **[3.2.6](https://repo1.maven.org/maven2/jakarta/ejb/jakarta.ejb-api/3.2.6)**
  - [jakarta.el](https://repo1.maven.org/maven2/jakarta/el/)

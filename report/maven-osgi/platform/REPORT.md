@@ -1,12 +1,8 @@
 # Target Platform: [platform](https://raw.githubusercontent.com/eclipse-platform/eclipse.platform.releng.aggregator/master/eclipse.platform.releng.prereqs.sdk/eclipse-sdk-prereqs.target)
 
 ## Major Updates
- - [jakarta.annotation](https://repo1.maven.org/maven2/jakarta/annotation/)
-    - [jakarta.annotation-api](https://repo1.maven.org/maven2/jakarta/annotation/jakarta.annotation-api/) **[1.3.5](https://repo1.maven.org/maven2/jakarta/annotation/jakarta.annotation-api/1.3.5)** < [2.1.1](https://repo1.maven.org/maven2/jakarta/annotation/jakarta.annotation-api/2.1.1/)
  - [jakarta.el](https://repo1.maven.org/maven2/jakarta/el/)
     - [jakarta.el-api](https://repo1.maven.org/maven2/jakarta/el/jakarta.el-api/) **[3.0.3](https://repo1.maven.org/maven2/jakarta/el/jakarta.el-api/3.0.3)** < [5.0.1](https://repo1.maven.org/maven2/jakarta/el/jakarta.el-api/5.0.1/)
- - [jakarta.inject](https://repo1.maven.org/maven2/jakarta/inject/)
-    - [jakarta.inject-api](https://repo1.maven.org/maven2/jakarta/inject/jakarta.inject-api/) **[1.0.5](https://repo1.maven.org/maven2/jakarta/inject/jakarta.inject-api/1.0.5)** < [2.0.1](https://repo1.maven.org/maven2/jakarta/inject/jakarta.inject-api/2.0.1/)
  - [jakarta.servlet](https://repo1.maven.org/maven2/jakarta/servlet/)
     - [jakarta.servlet-api](https://repo1.maven.org/maven2/jakarta/servlet/jakarta.servlet-api/) **[4.0.4](https://repo1.maven.org/maven2/jakarta/servlet/jakarta.servlet-api/4.0.4)** < [6.0.0](https://repo1.maven.org/maven2/jakarta/servlet/jakarta.servlet-api/6.0.0/)
  - [org.eclipse.jetty](https://repo1.maven.org/maven2/org/eclipse/jetty/)
@@ -28,10 +24,6 @@
     - [biz.aQute.bnd.util](https://repo1.maven.org/maven2/biz/aQute/bnd/biz.aQute.bnd.util/) **[6.4.1](https://repo1.maven.org/maven2/biz/aQute/bnd/biz.aQute.bnd.util/6.4.1)**
     - [biz.aQute.bndlib](https://repo1.maven.org/maven2/biz/aQute/bnd/biz.aQute.bndlib/) **[6.4.1](https://repo1.maven.org/maven2/biz/aQute/bnd/biz.aQute.bndlib/6.4.1)**
     - [biz.aQute.repository](https://repo1.maven.org/maven2/biz/aQute/bnd/biz.aQute.repository/) **[6.4.1](https://repo1.maven.org/maven2/biz/aQute/bnd/biz.aQute.repository/6.4.1)**
- - [com.fasterxml.jackson.core](https://repo1.maven.org/maven2/com/fasterxml/jackson/core/)
-    - [jackson-annotations](https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/) **[2.15.2](https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.15.2)**
-    - [jackson-core](https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/) **[2.15.2](https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.15.2)**
-    - [jackson-databind](https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/) **[2.15.2](https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.15.2)**
  - [com.google.code.gson](https://repo1.maven.org/maven2/com/google/code/gson/)
     - [gson](https://repo1.maven.org/maven2/com/google/code/gson/gson/) **[2.10.1](https://repo1.maven.org/maven2/com/google/code/gson/gson/2.10.1)**
  - [com.ibm.icu](https://repo1.maven.org/maven2/com/ibm/icu/)
@@ -52,10 +44,12 @@
     - [commons-logging](https://repo1.maven.org/maven2/commons-logging/commons-logging/) **[1.2](https://repo1.maven.org/maven2/commons-logging/commons-logging/1.2)**
  - [jakarta.annotation](https://repo1.maven.org/maven2/jakarta/annotation/)
     - [jakarta.annotation-api](https://repo1.maven.org/maven2/jakarta/annotation/jakarta.annotation-api/) **[1.3.5](https://repo1.maven.org/maven2/jakarta/annotation/jakarta.annotation-api/1.3.5)**
+    - [jakarta.annotation-api](https://repo1.maven.org/maven2/jakarta/annotation/jakarta.annotation-api/) **[2.1.1](https://repo1.maven.org/maven2/jakarta/annotation/jakarta.annotation-api/2.1.1)**
  - [jakarta.el](https://repo1.maven.org/maven2/jakarta/el/)
     - [jakarta.el-api](https://repo1.maven.org/maven2/jakarta/el/jakarta.el-api/) **[3.0.3](https://repo1.maven.org/maven2/jakarta/el/jakarta.el-api/3.0.3)**
  - [jakarta.inject](https://repo1.maven.org/maven2/jakarta/inject/)
     - [jakarta.inject-api](https://repo1.maven.org/maven2/jakarta/inject/jakarta.inject-api/) **[1.0.5](https://repo1.maven.org/maven2/jakarta/inject/jakarta.inject-api/1.0.5)**
+    - [jakarta.inject-api](https://repo1.maven.org/maven2/jakarta/inject/jakarta.inject-api/) **[2.0.1](https://repo1.maven.org/maven2/jakarta/inject/jakarta.inject-api/2.0.1)**
  - [jakarta.servlet](https://repo1.maven.org/maven2/jakarta/servlet/)
     - [jakarta.servlet-api](https://repo1.maven.org/maven2/jakarta/servlet/jakarta.servlet-api/) **[4.0.4](https://repo1.maven.org/maven2/jakarta/servlet/jakarta.servlet-api/4.0.4)**
  - [javax.servlet.jsp](https://repo1.maven.org/maven2/javax/servlet/jsp/)

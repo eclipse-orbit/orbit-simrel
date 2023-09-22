@@ -748,7 +748,10 @@ public class DependencyAnalyzer {
 		}
 
 		public URI getGroupURI() {
-			return URI.create("https://repo1.maven.org/maven2/" + groupId.replace('.', '/') + "/");
+			var baseURI = "org.eclipse.orbit".equals(groupId)
+					? "https://repo.eclipse.org/content/repositories/orbit-approved-artifacts/"
+					: "https://repo1.maven.org/maven2/";
+			return URI.create(baseURI + groupId.replace('.', '/') + "/");
 		}
 
 		public URI getArtifactFolderURI() {

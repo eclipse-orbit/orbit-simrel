@@ -1,15 +1,5 @@
 # Target Platform: [linuxtools](https://raw.githubusercontent.com/eclipse-linuxtools/org.eclipse.linuxtools/master/releng/org.eclipse.linuxtools.target/linuxtools-e4.30.target)
 
-## Minor Updates
- - [com.github.jnr](https://repo1.maven.org/maven2/com/github/jnr/)
-    - [jffi](https://repo1.maven.org/maven2/com/github/jnr/jffi/) **[1.3.11](https://repo1.maven.org/maven2/com/github/jnr/jffi/1.3.11)** < [1.3.12](https://repo1.maven.org/maven2/com/github/jnr/jffi/1.3.12/)
-    - [jnr-enxio](https://repo1.maven.org/maven2/com/github/jnr/jnr-enxio/) **[0.32.15](https://repo1.maven.org/maven2/com/github/jnr/jnr-enxio/0.32.15)** < [0.32.16](https://repo1.maven.org/maven2/com/github/jnr/jnr-enxio/0.32.16/)
-    - [jnr-ffi](https://repo1.maven.org/maven2/com/github/jnr/jnr-ffi/) **[2.2.14](https://repo1.maven.org/maven2/com/github/jnr/jnr-ffi/2.2.14)** < [2.2.15](https://repo1.maven.org/maven2/com/github/jnr/jnr-ffi/2.2.15/)
-    - [jnr-posix](https://repo1.maven.org/maven2/com/github/jnr/jnr-posix/) **[3.1.17](https://repo1.maven.org/maven2/com/github/jnr/jnr-posix/3.1.17)** < [3.1.18](https://repo1.maven.org/maven2/com/github/jnr/jnr-posix/3.1.18/)
-    - [jnr-unixsocket](https://repo1.maven.org/maven2/com/github/jnr/jnr-unixsocket/) **[0.38.20](https://repo1.maven.org/maven2/com/github/jnr/jnr-unixsocket/0.38.20)** < [0.38.21](https://repo1.maven.org/maven2/com/github/jnr/jnr-unixsocket/0.38.21/)
- - [org.apache.commons](https://repo1.maven.org/maven2/org/apache/commons/)
-    - [commons-compress](https://repo1.maven.org/maven2/org/apache/commons/commons-compress/) **[1.23.0](https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.23.0)** < [1.24.0](https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.24.0/)
-
 ## Major Updates
  - [jakarta.ws.rs](https://repo1.maven.org/maven2/jakarta/ws/rs/)
     - [jakarta.ws.rs-api](https://repo1.maven.org/maven2/jakarta/ws/rs/jakarta.ws.rs-api/) **[2.1.6](https://repo1.maven.org/maven2/jakarta/ws/rs/jakarta.ws.rs-api/2.1.6)** < [3.1.0](https://repo1.maven.org/maven2/jakarta/ws/rs/jakarta.ws.rs-api/3.1.0/)
@@ -38,9 +28,6 @@
  - [org.mandas](https://repo1.maven.org/maven2/org/mandas/)
     - [docker-client](https://repo1.maven.org/maven2/org/mandas/docker-client/) **[5.2.2](https://repo1.maven.org/maven2/org/mandas/docker-client/5.2.2)** < [7.0.3](https://repo1.maven.org/maven2/org/mandas/docker-client/7.0.3/)
 
-## Updates Applied
-[updated.target](updated.target)
-
 ## Content
  - [com.fasterxml.jackson.core](https://repo1.maven.org/maven2/com/fasterxml/jackson/core/)
     - [jackson-annotations](https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/) **[2.15.2](https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.15.2)**
@@ -54,12 +41,12 @@
  - [com.fasterxml.jackson.module](https://repo1.maven.org/maven2/com/fasterxml/jackson/module/)
     - [jackson-module-jaxb-annotations](https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/) **[2.15.2](https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.15.2)**
  - [com.github.jnr](https://repo1.maven.org/maven2/com/github/jnr/)
-    - [jffi](https://repo1.maven.org/maven2/com/github/jnr/jffi/) **[1.3.11](https://repo1.maven.org/maven2/com/github/jnr/jffi/1.3.11)** - *complete*
+    - [jffi](https://repo1.maven.org/maven2/com/github/jnr/jffi/) **[1.3.12](https://repo1.maven.org/maven2/com/github/jnr/jffi/1.3.12)** - *complete*
     - [jnr-constants](https://repo1.maven.org/maven2/com/github/jnr/jnr-constants/) **[0.10.4](https://repo1.maven.org/maven2/com/github/jnr/jnr-constants/0.10.4)**
-    - [jnr-enxio](https://repo1.maven.org/maven2/com/github/jnr/jnr-enxio/) **[0.32.15](https://repo1.maven.org/maven2/com/github/jnr/jnr-enxio/0.32.15)**
-    - [jnr-ffi](https://repo1.maven.org/maven2/com/github/jnr/jnr-ffi/) **[2.2.14](https://repo1.maven.org/maven2/com/github/jnr/jnr-ffi/2.2.14)**
-    - [jnr-posix](https://repo1.maven.org/maven2/com/github/jnr/jnr-posix/) **[3.1.17](https://repo1.maven.org/maven2/com/github/jnr/jnr-posix/3.1.17)**
-    - [jnr-unixsocket](https://repo1.maven.org/maven2/com/github/jnr/jnr-unixsocket/) **[0.38.20](https://repo1.maven.org/maven2/com/github/jnr/jnr-unixsocket/0.38.20)**
+    - [jnr-enxio](https://repo1.maven.org/maven2/com/github/jnr/jnr-enxio/) **[0.32.16](https://repo1.maven.org/maven2/com/github/jnr/jnr-enxio/0.32.16)**
+    - [jnr-ffi](https://repo1.maven.org/maven2/com/github/jnr/jnr-ffi/) **[2.2.15](https://repo1.maven.org/maven2/com/github/jnr/jnr-ffi/2.2.15)**
+    - [jnr-posix](https://repo1.maven.org/maven2/com/github/jnr/jnr-posix/) **[3.1.18](https://repo1.maven.org/maven2/com/github/jnr/jnr-posix/3.1.18)**
+    - [jnr-unixsocket](https://repo1.maven.org/maven2/com/github/jnr/jnr-unixsocket/) **[0.38.21](https://repo1.maven.org/maven2/com/github/jnr/jnr-unixsocket/0.38.21)**
  - [com.google.guava](https://repo1.maven.org/maven2/com/google/guava/)
     - [failureaccess](https://repo1.maven.org/maven2/com/google/guava/failureaccess/) **[1.0.1](https://repo1.maven.org/maven2/com/google/guava/failureaccess/1.0.1)**
     - [guava](https://repo1.maven.org/maven2/com/google/guava/guava/) **[32.1.2-jre](https://repo1.maven.org/maven2/com/google/guava/guava/32.1.2-jre)**
@@ -68,7 +55,7 @@
  - [jakarta.xml.bind](https://repo1.maven.org/maven2/jakarta/xml/bind/)
     - [jakarta.xml.bind-api](https://repo1.maven.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/) **[2.3.3](https://repo1.maven.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3)**
  - [org.apache.commons](https://repo1.maven.org/maven2/org/apache/commons/)
-    - [commons-compress](https://repo1.maven.org/maven2/org/apache/commons/commons-compress/) **[1.23.0](https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.23.0)**
+    - [commons-compress](https://repo1.maven.org/maven2/org/apache/commons/commons-compress/) **[1.24.0](https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.24.0)**
  - [org.bouncycastle](https://repo1.maven.org/maven2/org/bouncycastle/)
     - [bcpkix-jdk18on](https://repo1.maven.org/maven2/org/bouncycastle/bcpkix-jdk18on/) **[1.76](https://repo1.maven.org/maven2/org/bouncycastle/bcpkix-jdk18on/1.76)**
     - [bcprov-jdk18on](https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk18on/) **[1.76](https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk18on/1.76)**
@@ -93,8 +80,6 @@
     - [jersey-hk2](https://repo1.maven.org/maven2/org/glassfish/jersey/inject/jersey-hk2/) **[2.40](https://repo1.maven.org/maven2/org/glassfish/jersey/inject/jersey-hk2/2.40)**
  - [org.glassfish.jersey.media](https://repo1.maven.org/maven2/org/glassfish/jersey/media/)
     - [jersey-media-json-jackson](https://repo1.maven.org/maven2/org/glassfish/jersey/media/jersey-media-json-jackson/) **[2.40](https://repo1.maven.org/maven2/org/glassfish/jersey/media/jersey-media-json-jackson/2.40)**
- - [org.hamcrest](https://repo1.maven.org/maven2/org/hamcrest/)
-    - [hamcrest](https://repo1.maven.org/maven2/org/hamcrest/hamcrest/) **[2.2](https://repo1.maven.org/maven2/org/hamcrest/hamcrest/2.2)**
  - [org.javassist](https://repo1.maven.org/maven2/org/javassist/)
     - [javassist](https://repo1.maven.org/maven2/org/javassist/javassist/) **[3.29.2-GA](https://repo1.maven.org/maven2/org/javassist/javassist/3.29.2-GA)**
  - [org.mandas](https://repo1.maven.org/maven2/org/mandas/)
