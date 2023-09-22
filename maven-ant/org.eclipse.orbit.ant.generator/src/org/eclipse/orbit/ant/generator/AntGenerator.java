@@ -129,7 +129,7 @@ public class AntGenerator {
 
 	private static void createSourceArtifact(Path source, Path target, Set<String> jaiClasses) throws IOException {
 		var includedResources = Pattern.compile("/[^/]+/src/main(/.*)?");
-		Files.delete(target);
+		Files.deleteIfExists(target);
 		System.out.println("> " + source + " -> " + target);
 		try (var sourceFileSystem = FileSystems.newFileSystem(source);
 				var targetFileSystem = FileSystems.newFileSystem(target, Map.of("create", "true"));) {
