@@ -15,7 +15,6 @@
     </contributions>
     <contributions description="orbit" label="orbit">
       <repositories location="https://download.eclipse.org/tools/orbit/downloads/latest-N" description="orbit">
-        <bundles name="com.cronutils" versionRange="[5.0.5.v20221112-0806]"/>
         <bundles name="com.github.virtuald.curvesapi" versionRange="[1.6.0.v20221112-0806]"/>
         <bundles name="com.google.api.client-auth" versionRange="[1.2.3.v20221112-0806]"/>
         <bundles name="com.google.api.client-auth-oauth2" versionRange="[1.2.3.v20221112-0806]"/>
@@ -142,6 +141,7 @@
         <mapRules xsi:type="aggregator:ExclusionRule" name="com.atlassian.commonmark-task-list-items" versionRange="[0.15.1.v20221112-0806]"/>
         <mapRules xsi:type="aggregator:ExclusionRule" name="com.atlassian.commonmark-yaml" versionRange="[0.15.1.v20221112-0806]"/>
         <mapRules xsi:type="aggregator:ExclusionRule" name="com.atlassian.commonmark" versionRange="[0.15.1.v20221112-0806]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="com.cronutils" versionRange="[5.0.5.v20221112-0806]"/>
         <mapRules xsi:type="aggregator:ExclusionRule" name="com.fasterxml.jackson.core.jackson-annotations" versionRange="[2.13.2.v20220426-1653]"/>
         <mapRules xsi:type="aggregator:ExclusionRule" name="com.fasterxml.jackson.core.jackson-core" versionRange="[2.13.2.v20220426-1653]"/>
         <mapRules xsi:type="aggregator:ExclusionRule" name="com.fasterxml.jackson.core.jackson-databind" versionRange="[2.13.2.v20220426-1653]"/>
