@@ -1,6 +1,8 @@
 # Target Platform: [merged-target](https://github.com/eclipse-orbit/orbit-simrel/blob/main/maven-osgi/tp/Maven.target)
 
 ## Major Updates
+ - [com.sun.xml.bind](https://repo1.maven.org/maven2/com/sun/xml/bind/)
+    - [jaxb-osgi](https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-osgi/) **[2.3.8](https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-osgi/2.3.8)** < [4.0.3](https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-osgi/4.0.3/)
  - [jakarta.activation](https://repo1.maven.org/maven2/jakarta/activation/)
     - [jakarta.activation-api](https://repo1.maven.org/maven2/jakarta/activation/jakarta.activation-api/) **[1.2.2](https://repo1.maven.org/maven2/jakarta/activation/jakarta.activation-api/1.2.2)** < [2.1.2](https://repo1.maven.org/maven2/jakarta/activation/jakarta.activation-api/2.1.2/)
  - [jakarta.ejb](https://repo1.maven.org/maven2/jakarta/ejb/)
@@ -117,6 +119,8 @@
     - [JavaEWAH](https://repo1.maven.org/maven2/com/googlecode/javaewah/JavaEWAH/) **[1.2.3](https://repo1.maven.org/maven2/com/googlecode/javaewah/JavaEWAH/1.2.3)**
  - [com.ibm.icu](https://repo1.maven.org/maven2/com/ibm/icu/)
     - [icu4j](https://repo1.maven.org/maven2/com/ibm/icu/icu4j/) **[73.2](https://repo1.maven.org/maven2/com/ibm/icu/icu4j/73.2)**
+ - [com.sun.xml.bind](https://repo1.maven.org/maven2/com/sun/xml/bind/)
+    - [jaxb-osgi](https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-osgi/) **[2.3.8](https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-osgi/2.3.8)**
  - [commons-beanutils](https://repo1.maven.org/maven2/commons-beanutils/)
     - [commons-beanutils](https://repo1.maven.org/maven2/commons-beanutils/commons-beanutils/) **[1.9.4](https://repo1.maven.org/maven2/commons-beanutils/commons-beanutils/1.9.4)**
  - [commons-cli](https://repo1.maven.org/maven2/commons-cli/)

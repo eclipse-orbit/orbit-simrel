@@ -1,6 +1,8 @@
 # Target Platform: [supplement](https://raw.githubusercontent.com/eclipse-orbit/orbit-simrel/main/maven-osgi/tp/other/MavenSupplement.target)
 
 ## Major Updates
+ - [com.sun.xml.bind](https://repo1.maven.org/maven2/com/sun/xml/bind/)
+    - [jaxb-osgi](https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-osgi/) **[2.3.8](https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-osgi/2.3.8)** < [4.0.3](https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-osgi/4.0.3/)
  - [jakarta.activation](https://repo1.maven.org/maven2/jakarta/activation/)
     - [jakarta.activation-api](https://repo1.maven.org/maven2/jakarta/activation/jakarta.activation-api/) **[1.2.2](https://repo1.maven.org/maven2/jakarta/activation/jakarta.activation-api/1.2.2)** < [2.1.2](https://repo1.maven.org/maven2/jakarta/activation/jakarta.activation-api/2.1.2/)
  - [jakarta.ejb](https://repo1.maven.org/maven2/jakarta/ejb/)
@@ -42,6 +44,8 @@
     - [guice](https://repo1.maven.org/maven2/com/google/inject/guice/) **[7.0.0](https://repo1.maven.org/maven2/com/google/inject/guice/7.0.0)**
  - [com.google.inject.extensions](https://repo1.maven.org/maven2/com/google/inject/extensions/)
     - [guice-assistedinject](https://repo1.maven.org/maven2/com/google/inject/extensions/guice-assistedinject/) **[7.0.0](https://repo1.maven.org/maven2/com/google/inject/extensions/guice-assistedinject/7.0.0)**
+ - [com.sun.xml.bind](https://repo1.maven.org/maven2/com/sun/xml/bind/)
+    - [jaxb-osgi](https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-osgi/) **[2.3.8](https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-osgi/2.3.8)**
  - [commons-discovery](https://repo1.maven.org/maven2/commons-discovery/)
     - [commons-discovery](https://repo1.maven.org/maven2/commons-discovery/commons-discovery/) **[0.5](https://repo1.maven.org/maven2/commons-discovery/commons-discovery/0.5)**
  - [jakarta.activation](https://repo1.maven.org/maven2/jakarta/activation/)
