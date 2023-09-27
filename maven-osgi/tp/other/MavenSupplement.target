@@ -306,6 +306,12 @@
           <artifactId>jakarta.ejb-api</artifactId>
           <version>3.2.6</version>
         </dependency>
+
+        <dependency>
+          <groupId>com.glazedlists</groupId>
+          <artifactId>glazedlists</artifactId>
+          <version>1.11.0</version>
+        </dependency>
       </dependencies>
     </location>
   </locations>

@@ -15,7 +15,6 @@
     </contributions>
     <contributions description="orbit" label="orbit">
       <repositories location="https://download.eclipse.org/tools/orbit/downloads/latest-N" description="orbit">
-        <bundles name="ca.odell.glazedlists" versionRange="[1.11.0.v20221112-0806]"/>
         <bundles name="com.atlassian.commonmark" versionRange="[0.15.1.v20221112-0806]"/>
         <bundles name="com.atlassian.commonmark-gfm-strikethrough" versionRange="[0.15.1.v20221112-0806]"/>
         <bundles name="com.atlassian.commonmark-gfm-tables" versionRange="[0.15.1.v20221112-0806]"/>
@@ -139,6 +138,7 @@
         <bundles name="org.knowm.xchart" versionRange="[3.6.5.v20221112-0806]"/>
         <bundles name="org.mozilla.javascript" versionRange="[1.7.10.v20221112-0806]"/>
         <bundles name="org.reactivestreams" versionRange="[1.0.2.v20181120-0809]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="ca.odell.glazedlists" versionRange="[1.11.0.v20221112-0806]"/>
         <mapRules xsi:type="aggregator:ExclusionRule" name="ch.qos.logback.classic" versionRange="[1.2.3.v20221112-0806]"/>
         <mapRules xsi:type="aggregator:ExclusionRule" name="ch.qos.logback.core" versionRange="[1.2.3.v20221112-0806]"/>
         <mapRules xsi:type="aggregator:ExclusionRule" name="ch.qos.logback.slf4j" versionRange="[1.2.3.v20221112-0806]"/>
