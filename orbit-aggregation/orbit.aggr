@@ -15,12 +15,6 @@
     </contributions>
     <contributions description="orbit" label="orbit">
       <repositories location="https://download.eclipse.org/tools/orbit/downloads/latest-N" description="orbit">
-        <bundles name="io.github.java-diff-utils" versionRange="[4.8.0.v20221112-0806]"/>
-        <bundles name="io.grpc.grpc-context" versionRange="[1.29.0.v20221112-0806]"/>
-        <bundles name="io.netty.buffer" versionRange="[4.1.56.v20221112-0806]"/>
-        <bundles name="io.netty.common" versionRange="[4.1.56.v20221112-0806]"/>
-        <bundles name="io.opencensus.opencensus-api" versionRange="[0.26.0.v20221112-0806]"/>
-        <bundles name="io.opencensus.opencensus-contrib-http-util" versionRange="[0.26.0.v20221112-0806]"/>
         <bundles name="jakarta.activation" versionRange="[2.0.0.v20221203-1659]"/>
         <bundles name="jakarta.el" versionRange="[4.0.0.v20221203-1659]"/>
         <bundles name="jakarta.servlet.jsp" versionRange="[3.0.0.v20221203-1659]"/>
@@ -40,20 +34,6 @@
         <bundles name="org.apache.commons.csv" versionRange="[1.8.0.v20221112-0806]"/>
         <bundles name="org.apache.commons.lang3" versionRange="[3.12.0.v20221221-1931]"/>
         <bundles name="org.apache.commons.math3" versionRange="[3.6.1.v20221112-0806]"/>
-        <bundles name="org.apache.jclouds.api.cloudwatch" versionRange="[1.8.0.v20160301-1110]"/>
-        <bundles name="org.apache.jclouds.api.ec2" versionRange="[1.8.0.v20160301-1110]"/>
-        <bundles name="org.apache.jclouds.api.openstack-cinder" versionRange="[1.8.0.v20160301-1110]"/>
-        <bundles name="org.apache.jclouds.api.openstack-keystone" versionRange="[1.8.0.v20160301-1110]"/>
-        <bundles name="org.apache.jclouds.api.openstack-nova" versionRange="[1.8.0.v20160301-1110]"/>
-        <bundles name="org.apache.jclouds.api.sts" versionRange="[1.8.0.v20160301-1110]"/>
-        <bundles name="org.apache.jclouds.common.openstack-common" versionRange="[1.8.0.v20160301-1110]"/>
-        <bundles name="org.apache.jclouds.driver.jclouds-slf4j" versionRange="[1.8.0.v20160301-1110]"/>
-        <bundles name="org.apache.jclouds.jclouds-blobstore" versionRange="[1.8.0.v20160301-1110]"/>
-        <bundles name="org.apache.jclouds.jclouds-compute" versionRange="[1.8.0.v20160301-1110]"/>
-        <bundles name="org.apache.jclouds.jclouds-core" versionRange="[1.8.0.v20181004-1955]"/>
-        <bundles name="org.apache.jclouds.jclouds-scriptbuilder" versionRange="[1.8.0.v20160301-1110]"/>
-        <bundles name="org.apache.jclouds.labs.docker" versionRange="[1.8.0.v20160301-1110]"/>
-        <bundles name="org.apache.jclouds.labs.openstack-neutron" versionRange="[1.8.0.v20160301-1110]"/>
         <bundles name="org.apache.log4j" versionRange="[1.2.24.v20221221-2012]"/>
         <bundles name="org.apache.logging.log4j" versionRange="[2.17.1.v20220106-2156]"/>
         <bundles name="org.apache.maven.resolver.api" versionRange="[1.0.3.v20170405-0725]"/>
@@ -179,6 +159,12 @@
         <mapRules xsi:type="aggregator:ExclusionRule" name="com.sun.xml.bind" versionRange="[2.2.0.v20221112-0806]"/>
         <mapRules xsi:type="aggregator:ExclusionRule" name="com.sun.xml.bind" versionRange="[2.3.3.v20221203-1659]"/>
         <mapRules xsi:type="aggregator:ExclusionRule" name="io.github.classgraph" versionRange="[4.8.149.v20220915-0556]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="io.github.java-diff-utils" versionRange="[4.8.0.v20221112-0806]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="io.grpc.grpc-context" versionRange="[1.29.0.v20221112-0806]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="io.netty.buffer" versionRange="[4.1.56.v20221112-0806]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="io.netty.common" versionRange="[4.1.56.v20221112-0806]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="io.opencensus.opencensus-api" versionRange="[0.26.0.v20221112-0806]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="io.opencensus.opencensus-contrib-http-util" versionRange="[0.26.0.v20221112-0806]"/>
         <mapRules xsi:type="aggregator:ExclusionRule" name="jakarta.activation" versionRange="[1.2.2.v20221203-1659]"/>
         <mapRules xsi:type="aggregator:ExclusionRule" name="jakarta.servlet" versionRange="[5.0.0.v20221203-1659]"/>
         <mapRules xsi:type="aggregator:ExclusionRule" name="jakarta.xml.bind" versionRange="[2.3.3.v20221203-1659]"/>
@@ -234,6 +220,20 @@
         <mapRules xsi:type="aggregator:ExclusionRule" name="org.apache.httpcomponents.httpclient" versionRange="[4.5.14.v20230516-1249]"/>
         <mapRules xsi:type="aggregator:ExclusionRule" name="org.apache.httpcomponents.httpcore-nio" versionRange="[4.4.16.v20221207-1049]"/>
         <mapRules xsi:type="aggregator:ExclusionRule" name="org.apache.httpcomponents.httpcore" versionRange="[4.4.16.v20221207-1049]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="org.apache.jclouds.api.cloudwatch" versionRange="[1.8.0.v20160301-1110]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="org.apache.jclouds.api.ec2" versionRange="[1.8.0.v20160301-1110]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="org.apache.jclouds.api.openstack-cinder" versionRange="[1.8.0.v20160301-1110]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="org.apache.jclouds.api.openstack-keystone" versionRange="[1.8.0.v20160301-1110]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="org.apache.jclouds.api.openstack-nova" versionRange="[1.8.0.v20160301-1110]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="org.apache.jclouds.api.sts" versionRange="[1.8.0.v20160301-1110]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="org.apache.jclouds.common.openstack-common" versionRange="[1.8.0.v20160301-1110]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="org.apache.jclouds.driver.jclouds-slf4j" versionRange="[1.8.0.v20160301-1110]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="org.apache.jclouds.jclouds-blobstore" versionRange="[1.8.0.v20160301-1110]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="org.apache.jclouds.jclouds-compute" versionRange="[1.8.0.v20160301-1110]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="org.apache.jclouds.jclouds-core" versionRange="[1.8.0.v20181004-1955]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="org.apache.jclouds.jclouds-scriptbuilder" versionRange="[1.8.0.v20160301-1110]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="org.apache.jclouds.labs.docker" versionRange="[1.8.0.v20160301-1110]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="org.apache.jclouds.labs.openstack-neutron" versionRange="[1.8.0.v20160301-1110]"/>
         <mapRules xsi:type="aggregator:ExclusionRule" name="org.apache.lucene.analysis-common" versionRange="[9.4.2.v20221211-0752]"/>
         <mapRules xsi:type="aggregator:ExclusionRule" name="org.apache.lucene.analysis-smartcn" versionRange="[9.4.2.v20221211-0752]"/>
         <mapRules xsi:type="aggregator:ExclusionRule" name="org.apache.lucene.analyzers-common" versionRange="[7.5.0.v20181003-1532]"/>
