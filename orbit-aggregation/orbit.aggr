@@ -15,7 +15,6 @@
     </contributions>
     <contributions description="orbit" label="orbit">
       <repositories location="https://download.eclipse.org/tools/orbit/downloads/latest-N" description="orbit">
-        <bundles name="io.github.classgraph" versionRange="[4.8.149.v20220915-0556]"/>
         <bundles name="io.github.java-diff-utils" versionRange="[4.8.0.v20221112-0806]"/>
         <bundles name="io.grpc.grpc-context" versionRange="[1.29.0.v20221112-0806]"/>
         <bundles name="io.netty.buffer" versionRange="[4.1.56.v20221112-0806]"/>
@@ -179,6 +178,7 @@
         <mapRules xsi:type="aggregator:ExclusionRule" name="com.sun.jna" versionRange="[5.8.0.v20210503-0343]"/>
         <mapRules xsi:type="aggregator:ExclusionRule" name="com.sun.xml.bind" versionRange="[2.2.0.v20221112-0806]"/>
         <mapRules xsi:type="aggregator:ExclusionRule" name="com.sun.xml.bind" versionRange="[2.3.3.v20221203-1659]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="io.github.classgraph" versionRange="[4.8.149.v20220915-0556]"/>
         <mapRules xsi:type="aggregator:ExclusionRule" name="jakarta.activation" versionRange="[1.2.2.v20221203-1659]"/>
         <mapRules xsi:type="aggregator:ExclusionRule" name="jakarta.servlet" versionRange="[5.0.0.v20221203-1659]"/>
         <mapRules xsi:type="aggregator:ExclusionRule" name="jakarta.xml.bind" versionRange="[2.3.3.v20221203-1659]"/>
