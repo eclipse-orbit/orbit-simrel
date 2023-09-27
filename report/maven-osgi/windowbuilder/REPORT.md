@@ -21,6 +21,6 @@
  - [org.apache.commons](https://repo1.maven.org/maven2/org/apache/commons/)
     - [commons-digester3](https://repo1.maven.org/maven2/org/apache/commons/commons-digester3/) **[3.1](https://repo1.maven.org/maven2/org/apache/commons/commons-digester3/3.1)**
  - [org.mvel](https://repo1.maven.org/maven2/org/mvel/)
-    - [mvel2](https://repo1.maven.org/maven2/org/mvel/mvel2/) **[2.4.15.Final](https://repo1.maven.org/maven2/org/mvel/mvel2/2.4.15.Final)**
+    - [mvel2](https://repo1.maven.org/maven2/org/mvel/mvel2/) **[2.5.0.Final](https://repo1.maven.org/maven2/org/mvel/mvel2/2.5.0.Final)**
  - [org.objenesis](https://repo1.maven.org/maven2/org/objenesis/)
     - [objenesis](https://repo1.maven.org/maven2/org/objenesis/objenesis/) **[3.3](https://repo1.maven.org/maven2/org/objenesis/objenesis/3.3)**
