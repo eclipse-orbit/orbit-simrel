@@ -15,9 +15,6 @@
     </contributions>
     <contributions description="orbit" label="orbit">
       <repositories location="https://download.eclipse.org/tools/orbit/downloads/latest-N" description="orbit">
-        <bundles name="com.graphql.java" versionRange="[11.0.0.v20221112-0806]"/>
-        <bundles name="com.graphql.java.dataloader" versionRange="[2.1.1.v20181120-0809]"/>
-        <bundles name="com.sun.grid.drmaa" versionRange="[1.0.0.v20170818-1553]"/>
         <bundles name="com.sun.xml.bind" versionRange="[2.3.3.v20221203-1659]"/>
         <bundles name="io.github.classgraph" versionRange="[4.8.149.v20220915-0556]"/>
         <bundles name="io.github.java-diff-utils" versionRange="[4.8.0.v20221112-0806]"/>
@@ -320,6 +317,9 @@
         <mapRules xsi:type="aggregator:ExclusionRule" name="org.slf4j.ext" versionRange="[1.7.30.v20221112-0806]"/>
         <mapRules xsi:type="aggregator:ExclusionRule" name="org.tukaani.xz" versionRange="[1.9.0.v20210624-1259]"/>
         <mapRules xsi:type="aggregator:ExclusionRule" name="org.yaml.snakeyaml" versionRange="[1.27.0.v20221112-0806]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="com.graphql.java" versionRange="[11.0.0.v20221112-0806]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="com.graphql.java.dataloader" versionRange="[2.1.1.v20181120-0809]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="com.sun.grid.drmaa" versionRange="[1.0.0.v20170818-1553]"/>
       </repositories>
     </contributions>
     <contributions enabled="false" label="platform">
