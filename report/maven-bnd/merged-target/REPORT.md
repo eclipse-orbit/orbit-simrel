@@ -1,5 +1,9 @@
 # Target Platform: [merged-target](https://github.com/eclipse-orbit/orbit-simrel/blob/main/maven-bnd/tp/MavenBND.target)
 
+## Minor Updates
+ - [com.github.virtuald](https://repo1.maven.org/maven2/com/github/virtuald/)
+    - [curvesapi](https://repo1.maven.org/maven2/com/github/virtuald/curvesapi/) **[1.7](https://repo1.maven.org/maven2/com/github/virtuald/curvesapi/1.7)** < [1.8](https://repo1.maven.org/maven2/com/github/virtuald/curvesapi/1.8/)
+
 ## Major Updates
  - [org.jdom](https://repo1.maven.org/maven2/org/jdom/)
     - [jdom](https://repo1.maven.org/maven2/org/jdom/jdom/) **[1.1.3](https://repo1.maven.org/maven2/org/jdom/jdom/1.1.3)** < [2.0.2](https://repo1.maven.org/maven2/org/jdom/jdom/2.0.2/)
@@ -10,6 +14,8 @@
  - [com.github.jnr](https://repo1.maven.org/maven2/com/github/jnr/)
     - [jnr-a64asm](https://repo1.maven.org/maven2/com/github/jnr/jnr-a64asm/) **[1.0.0](https://repo1.maven.org/maven2/com/github/jnr/jnr-a64asm/1.0.0)**
     - [jnr-x86asm](https://repo1.maven.org/maven2/com/github/jnr/jnr-x86asm/) **[1.0.2](https://repo1.maven.org/maven2/com/github/jnr/jnr-x86asm/1.0.2)**
+ - [com.github.virtuald](https://repo1.maven.org/maven2/com/github/virtuald/)
+    - [curvesapi](https://repo1.maven.org/maven2/com/github/virtuald/curvesapi/) **[1.7](https://repo1.maven.org/maven2/com/github/virtuald/curvesapi/1.7)**
  - [com.jcraft](https://repo1.maven.org/maven2/com/jcraft/)
     - [jsch](https://repo1.maven.org/maven2/com/jcraft/jsch/) **[0.1.55](https://repo1.maven.org/maven2/com/jcraft/jsch/0.1.55)**
     - [jzlib](https://repo1.maven.org/maven2/com/jcraft/jzlib/) **[1.1.3](https://repo1.maven.org/maven2/com/jcraft/jzlib/1.1.3)**

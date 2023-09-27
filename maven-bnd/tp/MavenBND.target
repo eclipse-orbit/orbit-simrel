@@ -1252,6 +1252,7 @@ Automatic-Module-Name:  org.apache.ant
       </instructions>
     </location>
 
+<!-- ______________________________________________________ org.commonmark __________________________________________________________________________________________________-->
 
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
       <feature id="org.eclipse.orbit.maven.org.commonmark" label="Orbit Maven BND org.commonmark" provider-name="Eclipse Orbit" version="4.30.0.v20230927-1332">
@@ -1351,6 +1352,52 @@ Export-Package:         *.internal.*;x-internal:=true;version="${version}",\
 ]]>
       </instructions>
     </location>
+
+
+<!-- ______________________________________________________ com.github.virtuald __________________________________________________________________________________________________-->
+
+    <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
+      <feature id="org.eclipse.orbit.maven.com.github.virtuald" label="Orbit Maven BND com.github.virtuald" provider-name="Eclipse Orbit" version="4.30.0.v20230927-1425">
+        <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
+        <copyright>
+Copyright (c) 2023 Eclipse contributors and others.
+
+This program and the accompanying materials
+are made available under the terms of the Eclipse Public License 2.0
+which accompanies this distribution, and is available at
+https://www.eclipse.org/legal/epl-2.0/
+
+SPDX-License-Identifier: EPL-2.0
+        </copyright>
+        <license url="https://www.eclipse.org/legal/epl-2.0/"/>
+      </feature>
+      <dependencies>
+        <dependency>
+          <groupId>com.github.virtuald</groupId>
+          <artifactId>curvesapi</artifactId>
+          <version>1.07</version>
+          <type>jar</type>
+        </dependency>
+      </dependencies>
+
+      <instructions>
+<!-- SHA1 a0c0a34e349a25ebf3f5d37680056b9fc23fed5a -->
+<![CDATA[
+Bundle-Name:            Bundle ${mvnGroupId} : ${mvnArtifactId}
+version:                ${versionmask;===;${version_cleanup;${mvnVersion}}}
+Bundle-SymbolicName:    ${mvnGroupId}.${mvnArtifactId}
+Bundle-Version:         ${version}.v20230927-1425
+Automatic-Module-Name:  ${mvnGroupId}.${mvnArtifactId}
+Eclipse-Wrapped-Bundle: ${mvnGroupId}:${mvnArtifactId}:${mvnVersion}
+Import-Package:         *;resolution:=optional
+Export-Package:         *;version="${version}";-noimport:=true
+-noextraheaders:        true
+-removeheaders:         Private-Package
+]]>
+      </instructions>
+    </location>
+
+
 
 <!-- ______________________________________________________ EXCLUDE __________________________________________________________________________________________________-->
 
