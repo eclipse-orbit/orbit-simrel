@@ -1253,6 +1253,105 @@ Automatic-Module-Name:  org.apache.ant
     </location>
 
 
+    <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
+      <feature id="org.eclipse.orbit.maven.org.commonmark" label="Orbit Maven BND org.commonmark" provider-name="Eclipse Orbit" version="4.30.0.v20230927-1332">
+        <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
+        <copyright>
+Copyright (c) 2023 Eclipse contributors and others.
+
+This program and the accompanying materials
+are made available under the terms of the Eclipse Public License 2.0
+which accompanies this distribution, and is available at
+https://www.eclipse.org/legal/epl-2.0/
+
+SPDX-License-Identifier: EPL-2.0
+        </copyright>
+        <license url="https://www.eclipse.org/legal/epl-2.0/"/>
+      </feature>
+      <dependencies>
+        <dependency>
+          <groupId>org.commonmark</groupId>
+          <artifactId>commonmark</artifactId>
+          <version>0.21.0</version>
+          <type>jar</type>
+        </dependency>
+<!--
+        <dependency>
+          <groupId>org.commonmark</groupId>
+          <artifactId>commonmark-ext-autolink</artifactId>
+          <version>0.17.0</version>
+          <type>jar</type>
+        </dependency>
+-->
+        <dependency>
+          <groupId>org.commonmark</groupId>
+          <artifactId>commonmark-ext-gfm-strikethrough</artifactId>
+          <version>0.21.0</version>
+          <type>jar</type>
+        </dependency>
+
+        <dependency>
+          <groupId>org.commonmark</groupId>
+          <artifactId>commonmark-ext-gfm-tables</artifactId>
+          <version>0.21.0</version>
+          <type>jar</type>
+        </dependency>
+
+        <dependency>
+          <groupId>org.commonmark</groupId>
+          <artifactId>commonmark-ext-heading-anchor</artifactId>
+          <version>0.21.0</version>
+          <type>jar</type>
+        </dependency>
+
+        <dependency>
+          <groupId>org.commonmark</groupId>
+          <artifactId>commonmark-ext-image-attributes</artifactId>
+          <version>0.21.0</version>
+          <type>jar</type>
+        </dependency>
+
+        <dependency>
+          <groupId>org.commonmark</groupId>
+          <artifactId>commonmark-ext-ins</artifactId>
+          <version>0.21.0</version>
+          <type>jar</type>
+        </dependency>
+
+        <dependency>
+          <groupId>org.commonmark</groupId>
+          <artifactId>commonmark-ext-task-list-items</artifactId>
+          <version>0.21.0</version>
+          <type>jar</type>
+        </dependency>
+
+        <dependency>
+          <groupId>org.commonmark</groupId>
+          <artifactId>commonmark-ext-yaml-front-matter</artifactId>
+          <version>0.21.0</version>
+          <type>jar</type>
+        </dependency>
+      </dependencies>
+
+      <instructions>
+<!-- SHA1 1efc13cb080619bbc0de621ac43672d51c0eb49d -->
+<![CDATA[
+Bundle-Name:            Bundle ${mvnGroupId} : ${mvnArtifactId}
+version:                ${versionmask;===;${version_cleanup;${mvnVersion}}}
+name:                   ${replacestring;${mvnGroupId}.${mvnArtifactId};.commonmark.commonmark(-ext)?;.commonmark}
+Bundle-SymbolicName:    ${name}
+Bundle-Version:         ${version}.v20230927-1332
+Automatic-Module-Name:  ${name}
+Eclipse-Wrapped-Bundle: ${mvnGroupId}:${mvnArtifactId}:${mvnVersion}
+Import-Package:         *
+Export-Package:         *.internal.*;x-internal:=true;version="${version}",\
+                        *;version="${version}";-noimport:=true
+-noextraheaders:        true
+-removeheaders:         Private-Package
+]]>
+      </instructions>
+    </location>
+
 <!-- ______________________________________________________ EXCLUDE __________________________________________________________________________________________________-->
 
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">

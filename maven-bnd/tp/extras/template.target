@@ -33,6 +33,7 @@ Bundle-Name:            Bundle ${mvnGroupId} : ${mvnArtifactId}
 version:                ${versionmask;===;${version_cleanup;${mvnVersion}}}
 Bundle-SymbolicName:    ${mvnGroupId}.${mvnArtifactId}
 Bundle-Version:         ${version}
+Automatic-Module-Name:  ${mvnGroupId}.${mvnArtifactId}
 Eclipse-Wrapped-Bundle: ${mvnGroupId}:${mvnArtifactId}:${mvnVersion}
 Import-Package:         *;resolution:=optional
 Export-Package:         *;version="${version}";-noimport:=true

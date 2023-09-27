@@ -58,6 +58,15 @@
     - [xmlgraphics-commons](https://repo1.maven.org/maven2/org/apache/xmlgraphics/xmlgraphics-commons/) **[2.9](https://repo1.maven.org/maven2/org/apache/xmlgraphics/xmlgraphics-commons/2.9)**
  - [org.codelibs](https://repo1.maven.org/maven2/org/codelibs/)
     - [nekohtml](https://repo1.maven.org/maven2/org/codelibs/nekohtml/) **[2.1.2](https://repo1.maven.org/maven2/org/codelibs/nekohtml/2.1.2)**
+ - [org.commonmark](https://repo1.maven.org/maven2/org/commonmark/)
+    - [commonmark](https://repo1.maven.org/maven2/org/commonmark/commonmark/) **[0.21.0](https://repo1.maven.org/maven2/org/commonmark/commonmark/0.21.0)**
+    - [commonmark-ext-gfm-strikethrough](https://repo1.maven.org/maven2/org/commonmark/commonmark-ext-gfm-strikethrough/) **[0.21.0](https://repo1.maven.org/maven2/org/commonmark/commonmark-ext-gfm-strikethrough/0.21.0)**
+    - [commonmark-ext-gfm-tables](https://repo1.maven.org/maven2/org/commonmark/commonmark-ext-gfm-tables/) **[0.21.0](https://repo1.maven.org/maven2/org/commonmark/commonmark-ext-gfm-tables/0.21.0)**
+    - [commonmark-ext-heading-anchor](https://repo1.maven.org/maven2/org/commonmark/commonmark-ext-heading-anchor/) **[0.21.0](https://repo1.maven.org/maven2/org/commonmark/commonmark-ext-heading-anchor/0.21.0)**
+    - [commonmark-ext-image-attributes](https://repo1.maven.org/maven2/org/commonmark/commonmark-ext-image-attributes/) **[0.21.0](https://repo1.maven.org/maven2/org/commonmark/commonmark-ext-image-attributes/0.21.0)**
+    - [commonmark-ext-ins](https://repo1.maven.org/maven2/org/commonmark/commonmark-ext-ins/) **[0.21.0](https://repo1.maven.org/maven2/org/commonmark/commonmark-ext-ins/0.21.0)**
+    - [commonmark-ext-task-list-items](https://repo1.maven.org/maven2/org/commonmark/commonmark-ext-task-list-items/) **[0.21.0](https://repo1.maven.org/maven2/org/commonmark/commonmark-ext-task-list-items/0.21.0)**
+    - [commonmark-ext-yaml-front-matter](https://repo1.maven.org/maven2/org/commonmark/commonmark-ext-yaml-front-matter/) **[0.21.0](https://repo1.maven.org/maven2/org/commonmark/commonmark-ext-yaml-front-matter/0.21.0)**
  - [org.eclipse.orbit](https://repo.eclipse.org/content/repositories/orbit-approved-artifacts/org/eclipse/orbit/)
     - [ant](https://repo.eclipse.org/content/repositories/orbit-approved-artifacts/org/eclipse/orbit/ant/) **[1.10.14](https://repo.eclipse.org/content/repositories/orbit-approved-artifacts/org/eclipse/orbit/ant/1.10.14)**
  - [org.hamcrest](https://repo1.maven.org/maven2/org/hamcrest/)
