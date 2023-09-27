@@ -4,6 +4,8 @@
    <feature id="org.eclipse.orbit.maven.aopalliance.source"/>
    <feature id="org.eclipse.orbit.maven.com.github.virtuald"/>
    <feature id="org.eclipse.orbit.maven.com.github.virtuald.source"/>
+   <feature id="org.eclipse.orbit.maven.com.google.javascript"/>
+   <feature id="org.eclipse.orbit.maven.com.google.javascript.source"/>
    <feature id="org.eclipse.orbit.maven.com.jcraft.jsch"/>
    <feature id="org.eclipse.orbit.maven.com.jcraft.jsch.source"/>
    <feature id="org.eclipse.orbit.maven.com.jcraft.jzlib"/>
