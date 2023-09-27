@@ -15,9 +15,6 @@
     </contributions>
     <contributions description="orbit" label="orbit">
       <repositories location="https://download.eclipse.org/tools/orbit/downloads/latest-N" description="orbit">
-        <bundles name="com.google.auth.google-auth-library-credentials" versionRange="[0.20.0.v20221112-0806]"/>
-        <bundles name="com.google.auth.oauth2-http" versionRange="[0.20.0.v20221112-0806]"/>
-        <bundles name="com.google.auto.value.auto-value-annotations" versionRange="[1.7.0.v20221112-0806]"/>
         <bundles name="com.google.flogger" versionRange="[0.1.0.v20180506-0038]"/>
         <bundles name="com.google.flogger.systembackend" versionRange="[0.1.0.v20180506-0038]"/>
         <bundles name="com.google.flogger.testing" versionRange="[0.1.0.v20180506-0038]"/>
@@ -320,6 +317,9 @@
         <mapRules xsi:type="aggregator:ExclusionRule" name="com.google.api.client-json" versionRange="[1.2.3.v20221112-0806]"/>
         <mapRules xsi:type="aggregator:ExclusionRule" name="com.google.api.client-repackaged-com-google-common-base" versionRange="[1.2.3.v20221112-0806]"/>
         <mapRules xsi:type="aggregator:ExclusionRule" name="com.google.api.client-util" versionRange="[1.2.3.v20221112-0806]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="com.google.auth.google-auth-library-credentials" versionRange="[0.20.0.v20221112-0806]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="com.google.auth.oauth2-http" versionRange="[0.20.0.v20221112-0806]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="com.google.auto.value.auto-value-annotations" versionRange="[1.7.0.v20221112-0806]"/>
       </repositories>
     </contributions>
     <contributions enabled="false" label="platform">
