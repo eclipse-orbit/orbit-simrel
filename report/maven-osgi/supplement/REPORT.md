@@ -7,8 +7,6 @@
     - [jakarta.activation-api](https://repo1.maven.org/maven2/jakarta/activation/jakarta.activation-api/) **[1.2.2](https://repo1.maven.org/maven2/jakarta/activation/jakarta.activation-api/1.2.2)** < [2.1.2](https://repo1.maven.org/maven2/jakarta/activation/jakarta.activation-api/2.1.2/)
  - [jakarta.ejb](https://repo1.maven.org/maven2/jakarta/ejb/)
     - [jakarta.ejb-api](https://repo1.maven.org/maven2/jakarta/ejb/jakarta.ejb-api/) **[3.2.6](https://repo1.maven.org/maven2/jakarta/ejb/jakarta.ejb-api/3.2.6)** < [4.0.1](https://repo1.maven.org/maven2/jakarta/ejb/jakarta.ejb-api/4.0.1/)
- - [jakarta.el](https://repo1.maven.org/maven2/jakarta/el/)
-    - [jakarta.el-api](https://repo1.maven.org/maven2/jakarta/el/jakarta.el-api/) **[4.0.0](https://repo1.maven.org/maven2/jakarta/el/jakarta.el-api/4.0.0)** < [5.0.1](https://repo1.maven.org/maven2/jakarta/el/jakarta.el-api/5.0.1/)
  - [jakarta.jws](https://repo1.maven.org/maven2/jakarta/jws/)
     - [jakarta.jws-api](https://repo1.maven.org/maven2/jakarta/jws/jakarta.jws-api/) **[2.1.0](https://repo1.maven.org/maven2/jakarta/jws/jakarta.jws-api/2.1.0)** < [3.0.0](https://repo1.maven.org/maven2/jakarta/jws/jakarta.jws-api/3.0.0/)
  - [jakarta.mail](https://repo1.maven.org/maven2/jakarta/mail/)
@@ -59,6 +57,7 @@
     - [jakarta.ejb-api](https://repo1.maven.org/maven2/jakarta/ejb/jakarta.ejb-api/) **[3.2.6](https://repo1.maven.org/maven2/jakarta/ejb/jakarta.ejb-api/3.2.6)**
  - [jakarta.el](https://repo1.maven.org/maven2/jakarta/el/)
     - [jakarta.el-api](https://repo1.maven.org/maven2/jakarta/el/jakarta.el-api/) **[4.0.0](https://repo1.maven.org/maven2/jakarta/el/jakarta.el-api/4.0.0)**
+    - [jakarta.el-api](https://repo1.maven.org/maven2/jakarta/el/jakarta.el-api/) **[5.0.1](https://repo1.maven.org/maven2/jakarta/el/jakarta.el-api/5.0.1)**
  - [jakarta.inject](https://repo1.maven.org/maven2/jakarta/inject/)
     - [jakarta.inject-api](https://repo1.maven.org/maven2/jakarta/inject/jakarta.inject-api/) **[2.0.1](https://repo1.maven.org/maven2/jakarta/inject/jakarta.inject-api/2.0.1)**
  - [jakarta.jws](https://repo1.maven.org/maven2/jakarta/jws/)
@@ -67,6 +66,10 @@
     - [jakarta.mail-api](https://repo1.maven.org/maven2/jakarta/mail/jakarta.mail-api/) **[1.6.7](https://repo1.maven.org/maven2/jakarta/mail/jakarta.mail-api/1.6.7)**
  - [jakarta.persistence](https://repo1.maven.org/maven2/jakarta/persistence/)
     - [jakarta.persistence-api](https://repo1.maven.org/maven2/jakarta/persistence/jakarta.persistence-api/) **[2.2.3](https://repo1.maven.org/maven2/jakarta/persistence/jakarta.persistence-api/2.2.3)**
+ - [jakarta.servlet](https://repo1.maven.org/maven2/jakarta/servlet/)
+    - [jakarta.servlet-api](https://repo1.maven.org/maven2/jakarta/servlet/jakarta.servlet-api/) **[6.0.0](https://repo1.maven.org/maven2/jakarta/servlet/jakarta.servlet-api/6.0.0)**
+ - [jakarta.servlet.jsp](https://repo1.maven.org/maven2/jakarta/servlet/jsp/)
+    - [jakarta.servlet.jsp-api](https://repo1.maven.org/maven2/jakarta/servlet/jsp/jakarta.servlet.jsp-api/) **[3.1.1](https://repo1.maven.org/maven2/jakarta/servlet/jsp/jakarta.servlet.jsp-api/3.1.1)**
  - [jakarta.websocket](https://repo1.maven.org/maven2/jakarta/websocket/)
     - [jakarta.websocket-api](https://repo1.maven.org/maven2/jakarta/websocket/jakarta.websocket-api/) **[1.1.2](https://repo1.maven.org/maven2/jakarta/websocket/jakarta.websocket-api/1.1.2)**
  - [jakarta.xml.rpc](https://repo1.maven.org/maven2/jakarta/xml/rpc/)

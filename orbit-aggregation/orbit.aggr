@@ -15,7 +15,6 @@
     </contributions>
     <contributions description="orbit" label="orbit">
       <repositories location="https://download.eclipse.org/tools/orbit/downloads/latest-N" description="orbit">
-        <bundles name="jakarta.servlet.jsp" versionRange="[3.0.0.v20221203-1659]"/>
         <bundles name="jakarta.websocket" versionRange="[2.0.0.v20221203-1659]"/>
         <bundles name="java_cup" versionRange="[0.11.20150326.v20180425-1030]"/>
         <bundles name="java_cup-runtime" versionRange="[0.11.20150326.v20180425-1030]"/>
@@ -166,6 +165,7 @@
         <mapRules xsi:type="aggregator:ExclusionRule" name="jakarta.activation" versionRange="[1.2.2.v20221203-1659]"/>
         <mapRules xsi:type="aggregator:ExclusionRule" name="jakarta.activation" versionRange="[2.0.0.v20221203-1659]"/>
         <mapRules xsi:type="aggregator:ExclusionRule" name="jakarta.el" versionRange="[4.0.0.v20221203-1659]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="jakarta.servlet.jsp" versionRange="[3.0.0.v20221203-1659]"/>
         <mapRules xsi:type="aggregator:ExclusionRule" name="jakarta.servlet" versionRange="[5.0.0.v20221203-1659]"/>
         <mapRules xsi:type="aggregator:ExclusionRule" name="jakarta.xml.bind" versionRange="[2.3.3.v20221203-1659]"/>
         <mapRules xsi:type="aggregator:ExclusionRule" name="javaewah" versionRange="[1.1.13.v20211029-0839]"/>
