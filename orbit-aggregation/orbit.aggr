@@ -15,8 +15,6 @@
     </contributions>
     <contributions description="orbit" label="orbit">
       <repositories location="https://download.eclipse.org/tools/orbit/downloads/latest-N" description="orbit">
-        <bundles name="java_cup" versionRange="[0.11.20150326.v20180425-1030]"/>
-        <bundles name="java_cup-runtime" versionRange="[0.11.20150326.v20180425-1030]"/>
         <bundles name="net.i2p.crypto.eddsa" versionRange="[0.3.0.v20220506-1020]"/>
         <bundles name="net.jini" versionRange="[2.1.0.v20221112-0806]"/>
         <bundles name="net.sourceforge.plantuml" versionRange="[1.2019.0.v20221112-0806]"/>
@@ -49,10 +47,6 @@
         <bundles name="org.apache.santuario.xmlsec" versionRange="[2.2.0.v20221112-0806]"/>
         <bundles name="org.apache.tika.core" versionRange="[1.24.1.v20211101-1915]"/>
         <bundles name="org.apache.tika.parsers" versionRange="[1.24.1.v20211101-1915]"/>
-        <bundles name="org.apache.xalan" versionRange="[2.7.2.v20221112-0806]"/>
-        <bundles name="org.apache.xerces" versionRange="[2.12.2.v20220131-0835]"/>
-        <bundles name="org.apache.xml.resolver" versionRange="[1.2.0.v20220715-1206]"/>
-        <bundles name="org.apache.xml.serializer" versionRange="[2.7.2.v20220406-0601]"/>
         <bundles name="org.apache.xmlbeans" versionRange="[3.1.0.v20221112-0806]"/>
         <bundles name="org.apiguardian" versionRange="[1.1.2.v20211018-1956]"/>
         <bundles name="org.conscrypt.conscrypt-openjdk-uber" versionRange="[2.5.1.v20220506-1020]"/>
@@ -167,6 +161,8 @@
         <mapRules xsi:type="aggregator:ExclusionRule" name="jakarta.servlet" versionRange="[5.0.0.v20221203-1659]"/>
         <mapRules xsi:type="aggregator:ExclusionRule" name="jakarta.websocket" versionRange="[2.0.0.v20221203-1659]"/>
         <mapRules xsi:type="aggregator:ExclusionRule" name="jakarta.xml.bind" versionRange="[2.3.3.v20221203-1659]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="java_cup-runtime" versionRange="[0.11.20150326.v20180425-1030]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="java_cup" versionRange="[0.11.20150326.v20180425-1030]"/>
         <mapRules xsi:type="aggregator:ExclusionRule" name="javaewah" versionRange="[1.1.13.v20211029-0839]"/>
         <mapRules xsi:type="aggregator:ExclusionRule" name="javax.activation" versionRange="[1.2.2.v20221203-1659]"/>
         <mapRules xsi:type="aggregator:ExclusionRule" name="javax.activation" versionRange="[2.0.0.v20221203-1659]"/>
@@ -251,6 +247,10 @@
         <mapRules xsi:type="aggregator:ExclusionRule" name="org.apache.sshd.sftp" versionRange="[2.9.2.v20221117-1942]"/>
         <mapRules xsi:type="aggregator:ExclusionRule" name="org.apache.ws.commons.util" versionRange="[1.0.2.v20160817-1930]"/>
         <mapRules xsi:type="aggregator:ExclusionRule" name="org.apache.wsil4j" versionRange="[1.0.0.v20180522-1857]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="org.apache.xalan" versionRange="[2.7.2.v20221112-0806]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="org.apache.xerces" versionRange="[2.12.2.v20220131-0835]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="org.apache.xml.resolver" versionRange="[1.2.0.v20220715-1206]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="org.apache.xml.serializer" versionRange="[2.7.2.v20220406-0601]"/>
         <mapRules xsi:type="aggregator:ExclusionRule" name="org.apache.xmlgraphics" versionRange="[2.7.0.v20221018-0736]"/>
         <mapRules xsi:type="aggregator:ExclusionRule" name="org.apache.xmlrpc.client" versionRange="[3.1.3.v20160817-1930]"/>
         <mapRules xsi:type="aggregator:ExclusionRule" name="org.apache.xmlrpc.common" versionRange="[3.1.3.v20181004-1955]"/>

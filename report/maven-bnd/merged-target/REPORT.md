@@ -87,3 +87,10 @@
     - [joni](https://repo1.maven.org/maven2/org/jruby/joni/joni/) **[2.2.1](https://repo1.maven.org/maven2/org/jruby/joni/joni/2.2.1)**
  - [wsdl4j](https://repo1.maven.org/maven2/wsdl4j/)
     - [wsdl4j](https://repo1.maven.org/maven2/wsdl4j/wsdl4j/) **[1.6.3](https://repo1.maven.org/maven2/wsdl4j/wsdl4j/1.6.3)**
+ - [xalan](https://repo1.maven.org/maven2/xalan/)
+    - [serializer](https://repo1.maven.org/maven2/xalan/serializer/) **[2.7.2](https://repo1.maven.org/maven2/xalan/serializer/2.7.2)**
+    - [xalan](https://repo1.maven.org/maven2/xalan/xalan/) **[2.7.2](https://repo1.maven.org/maven2/xalan/xalan/2.7.2)**
+ - [xerces](https://repo1.maven.org/maven2/xerces/)
+    - [xercesImpl](https://repo1.maven.org/maven2/xerces/xercesImpl/) **[2.12.2](https://repo1.maven.org/maven2/xerces/xercesImpl/2.12.2)**
+ - [xml-resolver](https://repo1.maven.org/maven2/xml-resolver/)
+    - [xml-resolver](https://repo1.maven.org/maven2/xml-resolver/xml-resolver/) **[1.2](https://repo1.maven.org/maven2/xml-resolver/xml-resolver/1.2)**

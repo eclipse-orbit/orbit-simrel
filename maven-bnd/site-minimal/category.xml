@@ -54,4 +54,10 @@
    <feature id="org.eclipse.orbit.maven.org.commonmark.source"/>
    <feature id="org.eclipse.orbit.maven.org.jdom"/>
    <feature id="org.eclipse.orbit.maven.org.jdom.source"/>
+   <feature id="org.eclipse.orbit.maven.xalan"/>
+   <feature id="org.eclipse.orbit.maven.xalan.source"/>
+   <feature id="org.eclipse.orbit.maven.xerces"/>
+   <feature id="org.eclipse.orbit.maven.xerces.source"/>
+   <feature id="org.eclipse.orbit.maven.xml-resolver"/>
+   <feature id="org.eclipse.orbit.maven.xml-resolver.source"/>
 </site>
