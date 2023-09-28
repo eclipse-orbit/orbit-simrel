@@ -22,7 +22,6 @@
         <bundles name="org.antlr.runtime" versionRange="[4.7.1.v20181120-0808]"/>
         <bundles name="org.antlr.runtime" versionRange="[4.7.2.v20221112-0806]"/>
         <bundles name="org.antlr.runtime" versionRange="[4.10.1.v20230210-1433]"/>
-        <bundles name="org.apache.onami.configuration" versionRange="[6.3.0.v20160301-1110]"/>
         <bundles name="org.apache.pdfbox" versionRange="[2.0.6.v20221112-0806]"/>
         <bundles name="org.apache.pdfbox.fontbox" versionRange="[2.0.6.v20221112-0806]"/>
         <bundles name="org.apache.pdfbox.preflight" versionRange="[2.0.6.v20221112-0806]"/>
@@ -241,6 +240,7 @@
         <mapRules xsi:type="aggregator:ExclusionRule" name="org.apache.maven.resolver.transport.file" versionRange="[1.0.3.v20170405-0725]"/>
         <mapRules xsi:type="aggregator:ExclusionRule" name="org.apache.maven.resolver.transport.http" versionRange="[1.0.3.v20170405-0725]"/>
         <mapRules xsi:type="aggregator:ExclusionRule" name="org.apache.maven.resolver.util" versionRange="[1.0.3.v20170405-0725]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="org.apache.onami.configuration" versionRange="[6.3.0.v20160301-1110]"/>
         <mapRules xsi:type="aggregator:ExclusionRule" name="org.apache.sshd.osgi" versionRange="[2.8.0.v20211227-1750]"/>
         <mapRules xsi:type="aggregator:ExclusionRule" name="org.apache.sshd.osgi" versionRange="[2.9.2.v20221117-1942]"/>
         <mapRules xsi:type="aggregator:ExclusionRule" name="org.apache.sshd.sftp" versionRange="[2.8.0.v20211227-1750]"/>
