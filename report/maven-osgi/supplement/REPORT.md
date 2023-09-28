@@ -98,6 +98,8 @@
     - [httpasyncclient-osgi](https://repo1.maven.org/maven2/org/apache/httpcomponents/httpasyncclient-osgi/) **[4.1.5](https://repo1.maven.org/maven2/org/apache/httpcomponents/httpasyncclient-osgi/4.1.5)**
     - [httpclient-osgi](https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient-osgi/) **[4.5.14](https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient-osgi/4.5.14)**
     - [httpcore-osgi](https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore-osgi/) **[4.4.16](https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore-osgi/4.4.16)**
+ - [org.apache.logging.log4j](https://repo1.maven.org/maven2/org/apache/logging/log4j/)
+    - [log4j-api](https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/) **[2.20.0](https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.20.0)**
  - [org.apache.velocity](https://repo1.maven.org/maven2/org/apache/velocity/)
     - [velocity](https://repo1.maven.org/maven2/org/apache/velocity/velocity/) **[1.7](https://repo1.maven.org/maven2/org/apache/velocity/velocity/1.7)**
  - [org.easymock](https://repo1.maven.org/maven2/org/easymock/)
