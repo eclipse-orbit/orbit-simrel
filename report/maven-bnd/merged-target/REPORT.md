@@ -46,6 +46,8 @@
     - [poi-ooxml-lite](https://repo1.maven.org/maven2/org/apache/poi/poi-ooxml-lite/) **[5.2.4](https://repo1.maven.org/maven2/org/apache/poi/poi-ooxml-lite/5.2.4)**
  - [org.apache.ws.commons.util](https://repo1.maven.org/maven2/org/apache/ws/commons/util/)
     - [ws-commons-util](https://repo1.maven.org/maven2/org/apache/ws/commons/util/ws-commons-util/) **[1.0.2](https://repo1.maven.org/maven2/org/apache/ws/commons/util/ws-commons-util/1.0.2)**
+ - [org.apache.xmlbeans](https://repo1.maven.org/maven2/org/apache/xmlbeans/)
+    - [xmlbeans](https://repo1.maven.org/maven2/org/apache/xmlbeans/xmlbeans/) **[5.1.1](https://repo1.maven.org/maven2/org/apache/xmlbeans/xmlbeans/5.1.1)**
  - [org.apache.xmlgraphics](https://repo1.maven.org/maven2/org/apache/xmlgraphics/)
     - [batik-anim](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-anim/) **[1.17](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-anim/1.17)**
     - [batik-awt-util](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-awt-util/) **[1.17](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-awt-util/1.17)**
