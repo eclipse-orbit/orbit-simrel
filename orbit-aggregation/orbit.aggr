@@ -22,7 +22,6 @@
         <bundles name="org.antlr.runtime" versionRange="[4.7.1.v20181120-0808]"/>
         <bundles name="org.antlr.runtime" versionRange="[4.7.2.v20221112-0806]"/>
         <bundles name="org.antlr.runtime" versionRange="[4.10.1.v20230210-1433]"/>
-        <bundles name="org.mozilla.javascript" versionRange="[1.7.10.v20221112-0806]"/>
         <bundles name="org.reactivestreams" versionRange="[1.0.2.v20181120-0809]"/>
         <mapRules xsi:type="aggregator:ExclusionRule" name="ca.odell.glazedlists" versionRange="[1.11.0.v20221112-0806]"/>
         <mapRules xsi:type="aggregator:ExclusionRule" name="ch.qos.logback.classic" versionRange="[1.2.3.v20221112-0806]"/>
@@ -303,6 +302,7 @@
         <mapRules xsi:type="aggregator:ExclusionRule" name="org.mandas.docker-client" versionRange="[3.2.1.v20221112-0806]"/>
         <mapRules xsi:type="aggregator:ExclusionRule" name="org.mockito.junit-jupiter" versionRange="[4.8.1.v20221103-2317]"/>
         <mapRules xsi:type="aggregator:ExclusionRule" name="org.mockito.mockito-core" versionRange="[4.8.1.v20221103-2317]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="org.mozilla.javascript" versionRange="[1.7.10.v20221112-0806]"/>
         <mapRules xsi:type="aggregator:ExclusionRule" name="org.objectweb.asm.analysis" versionRange="[9.4.0.v20221107-1714]"/>
         <mapRules xsi:type="aggregator:ExclusionRule" name="org.objectweb.asm.commons" versionRange="[9.4.0.v20221107-1714]"/>
         <mapRules xsi:type="aggregator:ExclusionRule" name="org.objectweb.asm.tree" versionRange="[9.4.0.v20221107-1714]"/>
