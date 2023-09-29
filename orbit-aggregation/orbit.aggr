@@ -22,8 +22,6 @@
         <bundles name="org.antlr.runtime" versionRange="[4.7.1.v20181120-0808]"/>
         <bundles name="org.antlr.runtime" versionRange="[4.7.2.v20221112-0806]"/>
         <bundles name="org.antlr.runtime" versionRange="[4.10.1.v20230210-1433]"/>
-        <bundles name="org.apache.tika.core" versionRange="[1.24.1.v20211101-1915]"/>
-        <bundles name="org.apache.tika.parsers" versionRange="[1.24.1.v20211101-1915]"/>
         <bundles name="org.apache.xmlbeans" versionRange="[3.1.0.v20221112-0806]"/>
         <bundles name="org.apiguardian" versionRange="[1.1.2.v20211018-1956]"/>
         <bundles name="org.conscrypt.conscrypt-openjdk-uber" versionRange="[2.5.1.v20220506-1020]"/>
@@ -245,6 +243,8 @@
         <mapRules xsi:type="aggregator:ExclusionRule" name="org.apache.sshd.osgi" versionRange="[2.9.2.v20221117-1942]"/>
         <mapRules xsi:type="aggregator:ExclusionRule" name="org.apache.sshd.sftp" versionRange="[2.8.0.v20211227-1750]"/>
         <mapRules xsi:type="aggregator:ExclusionRule" name="org.apache.sshd.sftp" versionRange="[2.9.2.v20221117-1942]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="org.apache.tika.core" versionRange="[1.24.1.v20211101-1915]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="org.apache.tika.parsers" versionRange="[1.24.1.v20211101-1915]"/>
         <mapRules xsi:type="aggregator:ExclusionRule" name="org.apache.ws.commons.util" versionRange="[1.0.2.v20160817-1930]"/>
         <mapRules xsi:type="aggregator:ExclusionRule" name="org.apache.wsil4j" versionRange="[1.0.0.v20180522-1857]"/>
         <mapRules xsi:type="aggregator:ExclusionRule" name="org.apache.xalan" versionRange="[2.7.2.v20221112-0806]"/>
