@@ -22,7 +22,6 @@
         <bundles name="org.antlr.runtime" versionRange="[4.7.1.v20181120-0808]"/>
         <bundles name="org.antlr.runtime" versionRange="[4.7.2.v20221112-0806]"/>
         <bundles name="org.antlr.runtime" versionRange="[4.10.1.v20230210-1433]"/>
-        <bundles name="org.knowm.xchart" versionRange="[3.6.5.v20221112-0806]"/>
         <bundles name="org.mozilla.javascript" versionRange="[1.7.10.v20221112-0806]"/>
         <bundles name="org.reactivestreams" versionRange="[1.0.2.v20181120-0809]"/>
         <mapRules xsi:type="aggregator:ExclusionRule" name="ca.odell.glazedlists" versionRange="[1.11.0.v20221112-0806]"/>
@@ -299,6 +298,7 @@
         <mapRules xsi:type="aggregator:ExclusionRule" name="org.junit.platform.suite.engine" versionRange="[1.9.1.v20221103-2317]"/>
         <mapRules xsi:type="aggregator:ExclusionRule" name="org.junit.vintage.engine" versionRange="[5.9.1.v20221103-2317]"/>
         <mapRules xsi:type="aggregator:ExclusionRule" name="org.junit" versionRange="[4.13.2.v20211018-1956]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="org.knowm.xchart" versionRange="[3.6.5.v20221112-0806]"/>
         <mapRules xsi:type="aggregator:ExclusionRule" name="org.kohsuke.args4j" versionRange="[2.33.0.v20160323-2218]"/>
         <mapRules xsi:type="aggregator:ExclusionRule" name="org.mandas.docker-client" versionRange="[3.2.1.v20221112-0806]"/>
         <mapRules xsi:type="aggregator:ExclusionRule" name="org.mockito.junit-jupiter" versionRange="[4.8.1.v20221103-2317]"/>
