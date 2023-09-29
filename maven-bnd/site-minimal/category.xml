@@ -12,6 +12,8 @@
    <feature id="org.eclipse.orbit.maven.com.jcraft.jzlib.source"/>
    <feature id="org.eclipse.orbit.maven.com.konghq"/>
    <feature id="org.eclipse.orbit.maven.com.konghq.source"/>
+   <feature id="org.eclipse.orbit.maven.com.zaxxer"/>
+   <feature id="org.eclipse.orbit.maven.com.zaxxer.source"/>
    <feature id="org.eclipse.orbit.maven.hamcrest.core"/>
    <feature id="org.eclipse.orbit.maven.hamcrest.core.source"/>
    <feature id="org.eclipse.orbit.maven.hamcrest.deprecated"/>
@@ -44,6 +46,8 @@
    <feature id="org.eclipse.orbit.maven.org.apache.httpcomponents.client5.httpclient5-win.source"/>
    <feature id="org.eclipse.orbit.maven.org.apache.httpcomponents.core5"/>
    <feature id="org.eclipse.orbit.maven.org.apache.httpcomponents.core5.source"/>
+   <feature id="org.eclipse.orbit.maven.org.apache.poi"/>
+   <feature id="org.eclipse.orbit.maven.org.apache.poi.source"/>
    <feature id="org.eclipse.orbit.maven.org.apache.ws.commons.util"/>
    <feature id="org.eclipse.orbit.maven.org.apache.ws.commons.util.source"/>
    <feature id="org.eclipse.orbit.maven.org.apache.xmlgraphics"/>

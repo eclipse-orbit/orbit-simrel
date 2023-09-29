@@ -19,6 +19,8 @@
     - [jzlib](https://repo1.maven.org/maven2/com/jcraft/jzlib/) **[1.1.3](https://repo1.maven.org/maven2/com/jcraft/jzlib/1.1.3)**
  - [com.konghq](https://repo1.maven.org/maven2/com/konghq/)
     - [unirest-java](https://repo1.maven.org/maven2/com/konghq/unirest-java/) **[3.14.5](https://repo1.maven.org/maven2/com/konghq/unirest-java/3.14.5)**
+ - [com.zaxxer](https://repo1.maven.org/maven2/com/zaxxer/)
+    - [SparseBitSet](https://repo1.maven.org/maven2/com/zaxxer/SparseBitSet/) **[1.3](https://repo1.maven.org/maven2/com/zaxxer/SparseBitSet/1.3)**
  - [junit](https://repo1.maven.org/maven2/junit/)
     - [junit](https://repo1.maven.org/maven2/junit/junit/) **[4.13.2](https://repo1.maven.org/maven2/junit/junit/4.13.2)**
  - [org.apache.axis](https://repo1.maven.org/maven2/org/apache/axis/)
@@ -38,6 +40,10 @@
     - [lucene-queries](https://repo1.maven.org/maven2/org/apache/lucene/lucene-queries/) **[9.7.0](https://repo1.maven.org/maven2/org/apache/lucene/lucene-queries/9.7.0)**
     - [lucene-queryparser](https://repo1.maven.org/maven2/org/apache/lucene/lucene-queryparser/) **[9.7.0](https://repo1.maven.org/maven2/org/apache/lucene/lucene-queryparser/9.7.0)**
     - [lucene-sandbox](https://repo1.maven.org/maven2/org/apache/lucene/lucene-sandbox/) **[9.7.0](https://repo1.maven.org/maven2/org/apache/lucene/lucene-sandbox/9.7.0)**
+ - [org.apache.poi](https://repo1.maven.org/maven2/org/apache/poi/)
+    - [poi](https://repo1.maven.org/maven2/org/apache/poi/poi/) **[5.2.4](https://repo1.maven.org/maven2/org/apache/poi/poi/5.2.4)**
+    - [poi-ooxml](https://repo1.maven.org/maven2/org/apache/poi/poi-ooxml/) **[5.2.4](https://repo1.maven.org/maven2/org/apache/poi/poi-ooxml/5.2.4)**
+    - [poi-ooxml-lite](https://repo1.maven.org/maven2/org/apache/poi/poi-ooxml-lite/) **[5.2.4](https://repo1.maven.org/maven2/org/apache/poi/poi-ooxml-lite/5.2.4)**
  - [org.apache.ws.commons.util](https://repo1.maven.org/maven2/org/apache/ws/commons/util/)
     - [ws-commons-util](https://repo1.maven.org/maven2/org/apache/ws/commons/util/ws-commons-util/) **[1.0.2](https://repo1.maven.org/maven2/org/apache/ws/commons/util/ws-commons-util/1.0.2)**
  - [org.apache.xmlgraphics](https://repo1.maven.org/maven2/org/apache/xmlgraphics/)
