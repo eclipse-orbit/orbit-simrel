@@ -3,8 +3,6 @@
 ## Minor Updates
  - [commons-io](https://repo1.maven.org/maven2/commons-io/)
     - [commons-io](https://repo1.maven.org/maven2/commons-io/commons-io/) **[2.12.0](https://repo1.maven.org/maven2/commons-io/commons-io/2.12.0)** < [2.13.0](https://repo1.maven.org/maven2/commons-io/commons-io/2.13.0/)
- - [org.apache.commons](https://repo1.maven.org/maven2/org/apache/commons/)
-    - [commons-digester3](https://repo1.maven.org/maven2/org/apache/commons/commons-digester3/) **[3.1](https://repo1.maven.org/maven2/org/apache/commons/commons-digester3/3.1)** < [3.2](https://repo1.maven.org/maven2/org/apache/commons/commons-digester3/3.2/)
 
 ## Updates Applied
 [updated.target](updated.target)
