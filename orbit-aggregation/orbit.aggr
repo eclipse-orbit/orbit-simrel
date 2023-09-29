@@ -22,7 +22,6 @@
         <bundles name="org.antlr.runtime" versionRange="[4.7.1.v20181120-0808]"/>
         <bundles name="org.antlr.runtime" versionRange="[4.7.2.v20221112-0806]"/>
         <bundles name="org.antlr.runtime" versionRange="[4.10.1.v20230210-1433]"/>
-        <bundles name="org.apiguardian" versionRange="[1.1.2.v20211018-1956]"/>
         <bundles name="org.conscrypt.conscrypt-openjdk-uber" versionRange="[2.5.1.v20220506-1020]"/>
         <bundles name="org.dom4j" versionRange="[1.6.1.v20221112-0806]"/>
         <bundles name="org.dom4j" versionRange="[2.1.1.v20221112-0806]"/>
@@ -255,6 +254,7 @@
         <mapRules xsi:type="aggregator:ExclusionRule" name="org.apache.xmlrpc.client" versionRange="[3.1.3.v20160817-1930]"/>
         <mapRules xsi:type="aggregator:ExclusionRule" name="org.apache.xmlrpc.common" versionRange="[3.1.3.v20181004-1955]"/>
         <mapRules xsi:type="aggregator:ExclusionRule" name="org.apache.xmlrpc.server" versionRange="[3.1.3.v20181004-1955]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="org.apiguardian" versionRange="[1.1.2.v20211018-1956]"/>
         <mapRules xsi:type="aggregator:ExclusionRule" name="org.assertj" versionRange="[3.20.2.v20210706-1104]"/>
         <mapRules xsi:type="aggregator:ExclusionRule" name="org.bouncycastle.bcpg" versionRange="[1.72.0.v20221013-1810]"/>
         <mapRules xsi:type="aggregator:ExclusionRule" name="org.bouncycastle.bcpkix" versionRange="[1.72.0.v20221013-1810]"/>
