@@ -22,8 +22,6 @@
         <bundles name="org.antlr.runtime" versionRange="[4.7.1.v20181120-0808]"/>
         <bundles name="org.antlr.runtime" versionRange="[4.7.2.v20221112-0806]"/>
         <bundles name="org.antlr.runtime" versionRange="[4.10.1.v20230210-1433]"/>
-        <bundles name="org.jgrapht.jgrapht-core" versionRange="[1.4.0.v20220411-2343]"/>
-        <bundles name="org.jheaps.jheaps" versionRange="[0.14.0.v20220411-2343]"/>
         <bundles name="org.knowm.xchart" versionRange="[3.6.5.v20221112-0806]"/>
         <bundles name="org.mozilla.javascript" versionRange="[1.7.10.v20221112-0806]"/>
         <bundles name="org.reactivestreams" versionRange="[1.0.2.v20181120-0809]"/>
@@ -284,6 +282,8 @@
         <mapRules xsi:type="aggregator:ExclusionRule" name="org.jboss.logging" versionRange="[3.3.2.v20221112-0806]"/>
         <mapRules xsi:type="aggregator:ExclusionRule" name="org.jcodings" versionRange="[1.0.18.v20170306-1742]"/>
         <mapRules xsi:type="aggregator:ExclusionRule" name="org.jdom2" versionRange="[2.0.6.v20221112-0806]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="org.jgrapht.jgrapht-core" versionRange="[1.4.0.v20220411-2343]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="org.jheaps.jheaps" versionRange="[0.14.0.v20220411-2343]"/>
         <mapRules xsi:type="aggregator:ExclusionRule" name="org.joni" versionRange="[2.1.11.v20170306-1742]"/>
         <mapRules xsi:type="aggregator:ExclusionRule" name="org.jsoup" versionRange="[1.14.3.v20211012-1727]"/>
         <mapRules xsi:type="aggregator:ExclusionRule" name="org.junit.jupiter.api" versionRange="[5.9.1.v20221103-2317]"/>
