@@ -22,7 +22,6 @@
         <bundles name="org.antlr.runtime" versionRange="[4.7.1.v20181120-0808]"/>
         <bundles name="org.antlr.runtime" versionRange="[4.7.2.v20221112-0806]"/>
         <bundles name="org.antlr.runtime" versionRange="[4.10.1.v20230210-1433]"/>
-        <bundles name="org.conscrypt.conscrypt-openjdk-uber" versionRange="[2.5.1.v20220506-1020]"/>
         <bundles name="org.dom4j" versionRange="[1.6.1.v20221112-0806]"/>
         <bundles name="org.dom4j" versionRange="[2.1.1.v20221112-0806]"/>
         <bundles name="org.eclipse.orbit.mongodb" versionRange="[3.2.2.v20181004-1955]"/>
@@ -260,6 +259,7 @@
         <mapRules xsi:type="aggregator:ExclusionRule" name="org.bouncycastle.bcpkix" versionRange="[1.72.0.v20221013-1810]"/>
         <mapRules xsi:type="aggregator:ExclusionRule" name="org.bouncycastle.bcprov" versionRange="[1.72.0.v20221013-1810]"/>
         <mapRules xsi:type="aggregator:ExclusionRule" name="org.bouncycastle.bcutil" versionRange="[1.72.0.v20221013-1810]"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="org.conscrypt.conscrypt-openjdk-uber" versionRange="[2.5.1.v20220506-1020]"/>
         <mapRules xsi:type="aggregator:ExclusionRule" name="org.eclipse.orbit.releng.recipes.feature.aggregation.feature.group" versionRange="[1.0.0.v20230516-1249]"/>
         <mapRules xsi:type="aggregator:ExclusionRule" name="org.glassfish.hk2.api" versionRange="[2.5.0.v20161103-0227]"/>
         <mapRules xsi:type="aggregator:ExclusionRule" name="org.glassfish.hk2.api" versionRange="[2.6.1.v20221203-1659]"/>
