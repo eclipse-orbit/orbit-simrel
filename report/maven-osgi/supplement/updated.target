@@ -423,6 +423,13 @@
           <type>jar</type>
         </dependency>
 
+        <dependency>
+          <groupId>org.antlr</groupId>
+          <artifactId>antlr4-runtime</artifactId>
+          <version>4.13.1</version>
+          <type>jar</type>
+        </dependency>
+
       </dependencies>
     </location>
   </locations>

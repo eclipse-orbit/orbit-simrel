@@ -23,6 +23,9 @@
     - [SparseBitSet](https://repo1.maven.org/maven2/com/zaxxer/SparseBitSet/) **[1.3](https://repo1.maven.org/maven2/com/zaxxer/SparseBitSet/1.3)**
  - [junit](https://repo1.maven.org/maven2/junit/)
     - [junit](https://repo1.maven.org/maven2/junit/junit/) **[4.13.2](https://repo1.maven.org/maven2/junit/junit/4.13.2)**
+ - [org.antlr](https://repo1.maven.org/maven2/org/antlr/)
+    - [antlr-runtime](https://repo1.maven.org/maven2/org/antlr/antlr-runtime/) **[3.2](https://repo1.maven.org/maven2/org/antlr/antlr-runtime/3.2)**
+    - [antlr-runtime](https://repo1.maven.org/maven2/org/antlr/antlr-runtime/) **[3.5.3](https://repo1.maven.org/maven2/org/antlr/antlr-runtime/3.5.3)**
  - [org.apache.axis](https://repo1.maven.org/maven2/org/apache/axis/)
     - [axis](https://repo1.maven.org/maven2/org/apache/axis/axis/) **[1.4](https://repo1.maven.org/maven2/org/apache/axis/axis/1.4)**
     - [axis-ant](https://repo1.maven.org/maven2/org/apache/axis/axis-ant/) **[1.4](https://repo1.maven.org/maven2/org/apache/axis/axis-ant/1.4)**

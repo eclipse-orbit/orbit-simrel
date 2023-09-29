@@ -1643,7 +1643,7 @@ Export-Package:         *;version="${version}"
     </location>
 
 
-!-- _____________________________________________________ com.zaxxer ___________________________________________________________________________________________________-->
+<!-- _____________________________________________________ com.zaxxer ___________________________________________________________________________________________________-->
 
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
       <feature id="org.eclipse.orbit.maven.com.zaxxer" label="Orbit Maven BND com.zaxxer" provider-name="Eclipse Orbit" version="4.30.0.v20230929-1000">
@@ -1686,7 +1686,7 @@ Export-Package:         *;version="${version}"
     </location>
 
 
-!-- _____________________________________________________ org.apache.xmlbeans ___________________________________________________________________________________________________-->
+<!-- _____________________________________________________ org.apache.xmlbeans ___________________________________________________________________________________________________-->
 
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
       <feature id="org.eclipse.orbit.maven.org.apache.xmlbeans" label="Orbit Maven BND org.apache.xmlbeans" provider-name="Eclipse Orbit" version="4.30.0.v20230929-1100">
@@ -1722,6 +1722,94 @@ Automatic-Module-Name:  ${mvnGroupId}
 Eclipse-Wrapped-Bundle: ${mvnGroupId}:${mvnArtifactId}:${mvnVersion}
 Import-Package:         *;resolution:=optional
 Export-Package:         *;version="${version}"
+-noextraheaders:        true
+-removeheaders:         Private-Package
+]]>
+      </instructions>
+    </location>
+
+
+<!-- _____________________________________________________ org.antlr.3.2 ___________________________________________________________________________________________________-->
+
+    <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
+      <feature id="org.eclipse.orbit.maven.org.antlr.3.2" label="Orbit Maven BND org.antlr.3.2" provider-name="Eclipse Orbit" version="4.30.0.v20230929-1400">
+        <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
+        <copyright>
+Copyright (c) 2023 Eclipse contributors and others.
+
+This program and the accompanying materials
+are made available under the terms of the Eclipse Public License 2.0
+which accompanies this distribution, and is available at
+https://www.eclipse.org/legal/epl-2.0/
+
+SPDX-License-Identifier: EPL-2.0
+        </copyright>
+        <license url="https://www.eclipse.org/legal/epl-2.0/"/>
+      </feature>
+      <dependencies>
+        <dependency>
+          <groupId>org.antlr</groupId>
+          <artifactId>antlr-runtime</artifactId>
+          <version>3.2</version> <!-- DO NOT CHANGE THIS VERSION --> 
+          <type>jar</type>
+        </dependency>
+      </dependencies>
+      <instructions>
+<!-- SHA1 8d00dd99c5f2d0e86332a479f283a11815262fee -->
+<![CDATA[
+Bundle-Name:            Bundle ${mvnGroupId} : ${mvnArtifactId}
+version:                ${versionmask;===;${version_cleanup;${mvnVersion}}}
+name:                   org.antlr.runtime
+Bundle-SymbolicName:    ${name}
+Bundle-Version:         ${version}.v20230929-1400
+Automatic-Module-Name:  ${name}
+Eclipse-Wrapped-Bundle: ${mvnGroupId}:${mvnArtifactId}:${mvnVersion}
+Import-Package:         *;resolution:=optional
+Export-Package:         *;version="${version}";-noimport:=true
+-noextraheaders:        true
+-removeheaders:         Private-Package
+]]>
+      </instructions>
+    </location>
+
+
+<!-- _____________________________________________________ org.antlr.3.x ___________________________________________________________________________________________________-->
+
+    <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
+      <feature id="org.eclipse.orbit.maven.org.antlr.3.x" label="Orbit Maven BND org.antlr.3.x" provider-name="Eclipse Orbit" version="4.30.0.v20230929-1400">
+        <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
+        <copyright>
+Copyright (c) 2023 Eclipse contributors and others.
+
+This program and the accompanying materials
+are made available under the terms of the Eclipse Public License 2.0
+which accompanies this distribution, and is available at
+https://www.eclipse.org/legal/epl-2.0/
+
+SPDX-License-Identifier: EPL-2.0
+        </copyright>
+        <license url="https://www.eclipse.org/legal/epl-2.0/"/>
+      </feature>
+      <dependencies>
+        <dependency>
+          <groupId>org.antlr</groupId>
+          <artifactId>antlr-runtime</artifactId>
+          <version>3.5.3</version>
+          <type>jar</type>
+        </dependency>
+      </dependencies>
+      <instructions>
+<!-- SHA1 3785d62dfab3d65fb830dd759206f041ebba4643 -->
+<![CDATA[
+Bundle-Name:            Bundle ${mvnGroupId} : ${mvnArtifactId}
+version:                ${versionmask;===;${version_cleanup;${mvnVersion}}}
+name:                   org.antlr.runtime
+Bundle-SymbolicName:    ${name}
+Bundle-Version:         ${version}.v20230929-1400
+Automatic-Module-Name:  ${name}
+Eclipse-Wrapped-Bundle: ${mvnGroupId}:${mvnArtifactId}:${mvnVersion}
+Import-Package:         *;resolution:=optional
+Export-Package:         *;version="${version}";-noimport:=true
 -noextraheaders:        true
 -removeheaders:         Private-Package
 ]]>
