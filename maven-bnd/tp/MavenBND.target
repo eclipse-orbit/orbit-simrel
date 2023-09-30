@@ -1589,7 +1589,7 @@ Export-Package:         *;version="${version}"
 <!-- _____________________________________________________ org.apache.poi ___________________________________________________________________________________________________-->
 
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
-      <feature id="org.eclipse.orbit.maven.org.apache.poi" label="Orbit Maven BND org.apache.poi" provider-name="Eclipse Orbit" version="4.30.0.v20230929-1000">
+      <feature id="org.eclipse.orbit.maven.org.apache.poi" label="Orbit Maven BND org.apache.poi" provider-name="Eclipse Orbit" version="4.30.0.v20230930-1000">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
 Copyright (c) 2023 Eclipse contributors and others.
@@ -1624,15 +1624,16 @@ SPDX-License-Identifier: EPL-2.0
         </dependency>
       </dependencies>
       <instructions>
-<!-- SHA1 fda6edaf80c4532e2f83b1fec1d3f8aafffe30a1 -->
+<!-- SHA1 a4dfb08db56224bf6fa50bfc1242acad1ad3f692 -->
 <![CDATA[
 Bundle-Name:            Bundle ${mvnGroupId} : ${mvnArtifactId}
 version:                ${versionmask;===;${version_cleanup;${mvnVersion}}}
 base-suffix             ${replacestring;${mvnArtifactId};-;.}
 suffix                  ${replacestring;${base-suffix};lite;schemas}
-Bundle-SymbolicName:    ${mvnGroupId}.${suffix}
-Bundle-Version:         ${version}.v20230929-1000
-Automatic-Module-Name:  ${mvnGroupId}.${suffix}
+name:                   org.apache.${suffix}
+Bundle-SymbolicName:    ${name}
+Bundle-Version:         ${version}.v20230930-1000
+Automatic-Module-Name:  ${name}
 Eclipse-Wrapped-Bundle: ${mvnGroupId}:${mvnArtifactId}:${mvnVersion}
 Import-Package:         *;resolution:=optional
 Export-Package:         *;version="${version}"
