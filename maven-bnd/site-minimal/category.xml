@@ -62,6 +62,8 @@
    <feature id="org.eclipse.orbit.maven.org.codelibs.nekohtml.source"/>
    <feature id="org.eclipse.orbit.maven.org.commonmark"/>
    <feature id="org.eclipse.orbit.maven.org.commonmark.source"/>
+   <feature id="org.eclipse.orbit.maven.org.dom4j"/>
+   <feature id="org.eclipse.orbit.maven.org.dom4j.source"/>
    <feature id="org.eclipse.orbit.maven.org.jdom"/>
    <feature id="org.eclipse.orbit.maven.org.jdom.source"/>
    <feature id="org.eclipse.orbit.maven.xalan"/>

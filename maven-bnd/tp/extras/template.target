@@ -3,7 +3,7 @@
 <target name="template" sequenceNumber="1">
   <locations>
 
-!-- _____________________________________________________ XXXXXXXXXXX ___________________________________________________________________________________________________-->
+<!-- _____________________________________________________ XXXXXXXXXXX ___________________________________________________________________________________________________-->
 
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
       <feature id="org.eclipse.orbit.maven.XXXXXXXXXXX" label="Orbit Maven BND XXXXXXXXXXX" provider-name="Eclipse Orbit" version="4.30.0">

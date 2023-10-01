@@ -1818,6 +1818,52 @@ Export-Package:         *;version="${version}";-noimport:=true
     </location>
 
 
+<!-- _____________________________________________________ org.dom4j ___________________________________________________________________________________________________-->
+
+    <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
+      <feature id="org.eclipse.orbit.maven.org.dom4j" label="Orbit Maven BND org.dom4j" provider-name="Eclipse Orbit" version="4.30.0.v20231001-0922">
+        <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
+        <copyright>
+Copyright (c) 2023 Eclipse contributors and others.
+
+This program and the accompanying materials
+are made available under the terms of the Eclipse Public License 2.0
+which accompanies this distribution, and is available at
+https://www.eclipse.org/legal/epl-2.0/
+
+SPDX-License-Identifier: EPL-2.0
+        </copyright>
+        <license url="https://www.eclipse.org/legal/epl-2.0/"/>
+      </feature>
+      <dependencies>
+        <dependency>
+          <groupId>org.dom4j</groupId>
+          <artifactId>dom4j</artifactId>
+          <version>2.1.4</version>
+          <type>jar</type>
+        </dependency>
+      </dependencies>
+      <instructions>
+<!-- SHA1 fc03e0f7e10b8822a21a146d9ec2d018ca14728b -->
+<![CDATA[
+Bundle-Name:            Bundle ${mvnGroupId} : ${mvnArtifactId}
+version:                ${versionmask;===;${version_cleanup;${mvnVersion}}}
+Bundle-SymbolicName:    ${mvnGroupId}
+Bundle-Version:         ${version}.v20231001-0922
+Automatic-Module-Name:  ${mvnGroupId}
+Eclipse-Wrapped-Bundle: ${mvnGroupId}:${mvnArtifactId}:${mvnVersion}
+Import-Package:         com.sun.msv*|javax.swing*|org.gjt.xpp*|org.jaxen*|org.relaxng*|org.xmlpull*;version=!;resolution:=optional,\
+                        javax.xml.bind,\
+                        javax.xml*;version=!,\
+                        *
+Export-Package:         *;version="${version}"
+-noextraheaders:        true
+-removeheaders:         Private-Package
+]]>
+      </instructions>
+    </location>
+
+
 <!-- ______________________________________________________ EXCLUDE __________________________________________________________________________________________________-->
 
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
@@ -2235,6 +2281,12 @@ SPDX-License-Identifier: EPL-2.0
           <type>jar</type>
         </dependency>
 
+        <dependency>
+          <groupId>jakarta.xml.bind</groupId>
+          <artifactId>jakarta.xml.bind-api</artifactId>
+          <version>2.3.3</version>
+          <type>jar</type>
+        </dependency>
       </dependencies>
     </location>
 
