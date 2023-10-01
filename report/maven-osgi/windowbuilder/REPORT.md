@@ -2,7 +2,7 @@
 
 ## Minor Updates
  - [commons-io](https://repo1.maven.org/maven2/commons-io/)
-    - [commons-io](https://repo1.maven.org/maven2/commons-io/commons-io/) **[2.12.0](https://repo1.maven.org/maven2/commons-io/commons-io/2.12.0)** < [2.13.0](https://repo1.maven.org/maven2/commons-io/commons-io/2.13.0/)
+    - [commons-io](https://repo1.maven.org/maven2/commons-io/commons-io/) **[2.13.0](https://repo1.maven.org/maven2/commons-io/commons-io/2.13.0)** < [2.14.0](https://repo1.maven.org/maven2/commons-io/commons-io/2.14.0/)
 
 ## Updates Applied
 [updated.target](updated.target)
@@ -11,7 +11,7 @@
  - [commons-beanutils](https://repo1.maven.org/maven2/commons-beanutils/)
     - [commons-beanutils](https://repo1.maven.org/maven2/commons-beanutils/commons-beanutils/) **[1.9.4](https://repo1.maven.org/maven2/commons-beanutils/commons-beanutils/1.9.4)**
  - [commons-io](https://repo1.maven.org/maven2/commons-io/)
-    - [commons-io](https://repo1.maven.org/maven2/commons-io/commons-io/) **[2.12.0](https://repo1.maven.org/maven2/commons-io/commons-io/2.12.0)**
+    - [commons-io](https://repo1.maven.org/maven2/commons-io/commons-io/) **[2.13.0](https://repo1.maven.org/maven2/commons-io/commons-io/2.13.0)**
  - [commons-lang](https://repo1.maven.org/maven2/commons-lang/)
     - [commons-lang](https://repo1.maven.org/maven2/commons-lang/commons-lang/) **[2.6](https://repo1.maven.org/maven2/commons-lang/commons-lang/2.6)**
  - [commons-logging](https://repo1.maven.org/maven2/commons-logging/)

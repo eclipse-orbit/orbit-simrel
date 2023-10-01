@@ -27,7 +27,7 @@ supplement=https://raw.githubusercontent.com/eclipse-orbit/orbit-simrel/main/mav
 org.jruby.joni:joni:2.[12].[0-9]+ // Not a bundle
 org.apache.lucene:.*:.* // Not bundle so we use BND
 org.mockito:mockito-inline:.* // Not a bundle
-org.eclipse.jetty:.*:.* // Ignore all Jetty artifacts
+org.eclipse.jetty(.ee[^:]*)?:.*:.* // Ignore all Jetty artifacts
 io.takari.m2e.workspace:org.eclipse.m2e.workspace.cli:.* // This is not generally useful except for m2e
 org.apache.maven.archetype:.*  // Not a bundle
 org.apache.maven.shared:.* // Not a bundle

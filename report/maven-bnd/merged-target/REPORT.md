@@ -82,6 +82,8 @@
     - [commonmark-ext-ins](https://repo1.maven.org/maven2/org/commonmark/commonmark-ext-ins/) **[0.21.0](https://repo1.maven.org/maven2/org/commonmark/commonmark-ext-ins/0.21.0)**
     - [commonmark-ext-task-list-items](https://repo1.maven.org/maven2/org/commonmark/commonmark-ext-task-list-items/) **[0.21.0](https://repo1.maven.org/maven2/org/commonmark/commonmark-ext-task-list-items/0.21.0)**
     - [commonmark-ext-yaml-front-matter](https://repo1.maven.org/maven2/org/commonmark/commonmark-ext-yaml-front-matter/) **[0.21.0](https://repo1.maven.org/maven2/org/commonmark/commonmark-ext-yaml-front-matter/0.21.0)**
+ - [org.dom4j](https://repo1.maven.org/maven2/org/dom4j/)
+    - [dom4j](https://repo1.maven.org/maven2/org/dom4j/dom4j/) **[2.1.4](https://repo1.maven.org/maven2/org/dom4j/dom4j/2.1.4)**
  - [org.eclipse.orbit](https://repo.eclipse.org/content/repositories/orbit-approved-artifacts/org/eclipse/orbit/)
     - [ant](https://repo.eclipse.org/content/repositories/orbit-approved-artifacts/org/eclipse/orbit/ant/) **[1.10.14](https://repo.eclipse.org/content/repositories/orbit-approved-artifacts/org/eclipse/orbit/ant/1.10.14)**
  - [org.hamcrest](https://repo1.maven.org/maven2/org/hamcrest/)
