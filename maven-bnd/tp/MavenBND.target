@@ -1589,7 +1589,7 @@ Export-Package:         *;version="${version}"
 <!-- _____________________________________________________ org.apache.poi ___________________________________________________________________________________________________-->
 
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
-      <feature id="org.eclipse.orbit.maven.org.apache.poi" label="Orbit Maven BND org.apache.poi" provider-name="Eclipse Orbit" version="4.30.0.v20230930-1000">
+      <feature id="org.eclipse.orbit.maven.org.apache.poi" label="Orbit Maven BND org.apache.poi" provider-name="Eclipse Orbit" version="4.30.0.v20231002-0900">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
 Copyright (c) 2023 Eclipse contributors and others.
@@ -1624,7 +1624,7 @@ SPDX-License-Identifier: EPL-2.0
         </dependency>
       </dependencies>
       <instructions>
-<!-- SHA1 a4dfb08db56224bf6fa50bfc1242acad1ad3f692 -->
+<!-- SHA1 a22c34c85e423ed3d85eaf4656486cfa2698f84e -->
 <![CDATA[
 Bundle-Name:            Bundle ${mvnGroupId} : ${mvnArtifactId}
 version:                ${versionmask;===;${version_cleanup;${mvnVersion}}}
@@ -1632,10 +1632,12 @@ base-suffix             ${replacestring;${mvnArtifactId};-;.}
 suffix                  ${replacestring;${base-suffix};lite;schemas}
 name:                   org.apache.${suffix}
 Bundle-SymbolicName:    ${name}
-Bundle-Version:         ${version}.v20230930-1000
+Bundle-Version:         ${version}.v20231002-0900
 Automatic-Module-Name:  ${name}
 Eclipse-Wrapped-Bundle: ${mvnGroupId}:${mvnArtifactId}:${mvnVersion}
-Import-Package:         *;resolution:=optional
+Import-Package:         de.rototor.pdfbox*|org.bouncycastle*|org.apache.pdfbox*|org.apache.xmlgraphics*|org.apache.jcp*|org.apache.xml.security*;resolution:=optional,\
+                        com.microsoft.schemas*|org.openxmlformats.schemas*;resolution:=optional,\
+                        *
 Export-Package:         *;version="${version}"
 -noextraheaders:        true
 -removeheaders:         Private-Package
@@ -2278,6 +2280,34 @@ SPDX-License-Identifier: EPL-2.0
           <groupId>org.apache.commons</groupId>
           <artifactId>commons-lang3</artifactId>
           <version>3.13.0</version>
+          <type>jar</type>
+        </dependency>
+
+        <dependency>
+          <groupId>org.apache.commons</groupId>
+          <artifactId>commons-collections4</artifactId>
+          <version>4.4</version>
+          <type>jar</type>
+        </dependency>
+
+        <dependency>
+          <groupId>org.apache.commons</groupId>
+          <artifactId>commons-math3</artifactId>
+          <version>3.6.1</version>
+          <type>jar</type>
+        </dependency>
+
+        <dependency>
+          <groupId>org.apache.commons</groupId>
+          <artifactId>commons-compress</artifactId>
+          <version>1.24.0</version>
+          <type>jar</type>
+        </dependency>
+
+        <dependency>
+          <groupId>org.apache.logging.log4j</groupId>
+          <artifactId>log4j-api</artifactId>
+          <version>2.20.0</version>
           <type>jar</type>
         </dependency>
 
