@@ -3,12 +3,6 @@
 ## Minor Updates
  - [commons-io](https://repo1.maven.org/maven2/commons-io/)
     - [commons-io](https://repo1.maven.org/maven2/commons-io/commons-io/) **[2.13.0](https://repo1.maven.org/maven2/commons-io/commons-io/2.13.0)** < [2.14.0](https://repo1.maven.org/maven2/commons-io/commons-io/2.14.0/)
- - [org.ow2.asm](https://repo1.maven.org/maven2/org/ow2/asm/)
-    - [asm](https://repo1.maven.org/maven2/org/ow2/asm/asm/) **[9.5](https://repo1.maven.org/maven2/org/ow2/asm/asm/9.5)** < [9.6](https://repo1.maven.org/maven2/org/ow2/asm/asm/9.6/)
-    - [asm-analysis](https://repo1.maven.org/maven2/org/ow2/asm/asm-analysis/) **[9.5](https://repo1.maven.org/maven2/org/ow2/asm/asm-analysis/9.5)** < [9.6](https://repo1.maven.org/maven2/org/ow2/asm/asm-analysis/9.6/)
-    - [asm-commons](https://repo1.maven.org/maven2/org/ow2/asm/asm-commons/) **[9.5](https://repo1.maven.org/maven2/org/ow2/asm/asm-commons/9.5)** < [9.6](https://repo1.maven.org/maven2/org/ow2/asm/asm-commons/9.6/)
-    - [asm-tree](https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/) **[9.5](https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/9.5)** < [9.6](https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/9.6/)
-    - [asm-util](https://repo1.maven.org/maven2/org/ow2/asm/asm-util/) **[9.5](https://repo1.maven.org/maven2/org/ow2/asm/asm-util/9.5)** < [9.6](https://repo1.maven.org/maven2/org/ow2/asm/asm-util/9.6/)
 
 ## Major Updates
  - [jakarta.el](https://repo1.maven.org/maven2/jakarta/el/)
