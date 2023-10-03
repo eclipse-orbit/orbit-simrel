@@ -86,7 +86,7 @@ SPDX-License-Identifier: EPL-2.0
                 -mapping maven-bnd->Maven-BND
                 -favicon https://eclipseide.org/favicon.ico
                 -simrel-alias
-                -maven-wrapped-mapping org.eclipse.orbit:ant:(.*)->org.apache.ant:ant:$1
+                -maven-wrapped-mapping org.eclipse.orbit:ant:(.*)
                 ${org.eclipse.justj.p2.manager.extra.args}
               </appArgLine>
             </configuration>
