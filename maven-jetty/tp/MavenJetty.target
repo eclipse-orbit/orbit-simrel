@@ -787,7 +787,7 @@ SPDX-License-Identifier: EPL-2.0
 <!-- _______________________________________________________ Jetty Dependencies - EXCLUDE _________________________________________________________________________________________________-->
 
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="error" type="Maven">
-      <feature id="org.eclipse.orbit.maven.jetty.depenencies exclude" label="Orbit Maven Jetty All Dependencies (excluded because they are only for resolution validation)" provider-name="Eclipse Orbit" version="4.30.0">
+      <feature id="org.eclipse.orbit.maven.jetty.dependencies.exclude" label="Orbit Maven Jetty All Dependencies (excluded because they are only for resolution validation)" provider-name="Eclipse Orbit" version="4.30.0">
         <description>This feature's dependencies are pulled directly from Maven central.</description>
         <copyright>
 Copyright (c) 2023 Eclipse contributors and others.
