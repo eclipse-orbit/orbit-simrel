@@ -1,0 +1,25 @@
+// These are all the targets that we want to analyze and to aggregate into our composite target.
+//
+-targets
+
+// These is the target platform specified BOMs which we analyze to produce a target platform of the dependencies.
+// This is in our own Git repository so we have a redirection that ensures we analyze the local copy and not the remote copy.
+//
+jetty-bom=https://raw.githubusercontent.com/eclipse-orbit/orbit-simrel/main/maven-jetty/tp/other/MavenJettySupplement.target
+
+
+// These are dependencies we wish to exclude.
+// I.e., some of these are not bundles, some depend on jdk incubator features, and BOMs are only for analysis.
+//
+-exclude
+org.eclipse.jetty(.ee[^:]*|.quic|.demos)?:(jetty-http-tools|jetty-ee[0-9]+-runner|jetty-quic-quiche-foreign-incubator|jetty-demo-handler|.*-bom|.*-maven-plugin):.* // Ignore Jetty artifacts that are not bundles
+
+
+// There are dependencies for which we want to update to major versions automatically because these provides mostly only increment to major versions.
+//
+-include-major
+
+
+// These are update versions to which we don't wish to update.
+//
+-ignore

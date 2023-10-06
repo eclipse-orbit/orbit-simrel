@@ -31,6 +31,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Objects;
+import java.util.Set;
 import java.util.TreeMap;
 import java.util.TreeSet;
 import java.util.regex.Matcher;
@@ -118,6 +119,8 @@ public class DependencyAnalyzer {
 			dependencies.addAll(analyzer.getTargetDependencies(uri));
 		}
 
+		dependencies.addAll(analyzer.getBOMDependencies(dependencies));
+
 		if (reporter.reportRoot != null) {
 			var readme = reporter.reportRoot.resolve("../README.md");
 			if (Files.isRegularFile(readme)) {
@@ -177,12 +180,24 @@ public class DependencyAnalyzer {
 			dependencyUpdates.putAll(allUpdateVersions);
 
 			var reducedMavenTarget = update ? mavenTargetContent
-					: mavenTargetContent.replaceAll("(?s)(<dependencies>).*?(\r?\n[\t ]+</dependencies>)", "$1$2");
+					: mavenTargetContent.replaceFirst("(?s)(<dependencies>).*?(\r?\n[\t ]+</dependencies>)", "$1$2");
 			var newMavenContent = replace(reducedMavenTarget, dependencyUpdates, true, !update, majorInclusionPatterns);
 			writeString(mavenTarget, newMavenContent);
 
 			reporter.generateReport(contentHandler, analyzer, MERGED_TARGET_NAME,
 					mergeURI == null ? mavenTarget.toUri() : createURI(mergeURI), majorInclusionPatterns);
+
+			// This analyzes all the dependencies and updates, but does so after the report for the non-excluded content has been generated.
+			if (getBooleanArgument(arguments, "-update-merge")) {
+				dependencies.addAll(analyzer.getTargetDependencies(mavenTarget.toUri()));
+				var targetDependencies = analyzer.getTargetDependencies(mavenTarget.toUri(), null);
+				var targetDependencyVersions = analyzer.getAllUpdateVersions(targetDependencies);
+
+				mavenTargetContent = contentHandler.getContent(mavenTarget.toUri());
+				var newContent = replace(mavenTargetContent, targetDependencyVersions, true, false,
+						majorInclusionPatterns);
+				writeString(mavenTarget, newContent);
+			}
 		}
 	}
 
@@ -524,6 +539,28 @@ public class DependencyAnalyzer {
 			return dependencies;
 		}
 
+		public Set<Dependency> getBOMDependencies(Collection<? extends Dependency> dependencies) throws IOException {
+			var result = new TreeSet<Dependency>();
+			for (var dependency : dependencies) {
+				if ("pom".equals(dependency.type)) {
+					URI pomURI = dependency.getPOMURI();
+					Document xmlDocument = contentHandler.getXMLContent(pomURI);
+					var bomDependencies = evaluate(xmlDocument, "//*[local-name()='dependency']");
+					for (var mavenDependency : bomDependencies) {
+						var groupId = getText(mavenDependency, "groupId");
+						var artifactId = getText(mavenDependency, "artifactId");
+						var version = getText(mavenDependency, "version");
+						var actualVersion = new Version(version);
+						var type = getText(mavenDependency, "type");
+						var classifier = getText(mavenDependency, "classifier");
+						result.add(new Dependency(groupId, artifactId, type == null ? "jar" : type, actualVersion,
+								classifier));
+					}
+				}
+			}
+			return result;
+		}
+
 		public Map<Dependency, List<Version>> getAllUpdateVersions(Collection<? extends Dependency> dependencies)
 				throws IOException {
 			var result = new TreeMap<Dependency, List<Version>>();
@@ -764,6 +801,10 @@ public class DependencyAnalyzer {
 
 		public URI getVersionFolderURI() {
 			return URI.create(getArtifactFolderURI() + version.toString());
+		}
+
+		public URI getPOMURI() {
+			return URI.create(getVersionFolderURI() + "/" + artifactId + "-" + version + ".pom");
 		}
 
 		public Dependency create(Version version) {

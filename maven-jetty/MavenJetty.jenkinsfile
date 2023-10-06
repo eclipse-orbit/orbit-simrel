@@ -1,0 +1,130 @@
+pipeline {
+  agent any
+
+   options {
+    buildDiscarder(logRotator(numToKeepStr: '10'))
+    disableConcurrentBuilds()
+    skipDefaultCheckout true
+  }
+
+  tools {
+    maven 'apache-maven-latest'
+    jdk 'temurin-jdk17-latest'
+  }
+
+  environment {
+    PUBLISH_LOCATION = 'simrel/maven-jetty'
+  }
+
+  parameters {
+    choice(
+      name: 'BUILD_TYPE',
+      choices: ['nightly', 'milestone', 'release'],
+      description: '''
+        Choose the type of build.
+        Note that a release build will not promote the build, but rather will promote the most recent milestone build.
+        '''
+    )
+
+    booleanParam(
+      name: 'PROMOTE',
+      defaultValue: true,
+      description: 'Whether to promote the build to the download server.'
+    )
+  }
+
+  stages {
+    stage('Display Parameters') {
+      steps {
+        echo """
+BUILD_TYPE=${params.BUILD_TYPE}
+PROMOTE=${params.PROMOTE}
+          """
+        script {
+          env.PROMOTE = params.PROMOTE
+          env.BUILD_TYPE = params.BUILD_TYPE
+        }
+      }
+    }
+
+    stage('Git Checkout') {
+      steps {
+        script {
+          def gitVariables = checkout(
+            poll: false,
+            scm: [
+              $class: 'GitSCM',
+              branches: [[name: '*/main']],
+              doGenerateSubmoduleConfigurations: false,
+              submoduleCfg: [],
+              extensions: [
+                [$class: 'CloneOption', shallow: true],
+                [$class: 'SparseCheckoutPaths', sparseCheckoutPaths:[[$class:'SparseCheckoutPath', path:'maven-jetty/']]]
+              ],
+              userRemoteConfigs: [[url: 'https://github.com/eclipse-orbit/orbit-simrel.git' ]]
+            ]
+          )
+
+          echo "$gitVariables"
+          env.GIT_COMMIT = gitVariables.GIT_COMMIT
+        }
+      }
+    }
+
+    stage('Build Orbit Maven Jetty') {
+      steps {
+        sshagent(['projects-storage.eclipse.org-bot-ssh']) {
+          dir('maven-jetty') {
+            withCredentials([
+                string(credentialsId: 'gitlab-api-token', variable: 'GITLAB_API_TOKEN'), 
+                file(credentialsId: 'secret-subkeys.asc', variable: 'KEYRING'),
+                string(credentialsId: 'gpg-passphrase', variable: 'KEYRING_PASSPHRASE') 
+              ]) {
+
+              sh '''
+                if [[ $PROMOTE == false ]]; then
+                  promotion_argument='-Dorg.eclipse.justj.p2.manager.args='
+                fi
+                mvn \
+                  --no-transfer-progress \
+                  $promotion_argument \
+                  -Pgpg-sign \
+                  -Dgpg.passphrase="${KEYRING_PASSPHRASE}" \
+                  -Dtycho.pgp.signer.bc.secretKeys="${KEYRING}" \
+                  -Dorg.eclipse.justj.p2.manager.build.url=$JOB_URL \
+                  -Dorg.eclipse.justj.p2.manager.relative=$PUBLISH_LOCATION \
+                  -Dgit.commit=$GIT_COMMIT \
+                  -Dbuild.id=$BUILD_NUMBER \
+                  -Dbuild.type=$BUILD_TYPE \
+                  -Dtycho.target.eager=true \
+                  clean \
+                  verify
+                '''
+            }
+          }
+        }
+      }
+    }
+  }
+
+  post {
+    failure {
+      archiveArtifacts 'maven-jetty/**'
+      mail to: 'ed.merks@gmail.com',
+      subject: "[Orbit CI] Build Failure ${currentBuild.fullDisplayName}",
+      mimeType: 'text/html',
+      body: "Project: ${env.JOB_NAME}<br/>Build Number: ${env.BUILD_NUMBER}<br/>Build URL: ${env.BUILD_URL}<br/>Console: ${env.BUILD_URL}/console"
+    }
+
+    fixed {
+      mail to: 'ed.merks@gmail.com',
+      subject: "[Orbit CI] Back to normal ${currentBuild.fullDisplayName}",
+      mimeType: 'text/html',
+      body: "Project: ${env.JOB_NAME}<br/>Build Number: ${env.BUILD_NUMBER}<br/>Build URL: ${env.BUILD_URL}<br/>Console: ${env.BUILD_URL}/console"
+    }
+
+    cleanup {
+      deleteDir()
+    }
+  }
+}

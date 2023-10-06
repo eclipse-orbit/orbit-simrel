@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?pde version="3.8"?>
+<target name="MavenJettySupplement" sequenceNumber="1">
+  <locations>
+    <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="error" type="Maven">
+      <dependencies>
+        <dependency>
+          <groupId>org.eclipse.jetty</groupId>
+          <artifactId>jetty-bom</artifactId>
+          <version>12.0.1</version>
+          <type>pom</type>
+        </dependency>
+
+        <dependency>
+          <groupId>org.eclipse.jetty.ee8</groupId>
+          <artifactId>jetty-ee8-bom</artifactId>
+          <version>12.0.1</version>
+          <type>pom</type>
+        </dependency>
+
+        <dependency>
+          <groupId>org.eclipse.jetty.ee9</groupId>
+          <artifactId>jetty-ee9-bom</artifactId>
+          <version>12.0.1</version>
+          <type>pom</type>
+        </dependency>
+
+        <dependency>
+          <groupId>org.eclipse.jetty.ee9</groupId>
+          <artifactId>jetty-ee9-bom</artifactId>
+          <version>12.0.1</version>
+          <type>pom</type>
+        </dependency>
+
+        <dependency>
+          <groupId>org.eclipse.jetty.ee10</groupId>
+          <artifactId>jetty-ee10-bom</artifactId>
+          <version>12.0.1</version>
+          <type>pom</type>
+        </dependency>
+      </dependencies>
+    </location>
+  </locations>
+</target>
