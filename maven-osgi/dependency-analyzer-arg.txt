@@ -20,6 +20,9 @@ mylyn-docs=https://raw.githubusercontent.com/eclipse-mylyn/org.eclipse.mylyn.doc
 //
 supplement=https://raw.githubusercontent.com/eclipse-orbit/orbit-simrel/main/maven-osgi/tp/other/MavenSupplement.target
 
+// One can strip the MavenJetty.target of the jetty section leaving only the dependencies section and merge it to see if there is something missing from MavenSupplement.target 
+// missing=file:/D:/Users/merks/orbit-simrel/git/orbit-simrel/maven-jetty/tp/MavenJetty.target
+
 
 // These are dependencies we wish to ignore for various documented reasons.
 //
