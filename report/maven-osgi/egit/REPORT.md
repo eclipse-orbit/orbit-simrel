@@ -16,6 +16,8 @@
     - [jetty-servlet](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-servlet/) **[10.0.15](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-servlet/10.0.15)** < [10.0.16](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-servlet/10.0.16/)
     - [jetty-util](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/) **[10.0.15](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/10.0.15)** < [10.0.16](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/10.0.16/)
     - [jetty-util-ajax](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util-ajax/) **[10.0.15](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util-ajax/10.0.15)** < [10.0.16](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util-ajax/10.0.16/)
+ - [org.mockito](https://repo1.maven.org/maven2/org/mockito/)
+    - [mockito-core](https://repo1.maven.org/maven2/org/mockito/mockito-core/) **[5.5.0](https://repo1.maven.org/maven2/org/mockito/mockito-core/5.5.0)** < [5.6.0](https://repo1.maven.org/maven2/org/mockito/mockito-core/5.6.0/)
 
 ## Major Updates
  - [jakarta.servlet](https://repo1.maven.org/maven2/jakarta/servlet/)

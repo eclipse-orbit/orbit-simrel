@@ -4,6 +4,8 @@
  - [net.bytebuddy](https://repo1.maven.org/maven2/net/bytebuddy/)
     - [byte-buddy](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/) **[1.14.7](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.14.7)** < [1.14.8](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.14.8/)
     - [byte-buddy-agent](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/) **[1.14.7](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.14.7)** < [1.14.8](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.14.8/)
+ - [org.mockito](https://repo1.maven.org/maven2/org/mockito/)
+    - [mockito-core](https://repo1.maven.org/maven2/org/mockito/mockito-core/) **[5.5.0](https://repo1.maven.org/maven2/org/mockito/mockito-core/5.5.0)** < [5.6.0](https://repo1.maven.org/maven2/org/mockito/mockito-core/5.6.0/)
 
 ## Updates Applied
 [updated.target](updated.target)

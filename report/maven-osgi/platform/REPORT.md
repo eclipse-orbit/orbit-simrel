@@ -3,6 +3,8 @@
 ## Minor Updates
  - [commons-io](https://repo1.maven.org/maven2/commons-io/)
     - [commons-io](https://repo1.maven.org/maven2/commons-io/commons-io/) **[2.13.0](https://repo1.maven.org/maven2/commons-io/commons-io/2.13.0)** < [2.14.0](https://repo1.maven.org/maven2/commons-io/commons-io/2.14.0/)
+ - [org.mockito](https://repo1.maven.org/maven2/org/mockito/)
+    - [mockito-core](https://repo1.maven.org/maven2/org/mockito/mockito-core/) **[5.5.0](https://repo1.maven.org/maven2/org/mockito/mockito-core/5.5.0)** < [5.6.0](https://repo1.maven.org/maven2/org/mockito/mockito-core/5.6.0/)
 
 ## Major Updates
  - [biz.aQute.bnd](https://repo1.maven.org/maven2/biz/aQute/bnd/)
