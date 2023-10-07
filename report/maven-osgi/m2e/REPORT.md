@@ -1,16 +1,13 @@
 # Target Platform: [m2e](https://raw.githubusercontent.com/eclipse-m2e/m2e-core/master/target-platform/target-platform.target)
 
 ## Major Updates
- - [biz.aQute.bnd](https://repo1.maven.org/maven2/biz/aQute/bnd/)
-    - [biz.aQute.bnd.util](https://repo1.maven.org/maven2/biz/aQute/bnd/biz.aQute.bnd.util/) **[6.4.1](https://repo1.maven.org/maven2/biz/aQute/bnd/biz.aQute.bnd.util/6.4.1)** < [7.0.0](https://repo1.maven.org/maven2/biz/aQute/bnd/biz.aQute.bnd.util/7.0.0/)
-    - [biz.aQute.bndlib](https://repo1.maven.org/maven2/biz/aQute/bnd/biz.aQute.bndlib/) **[6.4.1](https://repo1.maven.org/maven2/biz/aQute/bnd/biz.aQute.bndlib/6.4.1)** < [7.0.0](https://repo1.maven.org/maven2/biz/aQute/bnd/biz.aQute.bndlib/7.0.0/)
  - [jakarta.servlet](https://repo1.maven.org/maven2/jakarta/servlet/)
     - [jakarta.servlet-api](https://repo1.maven.org/maven2/jakarta/servlet/jakarta.servlet-api/) **[5.0.0](https://repo1.maven.org/maven2/jakarta/servlet/jakarta.servlet-api/5.0.0)** < [6.0.0](https://repo1.maven.org/maven2/jakarta/servlet/jakarta.servlet-api/6.0.0/)
 
 ## Content
  - [biz.aQute.bnd](https://repo1.maven.org/maven2/biz/aQute/bnd/)
-    - [biz.aQute.bnd.util](https://repo1.maven.org/maven2/biz/aQute/bnd/biz.aQute.bnd.util/) **[6.4.1](https://repo1.maven.org/maven2/biz/aQute/bnd/biz.aQute.bnd.util/6.4.1)**
-    - [biz.aQute.bndlib](https://repo1.maven.org/maven2/biz/aQute/bnd/biz.aQute.bndlib/) **[6.4.1](https://repo1.maven.org/maven2/biz/aQute/bnd/biz.aQute.bndlib/6.4.1)**
+    - [biz.aQute.bnd.util](https://repo1.maven.org/maven2/biz/aQute/bnd/biz.aQute.bnd.util/) **[7.0.0](https://repo1.maven.org/maven2/biz/aQute/bnd/biz.aQute.bnd.util/7.0.0)**
+    - [biz.aQute.bndlib](https://repo1.maven.org/maven2/biz/aQute/bnd/biz.aQute.bndlib/) **[7.0.0](https://repo1.maven.org/maven2/biz/aQute/bnd/biz.aQute.bndlib/7.0.0)**
  - [ch.qos.logback](https://repo1.maven.org/maven2/ch/qos/logback/)
     - [logback-classic](https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/) **[1.4.11](https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.4.11)**
  - [com.google.code.gson](https://repo1.maven.org/maven2/com/google/code/gson/)

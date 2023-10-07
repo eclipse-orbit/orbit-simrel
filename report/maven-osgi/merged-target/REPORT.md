@@ -1,12 +1,6 @@
 # Target Platform: [merged-target](https://github.com/eclipse-orbit/orbit-simrel/blob/main/maven-osgi/tp/Maven.target)
 
 ## Major Updates
- - [biz.aQute.bnd](https://repo1.maven.org/maven2/biz/aQute/bnd/)
-    - [biz.aQute.bnd.annotation](https://repo1.maven.org/maven2/biz/aQute/bnd/biz.aQute.bnd.annotation/) **[6.4.1](https://repo1.maven.org/maven2/biz/aQute/bnd/biz.aQute.bnd.annotation/6.4.1)** < [7.0.0](https://repo1.maven.org/maven2/biz/aQute/bnd/biz.aQute.bnd.annotation/7.0.0/)
-    - [biz.aQute.bnd.embedded-repo](https://repo1.maven.org/maven2/biz/aQute/bnd/biz.aQute.bnd.embedded-repo/) **[6.4.1](https://repo1.maven.org/maven2/biz/aQute/bnd/biz.aQute.bnd.embedded-repo/6.4.1)** < [7.0.0](https://repo1.maven.org/maven2/biz/aQute/bnd/biz.aQute.bnd.embedded-repo/7.0.0/)
-    - [biz.aQute.bnd.util](https://repo1.maven.org/maven2/biz/aQute/bnd/biz.aQute.bnd.util/) **[6.4.1](https://repo1.maven.org/maven2/biz/aQute/bnd/biz.aQute.bnd.util/6.4.1)** < [7.0.0](https://repo1.maven.org/maven2/biz/aQute/bnd/biz.aQute.bnd.util/7.0.0/)
-    - [biz.aQute.bndlib](https://repo1.maven.org/maven2/biz/aQute/bnd/biz.aQute.bndlib/) **[6.4.1](https://repo1.maven.org/maven2/biz/aQute/bnd/biz.aQute.bndlib/6.4.1)** < [7.0.0](https://repo1.maven.org/maven2/biz/aQute/bnd/biz.aQute.bndlib/7.0.0/)
-    - [biz.aQute.repository](https://repo1.maven.org/maven2/biz/aQute/bnd/biz.aQute.repository/) **[6.4.1](https://repo1.maven.org/maven2/biz/aQute/bnd/biz.aQute.repository/6.4.1)** < [7.0.0](https://repo1.maven.org/maven2/biz/aQute/bnd/biz.aQute.repository/7.0.0/)
  - [com.sun.xml.bind](https://repo1.maven.org/maven2/com/sun/xml/bind/)
     - [jaxb-osgi](https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-osgi/) **[2.3.8](https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-osgi/2.3.8)** < [4.0.3](https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-osgi/4.0.3/)
  - [jakarta.ejb](https://repo1.maven.org/maven2/jakarta/ejb/)
@@ -58,11 +52,11 @@
  - [args4j](https://repo1.maven.org/maven2/args4j/)
     - [args4j](https://repo1.maven.org/maven2/args4j/args4j/) **[2.33](https://repo1.maven.org/maven2/args4j/args4j/2.33)**
  - [biz.aQute.bnd](https://repo1.maven.org/maven2/biz/aQute/bnd/)
-    - [biz.aQute.bnd.annotation](https://repo1.maven.org/maven2/biz/aQute/bnd/biz.aQute.bnd.annotation/) **[6.4.1](https://repo1.maven.org/maven2/biz/aQute/bnd/biz.aQute.bnd.annotation/6.4.1)**
-    - [biz.aQute.bnd.embedded-repo](https://repo1.maven.org/maven2/biz/aQute/bnd/biz.aQute.bnd.embedded-repo/) **[6.4.1](https://repo1.maven.org/maven2/biz/aQute/bnd/biz.aQute.bnd.embedded-repo/6.4.1)**
-    - [biz.aQute.bnd.util](https://repo1.maven.org/maven2/biz/aQute/bnd/biz.aQute.bnd.util/) **[6.4.1](https://repo1.maven.org/maven2/biz/aQute/bnd/biz.aQute.bnd.util/6.4.1)**
-    - [biz.aQute.bndlib](https://repo1.maven.org/maven2/biz/aQute/bnd/biz.aQute.bndlib/) **[6.4.1](https://repo1.maven.org/maven2/biz/aQute/bnd/biz.aQute.bndlib/6.4.1)**
-    - [biz.aQute.repository](https://repo1.maven.org/maven2/biz/aQute/bnd/biz.aQute.repository/) **[6.4.1](https://repo1.maven.org/maven2/biz/aQute/bnd/biz.aQute.repository/6.4.1)**
+    - [biz.aQute.bnd.annotation](https://repo1.maven.org/maven2/biz/aQute/bnd/biz.aQute.bnd.annotation/) **[7.0.0](https://repo1.maven.org/maven2/biz/aQute/bnd/biz.aQute.bnd.annotation/7.0.0)**
+    - [biz.aQute.bnd.embedded-repo](https://repo1.maven.org/maven2/biz/aQute/bnd/biz.aQute.bnd.embedded-repo/) **[7.0.0](https://repo1.maven.org/maven2/biz/aQute/bnd/biz.aQute.bnd.embedded-repo/7.0.0)**
+    - [biz.aQute.bnd.util](https://repo1.maven.org/maven2/biz/aQute/bnd/biz.aQute.bnd.util/) **[7.0.0](https://repo1.maven.org/maven2/biz/aQute/bnd/biz.aQute.bnd.util/7.0.0)**
+    - [biz.aQute.bndlib](https://repo1.maven.org/maven2/biz/aQute/bnd/biz.aQute.bndlib/) **[7.0.0](https://repo1.maven.org/maven2/biz/aQute/bnd/biz.aQute.bndlib/7.0.0)**
+    - [biz.aQute.repository](https://repo1.maven.org/maven2/biz/aQute/bnd/biz.aQute.repository/) **[7.0.0](https://repo1.maven.org/maven2/biz/aQute/bnd/biz.aQute.repository/7.0.0)**
  - [ch.qos.logback](https://repo1.maven.org/maven2/ch/qos/logback/)
     - [logback-classic](https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/) **[1.4.11](https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.4.11)**
     - [logback-core](https://repo1.maven.org/maven2/ch/qos/logback/logback-core/) **[1.4.11](https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.4.11)**
