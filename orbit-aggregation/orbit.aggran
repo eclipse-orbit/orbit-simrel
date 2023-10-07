@@ -13,7 +13,5 @@
   <contribution
       contribution="orbit.aggr#//@validationSets[label='orbit']/@contributions[label='orbit-legacy']"/>
   <contribution
-      contribution="orbit.aggr#//@validationSets[label='orbit']/@contributions[label='orbit']"/>
-  <contribution
       contribution="orbit.aggr#//@validationSets[label='orbit']/@contributions[label='platform']"/>
 </analyzer:Analysis>
