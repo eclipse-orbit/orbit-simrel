@@ -151,4 +151,7 @@
     - [org.osgi.framework](https://repo1.maven.org/maven2/org/osgi/org.osgi.framework/) **[1.10.0](https://repo1.maven.org/maven2/org/osgi/org.osgi.framework/1.10.0)**
     - [org.osgi.resource](https://repo1.maven.org/maven2/org/osgi/org.osgi.resource/) **[1.0.1](https://repo1.maven.org/maven2/org/osgi/org.osgi.resource/1.0.1)**
     - [org.osgi.service.log](https://repo1.maven.org/maven2/org/osgi/org.osgi.service.log/) **[1.5.0](https://repo1.maven.org/maven2/org/osgi/org.osgi.service.log/1.5.0)**
+    - [org.osgi.service.packageadmin](https://repo1.maven.org/maven2/org/osgi/org.osgi.service.packageadmin/) **[1.2.1](https://repo1.maven.org/maven2/org/osgi/org.osgi.service.packageadmin/1.2.1)**
+    - [org.osgi.service.startlevel](https://repo1.maven.org/maven2/org/osgi/org.osgi.service.startlevel/) **[1.1.1](https://repo1.maven.org/maven2/org/osgi/org.osgi.service.startlevel/1.1.1)**
+    - [org.osgi.service.url](https://repo1.maven.org/maven2/org/osgi/org.osgi.service.url/) **[1.0.1](https://repo1.maven.org/maven2/org/osgi/org.osgi.service.url/1.0.1)**
     - [org.osgi.util.tracker](https://repo1.maven.org/maven2/org/osgi/org.osgi.util.tracker/) **[1.5.4](https://repo1.maven.org/maven2/org/osgi/org.osgi.util.tracker/1.5.4)**

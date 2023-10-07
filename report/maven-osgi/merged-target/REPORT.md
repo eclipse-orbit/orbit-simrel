@@ -332,10 +332,13 @@
     - [org.osgi.service.log.stream](https://repo1.maven.org/maven2/org/osgi/org.osgi.service.log.stream/) **[1.0.0](https://repo1.maven.org/maven2/org/osgi/org.osgi.service.log.stream/1.0.0)**
     - [org.osgi.service.metatype](https://repo1.maven.org/maven2/org/osgi/org.osgi.service.metatype/) **[1.4.1](https://repo1.maven.org/maven2/org/osgi/org.osgi.service.metatype/1.4.1)**
     - [org.osgi.service.metatype.annotations](https://repo1.maven.org/maven2/org/osgi/org.osgi.service.metatype.annotations/) **[1.4.1](https://repo1.maven.org/maven2/org/osgi/org.osgi.service.metatype.annotations/1.4.1)**
+    - [org.osgi.service.packageadmin](https://repo1.maven.org/maven2/org/osgi/org.osgi.service.packageadmin/) **[1.2.1](https://repo1.maven.org/maven2/org/osgi/org.osgi.service.packageadmin/1.2.1)**
     - [org.osgi.service.prefs](https://repo1.maven.org/maven2/org/osgi/org.osgi.service.prefs/) **[1.1.2](https://repo1.maven.org/maven2/org/osgi/org.osgi.service.prefs/1.1.2)**
     - [org.osgi.service.provisioning](https://repo1.maven.org/maven2/org/osgi/org.osgi.service.provisioning/) **[1.2.0](https://repo1.maven.org/maven2/org/osgi/org.osgi.service.provisioning/1.2.0)**
     - [org.osgi.service.repository](https://repo1.maven.org/maven2/org/osgi/org.osgi.service.repository/) **[1.1.0](https://repo1.maven.org/maven2/org/osgi/org.osgi.service.repository/1.1.0)**
+    - [org.osgi.service.startlevel](https://repo1.maven.org/maven2/org/osgi/org.osgi.service.startlevel/) **[1.1.1](https://repo1.maven.org/maven2/org/osgi/org.osgi.service.startlevel/1.1.1)**
     - [org.osgi.service.upnp](https://repo1.maven.org/maven2/org/osgi/org.osgi.service.upnp/) **[1.2.1](https://repo1.maven.org/maven2/org/osgi/org.osgi.service.upnp/1.2.1)**
+    - [org.osgi.service.url](https://repo1.maven.org/maven2/org/osgi/org.osgi.service.url/) **[1.0.1](https://repo1.maven.org/maven2/org/osgi/org.osgi.service.url/1.0.1)**
     - [org.osgi.service.useradmin](https://repo1.maven.org/maven2/org/osgi/org.osgi.service.useradmin/) **[1.1.1](https://repo1.maven.org/maven2/org/osgi/org.osgi.service.useradmin/1.1.1)**
     - [org.osgi.service.wireadmin](https://repo1.maven.org/maven2/org/osgi/org.osgi.service.wireadmin/) **[1.0.2](https://repo1.maven.org/maven2/org/osgi/org.osgi.service.wireadmin/1.0.2)**
     - [org.osgi.util.function](https://repo1.maven.org/maven2/org/osgi/org.osgi.util.function/) **[1.2.0](https://repo1.maven.org/maven2/org/osgi/org.osgi.util.function/1.2.0)**

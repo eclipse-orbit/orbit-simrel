@@ -1152,6 +1152,12 @@ SPDX-License-Identifier: EPL-2.0
         </dependency>
         <dependency>
           <groupId>org.osgi</groupId>
+          <artifactId>org.osgi.service.packageadmin</artifactId>
+          <version>1.2.1</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>org.osgi</groupId>
           <artifactId>org.osgi.service.prefs</artifactId>
           <version>1.1.2</version>
           <type>jar</type>
@@ -1170,6 +1176,12 @@ SPDX-License-Identifier: EPL-2.0
         </dependency>
         <dependency>
           <groupId>org.osgi</groupId>
+          <artifactId>org.osgi.service.startlevel</artifactId>
+          <version>1.1.1</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>org.osgi</groupId>
           <artifactId>org.osgi.service.upnp</artifactId>
           <version>1.2.1</version>
           <type>jar</type>
@@ -1184,6 +1196,12 @@ SPDX-License-Identifier: EPL-2.0
           <groupId>org.osgi</groupId>
           <artifactId>org.osgi.service.wireadmin</artifactId>
           <version>1.0.2</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>org.osgi</groupId>
+          <artifactId>org.osgi.service.url</artifactId>
+          <version>1.0.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
