@@ -425,27 +425,39 @@
   </setupTask>
   <setupTask
       xsi:type="setup:StringSubstitutionTask"
+      name="org.eclipse.cbi.p2repo.orbit-aggregation"
+      value="${github.clone.orbit.simrel.location|uri}/orbit-aggregation/target/repository/final">
+    <description>The location of the locally built orbit-aggregation repository</description>
+  </setupTask>
+  <setupTask
+      xsi:type="setup:StringSubstitutionTask"
+      name="org.eclipse.cbi.p2repo.maven-jetty"
+      value="${github.clone.orbit.simrel.location|uri}/maven-jetty/site-minimal/target/repository">
+    <description>The location of the locally built maven-jetty repository</description>
+  </setupTask>
+  <setupTask
+      xsi:type="setup:StringSubstitutionTask"
       name="org.eclipse.cbi.p2repo.maven-osgi"
       value="${github.clone.orbit.simrel.location|uri}/maven-osgi/site-minimal/target/repository">
-    <description>The location of the locally buit maven-osgi repository</description>
+    <description>The location of the locally built maven-osgi repository</description>
   </setupTask>
   <setupTask
       xsi:type="setup:StringSubstitutionTask"
       name="org.eclipse.cbi.p2repo.maven-bnd"
       value="${github.clone.orbit.simrel.location|uri}/maven-bnd/site-minimal/target/repository">
-    <description>The location of the locally buit maven-bnd repository</description>
+    <description>The location of the locally built maven-bnd repository</description>
   </setupTask>
   <setupTask
       xsi:type="setup:StringSubstitutionTask"
       name="org.eclipse.cbi.p2repo.maven-sign"
       value="${github.clone.orbit.simrel.location|uri}/maven-sign/site-signed/target/repository">
-    <description>The location of the locally buit mavensign repository</description>
+    <description>The location of the locally built maven-sign repository</description>
   </setupTask>
   <setupTask
       xsi:type="setup:StringSubstitutionTask"
       name="org.eclipse.cbi.p2repo.orbit-legacy"
       value="${github.clone.orbit.legacy.location|uri}/site/target/repository">
-    <description>The location of the locally buit orbit-legacy repository</description>
+    <description>The location of the locally built orbit-legacy repository</description>
   </setupTask>
   <stream name="main"
       label="Main"/>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<analyzer:Analysis
+    xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:analyzer="https://www.eclipse.org/cbi/p2repo/2021/aggregator/analyzer"
+    aggregation="jetty.aggr#/">
+  <contribution
+      contribution="jetty.aggr#//@validationSets[label='jetty']/@contributions[label='orbit-aggregation']"/>
+  <contribution
+      contribution="jetty.aggr#//@validationSets[label='jetty']/@contributions[label='maven-jetty']"/>
+  <contribution
+      contribution="jetty.aggr#//@validationSets[label='jetty']/@contributions[label='platform']"/>
+</analyzer:Analysis>
