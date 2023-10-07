@@ -1589,7 +1589,7 @@ Export-Package:         *;version="${version}"
 <!-- _____________________________________________________ org.apache.poi ___________________________________________________________________________________________________-->
 
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
-      <feature id="org.eclipse.orbit.maven.org.apache.poi" label="Orbit Maven BND org.apache.poi" provider-name="Eclipse Orbit" version="4.30.0.v20231002-0900">
+      <feature id="org.eclipse.orbit.maven.org.apache.poi" label="Orbit Maven BND org.apache.poi" provider-name="Eclipse Orbit" version="4.30.0.v20231007-1530">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
 Copyright (c) 2023 Eclipse contributors and others.
@@ -1624,7 +1624,7 @@ SPDX-License-Identifier: EPL-2.0
         </dependency>
       </dependencies>
       <instructions>
-<!-- SHA1 a22c34c85e423ed3d85eaf4656486cfa2698f84e -->
+<!-- SHA1 1ac17ab4f0b5e419d9559caa72728a373b8c0f26 -->
 <![CDATA[
 Bundle-Name:            Bundle ${mvnGroupId} : ${mvnArtifactId}
 version:                ${versionmask;===;${version_cleanup;${mvnVersion}}}
@@ -1632,13 +1632,14 @@ base-suffix             ${replacestring;${mvnArtifactId};-;.}
 suffix                  ${replacestring;${base-suffix};lite;schemas}
 name:                   org.apache.${suffix}
 Bundle-SymbolicName:    ${name}
-Bundle-Version:         ${version}.v20231002-0900
+Bundle-Version:         ${version}.v20231007-1530
 Automatic-Module-Name:  ${name}
 Eclipse-Wrapped-Bundle: ${mvnGroupId}:${mvnArtifactId}:${mvnVersion}
 Import-Package:         de.rototor.pdfbox*|org.bouncycastle*|org.apache.pdfbox*|org.apache.xmlgraphics*|org.apache.jcp*|org.apache.xml.security*;resolution:=optional,\
                         com.microsoft.schemas*|org.openxmlformats.schemas*;resolution:=optional,\
                         *
 Export-Package:         *;version="${version}"
+Eclipse-BuddyPolicy:    dependent
 -noextraheaders:        true
 -removeheaders:         Private-Package
 ]]>
