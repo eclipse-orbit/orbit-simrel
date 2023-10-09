@@ -1025,7 +1025,7 @@ Export-Package:         *;version="${version}"
 <!-- ______________________________________________________ org.apache.batik __________________________________________________________________________________________________-->
 
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
-      <feature id="org.eclipse.orbit.maven.org.apache.batik" label="Orbit Maven BND org.apache.batik" provider-name="Eclipse Orbit" version="4.30.0.v20230917-1000">
+      <feature id="org.eclipse.orbit.maven.org.apache.batik" label="Orbit Maven BND org.apache.batik" provider-name="Eclipse Orbit" version="4.30.0.v20231009-1000">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
 Copyright (c) 2023 Eclipse contributors and others.
@@ -1150,14 +1150,14 @@ SPDX-License-Identifier: EPL-2.0
         </dependency>
       </dependencies>
       <instructions>
-<!-- SHA1 8f2cd16ff81ac96ca398d7fa43eda440d993ec5f -->
+<!-- SHA1 66fd977cbaa976897dccd5a93a9592b5ddfb4211 -->
 <![CDATA[
 Bundle-Name:            Bundle ${mvnGroupId} : ${mvnArtifactId}
 version:                ${versionmask;===;${version_cleanup;${mvnVersion}}}
 mappedId:               ${replacestring;${mvnArtifactId};batik-svg-dom;batik-dom-svg}
 suffix:                 ${replacestring;${mappedId};-;.}
 Bundle-SymbolicName:    org.apache.${suffix}
-Bundle-Version:         ${version}.v20230917-1000
+Bundle-Version:         ${version}.v20231009-1000
 Eclipse-Wrapped-Bundle: ${mvnGroupId}:${mvnArtifactId}:${mvnVersion}
 Import-Package:         org.w3c.dom.smil*;version="1.0.0",\
                         org.w3c.dom.svg*;version="1.1.0",\
@@ -1166,6 +1166,7 @@ Import-Package:         org.w3c.dom.smil*;version="1.0.0",\
                         org.apache.xmlgraphics*;version="${range;[=,+);${@}}",\
                         *
 Export-Package:         *;version="${version}";-noimport:=true
+Eclipse-BuddyPolicy:    dependent
 -noextraheaders:        true
 -removeheaders:         Private-Package
 ]]>
