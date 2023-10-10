@@ -3,7 +3,7 @@
 <target name="Maven" sequenceNumber="1">
   <locations>
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="error" type="Maven">
-      <feature id="org.eclipse.orbit.maven.jetty.all" label="Orbit Maven Jetty All" provider-name="Eclipse Jetty" version="12.0.1">
+      <feature id="org.eclipse.orbit.maven.jetty.all" label="Orbit Maven Jetty All" provider-name="Eclipse Jetty" version="12.0.2">
         <description>This feature's dependencies are pulled directly from Maven central.</description>
         <copyright>
 Copyright (c) 2023 Eclipse contributors and others.
