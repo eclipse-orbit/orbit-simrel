@@ -128,7 +128,7 @@
  - [commons-logging](https://repo1.maven.org/maven2/commons-logging/)
     - [commons-logging](https://repo1.maven.org/maven2/commons-logging/commons-logging/) **[1.2](https://repo1.maven.org/maven2/commons-logging/commons-logging/1.2)**
  - [io.github.classgraph](https://repo1.maven.org/maven2/io/github/classgraph/)
-    - [classgraph](https://repo1.maven.org/maven2/io/github/classgraph/classgraph/) **[4.8.162](https://repo1.maven.org/maven2/io/github/classgraph/classgraph/4.8.162)**
+    - [classgraph](https://repo1.maven.org/maven2/io/github/classgraph/classgraph/) **[4.8.163](https://repo1.maven.org/maven2/io/github/classgraph/classgraph/4.8.163)**
  - [jakarta.activation](https://repo1.maven.org/maven2/jakarta/activation/)
     - [jakarta.activation-api](https://repo1.maven.org/maven2/jakarta/activation/jakarta.activation-api/) **[1.2.2](https://repo1.maven.org/maven2/jakarta/activation/jakarta.activation-api/1.2.2)**
     - [jakarta.activation-api](https://repo1.maven.org/maven2/jakarta/activation/jakarta.activation-api/) **[2.1.2](https://repo1.maven.org/maven2/jakarta/activation/jakarta.activation-api/2.1.2)**

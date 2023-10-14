@@ -1,9 +1,5 @@
 # Target Platform: [supplement](https://raw.githubusercontent.com/eclipse-orbit/orbit-simrel/main/maven-osgi/tp/other/MavenSupplement.target)
 
-## Minor Updates
- - [org.mockito](https://repo1.maven.org/maven2/org/mockito/)
-    - [mockito-junit-jupiter](https://repo1.maven.org/maven2/org/mockito/mockito-junit-jupiter/) **[5.5.0](https://repo1.maven.org/maven2/org/mockito/mockito-junit-jupiter/5.5.0)** < [5.6.0](https://repo1.maven.org/maven2/org/mockito/mockito-junit-jupiter/5.6.0/)
-
 ## Major Updates
  - [com.sun.xml.bind](https://repo1.maven.org/maven2/com/sun/xml/bind/)
     - [jaxb-osgi](https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-osgi/) **[2.3.8](https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-osgi/2.3.8)** < [4.0.3](https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-osgi/4.0.3/)
@@ -23,9 +19,6 @@
     - [javax.servlet-api](https://repo1.maven.org/maven2/javax/servlet/javax.servlet-api/) **[3.1.0](https://repo1.maven.org/maven2/javax/servlet/javax.servlet-api/3.1.0)** < [4.0.1](https://repo1.maven.org/maven2/javax/servlet/javax.servlet-api/4.0.1/)
  - [org.apache.felix](https://repo1.maven.org/maven2/org/apache/felix/)
     - [org.apache.felix.http.servlet-api](https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.http.servlet-api/) **[1.2.0](https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.http.servlet-api/1.2.0)** < [3.0.0](https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.http.servlet-api/3.0.0/)
-
-## Updates Applied
-[updated.target](updated.target)
 
 ## Content
  - [ch.qos.logback](https://repo1.maven.org/maven2/ch/qos/logback/)
@@ -51,7 +44,7 @@
  - [commons-discovery](https://repo1.maven.org/maven2/commons-discovery/)
     - [commons-discovery](https://repo1.maven.org/maven2/commons-discovery/commons-discovery/) **[0.5](https://repo1.maven.org/maven2/commons-discovery/commons-discovery/0.5)**
  - [io.github.classgraph](https://repo1.maven.org/maven2/io/github/classgraph/)
-    - [classgraph](https://repo1.maven.org/maven2/io/github/classgraph/classgraph/) **[4.8.162](https://repo1.maven.org/maven2/io/github/classgraph/classgraph/4.8.162)**
+    - [classgraph](https://repo1.maven.org/maven2/io/github/classgraph/classgraph/) **[4.8.163](https://repo1.maven.org/maven2/io/github/classgraph/classgraph/4.8.163)**
  - [jakarta.activation](https://repo1.maven.org/maven2/jakarta/activation/)
     - [jakarta.activation-api](https://repo1.maven.org/maven2/jakarta/activation/jakarta.activation-api/) **[1.2.2](https://repo1.maven.org/maven2/jakarta/activation/jakarta.activation-api/1.2.2)**
     - [jakarta.activation-api](https://repo1.maven.org/maven2/jakarta/activation/jakarta.activation-api/) **[2.1.2](https://repo1.maven.org/maven2/jakarta/activation/jakarta.activation-api/2.1.2)**
@@ -136,7 +129,7 @@
  - [org.json](https://repo1.maven.org/maven2/org/json/)
     - [json](https://repo1.maven.org/maven2/org/json/json/) **[20230227](https://repo1.maven.org/maven2/org/json/json/20230227)**
  - [org.mockito](https://repo1.maven.org/maven2/org/mockito/)
-    - [mockito-junit-jupiter](https://repo1.maven.org/maven2/org/mockito/mockito-junit-jupiter/) **[5.5.0](https://repo1.maven.org/maven2/org/mockito/mockito-junit-jupiter/5.5.0)**
+    - [mockito-junit-jupiter](https://repo1.maven.org/maven2/org/mockito/mockito-junit-jupiter/) **[5.6.0](https://repo1.maven.org/maven2/org/mockito/mockito-junit-jupiter/5.6.0)**
  - [org.mongodb](https://repo1.maven.org/maven2/org/mongodb/)
     - [mongo-java-driver](https://repo1.maven.org/maven2/org/mongodb/mongo-java-driver/) **[3.12.14](https://repo1.maven.org/maven2/org/mongodb/mongo-java-driver/3.12.14)**
  - [org.mortbay.jasper](https://repo1.maven.org/maven2/org/mortbay/jasper/)
