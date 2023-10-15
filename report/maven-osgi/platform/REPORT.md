@@ -1,9 +1,5 @@
 # Target Platform: [platform](https://raw.githubusercontent.com/eclipse-platform/eclipse.platform.releng.aggregator/master/eclipse.platform.releng.prereqs.sdk/eclipse-sdk-prereqs.target)
 
-## Minor Updates
- - [org.mockito](https://repo1.maven.org/maven2/org/mockito/)
-    - [mockito-core](https://repo1.maven.org/maven2/org/mockito/mockito-core/) **[5.5.0](https://repo1.maven.org/maven2/org/mockito/mockito-core/5.5.0)** < [5.6.0](https://repo1.maven.org/maven2/org/mockito/mockito-core/5.6.0/)
-
 ## Major Updates
  - [jakarta.el](https://repo1.maven.org/maven2/jakarta/el/)
     - [jakarta.el-api](https://repo1.maven.org/maven2/jakarta/el/jakarta.el-api/) **[3.0.3](https://repo1.maven.org/maven2/jakarta/el/jakarta.el-api/3.0.3)** < [5.0.1](https://repo1.maven.org/maven2/jakarta/el/jakarta.el-api/5.0.1/)
@@ -13,9 +9,6 @@
     - [jakarta.el](https://repo1.maven.org/maven2/org/glassfish/jakarta.el/) **[3.0.4](https://repo1.maven.org/maven2/org/glassfish/jakarta.el/3.0.4)** < [4.0.2](https://repo1.maven.org/maven2/org/glassfish/jakarta.el/4.0.2/)
  - [org.mortbay.jasper](https://repo1.maven.org/maven2/org/mortbay/jasper/)
     - [apache-jsp](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-jsp/) **[9.0.52](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-jsp/9.0.52)** < [10.1.7](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-jsp/10.1.7/)
-
-## Updates Applied
-[updated.target](updated.target)
 
 ## Content
  - [biz.aQute.bnd](https://repo1.maven.org/maven2/biz/aQute/bnd/)
@@ -112,7 +105,7 @@
  - [org.junit.vintage](https://repo1.maven.org/maven2/org/junit/vintage/)
     - [junit-vintage-engine](https://repo1.maven.org/maven2/org/junit/vintage/junit-vintage-engine/) **[5.10.0](https://repo1.maven.org/maven2/org/junit/vintage/junit-vintage-engine/5.10.0)**
  - [org.mockito](https://repo1.maven.org/maven2/org/mockito/)
-    - [mockito-core](https://repo1.maven.org/maven2/org/mockito/mockito-core/) **[5.5.0](https://repo1.maven.org/maven2/org/mockito/mockito-core/5.5.0)**
+    - [mockito-core](https://repo1.maven.org/maven2/org/mockito/mockito-core/) **[5.6.0](https://repo1.maven.org/maven2/org/mockito/mockito-core/5.6.0)**
  - [org.mortbay.jasper](https://repo1.maven.org/maven2/org/mortbay/jasper/)
     - [apache-jsp](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-jsp/) **[9.0.52](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-jsp/9.0.52)**
  - [org.objenesis](https://repo1.maven.org/maven2/org/objenesis/)
