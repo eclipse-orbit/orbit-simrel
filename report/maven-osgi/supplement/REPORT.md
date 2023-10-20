@@ -114,6 +114,8 @@
     - [log4j-api](https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/) **[2.21.0](https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.21.0)**
  - [org.apache.velocity](https://repo1.maven.org/maven2/org/apache/velocity/)
     - [velocity](https://repo1.maven.org/maven2/org/apache/velocity/velocity/) **[1.7](https://repo1.maven.org/maven2/org/apache/velocity/velocity/1.7)**
+ - [org.codehaus.woodstox](https://repo1.maven.org/maven2/org/codehaus/woodstox/)
+    - [stax2-api](https://repo1.maven.org/maven2/org/codehaus/woodstox/stax2-api/) **[4.2.2](https://repo1.maven.org/maven2/org/codehaus/woodstox/stax2-api/4.2.2)**
  - [org.conscrypt](https://repo1.maven.org/maven2/org/conscrypt/)
     - [conscrypt-openjdk-uber](https://repo1.maven.org/maven2/org/conscrypt/conscrypt-openjdk-uber/) **[2.5.2](https://repo1.maven.org/maven2/org/conscrypt/conscrypt-openjdk-uber/2.5.2)**
  - [org.easymock](https://repo1.maven.org/maven2/org/easymock/)
