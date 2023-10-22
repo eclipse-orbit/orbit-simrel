@@ -3,7 +3,7 @@
 <target name="Maven" sequenceNumber="1">
   <locations>
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="error" type="Maven">
-      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.30.0.v20231020-1014">
+      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.30.0.v20231022-1006">
         <description>This feature's dependencies are pulled directly from Maven central.</description>
         <copyright>
 Copyright (c) 2023 Eclipse contributors and others.
@@ -16,7 +16,7 @@ https://www.eclipse.org/legal/epl-2.0/
 SPDX-License-Identifier: EPL-2.0
         </copyright>
         <license url="https://www.eclipse.org/legal/epl-2.0/"/>
-        <!-- SHA1 fa2782bc7b095c63cea641525a7d60785556b429 -->
+        <!-- SHA1 7afa76f48b701a7030c60a9f71670da046666ef5 -->
       </feature>
       <dependencies>
         <dependency>
@@ -245,7 +245,7 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>com.sun.xml.bind</groupId>
           <artifactId>jaxb-osgi</artifactId>
-          <version>2.3.8</version>
+          <version>2.3.9</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -677,13 +677,13 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>org.apache.sshd</groupId>
           <artifactId>sshd-osgi</artifactId>
-          <version>2.10.0</version>
+          <version>2.11.0</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.apache.sshd</groupId>
           <artifactId>sshd-sftp</artifactId>
-          <version>2.10.0</version>
+          <version>2.11.0</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -785,55 +785,55 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>org.glassfish.jersey.connectors</groupId>
           <artifactId>jersey-apache-connector</artifactId>
-          <version>2.40</version>
+          <version>2.41</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.glassfish.jersey.containers</groupId>
           <artifactId>jersey-container-servlet</artifactId>
-          <version>2.40</version>
+          <version>2.41</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.glassfish.jersey.containers</groupId>
           <artifactId>jersey-container-servlet-core</artifactId>
-          <version>2.40</version>
+          <version>2.41</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.glassfish.jersey.core</groupId>
           <artifactId>jersey-client</artifactId>
-          <version>2.40</version>
+          <version>2.41</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.glassfish.jersey.core</groupId>
           <artifactId>jersey-common</artifactId>
-          <version>2.40</version>
+          <version>2.41</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.glassfish.jersey.core</groupId>
           <artifactId>jersey-server</artifactId>
-          <version>2.40</version>
+          <version>2.41</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.glassfish.jersey.ext</groupId>
           <artifactId>jersey-entity-filtering</artifactId>
-          <version>2.40</version>
+          <version>2.41</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.glassfish.jersey.inject</groupId>
           <artifactId>jersey-hk2</artifactId>
-          <version>2.40</version>
+          <version>2.41</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.glassfish.jersey.media</groupId>
           <artifactId>jersey-media-json-jackson</artifactId>
-          <version>2.40</version>
+          <version>2.41</version>
           <type>jar</type>
         </dependency>
         <dependency>
