@@ -4,6 +4,8 @@
  - [com.google.guava](https://repo1.maven.org/maven2/com/google/guava/)
     - [failureaccess](https://repo1.maven.org/maven2/com/google/guava/failureaccess/) **[1.0.1](https://repo1.maven.org/maven2/com/google/guava/failureaccess/1.0.1)** < [1.0.2](https://repo1.maven.org/maven2/com/google/guava/failureaccess/1.0.2/)
     - [guava](https://repo1.maven.org/maven2/com/google/guava/guava/) **[32.1.2-jre](https://repo1.maven.org/maven2/com/google/guava/guava/32.1.2-jre)** < [32.1.3-jre](https://repo1.maven.org/maven2/com/google/guava/guava/32.1.3-jre/)
+ - [commons-cli](https://repo1.maven.org/maven2/commons-cli/)
+    - [commons-cli](https://repo1.maven.org/maven2/commons-cli/commons-cli/) **[1.5.0](https://repo1.maven.org/maven2/commons-cli/commons-cli/1.5.0)** < [1.6.0](https://repo1.maven.org/maven2/commons-cli/commons-cli/1.6.0/)
 
 ## Major Updates
  - [jakarta.servlet](https://repo1.maven.org/maven2/jakarta/servlet/)
