@@ -1,24 +1,5 @@
 # Target Platform: [platform](https://raw.githubusercontent.com/eclipse-platform/eclipse.platform.releng.aggregator/master/eclipse.platform.releng.prereqs.sdk/eclipse-sdk-prereqs.target)
 
-## Minor Updates
- - [com.ibm.icu](https://repo1.maven.org/maven2/com/ibm/icu/)
-    - [icu4j](https://repo1.maven.org/maven2/com/ibm/icu/icu4j/) **[73.2](https://repo1.maven.org/maven2/com/ibm/icu/icu4j/73.2)** < [74.1](https://repo1.maven.org/maven2/com/ibm/icu/icu4j/74.1/)
- - [commons-io](https://repo1.maven.org/maven2/commons-io/)
-    - [commons-io](https://repo1.maven.org/maven2/commons-io/commons-io/) **[2.14.0](https://repo1.maven.org/maven2/commons-io/commons-io/2.14.0)** < [2.15.0](https://repo1.maven.org/maven2/commons-io/commons-io/2.15.0/)
- - [org.eclipse.jetty](https://repo1.maven.org/maven2/org/eclipse/jetty/)
-    - [jetty-http](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/) **[12.0.2](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/12.0.2)** < [12.0.3](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/12.0.3/)
-    - [jetty-io](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/) **[12.0.2](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/12.0.2)** < [12.0.3](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/12.0.3/)
-    - [jetty-security](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-security/) **[12.0.2](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-security/12.0.2)** < [12.0.3](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-security/12.0.3/)
-    - [jetty-server](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-server/) **[12.0.2](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-server/12.0.2)** < [12.0.3](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-server/12.0.3/)
-    - [jetty-session](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-session/) **[12.0.2](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-session/12.0.2)** < [12.0.3](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-session/12.0.3/)
-    - [jetty-util](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/) **[12.0.2](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/12.0.2)** < [12.0.3](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/12.0.3/)
-    - [jetty-util-ajax](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util-ajax/) **[12.0.2](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util-ajax/12.0.2)** < [12.0.3](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util-ajax/12.0.3/)
- - [org.eclipse.jetty.ee8](https://repo1.maven.org/maven2/org/eclipse/jetty/ee8/)
-    - [jetty-ee8-apache-jsp](https://repo1.maven.org/maven2/org/eclipse/jetty/ee8/jetty-ee8-apache-jsp/) **[12.0.2](https://repo1.maven.org/maven2/org/eclipse/jetty/ee8/jetty-ee8-apache-jsp/12.0.2)** < [12.0.3](https://repo1.maven.org/maven2/org/eclipse/jetty/ee8/jetty-ee8-apache-jsp/12.0.3/)
-    - [jetty-ee8-nested](https://repo1.maven.org/maven2/org/eclipse/jetty/ee8/jetty-ee8-nested/) **[12.0.2](https://repo1.maven.org/maven2/org/eclipse/jetty/ee8/jetty-ee8-nested/12.0.2)** < [12.0.3](https://repo1.maven.org/maven2/org/eclipse/jetty/ee8/jetty-ee8-nested/12.0.3/)
-    - [jetty-ee8-security](https://repo1.maven.org/maven2/org/eclipse/jetty/ee8/jetty-ee8-security/) **[12.0.2](https://repo1.maven.org/maven2/org/eclipse/jetty/ee8/jetty-ee8-security/12.0.2)** < [12.0.3](https://repo1.maven.org/maven2/org/eclipse/jetty/ee8/jetty-ee8-security/12.0.3/)
-    - [jetty-ee8-servlet](https://repo1.maven.org/maven2/org/eclipse/jetty/ee8/jetty-ee8-servlet/) **[12.0.2](https://repo1.maven.org/maven2/org/eclipse/jetty/ee8/jetty-ee8-servlet/12.0.2)** < [12.0.3](https://repo1.maven.org/maven2/org/eclipse/jetty/ee8/jetty-ee8-servlet/12.0.3/)
-
 ## Major Updates
  - [jakarta.el](https://repo1.maven.org/maven2/jakarta/el/)
     - [jakarta.el-api](https://repo1.maven.org/maven2/jakarta/el/jakarta.el-api/) **[3.0.3](https://repo1.maven.org/maven2/jakarta/el/jakarta.el-api/3.0.3)** < [5.0.1](https://repo1.maven.org/maven2/jakarta/el/jakarta.el-api/5.0.1/)
@@ -28,9 +9,6 @@
     - [jakarta.el](https://repo1.maven.org/maven2/org/glassfish/jakarta.el/) **[3.0.4](https://repo1.maven.org/maven2/org/glassfish/jakarta.el/3.0.4)** < [4.0.2](https://repo1.maven.org/maven2/org/glassfish/jakarta.el/4.0.2/)
  - [org.mortbay.jasper](https://repo1.maven.org/maven2/org/mortbay/jasper/)
     - [apache-jsp](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-jsp/) **[9.0.52](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-jsp/9.0.52)** < [10.1.7](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-jsp/10.1.7/)
-
-## Updates Applied
-[updated.target](updated.target)
 
 ## Content
  - [biz.aQute.bnd](https://repo1.maven.org/maven2/biz/aQute/bnd/)
@@ -42,7 +20,7 @@
  - [com.google.code.gson](https://repo1.maven.org/maven2/com/google/code/gson/)
     - [gson](https://repo1.maven.org/maven2/com/google/code/gson/gson/) **[2.10.1](https://repo1.maven.org/maven2/com/google/code/gson/gson/2.10.1)**
  - [com.ibm.icu](https://repo1.maven.org/maven2/com/ibm/icu/)
-    - [icu4j](https://repo1.maven.org/maven2/com/ibm/icu/icu4j/) **[73.2](https://repo1.maven.org/maven2/com/ibm/icu/icu4j/73.2)**
+    - [icu4j](https://repo1.maven.org/maven2/com/ibm/icu/icu4j/) **[74.1](https://repo1.maven.org/maven2/com/ibm/icu/icu4j/74.1)**
  - [commons-beanutils](https://repo1.maven.org/maven2/commons-beanutils/)
     - [commons-beanutils](https://repo1.maven.org/maven2/commons-beanutils/commons-beanutils/) **[1.9.4](https://repo1.maven.org/maven2/commons-beanutils/commons-beanutils/1.9.4)**
  - [commons-collections](https://repo1.maven.org/maven2/commons-collections/)
@@ -50,7 +28,7 @@
  - [commons-fileupload](https://repo1.maven.org/maven2/commons-fileupload/)
     - [commons-fileupload](https://repo1.maven.org/maven2/commons-fileupload/commons-fileupload/) **[1.5](https://repo1.maven.org/maven2/commons-fileupload/commons-fileupload/1.5)**
  - [commons-io](https://repo1.maven.org/maven2/commons-io/)
-    - [commons-io](https://repo1.maven.org/maven2/commons-io/commons-io/) **[2.14.0](https://repo1.maven.org/maven2/commons-io/commons-io/2.14.0)**
+    - [commons-io](https://repo1.maven.org/maven2/commons-io/commons-io/) **[2.15.0](https://repo1.maven.org/maven2/commons-io/commons-io/2.15.0)**
  - [commons-jxpath](https://repo1.maven.org/maven2/commons-jxpath/)
     - [commons-jxpath](https://repo1.maven.org/maven2/commons-jxpath/commons-jxpath/) **[1.3](https://repo1.maven.org/maven2/commons-jxpath/commons-jxpath/1.3)**
  - [commons-lang](https://repo1.maven.org/maven2/commons-lang/)
@@ -91,18 +69,18 @@
     - [bcpg-jdk18on](https://repo1.maven.org/maven2/org/bouncycastle/bcpg-jdk18on/) **[1.76](https://repo1.maven.org/maven2/org/bouncycastle/bcpg-jdk18on/1.76)**
     - [bcprov-jdk18on](https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk18on/) **[1.76](https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk18on/1.76)**
  - [org.eclipse.jetty](https://repo1.maven.org/maven2/org/eclipse/jetty/)
-    - [jetty-http](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/) **[12.0.2](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/12.0.2)**
-    - [jetty-io](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/) **[12.0.2](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/12.0.2)**
-    - [jetty-security](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-security/) **[12.0.2](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-security/12.0.2)**
-    - [jetty-server](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-server/) **[12.0.2](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-server/12.0.2)**
-    - [jetty-session](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-session/) **[12.0.2](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-session/12.0.2)**
-    - [jetty-util](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/) **[12.0.2](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/12.0.2)**
-    - [jetty-util-ajax](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util-ajax/) **[12.0.2](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util-ajax/12.0.2)**
+    - [jetty-http](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/) **[12.0.3](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/12.0.3)**
+    - [jetty-io](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/) **[12.0.3](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/12.0.3)**
+    - [jetty-security](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-security/) **[12.0.3](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-security/12.0.3)**
+    - [jetty-server](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-server/) **[12.0.3](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-server/12.0.3)**
+    - [jetty-session](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-session/) **[12.0.3](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-session/12.0.3)**
+    - [jetty-util](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/) **[12.0.3](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/12.0.3)**
+    - [jetty-util-ajax](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util-ajax/) **[12.0.3](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util-ajax/12.0.3)**
  - [org.eclipse.jetty.ee8](https://repo1.maven.org/maven2/org/eclipse/jetty/ee8/)
-    - [jetty-ee8-apache-jsp](https://repo1.maven.org/maven2/org/eclipse/jetty/ee8/jetty-ee8-apache-jsp/) **[12.0.2](https://repo1.maven.org/maven2/org/eclipse/jetty/ee8/jetty-ee8-apache-jsp/12.0.2)**
-    - [jetty-ee8-nested](https://repo1.maven.org/maven2/org/eclipse/jetty/ee8/jetty-ee8-nested/) **[12.0.2](https://repo1.maven.org/maven2/org/eclipse/jetty/ee8/jetty-ee8-nested/12.0.2)**
-    - [jetty-ee8-security](https://repo1.maven.org/maven2/org/eclipse/jetty/ee8/jetty-ee8-security/) **[12.0.2](https://repo1.maven.org/maven2/org/eclipse/jetty/ee8/jetty-ee8-security/12.0.2)**
-    - [jetty-ee8-servlet](https://repo1.maven.org/maven2/org/eclipse/jetty/ee8/jetty-ee8-servlet/) **[12.0.2](https://repo1.maven.org/maven2/org/eclipse/jetty/ee8/jetty-ee8-servlet/12.0.2)**
+    - [jetty-ee8-apache-jsp](https://repo1.maven.org/maven2/org/eclipse/jetty/ee8/jetty-ee8-apache-jsp/) **[12.0.3](https://repo1.maven.org/maven2/org/eclipse/jetty/ee8/jetty-ee8-apache-jsp/12.0.3)**
+    - [jetty-ee8-nested](https://repo1.maven.org/maven2/org/eclipse/jetty/ee8/jetty-ee8-nested/) **[12.0.3](https://repo1.maven.org/maven2/org/eclipse/jetty/ee8/jetty-ee8-nested/12.0.3)**
+    - [jetty-ee8-security](https://repo1.maven.org/maven2/org/eclipse/jetty/ee8/jetty-ee8-security/) **[12.0.3](https://repo1.maven.org/maven2/org/eclipse/jetty/ee8/jetty-ee8-security/12.0.3)**
+    - [jetty-ee8-servlet](https://repo1.maven.org/maven2/org/eclipse/jetty/ee8/jetty-ee8-servlet/) **[12.0.3](https://repo1.maven.org/maven2/org/eclipse/jetty/ee8/jetty-ee8-servlet/12.0.3)**
  - [org.eclipse.jetty.toolchain](https://repo1.maven.org/maven2/org/eclipse/jetty/toolchain/)
     - [jetty-servlet-api](https://repo1.maven.org/maven2/org/eclipse/jetty/toolchain/jetty-servlet-api/) **[4.0.6](https://repo1.maven.org/maven2/org/eclipse/jetty/toolchain/jetty-servlet-api/4.0.6)**
  - [org.glassfish](https://repo1.maven.org/maven2/org/glassfish/)
