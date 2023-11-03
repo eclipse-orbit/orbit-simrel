@@ -32,7 +32,7 @@
  - [com.github.ben-manes.caffeine](https://repo1.maven.org/maven2/com/github/ben-manes/caffeine/)
     - [caffeine](https://repo1.maven.org/maven2/com/github/ben-manes/caffeine/caffeine/) **[3.1.8](https://repo1.maven.org/maven2/com/github/ben-manes/caffeine/caffeine/3.1.8)**
  - [com.github.librepdf](https://repo1.maven.org/maven2/com/github/librepdf/)
-    - [openpdf](https://repo1.maven.org/maven2/com/github/librepdf/openpdf/) **[1.3.30](https://repo1.maven.org/maven2/com/github/librepdf/openpdf/1.3.30)**
+    - [openpdf](https://repo1.maven.org/maven2/com/github/librepdf/openpdf/) **[1.3.32](https://repo1.maven.org/maven2/com/github/librepdf/openpdf/1.3.32)**
  - [com.glazedlists](https://repo1.maven.org/maven2/com/glazedlists/)
     - [glazedlists](https://repo1.maven.org/maven2/com/glazedlists/glazedlists/) **[1.11.0](https://repo1.maven.org/maven2/com/glazedlists/glazedlists/1.11.0)**
  - [com.google.errorprone](https://repo1.maven.org/maven2/com/google/errorprone/)
@@ -46,7 +46,7 @@
  - [commons-discovery](https://repo1.maven.org/maven2/commons-discovery/)
     - [commons-discovery](https://repo1.maven.org/maven2/commons-discovery/commons-discovery/) **[0.5](https://repo1.maven.org/maven2/commons-discovery/commons-discovery/0.5)**
  - [io.github.classgraph](https://repo1.maven.org/maven2/io/github/classgraph/)
-    - [classgraph](https://repo1.maven.org/maven2/io/github/classgraph/classgraph/) **[4.8.163](https://repo1.maven.org/maven2/io/github/classgraph/classgraph/4.8.163)**
+    - [classgraph](https://repo1.maven.org/maven2/io/github/classgraph/classgraph/) **[4.8.164](https://repo1.maven.org/maven2/io/github/classgraph/classgraph/4.8.164)**
  - [jakarta.activation](https://repo1.maven.org/maven2/jakarta/activation/)
     - [jakarta.activation-api](https://repo1.maven.org/maven2/jakarta/activation/jakarta.activation-api/) **[1.2.2](https://repo1.maven.org/maven2/jakarta/activation/jakarta.activation-api/1.2.2)**
     - [jakarta.activation-api](https://repo1.maven.org/maven2/jakarta/activation/jakarta.activation-api/) **[2.1.2](https://repo1.maven.org/maven2/jakarta/activation/jakarta.activation-api/2.1.2)**
@@ -131,7 +131,7 @@
  - [org.json](https://repo1.maven.org/maven2/org/json/)
     - [json](https://repo1.maven.org/maven2/org/json/json/) **[20230227](https://repo1.maven.org/maven2/org/json/json/20230227)**
  - [org.mockito](https://repo1.maven.org/maven2/org/mockito/)
-    - [mockito-junit-jupiter](https://repo1.maven.org/maven2/org/mockito/mockito-junit-jupiter/) **[5.6.0](https://repo1.maven.org/maven2/org/mockito/mockito-junit-jupiter/5.6.0)**
+    - [mockito-junit-jupiter](https://repo1.maven.org/maven2/org/mockito/mockito-junit-jupiter/) **[5.7.0](https://repo1.maven.org/maven2/org/mockito/mockito-junit-jupiter/5.7.0)**
  - [org.mongodb](https://repo1.maven.org/maven2/org/mongodb/)
     - [mongo-java-driver](https://repo1.maven.org/maven2/org/mongodb/mongo-java-driver/) **[3.12.14](https://repo1.maven.org/maven2/org/mongodb/mongo-java-driver/3.12.14)**
  - [org.mortbay.jasper](https://repo1.maven.org/maven2/org/mortbay/jasper/)

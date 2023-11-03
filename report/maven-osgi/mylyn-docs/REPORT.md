@@ -9,7 +9,7 @@
  - [org.jsoup](https://repo1.maven.org/maven2/org/jsoup/)
     - [jsoup](https://repo1.maven.org/maven2/org/jsoup/jsoup/) **[1.16.1](https://repo1.maven.org/maven2/org/jsoup/jsoup/1.16.1)** < [1.16.2](https://repo1.maven.org/maven2/org/jsoup/jsoup/1.16.2/)
  - [org.mockito](https://repo1.maven.org/maven2/org/mockito/)
-    - [mockito-core](https://repo1.maven.org/maven2/org/mockito/mockito-core/) **[5.5.0](https://repo1.maven.org/maven2/org/mockito/mockito-core/5.5.0)** < [5.6.0](https://repo1.maven.org/maven2/org/mockito/mockito-core/5.6.0/)
+    - [mockito-core](https://repo1.maven.org/maven2/org/mockito/mockito-core/) **[5.5.0](https://repo1.maven.org/maven2/org/mockito/mockito-core/5.5.0)** < [5.7.0](https://repo1.maven.org/maven2/org/mockito/mockito-core/5.7.0/)
 
 ## Updates Applied
 [updated.target](updated.target)

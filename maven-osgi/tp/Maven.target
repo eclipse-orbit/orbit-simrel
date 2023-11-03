@@ -3,7 +3,7 @@
 <target name="Maven" sequenceNumber="1">
   <locations>
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="error" type="Maven">
-      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.30.0.v20231102-0703">
+      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.30.0.v20231103-0954">
         <description>This feature's dependencies are pulled directly from Maven central.</description>
         <copyright>
 Copyright (c) 2023 Eclipse contributors and others.
@@ -16,7 +16,7 @@ https://www.eclipse.org/legal/epl-2.0/
 SPDX-License-Identifier: EPL-2.0
         </copyright>
         <license url="https://www.eclipse.org/legal/epl-2.0/"/>
-        <!-- SHA1 1b17ff28abe640c4af2068242233ee0540b9921a -->
+        <!-- SHA1 c562859c0837dfe845346699d86cbb09d432aa59 -->
       </feature>
       <dependencies>
         <dependency>
@@ -179,7 +179,7 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>com.github.librepdf</groupId>
           <artifactId>openpdf</artifactId>
-          <version>1.3.30</version>
+          <version>1.3.32</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -311,7 +311,7 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>io.github.classgraph</groupId>
           <artifactId>classgraph</artifactId>
-          <version>4.8.163</version>
+          <version>4.8.164</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -959,13 +959,13 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>org.mockito</groupId>
           <artifactId>mockito-core</artifactId>
-          <version>5.6.0</version>
+          <version>5.7.0</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.mockito</groupId>
           <artifactId>mockito-junit-jupiter</artifactId>
-          <version>5.6.0</version>
+          <version>5.7.0</version>
           <type>jar</type>
         </dependency>
         <dependency>

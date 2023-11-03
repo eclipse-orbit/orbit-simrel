@@ -87,7 +87,7 @@
     - [jnr-posix](https://repo1.maven.org/maven2/com/github/jnr/jnr-posix/) **[3.1.18](https://repo1.maven.org/maven2/com/github/jnr/jnr-posix/3.1.18)**
     - [jnr-unixsocket](https://repo1.maven.org/maven2/com/github/jnr/jnr-unixsocket/) **[0.38.21](https://repo1.maven.org/maven2/com/github/jnr/jnr-unixsocket/0.38.21)**
  - [com.github.librepdf](https://repo1.maven.org/maven2/com/github/librepdf/)
-    - [openpdf](https://repo1.maven.org/maven2/com/github/librepdf/openpdf/) **[1.3.30](https://repo1.maven.org/maven2/com/github/librepdf/openpdf/1.3.30)**
+    - [openpdf](https://repo1.maven.org/maven2/com/github/librepdf/openpdf/) **[1.3.32](https://repo1.maven.org/maven2/com/github/librepdf/openpdf/1.3.32)**
  - [com.github.oshi](https://repo1.maven.org/maven2/com/github/oshi/)
     - [oshi-core](https://repo1.maven.org/maven2/com/github/oshi/oshi-core/) **[6.4.7](https://repo1.maven.org/maven2/com/github/oshi/oshi-core/6.4.7)**
  - [com.glazedlists](https://repo1.maven.org/maven2/com/glazedlists/)
@@ -130,7 +130,7 @@
  - [commons-logging](https://repo1.maven.org/maven2/commons-logging/)
     - [commons-logging](https://repo1.maven.org/maven2/commons-logging/commons-logging/) **[1.2](https://repo1.maven.org/maven2/commons-logging/commons-logging/1.2)**
  - [io.github.classgraph](https://repo1.maven.org/maven2/io/github/classgraph/)
-    - [classgraph](https://repo1.maven.org/maven2/io/github/classgraph/classgraph/) **[4.8.163](https://repo1.maven.org/maven2/io/github/classgraph/classgraph/4.8.163)**
+    - [classgraph](https://repo1.maven.org/maven2/io/github/classgraph/classgraph/) **[4.8.164](https://repo1.maven.org/maven2/io/github/classgraph/classgraph/4.8.164)**
  - [jakarta.activation](https://repo1.maven.org/maven2/jakarta/activation/)
     - [jakarta.activation-api](https://repo1.maven.org/maven2/jakarta/activation/jakarta.activation-api/) **[1.2.2](https://repo1.maven.org/maven2/jakarta/activation/jakarta.activation-api/1.2.2)**
     - [jakarta.activation-api](https://repo1.maven.org/maven2/jakarta/activation/jakarta.activation-api/) **[2.1.2](https://repo1.maven.org/maven2/jakarta/activation/jakarta.activation-api/2.1.2)**
@@ -299,8 +299,8 @@
  - [org.mandas](https://repo1.maven.org/maven2/org/mandas/)
     - [docker-client](https://repo1.maven.org/maven2/org/mandas/docker-client/) **[5.2.2](https://repo1.maven.org/maven2/org/mandas/docker-client/5.2.2)**
  - [org.mockito](https://repo1.maven.org/maven2/org/mockito/)
-    - [mockito-core](https://repo1.maven.org/maven2/org/mockito/mockito-core/) **[5.6.0](https://repo1.maven.org/maven2/org/mockito/mockito-core/5.6.0)**
-    - [mockito-junit-jupiter](https://repo1.maven.org/maven2/org/mockito/mockito-junit-jupiter/) **[5.6.0](https://repo1.maven.org/maven2/org/mockito/mockito-junit-jupiter/5.6.0)**
+    - [mockito-core](https://repo1.maven.org/maven2/org/mockito/mockito-core/) **[5.7.0](https://repo1.maven.org/maven2/org/mockito/mockito-core/5.7.0)**
+    - [mockito-junit-jupiter](https://repo1.maven.org/maven2/org/mockito/mockito-junit-jupiter/) **[5.7.0](https://repo1.maven.org/maven2/org/mockito/mockito-junit-jupiter/5.7.0)**
  - [org.mongodb](https://repo1.maven.org/maven2/org/mongodb/)
     - [mongo-java-driver](https://repo1.maven.org/maven2/org/mongodb/mongo-java-driver/) **[3.12.14](https://repo1.maven.org/maven2/org/mongodb/mongo-java-driver/3.12.14)**
  - [org.mortbay.jasper](https://repo1.maven.org/maven2/org/mortbay/jasper/)
