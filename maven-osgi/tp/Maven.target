@@ -3,7 +3,7 @@
 <target name="Maven" sequenceNumber="1">
   <locations>
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="error" type="Maven">
-      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.30.0.v20231103-0954">
+      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.30.0.v20231105-2024">
         <description>This feature's dependencies are pulled directly from Maven central.</description>
         <copyright>
 Copyright (c) 2023 Eclipse contributors and others.
@@ -16,7 +16,7 @@ https://www.eclipse.org/legal/epl-2.0/
 SPDX-License-Identifier: EPL-2.0
         </copyright>
         <license url="https://www.eclipse.org/legal/epl-2.0/"/>
-        <!-- SHA1 c562859c0837dfe845346699d86cbb09d432aa59 -->
+        <!-- SHA1 ef1a1b032ab5ea3aeee85c2aa080bffdad94d423 -->
       </feature>
       <dependencies>
         <dependency>
@@ -881,73 +881,73 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>org.junit.jupiter</groupId>
           <artifactId>junit-jupiter-api</artifactId>
-          <version>5.10.0</version>
+          <version>5.10.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.junit.jupiter</groupId>
           <artifactId>junit-jupiter-engine</artifactId>
-          <version>5.10.0</version>
+          <version>5.10.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.junit.jupiter</groupId>
           <artifactId>junit-jupiter-migrationsupport</artifactId>
-          <version>5.10.0</version>
+          <version>5.10.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.junit.jupiter</groupId>
           <artifactId>junit-jupiter-params</artifactId>
-          <version>5.10.0</version>
+          <version>5.10.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.junit.platform</groupId>
           <artifactId>junit-platform-commons</artifactId>
-          <version>1.10.0</version>
+          <version>1.10.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.junit.platform</groupId>
           <artifactId>junit-platform-engine</artifactId>
-          <version>1.10.0</version>
+          <version>1.10.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.junit.platform</groupId>
           <artifactId>junit-platform-launcher</artifactId>
-          <version>1.10.0</version>
+          <version>1.10.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.junit.platform</groupId>
           <artifactId>junit-platform-runner</artifactId>
-          <version>1.10.0</version>
+          <version>1.10.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.junit.platform</groupId>
           <artifactId>junit-platform-suite-api</artifactId>
-          <version>1.10.0</version>
+          <version>1.10.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.junit.platform</groupId>
           <artifactId>junit-platform-suite-commons</artifactId>
-          <version>1.10.0</version>
+          <version>1.10.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.junit.platform</groupId>
           <artifactId>junit-platform-suite-engine</artifactId>
-          <version>1.10.0</version>
+          <version>1.10.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.junit.vintage</groupId>
           <artifactId>junit-vintage-engine</artifactId>
-          <version>5.10.0</version>
+          <version>5.10.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
