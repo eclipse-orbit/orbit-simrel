@@ -21,7 +21,7 @@ pipeline {
     booleanParam(
       name: 'PROMOTE',
       defaultValue: false,
-      description: 'Whether to promote the result to org.apache.axis and org.apache.axis-ant in <a href="https://repo.eclipse.org/content/repositories/orbit-approved-artifacts/org/eclipse/orbit/">repo.eclipse.org</a>.'
+      description: 'Whether to promote the result to org.apache.axis and org.apache.axis-ant in <a href="https://repo.eclipse.org/content/repositories/orbit-approved-artifacts/org/apache/axis/">repo.eclipse.org</a>.'
     )
   }
 
@@ -109,7 +109,8 @@ PROMOTE=${params.PROMOTE}
                   $promotion_argument \
                   -Dartifact.file=../../org.apache.axis/${ARTIFACT}/target/${ARTIFACT}-${AXIS_VERSION}-SNAPSHOT.jar \
                   -Dartifact.sources=../../org.apache.axis/${ARTIFACT}/target/${ARTIFACT}-${AXIS_VERSION}-SNAPSHOT-sources.jar \
-                  -Dartifact.id=org.apache.${ARTIFACT} \
+                  -Dgroup.id=org.apache.axis \
+                  -Dartifact.id=${ARTIFACT} \
                   -Dartifact.version=${AXIS_VERSION}.${BUILD_TIMESTAMP} \
                   clean \
                   verify
