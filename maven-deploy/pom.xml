@@ -1,0 +1,69 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>org.eclipse.orbit</groupId>
+	<version>1.0.0-SNAPSHOT</version>
+	<artifactId>maven-deploy</artifactId>
+
+	<properties>
+		<url>${project.baseUri}repository</url>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<gpg-keyname>C1F58CF8</gpg-keyname>
+		<artifact.file>artifact-bin.jar</artifact.file>
+		<artifact.sources>artifact-bin.jar</artifact.sources>
+		<artifact.id>artifact</artifact.id>
+		<artifact.version>1.0.0</artifact.version>
+	</properties>
+
+	<pluginRepositories>
+		<pluginRepository>
+			<id>eclipse-maven-releases</id>
+			<url>https://repo.eclipse.org/content/repositories/releases</url>
+		</pluginRepository>
+	</pluginRepositories>
+
+	<distributionManagement>
+		<repository>
+			<id>repo.eclipse.org</id>
+			<name>Orbit Approved Artifacts Repository - Releases</name>
+			<url>
+				https://repo.eclipse.org/content/repositories/orbit-approved-artifacts/</url>
+		</repository>
+		<snapshotRepository>
+			<id>repo.eclipse.org</id>
+			<name>Orbit Approved Artifacts Repository - Snapshots</name>
+			<url>
+				https://repo.eclipse.org/content/repositories/orbit-approved-artifacts/</url>
+		</snapshotRepository>
+	</distributionManagement>
+
+	<build>
+		<plugins>
+			<plugin>
+				<artifactId>maven-deploy-plugin</artifactId>
+				<version>3.1.1</version>
+				<executions>
+					<execution>
+						<id>deploy-file</id>
+						<phase>verify</phase>
+						<goals>
+							<goal>deploy-file</goal>
+						</goals>
+						<configuration>
+							<repositoryId>repo.eclipse.org</repositoryId>
+							<file>${artifact.file}</file>
+							<sources>${artifact.sources}</sources>
+							<url>${url}</url>
+							<groupId>org.eclipse.orbit</groupId>
+							<artifactId>${artifact.id}</artifactId>
+							<version>${artifact.version}</version>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+	</build>
+
+</project>

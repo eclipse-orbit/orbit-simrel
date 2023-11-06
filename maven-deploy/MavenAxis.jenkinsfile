@@ -1,0 +1,147 @@
+pipeline {
+  agent any
+
+   options {
+    buildDiscarder(logRotator(numToKeepStr: '10'))
+    disableConcurrentBuilds()
+    skipDefaultCheckout true
+  }
+
+  tools {
+    maven 'apache-maven-3.6.3'
+    jdk 'temurin-jdk8-latest'
+  }
+
+  environment {
+    AXIS_VERSION = '1.4.1'
+    BUILD_TIMESTAMP = sh(returnStdout: true, script: 'date +%Y%m%d-%H%M').trim()
+  }
+
+  parameters {
+    booleanParam(
+      name: 'PROMOTE',
+      defaultValue: false,
+      description: 'Whether to promote the result to org.apache.axis and org.apache.axis-ant in <a href="https://repo.eclipse.org/content/repositories/orbit-approved-artifacts/org/eclipse/orbit/">repo.eclipse.org</a>.'
+    )
+  }
+
+  stages {
+    stage('Display Parameters') {
+      steps {
+        echo """
+PROMOTE=${params.PROMOTE}
+          """
+        script {
+          env.PROMOTE = params.PROMOTE
+        }
+      }
+    }
+
+    stage('Git Checkouts') {
+      steps {
+        script {
+          def gitVariables = checkout(
+            poll: false,
+            scm: [
+              $class: 'GitSCM',
+              branches: [[name: '*/master']],
+              doGenerateSubmoduleConfigurations: false,
+              submoduleCfg: [],
+              extensions: [
+                [$class: 'CloneOption', shallow: true],
+                [$class: 'RelativeTargetDirectory', relativeTargetDir: 'org.apache.axis/']
+              ],
+              userRemoteConfigs: [[url: 'https://github.com/apache/axis-axis1-java.git' ]]
+            ]
+          )
+
+          echo "$gitVariables"
+          env.GIT_COMMIT = gitVariables.GIT_COMMIT
+
+          def gitDeployVariables = checkout(
+            poll: false,
+            scm: [
+              $class: 'GitSCM',
+              branches: [[name: '*/main']],
+              doGenerateSubmoduleConfigurations: false,
+              submoduleCfg: [],
+              extensions: [
+                [$class: 'CloneOption', shallow: true],
+                [$class: 'SparseCheckoutPaths', sparseCheckoutPaths:[[$class:'SparseCheckoutPath', path:'maven-deploy/']]],
+                [$class: 'RelativeTargetDirectory', relativeTargetDir: 'orbit-simrel/']
+              ],
+              userRemoteConfigs: [[url: 'https://github.com/eclipse-orbit/orbit-simrel' ]]
+            ]
+          )
+
+          echo "$gitDeployVariables"
+        }
+      }
+    }
+
+    stage('Build Orbit Maven Axis') {
+      steps {
+        dir('org.apache.axis') {
+          sh '''
+            mvn \
+              --no-transfer-progress \
+              -DskipTests=true \
+              clean \
+              verify
+            '''
+        }
+      }
+    }
+
+    stage('Deploy Orbit Maven Axis') {
+      steps {
+        sshagent(['projects-storage.eclipse.org-bot-ssh']) {
+          dir('orbit-simrel/maven-deploy') {
+            sh '''
+              if [[ $PROMOTE == false ]]; then
+                promotion_argument="-Durl=file:$PWD/repository"
+              else
+                promotion_argument="-Durl=https://repo.eclipse.org/content/repositories/orbit-approved-artifacts"
+              fi
+              for ARTIFACT in axis axis-ant; do
+                mvn \
+                  --no-transfer-progress \
+                  $promotion_argument \
+                  -Dartifact.file=../../org.apache.axis/${ARTIFACT}/target/${ARTIFACT}-${AXIS_VERSION}-SNAPSHOT.jar \
+                  -Dartifact.sources=../../org.apache.axis/${ARTIFACT}/target/${ARTIFACT}-${AXIS_VERSION}-SNAPSHOT-sources.jar \
+                  -Dartifact.id=org.apache.${ARTIFACT} \
+                  -Dartifact.version=${AXIS_VERSION}.${BUILD_TIMESTAMP} \
+                  clean \
+                  verify
+              done
+            '''
+          }
+        }
+      }
+    }
+  }
+
+  post {
+    always {
+      archiveArtifacts '**'
+    }
+
+    failure {
+      mail to: 'ed.merks@gmail.com',
+      subject: "[Orbit CI] Build Failure ${currentBuild.fullDisplayName}",
+      mimeType: 'text/html',
+      body: "Project: ${env.JOB_NAME}<br/>Build Number: ${env.BUILD_NUMBER}<br/>Build URL: ${env.BUILD_URL}<br/>Console: ${env.BUILD_URL}/console"
+    }
+
+    fixed {
+      mail to: 'ed.merks@gmail.com',
+      subject: "[Orbit CI] Back to normal ${currentBuild.fullDisplayName}",
+      mimeType: 'text/html',
+      body: "Project: ${env.JOB_NAME}<br/>Build Number: ${env.BUILD_NUMBER}<br/>Build URL: ${env.BUILD_URL}<br/>Console: ${env.BUILD_URL}/console"
+    }
+
+    cleanup {
+      deleteDir()
+    }
+  }
+}
