@@ -13,7 +13,6 @@
 		<gpg-keyname>C1F58CF8</gpg-keyname>
 		<artifact.file>artifact-bin.jar</artifact.file>
 		<artifact.sources>artifact-bin.jar</artifact.sources>
-		<group.id>org.eclipse.orbit</group.id>
 		<artifact.id>artifact</artifact.id>
 		<artifact.version>1.0.0</artifact.version>
 	</properties>
@@ -57,7 +56,7 @@
 							<file>${artifact.file}</file>
 							<sources>${artifact.sources}</sources>
 							<url>${url}</url>
-							<groupId>${group.id}</groupId>
+							<groupId>org.eclipse.orbit</groupId>
 							<artifactId>${artifact.id}</artifactId>
 							<version>${artifact.version}</version>
 						</configuration>
