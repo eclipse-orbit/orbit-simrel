@@ -105,6 +105,14 @@ PROMOTE=${params.PROMOTE}
               fi
               for ARTIFACT in axis axis-ant; do
                 zip -d ../../org.apache.axis/${ARTIFACT}/target/${ARTIFACT}-${AXIS_VERSION}-SNAPSHOT.jar 'META-INF/maven/*'
+                unzip -o ../../org.apache.axis/${ARTIFACT}/target/${ARTIFACT}-${AXIS_VERSION}-SNAPSHOT.jar META-INF/MANIFEST.MF
+                echo "Eclipse-SourceReferences: scm:git:https://github.com/apache/axis-axis1-java.git;commitId=$GIT_COMMIT" >> META-INF/MANIFEST.MF
+                grep -e '.*: .*' META-INF/MANIFEST.MF > temp
+                mv temp META-INF/MANIFEST.MF
+                echo ${ARTIFACT}-${AXIS_VERSION}-SNAPSHOT.jar
+                cat META-INF/MANIFEST.MF
+                zip ../../org.apache.axis/${ARTIFACT}/target/${ARTIFACT}-${AXIS_VERSION}-SNAPSHOT.jar META-INF/MANIFEST.MF
+
                 mvn \
                   --no-transfer-progress \
                   $promotion_argument \
