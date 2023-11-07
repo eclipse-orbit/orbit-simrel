@@ -187,7 +187,8 @@ public class DependencyAnalyzer {
 			reporter.generateReport(contentHandler, analyzer, MERGED_TARGET_NAME,
 					mergeURI == null ? mavenTarget.toUri() : createURI(mergeURI), majorInclusionPatterns);
 
-			// This analyzes all the dependencies and updates, but does so after the report for the non-excluded content has been generated.
+			// This analyzes all the dependencies and updates, but does so after the report
+			// for the non-excluded content has been generated.
 			if (getBooleanArgument(arguments, "-update-merge")) {
 				dependencies.addAll(analyzer.getTargetDependencies(mavenTarget.toUri()));
 				var targetDependencies = analyzer.getTargetDependencies(mavenTarget.toUri(), null);
@@ -618,7 +619,8 @@ public class DependencyAnalyzer {
 					.collect(Collectors.toList());
 		}
 
-		private static Pattern INCLUDED_QUALIFIER = Pattern.compile("[-.][0-9]+|[.]v20[0-9]+|-ga|-GA|-jre");
+		private static Pattern INCLUDED_QUALIFIER = Pattern
+				.compile("[-.][0-9]+|[.]v20[0-9]+|-ga|-GA|-jre|[.]20[0-9]+-[0-9]+");
 
 		private static Pattern INCLUDED_PURE_QUALIFIER = Pattern.compile("v20[0-9]+");
 

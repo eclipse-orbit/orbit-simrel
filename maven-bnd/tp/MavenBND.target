@@ -623,7 +623,7 @@ Export-Package:         *;version="${version}";-noimport:=true
 <!-- ______________________________________________________ org.apache.axis __________________________________________________________________________________________________-->
 
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
-      <feature id="org.eclipse.orbit.maven.org.apache.axis" label="Orbit Maven BND org.apache.axis" provider-name="Eclipse Orbit" version="4.30.0">
+      <feature id="org.eclipse.orbit.maven.org.apache.axis" label="Orbit Maven BND org.apache.axis" provider-name="Eclipse Orbit" version="4.30.0.v20231107-0937">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
 Copyright (c) 2023 Eclipse contributors and others.
@@ -639,19 +639,28 @@ SPDX-License-Identifier: EPL-2.0
       </feature>
       <dependencies>
         <dependency>
-          <groupId>org.apache.axis</groupId>
-          <artifactId>axis</artifactId>
-          <version>1.4</version>
+          <groupId>org.eclipse.orbit</groupId>
+          <artifactId>org.apache.axis</artifactId>
+          <version>1.4.1.20231107-0755</version>
           <type>jar</type>
         </dependency>
       </dependencies>
+      <repositories>
+        <repository>
+          <id>maven-axis-repository</id>
+          <!-- 
+          <url>https://ci.eclipse.org/orbit/job/orbit-simrel-maven-axis/lastSuccessfulBuild/artifact/orbit-simrel/maven-deploy/repository/</url>
+          -->
+          <url>https://repo.eclipse.org/content/repositories/orbit-approved-artifacts</url>
+        </repository>
+      </repositories>
       <instructions>
-<!-- SHA1 c40a83b99f97e1a596752f15835bf95b13f2cfa2 -->
+<!-- SHA1 129077b633b3ce0ab4918c165a80a506a812fb64 -->
 <![CDATA[
 Bundle-Name:            Bundle ${mvnGroupId} : ${mvnArtifactId}
 version:                ${versionmask;===;${version_cleanup;${mvnVersion}}}
 Bundle-SymbolicName:    org.apache.axis
-Bundle-Version:         ${version}.v20230730-0709
+Bundle-Version:         ${version}.v20231107-0937
 Eclipse-Wrapped-Bundle: ${mvnGroupId}:${mvnArtifactId}:${mvnVersion}
 Import-Package:         javax.wsdl.*,\
                         com.ibm.wsdl.*,\
@@ -673,7 +682,7 @@ Export-Package:         *;version="${version}";-noimport:=true
 <!-- ______________________________________________________ org.apache.axis.ant __________________________________________________________________________________________________-->
 
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
-      <feature id="org.eclipse.orbit.maven.org.apache.axis.ant" label="Orbit Maven BND org.apache.axis.ant" provider-name="Eclipse Orbit" version="4.30.0">
+      <feature id="org.eclipse.orbit.maven.org.apache.axis.ant" label="Orbit Maven BND org.apache.axis.ant" provider-name="Eclipse Orbit" version="4.30.0.v20231107-0937">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
 Copyright (c) 2023 Eclipse contributors and others.
@@ -689,20 +698,29 @@ SPDX-License-Identifier: EPL-2.0
       </feature>
       <dependencies>
         <dependency>
-          <groupId>org.apache.axis</groupId>
-          <artifactId>axis-ant</artifactId>
-          <version>1.4</version>
+          <groupId>org.eclipse.orbit</groupId>
+          <artifactId>org.apache.axis-ant</artifactId>
+          <version>1.4.1.20231107-0755</version>
           <type>jar</type>
         </dependency>
       </dependencies>
+      <repositories>
+        <repository>
+          <id>maven-axis-repository</id>
+          <!-- 
+          <url>https://ci.eclipse.org/orbit/job/orbit-simrel-maven-axis/lastSuccessfulBuild/artifact/orbit-simrel/maven-deploy/repository/</url>
+          -->
+          <url>https://repo.eclipse.org/content/repositories/orbit-approved-artifacts</url>
+        </repository>
+      </repositories>
       <instructions>
-<!-- SHA1 f086294fdbea3258e99098c6053bcd074d1bea4c -->
+<!-- SHA1 fc958ced63785147642a7d90cc61c2f5e4c601cf -->
 <![CDATA[
 Bundle-Name:            Bundle ${mvnGroupId} : ${mvnArtifactId}
 version:                ${versionmask;===;${version_cleanup;${mvnVersion}}}
 axis-version-range:     ${range;[==,+);${version}}
 Bundle-SymbolicName:    org.apache.axis.ant
-Bundle-Version:         ${version}.v20230825-1400
+Bundle-Version:         ${version}.v20231107-0937
 Eclipse-Wrapped-Bundle: ${mvnGroupId}:${mvnArtifactId}:${mvnVersion}
 Import-Package:         org.apache.axis.*;version="${axis-version-range}";split=!,\
                         *
