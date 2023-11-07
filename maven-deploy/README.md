@@ -2,6 +2,9 @@
 
 This folder contains a generalized [pom.xml](pom.xml) that can be reused for deploying artifacts to [repo.eclipse.org](https://repo.eclipse.org/content/repositories/orbit-approved-artifacts/org/eclipse/orbit/).
 
+It's **important** to remove the `maven-wrapped-*` properties via `-maven-wrapped-mapping` arguments
+when promoting content wrapped from repo.eclipse.org.
+
 # MavenAxis.jenkinsfile
 
 This does a Maven build of [https://github.com/apache/axis-axis1-java](https://github.com/apache/axis-axis1-java).
