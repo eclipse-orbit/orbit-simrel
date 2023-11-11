@@ -1,5 +1,9 @@
 # Target Platform: [supplement](https://raw.githubusercontent.com/eclipse-orbit/orbit-simrel/main/maven-osgi/tp/other/MavenSupplement.target)
 
+## Minor Updates
+ - [org.apache.derby](https://repo1.maven.org/maven2/org/apache/derby/)
+    - [derby](https://repo1.maven.org/maven2/org/apache/derby/derby/) **[10.16.1.1](https://repo1.maven.org/maven2/org/apache/derby/derby/10.16.1.1)** < [10.17.1.0](https://repo1.maven.org/maven2/org/apache/derby/derby/10.17.1.0/)
+
 ## Major Updates
  - [com.sun.xml.bind](https://repo1.maven.org/maven2/com/sun/xml/bind/)
     - [jaxb-osgi](https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-osgi/) **[2.3.9](https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-osgi/2.3.9)** < [4.0.4](https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-osgi/4.0.4/)
@@ -19,6 +23,9 @@
     - [javax.servlet-api](https://repo1.maven.org/maven2/javax/servlet/javax.servlet-api/) **[3.1.0](https://repo1.maven.org/maven2/javax/servlet/javax.servlet-api/3.1.0)** < [4.0.1](https://repo1.maven.org/maven2/javax/servlet/javax.servlet-api/4.0.1/)
  - [org.apache.felix](https://repo1.maven.org/maven2/org/apache/felix/)
     - [org.apache.felix.http.servlet-api](https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.http.servlet-api/) **[1.2.0](https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.http.servlet-api/1.2.0)** < [3.0.0](https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.http.servlet-api/3.0.0/)
+
+## Updates Applied
+[updated.target](updated.target)
 
 ## Content
  - [ch.qos.logback](https://repo1.maven.org/maven2/ch/qos/logback/)

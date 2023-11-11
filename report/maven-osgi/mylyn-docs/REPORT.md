@@ -2,6 +2,7 @@
 
 ## Content
  - [com.google.guava](https://repo1.maven.org/maven2/com/google/guava/)
+    - [failureaccess](https://repo1.maven.org/maven2/com/google/guava/failureaccess/) **[1.0.2](https://repo1.maven.org/maven2/com/google/guava/failureaccess/1.0.2)**
     - [guava](https://repo1.maven.org/maven2/com/google/guava/guava/) **[32.1.3-jre](https://repo1.maven.org/maven2/com/google/guava/guava/32.1.3-jre)**
  - [net.bytebuddy](https://repo1.maven.org/maven2/net/bytebuddy/)
     - [byte-buddy](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/) **[1.14.9](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.14.9)**
