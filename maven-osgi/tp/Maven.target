@@ -3,7 +3,7 @@
 <target name="Maven" sequenceNumber="1">
   <locations>
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="error" type="Maven">
-      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.30.0.v20231111-0959">
+      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.30.0.v20231114-0832">
         <description>This feature's dependencies are pulled directly from Maven central.</description>
         <copyright>
 Copyright (c) 2023 Eclipse contributors and others.
@@ -16,7 +16,7 @@ https://www.eclipse.org/legal/epl-2.0/
 SPDX-License-Identifier: EPL-2.0
         </copyright>
         <license url="https://www.eclipse.org/legal/epl-2.0/"/>
-        <!-- SHA1 2f19e543b00d53519aa3d716ec73571459f0366d -->
+        <!-- SHA1 686f7de1d30fb3378ea644f023323590e6ca988d -->
       </feature>
       <dependencies>
         <dependency>
@@ -449,12 +449,6 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>jakarta.servlet</groupId>
           <artifactId>jakarta.servlet-api</artifactId>
-          <version>5.0.0</version>
-          <type>jar</type>
-        </dependency>
-        <dependency>
-          <groupId>jakarta.servlet</groupId>
-          <artifactId>jakarta.servlet-api</artifactId>
           <version>6.0.0</version>
           <type>jar</type>
         </dependency>
@@ -581,7 +575,7 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>org.apache.aries.spifly</groupId>
           <artifactId>org.apache.aries.spifly.dynamic.bundle</artifactId>
-          <version>1.3.6</version>
+          <version>1.3.7</version>
           <type>jar</type>
         </dependency>
         <dependency>

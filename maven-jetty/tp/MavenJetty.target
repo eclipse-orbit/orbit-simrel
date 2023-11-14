@@ -985,7 +985,7 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>org.apache.aries.spifly</groupId>
           <artifactId>org.apache.aries.spifly.dynamic.bundle</artifactId>
-          <version>1.3.6</version>
+          <version>1.3.7</version>
           <type>jar</type>
         </dependency>
         <dependency>

@@ -1421,7 +1421,7 @@ Export-Package:         *;version="${version}";-noimport:=true
 
 <!-- WTP can't compile with this version yet -->
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
-      <feature id="org.eclipse.orbit.maven.com.google.javascript" label="Orbit Maven BND com.google.javascript" provider-name="Eclipse Orbit" version="4.30.0.v20230927-1600">
+      <feature id="org.eclipse.orbit.maven.com.google.javascript" label="Orbit Maven BND com.google.javascript" provider-name="Eclipse Orbit" version="4.30.0.v20231114-0833">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
 Copyright (c) 2023 Eclipse contributors and others.
@@ -1439,18 +1439,18 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>com.google.javascript</groupId>
           <artifactId>closure-compiler</artifactId>
-          <version>v20230802</version>
+          <version>v20231112</version>
           <type>jar</type>
         </dependency>
       </dependencies>
       <instructions>
-<!-- SHA1 12146a6dfb62d8ddccf576ee1012a2fb861133af -->
+<!-- SHA1 fb0b807704d4ecb19e0f611f7d2c54ea48f00a7a -->
 <![CDATA[
 Bundle-Name:            Bundle ${mvnGroupId} : ${mvnArtifactId
 # The version is purely qualifier, so we promote the value after the v to the micro version as has been historically the case.
 version:                ${replacestring;${mvnVersion};^v;0.0.}
 Bundle-SymbolicName:    ${mvnGroupId}
-Bundle-Version:         ${version}.v20230927-1600
+Bundle-Version:         ${version}.v20231114-0833
 Automatic-Module-Name:  ${mvnGroupId}
 Eclipse-Wrapped-Bundle: ${mvnGroupId}:${mvnArtifactId}:${mvnVersion}
 Import-Package:         java.*,org.w3c.dom,org.xml.sax.*,\
@@ -2173,7 +2173,7 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>org.apache.aries.spifly</groupId>
           <artifactId>org.apache.aries.spifly.dynamic.bundle</artifactId>
-          <version>1.3.6</version>
+          <version>1.3.7</version>
           <type>jar</type>
         </dependency>
 
