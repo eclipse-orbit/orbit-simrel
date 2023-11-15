@@ -1,4 +1,4 @@
-# Target Platform: [egit](https://git.eclipse.org/c/egit/egit.git/plain/org.eclipse.egit.target/egit-4.29.target)
+# Target Platform: [egit](https://git.eclipse.org/c/egit/egit.git/plain/org.eclipse.egit.target/egit-4.30.target)
 
 ## Minor Updates
  - [commons-codec](https://repo1.maven.org/maven2/commons-codec/)
