@@ -49,7 +49,7 @@
 
       <!-- This is the "normal" Orbit repository.
            This is the repo that is expected to be updated on milestones and releases based on Orbit deliveries. -->
-      <repository location="https://download.eclipse.org/tools/orbit/simrel/orbit-aggregation/milestone/S202311071623"/>
+      <repository location="https://download.eclipse.org/tools/orbit/simrel/orbit-aggregation/milestone/S202311141131"/>
     </location>
 
     <location includeAllPlatforms="true" includeMode="slicer" type="InstallableUnit">
@@ -76,14 +76,14 @@
       <unit id="org.eclipse.ecf.core.ssl.feature.source.feature.group" version="1.1.501.v20230507-1921"/>
       <unit id="org.eclipse.ecf.filetransfer.feature.feature.group" version="3.14.1900.v20230715-1945"/>
       <unit id="org.eclipse.ecf.filetransfer.feature.source.feature.group" version="3.14.1900.v20230715-1945"/>
-      <unit id="org.eclipse.ecf.filetransfer.httpclientjava.feature.feature.group" version="2.0.200.v20231021-2127"/>
-      <unit id="org.eclipse.ecf.filetransfer.httpclientjava.feature.source.feature.group" version="2.0.200.v20231021-2127"/>
+      <unit id="org.eclipse.ecf.filetransfer.httpclientjava.feature.feature.group" version="2.0.200.v20231114-1017"/>
+      <unit id="org.eclipse.ecf.filetransfer.httpclientjava.feature.source.feature.group" version="2.0.200.v20231114-1017"/>
       <unit id="org.eclipse.ecf.filetransfer.ssl.feature.feature.group" version="1.1.402.v20231021-2127"/>
       <unit id="org.eclipse.ecf.filetransfer.ssl.feature.source.feature.group" version="1.1.402.v20231021-2127"/>
-      <unit id="org.eclipse.ecf.filetransfer.httpclient5.feature.feature.group" version="1.1.702.v20231021-2127"/>
-      <unit id="org.eclipse.ecf.filetransfer.httpclient5.feature.source.feature.group" version="1.1.702.v20231021-2127"/>
+      <unit id="org.eclipse.ecf.filetransfer.httpclient5.feature.feature.group" version="1.1.702.v20231114-1017"/>
+      <unit id="org.eclipse.ecf.filetransfer.httpclient5.feature.source.feature.group" version="1.1.702.v20231114-1017"/>
       <!-- ⚠️ TODO Use a release repo for 3.14.40 before releaseing Platform ⚠️ -->
-      <repository location="https://download.eclipse.org/rt/ecf/snapshot/site.p2/3.14.40.v20231021-2127"/>
+      <repository location="https://download.eclipse.org/rt/ecf/snapshot/site.p2/3.14.40.v20231114-1017"/>
     </location>
 
     <location includeAllPlatforms="true" includeMode="slicer" type="InstallableUnit">
@@ -143,7 +143,7 @@
 			  <dependency>
 				  <groupId>org.apache.aries.spifly</groupId>
 				  <artifactId>org.apache.aries.spifly.dynamic.bundle</artifactId>
-				  <version>1.3.6</version>
+				  <version>1.3.7</version>
 				  <type>jar</type>
 			  </dependency>
 			  <dependency>

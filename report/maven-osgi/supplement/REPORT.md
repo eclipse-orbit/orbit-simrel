@@ -19,6 +19,8 @@
     - [javax.servlet-api](https://repo1.maven.org/maven2/javax/servlet/javax.servlet-api/) **[3.1.0](https://repo1.maven.org/maven2/javax/servlet/javax.servlet-api/3.1.0)** < [4.0.1](https://repo1.maven.org/maven2/javax/servlet/javax.servlet-api/4.0.1/)
  - [org.apache.felix](https://repo1.maven.org/maven2/org/apache/felix/)
     - [org.apache.felix.http.servlet-api](https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.http.servlet-api/) **[1.2.0](https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.http.servlet-api/1.2.0)** < [3.0.0](https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.http.servlet-api/3.0.0/)
+ - [org.slf4j](https://repo1.maven.org/maven2/org/slf4j/)
+    - [slf4j-nop](https://repo1.maven.org/maven2/org/slf4j/slf4j-nop/) **[1.7.36](https://repo1.maven.org/maven2/org/slf4j/slf4j-nop/1.7.36)** < [2.0.9](https://repo1.maven.org/maven2/org/slf4j/slf4j-nop/2.0.9/)
 
 ## Content
  - [ch.qos.logback](https://repo1.maven.org/maven2/ch/qos/logback/)
@@ -32,7 +34,9 @@
  - [com.github.ben-manes.caffeine](https://repo1.maven.org/maven2/com/github/ben-manes/caffeine/)
     - [caffeine](https://repo1.maven.org/maven2/com/github/ben-manes/caffeine/caffeine/) **[3.1.8](https://repo1.maven.org/maven2/com/github/ben-manes/caffeine/caffeine/3.1.8)**
  - [com.github.librepdf](https://repo1.maven.org/maven2/com/github/librepdf/)
-    - [openpdf](https://repo1.maven.org/maven2/com/github/librepdf/openpdf/) **[1.3.32](https://repo1.maven.org/maven2/com/github/librepdf/openpdf/1.3.32)**
+    - [openpdf](https://repo1.maven.org/maven2/com/github/librepdf/openpdf/) **[1.3.33](https://repo1.maven.org/maven2/com/github/librepdf/openpdf/1.3.33)**
+ - [com.github.oshi](https://repo1.maven.org/maven2/com/github/oshi/)
+    - [oshi-core](https://repo1.maven.org/maven2/com/github/oshi/oshi-core/) **[6.4.7](https://repo1.maven.org/maven2/com/github/oshi/oshi-core/6.4.7)**
  - [com.glazedlists](https://repo1.maven.org/maven2/com/glazedlists/)
     - [glazedlists](https://repo1.maven.org/maven2/com/glazedlists/glazedlists/) **[1.11.0](https://repo1.maven.org/maven2/com/glazedlists/glazedlists/1.11.0)**
  - [com.google.errorprone](https://repo1.maven.org/maven2/com/google/errorprone/)
@@ -147,3 +151,5 @@
     - [org.osgi.service.startlevel](https://repo1.maven.org/maven2/org/osgi/org.osgi.service.startlevel/) **[1.1.1](https://repo1.maven.org/maven2/org/osgi/org.osgi.service.startlevel/1.1.1)**
     - [org.osgi.service.url](https://repo1.maven.org/maven2/org/osgi/org.osgi.service.url/) **[1.0.1](https://repo1.maven.org/maven2/org/osgi/org.osgi.service.url/1.0.1)**
     - [org.osgi.util.tracker](https://repo1.maven.org/maven2/org/osgi/org.osgi.util.tracker/) **[1.5.4](https://repo1.maven.org/maven2/org/osgi/org.osgi.util.tracker/1.5.4)**
+ - [org.slf4j](https://repo1.maven.org/maven2/org/slf4j/)
+    - [slf4j-nop](https://repo1.maven.org/maven2/org/slf4j/slf4j-nop/) **[1.7.36](https://repo1.maven.org/maven2/org/slf4j/slf4j-nop/1.7.36)**
