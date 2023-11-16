@@ -67,16 +67,16 @@
     - [xmlrpc-common](https://repo1.maven.org/maven2/com/evolvedbinary/thirdparty/org/apache/xmlrpc/xmlrpc-common/) **[5.0.0](https://repo1.maven.org/maven2/com/evolvedbinary/thirdparty/org/apache/xmlrpc/xmlrpc-common/5.0.0)**
     - [xmlrpc-server](https://repo1.maven.org/maven2/com/evolvedbinary/thirdparty/org/apache/xmlrpc/xmlrpc-server/) **[5.0.0](https://repo1.maven.org/maven2/com/evolvedbinary/thirdparty/org/apache/xmlrpc/xmlrpc-server/5.0.0)**
  - [com.fasterxml.jackson.core](https://repo1.maven.org/maven2/com/fasterxml/jackson/core/)
-    - [jackson-annotations](https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/) **[2.15.3](https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.15.3)**
-    - [jackson-core](https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/) **[2.15.3](https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.15.3)**
-    - [jackson-databind](https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/) **[2.15.3](https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.15.3)**
+    - [jackson-annotations](https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/) **[2.16.0](https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.16.0)**
+    - [jackson-core](https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/) **[2.16.0](https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.16.0)**
+    - [jackson-databind](https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/) **[2.16.0](https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.16.0)**
  - [com.fasterxml.jackson.datatype](https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/)
-    - [jackson-datatype-guava](https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-guava/) **[2.15.3](https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-guava/2.15.3)**
+    - [jackson-datatype-guava](https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-guava/) **[2.16.0](https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-guava/2.16.0)**
  - [com.fasterxml.jackson.jaxrs](https://repo1.maven.org/maven2/com/fasterxml/jackson/jaxrs/)
-    - [jackson-jaxrs-base](https://repo1.maven.org/maven2/com/fasterxml/jackson/jaxrs/jackson-jaxrs-base/) **[2.15.3](https://repo1.maven.org/maven2/com/fasterxml/jackson/jaxrs/jackson-jaxrs-base/2.15.3)**
-    - [jackson-jaxrs-json-provider](https://repo1.maven.org/maven2/com/fasterxml/jackson/jaxrs/jackson-jaxrs-json-provider/) **[2.15.3](https://repo1.maven.org/maven2/com/fasterxml/jackson/jaxrs/jackson-jaxrs-json-provider/2.15.3)**
+    - [jackson-jaxrs-base](https://repo1.maven.org/maven2/com/fasterxml/jackson/jaxrs/jackson-jaxrs-base/) **[2.16.0](https://repo1.maven.org/maven2/com/fasterxml/jackson/jaxrs/jackson-jaxrs-base/2.16.0)**
+    - [jackson-jaxrs-json-provider](https://repo1.maven.org/maven2/com/fasterxml/jackson/jaxrs/jackson-jaxrs-json-provider/) **[2.16.0](https://repo1.maven.org/maven2/com/fasterxml/jackson/jaxrs/jackson-jaxrs-json-provider/2.16.0)**
  - [com.fasterxml.jackson.module](https://repo1.maven.org/maven2/com/fasterxml/jackson/module/)
-    - [jackson-module-jaxb-annotations](https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/) **[2.15.3](https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.15.3)**
+    - [jackson-module-jaxb-annotations](https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/) **[2.16.0](https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.16.0)**
  - [com.github.ben-manes.caffeine](https://repo1.maven.org/maven2/com/github/ben-manes/caffeine/)
     - [caffeine](https://repo1.maven.org/maven2/com/github/ben-manes/caffeine/caffeine/) **[3.1.8](https://repo1.maven.org/maven2/com/github/ben-manes/caffeine/caffeine/3.1.8)**
  - [com.github.jnr](https://repo1.maven.org/maven2/com/github/jnr/)
@@ -207,7 +207,7 @@
     - [org.apache.aries.spifly.dynamic.bundle](https://repo1.maven.org/maven2/org/apache/aries/spifly/org.apache.aries.spifly.dynamic.bundle/) **[1.3.7](https://repo1.maven.org/maven2/org/apache/aries/spifly/org.apache.aries.spifly.dynamic.bundle/1.3.7)**
  - [org.apache.commons](https://repo1.maven.org/maven2/org/apache/commons/)
     - [commons-collections4](https://repo1.maven.org/maven2/org/apache/commons/commons-collections4/) **[4.4](https://repo1.maven.org/maven2/org/apache/commons/commons-collections4/4.4)**
-    - [commons-compress](https://repo1.maven.org/maven2/org/apache/commons/commons-compress/) **[1.24.0](https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.24.0)**
+    - [commons-compress](https://repo1.maven.org/maven2/org/apache/commons/commons-compress/) **[1.25.0](https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.25.0)**
     - [commons-digester3](https://repo1.maven.org/maven2/org/apache/commons/commons-digester3/) **[3.1](https://repo1.maven.org/maven2/org/apache/commons/commons-digester3/3.1)**
     - [commons-lang3](https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/) **[3.13.0](https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.13.0)**
     - [commons-math3](https://repo1.maven.org/maven2/org/apache/commons/commons-math3/) **[3.6.1](https://repo1.maven.org/maven2/org/apache/commons/commons-math3/3.6.1)**

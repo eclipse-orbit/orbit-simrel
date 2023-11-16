@@ -2,7 +2,7 @@
 
 ## Minor Updates
  - [org.apache.commons](https://repo1.maven.org/maven2/org/apache/commons/)
-    - [commons-compress](https://repo1.maven.org/maven2/org/apache/commons/commons-compress/) **[1.23.0](https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.23.0)** < [1.24.0](https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.24.0/)
+    - [commons-compress](https://repo1.maven.org/maven2/org/apache/commons/commons-compress/) **[1.23.0](https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.23.0)** < [1.25.0](https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.25.0/)
 
 ## Major Updates
  - [jakarta.enterprise](https://repo1.maven.org/maven2/jakarta/enterprise/)

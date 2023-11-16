@@ -8,7 +8,7 @@
  - [org.apache.aries.spifly](https://repo1.maven.org/maven2/org/apache/aries/spifly/)
     - [org.apache.aries.spifly.dynamic.bundle](https://repo1.maven.org/maven2/org/apache/aries/spifly/org.apache.aries.spifly.dynamic.bundle/) **[1.3.6](https://repo1.maven.org/maven2/org/apache/aries/spifly/org.apache.aries.spifly.dynamic.bundle/1.3.6)** < [1.3.7](https://repo1.maven.org/maven2/org/apache/aries/spifly/org.apache.aries.spifly.dynamic.bundle/1.3.7/)
  - [org.apache.commons](https://repo1.maven.org/maven2/org/apache/commons/)
-    - [commons-compress](https://repo1.maven.org/maven2/org/apache/commons/commons-compress/) **[1.23.0](https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.23.0)** < [1.24.0](https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.24.0/)
+    - [commons-compress](https://repo1.maven.org/maven2/org/apache/commons/commons-compress/) **[1.23.0](https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.23.0)** < [1.25.0](https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.25.0/)
  - [org.junit.jupiter](https://repo1.maven.org/maven2/org/junit/jupiter/)
     - [junit-jupiter-api](https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-api/) **[5.9.3](https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-api/5.9.3)** < [5.10.1](https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-api/5.10.1/)
     - [junit-jupiter-engine](https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-engine/) **[5.9.3](https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.9.3)** < [5.10.1](https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.10.1/)
@@ -22,7 +22,7 @@
     - [asm-util](https://repo1.maven.org/maven2/org/ow2/asm/asm-util/) **[9.5](https://repo1.maven.org/maven2/org/ow2/asm/asm-util/9.5)** < [9.6](https://repo1.maven.org/maven2/org/ow2/asm/asm-util/9.6/)
  - [org.slf4j](https://repo1.maven.org/maven2/org/slf4j/)
     - [slf4j-api](https://repo1.maven.org/maven2/org/slf4j/slf4j-api/) **[2.0.7](https://repo1.maven.org/maven2/org/slf4j/slf4j-api/2.0.7)** < [2.0.9](https://repo1.maven.org/maven2/org/slf4j/slf4j-api/2.0.9/)
-    - [slf4j-nop](https://repo1.maven.org/maven2/org/slf4j/slf4j-nop/) **[2.0.7](https://repo1.maven.org/maven2/org/slf4j/slf4j-nop/2.0.7)** < [2.0.9](https://repo1.maven.org/maven2/org/slf4j/slf4j-nop/2.0.9/)
+    - [slf4j-simple](https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/) **[2.0.7](https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/2.0.7)** < [2.0.9](https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/2.0.9/)
  - [org.yaml](https://repo1.maven.org/maven2/org/yaml/)
     - [snakeyaml](https://repo1.maven.org/maven2/org/yaml/snakeyaml/) **[2.0](https://repo1.maven.org/maven2/org/yaml/snakeyaml/2.0)** < [2.2](https://repo1.maven.org/maven2/org/yaml/snakeyaml/2.2/)
 
@@ -72,6 +72,6 @@
     - [asm-util](https://repo1.maven.org/maven2/org/ow2/asm/asm-util/) **[9.5](https://repo1.maven.org/maven2/org/ow2/asm/asm-util/9.5)**
  - [org.slf4j](https://repo1.maven.org/maven2/org/slf4j/)
     - [slf4j-api](https://repo1.maven.org/maven2/org/slf4j/slf4j-api/) **[2.0.7](https://repo1.maven.org/maven2/org/slf4j/slf4j-api/2.0.7)**
-    - [slf4j-nop](https://repo1.maven.org/maven2/org/slf4j/slf4j-nop/) **[2.0.7](https://repo1.maven.org/maven2/org/slf4j/slf4j-nop/2.0.7)**
+    - [slf4j-simple](https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/) **[2.0.7](https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/2.0.7)**
  - [org.yaml](https://repo1.maven.org/maven2/org/yaml/)
     - [snakeyaml](https://repo1.maven.org/maven2/org/yaml/snakeyaml/) **[2.0](https://repo1.maven.org/maven2/org/yaml/snakeyaml/2.0)**

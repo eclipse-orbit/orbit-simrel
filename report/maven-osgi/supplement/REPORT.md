@@ -19,8 +19,6 @@
     - [javax.servlet-api](https://repo1.maven.org/maven2/javax/servlet/javax.servlet-api/) **[3.1.0](https://repo1.maven.org/maven2/javax/servlet/javax.servlet-api/3.1.0)** < [4.0.1](https://repo1.maven.org/maven2/javax/servlet/javax.servlet-api/4.0.1/)
  - [org.apache.felix](https://repo1.maven.org/maven2/org/apache/felix/)
     - [org.apache.felix.http.servlet-api](https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.http.servlet-api/) **[1.2.0](https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.http.servlet-api/1.2.0)** < [3.0.0](https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.http.servlet-api/3.0.0/)
- - [org.slf4j](https://repo1.maven.org/maven2/org/slf4j/)
-    - [slf4j-nop](https://repo1.maven.org/maven2/org/slf4j/slf4j-nop/) **[1.7.36](https://repo1.maven.org/maven2/org/slf4j/slf4j-nop/1.7.36)** < [2.0.9](https://repo1.maven.org/maven2/org/slf4j/slf4j-nop/2.0.9/)
 
 ## Content
  - [ch.qos.logback](https://repo1.maven.org/maven2/ch/qos/logback/)
@@ -153,3 +151,4 @@
     - [org.osgi.util.tracker](https://repo1.maven.org/maven2/org/osgi/org.osgi.util.tracker/) **[1.5.4](https://repo1.maven.org/maven2/org/osgi/org.osgi.util.tracker/1.5.4)**
  - [org.slf4j](https://repo1.maven.org/maven2/org/slf4j/)
     - [slf4j-nop](https://repo1.maven.org/maven2/org/slf4j/slf4j-nop/) **[1.7.36](https://repo1.maven.org/maven2/org/slf4j/slf4j-nop/1.7.36)**
+    - [slf4j-nop](https://repo1.maven.org/maven2/org/slf4j/slf4j-nop/) **[2.0.9](https://repo1.maven.org/maven2/org/slf4j/slf4j-nop/2.0.9)**
