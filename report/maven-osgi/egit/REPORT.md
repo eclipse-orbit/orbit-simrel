@@ -1,16 +1,5 @@
 # Target Platform: [egit](https://git.eclipse.org/c/egit/egit.git/plain/org.eclipse.egit.target/egit-4.30.target)
 
-## Minor Updates
- - [commons-codec](https://repo1.maven.org/maven2/commons-codec/)
-    - [commons-codec](https://repo1.maven.org/maven2/commons-codec/commons-codec/) **[1.16](https://repo1.maven.org/maven2/commons-codec/commons-codec/1.16)** < [1.16.0](https://repo1.maven.org/maven2/commons-codec/commons-codec/1.16.0/)
- - [org.apache.commons](https://repo1.maven.org/maven2/org/apache/commons/)
-    - [commons-compress](https://repo1.maven.org/maven2/org/apache/commons/commons-compress/) **[1.24.0](https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.24.0)** < [1.25.0](https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.25.0/)
- - [org.bouncycastle](https://repo1.maven.org/maven2/org/bouncycastle/)
-    - [bcpg-jdk18on](https://repo1.maven.org/maven2/org/bouncycastle/bcpg-jdk18on/) **[1.76](https://repo1.maven.org/maven2/org/bouncycastle/bcpg-jdk18on/1.76)** < [1.77](https://repo1.maven.org/maven2/org/bouncycastle/bcpg-jdk18on/1.77/)
-    - [bcpkix-jdk18on](https://repo1.maven.org/maven2/org/bouncycastle/bcpkix-jdk18on/) **[1.76](https://repo1.maven.org/maven2/org/bouncycastle/bcpkix-jdk18on/1.76)** < [1.77](https://repo1.maven.org/maven2/org/bouncycastle/bcpkix-jdk18on/1.77/)
-    - [bcprov-jdk18on](https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk18on/) **[1.76](https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk18on/1.76)** < [1.77](https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk18on/1.77/)
-    - [bcutil-jdk18on](https://repo1.maven.org/maven2/org/bouncycastle/bcutil-jdk18on/) **[1.76](https://repo1.maven.org/maven2/org/bouncycastle/bcutil-jdk18on/1.76)** < [1.77](https://repo1.maven.org/maven2/org/bouncycastle/bcutil-jdk18on/1.77/)
-
 ## Major Updates
  - [jakarta.servlet](https://repo1.maven.org/maven2/jakarta/servlet/)
     - [jakarta.servlet-api](https://repo1.maven.org/maven2/jakarta/servlet/jakarta.servlet-api/) **[4.0.4](https://repo1.maven.org/maven2/jakarta/servlet/jakarta.servlet-api/4.0.4)** < [6.0.0](https://repo1.maven.org/maven2/jakarta/servlet/jakarta.servlet-api/6.0.0/)
@@ -26,9 +15,6 @@
     - [slf4j-api](https://repo1.maven.org/maven2/org/slf4j/slf4j-api/) **[1.7.36](https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.36)** < [2.0.9](https://repo1.maven.org/maven2/org/slf4j/slf4j-api/2.0.9/)
     - [slf4j-simple](https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/) **[1.7.36](https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/1.7.36)** < [2.0.9](https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/2.0.9/)
 
-## Updates Applied
-[updated.target](updated.target)
-
 ## Content
  - [args4j](https://repo1.maven.org/maven2/args4j/)
     - [args4j](https://repo1.maven.org/maven2/args4j/args4j/) **[2.33](https://repo1.maven.org/maven2/args4j/args4j/2.33)**
@@ -37,7 +23,7 @@
  - [com.googlecode.javaewah](https://repo1.maven.org/maven2/com/googlecode/javaewah/)
     - [JavaEWAH](https://repo1.maven.org/maven2/com/googlecode/javaewah/JavaEWAH/) **[1.2.3](https://repo1.maven.org/maven2/com/googlecode/javaewah/JavaEWAH/1.2.3)**
  - [commons-codec](https://repo1.maven.org/maven2/commons-codec/)
-    - [commons-codec](https://repo1.maven.org/maven2/commons-codec/commons-codec/) **[1.16](https://repo1.maven.org/maven2/commons-codec/commons-codec/1.16)**
+    - [commons-codec](https://repo1.maven.org/maven2/commons-codec/commons-codec/) **[1.16.0](https://repo1.maven.org/maven2/commons-codec/commons-codec/1.16.0)**
  - [commons-io](https://repo1.maven.org/maven2/commons-io/)
     - [commons-io](https://repo1.maven.org/maven2/commons-io/commons-io/) **[2.15.0](https://repo1.maven.org/maven2/commons-io/commons-io/2.15.0)**
  - [jakarta.servlet](https://repo1.maven.org/maven2/jakarta/servlet/)
@@ -49,17 +35,17 @@
     - [jna](https://repo1.maven.org/maven2/net/java/dev/jna/jna/) **[5.13.0](https://repo1.maven.org/maven2/net/java/dev/jna/jna/5.13.0)**
     - [jna-platform](https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/) **[5.13.0](https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/5.13.0)**
  - [org.apache.commons](https://repo1.maven.org/maven2/org/apache/commons/)
-    - [commons-compress](https://repo1.maven.org/maven2/org/apache/commons/commons-compress/) **[1.24.0](https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.24.0)**
+    - [commons-compress](https://repo1.maven.org/maven2/org/apache/commons/commons-compress/) **[1.25.0](https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.25.0)**
  - [org.apache.sshd](https://repo1.maven.org/maven2/org/apache/sshd/)
     - [sshd-osgi](https://repo1.maven.org/maven2/org/apache/sshd/sshd-osgi/) **[2.11.0](https://repo1.maven.org/maven2/org/apache/sshd/sshd-osgi/2.11.0)**
     - [sshd-sftp](https://repo1.maven.org/maven2/org/apache/sshd/sshd-sftp/) **[2.11.0](https://repo1.maven.org/maven2/org/apache/sshd/sshd-sftp/2.11.0)**
  - [org.assertj](https://repo1.maven.org/maven2/org/assertj/)
     - [assertj-core](https://repo1.maven.org/maven2/org/assertj/assertj-core/) **[3.24.2](https://repo1.maven.org/maven2/org/assertj/assertj-core/3.24.2)**
  - [org.bouncycastle](https://repo1.maven.org/maven2/org/bouncycastle/)
-    - [bcpg-jdk18on](https://repo1.maven.org/maven2/org/bouncycastle/bcpg-jdk18on/) **[1.76](https://repo1.maven.org/maven2/org/bouncycastle/bcpg-jdk18on/1.76)**
-    - [bcpkix-jdk18on](https://repo1.maven.org/maven2/org/bouncycastle/bcpkix-jdk18on/) **[1.76](https://repo1.maven.org/maven2/org/bouncycastle/bcpkix-jdk18on/1.76)**
-    - [bcprov-jdk18on](https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk18on/) **[1.76](https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk18on/1.76)**
-    - [bcutil-jdk18on](https://repo1.maven.org/maven2/org/bouncycastle/bcutil-jdk18on/) **[1.76](https://repo1.maven.org/maven2/org/bouncycastle/bcutil-jdk18on/1.76)**
+    - [bcpg-jdk18on](https://repo1.maven.org/maven2/org/bouncycastle/bcpg-jdk18on/) **[1.77](https://repo1.maven.org/maven2/org/bouncycastle/bcpg-jdk18on/1.77)**
+    - [bcpkix-jdk18on](https://repo1.maven.org/maven2/org/bouncycastle/bcpkix-jdk18on/) **[1.77](https://repo1.maven.org/maven2/org/bouncycastle/bcpkix-jdk18on/1.77)**
+    - [bcprov-jdk18on](https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk18on/) **[1.77](https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk18on/1.77)**
+    - [bcutil-jdk18on](https://repo1.maven.org/maven2/org/bouncycastle/bcutil-jdk18on/) **[1.77](https://repo1.maven.org/maven2/org/bouncycastle/bcutil-jdk18on/1.77)**
  - [org.eclipse.jetty](https://repo1.maven.org/maven2/org/eclipse/jetty/)
     - [jetty-http](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/) **[10.0.18](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/10.0.18)**
     - [jetty-io](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/) **[10.0.18](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/10.0.18)**
