@@ -36,11 +36,13 @@ pipeline {
   stages {
     stage('Display Parameters') {
       steps {
-        echo """
+        script {
+          def description = """
 BUILD_TYPE=${params.BUILD_TYPE}
 PROMOTE=${params.PROMOTE}
-          """
-        script {
+""".trim()
+          echo description
+          currentBuild.description = description.replace("\n", "<br/>")
           env.PROMOTE = params.PROMOTE
           env.BUILD_TYPE = params.BUILD_TYPE
         }

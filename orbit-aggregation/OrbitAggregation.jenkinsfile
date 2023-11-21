@@ -64,15 +64,18 @@ pipeline {
   stages {
     stage('Display Parameters') {
       steps {
-        echo """
+        script {
+          def description = """
 BUILD_TYPE=${params.BUILD_TYPE}
 PROMOTE=${params.PROMOTE}
 ORBIT_LEGACY=${params.ORBIT_LEGACY}
 MAVEN_OSGI=${params.MAVEN_OSGI}
 MAVEN_BND=${params.MAVEN_BND}
 MAVEN_SIGN=${params.MAVEN_SIGN}
-"""
-        script {
+""".trim()
+          echo description
+          currentBuild.description = description.replace("\n", "<br/>")
+          
           env.BUILD_TYPE = params.BUILD_TYPE
           env.PROMOTE = params.PROMOTE
           env.MAVEN_OSGI = params.MAVEN_OSGI
