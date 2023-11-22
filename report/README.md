@@ -10,6 +10,7 @@ as well as from the locally-defined [supplement](../maven-osgi/tp/other/MavenSup
 
 - [cdt](maven-osgi/cdt/REPORT.md)
 - [egit](maven-osgi/egit/REPORT.md)
+- [jdt-ls](maven-osgi/jdt-ls/REPORT.md)
 - [linuxtools](maven-osgi/linuxtools/REPORT.md)
 - [m2e](maven-osgi/m2e/REPORT.md)
 - [mylyn-docs](maven-osgi/mylyn-docs/REPORT.md)
