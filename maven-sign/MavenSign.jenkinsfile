@@ -37,6 +37,15 @@ pipeline {
       defaultValue: true,
       description: 'Whether to fail the build if there are <a href="https://gitlab.eclipse.org/eclipsefdn/emo-team/iplab/-/issues/>dash license reviews</a> required.'
     )
+
+    choice(
+      name: 'BASELINE',
+      choices: ['https://download.eclipse.org/tools/orbit/simrel/maven-sign/nightly/latest', 'https://download.eclipse.org/tools/orbit/simrel/maven-sign/release/latest'],
+      description: '''
+        Choose the artifact replacement baseline.
+        Generally the latest nightly is appropriate, but at least once we want to do a nightly build with the latest release as the baseline replacement.
+        '''
+    )
   }
 
   stages {
@@ -47,12 +56,14 @@ pipeline {
 BUILD_TYPE=${params.BUILD_TYPE}
 DASH_STRICT=${params.DASH_STRICT}
 PROMOTE=${params.PROMOTE}
+BASELINE=${params.BASELINE}
 """.trim()
           echo description
           currentBuild.description = description.replace("\n", "<br/>")
           env.PROMOTE = params.PROMOTE
           env.BUILD_TYPE = params.BUILD_TYPE
           env.DASH_STRICT = params.DASH_STRICT
+          env.BASELINE = params.BASELINE
         }
       }
     }
@@ -89,6 +100,8 @@ PROMOTE=${params.PROMOTE}
               sh '''
                 if [[ $PROMOTE == false ]]; then
                   promotion_argument='-Dorg.eclipse.justj.p2.manager.args='
+                else
+                  extra_arguments="-baseline-url $BASELINE"
                 fi
                 mvn \
                   --no-transfer-progress \
@@ -103,6 +116,7 @@ PROMOTE=${params.PROMOTE}
                   -Ddash.fail=$DASH_STRICT \
                   -Dtycho.target.eager=true \
                   -Ddash.iplab.token=$GITLAB_API_TOKEN \
+                  -Dorg.eclipse.justj.p2.manager.extra.args="$extra_arguments" \
                   clean \
                   verify
                 '''
