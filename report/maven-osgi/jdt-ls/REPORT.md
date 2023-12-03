@@ -2,7 +2,7 @@
 
 ## Minor Updates
  - [org.apache.commons](https://repo1.maven.org/maven2/org/apache/commons/)
-    - [commons-lang3](https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/) **[3.8.1](https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.8.1)** < [3.13.0](https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.13.0/)
+    - [commons-lang3](https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/) **[3.8.1](https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.8.1)** < [3.14.0](https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.14.0/)
 
 ## Major Updates
  - [jakarta.servlet](https://repo1.maven.org/maven2/jakarta/servlet/)

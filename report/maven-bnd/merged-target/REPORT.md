@@ -27,11 +27,11 @@
     - [antlr-runtime](https://repo1.maven.org/maven2/org/antlr/antlr-runtime/) **[3.2](https://repo1.maven.org/maven2/org/antlr/antlr-runtime/3.2)**
     - [antlr-runtime](https://repo1.maven.org/maven2/org/antlr/antlr-runtime/) **[3.5.3](https://repo1.maven.org/maven2/org/antlr/antlr-runtime/3.5.3)**
  - [org.apache.httpcomponents.client5](https://repo1.maven.org/maven2/org/apache/httpcomponents/client5/)
-    - [httpclient5](https://repo1.maven.org/maven2/org/apache/httpcomponents/client5/httpclient5/) **[5.2.1](https://repo1.maven.org/maven2/org/apache/httpcomponents/client5/httpclient5/5.2.1)**
-    - [httpclient5-win](https://repo1.maven.org/maven2/org/apache/httpcomponents/client5/httpclient5-win/) **[5.2.1](https://repo1.maven.org/maven2/org/apache/httpcomponents/client5/httpclient5-win/5.2.1)**
+    - [httpclient5](https://repo1.maven.org/maven2/org/apache/httpcomponents/client5/httpclient5/) **[5.2.3](https://repo1.maven.org/maven2/org/apache/httpcomponents/client5/httpclient5/5.2.3)**
+    - [httpclient5-win](https://repo1.maven.org/maven2/org/apache/httpcomponents/client5/httpclient5-win/) **[5.2.3](https://repo1.maven.org/maven2/org/apache/httpcomponents/client5/httpclient5-win/5.2.3)**
  - [org.apache.httpcomponents.core5](https://repo1.maven.org/maven2/org/apache/httpcomponents/core5/)
-    - [httpcore5](https://repo1.maven.org/maven2/org/apache/httpcomponents/core5/httpcore5/) **[5.2.3](https://repo1.maven.org/maven2/org/apache/httpcomponents/core5/httpcore5/5.2.3)**
-    - [httpcore5-h2](https://repo1.maven.org/maven2/org/apache/httpcomponents/core5/httpcore5-h2/) **[5.2.3](https://repo1.maven.org/maven2/org/apache/httpcomponents/core5/httpcore5-h2/5.2.3)**
+    - [httpcore5](https://repo1.maven.org/maven2/org/apache/httpcomponents/core5/httpcore5/) **[5.2.4](https://repo1.maven.org/maven2/org/apache/httpcomponents/core5/httpcore5/5.2.4)**
+    - [httpcore5-h2](https://repo1.maven.org/maven2/org/apache/httpcomponents/core5/httpcore5-h2/) **[5.2.4](https://repo1.maven.org/maven2/org/apache/httpcomponents/core5/httpcore5-h2/5.2.4)**
  - [org.apache.lucene](https://repo1.maven.org/maven2/org/apache/lucene/)
     - [lucene-analysis-common](https://repo1.maven.org/maven2/org/apache/lucene/lucene-analysis-common/) **[9.8.0](https://repo1.maven.org/maven2/org/apache/lucene/lucene-analysis-common/9.8.0)**
     - [lucene-analysis-smartcn](https://repo1.maven.org/maven2/org/apache/lucene/lucene-analysis-smartcn/) **[9.8.0](https://repo1.maven.org/maven2/org/apache/lucene/lucene-analysis-smartcn/9.8.0)**
@@ -41,13 +41,13 @@
     - [lucene-queryparser](https://repo1.maven.org/maven2/org/apache/lucene/lucene-queryparser/) **[9.8.0](https://repo1.maven.org/maven2/org/apache/lucene/lucene-queryparser/9.8.0)**
     - [lucene-sandbox](https://repo1.maven.org/maven2/org/apache/lucene/lucene-sandbox/) **[9.8.0](https://repo1.maven.org/maven2/org/apache/lucene/lucene-sandbox/9.8.0)**
  - [org.apache.poi](https://repo1.maven.org/maven2/org/apache/poi/)
-    - [poi](https://repo1.maven.org/maven2/org/apache/poi/poi/) **[5.2.4](https://repo1.maven.org/maven2/org/apache/poi/poi/5.2.4)**
-    - [poi-ooxml](https://repo1.maven.org/maven2/org/apache/poi/poi-ooxml/) **[5.2.4](https://repo1.maven.org/maven2/org/apache/poi/poi-ooxml/5.2.4)**
-    - [poi-ooxml-lite](https://repo1.maven.org/maven2/org/apache/poi/poi-ooxml-lite/) **[5.2.4](https://repo1.maven.org/maven2/org/apache/poi/poi-ooxml-lite/5.2.4)**
+    - [poi](https://repo1.maven.org/maven2/org/apache/poi/poi/) **[5.2.5](https://repo1.maven.org/maven2/org/apache/poi/poi/5.2.5)**
+    - [poi-ooxml](https://repo1.maven.org/maven2/org/apache/poi/poi-ooxml/) **[5.2.5](https://repo1.maven.org/maven2/org/apache/poi/poi-ooxml/5.2.5)**
+    - [poi-ooxml-lite](https://repo1.maven.org/maven2/org/apache/poi/poi-ooxml-lite/) **[5.2.5](https://repo1.maven.org/maven2/org/apache/poi/poi-ooxml-lite/5.2.5)**
  - [org.apache.ws.commons.util](https://repo1.maven.org/maven2/org/apache/ws/commons/util/)
     - [ws-commons-util](https://repo1.maven.org/maven2/org/apache/ws/commons/util/ws-commons-util/) **[1.0.2](https://repo1.maven.org/maven2/org/apache/ws/commons/util/ws-commons-util/1.0.2)**
  - [org.apache.xmlbeans](https://repo1.maven.org/maven2/org/apache/xmlbeans/)
-    - [xmlbeans](https://repo1.maven.org/maven2/org/apache/xmlbeans/xmlbeans/) **[5.1.1](https://repo1.maven.org/maven2/org/apache/xmlbeans/xmlbeans/5.1.1)**
+    - [xmlbeans](https://repo1.maven.org/maven2/org/apache/xmlbeans/xmlbeans/) **[5.2.0](https://repo1.maven.org/maven2/org/apache/xmlbeans/xmlbeans/5.2.0)**
  - [org.apache.xmlgraphics](https://repo1.maven.org/maven2/org/apache/xmlgraphics/)
     - [batik-anim](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-anim/) **[1.17](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-anim/1.17)**
     - [batik-awt-util](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-awt-util/) **[1.17](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-awt-util/1.17)**

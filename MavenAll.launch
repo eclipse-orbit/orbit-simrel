@@ -3,38 +3,33 @@
     <stringAttribute key="org.eclipse.debug.core.launchGroup.0.action" value="WAIT_FOR_TERMINATION"/>
     <booleanAttribute key="org.eclipse.debug.core.launchGroup.0.adoptIfRunning" value="false"/>
     <booleanAttribute key="org.eclipse.debug.core.launchGroup.0.enabled" value="true"/>
-    <stringAttribute key="org.eclipse.debug.core.launchGroup.0.mode" value="inherit"/>
-    <stringAttribute key="org.eclipse.debug.core.launchGroup.0.name" value="MavenOSGiDependencyAnalyzer"/>
+    <stringAttribute key="org.eclipse.debug.core.launchGroup.0.mode" value="run"/>
+    <stringAttribute key="org.eclipse.debug.core.launchGroup.0.name" value="Maven Legacy"/>
     <stringAttribute key="org.eclipse.debug.core.launchGroup.1.action" value="WAIT_FOR_TERMINATION"/>
     <booleanAttribute key="org.eclipse.debug.core.launchGroup.1.adoptIfRunning" value="false"/>
     <booleanAttribute key="org.eclipse.debug.core.launchGroup.1.enabled" value="true"/>
-    <stringAttribute key="org.eclipse.debug.core.launchGroup.1.mode" value="inherit"/>
-    <stringAttribute key="org.eclipse.debug.core.launchGroup.1.name" value="MavenOSGiUpdater"/>
+    <stringAttribute key="org.eclipse.debug.core.launchGroup.1.mode" value="run"/>
+    <stringAttribute key="org.eclipse.debug.core.launchGroup.1.name" value="Maven BND"/>
     <stringAttribute key="org.eclipse.debug.core.launchGroup.2.action" value="WAIT_FOR_TERMINATION"/>
     <booleanAttribute key="org.eclipse.debug.core.launchGroup.2.adoptIfRunning" value="false"/>
     <booleanAttribute key="org.eclipse.debug.core.launchGroup.2.enabled" value="true"/>
-    <stringAttribute key="org.eclipse.debug.core.launchGroup.2.mode" value="inherit"/>
-    <stringAttribute key="org.eclipse.debug.core.launchGroup.2.name" value="MavenBNDDependencyAnalyzer"/>
+    <stringAttribute key="org.eclipse.debug.core.launchGroup.2.mode" value="run"/>
+    <stringAttribute key="org.eclipse.debug.core.launchGroup.2.name" value="Maven OSGi"/>
     <stringAttribute key="org.eclipse.debug.core.launchGroup.3.action" value="WAIT_FOR_TERMINATION"/>
     <booleanAttribute key="org.eclipse.debug.core.launchGroup.3.adoptIfRunning" value="false"/>
     <booleanAttribute key="org.eclipse.debug.core.launchGroup.3.enabled" value="true"/>
-    <stringAttribute key="org.eclipse.debug.core.launchGroup.3.mode" value="inherit"/>
-    <stringAttribute key="org.eclipse.debug.core.launchGroup.3.name" value="MavenBNDUpdater"/>
+    <stringAttribute key="org.eclipse.debug.core.launchGroup.3.mode" value="run"/>
+    <stringAttribute key="org.eclipse.debug.core.launchGroup.3.name" value="Maven Sign"/>
     <stringAttribute key="org.eclipse.debug.core.launchGroup.4.action" value="WAIT_FOR_TERMINATION"/>
     <booleanAttribute key="org.eclipse.debug.core.launchGroup.4.adoptIfRunning" value="false"/>
     <booleanAttribute key="org.eclipse.debug.core.launchGroup.4.enabled" value="true"/>
-    <stringAttribute key="org.eclipse.debug.core.launchGroup.4.mode" value="inherit"/>
-    <stringAttribute key="org.eclipse.debug.core.launchGroup.4.name" value="MavenSignDependencyAnalyzer"/>
+    <stringAttribute key="org.eclipse.debug.core.launchGroup.4.mode" value="run"/>
+    <stringAttribute key="org.eclipse.debug.core.launchGroup.4.name" value="Orbit Aggregation"/>
     <stringAttribute key="org.eclipse.debug.core.launchGroup.5.action" value="WAIT_FOR_TERMINATION"/>
     <booleanAttribute key="org.eclipse.debug.core.launchGroup.5.adoptIfRunning" value="false"/>
     <booleanAttribute key="org.eclipse.debug.core.launchGroup.5.enabled" value="true"/>
-    <stringAttribute key="org.eclipse.debug.core.launchGroup.5.mode" value="inherit"/>
-    <stringAttribute key="org.eclipse.debug.core.launchGroup.5.name" value="MavenSignUpdater"/>
-    <stringAttribute key="org.eclipse.debug.core.launchGroup.6.action" value="WAIT_FOR_TERMINATION"/>
-    <booleanAttribute key="org.eclipse.debug.core.launchGroup.6.adoptIfRunning" value="false"/>
-    <booleanAttribute key="org.eclipse.debug.core.launchGroup.6.enabled" value="true"/>
-    <stringAttribute key="org.eclipse.debug.core.launchGroup.6.mode" value="inherit"/>
-    <stringAttribute key="org.eclipse.debug.core.launchGroup.6.name" value="MavenJettyDependencyAnalyzer"/>
+    <stringAttribute key="org.eclipse.debug.core.launchGroup.5.mode" value="run"/>
+    <stringAttribute key="org.eclipse.debug.core.launchGroup.5.name" value="Maven Jetty"/>
     <listAttribute key="org.eclipse.debug.ui.favoriteGroups">
         <listEntry value="org.eclipse.debug.ui.launchGroup.run"/>
     </listAttribute>

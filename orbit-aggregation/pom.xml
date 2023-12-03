@@ -9,10 +9,9 @@
   <packaging>pom</packaging>
 
   <properties>
-    <tycho-version>4.0.2</tycho-version>
+    <tycho-version>4.0.4</tycho-version>
     <download.eclipse.org>https://download.eclipse.org</download.eclipse.org>
-    <eclipse.repo>${download.eclipse.org}/releases/2023-06</eclipse.repo>
-    <eclipse.repo.url>${download.eclipse.org}/eclipse/updates/4.28/R-4.28-202306050440</eclipse.repo.url>
+    <eclipse.repo>${download.eclipse.org}/releases/2023-12</eclipse.repo>
     <simrel.aggregator.repo.url.relative>nightly/latest</simrel.aggregator.repo.url.relative>
     <simrel.aggregator.repo.url>${download.eclipse.org}/cbi/updates/p2-aggregator/products/${simrel.aggregator.repo.url.relative}</simrel.aggregator.repo.url>
     <cbi.analyzers.repo.url>${download.eclipse.org}/cbi/updates/p2-analyzers/products/nightly/latest</cbi.analyzers.repo.url>
