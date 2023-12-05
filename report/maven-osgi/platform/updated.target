@@ -236,67 +236,67 @@
 			  <dependency>
 				  <groupId>org.eclipse.jetty</groupId>
 				  <artifactId>jetty-http</artifactId>
-				  <version>12.0.3</version>
+				  <version>12.0.4</version>
 				  <type>jar</type>
 			  </dependency>
 			  <dependency>
 				  <groupId>org.eclipse.jetty</groupId>
 				  <artifactId>jetty-io</artifactId>
-				  <version>12.0.3</version>
+				  <version>12.0.4</version>
 				  <type>jar</type>
 			  </dependency>
 			  <dependency>
 				  <groupId>org.eclipse.jetty</groupId>
 				  <artifactId>jetty-security</artifactId>
-				  <version>12.0.3</version>
+				  <version>12.0.4</version>
 				  <type>jar</type>
 			  </dependency>
 			  <dependency>
 				  <groupId>org.eclipse.jetty</groupId>
 				  <artifactId>jetty-server</artifactId>
-				  <version>12.0.3</version>
+				  <version>12.0.4</version>
 				  <type>jar</type>
 			  </dependency>
 			  <dependency>
 				  <groupId>org.eclipse.jetty</groupId>
 				  <artifactId>jetty-session</artifactId>
-				  <version>12.0.3</version>
+				  <version>12.0.4</version>
 				  <type>jar</type>
 			  </dependency>
 			  <dependency>
 				  <groupId>org.eclipse.jetty</groupId>
 				  <artifactId>jetty-util-ajax</artifactId>
-				  <version>12.0.3</version>
+				  <version>12.0.4</version>
 				  <type>jar</type>
 			  </dependency>
 			  <dependency>
 				  <groupId>org.eclipse.jetty</groupId>
 				  <artifactId>jetty-util</artifactId>
-				  <version>12.0.3</version>
+				  <version>12.0.4</version>
 				  <type>jar</type>
 			  </dependency>
 			  <dependency>
 				  <groupId>org.eclipse.jetty.ee8</groupId>
 				  <artifactId>jetty-ee8-apache-jsp</artifactId>
-				  <version>12.0.3</version>
+				  <version>12.0.4</version>
 				  <type>jar</type>
 			  </dependency>
 			  <dependency>
 				  <groupId>org.eclipse.jetty.ee8</groupId>
 				  <artifactId>jetty-ee8-nested</artifactId>
-				  <version>12.0.3</version>
+				  <version>12.0.4</version>
 				  <type>jar</type>
 			  </dependency>
 			  <dependency>
 				  <groupId>org.eclipse.jetty.ee8</groupId>
 				  <artifactId>jetty-ee8-security</artifactId>
-				  <version>12.0.3</version>
+				  <version>12.0.4</version>
 				  <type>jar</type>
 			  </dependency>
 			  <dependency>
 				  <groupId>org.eclipse.jetty.ee8</groupId>
 				  <artifactId>jetty-ee8-servlet</artifactId>
-				  <version>12.0.3</version>
+				  <version>12.0.4</version>
 				  <type>jar</type>
 			  </dependency>
 			  <dependency>
@@ -572,6 +572,16 @@
 			    <artifactId>biz.aQute.resolve</artifactId>
 			    <version>7.0.0</version>
 			</dependency>
+			<dependency>
+			    <groupId>org.bndtools</groupId>
+			    <artifactId>org.bndtools.templating</artifactId>
+			    <version>7.0.0</version>
+			</dependency>
+			<dependency>
+			    <groupId>org.bndtools</groupId>
+			    <artifactId>org.bndtools.templates.template</artifactId>
+			    <version>7.0.0</version>
+			</dependency>
 		  </dependencies>
 	  </location>
 	  <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" label="Apache Felix" missingManifest="error" type="Maven">
@@ -738,6 +748,11 @@
 				  <version>2.0.1</version>
 				  <type>jar</type>
 			  </dependency>
+			  <dependency>
+				    <groupId>jakarta.xml.bind</groupId>
+				    <artifactId>jakarta.xml.bind-api</artifactId>
+				    <version>4.0.1</version>
+				</dependency>
 		  </dependencies>
 	  </location>
   </locations>

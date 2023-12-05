@@ -13,8 +13,6 @@
     - [jakarta.persistence-api](https://repo1.maven.org/maven2/jakarta/persistence/jakarta.persistence-api/) **[2.2.3](https://repo1.maven.org/maven2/jakarta/persistence/jakarta.persistence-api/2.2.3)** < [3.1.0](https://repo1.maven.org/maven2/jakarta/persistence/jakarta.persistence-api/3.1.0/)
  - [jakarta.ws.rs](https://repo1.maven.org/maven2/jakarta/ws/rs/)
     - [jakarta.ws.rs-api](https://repo1.maven.org/maven2/jakarta/ws/rs/jakarta.ws.rs-api/) **[2.1.6](https://repo1.maven.org/maven2/jakarta/ws/rs/jakarta.ws.rs-api/2.1.6)** < [3.1.0](https://repo1.maven.org/maven2/jakarta/ws/rs/jakarta.ws.rs-api/3.1.0/)
- - [jakarta.xml.bind](https://repo1.maven.org/maven2/jakarta/xml/bind/)
-    - [jakarta.xml.bind-api](https://repo1.maven.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/) **[2.3.3](https://repo1.maven.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3)** < [4.0.1](https://repo1.maven.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/4.0.1/)
  - [jakarta.xml.soap](https://repo1.maven.org/maven2/jakarta/xml/soap/)
     - [jakarta.xml.soap-api](https://repo1.maven.org/maven2/jakarta/xml/soap/jakarta.xml.soap-api/) **[1.4.2](https://repo1.maven.org/maven2/jakarta/xml/soap/jakarta.xml.soap-api/1.4.2)** < [3.0.1](https://repo1.maven.org/maven2/jakarta/xml/soap/jakarta.xml.soap-api/3.0.1/)
  - [jakarta.xml.ws](https://repo1.maven.org/maven2/jakarta/xml/ws/)
@@ -46,7 +44,7 @@
  - [org.glassfish.jersey.media](https://repo1.maven.org/maven2/org/glassfish/jersey/media/)
     - [jersey-media-json-jackson](https://repo1.maven.org/maven2/org/glassfish/jersey/media/jersey-media-json-jackson/) **[2.41](https://repo1.maven.org/maven2/org/glassfish/jersey/media/jersey-media-json-jackson/2.41)** < [3.1.4](https://repo1.maven.org/maven2/org/glassfish/jersey/media/jersey-media-json-jackson/3.1.4/)
  - [org.mandas](https://repo1.maven.org/maven2/org/mandas/)
-    - [docker-client](https://repo1.maven.org/maven2/org/mandas/docker-client/) **[5.2.2](https://repo1.maven.org/maven2/org/mandas/docker-client/5.2.2)** < [7.0.3](https://repo1.maven.org/maven2/org/mandas/docker-client/7.0.3/)
+    - [docker-client](https://repo1.maven.org/maven2/org/mandas/docker-client/) **[5.2.2](https://repo1.maven.org/maven2/org/mandas/docker-client/5.2.2)** < [7.0.4](https://repo1.maven.org/maven2/org/mandas/docker-client/7.0.4/)
 
 ## Content
  - [args4j](https://repo1.maven.org/maven2/args4j/)
@@ -181,6 +179,7 @@
     - [jakarta.ws.rs-api](https://repo1.maven.org/maven2/jakarta/ws/rs/jakarta.ws.rs-api/) **[2.1.6](https://repo1.maven.org/maven2/jakarta/ws/rs/jakarta.ws.rs-api/2.1.6)**
  - [jakarta.xml.bind](https://repo1.maven.org/maven2/jakarta/xml/bind/)
     - [jakarta.xml.bind-api](https://repo1.maven.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/) **[2.3.3](https://repo1.maven.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3)**
+    - [jakarta.xml.bind-api](https://repo1.maven.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/) **[4.0.1](https://repo1.maven.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/4.0.1)**
  - [jakarta.xml.rpc](https://repo1.maven.org/maven2/jakarta/xml/rpc/)
     - [jakarta.xml.rpc-api](https://repo1.maven.org/maven2/jakarta/xml/rpc/jakarta.xml.rpc-api/) **[1.1.4](https://repo1.maven.org/maven2/jakarta/xml/rpc/jakarta.xml.rpc-api/1.1.4)**
  - [jakarta.xml.soap](https://repo1.maven.org/maven2/jakarta/xml/soap/)
@@ -233,6 +232,9 @@
     - [apiguardian-api](https://repo1.maven.org/maven2/org/apiguardian/apiguardian-api/) **[1.1.2](https://repo1.maven.org/maven2/org/apiguardian/apiguardian-api/1.1.2)**
  - [org.assertj](https://repo1.maven.org/maven2/org/assertj/)
     - [assertj-core](https://repo1.maven.org/maven2/org/assertj/assertj-core/) **[3.24.2](https://repo1.maven.org/maven2/org/assertj/assertj-core/3.24.2)**
+ - [org.bndtools](https://repo1.maven.org/maven2/org/bndtools/)
+    - [org.bndtools.templates.template](https://repo1.maven.org/maven2/org/bndtools/org.bndtools.templates.template/) **[7.0.0](https://repo1.maven.org/maven2/org/bndtools/org.bndtools.templates.template/7.0.0)**
+    - [org.bndtools.templating](https://repo1.maven.org/maven2/org/bndtools/org.bndtools.templating/) **[7.0.0](https://repo1.maven.org/maven2/org/bndtools/org.bndtools.templating/7.0.0)**
  - [org.bouncycastle](https://repo1.maven.org/maven2/org/bouncycastle/)
     - [bcpg-jdk18on](https://repo1.maven.org/maven2/org/bouncycastle/bcpg-jdk18on/) **[1.77](https://repo1.maven.org/maven2/org/bouncycastle/bcpg-jdk18on/1.77)**
     - [bcpkix-jdk18on](https://repo1.maven.org/maven2/org/bouncycastle/bcpkix-jdk18on/) **[1.77](https://repo1.maven.org/maven2/org/bouncycastle/bcpkix-jdk18on/1.77)**

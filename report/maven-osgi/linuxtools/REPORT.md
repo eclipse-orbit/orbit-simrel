@@ -41,7 +41,7 @@
  - [org.glassfish.jersey.media](https://repo1.maven.org/maven2/org/glassfish/jersey/media/)
     - [jersey-media-json-jackson](https://repo1.maven.org/maven2/org/glassfish/jersey/media/jersey-media-json-jackson/) **[2.41](https://repo1.maven.org/maven2/org/glassfish/jersey/media/jersey-media-json-jackson/2.41)** < [3.1.4](https://repo1.maven.org/maven2/org/glassfish/jersey/media/jersey-media-json-jackson/3.1.4/)
  - [org.mandas](https://repo1.maven.org/maven2/org/mandas/)
-    - [docker-client](https://repo1.maven.org/maven2/org/mandas/docker-client/) **[5.2.2](https://repo1.maven.org/maven2/org/mandas/docker-client/5.2.2)** < [7.0.3](https://repo1.maven.org/maven2/org/mandas/docker-client/7.0.3/)
+    - [docker-client](https://repo1.maven.org/maven2/org/mandas/docker-client/) **[5.2.2](https://repo1.maven.org/maven2/org/mandas/docker-client/5.2.2)** < [7.0.4](https://repo1.maven.org/maven2/org/mandas/docker-client/7.0.4/)
 
 ## Updates Applied
 [updated.target](updated.target)
