@@ -149,8 +149,16 @@ public class DependencyAnalyzer {
 			return exclusionPatterns.stream().anyMatch(pattern -> it.matches(pattern));
 		});
 
+		var keep = getArguments(arguments, "-keep");
+		var keepPatterns = keep.stream().map(Pattern::compile).collect(Collectors.toList());
+
 		// Remove any dependency for which there is a minor update version.
+		// Except the ones specified to keep.
 		dependencies.removeIf(it -> {
+			if (keepPatterns.stream().anyMatch(it::matches)) {
+				return false;
+			}
+
 			return dependencies.stream().anyMatch(it2 -> {
 				return it != it2 && it2.isSameArtfiact(it)
 						&& it2.version.compareTo(it.nextMajorVersion(majorInclusionPatterns)) < 0
