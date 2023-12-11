@@ -6,6 +6,9 @@
  - [net.bytebuddy](https://repo1.maven.org/maven2/net/bytebuddy/)
     - [byte-buddy](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/) **[1.14.9](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.14.9)** < [1.14.10](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.14.10/)
     - [byte-buddy-agent](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/) **[1.14.9](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.14.9)** < [1.14.10](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.14.10/)
+ - [net.java.dev.jna](https://repo1.maven.org/maven2/net/java/dev/jna/)
+    - [jna](https://repo1.maven.org/maven2/net/java/dev/jna/jna/) **[5.13.0](https://repo1.maven.org/maven2/net/java/dev/jna/jna/5.13.0)** < [5.14.0](https://repo1.maven.org/maven2/net/java/dev/jna/jna/5.14.0/)
+    - [jna-platform](https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/) **[5.13.0](https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/5.13.0)** < [5.14.0](https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/5.14.0/)
  - [org.mockito](https://repo1.maven.org/maven2/org/mockito/)
     - [mockito-core](https://repo1.maven.org/maven2/org/mockito/mockito-core/) **[5.7.0](https://repo1.maven.org/maven2/org/mockito/mockito-core/5.7.0)** < [5.8.0](https://repo1.maven.org/maven2/org/mockito/mockito-core/5.8.0/)
 
