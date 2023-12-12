@@ -10,7 +10,7 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <tycho-version>4.0.4</tycho-version>
-    <jarsigner-version>1.4.2</jarsigner-version>
+    <jarsigner-version>1.4.3</jarsigner-version>
     <gpg-keyname>C1F58CF8</gpg-keyname>
     <eclipse.repo>https://download.eclipse.org/releases/2023-12</eclipse.repo>
     <justj.tools.repo>https://download.eclipse.org/justj/tools/updates/nightly/latest</justj.tools.repo>
@@ -138,13 +138,6 @@
           <groupId>org.eclipse.cbi.maven.plugins</groupId>
           <artifactId>eclipse-jarsigner-plugin</artifactId>
           <version>${jarsigner-version}</version>
-          <dependencies>
-            <dependency>
-              <groupId>org.apache.maven.shared</groupId>
-              <artifactId>maven-shared-utils</artifactId>
-              <version>3.4.2</version>
-            </dependency>
-          </dependencies>
         </plugin>
       </plugins>
     </pluginManagement>
