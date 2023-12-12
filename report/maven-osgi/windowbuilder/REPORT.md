@@ -18,8 +18,14 @@
     - [commons-lang](https://repo1.maven.org/maven2/commons-lang/commons-lang/) **[2.6](https://repo1.maven.org/maven2/commons-lang/commons-lang/2.6)**
  - [commons-logging](https://repo1.maven.org/maven2/commons-logging/)
     - [commons-logging](https://repo1.maven.org/maven2/commons-logging/commons-logging/) **[1.2](https://repo1.maven.org/maven2/commons-logging/commons-logging/1.2)**
+ - [io.github.toolfactory](https://repo1.maven.org/maven2/io/github/toolfactory/)
+    - [jvm-driver](https://repo1.maven.org/maven2/io/github/toolfactory/jvm-driver/) **[9.6.0](https://repo1.maven.org/maven2/io/github/toolfactory/jvm-driver/9.6.0)**
+    - [narcissus](https://repo1.maven.org/maven2/io/github/toolfactory/narcissus/) **[1.0.7](https://repo1.maven.org/maven2/io/github/toolfactory/narcissus/1.0.7)**
  - [org.apache.commons](https://repo1.maven.org/maven2/org/apache/commons/)
     - [commons-digester3](https://repo1.maven.org/maven2/org/apache/commons/commons-digester3/) **[3.1](https://repo1.maven.org/maven2/org/apache/commons/commons-digester3/3.1)**
+ - [org.burningwave](https://repo1.maven.org/maven2/org/burningwave/)
+    - [core](https://repo1.maven.org/maven2/org/burningwave/core/) **[12.64.3](https://repo1.maven.org/maven2/org/burningwave/core/12.64.3)**
+    - [jvm-driver](https://repo1.maven.org/maven2/org/burningwave/jvm-driver/) **[8.15.0](https://repo1.maven.org/maven2/org/burningwave/jvm-driver/8.15.0)**
  - [org.mvel](https://repo1.maven.org/maven2/org/mvel/)
     - [mvel2](https://repo1.maven.org/maven2/org/mvel/mvel2/) **[2.5.0.Final](https://repo1.maven.org/maven2/org/mvel/mvel2/2.5.0.Final)**
  - [org.objenesis](https://repo1.maven.org/maven2/org/objenesis/)

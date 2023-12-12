@@ -1039,25 +1039,25 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>org.mortbay.jasper</groupId>
           <artifactId>apache-el</artifactId>
-          <version>9.0.52</version>
+          <version>9.0.83</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.mortbay.jasper</groupId>
           <artifactId>apache-el</artifactId>
-          <version>10.1.7</version>
+          <version>10.1.16</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.mortbay.jasper</groupId>
           <artifactId>apache-jsp</artifactId>
-          <version>9.0.52</version>
+          <version>9.0.83</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.mortbay.jasper</groupId>
           <artifactId>apache-jsp</artifactId>
-          <version>10.1.7</version>
+          <version>10.1.16</version>
           <type>jar</type>
         </dependency>
         <dependency>

@@ -308,7 +308,7 @@
 			  <dependency>
 				  <groupId>org.mortbay.jasper</groupId>
 				  <artifactId>apache-jsp</artifactId>
-				  <version>9.0.52</version>
+				  <version>9.0.83</version>
 				  <type>jar</type>
 			  </dependency>
 		  </dependencies>
