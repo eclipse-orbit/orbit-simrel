@@ -84,7 +84,9 @@ SPDX-License-Identifier: EPL-2.0
                 -type ${build.type}
                 -breadcrumb "Orbit https://projects.eclipse.org/projects/tools.orbit"
                 -mapping maven-bnd->Maven-BND
-                -favicon https://eclipseide.org/favicon.ico
+                -favicon https://raw.githubusercontent.com/eclipse-orbit/.github/main/assets/artwork/svg/Orbit-Logo-Color.svg
+                -body-image https://raw.githubusercontent.com/eclipse-orbit/.github/main/assets/artwork/svg/Orbit-Color.svg
+                -title-image https://raw.githubusercontent.com/eclipse-orbit/.github/main/assets/artwork/svg/Orbit-Title-Color.svg
                 -simrel-alias
                 -maven-wrapped-mapping org.eclipse.orbit:ant:(.*)
                 -maven-wrapped-mapping org.eclipse.orbit:org.apache.axis:(.*)

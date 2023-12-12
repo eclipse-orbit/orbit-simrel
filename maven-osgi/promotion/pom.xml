@@ -84,7 +84,9 @@ SPDX-License-Identifier: EPL-2.0
                 -type ${build.type}
                 -breadcrumb "Orbit https://projects.eclipse.org/projects/tools.orbit"
                 -mapping maven-osgi->Maven-OSGi
-                -favicon https://eclipseide.org/favicon.ico
+                -favicon https://raw.githubusercontent.com/eclipse-orbit/.github/main/assets/artwork/svg/Orbit-Logo-Color.svg
+                -body-image https://raw.githubusercontent.com/eclipse-orbit/.github/main/assets/artwork/svg/Orbit-Color.svg
+                -title-image https://raw.githubusercontent.com/eclipse-orbit/.github/main/assets/artwork/svg/Orbit-Title-Color.svg
                 -simrel-alias
                 ${org.eclipse.justj.p2.manager.extra.args}
               </appArgLine>
