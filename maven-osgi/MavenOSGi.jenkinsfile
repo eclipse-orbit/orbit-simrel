@@ -113,6 +113,10 @@ PROMOTE=${params.PROMOTE}
                   clean \
                   verify
                 '''
+              script {
+                 def reviewSummary = readFile(file: 'target/dash/review-summary')
+                 currentBuild.description += "<br/>" + reviewSummary.replaceAll("\\[maven/mavencentral/(.*)\\]\\((.*)\\)\r?\n", "<a href=\"\$2\">\$1</a><br/>\n")
+              }
             }
           }
         }
