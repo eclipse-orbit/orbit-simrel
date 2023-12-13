@@ -122,7 +122,7 @@ BASELINE=${params.BASELINE}
                 '''
               script {
                  def reviewSummary = readFile(file: 'target/dash/review-summary')
-                 currentBuild.description += "<br/>" + reviewSummary.replaceAll("\\[maven/mavencentral/(.*)\\]\\((.*)\\)\r?\n", "<a href=\"\$2\">\$1</a><br/>\n")
+                 currentBuild.description += "<br/><br/>" + reviewSummary.replaceAll("\\[(?:maven/mavencentral/|p2/orbit/p2.eclipse.plugin/)(.*)\\]\\((.*)\\)\r?\n", "<a href=\"\$2\">\$1</a><br/>\n")
               }
             }
           }
