@@ -106,7 +106,7 @@
 			  <dependency>
 				  <groupId>com.ibm.icu</groupId>
 				  <artifactId>icu4j</artifactId>
-				  <version>74.1</version>
+				  <version>74.2</version>
 				  <type>jar</type>
 			  </dependency>
 			  <dependency>
@@ -308,6 +308,12 @@
 			  <dependency>
 				  <groupId>org.mortbay.jasper</groupId>
 				  <artifactId>apache-jsp</artifactId>
+				  <version>9.0.83</version>
+				  <type>jar</type>
+			  </dependency>
+			  <dependency>
+				  <groupId>org.mortbay.jasper</groupId>
+				  <artifactId>apache-el</artifactId>
 				  <version>9.0.83</version>
 				  <type>jar</type>
 			  </dependency>
