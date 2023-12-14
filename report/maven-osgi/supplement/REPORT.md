@@ -6,9 +6,9 @@
  - [com.github.oshi](https://repo1.maven.org/maven2/com/github/oshi/)
     - [oshi-core](https://repo1.maven.org/maven2/com/github/oshi/oshi-core/) **[6.4.8](https://repo1.maven.org/maven2/com/github/oshi/oshi-core/6.4.8)** < [6.4.9](https://repo1.maven.org/maven2/com/github/oshi/oshi-core/6.4.9/)
  - [org.mortbay.jasper](https://repo1.maven.org/maven2/org/mortbay/jasper/)
-    - [apache-el](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-el/) **[9.0.52](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-el/9.0.52)** < [9.0.83](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-el/9.0.83/)
+    - [apache-el](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-el/) **[9.0.52](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-el/9.0.52)** < [9.0.83.1](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-el/9.0.83.1/)
     - [apache-el](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-el/) **[10.1.7](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-el/10.1.7)** < [10.1.16](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-el/10.1.16/)
-    - [apache-jsp](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-jsp/) **[9.0.52](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-jsp/9.0.52)** < [9.0.83](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-jsp/9.0.83/)
+    - [apache-jsp](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-jsp/) **[9.0.52](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-jsp/9.0.52)** < [9.0.83.1](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-jsp/9.0.83.1/)
     - [apache-jsp](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-jsp/) **[10.1.7](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-jsp/10.1.7)** < [10.1.16](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-jsp/10.1.16/)
 
 ## Major Updates

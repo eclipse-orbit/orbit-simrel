@@ -312,9 +312,9 @@
  - [org.mongodb](https://repo1.maven.org/maven2/org/mongodb/)
     - [mongo-java-driver](https://repo1.maven.org/maven2/org/mongodb/mongo-java-driver/) **[3.12.14](https://repo1.maven.org/maven2/org/mongodb/mongo-java-driver/3.12.14)**
  - [org.mortbay.jasper](https://repo1.maven.org/maven2/org/mortbay/jasper/)
-    - [apache-el](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-el/) **[9.0.83](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-el/9.0.83)**
+    - [apache-el](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-el/) **[9.0.83.1](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-el/9.0.83.1)**
     - [apache-el](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-el/) **[10.1.16](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-el/10.1.16)**
-    - [apache-jsp](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-jsp/) **[9.0.83](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-jsp/9.0.83)**
+    - [apache-jsp](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-jsp/) **[9.0.83.1](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-jsp/9.0.83.1)**
     - [apache-jsp](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-jsp/) **[10.1.16](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-jsp/10.1.16)**
  - [org.mozilla](https://repo1.maven.org/maven2/org/mozilla/)
     - [rhino](https://repo1.maven.org/maven2/org/mozilla/rhino/) **[1.7.14](https://repo1.maven.org/maven2/org/mozilla/rhino/1.7.14)**
