@@ -5,9 +5,6 @@
     - [icu4j](https://repo1.maven.org/maven2/com/ibm/icu/icu4j/) **[74.1](https://repo1.maven.org/maven2/com/ibm/icu/icu4j/74.1)** < [74.2](https://repo1.maven.org/maven2/com/ibm/icu/icu4j/74.2/)
  - [net.java.dev.jna](https://repo1.maven.org/maven2/net/java/dev/jna/)
     - [jna-platform](https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/) **[5.13.0](https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/5.13.0)** < [5.14.0](https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/5.14.0/)
- - [org.mortbay.jasper](https://repo1.maven.org/maven2/org/mortbay/jasper/)
-    - [apache-el](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-el/) **[9.0.83](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-el/9.0.83)** < [9.0.83.1](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-el/9.0.83.1/)
-    - [apache-jsp](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-jsp/) **[9.0.83](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-jsp/9.0.83)** < [9.0.83.1](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-jsp/9.0.83.1/)
 
 ## Major Updates
  - [jakarta.el](https://repo1.maven.org/maven2/jakarta/el/)
@@ -17,8 +14,8 @@
  - [org.glassfish](https://repo1.maven.org/maven2/org/glassfish/)
     - [jakarta.el](https://repo1.maven.org/maven2/org/glassfish/jakarta.el/) **[3.0.4](https://repo1.maven.org/maven2/org/glassfish/jakarta.el/3.0.4)** < [4.0.2](https://repo1.maven.org/maven2/org/glassfish/jakarta.el/4.0.2/)
  - [org.mortbay.jasper](https://repo1.maven.org/maven2/org/mortbay/jasper/)
-    - [apache-el](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-el/) **[9.0.83](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-el/9.0.83)** < [10.1.16](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-el/10.1.16/)
-    - [apache-jsp](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-jsp/) **[9.0.83](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-jsp/9.0.83)** < [10.1.16](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-jsp/10.1.16/)
+    - [apache-el](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-el/) **[9.0.83.1](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-el/9.0.83.1)** < [10.1.16](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-el/10.1.16/)
+    - [apache-jsp](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-jsp/) **[9.0.83.1](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-jsp/9.0.83.1)** < [10.1.16](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-jsp/10.1.16/)
 
 ## Updates Applied
 [updated.target](updated.target)
@@ -126,8 +123,8 @@
  - [org.mockito](https://repo1.maven.org/maven2/org/mockito/)
     - [mockito-core](https://repo1.maven.org/maven2/org/mockito/mockito-core/) **[5.8.0](https://repo1.maven.org/maven2/org/mockito/mockito-core/5.8.0)**
  - [org.mortbay.jasper](https://repo1.maven.org/maven2/org/mortbay/jasper/)
-    - [apache-el](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-el/) **[9.0.83](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-el/9.0.83)**
-    - [apache-jsp](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-jsp/) **[9.0.83](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-jsp/9.0.83)**
+    - [apache-el](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-el/) **[9.0.83.1](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-el/9.0.83.1)**
+    - [apache-jsp](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-jsp/) **[9.0.83.1](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-jsp/9.0.83.1)**
  - [org.objenesis](https://repo1.maven.org/maven2/org/objenesis/)
     - [objenesis](https://repo1.maven.org/maven2/org/objenesis/objenesis/) **[3.3](https://repo1.maven.org/maven2/org/objenesis/objenesis/3.3)**
  - [org.opentest4j](https://repo1.maven.org/maven2/org/opentest4j/)
