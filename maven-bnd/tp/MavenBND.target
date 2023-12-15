@@ -1043,7 +1043,7 @@ Export-Package:         *;version="${version}"
 <!-- ______________________________________________________ org.apache.batik __________________________________________________________________________________________________-->
 
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
-      <feature id="org.eclipse.orbit.maven.org.apache.batik" label="Orbit Maven BND org.apache.batik" provider-name="Eclipse Orbit" version="4.31.0.v20231215-0830">
+      <feature id="org.eclipse.orbit.maven.org.apache.batik" label="Orbit Maven BND org.apache.batik" provider-name="Eclipse Orbit" version="4.31.0.v20231215-1030">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
 Copyright (c) 2023 Eclipse contributors and others.
@@ -1168,14 +1168,14 @@ SPDX-License-Identifier: EPL-2.0
         </dependency>
       </dependencies>
       <instructions>
-<!-- SHA1 27aab8f2f4cfb525257be6ea819d1d03a7be1abb -->
+<!-- SHA1 27351445b4c5d6a9d1481f1eb005442136f8b833 -->
 <![CDATA[
 Bundle-Name:            Bundle ${mvnGroupId} : ${mvnArtifactId}
 version:                ${versionmask;===;${version_cleanup;${mvnVersion}}}
 mappedId:               ${replacestring;${mvnArtifactId};batik-svg-dom;batik-dom-svg}
 suffix:                 ${replacestring;${mappedId};-;.}
 Bundle-SymbolicName:    org.apache.${suffix}
-Bundle-Version:         ${version}.v20231215-0830
+Bundle-Version:         ${version}.v20231215-1030
 Eclipse-Wrapped-Bundle: ${mvnGroupId}:${mvnArtifactId}:${mvnVersion}
 Import-Package:         org.w3c.dom.smil*;version="1.0.0",\
                         org.w3c.dom.svg*;version="1.1.0",\
@@ -1185,7 +1185,7 @@ Import-Package:         org.w3c.dom.smil*;version="1.0.0",\
                         *
 Export-Package:         *;version="${version}";-noimport:=true
 Eclipse-BuddyPolicy:    registered
-Eclipse-RegisterBuddy:  org.apache.batik.awt.util
+Eclipse-RegisterBuddy:  org.apache.batik.awt.util,org.apache.batik.transcoder
 -noextraheaders:        true
 -removeheaders:         Private-Package
 ]]>
