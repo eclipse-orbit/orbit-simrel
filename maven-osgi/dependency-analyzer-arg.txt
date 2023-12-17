@@ -54,6 +54,7 @@ commons-collections:commons-collections:200[234].*
 io.takari.m2e.workspace:org.eclipse.m2e.workspace.cli:0.4.0
 ch.qos.logback:logback-classic:1.4.7 // Has non-optional missing required service capability.
 org.apache.commons:commons-digester3:3.2 // requires 'java.package; net.sf.cglib.proxy 0.0.0' but it could not be found
+org.javassist:javassist:3.30.0-GA // Bogus ee requirement
 
 -keep
 commons-logging:commons-logging:1.2
