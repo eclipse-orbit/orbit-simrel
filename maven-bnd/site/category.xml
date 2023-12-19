@@ -66,6 +66,8 @@
    <feature id="org.eclipse.orbit.maven.org.dom4j.source"/>
    <feature id="org.eclipse.orbit.maven.org.jdom"/>
    <feature id="org.eclipse.orbit.maven.org.jdom.source"/>
+   <feature id="org.eclipse.orbit.maven.org.pushingpixels.trident"/>
+   <feature id="org.eclipse.orbit.maven.org.pushingpixels.trident.source"/>
    <feature id="org.eclipse.orbit.maven.osgi.exclude"/>
    <feature id="org.eclipse.orbit.maven.osgi.exclude.source"/>
    <feature id="org.eclipse.orbit.maven.xalan"/>
