@@ -11,8 +11,6 @@
     - [jakarta.el-api](https://repo1.maven.org/maven2/jakarta/el/jakarta.el-api/) **[3.0.3](https://repo1.maven.org/maven2/jakarta/el/jakarta.el-api/3.0.3)** < [5.0.1](https://repo1.maven.org/maven2/jakarta/el/jakarta.el-api/5.0.1/)
  - [jakarta.servlet](https://repo1.maven.org/maven2/jakarta/servlet/)
     - [jakarta.servlet-api](https://repo1.maven.org/maven2/jakarta/servlet/jakarta.servlet-api/) **[4.0.4](https://repo1.maven.org/maven2/jakarta/servlet/jakarta.servlet-api/4.0.4)** < [6.0.0](https://repo1.maven.org/maven2/jakarta/servlet/jakarta.servlet-api/6.0.0/)
- - [org.apache.felix](https://repo1.maven.org/maven2/org/apache/felix/)
-    - [org.apache.felix.http.servlet-api](https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.http.servlet-api/) **[1.2.0](https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.http.servlet-api/1.2.0)** < [3.0.0](https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.http.servlet-api/3.0.0/)
  - [org.glassfish](https://repo1.maven.org/maven2/org/glassfish/)
     - [jakarta.el](https://repo1.maven.org/maven2/org/glassfish/jakarta.el/) **[3.0.4](https://repo1.maven.org/maven2/org/glassfish/jakarta.el/3.0.4)** < [4.0.2](https://repo1.maven.org/maven2/org/glassfish/jakarta.el/4.0.2/)
  - [org.mortbay.jasper](https://repo1.maven.org/maven2/org/mortbay/jasper/)
@@ -75,7 +73,6 @@
     - [org.apache.felix.gogo.command](https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.gogo.command/) **[1.1.2](https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.gogo.command/1.1.2)**
     - [org.apache.felix.gogo.runtime](https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.gogo.runtime/) **[1.1.6](https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.gogo.runtime/1.1.6)**
     - [org.apache.felix.gogo.shell](https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.gogo.shell/) **[1.1.4](https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.gogo.shell/1.1.4)**
-    - [org.apache.felix.http.servlet-api](https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.http.servlet-api/) **[1.2.0](https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.http.servlet-api/1.2.0)**
     - [org.apache.felix.scr](https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.scr/) **[2.2.6](https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.scr/2.2.6)**
  - [org.apache.sshd](https://repo1.maven.org/maven2/org/apache/sshd/)
     - [sshd-osgi](https://repo1.maven.org/maven2/org/apache/sshd/sshd-osgi/) **[2.11.0](https://repo1.maven.org/maven2/org/apache/sshd/sshd-osgi/2.11.0)**
@@ -143,7 +140,6 @@
     - [org.osgi.service.coordinator](https://repo1.maven.org/maven2/org/osgi/org.osgi.service.coordinator/) **[1.0.2](https://repo1.maven.org/maven2/org/osgi/org.osgi.service.coordinator/1.0.2)**
     - [org.osgi.service.device](https://repo1.maven.org/maven2/org/osgi/org.osgi.service.device/) **[1.1.1](https://repo1.maven.org/maven2/org/osgi/org.osgi.service.device/1.1.1)**
     - [org.osgi.service.event](https://repo1.maven.org/maven2/org/osgi/org.osgi.service.event/) **[1.4.1](https://repo1.maven.org/maven2/org/osgi/org.osgi.service.event/1.4.1)**
-    - [org.osgi.service.http](https://repo1.maven.org/maven2/org/osgi/org.osgi.service.http/) **[1.2.2](https://repo1.maven.org/maven2/org/osgi/org.osgi.service.http/1.2.2)**
     - [org.osgi.service.http.whiteboard](https://repo1.maven.org/maven2/org/osgi/org.osgi.service.http.whiteboard/) **[1.1.1](https://repo1.maven.org/maven2/org/osgi/org.osgi.service.http.whiteboard/1.1.1)**
     - [org.osgi.service.log.stream](https://repo1.maven.org/maven2/org/osgi/org.osgi.service.log.stream/) **[1.0.0](https://repo1.maven.org/maven2/org/osgi/org.osgi.service.log.stream/1.0.0)**
     - [org.osgi.service.metatype](https://repo1.maven.org/maven2/org/osgi/org.osgi.service.metatype/) **[1.4.1](https://repo1.maven.org/maven2/org/osgi/org.osgi.service.metatype/1.4.1)**

@@ -1,6 +1,8 @@
 # Target Platform: [linuxtools](https://raw.githubusercontent.com/eclipse-linuxtools/org.eclipse.linuxtools/master/releng/org.eclipse.linuxtools.target/linuxtools-e4.31.target)
 
 ## Minor Updates
+ - [com.google.guava](https://repo1.maven.org/maven2/com/google/guava/)
+    - [guava](https://repo1.maven.org/maven2/com/google/guava/guava/) **[32.1.3-jre](https://repo1.maven.org/maven2/com/google/guava/guava/32.1.3-jre)** < [33.0.0-jre](https://repo1.maven.org/maven2/com/google/guava/guava/33.0.0-jre/)
  - [org.javassist](https://repo1.maven.org/maven2/org/javassist/)
     - [javassist](https://repo1.maven.org/maven2/org/javassist/javassist/) **[3.29.2-GA](https://repo1.maven.org/maven2/org/javassist/javassist/3.29.2-GA)** < [3.30.1-GA](https://repo1.maven.org/maven2/org/javassist/javassist/3.30.1-GA/)
 
