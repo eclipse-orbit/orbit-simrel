@@ -2,6 +2,10 @@
 <site>
    <feature id="org.eclipse.orbit.maven.aopalliance"/>
    <feature id="org.eclipse.orbit.maven.aopalliance.source"/>
+   <feature id="org.eclipse.orbit.maven.com.ethlo.time.chronograph"/>
+   <feature id="org.eclipse.orbit.maven.com.ethlo.time.chronograph.source"/>
+   <feature id="org.eclipse.orbit.maven.com.github.package-url"/>
+   <feature id="org.eclipse.orbit.maven.com.github.package-url.source"/>
    <feature id="org.eclipse.orbit.maven.com.github.virtuald"/>
    <feature id="org.eclipse.orbit.maven.com.github.virtuald.source"/>
    <feature id="org.eclipse.orbit.maven.com.google.javascript"/>
@@ -62,6 +66,8 @@
    <feature id="org.eclipse.orbit.maven.org.codelibs.nekohtml.source"/>
    <feature id="org.eclipse.orbit.maven.org.commonmark"/>
    <feature id="org.eclipse.orbit.maven.org.commonmark.source"/>
+   <feature id="org.eclipse.orbit.maven.org.cyclonedx"/>
+   <feature id="org.eclipse.orbit.maven.org.cyclonedx.source"/>
    <feature id="org.eclipse.orbit.maven.org.dom4j"/>
    <feature id="org.eclipse.orbit.maven.org.dom4j.source"/>
    <feature id="org.eclipse.orbit.maven.org.jdom"/>

@@ -7,9 +7,13 @@
 ## Content
  - [aopalliance](https://repo1.maven.org/maven2/aopalliance/)
     - [aopalliance](https://repo1.maven.org/maven2/aopalliance/aopalliance/) **[1.0](https://repo1.maven.org/maven2/aopalliance/aopalliance/1.0)**
+ - [com.ethlo.time](https://repo1.maven.org/maven2/com/ethlo/time/)
+    - [chronograph](https://repo1.maven.org/maven2/com/ethlo/time/chronograph/) **[1.3.0](https://repo1.maven.org/maven2/com/ethlo/time/chronograph/1.3.0)**
  - [com.github.jnr](https://repo1.maven.org/maven2/com/github/jnr/)
     - [jnr-a64asm](https://repo1.maven.org/maven2/com/github/jnr/jnr-a64asm/) **[1.0.0](https://repo1.maven.org/maven2/com/github/jnr/jnr-a64asm/1.0.0)**
     - [jnr-x86asm](https://repo1.maven.org/maven2/com/github/jnr/jnr-x86asm/) **[1.0.2](https://repo1.maven.org/maven2/com/github/jnr/jnr-x86asm/1.0.2)**
+ - [com.github.package-url](https://repo1.maven.org/maven2/com/github/package-url/)
+    - [packageurl-java](https://repo1.maven.org/maven2/com/github/package-url/packageurl-java/) **[1.5.0](https://repo1.maven.org/maven2/com/github/package-url/packageurl-java/1.5.0)**
  - [com.github.virtuald](https://repo1.maven.org/maven2/com/github/virtuald/)
     - [curvesapi](https://repo1.maven.org/maven2/com/github/virtuald/curvesapi/) **[1.8](https://repo1.maven.org/maven2/com/github/virtuald/curvesapi/1.8)**
  - [com.google.javascript](https://repo1.maven.org/maven2/com/google/javascript/)
@@ -79,6 +83,8 @@
     - [commonmark-ext-ins](https://repo1.maven.org/maven2/org/commonmark/commonmark-ext-ins/) **[0.21.0](https://repo1.maven.org/maven2/org/commonmark/commonmark-ext-ins/0.21.0)**
     - [commonmark-ext-task-list-items](https://repo1.maven.org/maven2/org/commonmark/commonmark-ext-task-list-items/) **[0.21.0](https://repo1.maven.org/maven2/org/commonmark/commonmark-ext-task-list-items/0.21.0)**
     - [commonmark-ext-yaml-front-matter](https://repo1.maven.org/maven2/org/commonmark/commonmark-ext-yaml-front-matter/) **[0.21.0](https://repo1.maven.org/maven2/org/commonmark/commonmark-ext-yaml-front-matter/0.21.0)**
+ - [org.cyclonedx](https://repo1.maven.org/maven2/org/cyclonedx/)
+    - [cyclonedx-core-java](https://repo1.maven.org/maven2/org/cyclonedx/cyclonedx-core-java/) **[8.0.3](https://repo1.maven.org/maven2/org/cyclonedx/cyclonedx-core-java/8.0.3)**
  - [org.dom4j](https://repo1.maven.org/maven2/org/dom4j/)
     - [dom4j](https://repo1.maven.org/maven2/org/dom4j/dom4j/) **[2.1.4](https://repo1.maven.org/maven2/org/dom4j/dom4j/2.1.4)**
  - [org.eclipse.orbit](https://repo.eclipse.org/content/repositories/orbit-approved-artifacts/org/eclipse/orbit/)

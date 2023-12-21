@@ -14,11 +14,11 @@
       <repositories location="https://download.eclipse.org/tools/orbit/simrel/orbit-legacy/nightly/latest" description="orbit-legacy"/>
     </contributions>
     <contributions enabled="false" label="platform">
-      <repositories location="https://download.eclipse.org/eclipse/updates/4.29/R-4.29-202309031000" description="platform">
+      <repositories location="https://download.eclipse.org/eclipse/updates/4.30/R-4.30-202312010110" description="platform">
         <bundles name="org.eclipse.jdt.core.compiler.batch"/>
       </repositories>
     </contributions>
-    <validationRepositories location="https://download.eclipse.org/eclipse/updates/4.29/R-4.29-202309031000"/>
+    <validationRepositories location="https://download.eclipse.org/eclipse/updates/4.30/R-4.30-202312010110"/>
   </validationSets>
   <configurations operatingSystem="linux" windowSystem="gtk" architecture="aarch64">
     <properties key="org.eclipse.orbit.maven.bnd.buildtime" value="true"/>
