@@ -3,6 +3,9 @@
 ## Minor Updates
  - [com.ibm.icu](https://repo1.maven.org/maven2/com/ibm/icu/)
     - [icu4j](https://repo1.maven.org/maven2/com/ibm/icu/icu4j/) **[74.1](https://repo1.maven.org/maven2/com/ibm/icu/icu4j/74.1)** < [74.2](https://repo1.maven.org/maven2/com/ibm/icu/icu4j/74.2/)
+ - [net.bytebuddy](https://repo1.maven.org/maven2/net/bytebuddy/)
+    - [byte-buddy](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/) **[1.14.10](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.14.10)** < [1.14.11](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.14.11/)
+    - [byte-buddy-agent](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/) **[1.14.10](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.14.10)** < [1.14.11](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.14.11/)
  - [net.java.dev.jna](https://repo1.maven.org/maven2/net/java/dev/jna/)
     - [jna-platform](https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/) **[5.13.0](https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/5.13.0)** < [5.14.0](https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/5.14.0/)
  - [org.eclipse.jetty](https://repo1.maven.org/maven2/org/eclipse/jetty/)
