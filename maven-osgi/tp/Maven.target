@@ -3,7 +3,7 @@
 <target name="Maven" sequenceNumber="1">
   <locations>
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="error" type="Maven">
-      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.31.0.v20231222-0700">
+      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.31.0.v20231224-1000">
         <description>This feature's dependencies are pulled directly from Maven central.</description>
         <copyright>
 Copyright (c) 2023 Eclipse contributors and others.
@@ -16,7 +16,7 @@ https://www.eclipse.org/legal/epl-2.0/
 SPDX-License-Identifier: EPL-2.0
         </copyright>
         <license url="https://www.eclipse.org/legal/epl-2.0/"/>
-        <!-- SHA1 88954cafa5348ca08d6f15b047f2e5168bab8556 -->
+        <!-- SHA1 32e9d2a581a0c6ef132cbc1ad2afe58b4c3eaf40 -->
       </feature>
       <dependencies>
         <dependency>
@@ -100,55 +100,55 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>com.fasterxml.jackson.core</groupId>
           <artifactId>jackson-annotations</artifactId>
-          <version>2.16.0</version>
+          <version>2.16.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>com.fasterxml.jackson.core</groupId>
           <artifactId>jackson-core</artifactId>
-          <version>2.16.0</version>
+          <version>2.16.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>com.fasterxml.jackson.core</groupId>
           <artifactId>jackson-databind</artifactId>
-          <version>2.16.0</version>
+          <version>2.16.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>com.fasterxml.jackson.dataformat</groupId>
           <artifactId>jackson-dataformat-xml</artifactId>
-          <version>2.16.0</version>
+          <version>2.16.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>com.fasterxml.jackson.dataformat</groupId>
           <artifactId>jackson-dataformat-yaml</artifactId>
-          <version>2.16.0</version>
+          <version>2.16.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>com.fasterxml.jackson.datatype</groupId>
           <artifactId>jackson-datatype-guava</artifactId>
-          <version>2.16.0</version>
+          <version>2.16.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>com.fasterxml.jackson.jaxrs</groupId>
           <artifactId>jackson-jaxrs-base</artifactId>
-          <version>2.16.0</version>
+          <version>2.16.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>com.fasterxml.jackson.jaxrs</groupId>
           <artifactId>jackson-jaxrs-json-provider</artifactId>
-          <version>2.16.0</version>
+          <version>2.16.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>com.fasterxml.jackson.module</groupId>
           <artifactId>jackson-module-jaxb-annotations</artifactId>
-          <version>2.16.0</version>
+          <version>2.16.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -209,7 +209,7 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>com.github.oshi</groupId>
           <artifactId>oshi-core</artifactId>
-          <version>6.4.9</version>
+          <version>6.4.10</version>
           <type>jar</type>
         </dependency>
         <dependency>
