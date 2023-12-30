@@ -10,6 +10,9 @@
 [updated.target](updated.target)
 
 ## Content
+ - [com.sun.xml.bind](https://repo1.maven.org/maven2/com/sun/xml/bind/)
+    - [jaxb-core](https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-core/) **[4.0.4](https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-core/4.0.4)**
+    - [jaxb-impl](https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-impl/) **[4.0.4](https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-impl/4.0.4)**
  - [commons-beanutils](https://repo1.maven.org/maven2/commons-beanutils/)
     - [commons-beanutils](https://repo1.maven.org/maven2/commons-beanutils/commons-beanutils/) **[1.9.4](https://repo1.maven.org/maven2/commons-beanutils/commons-beanutils/1.9.4)**
  - [commons-io](https://repo1.maven.org/maven2/commons-io/)
@@ -21,6 +24,10 @@
  - [io.github.toolfactory](https://repo1.maven.org/maven2/io/github/toolfactory/)
     - [jvm-driver](https://repo1.maven.org/maven2/io/github/toolfactory/jvm-driver/) **[9.6.0](https://repo1.maven.org/maven2/io/github/toolfactory/jvm-driver/9.6.0)**
     - [narcissus](https://repo1.maven.org/maven2/io/github/toolfactory/narcissus/) **[1.0.7](https://repo1.maven.org/maven2/io/github/toolfactory/narcissus/1.0.7)**
+ - [jakarta.activation](https://repo1.maven.org/maven2/jakarta/activation/)
+    - [jakarta.activation-api](https://repo1.maven.org/maven2/jakarta/activation/jakarta.activation-api/) **[2.1.2](https://repo1.maven.org/maven2/jakarta/activation/jakarta.activation-api/2.1.2)**
+ - [jakarta.xml.bind](https://repo1.maven.org/maven2/jakarta/xml/bind/)
+    - [jakarta.xml.bind-api](https://repo1.maven.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/) **[4.0.1](https://repo1.maven.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/4.0.1)**
  - [org.apache.commons](https://repo1.maven.org/maven2/org/apache/commons/)
     - [commons-digester3](https://repo1.maven.org/maven2/org/apache/commons/commons-digester3/) **[3.1](https://repo1.maven.org/maven2/org/apache/commons/commons-digester3/3.1)**
  - [org.burningwave](https://repo1.maven.org/maven2/org/burningwave/)

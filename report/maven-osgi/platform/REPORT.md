@@ -5,6 +5,11 @@
     - [icu4j](https://repo1.maven.org/maven2/com/ibm/icu/icu4j/) **[74.1](https://repo1.maven.org/maven2/com/ibm/icu/icu4j/74.1)** < [74.2](https://repo1.maven.org/maven2/com/ibm/icu/icu4j/74.2/)
  - [net.java.dev.jna](https://repo1.maven.org/maven2/net/java/dev/jna/)
     - [jna-platform](https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/) **[5.13.0](https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/5.13.0)** < [5.14.0](https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/5.14.0/)
+ - [org.jsoup](https://repo1.maven.org/maven2/org/jsoup/)
+    - [jsoup](https://repo1.maven.org/maven2/org/jsoup/jsoup/) **[1.17.1](https://repo1.maven.org/maven2/org/jsoup/jsoup/1.17.1)** < [1.17.2](https://repo1.maven.org/maven2/org/jsoup/jsoup/1.17.2/)
+ - [org.slf4j](https://repo1.maven.org/maven2/org/slf4j/)
+    - [slf4j-api](https://repo1.maven.org/maven2/org/slf4j/slf4j-api/) **[2.0.9](https://repo1.maven.org/maven2/org/slf4j/slf4j-api/2.0.9)** < [2.0.10](https://repo1.maven.org/maven2/org/slf4j/slf4j-api/2.0.10/)
+    - [slf4j-simple](https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/) **[2.0.9](https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/2.0.9)** < [2.0.10](https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/2.0.10/)
 
 ## Major Updates
  - [jakarta.el](https://repo1.maven.org/maven2/jakarta/el/)

@@ -44,7 +44,7 @@
  - [org.glassfish.jersey.media](https://repo1.maven.org/maven2/org/glassfish/jersey/media/)
     - [jersey-media-json-jackson](https://repo1.maven.org/maven2/org/glassfish/jersey/media/jersey-media-json-jackson/) **[2.41](https://repo1.maven.org/maven2/org/glassfish/jersey/media/jersey-media-json-jackson/2.41)** < [3.1.5](https://repo1.maven.org/maven2/org/glassfish/jersey/media/jersey-media-json-jackson/3.1.5/)
  - [org.mandas](https://repo1.maven.org/maven2/org/mandas/)
-    - [docker-client](https://repo1.maven.org/maven2/org/mandas/docker-client/) **[5.2.2](https://repo1.maven.org/maven2/org/mandas/docker-client/5.2.2)** < [7.0.4](https://repo1.maven.org/maven2/org/mandas/docker-client/7.0.4/)
+    - [docker-client](https://repo1.maven.org/maven2/org/mandas/docker-client/) **[5.2.2](https://repo1.maven.org/maven2/org/mandas/docker-client/5.2.2)** < [7.0.6](https://repo1.maven.org/maven2/org/mandas/docker-client/7.0.6/)
 
 ## Content
  - [args4j](https://repo1.maven.org/maven2/args4j/)
@@ -114,6 +114,8 @@
  - [com.networknt](https://repo1.maven.org/maven2/com/networknt/)
     - [json-schema-validator](https://repo1.maven.org/maven2/com/networknt/json-schema-validator/) **[1.1.0](https://repo1.maven.org/maven2/com/networknt/json-schema-validator/1.1.0)**
  - [com.sun.xml.bind](https://repo1.maven.org/maven2/com/sun/xml/bind/)
+    - [jaxb-core](https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-core/) **[4.0.4](https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-core/4.0.4)**
+    - [jaxb-impl](https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-impl/) **[4.0.4](https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-impl/4.0.4)**
     - [jaxb-osgi](https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-osgi/) **[2.3.9](https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-osgi/2.3.9)**
  - [commons-beanutils](https://repo1.maven.org/maven2/commons-beanutils/)
     - [commons-beanutils](https://repo1.maven.org/maven2/commons-beanutils/commons-beanutils/) **[1.9.4](https://repo1.maven.org/maven2/commons-beanutils/commons-beanutils/1.9.4)**
@@ -297,7 +299,7 @@
  - [org.json](https://repo1.maven.org/maven2/org/json/)
     - [json](https://repo1.maven.org/maven2/org/json/json/) **[20230227](https://repo1.maven.org/maven2/org/json/json/20230227)**
  - [org.jsoup](https://repo1.maven.org/maven2/org/jsoup/)
-    - [jsoup](https://repo1.maven.org/maven2/org/jsoup/jsoup/) **[1.17.1](https://repo1.maven.org/maven2/org/jsoup/jsoup/1.17.1)**
+    - [jsoup](https://repo1.maven.org/maven2/org/jsoup/jsoup/) **[1.17.2](https://repo1.maven.org/maven2/org/jsoup/jsoup/1.17.2)**
  - [org.junit.jupiter](https://repo1.maven.org/maven2/org/junit/jupiter/)
     - [junit-jupiter-api](https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-api/) **[5.10.1](https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-api/5.10.1)**
     - [junit-jupiter-engine](https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-engine/) **[5.10.1](https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.10.1)**
@@ -379,11 +381,11 @@
     - [org.ow2.sat4j.pb](https://repo1.maven.org/maven2/org/ow2/sat4j/org.ow2.sat4j.pb/) **[2.3.6](https://repo1.maven.org/maven2/org/ow2/sat4j/org.ow2.sat4j.pb/2.3.6)**
  - [org.slf4j](https://repo1.maven.org/maven2/org/slf4j/)
     - [slf4j-api](https://repo1.maven.org/maven2/org/slf4j/slf4j-api/) **[1.7.36](https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.36)**
-    - [slf4j-api](https://repo1.maven.org/maven2/org/slf4j/slf4j-api/) **[2.0.9](https://repo1.maven.org/maven2/org/slf4j/slf4j-api/2.0.9)**
+    - [slf4j-api](https://repo1.maven.org/maven2/org/slf4j/slf4j-api/) **[2.0.10](https://repo1.maven.org/maven2/org/slf4j/slf4j-api/2.0.10)**
     - [slf4j-nop](https://repo1.maven.org/maven2/org/slf4j/slf4j-nop/) **[1.7.36](https://repo1.maven.org/maven2/org/slf4j/slf4j-nop/1.7.36)**
-    - [slf4j-nop](https://repo1.maven.org/maven2/org/slf4j/slf4j-nop/) **[2.0.9](https://repo1.maven.org/maven2/org/slf4j/slf4j-nop/2.0.9)**
+    - [slf4j-nop](https://repo1.maven.org/maven2/org/slf4j/slf4j-nop/) **[2.0.10](https://repo1.maven.org/maven2/org/slf4j/slf4j-nop/2.0.10)**
     - [slf4j-simple](https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/) **[1.7.36](https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/1.7.36)**
-    - [slf4j-simple](https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/) **[2.0.9](https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/2.0.9)**
+    - [slf4j-simple](https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/) **[2.0.10](https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/2.0.10)**
  - [org.snakeyaml](https://repo1.maven.org/maven2/org/snakeyaml/)
     - [snakeyaml-engine](https://repo1.maven.org/maven2/org/snakeyaml/snakeyaml-engine/) **[2.7](https://repo1.maven.org/maven2/org/snakeyaml/snakeyaml-engine/2.7)**
  - [org.tukaani](https://repo1.maven.org/maven2/org/tukaani/)

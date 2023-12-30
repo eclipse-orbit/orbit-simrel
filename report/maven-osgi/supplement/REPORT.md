@@ -1,5 +1,9 @@
 # Target Platform: [supplement](https://raw.githubusercontent.com/eclipse-orbit/orbit-simrel/main/maven-osgi/tp/other/MavenSupplement.target)
 
+## Minor Updates
+ - [org.slf4j](https://repo1.maven.org/maven2/org/slf4j/)
+    - [slf4j-nop](https://repo1.maven.org/maven2/org/slf4j/slf4j-nop/) **[2.0.9](https://repo1.maven.org/maven2/org/slf4j/slf4j-nop/2.0.9)** < [2.0.10](https://repo1.maven.org/maven2/org/slf4j/slf4j-nop/2.0.10/)
+
 ## Major Updates
  - [com.sun.xml.bind](https://repo1.maven.org/maven2/com/sun/xml/bind/)
     - [jaxb-osgi](https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-osgi/) **[2.3.9](https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-osgi/2.3.9)** < [4.0.4](https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-osgi/4.0.4/)
@@ -19,6 +23,11 @@
     - [javax.servlet-api](https://repo1.maven.org/maven2/javax/servlet/javax.servlet-api/) **[3.1.0](https://repo1.maven.org/maven2/javax/servlet/javax.servlet-api/3.1.0)** < [4.0.1](https://repo1.maven.org/maven2/javax/servlet/javax.servlet-api/4.0.1/)
  - [org.apache.felix](https://repo1.maven.org/maven2/org/apache/felix/)
     - [org.apache.felix.http.servlet-api](https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.http.servlet-api/) **[1.2.0](https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.http.servlet-api/1.2.0)** < [3.0.0](https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.http.servlet-api/3.0.0/)
+ - [org.slf4j](https://repo1.maven.org/maven2/org/slf4j/)
+    - [slf4j-nop](https://repo1.maven.org/maven2/org/slf4j/slf4j-nop/) **[1.7.36](https://repo1.maven.org/maven2/org/slf4j/slf4j-nop/1.7.36)** < [2.0.10](https://repo1.maven.org/maven2/org/slf4j/slf4j-nop/2.0.10/)
+
+## Updates Applied
+[updated.target](updated.target)
 
 ## Content
  - [ch.qos.logback](https://repo1.maven.org/maven2/ch/qos/logback/)
