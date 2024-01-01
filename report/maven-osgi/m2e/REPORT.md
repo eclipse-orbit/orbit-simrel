@@ -1,22 +1,15 @@
 # Target Platform: [m2e](https://raw.githubusercontent.com/eclipse-m2e/m2e-core/master/target-platform/target-platform.target)
 
 ## Minor Updates
- - [ch.qos.logback](https://repo1.maven.org/maven2/ch/qos/logback/)
-    - [logback-classic](https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/) **[1.4.11](https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.4.11)** < [1.4.14](https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.4.14/)
  - [com.google.guava](https://repo1.maven.org/maven2/com/google/guava/)
     - [guava](https://repo1.maven.org/maven2/com/google/guava/guava/) **[32.1.3-jre](https://repo1.maven.org/maven2/com/google/guava/guava/32.1.3-jre)** < [33.0.0-jre](https://repo1.maven.org/maven2/com/google/guava/guava/33.0.0-jre/)
- - [org.apache.commons](https://repo1.maven.org/maven2/org/apache/commons/)
-    - [commons-lang3](https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/) **[3.13.0](https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.13.0)** < [3.14.0](https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.14.0/)
 
 ## Updates Applied
 [updated.target](updated.target)
 
 ## Content
- - [biz.aQute.bnd](https://repo1.maven.org/maven2/biz/aQute/bnd/)
-    - [biz.aQute.bnd.util](https://repo1.maven.org/maven2/biz/aQute/bnd/biz.aQute.bnd.util/) **[7.0.0](https://repo1.maven.org/maven2/biz/aQute/bnd/biz.aQute.bnd.util/7.0.0)**
-    - [biz.aQute.bndlib](https://repo1.maven.org/maven2/biz/aQute/bnd/biz.aQute.bndlib/) **[7.0.0](https://repo1.maven.org/maven2/biz/aQute/bnd/biz.aQute.bndlib/7.0.0)**
  - [ch.qos.logback](https://repo1.maven.org/maven2/ch/qos/logback/)
-    - [logback-classic](https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/) **[1.4.11](https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.4.11)**
+    - [logback-classic](https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/) **[1.4.14](https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.4.14)**
  - [com.google.code.gson](https://repo1.maven.org/maven2/com/google/code/gson/)
     - [gson](https://repo1.maven.org/maven2/com/google/code/gson/gson/) **[2.10.1](https://repo1.maven.org/maven2/com/google/code/gson/gson/2.10.1)**
  - [com.google.guava](https://repo1.maven.org/maven2/com/google/guava/)
@@ -31,7 +24,7 @@
  - [org.apache.aries.spifly](https://repo1.maven.org/maven2/org/apache/aries/spifly/)
     - [org.apache.aries.spifly.dynamic.bundle](https://repo1.maven.org/maven2/org/apache/aries/spifly/org.apache.aries.spifly.dynamic.bundle/) **[1.3.7](https://repo1.maven.org/maven2/org/apache/aries/spifly/org.apache.aries.spifly.dynamic.bundle/1.3.7)**
  - [org.apache.commons](https://repo1.maven.org/maven2/org/apache/commons/)
-    - [commons-lang3](https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/) **[3.13.0](https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.13.0)**
+    - [commons-lang3](https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/) **[3.14.0](https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.14.0)**
  - [org.apache.maven.archetype](https://repo1.maven.org/maven2/org/apache/maven/archetype/)
     - [archetype-catalog](https://repo1.maven.org/maven2/org/apache/maven/archetype/archetype-catalog/) **[3.2.1](https://repo1.maven.org/maven2/org/apache/maven/archetype/archetype-catalog/3.2.1)**
     - [archetype-common](https://repo1.maven.org/maven2/org/apache/maven/archetype/archetype-common/) **[3.2.1](https://repo1.maven.org/maven2/org/apache/maven/archetype/archetype-common/3.2.1)**

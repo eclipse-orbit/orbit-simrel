@@ -3,10 +3,10 @@
 <target name="Maven" sequenceNumber="1">
   <locations>
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="error" type="Maven">
-      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.31.0.v20231230-1200">
+      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.31.0.v20240101-1200">
         <description>This feature's dependencies are pulled directly from Maven central.</description>
         <copyright>
-Copyright (c) 2023 Eclipse contributors and others.
+Copyright (c) 2024 Eclipse contributors and others.
 
 This program and the accompanying materials
 are made available under the terms of the Eclipse Public License 2.0
@@ -16,7 +16,7 @@ https://www.eclipse.org/legal/epl-2.0/
 SPDX-License-Identifier: EPL-2.0
         </copyright>
         <license url="https://www.eclipse.org/legal/epl-2.0/"/>
-        <!-- SHA1 e2ce04fe3b61e333706f2dbd737166535f2ee85a -->
+        <!-- SHA1 5b4616728a70fc5a71f5e3600118ba3ad1d6bcc1 -->
       </feature>
       <dependencies>
         <dependency>
@@ -761,7 +761,7 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>org.assertj</groupId>
           <artifactId>assertj-core</artifactId>
-          <version>3.24.2</version>
+          <version>3.25.0</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -1450,7 +1450,7 @@ SPDX-License-Identifier: EPL-2.0
       <feature id="org.eclipse.orbit.maven.osgi.exclude" label="Orbit Maven OSGi (excluded because they are only for resolution validation)" provider-name="Eclipse Orbit" version="4.31.0">
         <description>This feature's dependencies are pulled directly from Maven central.</description>
         <copyright>
-Copyright (c) 2023 Eclipse contributors and others.
+Copyright (c) 2024 Eclipse contributors and others.
 
 This program and the accompanying materials
 are made available under the terms of the Eclipse Public License 2.0

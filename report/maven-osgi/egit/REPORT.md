@@ -9,6 +9,8 @@
  - [net.java.dev.jna](https://repo1.maven.org/maven2/net/java/dev/jna/)
     - [jna](https://repo1.maven.org/maven2/net/java/dev/jna/jna/) **[5.13.0](https://repo1.maven.org/maven2/net/java/dev/jna/jna/5.13.0)** < [5.14.0](https://repo1.maven.org/maven2/net/java/dev/jna/jna/5.14.0/)
     - [jna-platform](https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/) **[5.13.0](https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/5.13.0)** < [5.14.0](https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/5.14.0/)
+ - [org.assertj](https://repo1.maven.org/maven2/org/assertj/)
+    - [assertj-core](https://repo1.maven.org/maven2/org/assertj/assertj-core/) **[3.24.2](https://repo1.maven.org/maven2/org/assertj/assertj-core/3.24.2)** < [3.25.0](https://repo1.maven.org/maven2/org/assertj/assertj-core/3.25.0/)
  - [org.eclipse.jetty](https://repo1.maven.org/maven2/org/eclipse/jetty/)
     - [jetty-http](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/) **[10.0.18](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/10.0.18)** < [10.0.19](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/10.0.19/)
     - [jetty-io](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/) **[10.0.18](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/10.0.18)** < [10.0.19](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/10.0.19/)

@@ -5,6 +5,8 @@
     - [icu4j](https://repo1.maven.org/maven2/com/ibm/icu/icu4j/) **[74.1](https://repo1.maven.org/maven2/com/ibm/icu/icu4j/74.1)** < [74.2](https://repo1.maven.org/maven2/com/ibm/icu/icu4j/74.2/)
  - [net.java.dev.jna](https://repo1.maven.org/maven2/net/java/dev/jna/)
     - [jna-platform](https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/) **[5.13.0](https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/5.13.0)** < [5.14.0](https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/5.14.0/)
+ - [org.assertj](https://repo1.maven.org/maven2/org/assertj/)
+    - [assertj-core](https://repo1.maven.org/maven2/org/assertj/assertj-core/) **[3.24.2](https://repo1.maven.org/maven2/org/assertj/assertj-core/3.24.2)** < [3.25.0](https://repo1.maven.org/maven2/org/assertj/assertj-core/3.25.0/)
  - [org.jsoup](https://repo1.maven.org/maven2/org/jsoup/)
     - [jsoup](https://repo1.maven.org/maven2/org/jsoup/jsoup/) **[1.17.1](https://repo1.maven.org/maven2/org/jsoup/jsoup/1.17.1)** < [1.17.2](https://repo1.maven.org/maven2/org/jsoup/jsoup/1.17.2/)
  - [org.slf4j](https://repo1.maven.org/maven2/org/slf4j/)
