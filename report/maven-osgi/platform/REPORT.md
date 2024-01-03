@@ -1,17 +1,8 @@
 # Target Platform: [platform](https://raw.githubusercontent.com/eclipse-platform/eclipse.platform.releng.aggregator/master/eclipse.platform.releng.prereqs.sdk/eclipse-sdk-prereqs.target)
 
 ## Minor Updates
- - [com.ibm.icu](https://repo1.maven.org/maven2/com/ibm/icu/)
-    - [icu4j](https://repo1.maven.org/maven2/com/ibm/icu/icu4j/) **[74.1](https://repo1.maven.org/maven2/com/ibm/icu/icu4j/74.1)** < [74.2](https://repo1.maven.org/maven2/com/ibm/icu/icu4j/74.2/)
- - [net.java.dev.jna](https://repo1.maven.org/maven2/net/java/dev/jna/)
-    - [jna-platform](https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/) **[5.13.0](https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/5.13.0)** < [5.14.0](https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/5.14.0/)
  - [org.assertj](https://repo1.maven.org/maven2/org/assertj/)
-    - [assertj-core](https://repo1.maven.org/maven2/org/assertj/assertj-core/) **[3.24.2](https://repo1.maven.org/maven2/org/assertj/assertj-core/3.24.2)** < [3.25.0](https://repo1.maven.org/maven2/org/assertj/assertj-core/3.25.0/)
- - [org.jsoup](https://repo1.maven.org/maven2/org/jsoup/)
-    - [jsoup](https://repo1.maven.org/maven2/org/jsoup/jsoup/) **[1.17.1](https://repo1.maven.org/maven2/org/jsoup/jsoup/1.17.1)** < [1.17.2](https://repo1.maven.org/maven2/org/jsoup/jsoup/1.17.2/)
- - [org.slf4j](https://repo1.maven.org/maven2/org/slf4j/)
-    - [slf4j-api](https://repo1.maven.org/maven2/org/slf4j/slf4j-api/) **[2.0.9](https://repo1.maven.org/maven2/org/slf4j/slf4j-api/2.0.9)** < [2.0.10](https://repo1.maven.org/maven2/org/slf4j/slf4j-api/2.0.10/)
-    - [slf4j-simple](https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/) **[2.0.9](https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/2.0.9)** < [2.0.10](https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/2.0.10/)
+    - [assertj-core](https://repo1.maven.org/maven2/org/assertj/assertj-core/) **[3.25.0](https://repo1.maven.org/maven2/org/assertj/assertj-core/3.25.0)** < [3.25.1](https://repo1.maven.org/maven2/org/assertj/assertj-core/3.25.1/)
 
 ## Major Updates
  - [jakarta.el](https://repo1.maven.org/maven2/jakarta/el/)
@@ -38,7 +29,7 @@
  - [com.google.code.gson](https://repo1.maven.org/maven2/com/google/code/gson/)
     - [gson](https://repo1.maven.org/maven2/com/google/code/gson/gson/) **[2.10.1](https://repo1.maven.org/maven2/com/google/code/gson/gson/2.10.1)**
  - [com.ibm.icu](https://repo1.maven.org/maven2/com/ibm/icu/)
-    - [icu4j](https://repo1.maven.org/maven2/com/ibm/icu/icu4j/) **[74.1](https://repo1.maven.org/maven2/com/ibm/icu/icu4j/74.1)**
+    - [icu4j](https://repo1.maven.org/maven2/com/ibm/icu/icu4j/) **[74.2](https://repo1.maven.org/maven2/com/ibm/icu/icu4j/74.2)**
  - [commons-beanutils](https://repo1.maven.org/maven2/commons-beanutils/)
     - [commons-beanutils](https://repo1.maven.org/maven2/commons-beanutils/commons-beanutils/) **[1.9.4](https://repo1.maven.org/maven2/commons-beanutils/commons-beanutils/1.9.4)**
  - [commons-collections](https://repo1.maven.org/maven2/commons-collections/)
@@ -73,7 +64,7 @@
     - [byte-buddy](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/) **[1.14.11](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.14.11)**
     - [byte-buddy-agent](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/) **[1.14.11](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.14.11)**
  - [net.java.dev.jna](https://repo1.maven.org/maven2/net/java/dev/jna/)
-    - [jna-platform](https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/) **[5.13.0](https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/5.13.0)**
+    - [jna-platform](https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/) **[5.14.0](https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/5.14.0)**
  - [org.apache.aries.spifly](https://repo1.maven.org/maven2/org/apache/aries/spifly/)
     - [org.apache.aries.spifly.dynamic.bundle](https://repo1.maven.org/maven2/org/apache/aries/spifly/org.apache.aries.spifly.dynamic.bundle/) **[1.3.7](https://repo1.maven.org/maven2/org/apache/aries/spifly/org.apache.aries.spifly.dynamic.bundle/1.3.7)**
  - [org.apache.felix](https://repo1.maven.org/maven2/org/apache/felix/)
@@ -86,7 +77,7 @@
  - [org.apiguardian](https://repo1.maven.org/maven2/org/apiguardian/)
     - [apiguardian-api](https://repo1.maven.org/maven2/org/apiguardian/apiguardian-api/) **[1.1.2](https://repo1.maven.org/maven2/org/apiguardian/apiguardian-api/1.1.2)**
  - [org.assertj](https://repo1.maven.org/maven2/org/assertj/)
-    - [assertj-core](https://repo1.maven.org/maven2/org/assertj/assertj-core/) **[3.24.2](https://repo1.maven.org/maven2/org/assertj/assertj-core/3.24.2)**
+    - [assertj-core](https://repo1.maven.org/maven2/org/assertj/assertj-core/) **[3.25.0](https://repo1.maven.org/maven2/org/assertj/assertj-core/3.25.0)**
  - [org.bndtools](https://repo1.maven.org/maven2/org/bndtools/)
     - [org.bndtools.templates.template](https://repo1.maven.org/maven2/org/bndtools/org.bndtools.templates.template/) **[7.0.0](https://repo1.maven.org/maven2/org/bndtools/org.bndtools.templates.template/7.0.0)**
     - [org.bndtools.templating](https://repo1.maven.org/maven2/org/bndtools/org.bndtools.templating/) **[7.0.0](https://repo1.maven.org/maven2/org/bndtools/org.bndtools.templating/7.0.0)**
@@ -113,7 +104,7 @@
  - [org.hamcrest](https://repo1.maven.org/maven2/org/hamcrest/)
     - [hamcrest](https://repo1.maven.org/maven2/org/hamcrest/hamcrest/) **[2.2](https://repo1.maven.org/maven2/org/hamcrest/hamcrest/2.2)**
  - [org.jsoup](https://repo1.maven.org/maven2/org/jsoup/)
-    - [jsoup](https://repo1.maven.org/maven2/org/jsoup/jsoup/) **[1.17.1](https://repo1.maven.org/maven2/org/jsoup/jsoup/1.17.1)**
+    - [jsoup](https://repo1.maven.org/maven2/org/jsoup/jsoup/) **[1.17.2](https://repo1.maven.org/maven2/org/jsoup/jsoup/1.17.2)**
  - [org.junit.jupiter](https://repo1.maven.org/maven2/org/junit/jupiter/)
     - [junit-jupiter-api](https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-api/) **[5.10.1](https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-api/5.10.1)**
     - [junit-jupiter-engine](https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-engine/) **[5.10.1](https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.10.1)**
@@ -173,7 +164,7 @@
     - [org.ow2.sat4j.core](https://repo1.maven.org/maven2/org/ow2/sat4j/org.ow2.sat4j.core/) **[2.3.6](https://repo1.maven.org/maven2/org/ow2/sat4j/org.ow2.sat4j.core/2.3.6)**
     - [org.ow2.sat4j.pb](https://repo1.maven.org/maven2/org/ow2/sat4j/org.ow2.sat4j.pb/) **[2.3.6](https://repo1.maven.org/maven2/org/ow2/sat4j/org.ow2.sat4j.pb/2.3.6)**
  - [org.slf4j](https://repo1.maven.org/maven2/org/slf4j/)
-    - [slf4j-api](https://repo1.maven.org/maven2/org/slf4j/slf4j-api/) **[2.0.9](https://repo1.maven.org/maven2/org/slf4j/slf4j-api/2.0.9)**
-    - [slf4j-simple](https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/) **[2.0.9](https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/2.0.9)**
+    - [slf4j-api](https://repo1.maven.org/maven2/org/slf4j/slf4j-api/) **[2.0.10](https://repo1.maven.org/maven2/org/slf4j/slf4j-api/2.0.10)**
+    - [slf4j-simple](https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/) **[2.0.10](https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/2.0.10)**
  - [org.tukaani](https://repo1.maven.org/maven2/org/tukaani/)
     - [xz](https://repo1.maven.org/maven2/org/tukaani/xz/) **[1.9](https://repo1.maven.org/maven2/org/tukaani/xz/1.9)**
