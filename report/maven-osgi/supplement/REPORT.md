@@ -1,6 +1,8 @@
 # Target Platform: [supplement](https://raw.githubusercontent.com/eclipse-orbit/orbit-simrel/main/maven-osgi/tp/other/MavenSupplement.target)
 
 ## Minor Updates
+ - [com.google.errorprone](https://repo1.maven.org/maven2/com/google/errorprone/)
+    - [error_prone_annotations](https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/) **[2.24.0](https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.24.0)** < [2.24.1](https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.24.1/)
  - [org.slf4j](https://repo1.maven.org/maven2/org/slf4j/)
     - [slf4j-nop](https://repo1.maven.org/maven2/org/slf4j/slf4j-nop/) **[2.0.9](https://repo1.maven.org/maven2/org/slf4j/slf4j-nop/2.0.9)** < [2.0.10](https://repo1.maven.org/maven2/org/slf4j/slf4j-nop/2.0.10/)
 

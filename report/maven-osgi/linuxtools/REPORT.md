@@ -1,22 +1,5 @@
 # Target Platform: [linuxtools](https://raw.githubusercontent.com/eclipse-linuxtools/org.eclipse.linuxtools/master/releng/org.eclipse.linuxtools.target/linuxtools-e4.31.target)
 
-## Minor Updates
- - [com.fasterxml.jackson.core](https://repo1.maven.org/maven2/com/fasterxml/jackson/core/)
-    - [jackson-annotations](https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/) **[2.16.0](https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.16.0)** < [2.16.1](https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.16.1/)
-    - [jackson-core](https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/) **[2.16.0](https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.16.0)** < [2.16.1](https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.16.1/)
-    - [jackson-databind](https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/) **[2.16.0](https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.16.0)** < [2.16.1](https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.16.1/)
- - [com.fasterxml.jackson.datatype](https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/)
-    - [jackson-datatype-guava](https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-guava/) **[2.16.0](https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-guava/2.16.0)** < [2.16.1](https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-guava/2.16.1/)
- - [com.fasterxml.jackson.jaxrs](https://repo1.maven.org/maven2/com/fasterxml/jackson/jaxrs/)
-    - [jackson-jaxrs-base](https://repo1.maven.org/maven2/com/fasterxml/jackson/jaxrs/jackson-jaxrs-base/) **[2.16.0](https://repo1.maven.org/maven2/com/fasterxml/jackson/jaxrs/jackson-jaxrs-base/2.16.0)** < [2.16.1](https://repo1.maven.org/maven2/com/fasterxml/jackson/jaxrs/jackson-jaxrs-base/2.16.1/)
-    - [jackson-jaxrs-json-provider](https://repo1.maven.org/maven2/com/fasterxml/jackson/jaxrs/jackson-jaxrs-json-provider/) **[2.16.0](https://repo1.maven.org/maven2/com/fasterxml/jackson/jaxrs/jackson-jaxrs-json-provider/2.16.0)** < [2.16.1](https://repo1.maven.org/maven2/com/fasterxml/jackson/jaxrs/jackson-jaxrs-json-provider/2.16.1/)
- - [com.fasterxml.jackson.module](https://repo1.maven.org/maven2/com/fasterxml/jackson/module/)
-    - [jackson-module-jaxb-annotations](https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/) **[2.16.0](https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.16.0)** < [2.16.1](https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.16.1/)
- - [com.google.guava](https://repo1.maven.org/maven2/com/google/guava/)
-    - [guava](https://repo1.maven.org/maven2/com/google/guava/guava/) **[32.1.3-jre](https://repo1.maven.org/maven2/com/google/guava/guava/32.1.3-jre)** < [33.0.0-jre](https://repo1.maven.org/maven2/com/google/guava/guava/33.0.0-jre/)
- - [org.javassist](https://repo1.maven.org/maven2/org/javassist/)
-    - [javassist](https://repo1.maven.org/maven2/org/javassist/javassist/) **[3.29.2-GA](https://repo1.maven.org/maven2/org/javassist/javassist/3.29.2-GA)** < [3.30.2-GA](https://repo1.maven.org/maven2/org/javassist/javassist/3.30.2-GA/)
-
 ## Major Updates
  - [jakarta.ws.rs](https://repo1.maven.org/maven2/jakarta/ws/rs/)
     - [jakarta.ws.rs-api](https://repo1.maven.org/maven2/jakarta/ws/rs/jakarta.ws.rs-api/) **[2.1.6](https://repo1.maven.org/maven2/jakarta/ws/rs/jakarta.ws.rs-api/2.1.6)** < [3.1.0](https://repo1.maven.org/maven2/jakarta/ws/rs/jakarta.ws.rs-api/3.1.0/)
@@ -45,21 +28,18 @@
  - [org.mandas](https://repo1.maven.org/maven2/org/mandas/)
     - [docker-client](https://repo1.maven.org/maven2/org/mandas/docker-client/) **[5.2.2](https://repo1.maven.org/maven2/org/mandas/docker-client/5.2.2)** < [7.0.6](https://repo1.maven.org/maven2/org/mandas/docker-client/7.0.6/)
 
-## Updates Applied
-[updated.target](updated.target)
-
 ## Content
  - [com.fasterxml.jackson.core](https://repo1.maven.org/maven2/com/fasterxml/jackson/core/)
-    - [jackson-annotations](https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/) **[2.16.0](https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.16.0)**
-    - [jackson-core](https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/) **[2.16.0](https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.16.0)**
-    - [jackson-databind](https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/) **[2.16.0](https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.16.0)**
+    - [jackson-annotations](https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/) **[2.16.1](https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.16.1)**
+    - [jackson-core](https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/) **[2.16.1](https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.16.1)**
+    - [jackson-databind](https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/) **[2.16.1](https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.16.1)**
  - [com.fasterxml.jackson.datatype](https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/)
-    - [jackson-datatype-guava](https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-guava/) **[2.16.0](https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-guava/2.16.0)**
+    - [jackson-datatype-guava](https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-guava/) **[2.16.1](https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-guava/2.16.1)**
  - [com.fasterxml.jackson.jaxrs](https://repo1.maven.org/maven2/com/fasterxml/jackson/jaxrs/)
-    - [jackson-jaxrs-base](https://repo1.maven.org/maven2/com/fasterxml/jackson/jaxrs/jackson-jaxrs-base/) **[2.16.0](https://repo1.maven.org/maven2/com/fasterxml/jackson/jaxrs/jackson-jaxrs-base/2.16.0)**
-    - [jackson-jaxrs-json-provider](https://repo1.maven.org/maven2/com/fasterxml/jackson/jaxrs/jackson-jaxrs-json-provider/) **[2.16.0](https://repo1.maven.org/maven2/com/fasterxml/jackson/jaxrs/jackson-jaxrs-json-provider/2.16.0)**
+    - [jackson-jaxrs-base](https://repo1.maven.org/maven2/com/fasterxml/jackson/jaxrs/jackson-jaxrs-base/) **[2.16.1](https://repo1.maven.org/maven2/com/fasterxml/jackson/jaxrs/jackson-jaxrs-base/2.16.1)**
+    - [jackson-jaxrs-json-provider](https://repo1.maven.org/maven2/com/fasterxml/jackson/jaxrs/jackson-jaxrs-json-provider/) **[2.16.1](https://repo1.maven.org/maven2/com/fasterxml/jackson/jaxrs/jackson-jaxrs-json-provider/2.16.1)**
  - [com.fasterxml.jackson.module](https://repo1.maven.org/maven2/com/fasterxml/jackson/module/)
-    - [jackson-module-jaxb-annotations](https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/) **[2.16.0](https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.16.0)**
+    - [jackson-module-jaxb-annotations](https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/) **[2.16.1](https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.16.1)**
  - [com.github.jnr](https://repo1.maven.org/maven2/com/github/jnr/)
     - [jffi](https://repo1.maven.org/maven2/com/github/jnr/jffi/) **[1.3.12](https://repo1.maven.org/maven2/com/github/jnr/jffi/1.3.12)** - *complete*
     - [jnr-constants](https://repo1.maven.org/maven2/com/github/jnr/jnr-constants/) **[0.10.4](https://repo1.maven.org/maven2/com/github/jnr/jnr-constants/0.10.4)**
@@ -69,7 +49,7 @@
     - [jnr-unixsocket](https://repo1.maven.org/maven2/com/github/jnr/jnr-unixsocket/) **[0.38.21](https://repo1.maven.org/maven2/com/github/jnr/jnr-unixsocket/0.38.21)**
  - [com.google.guava](https://repo1.maven.org/maven2/com/google/guava/)
     - [failureaccess](https://repo1.maven.org/maven2/com/google/guava/failureaccess/) **[1.0.2](https://repo1.maven.org/maven2/com/google/guava/failureaccess/1.0.2)**
-    - [guava](https://repo1.maven.org/maven2/com/google/guava/guava/) **[32.1.3-jre](https://repo1.maven.org/maven2/com/google/guava/guava/32.1.3-jre)**
+    - [guava](https://repo1.maven.org/maven2/com/google/guava/guava/) **[33.0.0-jre](https://repo1.maven.org/maven2/com/google/guava/guava/33.0.0-jre)**
  - [jakarta.ws.rs](https://repo1.maven.org/maven2/jakarta/ws/rs/)
     - [jakarta.ws.rs-api](https://repo1.maven.org/maven2/jakarta/ws/rs/jakarta.ws.rs-api/) **[2.1.6](https://repo1.maven.org/maven2/jakarta/ws/rs/jakarta.ws.rs-api/2.1.6)**
  - [jakarta.xml.bind](https://repo1.maven.org/maven2/jakarta/xml/bind/)
@@ -101,6 +81,6 @@
  - [org.glassfish.jersey.media](https://repo1.maven.org/maven2/org/glassfish/jersey/media/)
     - [jersey-media-json-jackson](https://repo1.maven.org/maven2/org/glassfish/jersey/media/jersey-media-json-jackson/) **[2.41](https://repo1.maven.org/maven2/org/glassfish/jersey/media/jersey-media-json-jackson/2.41)**
  - [org.javassist](https://repo1.maven.org/maven2/org/javassist/)
-    - [javassist](https://repo1.maven.org/maven2/org/javassist/javassist/) **[3.29.2-GA](https://repo1.maven.org/maven2/org/javassist/javassist/3.29.2-GA)**
+    - [javassist](https://repo1.maven.org/maven2/org/javassist/javassist/) **[3.30.2-GA](https://repo1.maven.org/maven2/org/javassist/javassist/3.30.2-GA)**
  - [org.mandas](https://repo1.maven.org/maven2/org/mandas/)
     - [docker-client](https://repo1.maven.org/maven2/org/mandas/docker-client/) **[5.2.2](https://repo1.maven.org/maven2/org/mandas/docker-client/5.2.2)**

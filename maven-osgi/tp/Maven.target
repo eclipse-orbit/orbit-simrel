@@ -3,7 +3,7 @@
 <target name="Maven" sequenceNumber="1">
   <locations>
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="error" type="Maven">
-      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.31.0.v20240103-0900">
+      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.31.0.v20240104-1100">
         <description>This feature's dependencies are pulled directly from Maven central.</description>
         <copyright>
 Copyright (c) 2024 Eclipse contributors and others.
@@ -16,7 +16,7 @@ https://www.eclipse.org/legal/epl-2.0/
 SPDX-License-Identifier: EPL-2.0
         </copyright>
         <license url="https://www.eclipse.org/legal/epl-2.0/"/>
-        <!-- SHA1 4bccc65cbc834f59bf497e050010d4b0c05b85c5 -->
+        <!-- SHA1 e38da637769062215b9d5f656cefcaab169d9c1a -->
       </feature>
       <dependencies>
         <dependency>
@@ -227,7 +227,7 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>com.google.errorprone</groupId>
           <artifactId>error_prone_annotations</artifactId>
-          <version>2.24.0</version>
+          <version>2.24.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
