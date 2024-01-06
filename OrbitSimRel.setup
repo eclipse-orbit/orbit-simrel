@@ -288,6 +288,15 @@
   </setupTask>
   <setupTask
       xsi:type="setup:ResourceCreationTask"
+      targetURL="${github.clone.orbit.github.location|uri}/.gitignore">
+    <content>
+      .project
+      .gitignore
+      /.settings/
+    </content>
+  </setupTask>
+  <setupTask
+      xsi:type="setup:ResourceCreationTask"
       targetURL="${github.clone.orbit.github.location|uri}/.project">
     <content>
       &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>
@@ -306,10 +315,11 @@
   </setupTask>
   <setupTask
       xsi:type="setup:ResourceCreationTask"
-      targetURL="${github.clone.orbit.github.location|uri}/.gitignore">
+      targetURL="${github.clone.orbit.github.location|uri}/.settings/org.eclipse.core.resources.prefs">
     <content>
-      .project
-      .gitignore
+      eclipse.preferences.version=1
+      encoding/&lt;project>=UTF-8
+
     </content>
   </setupTask>
   <setupTask

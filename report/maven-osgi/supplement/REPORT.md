@@ -1,11 +1,5 @@
 # Target Platform: [supplement](https://raw.githubusercontent.com/eclipse-orbit/orbit-simrel/main/maven-osgi/tp/other/MavenSupplement.target)
 
-## Minor Updates
- - [com.google.errorprone](https://repo1.maven.org/maven2/com/google/errorprone/)
-    - [error_prone_annotations](https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/) **[2.24.0](https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.24.0)** < [2.24.1](https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.24.1/)
- - [org.slf4j](https://repo1.maven.org/maven2/org/slf4j/)
-    - [slf4j-nop](https://repo1.maven.org/maven2/org/slf4j/slf4j-nop/) **[2.0.9](https://repo1.maven.org/maven2/org/slf4j/slf4j-nop/2.0.9)** < [2.0.10](https://repo1.maven.org/maven2/org/slf4j/slf4j-nop/2.0.10/)
-
 ## Major Updates
  - [com.sun.xml.bind](https://repo1.maven.org/maven2/com/sun/xml/bind/)
     - [jaxb-osgi](https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-osgi/) **[2.3.9](https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-osgi/2.3.9)** < [4.0.4](https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-osgi/4.0.4/)
@@ -25,11 +19,6 @@
     - [javax.servlet-api](https://repo1.maven.org/maven2/javax/servlet/javax.servlet-api/) **[3.1.0](https://repo1.maven.org/maven2/javax/servlet/javax.servlet-api/3.1.0)** < [4.0.1](https://repo1.maven.org/maven2/javax/servlet/javax.servlet-api/4.0.1/)
  - [org.apache.felix](https://repo1.maven.org/maven2/org/apache/felix/)
     - [org.apache.felix.http.servlet-api](https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.http.servlet-api/) **[1.2.0](https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.http.servlet-api/1.2.0)** < [3.0.0](https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.http.servlet-api/3.0.0/)
- - [org.slf4j](https://repo1.maven.org/maven2/org/slf4j/)
-    - [slf4j-nop](https://repo1.maven.org/maven2/org/slf4j/slf4j-nop/) **[1.7.36](https://repo1.maven.org/maven2/org/slf4j/slf4j-nop/1.7.36)** < [2.0.10](https://repo1.maven.org/maven2/org/slf4j/slf4j-nop/2.0.10/)
-
-## Updates Applied
-[updated.target](updated.target)
 
 ## Content
  - [ch.qos.logback](https://repo1.maven.org/maven2/ch/qos/logback/)
@@ -58,7 +47,7 @@
  - [com.glazedlists](https://repo1.maven.org/maven2/com/glazedlists/)
     - [glazedlists](https://repo1.maven.org/maven2/com/glazedlists/glazedlists/) **[1.11.0](https://repo1.maven.org/maven2/com/glazedlists/glazedlists/1.11.0)**
  - [com.google.errorprone](https://repo1.maven.org/maven2/com/google/errorprone/)
-    - [error_prone_annotations](https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/) **[2.24.0](https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.24.0)**
+    - [error_prone_annotations](https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/) **[2.24.1](https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.24.1)**
  - [com.google.inject](https://repo1.maven.org/maven2/com/google/inject/)
     - [guice](https://repo1.maven.org/maven2/com/google/inject/guice/) **[7.0.0](https://repo1.maven.org/maven2/com/google/inject/guice/7.0.0)**
  - [com.google.inject.extensions](https://repo1.maven.org/maven2/com/google/inject/extensions/)
@@ -179,4 +168,4 @@
     - [org.osgi.util.tracker](https://repo1.maven.org/maven2/org/osgi/org.osgi.util.tracker/) **[1.5.4](https://repo1.maven.org/maven2/org/osgi/org.osgi.util.tracker/1.5.4)**
  - [org.slf4j](https://repo1.maven.org/maven2/org/slf4j/)
     - [slf4j-nop](https://repo1.maven.org/maven2/org/slf4j/slf4j-nop/) **[1.7.36](https://repo1.maven.org/maven2/org/slf4j/slf4j-nop/1.7.36)**
-    - [slf4j-nop](https://repo1.maven.org/maven2/org/slf4j/slf4j-nop/) **[2.0.9](https://repo1.maven.org/maven2/org/slf4j/slf4j-nop/2.0.9)**
+    - [slf4j-nop](https://repo1.maven.org/maven2/org/slf4j/slf4j-nop/) **[2.0.10](https://repo1.maven.org/maven2/org/slf4j/slf4j-nop/2.0.10)**
