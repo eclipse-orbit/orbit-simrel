@@ -1,14 +1,5 @@
 # Target Platform: [windowbuilder](https://raw.githubusercontent.com/eclipse/windowbuilder/master/target-platform/mvn/wb-mvn.target)
 
-## Minor Updates
- - [commons-io](https://repo1.maven.org/maven2/commons-io/)
-    - [commons-io](https://repo1.maven.org/maven2/commons-io/commons-io/) **[2.13.0](https://repo1.maven.org/maven2/commons-io/commons-io/2.13.0)** < [2.15.1](https://repo1.maven.org/maven2/commons-io/commons-io/2.15.1/)
- - [commons-logging](https://repo1.maven.org/maven2/commons-logging/)
-    - [commons-logging](https://repo1.maven.org/maven2/commons-logging/commons-logging/) **[1.2](https://repo1.maven.org/maven2/commons-logging/commons-logging/1.2)** < [1.3.0](https://repo1.maven.org/maven2/commons-logging/commons-logging/1.3.0/)
-
-## Updates Applied
-[updated.target](updated.target)
-
 ## Content
  - [com.sun.xml.bind](https://repo1.maven.org/maven2/com/sun/xml/bind/)
     - [jaxb-core](https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-core/) **[4.0.4](https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-core/4.0.4)**
@@ -16,11 +7,11 @@
  - [commons-beanutils](https://repo1.maven.org/maven2/commons-beanutils/)
     - [commons-beanutils](https://repo1.maven.org/maven2/commons-beanutils/commons-beanutils/) **[1.9.4](https://repo1.maven.org/maven2/commons-beanutils/commons-beanutils/1.9.4)**
  - [commons-io](https://repo1.maven.org/maven2/commons-io/)
-    - [commons-io](https://repo1.maven.org/maven2/commons-io/commons-io/) **[2.13.0](https://repo1.maven.org/maven2/commons-io/commons-io/2.13.0)**
+    - [commons-io](https://repo1.maven.org/maven2/commons-io/commons-io/) **[2.15.1](https://repo1.maven.org/maven2/commons-io/commons-io/2.15.1)**
  - [commons-lang](https://repo1.maven.org/maven2/commons-lang/)
     - [commons-lang](https://repo1.maven.org/maven2/commons-lang/commons-lang/) **[2.6](https://repo1.maven.org/maven2/commons-lang/commons-lang/2.6)**
  - [commons-logging](https://repo1.maven.org/maven2/commons-logging/)
-    - [commons-logging](https://repo1.maven.org/maven2/commons-logging/commons-logging/) **[1.2](https://repo1.maven.org/maven2/commons-logging/commons-logging/1.2)**
+    - [commons-logging](https://repo1.maven.org/maven2/commons-logging/commons-logging/) **[1.3.0](https://repo1.maven.org/maven2/commons-logging/commons-logging/1.3.0)**
  - [io.github.toolfactory](https://repo1.maven.org/maven2/io/github/toolfactory/)
     - [jvm-driver](https://repo1.maven.org/maven2/io/github/toolfactory/jvm-driver/) **[9.6.0](https://repo1.maven.org/maven2/io/github/toolfactory/jvm-driver/9.6.0)**
     - [narcissus](https://repo1.maven.org/maven2/io/github/toolfactory/narcissus/) **[1.0.7](https://repo1.maven.org/maven2/io/github/toolfactory/narcissus/1.0.7)**
@@ -34,6 +25,6 @@
     - [core](https://repo1.maven.org/maven2/org/burningwave/core/) **[12.64.3](https://repo1.maven.org/maven2/org/burningwave/core/12.64.3)**
     - [jvm-driver](https://repo1.maven.org/maven2/org/burningwave/jvm-driver/) **[8.15.0](https://repo1.maven.org/maven2/org/burningwave/jvm-driver/8.15.0)**
  - [org.mvel](https://repo1.maven.org/maven2/org/mvel/)
-    - [mvel2](https://repo1.maven.org/maven2/org/mvel/mvel2/) **[2.5.0.Final](https://repo1.maven.org/maven2/org/mvel/mvel2/2.5.0.Final)**
+    - [mvel2](https://repo1.maven.org/maven2/org/mvel/mvel2/) **[2.5.1.Final](https://repo1.maven.org/maven2/org/mvel/mvel2/2.5.1.Final)**
  - [org.objenesis](https://repo1.maven.org/maven2/org/objenesis/)
     - [objenesis](https://repo1.maven.org/maven2/org/objenesis/objenesis/) **[3.3](https://repo1.maven.org/maven2/org/objenesis/objenesis/3.3)**

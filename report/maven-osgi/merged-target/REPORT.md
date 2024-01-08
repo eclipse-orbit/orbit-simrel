@@ -330,7 +330,7 @@
  - [org.mozilla](https://repo1.maven.org/maven2/org/mozilla/)
     - [rhino](https://repo1.maven.org/maven2/org/mozilla/rhino/) **[1.7.14](https://repo1.maven.org/maven2/org/mozilla/rhino/1.7.14)**
  - [org.mvel](https://repo1.maven.org/maven2/org/mvel/)
-    - [mvel2](https://repo1.maven.org/maven2/org/mvel/mvel2/) **[2.5.0.Final](https://repo1.maven.org/maven2/org/mvel/mvel2/2.5.0.Final)**
+    - [mvel2](https://repo1.maven.org/maven2/org/mvel/mvel2/) **[2.5.1.Final](https://repo1.maven.org/maven2/org/mvel/mvel2/2.5.1.Final)**
  - [org.objenesis](https://repo1.maven.org/maven2/org/objenesis/)
     - [objenesis](https://repo1.maven.org/maven2/org/objenesis/objenesis/) **[3.3](https://repo1.maven.org/maven2/org/objenesis/objenesis/3.3)**
  - [org.opentest4j](https://repo1.maven.org/maven2/org/opentest4j/)
