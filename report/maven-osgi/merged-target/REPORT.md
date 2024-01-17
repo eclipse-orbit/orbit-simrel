@@ -78,7 +78,7 @@
  - [com.fasterxml.jackson.module](https://repo1.maven.org/maven2/com/fasterxml/jackson/module/)
     - [jackson-module-jaxb-annotations](https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/) **[2.16.1](https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.16.1)**
  - [com.fasterxml.woodstox](https://repo1.maven.org/maven2/com/fasterxml/woodstox/)
-    - [woodstox-core](https://repo1.maven.org/maven2/com/fasterxml/woodstox/woodstox-core/) **[6.5.1](https://repo1.maven.org/maven2/com/fasterxml/woodstox/woodstox-core/6.5.1)**
+    - [woodstox-core](https://repo1.maven.org/maven2/com/fasterxml/woodstox/woodstox-core/) **[6.6.0](https://repo1.maven.org/maven2/com/fasterxml/woodstox/woodstox-core/6.6.0)**
  - [com.github.ben-manes.caffeine](https://repo1.maven.org/maven2/com/github/ben-manes/caffeine/)
     - [caffeine](https://repo1.maven.org/maven2/com/github/ben-manes/caffeine/caffeine/) **[3.1.8](https://repo1.maven.org/maven2/com/github/ben-manes/caffeine/caffeine/3.1.8)**
  - [com.github.jnr](https://repo1.maven.org/maven2/com/github/jnr/)
@@ -89,7 +89,7 @@
     - [jnr-posix](https://repo1.maven.org/maven2/com/github/jnr/jnr-posix/) **[3.1.18](https://repo1.maven.org/maven2/com/github/jnr/jnr-posix/3.1.18)**
     - [jnr-unixsocket](https://repo1.maven.org/maven2/com/github/jnr/jnr-unixsocket/) **[0.38.21](https://repo1.maven.org/maven2/com/github/jnr/jnr-unixsocket/0.38.21)**
  - [com.github.librepdf](https://repo1.maven.org/maven2/com/github/librepdf/)
-    - [openpdf](https://repo1.maven.org/maven2/com/github/librepdf/openpdf/) **[1.3.36](https://repo1.maven.org/maven2/com/github/librepdf/openpdf/1.3.36)**
+    - [openpdf](https://repo1.maven.org/maven2/com/github/librepdf/openpdf/) **[1.3.37](https://repo1.maven.org/maven2/com/github/librepdf/openpdf/1.3.37)**
  - [com.github.oshi](https://repo1.maven.org/maven2/com/github/oshi/)
     - [oshi-core](https://repo1.maven.org/maven2/com/github/oshi/oshi-core/) **[6.4.11](https://repo1.maven.org/maven2/com/github/oshi/oshi-core/6.4.11)**
  - [com.glazedlists](https://repo1.maven.org/maven2/com/glazedlists/)
