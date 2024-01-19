@@ -89,7 +89,7 @@
     - [jnr-posix](https://repo1.maven.org/maven2/com/github/jnr/jnr-posix/) **[3.1.18](https://repo1.maven.org/maven2/com/github/jnr/jnr-posix/3.1.18)**
     - [jnr-unixsocket](https://repo1.maven.org/maven2/com/github/jnr/jnr-unixsocket/) **[0.38.21](https://repo1.maven.org/maven2/com/github/jnr/jnr-unixsocket/0.38.21)**
  - [com.github.librepdf](https://repo1.maven.org/maven2/com/github/librepdf/)
-    - [openpdf](https://repo1.maven.org/maven2/com/github/librepdf/openpdf/) **[1.3.38](https://repo1.maven.org/maven2/com/github/librepdf/openpdf/1.3.38)**
+    - [openpdf](https://repo1.maven.org/maven2/com/github/librepdf/openpdf/) **[1.3.39](https://repo1.maven.org/maven2/com/github/librepdf/openpdf/1.3.39)**
  - [com.github.oshi](https://repo1.maven.org/maven2/com/github/oshi/)
     - [oshi-core](https://repo1.maven.org/maven2/com/github/oshi/oshi-core/) **[6.4.11](https://repo1.maven.org/maven2/com/github/oshi/oshi-core/6.4.11)**
  - [com.glazedlists](https://repo1.maven.org/maven2/com/glazedlists/)
@@ -220,7 +220,6 @@
  - [org.apache.commons](https://repo1.maven.org/maven2/org/apache/commons/)
     - [commons-collections4](https://repo1.maven.org/maven2/org/apache/commons/commons-collections4/) **[4.4](https://repo1.maven.org/maven2/org/apache/commons/commons-collections4/4.4)**
     - [commons-compress](https://repo1.maven.org/maven2/org/apache/commons/commons-compress/) **[1.25.0](https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.25.0)**
-    - [commons-digester3](https://repo1.maven.org/maven2/org/apache/commons/commons-digester3/) **[3.1](https://repo1.maven.org/maven2/org/apache/commons/commons-digester3/3.1)**
     - [commons-lang3](https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/) **[3.14.0](https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.14.0)**
     - [commons-math3](https://repo1.maven.org/maven2/org/apache/commons/commons-math3/) **[3.6.1](https://repo1.maven.org/maven2/org/apache/commons/commons-math3/3.6.1)**
  - [org.apache.felix](https://repo1.maven.org/maven2/org/apache/felix/)
