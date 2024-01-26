@@ -148,7 +148,7 @@
  - [org.json](https://repo1.maven.org/maven2/org/json/)
     - [json](https://repo1.maven.org/maven2/org/json/json/) **[20230227](https://repo1.maven.org/maven2/org/json/json/20230227)**
  - [org.mockito](https://repo1.maven.org/maven2/org/mockito/)
-    - [mockito-junit-jupiter](https://repo1.maven.org/maven2/org/mockito/mockito-junit-jupiter/) **[5.9.0](https://repo1.maven.org/maven2/org/mockito/mockito-junit-jupiter/5.9.0)**
+    - [mockito-junit-jupiter](https://repo1.maven.org/maven2/org/mockito/mockito-junit-jupiter/) **[5.10.0](https://repo1.maven.org/maven2/org/mockito/mockito-junit-jupiter/5.10.0)**
  - [org.mongodb](https://repo1.maven.org/maven2/org/mongodb/)
     - [mongo-java-driver](https://repo1.maven.org/maven2/org/mongodb/mongo-java-driver/) **[3.12.14](https://repo1.maven.org/maven2/org/mongodb/mongo-java-driver/3.12.14)**
  - [org.mortbay.jasper](https://repo1.maven.org/maven2/org/mortbay/jasper/)

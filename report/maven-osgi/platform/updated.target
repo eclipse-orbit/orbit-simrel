@@ -49,7 +49,7 @@
 
       <!-- This is the "normal" Orbit repository.
            This is the repo that is expected to be updated on milestones and releases based on Orbit deliveries. -->
-      <repository location="https://download.eclipse.org/tools/orbit/simrel/orbit-aggregation/milestone/S202401021059"/>
+      <repository location="https://download.eclipse.org/tools/orbit/simrel/orbit-aggregation/milestone/S202401230734"/>
     </location>
 
     <location includeAllPlatforms="true" includeMode="slicer" type="InstallableUnit">
@@ -336,13 +336,13 @@
 			  <dependency>
 				  <groupId>org.assertj</groupId>
 				  <artifactId>assertj-core</artifactId>
-				  <version>3.25.1</version>
+				  <version>3.25.2</version>
 				  <type>jar</type>
 			  </dependency>
 			  <dependency>
 				  <groupId>org.mockito</groupId>
 				  <artifactId>mockito-core</artifactId>
-				  <version>5.9.0</version>
+				  <version>5.10.0</version>
 				  <type>jar</type>
 			  </dependency>
 			  <dependency>

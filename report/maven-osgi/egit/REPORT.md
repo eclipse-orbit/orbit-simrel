@@ -13,7 +13,7 @@
     - [sshd-osgi](https://repo1.maven.org/maven2/org/apache/sshd/sshd-osgi/) **[2.11.0](https://repo1.maven.org/maven2/org/apache/sshd/sshd-osgi/2.11.0)** < [2.12.0](https://repo1.maven.org/maven2/org/apache/sshd/sshd-osgi/2.12.0/)
     - [sshd-sftp](https://repo1.maven.org/maven2/org/apache/sshd/sshd-sftp/) **[2.11.0](https://repo1.maven.org/maven2/org/apache/sshd/sshd-sftp/2.11.0)** < [2.12.0](https://repo1.maven.org/maven2/org/apache/sshd/sshd-sftp/2.12.0/)
  - [org.assertj](https://repo1.maven.org/maven2/org/assertj/)
-    - [assertj-core](https://repo1.maven.org/maven2/org/assertj/assertj-core/) **[3.24.2](https://repo1.maven.org/maven2/org/assertj/assertj-core/3.24.2)** < [3.25.1](https://repo1.maven.org/maven2/org/assertj/assertj-core/3.25.1/)
+    - [assertj-core](https://repo1.maven.org/maven2/org/assertj/assertj-core/) **[3.24.2](https://repo1.maven.org/maven2/org/assertj/assertj-core/3.24.2)** < [3.25.2](https://repo1.maven.org/maven2/org/assertj/assertj-core/3.25.2/)
  - [org.eclipse.jetty](https://repo1.maven.org/maven2/org/eclipse/jetty/)
     - [jetty-http](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/) **[10.0.18](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/10.0.18)** < [10.0.19](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/10.0.19/)
     - [jetty-io](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/) **[10.0.18](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/10.0.18)** < [10.0.19](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/10.0.19/)
@@ -23,7 +23,7 @@
     - [jetty-util](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/) **[10.0.18](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/10.0.18)** < [10.0.19](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/10.0.19/)
     - [jetty-util-ajax](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util-ajax/) **[10.0.18](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util-ajax/10.0.18)** < [10.0.19](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util-ajax/10.0.19/)
  - [org.mockito](https://repo1.maven.org/maven2/org/mockito/)
-    - [mockito-core](https://repo1.maven.org/maven2/org/mockito/mockito-core/) **[5.7.0](https://repo1.maven.org/maven2/org/mockito/mockito-core/5.7.0)** < [5.9.0](https://repo1.maven.org/maven2/org/mockito/mockito-core/5.9.0/)
+    - [mockito-core](https://repo1.maven.org/maven2/org/mockito/mockito-core/) **[5.7.0](https://repo1.maven.org/maven2/org/mockito/mockito-core/5.7.0)** < [5.10.0](https://repo1.maven.org/maven2/org/mockito/mockito-core/5.10.0/)
 
 ## Major Updates
  - [jakarta.servlet](https://repo1.maven.org/maven2/jakarta/servlet/)
