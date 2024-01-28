@@ -25,6 +25,8 @@
     - [logback-core](https://repo1.maven.org/maven2/ch/qos/logback/logback-core/) **[1.4.14](https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.4.14)**
  - [ch.qos.reload4j](https://repo1.maven.org/maven2/ch/qos/reload4j/)
     - [reload4j](https://repo1.maven.org/maven2/ch/qos/reload4j/reload4j/) **[1.2.25](https://repo1.maven.org/maven2/ch/qos/reload4j/reload4j/1.2.25)**
+ - [com.ethlo.time](https://repo1.maven.org/maven2/com/ethlo/time/)
+    - [itu](https://repo1.maven.org/maven2/com/ethlo/time/itu/) **[1.8.0](https://repo1.maven.org/maven2/com/ethlo/time/itu/1.8.0)**
  - [com.evolvedbinary.thirdparty.org.apache.xmlrpc](https://repo1.maven.org/maven2/com/evolvedbinary/thirdparty/org/apache/xmlrpc/)
     - [xmlrpc-client](https://repo1.maven.org/maven2/com/evolvedbinary/thirdparty/org/apache/xmlrpc/xmlrpc-client/) **[5.0.0](https://repo1.maven.org/maven2/com/evolvedbinary/thirdparty/org/apache/xmlrpc/xmlrpc-client/5.0.0)**
     - [xmlrpc-common](https://repo1.maven.org/maven2/com/evolvedbinary/thirdparty/org/apache/xmlrpc/xmlrpc-common/) **[5.0.0](https://repo1.maven.org/maven2/com/evolvedbinary/thirdparty/org/apache/xmlrpc/xmlrpc-common/5.0.0)**
@@ -53,7 +55,7 @@
  - [com.google.inject.extensions](https://repo1.maven.org/maven2/com/google/inject/extensions/)
     - [guice-assistedinject](https://repo1.maven.org/maven2/com/google/inject/extensions/guice-assistedinject/) **[7.0.0](https://repo1.maven.org/maven2/com/google/inject/extensions/guice-assistedinject/7.0.0)**
  - [com.networknt](https://repo1.maven.org/maven2/com/networknt/)
-    - [json-schema-validator](https://repo1.maven.org/maven2/com/networknt/json-schema-validator/) **[1.2.0](https://repo1.maven.org/maven2/com/networknt/json-schema-validator/1.2.0)**
+    - [json-schema-validator](https://repo1.maven.org/maven2/com/networknt/json-schema-validator/) **[1.3.0](https://repo1.maven.org/maven2/com/networknt/json-schema-validator/1.3.0)**
  - [com.sun.xml.bind](https://repo1.maven.org/maven2/com/sun/xml/bind/)
     - [jaxb-core](https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-core/) **[4.0.4](https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-core/4.0.4)**
     - [jaxb-impl](https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-impl/) **[4.0.4](https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-impl/4.0.4)**

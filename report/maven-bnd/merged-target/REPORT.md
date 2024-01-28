@@ -7,8 +7,6 @@
 ## Content
  - [aopalliance](https://repo1.maven.org/maven2/aopalliance/)
     - [aopalliance](https://repo1.maven.org/maven2/aopalliance/aopalliance/) **[1.0](https://repo1.maven.org/maven2/aopalliance/aopalliance/1.0)**
- - [com.ethlo.time](https://repo1.maven.org/maven2/com/ethlo/time/)
-    - [chronograph](https://repo1.maven.org/maven2/com/ethlo/time/chronograph/) **[1.3.0](https://repo1.maven.org/maven2/com/ethlo/time/chronograph/1.3.0)**
  - [com.github.jnr](https://repo1.maven.org/maven2/com/github/jnr/)
     - [jnr-a64asm](https://repo1.maven.org/maven2/com/github/jnr/jnr-a64asm/) **[1.0.0](https://repo1.maven.org/maven2/com/github/jnr/jnr-a64asm/1.0.0)**
     - [jnr-x86asm](https://repo1.maven.org/maven2/com/github/jnr/jnr-x86asm/) **[1.0.2](https://repo1.maven.org/maven2/com/github/jnr/jnr-x86asm/1.0.2)**
