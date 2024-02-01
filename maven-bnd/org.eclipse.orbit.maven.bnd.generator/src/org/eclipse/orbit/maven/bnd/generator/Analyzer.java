@@ -176,8 +176,13 @@ public class Analyzer {
 			throw new IllegalStateException("Each feature must have unique id: " + featureID);
 		}
 
-		featureMatcher.appendReplacement(result, Matcher.quoteReplacement(visitFeature(feature, featureID)));
+		featureMatcher.appendReplacement(result, Matcher.quoteReplacement(visitFeature(location, feature, featureID)));
 		featureMatcher.appendTail(result);
+		
+		if (!version.contains("(")) {  // )
+			return result.toString();
+		}
+		
 		return visitDependencies(result.toString(), featureID);
 	}
 
@@ -189,7 +194,7 @@ public class Analyzer {
 		return null;
 	}
 
-	private String visitFeature(String feature, String featureID) {
+	private String visitFeature(String location, String feature, String featureID) {
 		var featureVersionMatcher = FEATURE_VERSION_PATTERN.matcher(feature);
 		if (!featureVersionMatcher.find()) {
 			throw new IllegalStateException("Each feature must have a version.");
@@ -200,8 +205,17 @@ public class Analyzer {
 			System.out.println("--- " + featureID + ":" + featureVersion + "---");
 		}
 
-		if (!featureVersion.startsWith(version)) {
-			feature = replace(feature, featureVersionMatcher, "version", version);
+		var effectiveVersion = version;
+		if (version.contains("(")) { // )
+			Matcher matcher = Pattern.compile(version).matcher(location);
+			if (!matcher.find()) {
+				throw new IllegalStateException("The version pattern is not found: " + version);
+			}
+			effectiveVersion = matcher.group(1);
+		}
+
+		if (!featureVersion.startsWith(effectiveVersion)) {
+			feature = replace(feature, featureVersionMatcher, "version", effectiveVersion);
 		}
 
 		return feature.replaceAll("Copyright \\(c\\) [0-9]+", "Copyright (c) " + year);

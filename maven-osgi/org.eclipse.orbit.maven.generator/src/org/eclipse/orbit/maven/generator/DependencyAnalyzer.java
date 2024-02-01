@@ -103,6 +103,7 @@ public class DependencyAnalyzer {
 		var analyzer = new Analyzer(contentHandler, ignorePatterns, majorInclusionPatterns);
 
 		boolean update = getBooleanArgument(arguments, "-update");
+		var bomUpdate = getBooleanArgument(arguments, "-bom-update");
 		var dependencies = new TreeSet<Dependency>();
 		var reporter = new Reporter(getArgument(arguments, "-report"));
 		var targets = new TreeMap<>(getArguments(arguments, "-targets").stream().map(it -> it.split("="))
@@ -111,7 +112,7 @@ public class DependencyAnalyzer {
 			var uri = createURI(target.getValue());
 			System.out.println("Analyzing " + uri);
 
-			if (!update) {
+			if (!update && !bomUpdate) {
 				String label = target.getKey();
 				reporter.generateReport(contentHandler, analyzer, label, uri, majorInclusionPatterns);
 			}
@@ -119,7 +120,9 @@ public class DependencyAnalyzer {
 			dependencies.addAll(analyzer.getTargetDependencies(uri));
 		}
 
-		dependencies.addAll(analyzer.getBOMDependencies(dependencies));
+		if (!bomUpdate) {
+			dependencies.addAll(analyzer.getBOMDependencies(dependencies));
+		}
 
 		if (reporter.reportRoot != null) {
 			var readme = reporter.reportRoot.resolve("../README.md");

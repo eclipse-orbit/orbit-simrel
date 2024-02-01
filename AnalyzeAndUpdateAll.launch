@@ -39,7 +39,17 @@
     <booleanAttribute key="org.eclipse.debug.core.launchGroup.7.adoptIfRunning" value="false"/>
     <booleanAttribute key="org.eclipse.debug.core.launchGroup.7.enabled" value="true"/>
     <stringAttribute key="org.eclipse.debug.core.launchGroup.7.mode" value="inherit"/>
-    <stringAttribute key="org.eclipse.debug.core.launchGroup.7.name" value="MavenJettyDependencyAnalyzer"/>
+    <stringAttribute key="org.eclipse.debug.core.launchGroup.7.name" value="MavenJettySupplementDependencyAnalyzer"/>
+    <stringAttribute key="org.eclipse.debug.core.launchGroup.8.action" value="WAIT_FOR_TERMINATION"/>
+    <booleanAttribute key="org.eclipse.debug.core.launchGroup.8.adoptIfRunning" value="false"/>
+    <booleanAttribute key="org.eclipse.debug.core.launchGroup.8.enabled" value="true"/>
+    <stringAttribute key="org.eclipse.debug.core.launchGroup.8.mode" value="inherit"/>
+    <stringAttribute key="org.eclipse.debug.core.launchGroup.8.name" value="MavenJettyDependencyAnalyzer"/>
+    <stringAttribute key="org.eclipse.debug.core.launchGroup.9.action" value="WAIT_FOR_TERMINATION"/>
+    <booleanAttribute key="org.eclipse.debug.core.launchGroup.9.adoptIfRunning" value="false"/>
+    <booleanAttribute key="org.eclipse.debug.core.launchGroup.9.enabled" value="true"/>
+    <stringAttribute key="org.eclipse.debug.core.launchGroup.9.mode" value="inherit"/>
+    <stringAttribute key="org.eclipse.debug.core.launchGroup.9.name" value="MavenJettyUpdater"/>
     <listAttribute key="org.eclipse.debug.ui.favoriteGroups">
         <listEntry value="org.eclipse.debug.ui.launchGroup.run"/>
     </listAttribute>
