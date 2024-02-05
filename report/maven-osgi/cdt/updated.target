@@ -90,7 +90,7 @@
 				<dependency>
 					<groupId>org.assertj</groupId>
 					<artifactId>assertj-core</artifactId>
-					<version>3.25.2</version>
+					<version>3.25.3</version>
 					<type>jar</type>
 				</dependency>
 				<dependency>
@@ -102,13 +102,13 @@
 				<dependency>
 					<groupId>org.junit.jupiter</groupId>
 					<artifactId>junit-jupiter-api</artifactId>
-					<version>5.10.1</version>
+					<version>5.10.2</version>
 					<type>jar</type>
 				</dependency>
 				<dependency>
 					<groupId>org.junit.jupiter</groupId>
 					<artifactId>junit-jupiter-engine</artifactId>
-					<version>5.10.1</version>
+					<version>5.10.2</version>
 					<type>jar</type>
 				</dependency>
 				<dependency>
