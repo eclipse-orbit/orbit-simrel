@@ -31,8 +31,8 @@
     - [jetty-util](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/) **[10.0.18](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/10.0.18)** < [12.0.6](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/12.0.6/)
     - [jetty-util-ajax](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util-ajax/) **[10.0.18](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util-ajax/10.0.18)** < [12.0.6](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util-ajax/12.0.6/)
  - [org.slf4j](https://repo1.maven.org/maven2/org/slf4j/)
-    - [slf4j-api](https://repo1.maven.org/maven2/org/slf4j/slf4j-api/) **[1.7.36](https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.36)** < [2.0.11](https://repo1.maven.org/maven2/org/slf4j/slf4j-api/2.0.11/)
-    - [slf4j-simple](https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/) **[1.7.36](https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/1.7.36)** < [2.0.11](https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/2.0.11/)
+    - [slf4j-api](https://repo1.maven.org/maven2/org/slf4j/slf4j-api/) **[1.7.36](https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.36)** < [2.0.12](https://repo1.maven.org/maven2/org/slf4j/slf4j-api/2.0.12/)
+    - [slf4j-simple](https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/) **[1.7.36](https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/1.7.36)** < [2.0.12](https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/2.0.12/)
 
 ## Updates Applied
 [updated.target](updated.target)
