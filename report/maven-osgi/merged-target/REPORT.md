@@ -60,7 +60,7 @@
  - [ch.qos.reload4j](https://repo1.maven.org/maven2/ch/qos/reload4j/)
     - [reload4j](https://repo1.maven.org/maven2/ch/qos/reload4j/reload4j/) **[1.2.25](https://repo1.maven.org/maven2/ch/qos/reload4j/reload4j/1.2.25)**
  - [com.ethlo.time](https://repo1.maven.org/maven2/com/ethlo/time/)
-    - [itu](https://repo1.maven.org/maven2/com/ethlo/time/itu/) **[1.9.0](https://repo1.maven.org/maven2/com/ethlo/time/itu/1.9.0)**
+    - [itu](https://repo1.maven.org/maven2/com/ethlo/time/itu/) **[1.10.0](https://repo1.maven.org/maven2/com/ethlo/time/itu/1.10.0)**
  - [com.evolvedbinary.thirdparty.org.apache.xmlrpc](https://repo1.maven.org/maven2/com/evolvedbinary/thirdparty/org/apache/xmlrpc/)
     - [xmlrpc-client](https://repo1.maven.org/maven2/com/evolvedbinary/thirdparty/org/apache/xmlrpc/xmlrpc-client/) **[5.0.0](https://repo1.maven.org/maven2/com/evolvedbinary/thirdparty/org/apache/xmlrpc/xmlrpc-client/5.0.0)**
     - [xmlrpc-common](https://repo1.maven.org/maven2/com/evolvedbinary/thirdparty/org/apache/xmlrpc/xmlrpc-common/) **[5.0.0](https://repo1.maven.org/maven2/com/evolvedbinary/thirdparty/org/apache/xmlrpc/xmlrpc-common/5.0.0)**
