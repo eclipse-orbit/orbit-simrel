@@ -2317,7 +2317,7 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>commons-codec</groupId>
           <artifactId>commons-codec</artifactId>
-          <version>1.16.0</version>
+          <version>1.16.1</version>
           <type>jar</type>
         </dependency>
 

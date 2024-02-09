@@ -1,5 +1,12 @@
 # Target Platform: [m2e](https://raw.githubusercontent.com/eclipse-m2e/m2e-core/master/target-platform/target-platform.target)
 
+## Minor Updates
+ - [commons-codec](https://repo1.maven.org/maven2/commons-codec/)
+    - [commons-codec](https://repo1.maven.org/maven2/commons-codec/commons-codec/) **[1.16.0](https://repo1.maven.org/maven2/commons-codec/commons-codec/1.16.0)** < [1.16.1](https://repo1.maven.org/maven2/commons-codec/commons-codec/1.16.1/)
+
+## Updates Applied
+[updated.target](updated.target)
+
 ## Content
  - [ch.qos.logback](https://repo1.maven.org/maven2/ch/qos/logback/)
     - [logback-classic](https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/) **[1.4.14](https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.4.14)**

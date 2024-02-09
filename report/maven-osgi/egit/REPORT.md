@@ -1,6 +1,8 @@
 # Target Platform: [egit](https://raw.githubusercontent.com/eclipse-egit/egit/master/org.eclipse.egit.target/egit-4.31.target)
 
 ## Minor Updates
+ - [commons-codec](https://repo1.maven.org/maven2/commons-codec/)
+    - [commons-codec](https://repo1.maven.org/maven2/commons-codec/commons-codec/) **[1.16.0](https://repo1.maven.org/maven2/commons-codec/commons-codec/1.16.0)** < [1.16.1](https://repo1.maven.org/maven2/commons-codec/commons-codec/1.16.1/)
  - [commons-io](https://repo1.maven.org/maven2/commons-io/)
     - [commons-io](https://repo1.maven.org/maven2/commons-io/commons-io/) **[2.15.0](https://repo1.maven.org/maven2/commons-io/commons-io/2.15.0)** < [2.15.1](https://repo1.maven.org/maven2/commons-io/commons-io/2.15.1/)
  - [net.bytebuddy](https://repo1.maven.org/maven2/net/bytebuddy/)
