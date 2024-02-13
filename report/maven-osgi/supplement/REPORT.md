@@ -43,7 +43,7 @@
  - [com.github.ben-manes.caffeine](https://repo1.maven.org/maven2/com/github/ben-manes/caffeine/)
     - [caffeine](https://repo1.maven.org/maven2/com/github/ben-manes/caffeine/caffeine/) **[3.1.8](https://repo1.maven.org/maven2/com/github/ben-manes/caffeine/caffeine/3.1.8)**
  - [com.github.librepdf](https://repo1.maven.org/maven2/com/github/librepdf/)
-    - [openpdf](https://repo1.maven.org/maven2/com/github/librepdf/openpdf/) **[1.3.39](https://repo1.maven.org/maven2/com/github/librepdf/openpdf/1.3.39)**
+    - [openpdf](https://repo1.maven.org/maven2/com/github/librepdf/openpdf/) **[1.3.40](https://repo1.maven.org/maven2/com/github/librepdf/openpdf/1.3.40)**
  - [com.github.oshi](https://repo1.maven.org/maven2/com/github/oshi/)
     - [oshi-core](https://repo1.maven.org/maven2/com/github/oshi/oshi-core/) **[6.4.12](https://repo1.maven.org/maven2/com/github/oshi/oshi-core/6.4.12)**
  - [com.glazedlists](https://repo1.maven.org/maven2/com/glazedlists/)
