@@ -178,11 +178,11 @@ public class Analyzer {
 
 		featureMatcher.appendReplacement(result, Matcher.quoteReplacement(visitFeature(location, feature, featureID)));
 		featureMatcher.appendTail(result);
-		
-		if (!version.contains("(")) {  // )
+
+		if (version.contains("(")) { // )
 			return result.toString();
 		}
-		
+
 		return visitDependencies(result.toString(), featureID);
 	}
 
