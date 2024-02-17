@@ -22,7 +22,7 @@
 
 ## Content
  - [ch.qos.logback](https://repo1.maven.org/maven2/ch/qos/logback/)
-    - [logback-core](https://repo1.maven.org/maven2/ch/qos/logback/logback-core/) **[1.4.14](https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.4.14)**
+    - [logback-core](https://repo1.maven.org/maven2/ch/qos/logback/logback-core/) **[1.5.0](https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.5.0)**
  - [ch.qos.reload4j](https://repo1.maven.org/maven2/ch/qos/reload4j/)
     - [reload4j](https://repo1.maven.org/maven2/ch/qos/reload4j/reload4j/) **[1.2.25](https://repo1.maven.org/maven2/ch/qos/reload4j/reload4j/1.2.25)**
  - [com.ethlo.time](https://repo1.maven.org/maven2/com/ethlo/time/)
@@ -49,7 +49,7 @@
  - [com.glazedlists](https://repo1.maven.org/maven2/com/glazedlists/)
     - [glazedlists](https://repo1.maven.org/maven2/com/glazedlists/glazedlists/) **[1.11.0](https://repo1.maven.org/maven2/com/glazedlists/glazedlists/1.11.0)**
  - [com.google.errorprone](https://repo1.maven.org/maven2/com/google/errorprone/)
-    - [error_prone_annotations](https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/) **[2.24.1](https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.24.1)**
+    - [error_prone_annotations](https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/) **[2.25.0](https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.25.0)**
  - [com.google.inject](https://repo1.maven.org/maven2/com/google/inject/)
     - [guice](https://repo1.maven.org/maven2/com/google/inject/guice/) **[7.0.0](https://repo1.maven.org/maven2/com/google/inject/guice/7.0.0)**
  - [com.google.inject.extensions](https://repo1.maven.org/maven2/com/google/inject/extensions/)

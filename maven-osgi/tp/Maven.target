@@ -3,7 +3,7 @@
 <target name="Maven" sequenceNumber="1">
   <locations>
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="error" type="Maven">
-      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.31.0.v20240215-1615">
+      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.31.0.v20240217-0826">
         <description>This feature's dependencies are pulled directly from Maven central.</description>
         <copyright>
 Copyright (c) 2024 Eclipse contributors and others.
@@ -16,7 +16,7 @@ https://www.eclipse.org/legal/epl-2.0/
 SPDX-License-Identifier: EPL-2.0
         </copyright>
         <license url="https://www.eclipse.org/legal/epl-2.0/"/>
-        <!-- SHA1 094e35126c143f594495a5952a8e6192bcab1c7d -->
+        <!-- SHA1 193768eeb3a16f565753cca21c35c53455ebc4a9 -->
       </feature>
       <dependencies>
         <dependency>
@@ -64,13 +64,13 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>ch.qos.logback</groupId>
           <artifactId>logback-classic</artifactId>
-          <version>1.4.14</version>
+          <version>1.5.0</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>ch.qos.logback</groupId>
           <artifactId>logback-core</artifactId>
-          <version>1.4.14</version>
+          <version>1.5.0</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -233,7 +233,7 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>com.google.errorprone</groupId>
           <artifactId>error_prone_annotations</artifactId>
-          <version>2.24.1</version>
+          <version>2.25.0</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -629,13 +629,13 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>net.bytebuddy</groupId>
           <artifactId>byte-buddy</artifactId>
-          <version>1.14.11</version>
+          <version>1.14.12</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>net.bytebuddy</groupId>
           <artifactId>byte-buddy-agent</artifactId>
-          <version>1.14.11</version>
+          <version>1.14.12</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -749,13 +749,13 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>org.apache.sshd</groupId>
           <artifactId>sshd-osgi</artifactId>
-          <version>2.12.0</version>
+          <version>2.12.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.apache.sshd</groupId>
           <artifactId>sshd-sftp</artifactId>
-          <version>2.12.0</version>
+          <version>2.12.1</version>
           <type>jar</type>
         </dependency>
         <dependency>

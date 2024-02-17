@@ -55,8 +55,8 @@
     - [biz.aQute.repository](https://repo1.maven.org/maven2/biz/aQute/bnd/biz.aQute.repository/) **[7.0.0](https://repo1.maven.org/maven2/biz/aQute/bnd/biz.aQute.repository/7.0.0)**
     - [biz.aQute.resolve](https://repo1.maven.org/maven2/biz/aQute/bnd/biz.aQute.resolve/) **[7.0.0](https://repo1.maven.org/maven2/biz/aQute/bnd/biz.aQute.resolve/7.0.0)**
  - [ch.qos.logback](https://repo1.maven.org/maven2/ch/qos/logback/)
-    - [logback-classic](https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/) **[1.4.14](https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.4.14)**
-    - [logback-core](https://repo1.maven.org/maven2/ch/qos/logback/logback-core/) **[1.4.14](https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.4.14)**
+    - [logback-classic](https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/) **[1.5.0](https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.5.0)**
+    - [logback-core](https://repo1.maven.org/maven2/ch/qos/logback/logback-core/) **[1.5.0](https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.5.0)**
  - [ch.qos.reload4j](https://repo1.maven.org/maven2/ch/qos/reload4j/)
     - [reload4j](https://repo1.maven.org/maven2/ch/qos/reload4j/reload4j/) **[1.2.25](https://repo1.maven.org/maven2/ch/qos/reload4j/reload4j/1.2.25)**
  - [com.ethlo.time](https://repo1.maven.org/maven2/com/ethlo/time/)
@@ -99,7 +99,7 @@
  - [com.google.code.gson](https://repo1.maven.org/maven2/com/google/code/gson/)
     - [gson](https://repo1.maven.org/maven2/com/google/code/gson/gson/) **[2.10.1](https://repo1.maven.org/maven2/com/google/code/gson/gson/2.10.1)**
  - [com.google.errorprone](https://repo1.maven.org/maven2/com/google/errorprone/)
-    - [error_prone_annotations](https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/) **[2.24.1](https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.24.1)**
+    - [error_prone_annotations](https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/) **[2.25.0](https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.25.0)**
  - [com.google.guava](https://repo1.maven.org/maven2/com/google/guava/)
     - [failureaccess](https://repo1.maven.org/maven2/com/google/guava/failureaccess/) **[1.0.2](https://repo1.maven.org/maven2/com/google/guava/failureaccess/1.0.2)**
     - [guava](https://repo1.maven.org/maven2/com/google/guava/guava/) **[33.0.0-jre](https://repo1.maven.org/maven2/com/google/guava/guava/33.0.0-jre)**
@@ -209,8 +209,8 @@
  - [lpg.runtime](https://repo1.maven.org/maven2/lpg/runtime/)
     - [java](https://repo1.maven.org/maven2/lpg/runtime/java/) **[2.0.17-v201004271640](https://repo1.maven.org/maven2/lpg/runtime/java/2.0.17-v201004271640)**
  - [net.bytebuddy](https://repo1.maven.org/maven2/net/bytebuddy/)
-    - [byte-buddy](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/) **[1.14.11](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.14.11)**
-    - [byte-buddy-agent](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/) **[1.14.11](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.14.11)**
+    - [byte-buddy](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/) **[1.14.12](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.14.12)**
+    - [byte-buddy-agent](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/) **[1.14.12](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.14.12)**
  - [net.i2p.crypto](https://repo1.maven.org/maven2/net/i2p/crypto/)
     - [eddsa](https://repo1.maven.org/maven2/net/i2p/crypto/eddsa/) **[0.3.0](https://repo1.maven.org/maven2/net/i2p/crypto/eddsa/0.3.0)**
  - [net.java.dev.jna](https://repo1.maven.org/maven2/net/java/dev/jna/)
@@ -238,8 +238,8 @@
  - [org.apache.logging.log4j](https://repo1.maven.org/maven2/org/apache/logging/log4j/)
     - [log4j-api](https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/) **[2.22.1](https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.22.1)**
  - [org.apache.sshd](https://repo1.maven.org/maven2/org/apache/sshd/)
-    - [sshd-osgi](https://repo1.maven.org/maven2/org/apache/sshd/sshd-osgi/) **[2.12.0](https://repo1.maven.org/maven2/org/apache/sshd/sshd-osgi/2.12.0)**
-    - [sshd-sftp](https://repo1.maven.org/maven2/org/apache/sshd/sshd-sftp/) **[2.12.0](https://repo1.maven.org/maven2/org/apache/sshd/sshd-sftp/2.12.0)**
+    - [sshd-osgi](https://repo1.maven.org/maven2/org/apache/sshd/sshd-osgi/) **[2.12.1](https://repo1.maven.org/maven2/org/apache/sshd/sshd-osgi/2.12.1)**
+    - [sshd-sftp](https://repo1.maven.org/maven2/org/apache/sshd/sshd-sftp/) **[2.12.1](https://repo1.maven.org/maven2/org/apache/sshd/sshd-sftp/2.12.1)**
  - [org.apache.velocity](https://repo1.maven.org/maven2/org/apache/velocity/)
     - [velocity](https://repo1.maven.org/maven2/org/apache/velocity/velocity/) **[1.7](https://repo1.maven.org/maven2/org/apache/velocity/velocity/1.7)**
  - [org.apiguardian](https://repo1.maven.org/maven2/org/apiguardian/)
