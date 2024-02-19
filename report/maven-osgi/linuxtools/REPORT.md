@@ -7,6 +7,8 @@
     - [jnr-ffi](https://repo1.maven.org/maven2/com/github/jnr/jnr-ffi/) **[2.2.15](https://repo1.maven.org/maven2/com/github/jnr/jnr-ffi/2.2.15)** < [2.2.16](https://repo1.maven.org/maven2/com/github/jnr/jnr-ffi/2.2.16/)
     - [jnr-posix](https://repo1.maven.org/maven2/com/github/jnr/jnr-posix/) **[3.1.18](https://repo1.maven.org/maven2/com/github/jnr/jnr-posix/3.1.18)** < [3.1.19](https://repo1.maven.org/maven2/com/github/jnr/jnr-posix/3.1.19/)
     - [jnr-unixsocket](https://repo1.maven.org/maven2/com/github/jnr/jnr-unixsocket/) **[0.38.21](https://repo1.maven.org/maven2/com/github/jnr/jnr-unixsocket/0.38.21)** < [0.38.22](https://repo1.maven.org/maven2/com/github/jnr/jnr-unixsocket/0.38.22/)
+ - [org.apache.commons](https://repo1.maven.org/maven2/org/apache/commons/)
+    - [commons-compress](https://repo1.maven.org/maven2/org/apache/commons/commons-compress/) **[1.25.0](https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.25.0)** < [1.26.0](https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.26.0/)
 
 ## Major Updates
  - [jakarta.ws.rs](https://repo1.maven.org/maven2/jakarta/ws/rs/)

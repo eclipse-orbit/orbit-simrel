@@ -1,6 +1,8 @@
 # Target Platform: [supplement](https://raw.githubusercontent.com/eclipse-orbit/orbit-simrel/main/maven-osgi/tp/other/MavenSupplement.target)
 
 ## Major Updates
+ - [com.github.librepdf](https://repo1.maven.org/maven2/com/github/librepdf/)
+    - [openpdf](https://repo1.maven.org/maven2/com/github/librepdf/openpdf/) **[1.3.40](https://repo1.maven.org/maven2/com/github/librepdf/openpdf/1.3.40)** < [2.0.0](https://repo1.maven.org/maven2/com/github/librepdf/openpdf/2.0.0/)
  - [com.sun.xml.bind](https://repo1.maven.org/maven2/com/sun/xml/bind/)
     - [jaxb-osgi](https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-osgi/) **[2.3.9](https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-osgi/2.3.9)** < [4.0.4](https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-osgi/4.0.4/)
  - [jakarta.ejb](https://repo1.maven.org/maven2/jakarta/ejb/)

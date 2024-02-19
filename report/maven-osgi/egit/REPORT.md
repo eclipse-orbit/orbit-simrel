@@ -8,6 +8,8 @@
  - [net.bytebuddy](https://repo1.maven.org/maven2/net/bytebuddy/)
     - [byte-buddy](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/) **[1.14.10](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.14.10)** < [1.14.12](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.14.12/)
     - [byte-buddy-agent](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/) **[1.14.10](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.14.10)** < [1.14.12](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.14.12/)
+ - [org.apache.commons](https://repo1.maven.org/maven2/org/apache/commons/)
+    - [commons-compress](https://repo1.maven.org/maven2/org/apache/commons/commons-compress/) **[1.25.0](https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.25.0)** < [1.26.0](https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.26.0/)
  - [org.apache.sshd](https://repo1.maven.org/maven2/org/apache/sshd/)
     - [sshd-osgi](https://repo1.maven.org/maven2/org/apache/sshd/sshd-osgi/) **[2.12.0](https://repo1.maven.org/maven2/org/apache/sshd/sshd-osgi/2.12.0)** < [2.12.1](https://repo1.maven.org/maven2/org/apache/sshd/sshd-osgi/2.12.1/)
     - [sshd-sftp](https://repo1.maven.org/maven2/org/apache/sshd/sshd-sftp/) **[2.12.0](https://repo1.maven.org/maven2/org/apache/sshd/sshd-sftp/2.12.0)** < [2.12.1](https://repo1.maven.org/maven2/org/apache/sshd/sshd-sftp/2.12.1/)
