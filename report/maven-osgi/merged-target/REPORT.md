@@ -2,7 +2,7 @@
 
 ## Major Updates
  - [com.github.librepdf](https://repo1.maven.org/maven2/com/github/librepdf/)
-    - [openpdf](https://repo1.maven.org/maven2/com/github/librepdf/openpdf/) **[1.3.40](https://repo1.maven.org/maven2/com/github/librepdf/openpdf/1.3.40)** < [2.0.0](https://repo1.maven.org/maven2/com/github/librepdf/openpdf/2.0.0/)
+    - [openpdf](https://repo1.maven.org/maven2/com/github/librepdf/openpdf/) **[1.4.1](https://repo1.maven.org/maven2/com/github/librepdf/openpdf/1.4.1)** < [2.0.0](https://repo1.maven.org/maven2/com/github/librepdf/openpdf/2.0.0/)
  - [jakarta.ejb](https://repo1.maven.org/maven2/jakarta/ejb/)
     - [jakarta.ejb-api](https://repo1.maven.org/maven2/jakarta/ejb/jakarta.ejb-api/) **[3.2.6](https://repo1.maven.org/maven2/jakarta/ejb/jakarta.ejb-api/3.2.6)** < [4.0.1](https://repo1.maven.org/maven2/jakarta/ejb/jakarta.ejb-api/4.0.1/)
  - [jakarta.jws](https://repo1.maven.org/maven2/jakarta/jws/)
@@ -93,7 +93,7 @@
     - [jnr-posix](https://repo1.maven.org/maven2/com/github/jnr/jnr-posix/) **[3.1.19](https://repo1.maven.org/maven2/com/github/jnr/jnr-posix/3.1.19)**
     - [jnr-unixsocket](https://repo1.maven.org/maven2/com/github/jnr/jnr-unixsocket/) **[0.38.22](https://repo1.maven.org/maven2/com/github/jnr/jnr-unixsocket/0.38.22)**
  - [com.github.librepdf](https://repo1.maven.org/maven2/com/github/librepdf/)
-    - [openpdf](https://repo1.maven.org/maven2/com/github/librepdf/openpdf/) **[1.3.40](https://repo1.maven.org/maven2/com/github/librepdf/openpdf/1.3.40)**
+    - [openpdf](https://repo1.maven.org/maven2/com/github/librepdf/openpdf/) **[1.4.1](https://repo1.maven.org/maven2/com/github/librepdf/openpdf/1.4.1)**
  - [com.github.oshi](https://repo1.maven.org/maven2/com/github/oshi/)
     - [oshi-core](https://repo1.maven.org/maven2/com/github/oshi/oshi-core/) **[6.4.12](https://repo1.maven.org/maven2/com/github/oshi/oshi-core/6.4.12)**
  - [com.glazedlists](https://repo1.maven.org/maven2/com/glazedlists/)
