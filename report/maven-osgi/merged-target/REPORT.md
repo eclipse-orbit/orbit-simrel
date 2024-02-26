@@ -314,7 +314,7 @@
     - [junit-vintage-engine](https://repo1.maven.org/maven2/org/junit/vintage/junit-vintage-engine/) **[5.10.2](https://repo1.maven.org/maven2/org/junit/vintage/junit-vintage-engine/5.10.2)**
  - [org.mandas](https://repo1.maven.org/maven2/org/mandas/)
     - [docker-client](https://repo1.maven.org/maven2/org/mandas/docker-client/) **[5.2.2](https://repo1.maven.org/maven2/org/mandas/docker-client/5.2.2)**
-    - [docker-client](https://repo1.maven.org/maven2/org/mandas/docker-client/) **[7.0.7](https://repo1.maven.org/maven2/org/mandas/docker-client/7.0.7)**
+    - [docker-client](https://repo1.maven.org/maven2/org/mandas/docker-client/) **[7.0.8](https://repo1.maven.org/maven2/org/mandas/docker-client/7.0.8)**
  - [org.mockito](https://repo1.maven.org/maven2/org/mockito/)
     - [mockito-core](https://repo1.maven.org/maven2/org/mockito/mockito-core/) **[5.10.0](https://repo1.maven.org/maven2/org/mockito/mockito-core/5.10.0)**
     - [mockito-junit-jupiter](https://repo1.maven.org/maven2/org/mockito/mockito-junit-jupiter/) **[5.10.0](https://repo1.maven.org/maven2/org/mockito/mockito-junit-jupiter/5.10.0)**

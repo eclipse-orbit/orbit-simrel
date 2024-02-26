@@ -1,8 +1,15 @@
 # Target Platform: [linuxtools](https://raw.githubusercontent.com/eclipse-linuxtools/org.eclipse.linuxtools/master/releng/org.eclipse.linuxtools.target/linuxtools-e4.31.target)
 
+## Minor Updates
+ - [org.mandas](https://repo1.maven.org/maven2/org/mandas/)
+    - [docker-client](https://repo1.maven.org/maven2/org/mandas/docker-client/) **[7.0.7](https://repo1.maven.org/maven2/org/mandas/docker-client/7.0.7)** < [7.0.8](https://repo1.maven.org/maven2/org/mandas/docker-client/7.0.8/)
+
 ## Major Updates
  - [org.glassfish.hk2](https://repo1.maven.org/maven2/org/glassfish/hk2/)
     - [osgi-resource-locator](https://repo1.maven.org/maven2/org/glassfish/hk2/osgi-resource-locator/) **[1.0.3](https://repo1.maven.org/maven2/org/glassfish/hk2/osgi-resource-locator/1.0.3)** < [2.4.0](https://repo1.maven.org/maven2/org/glassfish/hk2/osgi-resource-locator/2.4.0/)
+
+## Updates Applied
+[updated.target](updated.target)
 
 ## Content
  - [com.fasterxml.jackson.core](https://repo1.maven.org/maven2/com/fasterxml/jackson/core/)
