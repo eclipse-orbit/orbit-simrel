@@ -3,3 +3,4 @@ bin/
 target/
 updates/
 *.swp
+*/tp/extras/**
