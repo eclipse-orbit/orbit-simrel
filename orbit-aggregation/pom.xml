@@ -205,7 +205,7 @@
                     -nosplash
                     ${org.eclipse.justj.p2.manager.args}
                     -retain 5
-                    -summary 3
+                    -summary 4
                     -label "Orbit Aggregation"
                     -build-url
                     ${org.eclipse.justj.p2.manager.build.url}
