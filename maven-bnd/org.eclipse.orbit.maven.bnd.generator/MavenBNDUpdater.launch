@@ -17,6 +17,6 @@
     <booleanAttribute key="org.eclipse.jdt.launching.ATTR_USE_CLASSPATH_ONLY_JAR" value="false"/>
     <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="org.eclipse.orbit.maven.bnd.generator.Analyzer"/>
     <stringAttribute key="org.eclipse.jdt.launching.MODULE_NAME" value="org.eclipse.orbit.maven.bnd.generator"/>
-    <stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="-version 4.31.0&#13;&#10;-target ${resource_loc:/org.eclipse.orbit.simrel/maven-bnd/tp/MavenBND.target}&#13;&#10;-category  ${resource_loc:/org.eclipse.orbit.simrel/maven-bnd/site/category.xml}&#13;&#10;-category-minimal  ${resource_loc:/org.eclipse.orbit.simrel/maven-bnd/site-minimal/category.xml}&#13;&#10;-verbose"/>
+    <stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="-version 4.32.0&#13;&#10;-target ${resource_loc:/org.eclipse.orbit.simrel/maven-bnd/tp/MavenBND.target}&#13;&#10;-category  ${resource_loc:/org.eclipse.orbit.simrel/maven-bnd/site/category.xml}&#13;&#10;-category-minimal  ${resource_loc:/org.eclipse.orbit.simrel/maven-bnd/site-minimal/category.xml}&#13;&#10;-verbose"/>
     <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="org.eclipse.orbit.maven.bnd.generator"/>
 </launchConfiguration>
