@@ -4,7 +4,7 @@
     <locations>
         <location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="planner" includeSource="true" type="InstallableUnit">
             <unit id="org.eclipse.buildship.feature.group" version="0.0.0"/>
-            <repository location="https://download.eclipse.org/buildship/updates/e427/releases/3.x/3.1.8.v20231117-1658"/>
+            <repository location="https://download.eclipse.org/buildship/updates/latest-snapshot/"/>
         </location>
         <location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="planner" includeSource="true" type="InstallableUnit">
             <unit id="org.eclipse.m2e.jdt" version="0.0.0"/>
@@ -25,7 +25,7 @@
             <unit id="org.mockito.mockito-core" version="0.0.0"/>
             <unit id="org.apache.commons.commons-io" version="0.0.0"/>
             <unit id="org.eclipse.jdt.apt.pluggable.core" version="0.0.0"/>
-            <repository location="https://download.eclipse.org/eclipse/updates/4.31-I-builds/I20240207-1800/"/>
+            <repository location="https://download.eclipse.org/eclipse/updates/4.31-I-builds/I20240227-1800/"/>
         </location>
         <location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="planner" includeSource="true" type="InstallableUnit">
             <unit id="org.eclipse.jdt.core.compiler.batch" version="0.0.0"/>
