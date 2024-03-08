@@ -124,7 +124,7 @@
     - [commons-logging](https://repo1.maven.org/maven2/commons-logging/commons-logging/) **[1.2](https://repo1.maven.org/maven2/commons-logging/commons-logging/1.2)**
     - [commons-logging](https://repo1.maven.org/maven2/commons-logging/commons-logging/) **[1.3.0](https://repo1.maven.org/maven2/commons-logging/commons-logging/1.3.0)**
  - [io.github.classgraph](https://repo1.maven.org/maven2/io/github/classgraph/)
-    - [classgraph](https://repo1.maven.org/maven2/io/github/classgraph/classgraph/) **[4.8.167](https://repo1.maven.org/maven2/io/github/classgraph/classgraph/4.8.167)**
+    - [classgraph](https://repo1.maven.org/maven2/io/github/classgraph/classgraph/) **[4.8.168](https://repo1.maven.org/maven2/io/github/classgraph/classgraph/4.8.168)**
  - [io.github.toolfactory](https://repo1.maven.org/maven2/io/github/toolfactory/)
     - [jvm-driver](https://repo1.maven.org/maven2/io/github/toolfactory/jvm-driver/) **[9.6.0](https://repo1.maven.org/maven2/io/github/toolfactory/jvm-driver/9.6.0)**
     - [narcissus](https://repo1.maven.org/maven2/io/github/toolfactory/narcissus/) **[1.0.7](https://repo1.maven.org/maven2/io/github/toolfactory/narcissus/1.0.7)**

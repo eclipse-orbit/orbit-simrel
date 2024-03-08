@@ -3,7 +3,7 @@
 <target name="Maven" sequenceNumber="1">
   <locations>
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="error" type="Maven">
-      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.32.0.v20240307-1000">
+      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.32.0.v20240308-0800">
         <description>This feature's dependencies are pulled directly from Maven central.</description>
         <copyright>
 Copyright (c) 2024 Eclipse contributors and others.
@@ -16,7 +16,7 @@ https://www.eclipse.org/legal/epl-2.0/
 SPDX-License-Identifier: EPL-2.0
         </copyright>
         <license url="https://www.eclipse.org/legal/epl-2.0/"/>
-        <!-- SHA1 104c97fec502a7693fe2dae93f556d77d43ae134 -->
+        <!-- SHA1 24d611e8ec7b07a24b367ea09dc131106943cb16 -->
       </feature>
       <dependencies>
         <dependency>
@@ -377,7 +377,7 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>io.github.classgraph</groupId>
           <artifactId>classgraph</artifactId>
-          <version>4.8.167</version>
+          <version>4.8.168</version>
           <type>jar</type>
         </dependency>
         <dependency>
