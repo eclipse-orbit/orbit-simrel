@@ -5,6 +5,8 @@
     - [args4j](https://repo1.maven.org/maven2/args4j/args4j/) **[2.33](https://repo1.maven.org/maven2/args4j/args4j/2.33)** < [2.37](https://repo1.maven.org/maven2/args4j/args4j/2.37/)
  - [commons-codec](https://repo1.maven.org/maven2/commons-codec/)
     - [commons-codec](https://repo1.maven.org/maven2/commons-codec/commons-codec/) **[1.16.0](https://repo1.maven.org/maven2/commons-codec/commons-codec/1.16.0)** < [1.16.1](https://repo1.maven.org/maven2/commons-codec/commons-codec/1.16.1/)
+ - [org.apache.commons](https://repo1.maven.org/maven2/org/apache/commons/)
+    - [commons-compress](https://repo1.maven.org/maven2/org/apache/commons/commons-compress/) **[1.26.0](https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.26.0)** < [1.26.1](https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.26.1/)
  - [org.apache.sshd](https://repo1.maven.org/maven2/org/apache/sshd/)
     - [sshd-osgi](https://repo1.maven.org/maven2/org/apache/sshd/sshd-osgi/) **[2.12.0](https://repo1.maven.org/maven2/org/apache/sshd/sshd-osgi/2.12.0)** < [2.12.1](https://repo1.maven.org/maven2/org/apache/sshd/sshd-osgi/2.12.1/)
     - [sshd-sftp](https://repo1.maven.org/maven2/org/apache/sshd/sshd-sftp/) **[2.12.0](https://repo1.maven.org/maven2/org/apache/sshd/sshd-sftp/2.12.0)** < [2.12.1](https://repo1.maven.org/maven2/org/apache/sshd/sshd-sftp/2.12.1/)

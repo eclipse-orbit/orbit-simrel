@@ -3,6 +3,8 @@
 ## Minor Updates
  - [jakarta.xml.bind](https://repo1.maven.org/maven2/jakarta/xml/bind/)
     - [jakarta.xml.bind-api](https://repo1.maven.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/) **[4.0.1](https://repo1.maven.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/4.0.1)** < [4.0.2](https://repo1.maven.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/4.0.2/)
+ - [org.apache.commons](https://repo1.maven.org/maven2/org/apache/commons/)
+    - [commons-compress](https://repo1.maven.org/maven2/org/apache/commons/commons-compress/) **[1.26.0](https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.26.0)** < [1.26.1](https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.26.1/)
  - [org.glassfish.hk2](https://repo1.maven.org/maven2/org/glassfish/hk2/)
     - [hk2-api](https://repo1.maven.org/maven2/org/glassfish/hk2/hk2-api/) **[3.0.6](https://repo1.maven.org/maven2/org/glassfish/hk2/hk2-api/3.0.6)** < [3.1.0](https://repo1.maven.org/maven2/org/glassfish/hk2/hk2-api/3.1.0/)
     - [hk2-locator](https://repo1.maven.org/maven2/org/glassfish/hk2/hk2-locator/) **[3.0.6](https://repo1.maven.org/maven2/org/glassfish/hk2/hk2-locator/3.0.6)** < [3.1.0](https://repo1.maven.org/maven2/org/glassfish/hk2/hk2-locator/3.1.0/)
