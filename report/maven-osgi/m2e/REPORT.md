@@ -3,6 +3,8 @@
 ## Minor Updates
  - [ch.qos.logback](https://repo1.maven.org/maven2/ch/qos/logback/)
     - [logback-classic](https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/) **[1.5.0](https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.5.0)** < [1.5.3](https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.5.3/)
+ - [com.google.guava](https://repo1.maven.org/maven2/com/google/guava/)
+    - [guava](https://repo1.maven.org/maven2/com/google/guava/guava/) **[33.0.0-jre](https://repo1.maven.org/maven2/com/google/guava/guava/33.0.0-jre)** < [33.1.0-jre](https://repo1.maven.org/maven2/com/google/guava/guava/33.1.0-jre/)
 
 ## Updates Applied
 [updated.target](updated.target)

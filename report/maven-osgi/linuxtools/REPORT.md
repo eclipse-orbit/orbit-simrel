@@ -10,6 +10,8 @@
  - [com.fasterxml.jackson.module](https://repo1.maven.org/maven2/com/fasterxml/jackson/module/)
     - [jackson-module-jakarta-xmlbind-annotations](https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-jakarta-xmlbind-annotations/) **[2.16.2](https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-jakarta-xmlbind-annotations/2.16.2)** < [2.17.0](https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-jakarta-xmlbind-annotations/2.17.0/)
     - [jackson-module-jaxb-annotations](https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/) **[2.16.2](https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.16.2)** < [2.17.0](https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.17.0/)
+ - [com.google.guava](https://repo1.maven.org/maven2/com/google/guava/)
+    - [guava](https://repo1.maven.org/maven2/com/google/guava/guava/) **[33.0.0-jre](https://repo1.maven.org/maven2/com/google/guava/guava/33.0.0-jre)** < [33.1.0-jre](https://repo1.maven.org/maven2/com/google/guava/guava/33.1.0-jre/)
 
 ## Major Updates
  - [org.glassfish.hk2](https://repo1.maven.org/maven2/org/glassfish/hk2/)

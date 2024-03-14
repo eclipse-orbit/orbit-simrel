@@ -86,7 +86,7 @@
     - [error_prone_annotations](https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/) **[2.26.1](https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.26.1)**
  - [com.google.guava](https://repo1.maven.org/maven2/com/google/guava/)
     - [failureaccess](https://repo1.maven.org/maven2/com/google/guava/failureaccess/) **[1.0.2](https://repo1.maven.org/maven2/com/google/guava/failureaccess/1.0.2)**
-    - [guava](https://repo1.maven.org/maven2/com/google/guava/guava/) **[33.0.0-jre](https://repo1.maven.org/maven2/com/google/guava/guava/33.0.0-jre)**
+    - [guava](https://repo1.maven.org/maven2/com/google/guava/guava/) **[33.1.0-jre](https://repo1.maven.org/maven2/com/google/guava/guava/33.1.0-jre)**
  - [com.google.inject](https://repo1.maven.org/maven2/com/google/inject/)
     - [guice](https://repo1.maven.org/maven2/com/google/inject/guice/) **[7.0.0](https://repo1.maven.org/maven2/com/google/inject/guice/7.0.0)**
  - [com.google.inject.extensions](https://repo1.maven.org/maven2/com/google/inject/extensions/)
@@ -327,7 +327,7 @@
  - [org.mozilla](https://repo1.maven.org/maven2/org/mozilla/)
     - [rhino](https://repo1.maven.org/maven2/org/mozilla/rhino/) **[1.7.14](https://repo1.maven.org/maven2/org/mozilla/rhino/1.7.14)**
  - [org.mvel](https://repo1.maven.org/maven2/org/mvel/)
-    - [mvel2](https://repo1.maven.org/maven2/org/mvel/mvel2/) **[2.5.1.Final](https://repo1.maven.org/maven2/org/mvel/mvel2/2.5.1.Final)**
+    - [mvel2](https://repo1.maven.org/maven2/org/mvel/mvel2/) **[2.5.2.Final](https://repo1.maven.org/maven2/org/mvel/mvel2/2.5.2.Final)**
  - [org.objenesis](https://repo1.maven.org/maven2/org/objenesis/)
     - [objenesis](https://repo1.maven.org/maven2/org/objenesis/objenesis/) **[3.3](https://repo1.maven.org/maven2/org/objenesis/objenesis/3.3)**
  - [org.opentest4j](https://repo1.maven.org/maven2/org/opentest4j/)
