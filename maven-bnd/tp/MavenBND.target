@@ -1275,7 +1275,7 @@ Automatic-Module-Name:  org.apache.ant
 <!-- ______________________________________________________ org.commonmark __________________________________________________________________________________________________-->
 
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
-      <feature id="org.eclipse.orbit.maven.org.commonmark" label="Orbit Maven BND org.commonmark" provider-name="Eclipse Orbit" version="4.32.0">
+      <feature id="org.eclipse.orbit.maven.org.commonmark" label="Orbit Maven BND org.commonmark" provider-name="Eclipse Orbit" version="4.32.0.v20240316-0700">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
 Copyright (c) 2024 Eclipse contributors and others.
@@ -1293,7 +1293,7 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>org.commonmark</groupId>
           <artifactId>commonmark</artifactId>
-          <version>0.21.0</version>
+          <version>0.22.0</version>
           <type>jar</type>
         </dependency>
 <!--
@@ -1307,61 +1307,61 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>org.commonmark</groupId>
           <artifactId>commonmark-ext-gfm-strikethrough</artifactId>
-          <version>0.21.0</version>
+          <version>0.22.0</version>
           <type>jar</type>
         </dependency>
 
         <dependency>
           <groupId>org.commonmark</groupId>
           <artifactId>commonmark-ext-gfm-tables</artifactId>
-          <version>0.21.0</version>
+          <version>0.22.0</version>
           <type>jar</type>
         </dependency>
 
         <dependency>
           <groupId>org.commonmark</groupId>
           <artifactId>commonmark-ext-heading-anchor</artifactId>
-          <version>0.21.0</version>
+          <version>0.22.0</version>
           <type>jar</type>
         </dependency>
 
         <dependency>
           <groupId>org.commonmark</groupId>
           <artifactId>commonmark-ext-image-attributes</artifactId>
-          <version>0.21.0</version>
+          <version>0.22.0</version>
           <type>jar</type>
         </dependency>
 
         <dependency>
           <groupId>org.commonmark</groupId>
           <artifactId>commonmark-ext-ins</artifactId>
-          <version>0.21.0</version>
+          <version>0.22.0</version>
           <type>jar</type>
         </dependency>
 
         <dependency>
           <groupId>org.commonmark</groupId>
           <artifactId>commonmark-ext-task-list-items</artifactId>
-          <version>0.21.0</version>
+          <version>0.22.0</version>
           <type>jar</type>
         </dependency>
 
         <dependency>
           <groupId>org.commonmark</groupId>
           <artifactId>commonmark-ext-yaml-front-matter</artifactId>
-          <version>0.21.0</version>
+          <version>0.22.0</version>
           <type>jar</type>
         </dependency>
       </dependencies>
 
       <instructions>
-<!-- SHA1 1efc13cb080619bbc0de621ac43672d51c0eb49d -->
+<!-- SHA1 a4da95afc94ba221e4a040b0a14226e4811eba11 -->
 <![CDATA[
 Bundle-Name:            Bundle ${mvnGroupId} : ${mvnArtifactId}
 version:                ${versionmask;===;${version_cleanup;${mvnVersion}}}
 name:                   ${replacestring;${mvnGroupId}.${mvnArtifactId};.commonmark.commonmark(-ext)?;.commonmark}
 Bundle-SymbolicName:    ${name}
-Bundle-Version:         ${version}.v20230927-1332
+Bundle-Version:         ${version}.v20240316-0700
 Automatic-Module-Name:  ${name}
 Eclipse-Wrapped-Bundle: ${mvnGroupId}:${mvnArtifactId}:${mvnVersion}
 Import-Package:         *

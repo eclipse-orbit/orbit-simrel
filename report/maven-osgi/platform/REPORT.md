@@ -72,8 +72,13 @@
  - [org.assertj](https://repo1.maven.org/maven2/org/assertj/)
     - [assertj-core](https://repo1.maven.org/maven2/org/assertj/assertj-core/) **[3.25.3](https://repo1.maven.org/maven2/org/assertj/assertj-core/3.25.3)**
  - [org.bndtools](https://repo1.maven.org/maven2/org/bndtools/)
+    - [bndtools.api](https://repo1.maven.org/maven2/org/bndtools/bndtools.api/) **[7.0.0](https://repo1.maven.org/maven2/org/bndtools/bndtools.api/7.0.0)**
+    - [org.bndtools.headless.build.manager](https://repo1.maven.org/maven2/org/bndtools/org.bndtools.headless.build.manager/) **[7.0.0](https://repo1.maven.org/maven2/org/bndtools/org.bndtools.headless.build.manager/7.0.0)**
+    - [org.bndtools.headless.build.plugin.gradle](https://repo1.maven.org/maven2/org/bndtools/org.bndtools.headless.build.plugin.gradle/) **[7.0.0](https://repo1.maven.org/maven2/org/bndtools/org.bndtools.headless.build.plugin.gradle/7.0.0)**
     - [org.bndtools.templates.template](https://repo1.maven.org/maven2/org/bndtools/org.bndtools.templates.template/) **[7.0.0](https://repo1.maven.org/maven2/org/bndtools/org.bndtools.templates.template/7.0.0)**
     - [org.bndtools.templating](https://repo1.maven.org/maven2/org/bndtools/org.bndtools.templating/) **[7.0.0](https://repo1.maven.org/maven2/org/bndtools/org.bndtools.templating/7.0.0)**
+    - [org.bndtools.versioncontrol.ignores.manager](https://repo1.maven.org/maven2/org/bndtools/org.bndtools.versioncontrol.ignores.manager/) **[7.0.0](https://repo1.maven.org/maven2/org/bndtools/org.bndtools.versioncontrol.ignores.manager/7.0.0)**
+    - [org.bndtools.versioncontrol.ignores.plugin.git](https://repo1.maven.org/maven2/org/bndtools/org.bndtools.versioncontrol.ignores.plugin.git/) **[7.0.0](https://repo1.maven.org/maven2/org/bndtools/org.bndtools.versioncontrol.ignores.plugin.git/7.0.0)**
  - [org.bouncycastle](https://repo1.maven.org/maven2/org/bouncycastle/)
     - [bcpg-jdk18on](https://repo1.maven.org/maven2/org/bouncycastle/bcpg-jdk18on/) **[1.77](https://repo1.maven.org/maven2/org/bouncycastle/bcpg-jdk18on/1.77)**
     - [bcprov-jdk18on](https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk18on/) **[1.77](https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk18on/1.77)**
@@ -125,6 +130,9 @@
  - [org.osgi](https://repo1.maven.org/maven2/org/osgi/)
     - [org.osgi.annotation.bundle](https://repo1.maven.org/maven2/org/osgi/org.osgi.annotation.bundle/) **[2.0.0](https://repo1.maven.org/maven2/org/osgi/org.osgi.annotation.bundle/2.0.0)**
     - [org.osgi.annotation.versioning](https://repo1.maven.org/maven2/org/osgi/org.osgi.annotation.versioning/) **[1.1.2](https://repo1.maven.org/maven2/org/osgi/org.osgi.annotation.versioning/1.1.2)**
+    - [org.osgi.namespace.contract](https://repo1.maven.org/maven2/org/osgi/org.osgi.namespace.contract/) **[1.0.0](https://repo1.maven.org/maven2/org/osgi/org.osgi.namespace.contract/1.0.0)**
+    - [org.osgi.namespace.extender](https://repo1.maven.org/maven2/org/osgi/org.osgi.namespace.extender/) **[1.0.1](https://repo1.maven.org/maven2/org/osgi/org.osgi.namespace.extender/1.0.1)**
+    - [org.osgi.namespace.service](https://repo1.maven.org/maven2/org/osgi/org.osgi.namespace.service/) **[1.0.0](https://repo1.maven.org/maven2/org/osgi/org.osgi.namespace.service/1.0.0)**
     - [org.osgi.service.cm](https://repo1.maven.org/maven2/org/osgi/org.osgi.service.cm/) **[1.6.1](https://repo1.maven.org/maven2/org/osgi/org.osgi.service.cm/1.6.1)**
     - [org.osgi.service.component](https://repo1.maven.org/maven2/org/osgi/org.osgi.service.component/) **[1.5.1](https://repo1.maven.org/maven2/org/osgi/org.osgi.service.component/1.5.1)**
     - [org.osgi.service.component.annotations](https://repo1.maven.org/maven2/org/osgi/org.osgi.service.component.annotations/) **[1.5.1](https://repo1.maven.org/maven2/org/osgi/org.osgi.service.component.annotations/1.5.1)**

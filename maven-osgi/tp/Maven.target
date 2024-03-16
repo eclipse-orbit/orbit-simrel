@@ -3,7 +3,7 @@
 <target name="Maven" sequenceNumber="1">
   <locations>
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="error" type="Maven">
-      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.32.0.v20240314-0900">
+      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.32.0.v20240316-0700">
         <description>This feature's dependencies are pulled directly from Maven central.</description>
         <copyright>
 Copyright (c) 2024 Eclipse contributors and others.
@@ -16,7 +16,7 @@ https://www.eclipse.org/legal/epl-2.0/
 SPDX-License-Identifier: EPL-2.0
         </copyright>
         <license url="https://www.eclipse.org/legal/epl-2.0/"/>
-        <!-- SHA1 16a2eb9525be06b15a12eaecd744033a959f5d62 -->
+        <!-- SHA1 44060bb31357b9ff260ff64d2132f1d4dcbc2dc9 -->
       </feature>
       <dependencies>
         <dependency>
@@ -790,6 +790,24 @@ SPDX-License-Identifier: EPL-2.0
         </dependency>
         <dependency>
           <groupId>org.bndtools</groupId>
+          <artifactId>bndtools.api</artifactId>
+          <version>7.0.0</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>org.bndtools</groupId>
+          <artifactId>org.bndtools.headless.build.manager</artifactId>
+          <version>7.0.0</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>org.bndtools</groupId>
+          <artifactId>org.bndtools.headless.build.plugin.gradle</artifactId>
+          <version>7.0.0</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>org.bndtools</groupId>
           <artifactId>org.bndtools.templates.template</artifactId>
           <version>7.0.0</version>
           <type>jar</type>
@@ -797,6 +815,18 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>org.bndtools</groupId>
           <artifactId>org.bndtools.templating</artifactId>
+          <version>7.0.0</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>org.bndtools</groupId>
+          <artifactId>org.bndtools.versioncontrol.ignores.manager</artifactId>
+          <version>7.0.0</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>org.bndtools</groupId>
+          <artifactId>org.bndtools.versioncontrol.ignores.plugin.git</artifactId>
           <version>7.0.0</version>
           <type>jar</type>
         </dependency>
@@ -1228,6 +1258,24 @@ SPDX-License-Identifier: EPL-2.0
         </dependency>
         <dependency>
           <groupId>org.osgi</groupId>
+          <artifactId>org.osgi.namespace.contract</artifactId>
+          <version>1.0.0</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>org.osgi</groupId>
+          <artifactId>org.osgi.namespace.extender</artifactId>
+          <version>1.0.1</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>org.osgi</groupId>
+          <artifactId>org.osgi.namespace.service</artifactId>
+          <version>1.0.0</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>org.osgi</groupId>
           <artifactId>org.osgi.resource</artifactId>
           <version>1.0.1</version>
           <type>jar</type>
@@ -1508,9 +1556,17 @@ SPDX-License-Identifier: EPL-2.0
     <location includeAllPlatforms="true" includeConfigurePhase="true" includeMode="slicer" includeSource="true" type="InstallableUnit">
       <repository location="https://download.eclipse.org/eclipse/updates/latest"/>
       <unit id="org.eclipse.jdt.core.compiler.batch" version="0.0.0"/>
+      <unit id="org.eclipse.core.contenttype" version="0.0.0"/>
+      <unit id="org.eclipse.core.expressions" version="0.0.0"/>
+      <unit id="org.eclipse.core.filesystem" version="0.0.0"/>
+      <unit id="org.eclipse.core.jobs" version="0.0.0"/>
+      <unit id="org.eclipse.core.resources" version="0.0.0"/>
       <unit id="org.eclipse.core.runtime" version="0.0.0"/>
       <unit id="org.eclipse.osgi" version="0.0.0"/>
+      <unit id="org.eclipse.equinox.app" version="0.0.0"/>
       <unit id="org.eclipse.equinox.common" version="0.0.0"/>
+      <unit id="org.eclipse.equinox.preferences" version="0.0.0"/>
+      <unit id="org.eclipse.equinox.registry" version="0.0.0"/>
     </location>
 
     <location includeAllPlatforms="true" includeConfigurePhase="true" includeMode="slicer" includeSource="true" type="InstallableUnit">
