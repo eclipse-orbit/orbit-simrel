@@ -84,7 +84,7 @@
  - [com.google.inject.extensions](https://repo1.maven.org/maven2/com/google/inject/extensions/)
     - [guice-assistedinject](https://repo1.maven.org/maven2/com/google/inject/extensions/guice-assistedinject/) **[7.0.0](https://repo1.maven.org/maven2/com/google/inject/extensions/guice-assistedinject/7.0.0)**
  - [com.networknt](https://repo1.maven.org/maven2/com/networknt/)
-    - [json-schema-validator](https://repo1.maven.org/maven2/com/networknt/json-schema-validator/) **[1.3.3](https://repo1.maven.org/maven2/com/networknt/json-schema-validator/1.3.3)**
+    - [json-schema-validator](https://repo1.maven.org/maven2/com/networknt/json-schema-validator/) **[1.4.0](https://repo1.maven.org/maven2/com/networknt/json-schema-validator/1.4.0)**
  - [com.sun.xml.bind](https://repo1.maven.org/maven2/com/sun/xml/bind/)
     - [jaxb-core](https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-core/) **[4.0.5](https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-core/4.0.5)**
     - [jaxb-impl](https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-impl/) **[4.0.5](https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-impl/4.0.5)**
