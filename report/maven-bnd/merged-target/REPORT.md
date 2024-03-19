@@ -15,7 +15,7 @@
  - [com.github.virtuald](https://repo1.maven.org/maven2/com/github/virtuald/)
     - [curvesapi](https://repo1.maven.org/maven2/com/github/virtuald/curvesapi/) **[1.8](https://repo1.maven.org/maven2/com/github/virtuald/curvesapi/1.8)**
  - [com.google.javascript](https://repo1.maven.org/maven2/com/google/javascript/)
-    - [closure-compiler](https://repo1.maven.org/maven2/com/google/javascript/closure-compiler/) **[v20231112](https://repo1.maven.org/maven2/com/google/javascript/closure-compiler/v20231112)**
+    - [closure-compiler](https://repo1.maven.org/maven2/com/google/javascript/closure-compiler/) **[v20240317](https://repo1.maven.org/maven2/com/google/javascript/closure-compiler/v20240317)**
  - [com.jcraft](https://repo1.maven.org/maven2/com/jcraft/)
     - [jsch](https://repo1.maven.org/maven2/com/jcraft/jsch/) **[0.1.55](https://repo1.maven.org/maven2/com/jcraft/jsch/0.1.55)**
     - [jzlib](https://repo1.maven.org/maven2/com/jcraft/jzlib/) **[1.1.3](https://repo1.maven.org/maven2/com/jcraft/jzlib/1.1.3)**
