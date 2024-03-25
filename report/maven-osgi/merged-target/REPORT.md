@@ -122,7 +122,7 @@
     - [commons-lang](https://repo1.maven.org/maven2/commons-lang/commons-lang/) **[2.6](https://repo1.maven.org/maven2/commons-lang/commons-lang/2.6)**
  - [commons-logging](https://repo1.maven.org/maven2/commons-logging/)
     - [commons-logging](https://repo1.maven.org/maven2/commons-logging/commons-logging/) **[1.2](https://repo1.maven.org/maven2/commons-logging/commons-logging/1.2)**
-    - [commons-logging](https://repo1.maven.org/maven2/commons-logging/commons-logging/) **[1.3.0](https://repo1.maven.org/maven2/commons-logging/commons-logging/1.3.0)**
+    - [commons-logging](https://repo1.maven.org/maven2/commons-logging/commons-logging/) **[1.3.1](https://repo1.maven.org/maven2/commons-logging/commons-logging/1.3.1)**
  - [io.github.classgraph](https://repo1.maven.org/maven2/io/github/classgraph/)
     - [classgraph](https://repo1.maven.org/maven2/io/github/classgraph/classgraph/) **[4.8.168](https://repo1.maven.org/maven2/io/github/classgraph/classgraph/4.8.168)**
  - [io.github.toolfactory](https://repo1.maven.org/maven2/io/github/toolfactory/)
