@@ -2023,6 +2023,96 @@ Export-Package:         *;version="${version}"
     </location>
 
 
+<!-- _____________________________________________________ com.jgoodies.common ___________________________________________________________________________________________________-->
+
+    <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
+      <feature id="org.eclipse.orbit.maven.com.jgoodies.common" label="Orbit Maven BND com.jgoodies.common" provider-name="Eclipse Orbit" version="4.32.0.v20240327-0800">
+        <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
+        <copyright>
+Copyright (c) 2024 Eclipse contributors and others.
+
+This program and the accompanying materials
+are made available under the terms of the Eclipse Public License 2.0
+which accompanies this distribution, and is available at
+https://www.eclipse.org/legal/epl-2.0/
+
+SPDX-License-Identifier: EPL-2.0
+        </copyright>
+        <license url="https://www.eclipse.org/legal/epl-2.0/"/>
+      </feature>
+      <dependencies>
+        <dependency>
+          <groupId>com.jgoodies</groupId>
+          <artifactId>jgoodies-common</artifactId>
+          <version>1.8.1</version>
+          <type>jar</type>
+        </dependency>
+      </dependencies>
+      <instructions>
+<!-- SHA1 c1e43c6736f492a1de45f36b6ca26e0ac614db51 -->
+<![CDATA[
+Bundle-Name:            Bundle ${mvnGroupId} : ${mvnArtifactId}
+version:                ${versionmask;===;${version_cleanup;${mvnVersion}}}
+name:                   ${mvnGroupId}.${replacestring;${mvnArtifactId};jgoodies-}
+Bundle-SymbolicName:    ${name}
+Bundle-Version:         ${version}.v20240327-0800
+Automatic-Module-Name:  ${name}
+Eclipse-Wrapped-Bundle: ${mvnGroupId}:${mvnArtifactId}:${mvnVersion}
+Import-Package:         com.sun.awt|sun.*;resolution:=optional,\
+                        *
+Export-Package:         *;version="${version}";-noimport:=true
+-noextraheaders:        true
+-removeheaders:         Private-Package
+]]>
+      </instructions>
+    </location>
+
+
+<!-- _____________________________________________________ com.jgoodies.forms ___________________________________________________________________________________________________-->
+
+    <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
+      <feature id="org.eclipse.orbit.maven.com.jgoodies.forms" label="Orbit Maven BND com.jgoodies.forms" provider-name="Eclipse Orbit" version="4.32.0.v20240327-0800">
+        <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
+        <copyright>
+Copyright (c) 2024 Eclipse contributors and others.
+
+This program and the accompanying materials
+are made available under the terms of the Eclipse Public License 2.0
+which accompanies this distribution, and is available at
+https://www.eclipse.org/legal/epl-2.0/
+
+SPDX-License-Identifier: EPL-2.0
+        </copyright>
+        <license url="https://www.eclipse.org/legal/epl-2.0/"/>
+      </feature>
+      <dependencies>
+        <dependency>
+          <groupId>com.jgoodies</groupId>
+          <artifactId>jgoodies-forms</artifactId>
+          <version>1.9.0</version>
+          <type>jar</type>
+        </dependency>
+      </dependencies>
+      <instructions>
+<!-- SHA1 ee36352016efc6e0edd37636867143ec9db1dbbf -->
+<![CDATA[
+Bundle-Name:            Bundle ${mvnGroupId} : ${mvnArtifactId}
+version:                ${versionmask;===;${version_cleanup;${mvnVersion}}}
+name:                   ${mvnGroupId}.${replacestring;${mvnArtifactId};jgoodies-}
+Bundle-SymbolicName:    ${name}
+Bundle-Version:         ${version}.v20240327-0800
+Automatic-Module-Name:  ${name}
+Eclipse-Wrapped-Bundle: ${mvnGroupId}:${mvnArtifactId}:${mvnVersion}
+Import-Package:         com.jgoodies.jsdl.*;resolution:=optional,\
+                        *
+Export-Package:         *;version="${version}";-noimport:=true
+-noextraheaders:        true
+-removeheaders:         Private-Package
+]]>
+      </instructions>
+    </location>
+
+
 <!-- ______________________________________________________ EXCLUDE __________________________________________________________________________________________________-->
 
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">

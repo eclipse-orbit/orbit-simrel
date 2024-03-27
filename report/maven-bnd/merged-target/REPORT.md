@@ -19,6 +19,9 @@
  - [com.jcraft](https://repo1.maven.org/maven2/com/jcraft/)
     - [jsch](https://repo1.maven.org/maven2/com/jcraft/jsch/) **[0.1.55](https://repo1.maven.org/maven2/com/jcraft/jsch/0.1.55)**
     - [jzlib](https://repo1.maven.org/maven2/com/jcraft/jzlib/) **[1.1.3](https://repo1.maven.org/maven2/com/jcraft/jzlib/1.1.3)**
+ - [com.jgoodies](https://repo1.maven.org/maven2/com/jgoodies/)
+    - [jgoodies-common](https://repo1.maven.org/maven2/com/jgoodies/jgoodies-common/) **[1.8.1](https://repo1.maven.org/maven2/com/jgoodies/jgoodies-common/1.8.1)**
+    - [jgoodies-forms](https://repo1.maven.org/maven2/com/jgoodies/jgoodies-forms/) **[1.9.0](https://repo1.maven.org/maven2/com/jgoodies/jgoodies-forms/1.9.0)**
  - [com.konghq](https://repo1.maven.org/maven2/com/konghq/)
     - [unirest-java](https://repo1.maven.org/maven2/com/konghq/unirest-java/) **[3.14.5](https://repo1.maven.org/maven2/com/konghq/unirest-java/3.14.5)**
  - [com.zaxxer](https://repo1.maven.org/maven2/com/zaxxer/)

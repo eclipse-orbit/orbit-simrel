@@ -12,6 +12,10 @@
    <feature id="org.eclipse.orbit.maven.com.jcraft.jsch.source"/>
    <feature id="org.eclipse.orbit.maven.com.jcraft.jzlib"/>
    <feature id="org.eclipse.orbit.maven.com.jcraft.jzlib.source"/>
+   <feature id="org.eclipse.orbit.maven.com.jgoodies.common"/>
+   <feature id="org.eclipse.orbit.maven.com.jgoodies.common.source"/>
+   <feature id="org.eclipse.orbit.maven.com.jgoodies.forms"/>
+   <feature id="org.eclipse.orbit.maven.com.jgoodies.forms.source"/>
    <feature id="org.eclipse.orbit.maven.com.konghq"/>
    <feature id="org.eclipse.orbit.maven.com.konghq.source"/>
    <feature id="org.eclipse.orbit.maven.com.zaxxer"/>
