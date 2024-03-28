@@ -95,6 +95,9 @@
     - [JavaEWAH](https://repo1.maven.org/maven2/com/googlecode/javaewah/JavaEWAH/) **[1.2.3](https://repo1.maven.org/maven2/com/googlecode/javaewah/JavaEWAH/1.2.3)**
  - [com.ibm.icu](https://repo1.maven.org/maven2/com/ibm/icu/)
     - [icu4j](https://repo1.maven.org/maven2/com/ibm/icu/icu4j/) **[74.2](https://repo1.maven.org/maven2/com/ibm/icu/icu4j/74.2)**
+ - [com.miglayout](https://repo1.maven.org/maven2/com/miglayout/)
+    - [miglayout-core](https://repo1.maven.org/maven2/com/miglayout/miglayout-core/) **[11.3](https://repo1.maven.org/maven2/com/miglayout/miglayout-core/11.3)**
+    - [miglayout-swing](https://repo1.maven.org/maven2/com/miglayout/miglayout-swing/) **[11.3](https://repo1.maven.org/maven2/com/miglayout/miglayout-swing/11.3)**
  - [com.networknt](https://repo1.maven.org/maven2/com/networknt/)
     - [json-schema-validator](https://repo1.maven.org/maven2/com/networknt/json-schema-validator/) **[1.4.0](https://repo1.maven.org/maven2/com/networknt/json-schema-validator/1.4.0)**
  - [com.sun.xml.bind](https://repo1.maven.org/maven2/com/sun/xml/bind/)
