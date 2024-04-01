@@ -173,6 +173,12 @@
           <type>jar</type>
         </dependency>
         <dependency>
+          <groupId>dnsjava</groupId>
+          <artifactId>dnsjava</artifactId>
+          <version>3.5.3</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
           <groupId>io.github.classgraph</groupId>
           <artifactId>classgraph</artifactId>
           <version>4.8.168</version>

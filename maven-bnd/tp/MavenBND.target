@@ -733,6 +733,49 @@ Export-Package:         org.apache.axis;split=ant;mandatory:=split;version="${ve
     </location>
 
 
+<!-- _____________________________________________________ org.apache.commons.httpclient ___________________________________________________________________________________________________-->
+
+    <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
+      <feature id="org.eclipse.orbit.maven.org.apache.commons.httpclient" label="Orbit Maven BND org.apache.commons.httpclient" provider-name="Eclipse Orbit" version="4.32.0.v20240401-1000">
+        <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
+        <copyright>
+Copyright (c) 2024 Eclipse contributors and others.
+
+This program and the accompanying materials
+are made available under the terms of the Eclipse Public License 2.0
+which accompanies this distribution, and is available at
+https://www.eclipse.org/legal/epl-2.0/
+
+SPDX-License-Identifier: EPL-2.0
+        </copyright>
+        <license url="https://www.eclipse.org/legal/epl-2.0/"/>
+      </feature>
+      <dependencies>
+        <dependency>
+          <groupId>commons-httpclient</groupId>
+          <artifactId>commons-httpclient</artifactId>
+          <version>3.1</version>
+          <type>jar</type>
+        </dependency>
+      </dependencies>
+      <instructions>
+<!-- SHA1 fc529c569eca13306741de09f4aaed99651c81de -->
+<![CDATA[
+Bundle-Name:            Bundle ${mvnGroupId} : ${mvnArtifactId}
+version:                ${versionmask;===;${version_cleanup;${mvnVersion}}}
+Bundle-SymbolicName:    org.apache.commons.httpclient
+Bundle-Version:         ${version}.v20240401-1000
+Automatic-Module-Name:  org.apache.commons.httpclient
+Eclipse-Wrapped-Bundle: ${mvnGroupId}:${mvnArtifactId}:${mvnVersion}
+Import-Package:         *
+Export-Package:         *;version="${version}";-noimport:=true
+-noextraheaders:        true
+-removeheaders:         Private-Package
+]]>
+      </instructions>
+    </location>
+
+
 <!-- ______________________________________________________ org.apache.httpcomponents.core5 __________________________________________________________________________________________________-->
 
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
@@ -820,6 +863,51 @@ Eclipse-Wrapped-Bundle: ${mvnGroupId}:${mvnArtifactId}:${mvnVersion}
 Import-Package:         org.brotli.dec|org.conscrypt;resolution:=optional,\
                         org.slf4j.*;version=!,\
                         *
+Export-Package:         *;version="${version}";-noimport:=true
+-noextraheaders:        true
+-removeheaders:         Private-Package
+]]>
+      </instructions>
+    </location>
+
+
+<!-- ______________________________________________________ org.apache.httpcomponents.httpclient-win __________________________________________________________________________________________________-->
+
+    <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
+      <feature id="org.eclipse.orbit.maven.org.apache.httpcomponents.httpclient-win" label="Orbit Maven BND org.apache.httpcomponents.httpclient-win" provider-name="Eclipse Orbit" version="4.32.0.v20240401-1000">
+        <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
+        <copyright>
+Copyright (c) 2024 Eclipse contributors and others.
+
+This program and the accompanying materials
+are made available under the terms of the Eclipse Public License 2.0
+which accompanies this distribution, and is available at
+https://www.eclipse.org/legal/epl-2.0/
+
+SPDX-License-Identifier: EPL-2.0
+        </copyright>
+        <license url="https://www.eclipse.org/legal/epl-2.0/"/>
+      </feature>
+      <dependencies>
+        <dependency>
+          <groupId>org.apache.httpcomponents</groupId>
+          <artifactId>httpclient-win</artifactId>
+          <version>4.5.14</version>
+          <type>jar</type>
+        </dependency>
+      </dependencies>
+      <instructions>
+<!-- SHA1 a177a7297a9111f37858f3ad63a3d966a9bf7710 -->
+<![CDATA[
+Bundle-Name:            Bundle ${mvnGroupId} : ${mvnArtifactId}
+version:                ${versionmask;===;${version_cleanup;${mvnVersion}}}
+name:                   ${mvnGroupId}.${replacestring;${mvnArtifactId};-;.}
+Bundle-SymbolicName:    ${name}
+Bundle-Version:         ${version}.v20240401-1000
+Automatic-Module-Name:  ${name}
+Eclipse-Wrapped-Bundle: ${mvnGroupId}:${mvnArtifactId}:${mvnVersion}
+Eclipse-PlatformFilter: (|(osgi.os=win32)(org.eclipse.orbit.maven.bnd.buildtime=true))
+Import-Package:         *
 Export-Package:         *;version="${version}";-noimport:=true
 -noextraheaders:        true
 -removeheaders:         Private-Package

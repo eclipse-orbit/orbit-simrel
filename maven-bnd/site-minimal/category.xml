@@ -50,12 +50,16 @@
    <feature id="org.eclipse.orbit.maven.org.apache.axis.ant.source"/>
    <feature id="org.eclipse.orbit.maven.org.apache.batik"/>
    <feature id="org.eclipse.orbit.maven.org.apache.batik.source"/>
+   <feature id="org.eclipse.orbit.maven.org.apache.commons.httpclient"/>
+   <feature id="org.eclipse.orbit.maven.org.apache.commons.httpclient.source"/>
    <feature id="org.eclipse.orbit.maven.org.apache.httpcomponents.client5.httpclient5"/>
    <feature id="org.eclipse.orbit.maven.org.apache.httpcomponents.client5.httpclient5.source"/>
    <feature id="org.eclipse.orbit.maven.org.apache.httpcomponents.client5.httpclient5-win"/>
    <feature id="org.eclipse.orbit.maven.org.apache.httpcomponents.client5.httpclient5-win.source"/>
    <feature id="org.eclipse.orbit.maven.org.apache.httpcomponents.core5"/>
    <feature id="org.eclipse.orbit.maven.org.apache.httpcomponents.core5.source"/>
+   <feature id="org.eclipse.orbit.maven.org.apache.httpcomponents.httpclient-win"/>
+   <feature id="org.eclipse.orbit.maven.org.apache.httpcomponents.httpclient-win.source"/>
    <feature id="org.eclipse.orbit.maven.org.apache.poi"/>
    <feature id="org.eclipse.orbit.maven.org.apache.poi.source"/>
    <feature id="org.eclipse.orbit.maven.org.apache.ws.commons.util"/>

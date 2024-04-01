@@ -26,11 +26,15 @@
     - [unirest-java](https://repo1.maven.org/maven2/com/konghq/unirest-java/) **[3.14.5](https://repo1.maven.org/maven2/com/konghq/unirest-java/3.14.5)**
  - [com.zaxxer](https://repo1.maven.org/maven2/com/zaxxer/)
     - [SparseBitSet](https://repo1.maven.org/maven2/com/zaxxer/SparseBitSet/) **[1.3](https://repo1.maven.org/maven2/com/zaxxer/SparseBitSet/1.3)**
+ - [commons-httpclient](https://repo1.maven.org/maven2/commons-httpclient/)
+    - [commons-httpclient](https://repo1.maven.org/maven2/commons-httpclient/commons-httpclient/) **[3.1](https://repo1.maven.org/maven2/commons-httpclient/commons-httpclient/3.1)**
  - [junit](https://repo1.maven.org/maven2/junit/)
     - [junit](https://repo1.maven.org/maven2/junit/junit/) **[4.13.2](https://repo1.maven.org/maven2/junit/junit/4.13.2)**
  - [org.antlr](https://repo1.maven.org/maven2/org/antlr/)
     - [antlr-runtime](https://repo1.maven.org/maven2/org/antlr/antlr-runtime/) **[3.2](https://repo1.maven.org/maven2/org/antlr/antlr-runtime/3.2)**
     - [antlr-runtime](https://repo1.maven.org/maven2/org/antlr/antlr-runtime/) **[3.5.3](https://repo1.maven.org/maven2/org/antlr/antlr-runtime/3.5.3)**
+ - [org.apache.httpcomponents](https://repo1.maven.org/maven2/org/apache/httpcomponents/)
+    - [httpclient-win](https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient-win/) **[4.5.14](https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient-win/4.5.14)**
  - [org.apache.httpcomponents.client5](https://repo1.maven.org/maven2/org/apache/httpcomponents/client5/)
     - [httpclient5](https://repo1.maven.org/maven2/org/apache/httpcomponents/client5/httpclient5/) **[5.3.1](https://repo1.maven.org/maven2/org/apache/httpcomponents/client5/httpclient5/5.3.1)**
     - [httpclient5-win](https://repo1.maven.org/maven2/org/apache/httpcomponents/client5/httpclient5-win/) **[5.2.3](https://repo1.maven.org/maven2/org/apache/httpcomponents/client5/httpclient5-win/5.2.3)**
