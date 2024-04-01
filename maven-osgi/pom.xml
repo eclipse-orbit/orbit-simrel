@@ -9,9 +9,9 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <tycho-version>4.0.4</tycho-version>
+    <tycho-version>4.0.7</tycho-version>
     <gpg-keyname>C1F58CF8</gpg-keyname>
-    <eclipse.repo>https://download.eclipse.org/releases/2023-12</eclipse.repo>
+    <eclipse.repo>https://download.eclipse.org/releases/latest</eclipse.repo>
     <justj.tools.repo>https://download.eclipse.org/justj/tools/updates/nightly/latest</justj.tools.repo>
     <org.eclipse.storage.user>genie.orbit</org.eclipse.storage.user>
     <org.eclipse.justj.p2.manager.args>-remote ${org.eclipse.storage.user}@projects-storage.eclipse.org:/home/data/httpd/download.eclipse.org/tools/orbit</org.eclipse.justj.p2.manager.args>
