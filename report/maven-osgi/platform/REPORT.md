@@ -156,11 +156,11 @@
     - [org.osgi.util.pushstream](https://repo1.maven.org/maven2/org/osgi/org.osgi.util.pushstream/) **[1.1.0](https://repo1.maven.org/maven2/org/osgi/org.osgi.util.pushstream/1.1.0)**
     - [org.osgi.util.xml](https://repo1.maven.org/maven2/org/osgi/org.osgi.util.xml/) **[1.0.2](https://repo1.maven.org/maven2/org/osgi/org.osgi.util.xml/1.0.2)**
  - [org.ow2.asm](https://repo1.maven.org/maven2/org/ow2/asm/)
-    - [asm](https://repo1.maven.org/maven2/org/ow2/asm/asm/) **[9.6](https://repo1.maven.org/maven2/org/ow2/asm/asm/9.6)**
-    - [asm-analysis](https://repo1.maven.org/maven2/org/ow2/asm/asm-analysis/) **[9.6](https://repo1.maven.org/maven2/org/ow2/asm/asm-analysis/9.6)**
-    - [asm-commons](https://repo1.maven.org/maven2/org/ow2/asm/asm-commons/) **[9.6](https://repo1.maven.org/maven2/org/ow2/asm/asm-commons/9.6)**
-    - [asm-tree](https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/) **[9.6](https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/9.6)**
-    - [asm-util](https://repo1.maven.org/maven2/org/ow2/asm/asm-util/) **[9.6](https://repo1.maven.org/maven2/org/ow2/asm/asm-util/9.6)**
+    - [asm](https://repo1.maven.org/maven2/org/ow2/asm/asm/) **[9.7](https://repo1.maven.org/maven2/org/ow2/asm/asm/9.7)**
+    - [asm-analysis](https://repo1.maven.org/maven2/org/ow2/asm/asm-analysis/) **[9.7](https://repo1.maven.org/maven2/org/ow2/asm/asm-analysis/9.7)**
+    - [asm-commons](https://repo1.maven.org/maven2/org/ow2/asm/asm-commons/) **[9.7](https://repo1.maven.org/maven2/org/ow2/asm/asm-commons/9.7)**
+    - [asm-tree](https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/) **[9.7](https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/9.7)**
+    - [asm-util](https://repo1.maven.org/maven2/org/ow2/asm/asm-util/) **[9.7](https://repo1.maven.org/maven2/org/ow2/asm/asm-util/9.7)**
  - [org.ow2.sat4j](https://repo1.maven.org/maven2/org/ow2/sat4j/)
     - [org.ow2.sat4j.core](https://repo1.maven.org/maven2/org/ow2/sat4j/org.ow2.sat4j.core/) **[2.3.6](https://repo1.maven.org/maven2/org/ow2/sat4j/org.ow2.sat4j.core/2.3.6)**
     - [org.ow2.sat4j.pb](https://repo1.maven.org/maven2/org/ow2/sat4j/org.ow2.sat4j.pb/) **[2.3.6](https://repo1.maven.org/maven2/org/ow2/sat4j/org.ow2.sat4j.pb/2.3.6)**
