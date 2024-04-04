@@ -49,7 +49,7 @@
 
       <!-- This is the "normal" Orbit repository.
            This is the repo that is expected to be updated on milestones and releases based on Orbit deliveries. -->
-      <repository location="https://download.eclipse.org/tools/orbit/simrel/orbit-aggregation/release/4.31.0"/>
+      <repository location="https://download.eclipse.org/tools/orbit/simrel/orbit-aggregation/milestone/S202404031058"/>
     </location>
 
     <location includeAllPlatforms="true" includeMode="slicer" type="InstallableUnit">
@@ -230,25 +230,25 @@
 			  <dependency>
 				  <groupId>org.eclipse.jetty.ee8</groupId>
 				  <artifactId>jetty-ee8-apache-jsp</artifactId>
-				  <version>12.0.7</version>
+				  <version>12.0.8</version>
 				  <type>jar</type>
 			  </dependency>
 			  <dependency>
 				  <groupId>org.eclipse.jetty.ee8</groupId>
 				  <artifactId>jetty-ee8-nested</artifactId>
-				  <version>12.0.7</version>
+				  <version>12.0.8</version>
 				  <type>jar</type>
 			  </dependency>
 			  <dependency>
 				  <groupId>org.eclipse.jetty.ee8</groupId>
 				  <artifactId>jetty-ee8-security</artifactId>
-				  <version>12.0.7</version>
+				  <version>12.0.8</version>
 				  <type>jar</type>
 			  </dependency>
 			  <dependency>
 				  <groupId>org.eclipse.jetty.ee8</groupId>
 				  <artifactId>jetty-ee8-servlet</artifactId>
-				  <version>12.0.7</version>
+				  <version>12.0.8</version>
 				  <type>jar</type>
 			  </dependency>
 			  <dependency>
@@ -260,43 +260,43 @@
 			  <dependency>
 				  <groupId>org.eclipse.jetty</groupId>
 				  <artifactId>jetty-http</artifactId>
-				  <version>12.0.7</version>
+				  <version>12.0.8</version>
 				  <type>jar</type>
 			  </dependency>
 			  <dependency>
 				  <groupId>org.eclipse.jetty</groupId>
 				  <artifactId>jetty-io</artifactId>
-				  <version>12.0.7</version>
+				  <version>12.0.8</version>
 				  <type>jar</type>
 			  </dependency>
 			  <dependency>
 				  <groupId>org.eclipse.jetty</groupId>
 				  <artifactId>jetty-security</artifactId>
-				  <version>12.0.7</version>
+				  <version>12.0.8</version>
 				  <type>jar</type>
 			  </dependency>
 			  <dependency>
 				  <groupId>org.eclipse.jetty</groupId>
 				  <artifactId>jetty-server</artifactId>
-				  <version>12.0.7</version>
+				  <version>12.0.8</version>
 				  <type>jar</type>
 			  </dependency>
 			  <dependency>
 				  <groupId>org.eclipse.jetty</groupId>
 				  <artifactId>jetty-session</artifactId>
-				  <version>12.0.7</version>
+				  <version>12.0.8</version>
 				  <type>jar</type>
 			  </dependency>
 			  <dependency>
 				  <groupId>org.eclipse.jetty</groupId>
 				  <artifactId>jetty-util-ajax</artifactId>
-				  <version>12.0.7</version>
+				  <version>12.0.8</version>
 				  <type>jar</type>
 			  </dependency>
 			  <dependency>
 				  <groupId>org.eclipse.jetty</groupId>
 				  <artifactId>jetty-util</artifactId>
-				  <version>12.0.7</version>
+				  <version>12.0.8</version>
 				  <type>jar</type>
 			  </dependency>
 			  <dependency>
@@ -633,6 +633,11 @@
 				  <version>7.0.0</version>
 				  <type>jar</type>
 			  </dependency>
+			<dependency>
+			    <groupId>org.bndtools</groupId>
+			    <artifactId>bndtools.jareditor</artifactId>
+			    <version>7.0.0</version>
+			</dependency>
 		  </dependencies>
 	  </location>
 	  <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" label="Apache Felix" missingManifest="error" type="Maven">
