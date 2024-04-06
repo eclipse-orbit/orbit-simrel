@@ -16,6 +16,11 @@
  - [org.apache.sshd](https://repo1.maven.org/maven2/org/apache/sshd/)
     - [sshd-osgi](https://repo1.maven.org/maven2/org/apache/sshd/sshd-osgi/) **[2.12.0](https://repo1.maven.org/maven2/org/apache/sshd/sshd-osgi/2.12.0)** < [2.12.1](https://repo1.maven.org/maven2/org/apache/sshd/sshd-osgi/2.12.1/)
     - [sshd-sftp](https://repo1.maven.org/maven2/org/apache/sshd/sshd-sftp/) **[2.12.0](https://repo1.maven.org/maven2/org/apache/sshd/sshd-sftp/2.12.0)** < [2.12.1](https://repo1.maven.org/maven2/org/apache/sshd/sshd-sftp/2.12.1/)
+ - [org.bouncycastle](https://repo1.maven.org/maven2/org/bouncycastle/)
+    - [bcpg-jdk18on](https://repo1.maven.org/maven2/org/bouncycastle/bcpg-jdk18on/) **[1.77](https://repo1.maven.org/maven2/org/bouncycastle/bcpg-jdk18on/1.77)** < [1.78](https://repo1.maven.org/maven2/org/bouncycastle/bcpg-jdk18on/1.78/)
+    - [bcpkix-jdk18on](https://repo1.maven.org/maven2/org/bouncycastle/bcpkix-jdk18on/) **[1.77](https://repo1.maven.org/maven2/org/bouncycastle/bcpkix-jdk18on/1.77)** < [1.78](https://repo1.maven.org/maven2/org/bouncycastle/bcpkix-jdk18on/1.78/)
+    - [bcprov-jdk18on](https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk18on/) **[1.77](https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk18on/1.77)** < [1.78](https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk18on/1.78/)
+    - [bcutil-jdk18on](https://repo1.maven.org/maven2/org/bouncycastle/bcutil-jdk18on/) **[1.77](https://repo1.maven.org/maven2/org/bouncycastle/bcutil-jdk18on/1.77)** < [1.78](https://repo1.maven.org/maven2/org/bouncycastle/bcutil-jdk18on/1.78/)
  - [org.mockito](https://repo1.maven.org/maven2/org/mockito/)
     - [mockito-core](https://repo1.maven.org/maven2/org/mockito/mockito-core/) **[5.10.0](https://repo1.maven.org/maven2/org/mockito/mockito-core/5.10.0)** < [5.11.0](https://repo1.maven.org/maven2/org/mockito/mockito-core/5.11.0/)
 
