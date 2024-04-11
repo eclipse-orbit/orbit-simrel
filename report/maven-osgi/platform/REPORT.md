@@ -3,9 +3,6 @@
 ## Minor Updates
  - [commons-io](https://repo1.maven.org/maven2/commons-io/)
     - [commons-io](https://repo1.maven.org/maven2/commons-io/commons-io/) **[2.16.0](https://repo1.maven.org/maven2/commons-io/commons-io/2.16.0)** < [2.16.1](https://repo1.maven.org/maven2/commons-io/commons-io/2.16.1/)
- - [org.bouncycastle](https://repo1.maven.org/maven2/org/bouncycastle/)
-    - [bcpg-jdk18on](https://repo1.maven.org/maven2/org/bouncycastle/bcpg-jdk18on/) **[1.77](https://repo1.maven.org/maven2/org/bouncycastle/bcpg-jdk18on/1.77)** < [1.78](https://repo1.maven.org/maven2/org/bouncycastle/bcpg-jdk18on/1.78/)
-    - [bcprov-jdk18on](https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk18on/) **[1.77](https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk18on/1.77)** < [1.78](https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk18on/1.78/)
 
 ## Major Updates
  - [jakarta.annotation](https://repo1.maven.org/maven2/jakarta/annotation/)

@@ -3,7 +3,7 @@
 <target name="Maven" sequenceNumber="1">
   <locations>
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="error" type="Maven">
-      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.32.0.v20240410-0900">
+      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.32.0.v20240411-1000">
         <description>This feature's dependencies are pulled directly from Maven central.</description>
         <copyright>
 Copyright (c) 2024 Eclipse contributors and others.
@@ -16,7 +16,7 @@ https://www.eclipse.org/legal/epl-2.0/
 SPDX-License-Identifier: EPL-2.0
         </copyright>
         <license url="https://www.eclipse.org/legal/epl-2.0/"/>
-        <!-- SHA1 488d2b9310890d915d947ae866e0a1818addf242 -->
+        <!-- SHA1 05bd99e400ee1103e1421262c4dc249b7723cdff -->
       </feature>
       <dependencies>
         <dependency>
@@ -851,25 +851,25 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>org.bouncycastle</groupId>
           <artifactId>bcpg-jdk18on</artifactId>
-          <version>1.78</version>
+          <version>1.77</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.bouncycastle</groupId>
           <artifactId>bcpkix-jdk18on</artifactId>
-          <version>1.78</version>
+          <version>1.77</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.bouncycastle</groupId>
           <artifactId>bcprov-jdk18on</artifactId>
-          <version>1.78</version>
+          <version>1.77</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.bouncycastle</groupId>
           <artifactId>bcutil-jdk18on</artifactId>
-          <version>1.78</version>
+          <version>1.77</version>
           <type>jar</type>
         </dependency>
         <dependency>

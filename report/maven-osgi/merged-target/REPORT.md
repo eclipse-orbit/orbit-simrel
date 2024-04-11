@@ -248,10 +248,10 @@
     - [org.bndtools.versioncontrol.ignores.manager](https://repo1.maven.org/maven2/org/bndtools/org.bndtools.versioncontrol.ignores.manager/) **[7.0.0](https://repo1.maven.org/maven2/org/bndtools/org.bndtools.versioncontrol.ignores.manager/7.0.0)**
     - [org.bndtools.versioncontrol.ignores.plugin.git](https://repo1.maven.org/maven2/org/bndtools/org.bndtools.versioncontrol.ignores.plugin.git/) **[7.0.0](https://repo1.maven.org/maven2/org/bndtools/org.bndtools.versioncontrol.ignores.plugin.git/7.0.0)**
  - [org.bouncycastle](https://repo1.maven.org/maven2/org/bouncycastle/)
-    - [bcpg-jdk18on](https://repo1.maven.org/maven2/org/bouncycastle/bcpg-jdk18on/) **[1.78](https://repo1.maven.org/maven2/org/bouncycastle/bcpg-jdk18on/1.78)**
-    - [bcpkix-jdk18on](https://repo1.maven.org/maven2/org/bouncycastle/bcpkix-jdk18on/) **[1.78](https://repo1.maven.org/maven2/org/bouncycastle/bcpkix-jdk18on/1.78)**
-    - [bcprov-jdk18on](https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk18on/) **[1.78](https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk18on/1.78)**
-    - [bcutil-jdk18on](https://repo1.maven.org/maven2/org/bouncycastle/bcutil-jdk18on/) **[1.78](https://repo1.maven.org/maven2/org/bouncycastle/bcutil-jdk18on/1.78)**
+    - [bcpg-jdk18on](https://repo1.maven.org/maven2/org/bouncycastle/bcpg-jdk18on/) **[1.77](https://repo1.maven.org/maven2/org/bouncycastle/bcpg-jdk18on/1.77)**
+    - [bcpkix-jdk18on](https://repo1.maven.org/maven2/org/bouncycastle/bcpkix-jdk18on/) **[1.77](https://repo1.maven.org/maven2/org/bouncycastle/bcpkix-jdk18on/1.77)**
+    - [bcprov-jdk18on](https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk18on/) **[1.77](https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk18on/1.77)**
+    - [bcutil-jdk18on](https://repo1.maven.org/maven2/org/bouncycastle/bcutil-jdk18on/) **[1.77](https://repo1.maven.org/maven2/org/bouncycastle/bcutil-jdk18on/1.77)**
  - [org.burningwave](https://repo1.maven.org/maven2/org/burningwave/)
     - [core](https://repo1.maven.org/maven2/org/burningwave/core/) **[12.64.3](https://repo1.maven.org/maven2/org/burningwave/core/12.64.3)**
     - [jvm-driver](https://repo1.maven.org/maven2/org/burningwave/jvm-driver/) **[8.15.0](https://repo1.maven.org/maven2/org/burningwave/jvm-driver/8.15.0)**
