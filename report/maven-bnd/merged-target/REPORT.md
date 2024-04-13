@@ -78,7 +78,7 @@
     - [batik-xml](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-xml/) **[1.17](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-xml/1.17)**
     - [xmlgraphics-commons](https://repo1.maven.org/maven2/org/apache/xmlgraphics/xmlgraphics-commons/) **[2.9](https://repo1.maven.org/maven2/org/apache/xmlgraphics/xmlgraphics-commons/2.9)**
  - [org.codelibs](https://repo1.maven.org/maven2/org/codelibs/)
-    - [nekohtml](https://repo1.maven.org/maven2/org/codelibs/nekohtml/) **[2.1.2](https://repo1.maven.org/maven2/org/codelibs/nekohtml/2.1.2)**
+    - [nekohtml](https://repo1.maven.org/maven2/org/codelibs/nekohtml/) **[2.1.3](https://repo1.maven.org/maven2/org/codelibs/nekohtml/2.1.3)**
  - [org.commonmark](https://repo1.maven.org/maven2/org/commonmark/)
     - [commonmark](https://repo1.maven.org/maven2/org/commonmark/commonmark/) **[0.22.0](https://repo1.maven.org/maven2/org/commonmark/commonmark/0.22.0)**
     - [commonmark-ext-gfm-strikethrough](https://repo1.maven.org/maven2/org/commonmark/commonmark-ext-gfm-strikethrough/) **[0.22.0](https://repo1.maven.org/maven2/org/commonmark/commonmark-ext-gfm-strikethrough/0.22.0)**

@@ -2,21 +2,19 @@
 
 ## Minor Updates
  - [ch.qos.logback](https://repo1.maven.org/maven2/ch/qos/logback/)
-    - [logback-classic](https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/) **[1.5.0](https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.5.0)** < [1.5.4](https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.5.4/)
- - [com.google.guava](https://repo1.maven.org/maven2/com/google/guava/)
-    - [guava](https://repo1.maven.org/maven2/com/google/guava/guava/) **[33.0.0-jre](https://repo1.maven.org/maven2/com/google/guava/guava/33.0.0-jre)** < [33.1.0-jre](https://repo1.maven.org/maven2/com/google/guava/guava/33.1.0-jre/)
+    - [logback-classic](https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/) **[1.5.3](https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.5.3)** < [1.5.5](https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.5.5/)
 
 ## Updates Applied
 [updated.target](updated.target)
 
 ## Content
  - [ch.qos.logback](https://repo1.maven.org/maven2/ch/qos/logback/)
-    - [logback-classic](https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/) **[1.5.0](https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.5.0)**
+    - [logback-classic](https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/) **[1.5.3](https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.5.3)**
  - [com.google.code.gson](https://repo1.maven.org/maven2/com/google/code/gson/)
     - [gson](https://repo1.maven.org/maven2/com/google/code/gson/gson/) **[2.10.1](https://repo1.maven.org/maven2/com/google/code/gson/gson/2.10.1)**
  - [com.google.guava](https://repo1.maven.org/maven2/com/google/guava/)
     - [failureaccess](https://repo1.maven.org/maven2/com/google/guava/failureaccess/) **[1.0.2](https://repo1.maven.org/maven2/com/google/guava/failureaccess/1.0.2)**
-    - [guava](https://repo1.maven.org/maven2/com/google/guava/guava/) **[33.0.0-jre](https://repo1.maven.org/maven2/com/google/guava/guava/33.0.0-jre)**
+    - [guava](https://repo1.maven.org/maven2/com/google/guava/guava/) **[33.1.0-jre](https://repo1.maven.org/maven2/com/google/guava/guava/33.1.0-jre)**
  - [commons-cli](https://repo1.maven.org/maven2/commons-cli/)
     - [commons-cli](https://repo1.maven.org/maven2/commons-cli/commons-cli/) **[1.6.0](https://repo1.maven.org/maven2/commons-cli/commons-cli/1.6.0)**
  - [commons-codec](https://repo1.maven.org/maven2/commons-codec/)
