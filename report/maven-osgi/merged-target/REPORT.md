@@ -8,6 +8,10 @@
     - [jakarta.annotation-api](https://repo1.maven.org/maven2/jakarta/annotation/jakarta.annotation-api/) **[2.1.1](https://repo1.maven.org/maven2/jakarta/annotation/jakarta.annotation-api/2.1.1)** < [3.0.0](https://repo1.maven.org/maven2/jakarta/annotation/jakarta.annotation-api/3.0.0/)
  - [jakarta.ejb](https://repo1.maven.org/maven2/jakarta/ejb/)
     - [jakarta.ejb-api](https://repo1.maven.org/maven2/jakarta/ejb/jakarta.ejb-api/) **[3.2.6](https://repo1.maven.org/maven2/jakarta/ejb/jakarta.ejb-api/3.2.6)** < [4.0.1](https://repo1.maven.org/maven2/jakarta/ejb/jakarta.ejb-api/4.0.1/)
+ - [jakarta.el](https://repo1.maven.org/maven2/jakarta/el/)
+    - [jakarta.el-api](https://repo1.maven.org/maven2/jakarta/el/jakarta.el-api/) **[3.0.3](https://repo1.maven.org/maven2/jakarta/el/jakarta.el-api/3.0.3)** < [6.0.0](https://repo1.maven.org/maven2/jakarta/el/jakarta.el-api/6.0.0/)
+    - [jakarta.el-api](https://repo1.maven.org/maven2/jakarta/el/jakarta.el-api/) **[4.0.0](https://repo1.maven.org/maven2/jakarta/el/jakarta.el-api/4.0.0)** < [6.0.0](https://repo1.maven.org/maven2/jakarta/el/jakarta.el-api/6.0.0/)
+    - [jakarta.el-api](https://repo1.maven.org/maven2/jakarta/el/jakarta.el-api/) **[5.0.1](https://repo1.maven.org/maven2/jakarta/el/jakarta.el-api/5.0.1)** < [6.0.0](https://repo1.maven.org/maven2/jakarta/el/jakarta.el-api/6.0.0/)
  - [jakarta.jws](https://repo1.maven.org/maven2/jakarta/jws/)
     - [jakarta.jws-api](https://repo1.maven.org/maven2/jakarta/jws/jakarta.jws-api/) **[2.1.0](https://repo1.maven.org/maven2/jakarta/jws/jakarta.jws-api/2.1.0)** < [3.0.0](https://repo1.maven.org/maven2/jakarta/jws/jakarta.jws-api/3.0.0/)
  - [jakarta.mail](https://repo1.maven.org/maven2/jakarta/mail/)
@@ -154,8 +158,8 @@
  - [jakarta.enterprise](https://repo1.maven.org/maven2/jakarta/enterprise/)
     - [jakarta.enterprise.cdi-api](https://repo1.maven.org/maven2/jakarta/enterprise/jakarta.enterprise.cdi-api/) **[2.0.2](https://repo1.maven.org/maven2/jakarta/enterprise/jakarta.enterprise.cdi-api/2.0.2)**
     - [jakarta.enterprise.cdi-api](https://repo1.maven.org/maven2/jakarta/enterprise/jakarta.enterprise.cdi-api/) **[3.0.1](https://repo1.maven.org/maven2/jakarta/enterprise/jakarta.enterprise.cdi-api/3.0.1)**
-    - [jakarta.enterprise.cdi-api](https://repo1.maven.org/maven2/jakarta/enterprise/jakarta.enterprise.cdi-api/) **[4.0.1](https://repo1.maven.org/maven2/jakarta/enterprise/jakarta.enterprise.cdi-api/4.0.1)**
-    - [jakarta.enterprise.lang-model](https://repo1.maven.org/maven2/jakarta/enterprise/jakarta.enterprise.lang-model/) **[4.0.1](https://repo1.maven.org/maven2/jakarta/enterprise/jakarta.enterprise.lang-model/4.0.1)**
+    - [jakarta.enterprise.cdi-api](https://repo1.maven.org/maven2/jakarta/enterprise/jakarta.enterprise.cdi-api/) **[4.1.0](https://repo1.maven.org/maven2/jakarta/enterprise/jakarta.enterprise.cdi-api/4.1.0)**
+    - [jakarta.enterprise.lang-model](https://repo1.maven.org/maven2/jakarta/enterprise/jakarta.enterprise.lang-model/) **[4.1.0](https://repo1.maven.org/maven2/jakarta/enterprise/jakarta.enterprise.lang-model/4.1.0)**
  - [jakarta.inject](https://repo1.maven.org/maven2/jakarta/inject/)
     - [jakarta.inject-api](https://repo1.maven.org/maven2/jakarta/inject/jakarta.inject-api/) **[1.0.5](https://repo1.maven.org/maven2/jakarta/inject/jakarta.inject-api/1.0.5)**
     - [jakarta.inject-api](https://repo1.maven.org/maven2/jakarta/inject/jakarta.inject-api/) **[2.0.1](https://repo1.maven.org/maven2/jakarta/inject/jakarta.inject-api/2.0.1)**

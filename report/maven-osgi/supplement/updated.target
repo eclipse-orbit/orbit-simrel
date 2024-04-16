@@ -241,13 +241,13 @@
         <dependency>
           <groupId>jakarta.enterprise</groupId>
           <artifactId>jakarta.enterprise.cdi-api</artifactId>
-          <version>4.0.1</version>
+          <version>4.1.0</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>jakarta.enterprise</groupId>
           <artifactId>jakarta.enterprise.lang-model</artifactId>
-          <version>4.0.1</version>
+          <version>4.1.0</version>
           <type>jar</type>
         </dependency>
         <dependency>
