@@ -50,7 +50,7 @@
  - [ch.qos.reload4j](https://repo1.maven.org/maven2/ch/qos/reload4j/)
     - [reload4j](https://repo1.maven.org/maven2/ch/qos/reload4j/reload4j/) **[1.2.25](https://repo1.maven.org/maven2/ch/qos/reload4j/reload4j/1.2.25)**
  - [com.ethlo.time](https://repo1.maven.org/maven2/com/ethlo/time/)
-    - [itu](https://repo1.maven.org/maven2/com/ethlo/time/itu/) **[1.10.1](https://repo1.maven.org/maven2/com/ethlo/time/itu/1.10.1)**
+    - [itu](https://repo1.maven.org/maven2/com/ethlo/time/itu/) **[1.10.2](https://repo1.maven.org/maven2/com/ethlo/time/itu/1.10.2)**
  - [com.evolvedbinary.thirdparty.org.apache.xmlrpc](https://repo1.maven.org/maven2/com/evolvedbinary/thirdparty/org/apache/xmlrpc/)
     - [xmlrpc-client](https://repo1.maven.org/maven2/com/evolvedbinary/thirdparty/org/apache/xmlrpc/xmlrpc-client/) **[5.0.0](https://repo1.maven.org/maven2/com/evolvedbinary/thirdparty/org/apache/xmlrpc/xmlrpc-client/5.0.0)**
     - [xmlrpc-common](https://repo1.maven.org/maven2/com/evolvedbinary/thirdparty/org/apache/xmlrpc/xmlrpc-common/) **[5.0.0](https://repo1.maven.org/maven2/com/evolvedbinary/thirdparty/org/apache/xmlrpc/xmlrpc-common/5.0.0)**
@@ -101,7 +101,7 @@
  - [com.googlecode.javaewah](https://repo1.maven.org/maven2/com/googlecode/javaewah/)
     - [JavaEWAH](https://repo1.maven.org/maven2/com/googlecode/javaewah/JavaEWAH/) **[1.2.3](https://repo1.maven.org/maven2/com/googlecode/javaewah/JavaEWAH/1.2.3)**
  - [com.ibm.icu](https://repo1.maven.org/maven2/com/ibm/icu/)
-    - [icu4j](https://repo1.maven.org/maven2/com/ibm/icu/icu4j/) **[74.2](https://repo1.maven.org/maven2/com/ibm/icu/icu4j/74.2)**
+    - [icu4j](https://repo1.maven.org/maven2/com/ibm/icu/icu4j/) **[75.1](https://repo1.maven.org/maven2/com/ibm/icu/icu4j/75.1)**
  - [com.miglayout](https://repo1.maven.org/maven2/com/miglayout/)
     - [miglayout-core](https://repo1.maven.org/maven2/com/miglayout/miglayout-core/) **[11.3](https://repo1.maven.org/maven2/com/miglayout/miglayout-core/11.3)**
     - [miglayout-swing](https://repo1.maven.org/maven2/com/miglayout/miglayout-swing/) **[11.3](https://repo1.maven.org/maven2/com/miglayout/miglayout-swing/11.3)**
@@ -221,7 +221,7 @@
     - [commons-compress](https://repo1.maven.org/maven2/org/apache/commons/commons-compress/) **[1.26.1](https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.26.1)**
     - [commons-lang3](https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/) **[3.14.0](https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.14.0)**
     - [commons-math3](https://repo1.maven.org/maven2/org/apache/commons/commons-math3/) **[3.6.1](https://repo1.maven.org/maven2/org/apache/commons/commons-math3/3.6.1)**
-    - [commons-text](https://repo1.maven.org/maven2/org/apache/commons/commons-text/) **[1.11.0](https://repo1.maven.org/maven2/org/apache/commons/commons-text/1.11.0)**
+    - [commons-text](https://repo1.maven.org/maven2/org/apache/commons/commons-text/) **[1.12.0](https://repo1.maven.org/maven2/org/apache/commons/commons-text/1.12.0)**
  - [org.apache.felix](https://repo1.maven.org/maven2/org/apache/felix/)
     - [org.apache.felix.gogo.command](https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.gogo.command/) **[1.1.2](https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.gogo.command/1.1.2)**
     - [org.apache.felix.gogo.runtime](https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.gogo.runtime/) **[1.1.6](https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.gogo.runtime/1.1.6)**

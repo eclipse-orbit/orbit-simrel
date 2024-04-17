@@ -3,7 +3,7 @@
 <target name="Maven" sequenceNumber="1">
   <locations>
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="error" type="Maven">
-      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.32.0.v20240416-0700">
+      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.32.0.v20240417-1000">
         <description>This feature's dependencies are pulled directly from Maven central.</description>
         <copyright>
 Copyright (c) 2024 Eclipse contributors and others.
@@ -16,7 +16,7 @@ https://www.eclipse.org/legal/epl-2.0/
 SPDX-License-Identifier: EPL-2.0
         </copyright>
         <license url="https://www.eclipse.org/legal/epl-2.0/"/>
-        <!-- SHA1 5d3b50f30a3ec6d9df277c6bb50536d7778d7355 -->
+        <!-- SHA1 55909b21c406dfe6e6331441aeb37d1606bcf5f9 -->
       </feature>
       <dependencies>
         <dependency>
@@ -82,7 +82,7 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>com.ethlo.time</groupId>
           <artifactId>itu</artifactId>
-          <version>1.10.1</version>
+          <version>1.10.2</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -275,7 +275,7 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>com.ibm.icu</groupId>
           <artifactId>icu4j</artifactId>
-          <version>74.2</version>
+          <version>75.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -719,7 +719,7 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>org.apache.commons</groupId>
           <artifactId>commons-text</artifactId>
-          <version>1.11.0</version>
+          <version>1.12.0</version>
           <type>jar</type>
         </dependency>
         <dependency>
