@@ -1,8 +1,9 @@
 # Target Platform: [platform](https://raw.githubusercontent.com/eclipse-platform/eclipse.platform.releng.aggregator/master/eclipse.platform.releng.prereqs.sdk/eclipse-sdk-prereqs.target)
 
 ## Minor Updates
- - [com.ibm.icu](https://repo1.maven.org/maven2/com/ibm/icu/)
-    - [icu4j](https://repo1.maven.org/maven2/com/ibm/icu/icu4j/) **[74.2](https://repo1.maven.org/maven2/com/ibm/icu/icu4j/74.2)** < [75.1](https://repo1.maven.org/maven2/com/ibm/icu/icu4j/75.1/)
+ - [org.bouncycastle](https://repo1.maven.org/maven2/org/bouncycastle/)
+    - [bcpg-jdk18on](https://repo1.maven.org/maven2/org/bouncycastle/bcpg-jdk18on/) **[1.77](https://repo1.maven.org/maven2/org/bouncycastle/bcpg-jdk18on/1.77)** < [1.78.1](https://repo1.maven.org/maven2/org/bouncycastle/bcpg-jdk18on/1.78.1/)
+    - [bcprov-jdk18on](https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk18on/) **[1.77](https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk18on/1.77)** < [1.78.1](https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk18on/1.78.1/)
 
 ## Major Updates
  - [jakarta.annotation](https://repo1.maven.org/maven2/jakarta/annotation/)
@@ -32,7 +33,7 @@
  - [com.google.code.gson](https://repo1.maven.org/maven2/com/google/code/gson/)
     - [gson](https://repo1.maven.org/maven2/com/google/code/gson/gson/) **[2.10.1](https://repo1.maven.org/maven2/com/google/code/gson/gson/2.10.1)**
  - [com.ibm.icu](https://repo1.maven.org/maven2/com/ibm/icu/)
-    - [icu4j](https://repo1.maven.org/maven2/com/ibm/icu/icu4j/) **[74.2](https://repo1.maven.org/maven2/com/ibm/icu/icu4j/74.2)**
+    - [icu4j](https://repo1.maven.org/maven2/com/ibm/icu/icu4j/) **[75.1](https://repo1.maven.org/maven2/com/ibm/icu/icu4j/75.1)**
  - [commons-beanutils](https://repo1.maven.org/maven2/commons-beanutils/)
     - [commons-beanutils](https://repo1.maven.org/maven2/commons-beanutils/commons-beanutils/) **[1.9.4](https://repo1.maven.org/maven2/commons-beanutils/commons-beanutils/1.9.4)**
  - [commons-collections](https://repo1.maven.org/maven2/commons-collections/)

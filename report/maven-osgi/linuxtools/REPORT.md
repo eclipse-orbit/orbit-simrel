@@ -1,8 +1,16 @@
 # Target Platform: [linuxtools](https://raw.githubusercontent.com/eclipse-linuxtools/org.eclipse.linuxtools/master/releng/org.eclipse.linuxtools.target/linuxtools-e4.32.target)
 
+## Minor Updates
+ - [org.bouncycastle](https://repo1.maven.org/maven2/org/bouncycastle/)
+    - [bcpkix-jdk18on](https://repo1.maven.org/maven2/org/bouncycastle/bcpkix-jdk18on/) **[1.78](https://repo1.maven.org/maven2/org/bouncycastle/bcpkix-jdk18on/1.78)** < [1.78.1](https://repo1.maven.org/maven2/org/bouncycastle/bcpkix-jdk18on/1.78.1/)
+    - [bcutil-jdk18on](https://repo1.maven.org/maven2/org/bouncycastle/bcutil-jdk18on/) **[1.78](https://repo1.maven.org/maven2/org/bouncycastle/bcutil-jdk18on/1.78)** < [1.78.1](https://repo1.maven.org/maven2/org/bouncycastle/bcutil-jdk18on/1.78.1/)
+
 ## Major Updates
  - [org.glassfish.hk2](https://repo1.maven.org/maven2/org/glassfish/hk2/)
     - [osgi-resource-locator](https://repo1.maven.org/maven2/org/glassfish/hk2/osgi-resource-locator/) **[1.0.3](https://repo1.maven.org/maven2/org/glassfish/hk2/osgi-resource-locator/1.0.3)** < [2.4.0](https://repo1.maven.org/maven2/org/glassfish/hk2/osgi-resource-locator/2.4.0/)
+
+## Updates Applied
+[updated.target](updated.target)
 
 ## Content
  - [com.fasterxml.jackson.core](https://repo1.maven.org/maven2/com/fasterxml/jackson/core/)
