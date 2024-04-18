@@ -2,7 +2,9 @@
 
 ## Minor Updates
  - [ch.qos.logback](https://repo1.maven.org/maven2/ch/qos/logback/)
-    - [logback-classic](https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/) **[1.5.3](https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.5.3)** < [1.5.5](https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.5.5/)
+    - [logback-classic](https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/) **[1.5.3](https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.5.3)** < [1.5.6](https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.5.6/)
+ - [commons-cli](https://repo1.maven.org/maven2/commons-cli/)
+    - [commons-cli](https://repo1.maven.org/maven2/commons-cli/commons-cli/) **[1.6.0](https://repo1.maven.org/maven2/commons-cli/commons-cli/1.6.0)** < [1.7.0](https://repo1.maven.org/maven2/commons-cli/commons-cli/1.7.0/)
 
 ## Updates Applied
 [updated.target](updated.target)
