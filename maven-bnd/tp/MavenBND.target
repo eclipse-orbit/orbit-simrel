@@ -2452,13 +2452,6 @@ SPDX-License-Identifier: EPL-2.0
 
         <dependency>
           <groupId>org.apache.ant</groupId>
-          <artifactId>ant-nodeps</artifactId>
-          <version>1.10.14</version>
-          <type>jar</type>
-        </dependency>
-
-        <dependency>
-          <groupId>org.apache.ant</groupId>
           <artifactId>ant-swing</artifactId>
           <version>1.10.14</version>
           <type>jar</type>
