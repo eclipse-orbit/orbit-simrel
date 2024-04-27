@@ -90,7 +90,7 @@
  - [com.google.code.gson](https://repo1.maven.org/maven2/com/google/code/gson/)
     - [gson](https://repo1.maven.org/maven2/com/google/code/gson/gson/) **[2.10.1](https://repo1.maven.org/maven2/com/google/code/gson/gson/2.10.1)**
  - [com.google.errorprone](https://repo1.maven.org/maven2/com/google/errorprone/)
-    - [error_prone_annotations](https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/) **[2.26.1](https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.26.1)**
+    - [error_prone_annotations](https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/) **[2.27.0](https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.27.0)**
  - [com.google.guava](https://repo1.maven.org/maven2/com/google/guava/)
     - [failureaccess](https://repo1.maven.org/maven2/com/google/guava/failureaccess/) **[1.0.2](https://repo1.maven.org/maven2/com/google/guava/failureaccess/1.0.2)**
     - [guava](https://repo1.maven.org/maven2/com/google/guava/guava/) **[33.1.0-jre](https://repo1.maven.org/maven2/com/google/guava/guava/33.1.0-jre)**
@@ -117,7 +117,7 @@
  - [commons-cli](https://repo1.maven.org/maven2/commons-cli/)
     - [commons-cli](https://repo1.maven.org/maven2/commons-cli/commons-cli/) **[1.7.0](https://repo1.maven.org/maven2/commons-cli/commons-cli/1.7.0)**
  - [commons-codec](https://repo1.maven.org/maven2/commons-codec/)
-    - [commons-codec](https://repo1.maven.org/maven2/commons-codec/commons-codec/) **[1.16.1](https://repo1.maven.org/maven2/commons-codec/commons-codec/1.16.1)**
+    - [commons-codec](https://repo1.maven.org/maven2/commons-codec/commons-codec/) **[1.17.0](https://repo1.maven.org/maven2/commons-codec/commons-codec/1.17.0)**
  - [commons-collections](https://repo1.maven.org/maven2/commons-collections/)
     - [commons-collections](https://repo1.maven.org/maven2/commons-collections/commons-collections/) **[3.2.2](https://repo1.maven.org/maven2/commons-collections/commons-collections/3.2.2)**
  - [commons-discovery](https://repo1.maven.org/maven2/commons-discovery/)

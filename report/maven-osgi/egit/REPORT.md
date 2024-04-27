@@ -4,7 +4,7 @@
  - [args4j](https://repo1.maven.org/maven2/args4j/)
     - [args4j](https://repo1.maven.org/maven2/args4j/args4j/) **[2.33](https://repo1.maven.org/maven2/args4j/args4j/2.33)** < [2.37](https://repo1.maven.org/maven2/args4j/args4j/2.37/)
  - [commons-codec](https://repo1.maven.org/maven2/commons-codec/)
-    - [commons-codec](https://repo1.maven.org/maven2/commons-codec/commons-codec/) **[1.16.0](https://repo1.maven.org/maven2/commons-codec/commons-codec/1.16.0)** < [1.16.1](https://repo1.maven.org/maven2/commons-codec/commons-codec/1.16.1/)
+    - [commons-codec](https://repo1.maven.org/maven2/commons-codec/commons-codec/) **[1.16.0](https://repo1.maven.org/maven2/commons-codec/commons-codec/1.16.0)** < [1.17.0](https://repo1.maven.org/maven2/commons-codec/commons-codec/1.17.0/)
  - [commons-io](https://repo1.maven.org/maven2/commons-io/)
     - [commons-io](https://repo1.maven.org/maven2/commons-io/commons-io/) **[2.15.0](https://repo1.maven.org/maven2/commons-io/commons-io/2.15.0)** < [2.16.1](https://repo1.maven.org/maven2/commons-io/commons-io/2.16.1/)
     - [commons-io](https://repo1.maven.org/maven2/commons-io/commons-io/) **[2.15.1](https://repo1.maven.org/maven2/commons-io/commons-io/2.15.1)** < [2.16.1](https://repo1.maven.org/maven2/commons-io/commons-io/2.16.1/)

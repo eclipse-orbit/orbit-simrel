@@ -2,7 +2,7 @@
 
 ## Minor Updates
  - [commons-codec](https://repo1.maven.org/maven2/commons-codec/)
-    - [commons-codec](https://repo1.maven.org/maven2/commons-codec/commons-codec/) **[1.16.0](https://repo1.maven.org/maven2/commons-codec/commons-codec/1.16.0)** < [1.16.1](https://repo1.maven.org/maven2/commons-codec/commons-codec/1.16.1/)
+    - [commons-codec](https://repo1.maven.org/maven2/commons-codec/commons-codec/) **[1.16.0](https://repo1.maven.org/maven2/commons-codec/commons-codec/1.16.0)** < [1.17.0](https://repo1.maven.org/maven2/commons-codec/commons-codec/1.17.0/)
 
 ## Major Updates
  - [jakarta.servlet](https://repo1.maven.org/maven2/jakarta/servlet/)
