@@ -2,7 +2,7 @@
 
 ## Minor Updates
  - [com.google.guava](https://repo1.maven.org/maven2/com/google/guava/)
-    - [guava](https://repo1.maven.org/maven2/com/google/guava/guava/) **[32.1.1-jre](https://repo1.maven.org/maven2/com/google/guava/guava/32.1.1-jre)** < [33.1.0-jre](https://repo1.maven.org/maven2/com/google/guava/guava/33.1.0-jre/)
+    - [guava](https://repo1.maven.org/maven2/com/google/guava/guava/) **[32.1.1-jre](https://repo1.maven.org/maven2/com/google/guava/guava/32.1.1-jre)** < [33.2.0-jre](https://repo1.maven.org/maven2/com/google/guava/guava/33.2.0-jre/)
  - [commons-io](https://repo1.maven.org/maven2/commons-io/)
     - [commons-io](https://repo1.maven.org/maven2/commons-io/commons-io/) **[2.13.0](https://repo1.maven.org/maven2/commons-io/commons-io/2.13.0)** < [2.16.1](https://repo1.maven.org/maven2/commons-io/commons-io/2.16.1/)
  - [net.java.dev.jna](https://repo1.maven.org/maven2/net/java/dev/jna/)

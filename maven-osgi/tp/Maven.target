@@ -3,7 +3,7 @@
 <target name="Maven" sequenceNumber="1">
   <locations>
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="error" type="Maven">
-      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.32.0.v20240501-0900">
+      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.32.0.v20240502-1600">
         <description>This feature's dependencies are pulled directly from Maven central.</description>
         <copyright>
 Copyright (c) 2024 Eclipse contributors and others.
@@ -16,7 +16,7 @@ https://www.eclipse.org/legal/epl-2.0/
 SPDX-License-Identifier: EPL-2.0
         </copyright>
         <license url="https://www.eclipse.org/legal/epl-2.0/"/>
-        <!-- SHA1 aa508cc5ba39091cd0a5dac0ec02776786c9127d -->
+        <!-- SHA1 6bc1a19f01819c89575c8f9f46204aae4f795692 -->
       </feature>
       <dependencies>
         <dependency>
@@ -239,7 +239,7 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>com.google.errorprone</groupId>
           <artifactId>error_prone_annotations</artifactId>
-          <version>2.27.0</version>
+          <version>2.27.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -251,7 +251,7 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>com.google.guava</groupId>
           <artifactId>guava</artifactId>
-          <version>33.1.0-jre</version>
+          <version>33.2.0-jre</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -401,7 +401,7 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>io.github.toolfactory</groupId>
           <artifactId>jvm-driver</artifactId>
-          <version>9.7.0</version>
+          <version>9.7.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -875,13 +875,13 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>org.burningwave</groupId>
           <artifactId>core</artifactId>
-          <version>12.64.3</version>
+          <version>12.65.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.burningwave</groupId>
           <artifactId>jvm-driver</artifactId>
-          <version>8.16.0</version>
+          <version>8.16.1</version>
           <type>jar</type>
         </dependency>
         <dependency>

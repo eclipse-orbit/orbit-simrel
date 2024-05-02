@@ -31,7 +31,7 @@
 				<dependency>
 					<groupId>io.github.toolfactory</groupId>
 					<artifactId>jvm-driver</artifactId>
-					<version>9.7.0</version>
+					<version>9.7.1</version>
 					<type>jar</type>
 				</dependency>
 				<dependency>
@@ -61,13 +61,13 @@
 				<dependency>
 					<groupId>org.burningwave</groupId>
 					<artifactId>core</artifactId>
-					<version>12.64.3</version>
+					<version>12.65.1</version>
 					<type>jar</type>
 				</dependency>
 				<dependency>
 					<groupId>org.burningwave</groupId>
 					<artifactId>jvm-driver</artifactId>
-					<version>8.16.0</version>
+					<version>8.16.1</version>
 					<type>jar</type>
 				</dependency>
 				<dependency>

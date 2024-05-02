@@ -90,10 +90,10 @@
  - [com.google.code.gson](https://repo1.maven.org/maven2/com/google/code/gson/)
     - [gson](https://repo1.maven.org/maven2/com/google/code/gson/gson/) **[2.10.1](https://repo1.maven.org/maven2/com/google/code/gson/gson/2.10.1)**
  - [com.google.errorprone](https://repo1.maven.org/maven2/com/google/errorprone/)
-    - [error_prone_annotations](https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/) **[2.27.0](https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.27.0)**
+    - [error_prone_annotations](https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/) **[2.27.1](https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.27.1)**
  - [com.google.guava](https://repo1.maven.org/maven2/com/google/guava/)
     - [failureaccess](https://repo1.maven.org/maven2/com/google/guava/failureaccess/) **[1.0.2](https://repo1.maven.org/maven2/com/google/guava/failureaccess/1.0.2)**
-    - [guava](https://repo1.maven.org/maven2/com/google/guava/guava/) **[33.1.0-jre](https://repo1.maven.org/maven2/com/google/guava/guava/33.1.0-jre)**
+    - [guava](https://repo1.maven.org/maven2/com/google/guava/guava/) **[33.2.0-jre](https://repo1.maven.org/maven2/com/google/guava/guava/33.2.0-jre)**
  - [com.google.inject](https://repo1.maven.org/maven2/com/google/inject/)
     - [guice](https://repo1.maven.org/maven2/com/google/inject/guice/) **[7.0.0](https://repo1.maven.org/maven2/com/google/inject/guice/7.0.0)**
  - [com.google.inject.extensions](https://repo1.maven.org/maven2/com/google/inject/extensions/)
@@ -138,7 +138,7 @@
  - [io.github.classgraph](https://repo1.maven.org/maven2/io/github/classgraph/)
     - [classgraph](https://repo1.maven.org/maven2/io/github/classgraph/classgraph/) **[4.8.172](https://repo1.maven.org/maven2/io/github/classgraph/classgraph/4.8.172)**
  - [io.github.toolfactory](https://repo1.maven.org/maven2/io/github/toolfactory/)
-    - [jvm-driver](https://repo1.maven.org/maven2/io/github/toolfactory/jvm-driver/) **[9.7.0](https://repo1.maven.org/maven2/io/github/toolfactory/jvm-driver/9.7.0)**
+    - [jvm-driver](https://repo1.maven.org/maven2/io/github/toolfactory/jvm-driver/) **[9.7.1](https://repo1.maven.org/maven2/io/github/toolfactory/jvm-driver/9.7.1)**
     - [narcissus](https://repo1.maven.org/maven2/io/github/toolfactory/narcissus/) **[1.0.7](https://repo1.maven.org/maven2/io/github/toolfactory/narcissus/1.0.7)**
  - [jakarta.activation](https://repo1.maven.org/maven2/jakarta/activation/)
     - [jakarta.activation-api](https://repo1.maven.org/maven2/jakarta/activation/jakarta.activation-api/) **[1.2.2](https://repo1.maven.org/maven2/jakarta/activation/jakarta.activation-api/1.2.2)**
@@ -257,8 +257,8 @@
     - [bcprov-jdk18on](https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk18on/) **[1.78.1](https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk18on/1.78.1)**
     - [bcutil-jdk18on](https://repo1.maven.org/maven2/org/bouncycastle/bcutil-jdk18on/) **[1.78.1](https://repo1.maven.org/maven2/org/bouncycastle/bcutil-jdk18on/1.78.1)**
  - [org.burningwave](https://repo1.maven.org/maven2/org/burningwave/)
-    - [core](https://repo1.maven.org/maven2/org/burningwave/core/) **[12.64.3](https://repo1.maven.org/maven2/org/burningwave/core/12.64.3)**
-    - [jvm-driver](https://repo1.maven.org/maven2/org/burningwave/jvm-driver/) **[8.16.0](https://repo1.maven.org/maven2/org/burningwave/jvm-driver/8.16.0)**
+    - [core](https://repo1.maven.org/maven2/org/burningwave/core/) **[12.65.1](https://repo1.maven.org/maven2/org/burningwave/core/12.65.1)**
+    - [jvm-driver](https://repo1.maven.org/maven2/org/burningwave/jvm-driver/) **[8.16.1](https://repo1.maven.org/maven2/org/burningwave/jvm-driver/8.16.1)**
  - [org.codehaus.woodstox](https://repo1.maven.org/maven2/org/codehaus/woodstox/)
     - [stax2-api](https://repo1.maven.org/maven2/org/codehaus/woodstox/stax2-api/) **[4.2.2](https://repo1.maven.org/maven2/org/codehaus/woodstox/stax2-api/4.2.2)**
  - [org.conscrypt](https://repo1.maven.org/maven2/org/conscrypt/)
