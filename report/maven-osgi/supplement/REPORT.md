@@ -221,7 +221,7 @@
     - [apache-jsp](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-jsp/) **[9.0.83.1](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-jsp/9.0.83.1)**
     - [apache-jsp](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-jsp/) **[10.1.16](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-jsp/10.1.16)**
  - [org.mozilla](https://repo1.maven.org/maven2/org/mozilla/)
-    - [rhino](https://repo1.maven.org/maven2/org/mozilla/rhino/) **[1.7.14](https://repo1.maven.org/maven2/org/mozilla/rhino/1.7.14)**
+    - [rhino](https://repo1.maven.org/maven2/org/mozilla/rhino/) **[1.7.15](https://repo1.maven.org/maven2/org/mozilla/rhino/1.7.15)**
  - [org.osgi](https://repo1.maven.org/maven2/org/osgi/)
     - [org.osgi.dto](https://repo1.maven.org/maven2/org/osgi/org.osgi.dto/) **[1.1.1](https://repo1.maven.org/maven2/org/osgi/org.osgi.dto/1.1.1)**
     - [org.osgi.framework](https://repo1.maven.org/maven2/org/osgi/org.osgi.framework/) **[1.10.0](https://repo1.maven.org/maven2/org/osgi/org.osgi.framework/1.10.0)**
