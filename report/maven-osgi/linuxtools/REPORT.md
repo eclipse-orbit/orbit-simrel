@@ -1,6 +1,15 @@
 # Target Platform: [linuxtools](https://raw.githubusercontent.com/eclipse-linuxtools/org.eclipse.linuxtools/master/releng/org.eclipse.linuxtools.target/linuxtools-e4.32.target)
 
 ## Minor Updates
+ - [com.fasterxml.jackson.core](https://repo1.maven.org/maven2/com/fasterxml/jackson/core/)
+    - [jackson-annotations](https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/) **[2.17.0](https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.17.0)** < [2.17.1](https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.17.1/)
+    - [jackson-core](https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/) **[2.17.0](https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.17.0)** < [2.17.1](https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.17.1/)
+    - [jackson-databind](https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/) **[2.17.0](https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.17.0)** < [2.17.1](https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.17.1/)
+ - [com.fasterxml.jackson.datatype](https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/)
+    - [jackson-datatype-guava](https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-guava/) **[2.17.0](https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-guava/2.17.0)** < [2.17.1](https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-guava/2.17.1/)
+ - [com.fasterxml.jackson.module](https://repo1.maven.org/maven2/com/fasterxml/jackson/module/)
+    - [jackson-module-jakarta-xmlbind-annotations](https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-jakarta-xmlbind-annotations/) **[2.17.0](https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-jakarta-xmlbind-annotations/2.17.0)** < [2.17.1](https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-jakarta-xmlbind-annotations/2.17.1/)
+    - [jackson-module-jaxb-annotations](https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/) **[2.17.0](https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.17.0)** < [2.17.1](https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.17.1/)
  - [com.google.guava](https://repo1.maven.org/maven2/com/google/guava/)
     - [guava](https://repo1.maven.org/maven2/com/google/guava/guava/) **[33.1.0-jre](https://repo1.maven.org/maven2/com/google/guava/guava/33.1.0-jre)** < [33.2.0-jre](https://repo1.maven.org/maven2/com/google/guava/guava/33.2.0-jre/)
  - [org.bouncycastle](https://repo1.maven.org/maven2/org/bouncycastle/)
