@@ -10,6 +10,8 @@
  - [org.burningwave](https://repo1.maven.org/maven2/org/burningwave/)
     - [core](https://repo1.maven.org/maven2/org/burningwave/core/) **[12.64.3](https://repo1.maven.org/maven2/org/burningwave/core/12.64.3)** < [12.65.1](https://repo1.maven.org/maven2/org/burningwave/core/12.65.1/)
     - [jvm-driver](https://repo1.maven.org/maven2/org/burningwave/jvm-driver/) **[8.15.0](https://repo1.maven.org/maven2/org/burningwave/jvm-driver/8.15.0)** < [8.16.1](https://repo1.maven.org/maven2/org/burningwave/jvm-driver/8.16.1/)
+ - [org.objenesis](https://repo1.maven.org/maven2/org/objenesis/)
+    - [objenesis](https://repo1.maven.org/maven2/org/objenesis/objenesis/) **[3.3](https://repo1.maven.org/maven2/org/objenesis/objenesis/3.3)** < [3.4](https://repo1.maven.org/maven2/org/objenesis/objenesis/3.4/)
 
 ## Updates Applied
 [updated.target](updated.target)
