@@ -3,7 +3,7 @@
 <target name="Maven" sequenceNumber="1">
   <locations>
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="error" type="Maven">
-      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.32.0.v20240506-0800">
+      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.32.0.v20240508-1000">
         <description>This feature's dependencies are pulled directly from Maven central.</description>
         <copyright>
 Copyright (c) 2024 Eclipse contributors and others.
@@ -16,7 +16,7 @@ https://www.eclipse.org/legal/epl-2.0/
 SPDX-License-Identifier: EPL-2.0
         </copyright>
         <license url="https://www.eclipse.org/legal/epl-2.0/"/>
-        <!-- SHA1 9fd7c1d8b188047968be892ca509218abdf71b8c -->
+        <!-- SHA1 1166ecdea6731aaa479233ebc1213a4cc758193b -->
       </feature>
       <dependencies>
         <dependency>
@@ -786,6 +786,12 @@ SPDX-License-Identifier: EPL-2.0
           <groupId>org.apache.sshd</groupId>
           <artifactId>sshd-sftp</artifactId>
           <version>2.12.1</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>org.apache.tika</groupId>
+          <artifactId>tika-core</artifactId>
+          <version>2.9.2</version>
           <type>jar</type>
         </dependency>
         <dependency>
