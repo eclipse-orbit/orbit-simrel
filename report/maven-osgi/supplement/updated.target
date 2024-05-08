@@ -443,6 +443,12 @@
           <type>jar</type>
         </dependency>
         <dependency>
+          <groupId>org.apache.tika</groupId>
+          <artifactId>tika-core</artifactId>
+          <version>2.9.2</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
           <groupId>org.apache.velocity</groupId>
           <artifactId>velocity</artifactId>
           <version>1.7</version>
