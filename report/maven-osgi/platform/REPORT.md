@@ -1,8 +1,19 @@
 # Target Platform: [platform](https://raw.githubusercontent.com/eclipse-platform/eclipse.platform.releng.aggregator/master/eclipse.platform.releng.prereqs.sdk/eclipse-sdk-prereqs.target)
 
 ## Minor Updates
- - [org.objenesis](https://repo1.maven.org/maven2/org/objenesis/)
-    - [objenesis](https://repo1.maven.org/maven2/org/objenesis/objenesis/) **[3.3](https://repo1.maven.org/maven2/org/objenesis/objenesis/3.3)** < [3.4](https://repo1.maven.org/maven2/org/objenesis/objenesis/3.4/)
+ - [org.eclipse.jetty](https://repo1.maven.org/maven2/org/eclipse/jetty/)
+    - [jetty-http](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/) **[12.0.8](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/12.0.8)** < [12.0.9](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/12.0.9/)
+    - [jetty-io](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/) **[12.0.8](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/12.0.8)** < [12.0.9](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/12.0.9/)
+    - [jetty-security](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-security/) **[12.0.8](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-security/12.0.8)** < [12.0.9](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-security/12.0.9/)
+    - [jetty-server](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-server/) **[12.0.8](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-server/12.0.8)** < [12.0.9](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-server/12.0.9/)
+    - [jetty-session](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-session/) **[12.0.8](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-session/12.0.8)** < [12.0.9](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-session/12.0.9/)
+    - [jetty-util](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/) **[12.0.8](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/12.0.8)** < [12.0.9](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/12.0.9/)
+    - [jetty-util-ajax](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util-ajax/) **[12.0.8](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util-ajax/12.0.8)** < [12.0.9](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util-ajax/12.0.9/)
+ - [org.eclipse.jetty.ee8](https://repo1.maven.org/maven2/org/eclipse/jetty/ee8/)
+    - [jetty-ee8-apache-jsp](https://repo1.maven.org/maven2/org/eclipse/jetty/ee8/jetty-ee8-apache-jsp/) **[12.0.8](https://repo1.maven.org/maven2/org/eclipse/jetty/ee8/jetty-ee8-apache-jsp/12.0.8)** < [12.0.9](https://repo1.maven.org/maven2/org/eclipse/jetty/ee8/jetty-ee8-apache-jsp/12.0.9/)
+    - [jetty-ee8-nested](https://repo1.maven.org/maven2/org/eclipse/jetty/ee8/jetty-ee8-nested/) **[12.0.8](https://repo1.maven.org/maven2/org/eclipse/jetty/ee8/jetty-ee8-nested/12.0.8)** < [12.0.9](https://repo1.maven.org/maven2/org/eclipse/jetty/ee8/jetty-ee8-nested/12.0.9/)
+    - [jetty-ee8-security](https://repo1.maven.org/maven2/org/eclipse/jetty/ee8/jetty-ee8-security/) **[12.0.8](https://repo1.maven.org/maven2/org/eclipse/jetty/ee8/jetty-ee8-security/12.0.8)** < [12.0.9](https://repo1.maven.org/maven2/org/eclipse/jetty/ee8/jetty-ee8-security/12.0.9/)
+    - [jetty-ee8-servlet](https://repo1.maven.org/maven2/org/eclipse/jetty/ee8/jetty-ee8-servlet/) **[12.0.8](https://repo1.maven.org/maven2/org/eclipse/jetty/ee8/jetty-ee8-servlet/12.0.8)** < [12.0.9](https://repo1.maven.org/maven2/org/eclipse/jetty/ee8/jetty-ee8-servlet/12.0.9/)
 
 ## Major Updates
  - [jakarta.annotation](https://repo1.maven.org/maven2/jakarta/annotation/)
@@ -136,7 +147,7 @@
     - [apache-el](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-el/) **[9.0.83.1](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-el/9.0.83.1)**
     - [apache-jsp](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-jsp/) **[9.0.83.1](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-jsp/9.0.83.1)**
  - [org.objenesis](https://repo1.maven.org/maven2/org/objenesis/)
-    - [objenesis](https://repo1.maven.org/maven2/org/objenesis/objenesis/) **[3.3](https://repo1.maven.org/maven2/org/objenesis/objenesis/3.3)**
+    - [objenesis](https://repo1.maven.org/maven2/org/objenesis/objenesis/) **[3.4](https://repo1.maven.org/maven2/org/objenesis/objenesis/3.4)**
  - [org.opentest4j](https://repo1.maven.org/maven2/org/opentest4j/)
     - [opentest4j](https://repo1.maven.org/maven2/org/opentest4j/opentest4j/) **[1.3.0](https://repo1.maven.org/maven2/org/opentest4j/opentest4j/1.3.0)**
  - [org.osgi](https://repo1.maven.org/maven2/org/osgi/)

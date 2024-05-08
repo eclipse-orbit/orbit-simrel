@@ -12,7 +12,7 @@ jetty-bom=https://raw.githubusercontent.com/eclipse-orbit/orbit-simrel/main/mave
 // I.e., some of these are not bundles, some depend on jdk incubator features, and BOMs are only for analysis.
 //
 -exclude
-org.eclipse.jetty(.ee[^:]*|.quic|.demos)?:(jetty-http-tools|jetty-ee[0-9]+-runner|jetty-quic-quiche-foreign-incubator|jetty-demo-handler|.*-bom|.*-maven-plugin):.* // Ignore Jetty artifacts that are not bundles
+org.eclipse.jetty(.ee[^:]*|.quic|.demos)?:(jetty-http-tools|jetty-ee[0-9]+-runner|jetty-quic-quiche-foreign(-incubator)?|jetty-demo-handler|.*-bom|.*-maven-plugin):.* // Ignore Jetty artifacts that are not bundles
 
 
 // There are dependencies for which we want to update to major versions automatically because these provides mostly only increment to major versions.
