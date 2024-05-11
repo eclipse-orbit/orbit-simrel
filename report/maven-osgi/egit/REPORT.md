@@ -22,7 +22,7 @@
     - [bcprov-jdk18on](https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk18on/) **[1.77](https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk18on/1.77)** < [1.78.1](https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk18on/1.78.1/)
     - [bcutil-jdk18on](https://repo1.maven.org/maven2/org/bouncycastle/bcutil-jdk18on/) **[1.77](https://repo1.maven.org/maven2/org/bouncycastle/bcutil-jdk18on/1.77)** < [1.78.1](https://repo1.maven.org/maven2/org/bouncycastle/bcutil-jdk18on/1.78.1/)
  - [org.mockito](https://repo1.maven.org/maven2/org/mockito/)
-    - [mockito-core](https://repo1.maven.org/maven2/org/mockito/mockito-core/) **[5.10.0](https://repo1.maven.org/maven2/org/mockito/mockito-core/5.10.0)** < [5.11.0](https://repo1.maven.org/maven2/org/mockito/mockito-core/5.11.0/)
+    - [mockito-core](https://repo1.maven.org/maven2/org/mockito/mockito-core/) **[5.10.0](https://repo1.maven.org/maven2/org/mockito/mockito-core/5.10.0)** < [5.12.0](https://repo1.maven.org/maven2/org/mockito/mockito-core/5.12.0/)
 
 ## Major Updates
  - [jakarta.servlet](https://repo1.maven.org/maven2/jakarta/servlet/)
