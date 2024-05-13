@@ -11,6 +11,7 @@ wwd=https://raw.githubusercontent.com/eclipse/wildwebdeveloper/master/target-pla
 linuxtools=https://raw.githubusercontent.com/eclipse-linuxtools/org.eclipse.linuxtools/master/releng/org.eclipse.linuxtools.target/linuxtools-e4.32.target
 egit=https://raw.githubusercontent.com/eclipse-egit/egit/master/org.eclipse.egit.target/egit-4.31.target
 cdt=https://raw.githubusercontent.com/eclipse-cdt/cdt/main/releng/org.eclipse.cdt.target/cdt.target
+cdt-lsp=https://raw.githubusercontent.com/eclipse-cdt/cdt-lsp/master/releng/org.eclipse.cdt.lsp.target/org.eclipse.cdt.lsp.target.target
 passage=https://raw.githubusercontent.com/eclipse-passage/passage/master/releng/org.eclipse.passage.target/org.eclipse.passage.target.target
 jdt-ls=https://raw.githubusercontent.com/eclipse-jdtls/eclipse.jdt.ls/master/org.eclipse.jdt.ls.target/org.eclipse.jdt.ls.tp.target
 
