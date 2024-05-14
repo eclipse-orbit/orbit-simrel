@@ -1867,7 +1867,7 @@ SPDX-License-Identifier: EPL-2.0
         </dependency>
       </dependencies>
       <instructions>
-<!-- SHA1 8d00dd99c5f2d0e86332a479f283a11815262fee -->
+<!-- SHA1 4d88a02e2845f9a4ce30a6867c6dde9c810afb67 -->
 <![CDATA[
 Bundle-Name:            Bundle ${mvnGroupId} : ${mvnArtifactId}
 version:                ${versionmask;===;${version_cleanup;${mvnVersion}}}

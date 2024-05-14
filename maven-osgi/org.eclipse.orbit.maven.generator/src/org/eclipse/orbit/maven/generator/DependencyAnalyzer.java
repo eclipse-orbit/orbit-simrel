@@ -276,11 +276,16 @@ public class DependencyAnalyzer {
 			var versions = entry.getValue();
 			var version = versions.get(0);
 			if (!ignoreMajor || version.compareTo(nextMajor) < 0) {
+				var typePattern = "<type>" + Pattern.quote(type) + "</type>";
+				if ("jar".equals(type)) {
+					// jar is the default so in that case it's optional.
+					typePattern = "(:?" + type + ")?";
+				}
 				Pattern pattern = Pattern.compile("(<dependency>[^<]*" + //
 						"<groupId>" + Pattern.quote(groupId) + "</groupId>[^<]*" + //
 						"<artifactId>" + Pattern.quote(artifactId) + "</artifactId>[^<]*" + //
 						"<version>)" + Pattern.quote(actualVersion.toString()) + "(</version>[^<]*" + //
-						"<type>" + Pattern.quote(type) + "</type>" + //
+						typePattern + //
 						(classifier == null ? "" : "[^<]*<classifier>" + Pattern.quote(classifier) + "</classifier>") + //
 						")", //
 						Pattern.MULTILINE | Pattern.DOTALL);
