@@ -45,8 +45,8 @@ public class Analyzer {
 			+ "<groupId>(?<groupId>.*?)</groupId>\\s*" //
 			+ "<artifactId>(?<artifactId>.*?)</artifactId>\\s*" //
 			+ "<version>(?<version>.*?)</version>\\s*" //
-			+ "(:?<type>(?<type>.*?)</type>)?" //
-			+ "(:?\\s*<classifier>(?<classifier>.*?)</classifier>)?.*?" //
+			+ "(?:<type>(?<type>.*?)</type>)?" //
+			+ "(?:\\s*<classifier>(?<classifier>.*?)</classifier>)?.*?" //
 			+ "</dependency>", //
 			Pattern.MULTILINE | Pattern.DOTALL);
 
