@@ -91,7 +91,7 @@
  - [com.glazedlists](https://repo1.maven.org/maven2/com/glazedlists/)
     - [glazedlists](https://repo1.maven.org/maven2/com/glazedlists/glazedlists/) **[1.11.0](https://repo1.maven.org/maven2/com/glazedlists/glazedlists/1.11.0)**
  - [com.google.code.gson](https://repo1.maven.org/maven2/com/google/code/gson/)
-    - [gson](https://repo1.maven.org/maven2/com/google/code/gson/gson/) **[2.10.1](https://repo1.maven.org/maven2/com/google/code/gson/gson/2.10.1)**
+    - [gson](https://repo1.maven.org/maven2/com/google/code/gson/gson/) **[2.11.0](https://repo1.maven.org/maven2/com/google/code/gson/gson/2.11.0)**
  - [com.google.errorprone](https://repo1.maven.org/maven2/com/google/errorprone/)
     - [error_prone_annotations](https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/) **[2.27.1](https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.27.1)**
  - [com.google.guava](https://repo1.maven.org/maven2/com/google/guava/)
