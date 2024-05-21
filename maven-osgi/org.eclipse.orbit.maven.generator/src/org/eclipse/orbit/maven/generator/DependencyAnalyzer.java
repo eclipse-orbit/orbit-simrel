@@ -593,7 +593,6 @@ public class DependencyAnalyzer {
 					var actualVersion = new Version(version);
 					String classifier = matcher.group(4);
 					String type = matcher.group(5);
-					System.err.println(groupId + ':' + artifactId + ':' + version);
 					dependencies.add(new Dependency(groupId, artifactId, type == null ? "jar" : type, actualVersion,
 							classifier));
 				}
