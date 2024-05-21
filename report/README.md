@@ -15,7 +15,6 @@ as well as from the locally-defined [supplement](../maven-osgi/tp/other/MavenSup
 - [jgit](maven-osgi/jgit/REPORT.md)
 - [linuxtools](maven-osgi/linuxtools/REPORT.md)
 - [m2e](maven-osgi/m2e/REPORT.md)
-- [passage](maven-osgi/passage/REPORT.md)
 - [platform](maven-osgi/platform/REPORT.md)
 - [supplement](maven-osgi/supplement/REPORT.md)
 - [windowbuilder](maven-osgi/windowbuilder/REPORT.md)
