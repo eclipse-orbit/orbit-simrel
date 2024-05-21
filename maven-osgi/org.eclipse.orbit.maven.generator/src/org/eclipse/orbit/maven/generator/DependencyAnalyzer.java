@@ -69,17 +69,13 @@ public class DependencyAnalyzer {
 
 		var argsFile = getArgument(arguments, "-args");
 		if (argsFile != null) {
-			// Strip comments but be careful that // is used in URIs.
-			var argsFileContent = Files.readString(Path.of(argsFile)).replaceAll("(?m)(^| )//[^\r\n]*", "");
-			for (Matcher matcher = ARGUMENT_PATTERN.matcher(argsFileContent); matcher.find();) {
-				var quotedContent = matcher.group(1);
-				if (quotedContent != null) {
-					arguments.add(quotedContent);
-				}
-				var regularContent = matcher.group(2);
-				if (regularContent != null) {
-					arguments.add(regularContent);
-				}
+			expandArguments(Path.of(argsFile), arguments);
+
+			// Process additional arguments, i.e., ones that are locally meaningful but not
+			// meant to be checked in.
+			Path extra = Path.of(argsFile.replaceAll("\\.txt", "-extra.txt"));
+			if (Files.isRegularFile(extra)) {
+				expandArguments(extra, arguments);
 			}
 		}
 
@@ -107,14 +103,17 @@ public class DependencyAnalyzer {
 		var dependencies = new TreeSet<Dependency>();
 		var reporter = new Reporter(getArgument(arguments, "-report"));
 		var targets = new TreeMap<>(getArguments(arguments, "-targets").stream().map(it -> it.split("="))
-				.collect(Collectors.toMap(it -> it[0], it -> it[1])));
+				.collect(Collectors.toMap(it -> it[0], it -> URI.create(it[1]))));
+		var localTargets = new TreeMap<>(getArguments(arguments, "-local-targets").stream().map(it -> it.split("="))
+				.collect(Collectors.toMap(it -> it[0], it -> Path.of(it[1]))));
 		for (var target : targets.entrySet()) {
-			var uri = createURI(target.getValue());
+			var uri = target.getValue();
 			System.out.println("Analyzing " + uri);
 
 			if (!update && !bomUpdate) {
 				String label = target.getKey();
-				reporter.generateReport(contentHandler, analyzer, label, uri, majorInclusionPatterns);
+				reporter.generateReport(contentHandler, analyzer, label, uri, localTargets.get(label),
+						majorInclusionPatterns);
 			}
 
 			dependencies.addAll(analyzer.getTargetDependencies(uri));
@@ -192,11 +191,12 @@ public class DependencyAnalyzer {
 
 			var reducedMavenTarget = update ? mavenTargetContent
 					: mavenTargetContent.replaceFirst("(?s)(<dependencies>).*?(\r?\n[\t ]+</dependencies>)", "$1$2");
-			var newMavenContent = replace(reducedMavenTarget, dependencyUpdates, true, !update, majorInclusionPatterns);
+			var newMavenContent = replace(reducedMavenTarget, dependencyUpdates, true, !update, false,
+					majorInclusionPatterns);
 			writeString(mavenTarget, newMavenContent);
 
 			reporter.generateReport(contentHandler, analyzer, MERGED_TARGET_NAME,
-					mergeURI == null ? mavenTarget.toUri() : createURI(mergeURI), majorInclusionPatterns);
+					mergeURI == null ? mavenTarget.toUri() : createURI(mergeURI), null, majorInclusionPatterns);
 
 			// This analyzes all the dependencies and updates, but does so after the report
 			// for the non-excluded content has been generated.
@@ -206,9 +206,24 @@ public class DependencyAnalyzer {
 				var targetDependencyVersions = analyzer.getAllUpdateVersions(targetDependencies);
 
 				mavenTargetContent = contentHandler.getContent(mavenTarget.toUri());
-				var newContent = replace(mavenTargetContent, targetDependencyVersions, true, false,
+				var newContent = replace(mavenTargetContent, targetDependencyVersions, true, false, false,
 						majorInclusionPatterns);
 				writeString(mavenTarget, newContent);
+			}
+		}
+	}
+
+	private static void expandArguments(Path argsFilePath, List<String> arguments) throws IOException {
+		// Strip comments but be careful that // is used in URIs
+		var argsFileContent = Files.readString(argsFilePath).replaceAll("(?m)(^| )//[^\r\n]*", "");
+		for (Matcher matcher = ARGUMENT_PATTERN.matcher(argsFileContent); matcher.find();) {
+			var quotedContent = matcher.group(1);
+			if (quotedContent != null) {
+				arguments.add(quotedContent);
+			}
+			var regularContent = matcher.group(2);
+			if (regularContent != null) {
+				arguments.add(regularContent);
 			}
 		}
 	}
@@ -254,7 +269,7 @@ public class DependencyAnalyzer {
 
 	private static final Pattern LOCAL_URI_PATTERN = Pattern.compile("local:(.*)");
 
-	private static URI createURI(String uri) {
+	private static final URI createURI(String uri) {
 		Matcher matcher = LOCAL_URI_PATTERN.matcher(uri);
 		return matcher.matches() ? Path.of(matcher.group(1)).toAbsolutePath().toUri() : URI.create(uri);
 	}
@@ -262,7 +277,7 @@ public class DependencyAnalyzer {
 	private static final Pattern INDENTATION_PATTERN = Pattern.compile(".*>\r?\n(\\s+)<locations>.*", Pattern.DOTALL);
 
 	private static String replace(String content, Map<Dependency, List<Version>> dependencies, boolean ignoreMajor,
-			boolean addMissing, List<Pattern> majorInclusions) {
+			boolean addMissing, boolean isTPD, List<Pattern> majorInclusions) {
 		var indentation = INDENTATION_PATTERN.matcher(content).replaceAll("$1");
 		for (var entry : dependencies.entrySet()) {
 			var dependency = entry.getKey();
@@ -281,14 +296,33 @@ public class DependencyAnalyzer {
 					// jar is the default so in that case it's optional.
 					typePattern = "(?:" + type + ")?";
 				}
-				Pattern pattern = Pattern.compile("(<dependency>[^<]*" + //
-						"<groupId>" + Pattern.quote(groupId) + "</groupId>[^<]*" + //
-						"<artifactId>" + Pattern.quote(artifactId) + "</artifactId>[^<]*" + //
-						"<version>)" + Pattern.quote(actualVersion.toString()) + "(</version>[^<]*" + //
-						typePattern + //
-						(classifier == null ? "" : "[^<]*<classifier>" + Pattern.quote(classifier) + "</classifier>") + //
-						")", //
-						Pattern.MULTILINE | Pattern.DOTALL);
+				Pattern pattern = //
+						Pattern.compile(isTPD ? //
+								"(dependency" + //
+										"\\s*\\{" + //
+										"\\s*groupId\\s*=\\s*\"" + Pattern.quote(groupId) + "\"" + //
+										"\\s*artifactId\\s*=\\s*\"" + Pattern.quote(artifactId) + "\"" + //
+										"\\s*version\\s*=\\s*\")" + Pattern.quote(actualVersion.toString()) + "(\"" + //
+										(classifier == null ? ""
+												: "\\s*classifier\\s*=\\s*\"" + Pattern.quote(classifier) + "\"")
+										+ //
+										("jar".equals(type) ? //
+												"(?:\\s*type\\s*=\\s*\"" + Pattern.quote(type) + "\")?" : //
+												"\\s*type\\s*=\\s*\"" + Pattern.quote(type) + "\"")
+										+ //
+										"\\s*\\}" + //
+										")" //
+								: //
+								"(<dependency>[^<]*" + //
+										"<groupId>" + Pattern.quote(groupId) + "</groupId>[^<]*" + //
+										"<artifactId>" + Pattern.quote(artifactId) + "</artifactId>[^<]*" + //
+										"<version>)" + Pattern.quote(actualVersion.toString()) + "(</version>[^<]*" + //
+										typePattern + //
+										(classifier == null ? ""
+												: "[^<]*<classifier>" + Pattern.quote(classifier) + "</classifier>")
+										+ //
+										")", //
+								Pattern.MULTILINE | Pattern.DOTALL);
 				Matcher matcher = pattern.matcher(content);
 				if (matcher.find()) {
 					StringBuilder builder = new StringBuilder();
@@ -356,7 +390,7 @@ public class DependencyAnalyzer {
 		return s1.compareTo(s2);
 	}
 
-	private static Pattern NL_PATTERN = Pattern.compile("\r?\n");
+	private static final Pattern NL_PATTERN = Pattern.compile("\r?\n");
 
 	private static void writeString(Path path, CharSequence string) throws IOException {
 		if (Files.isRegularFile(path)) {
@@ -368,7 +402,7 @@ public class DependencyAnalyzer {
 		Files.writeString(path, string);
 	}
 
-	static final XPathFactory XPATH_FACTORY = XPathFactory.newInstance();
+	private static final XPathFactory XPATH_FACTORY = XPathFactory.newInstance();
 
 	private static List<Element> evaluate(Node node, String expression) {
 		XPath xPath = XPATH_FACTORY.newXPath();
@@ -382,6 +416,10 @@ public class DependencyAnalyzer {
 		} catch (XPathExpressionException e) {
 			throw new IllegalArgumentException(expression);
 		}
+	}
+
+	private static boolean isTPD(URI uri) {
+		return uri.toString().endsWith(".tpd");
 	}
 
 	private static class Reporter {
@@ -400,7 +438,7 @@ public class DependencyAnalyzer {
 			}
 		}
 
-		public void generateReport(ContentHandler contentHandler, Analyzer analyzer, String name, URI uri,
+		public void generateReport(ContentHandler contentHandler, Analyzer analyzer, String name, URI uri, Path local,
 				List<Pattern> majorInclusions) throws IOException {
 			if (reportRoot == null) {
 				return;
@@ -411,16 +449,22 @@ public class DependencyAnalyzer {
 			var report = reportRoot.resolve(name);
 			Files.createDirectories(report);
 
+			boolean isTPD = isTPD(uri);
+			var suffix = isTPD ? ".tpd" : ".target";
+
 			if (!MERGED_TARGET_NAME.equals(name)) {
-				writeString(report.resolve("original.target"), content);
+				writeString(report.resolve("original" + suffix), content);
 			}
 
 			var targetDependencies = analyzer.getTargetDependencies(uri, Pattern.compile(".*\\.exclude.*"));
 			var targetDependencyVersions = analyzer.getAllUpdateVersions(targetDependencies);
-			var newContent = replace(content, targetDependencyVersions, true, false, majorInclusions);
+			var newContent = replace(content, targetDependencyVersions, true, false, isTPD, majorInclusions);
 
 			if (!MERGED_TARGET_NAME.equals(name)) {
-				writeString(report.resolve("updated.target"), newContent);
+				writeString(report.resolve("updated" + suffix), newContent);
+				if (local != null) {
+					writeString(local, newContent);
+				}
 			}
 
 			try (var out = new PrintStream(Files.newOutputStream(report.resolve("REPORT.md")), false,
@@ -473,7 +517,7 @@ public class DependencyAnalyzer {
 					out.println();
 					out.print("## Updates Applied");
 					out.println();
-					out.println(getMDLink("updated.target", "updated.target"));
+					out.println(getMDLink("updated" + suffix, "updated" + suffix));
 				}
 
 				out.println();
@@ -527,29 +571,54 @@ public class DependencyAnalyzer {
 			return getTargetDependencies(location, null);
 		}
 
+		private static final Pattern TPD_DEPENDENCY = //
+				Pattern.compile("dependency" + //
+						"\\s*\\{" + //
+						"\\s*groupId\\s*=\\s*\"([^\"]+)\"" + //
+						"\\s*artifactId\\s*=\\s*\"([^\"]+)\"" + //
+						"\\s*version\\s*=\\s*\"([^\"]+)\"" + //
+						"(?:\\s*classifier\\s*=\\s*\"([^\"]+)\")?" + //
+						"(?:\\s*type\\s*=\\s*\"([^\"]+)\")?" + //
+						"\\s*\\}", Pattern.MULTILINE | Pattern.DOTALL);
+
 		public List<Dependency> getTargetDependencies(URI location, Pattern excludedFeaturesPattern)
 				throws IOException {
-			var targetPlatform = contentHandler.getXMLContent(location);
-			var mavenDependencies = evaluate(targetPlatform, "//dependency");
 			var dependencies = new ArrayList<Dependency>();
-			for (var mavenDependency : mavenDependencies) {
-				if (excludedFeaturesPattern != null) {
-					var features = evaluate(mavenDependency, "../../feature");
-					if (!features.isEmpty()) {
-						String id = features.get(0).getAttribute("id");
-						if (id != null && excludedFeaturesPattern.matcher(id).matches()) {
-							continue;
+			if (isTPD(location)) {
+				var content = contentHandler.getContent(location);
+				for (Matcher matcher = TPD_DEPENDENCY.matcher(content); matcher.find();) {
+					String groupId = matcher.group(1);
+					String artifactId = matcher.group(2);
+					String version = matcher.group(3);
+					var actualVersion = new Version(version);
+					String classifier = matcher.group(4);
+					String type = matcher.group(5);
+					System.err.println(groupId + ':' + artifactId + ':' + version);
+					dependencies.add(new Dependency(groupId, artifactId, type == null ? "jar" : type, actualVersion,
+							classifier));
+				}
+			} else {
+				var targetPlatform = contentHandler.getXMLContent(location);
+				var mavenDependencies = evaluate(targetPlatform, "//dependency");
+				for (var mavenDependency : mavenDependencies) {
+					if (excludedFeaturesPattern != null) {
+						var features = evaluate(mavenDependency, "../../feature");
+						if (!features.isEmpty()) {
+							String id = features.get(0).getAttribute("id");
+							if (id != null && excludedFeaturesPattern.matcher(id).matches()) {
+								continue;
+							}
 						}
 					}
+					var groupId = getText(mavenDependency, "groupId");
+					var artifactId = getText(mavenDependency, "artifactId");
+					var version = getText(mavenDependency, "version");
+					var actualVersion = new Version(version);
+					var type = getText(mavenDependency, "type");
+					var classifier = getText(mavenDependency, "classifier");
+					dependencies.add(new Dependency(groupId, artifactId, type == null ? "jar" : type, actualVersion,
+							classifier));
 				}
-				var groupId = getText(mavenDependency, "groupId");
-				var artifactId = getText(mavenDependency, "artifactId");
-				var version = getText(mavenDependency, "version");
-				var actualVersion = new Version(version);
-				var type = getText(mavenDependency, "type");
-				var classifier = getText(mavenDependency, "classifier");
-				dependencies.add(
-						new Dependency(groupId, artifactId, type == null ? "jar" : type, actualVersion, classifier));
 			}
 
 			Collections.sort(dependencies);
@@ -635,10 +704,10 @@ public class DependencyAnalyzer {
 					.collect(Collectors.toList());
 		}
 
-		private static Pattern INCLUDED_QUALIFIER = Pattern
+		private static final Pattern INCLUDED_QUALIFIER = Pattern
 				.compile("[-.][0-9]+|[.]v20[0-9]+|-ga|-GA|-jre|[.]20[0-9]+-[0-9]+");
 
-		private static Pattern INCLUDED_PURE_QUALIFIER = Pattern.compile("v20[0-9]+");
+		private static final Pattern INCLUDED_PURE_QUALIFIER = Pattern.compile("v20[0-9]+");
 
 		private boolean isIncludedQualifier(Version version) {
 			var qualifier = version.qualifier;
@@ -890,7 +959,7 @@ public class DependencyAnalyzer {
 
 	public static class ContentHandler {
 
-		private static Map<URI, URI> REDIRECTIONS = new HashMap<>();
+		private static final Map<URI, URI> REDIRECTIONS = new HashMap<>();
 
 		private Path cache;
 

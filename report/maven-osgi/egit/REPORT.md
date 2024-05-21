@@ -1,4 +1,4 @@
-# Target Platform: [egit](https://raw.githubusercontent.com/eclipse-egit/egit/master/org.eclipse.egit.target/egit-4.32.target)
+# Target Platform: [egit](https://raw.githubusercontent.com/eclipse-egit/egit/master/org.eclipse.egit.target/maven/dependencies.tpd)
 
 ## Minor Updates
  - [com.google.code.gson](https://repo1.maven.org/maven2/com/google/code/gson/)
@@ -33,7 +33,7 @@
     - [slf4j-simple](https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/) **[1.7.36](https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/1.7.36)** < [2.0.13](https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/2.0.13/)
 
 ## Updates Applied
-[updated.target](updated.target)
+[updated.tpd](updated.tpd)
 
 ## Content
  - [args4j](https://repo1.maven.org/maven2/args4j/)
