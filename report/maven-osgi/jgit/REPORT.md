@@ -1,8 +1,9 @@
 # Target Platform: [jgit](https://raw.githubusercontent.com/eclipse-jgit/jgit/master/org.eclipse.jgit.packaging/org.eclipse.jgit.target/maven/dependencies.tpd)
 
 ## Minor Updates
- - [com.google.code.gson](https://repo1.maven.org/maven2/com/google/code/gson/)
-    - [gson](https://repo1.maven.org/maven2/com/google/code/gson/gson/) **[2.10.1](https://repo1.maven.org/maven2/com/google/code/gson/gson/2.10.1)** < [2.11.0](https://repo1.maven.org/maven2/com/google/code/gson/gson/2.11.0/)
+ - [net.bytebuddy](https://repo1.maven.org/maven2/net/bytebuddy/)
+    - [byte-buddy](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/) **[1.14.15](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.14.15)** < [1.14.16](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.14.16/)
+    - [byte-buddy-agent](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/) **[1.14.15](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.14.15)** < [1.14.16](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.14.16/)
 
 ## Major Updates
  - [jakarta.servlet](https://repo1.maven.org/maven2/jakarta/servlet/)
@@ -26,7 +27,7 @@
  - [args4j](https://repo1.maven.org/maven2/args4j/)
     - [args4j](https://repo1.maven.org/maven2/args4j/args4j/) **[2.37](https://repo1.maven.org/maven2/args4j/args4j/2.37)**
  - [com.google.code.gson](https://repo1.maven.org/maven2/com/google/code/gson/)
-    - [gson](https://repo1.maven.org/maven2/com/google/code/gson/gson/) **[2.10.1](https://repo1.maven.org/maven2/com/google/code/gson/gson/2.10.1)**
+    - [gson](https://repo1.maven.org/maven2/com/google/code/gson/gson/) **[2.11.0](https://repo1.maven.org/maven2/com/google/code/gson/gson/2.11.0)**
  - [com.googlecode.javaewah](https://repo1.maven.org/maven2/com/googlecode/javaewah/)
     - [JavaEWAH](https://repo1.maven.org/maven2/com/googlecode/javaewah/JavaEWAH/) **[1.2.3](https://repo1.maven.org/maven2/com/googlecode/javaewah/JavaEWAH/1.2.3)**
  - [commons-codec](https://repo1.maven.org/maven2/commons-codec/)

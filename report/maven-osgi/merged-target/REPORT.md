@@ -186,8 +186,8 @@
     - [jakarta.transaction-api](https://repo1.maven.org/maven2/jakarta/transaction/jakarta.transaction-api/) **[2.0.1](https://repo1.maven.org/maven2/jakarta/transaction/jakarta.transaction-api/2.0.1)**
  - [jakarta.websocket](https://repo1.maven.org/maven2/jakarta/websocket/)
     - [jakarta.websocket-api](https://repo1.maven.org/maven2/jakarta/websocket/jakarta.websocket-api/) **[1.1.2](https://repo1.maven.org/maven2/jakarta/websocket/jakarta.websocket-api/1.1.2)**
-    - [jakarta.websocket-api](https://repo1.maven.org/maven2/jakarta/websocket/jakarta.websocket-api/) **[2.1.1](https://repo1.maven.org/maven2/jakarta/websocket/jakarta.websocket-api/2.1.1)**
-    - [jakarta.websocket-client-api](https://repo1.maven.org/maven2/jakarta/websocket/jakarta.websocket-client-api/) **[2.1.1](https://repo1.maven.org/maven2/jakarta/websocket/jakarta.websocket-client-api/2.1.1)**
+    - [jakarta.websocket-api](https://repo1.maven.org/maven2/jakarta/websocket/jakarta.websocket-api/) **[2.2.0](https://repo1.maven.org/maven2/jakarta/websocket/jakarta.websocket-api/2.2.0)**
+    - [jakarta.websocket-client-api](https://repo1.maven.org/maven2/jakarta/websocket/jakarta.websocket-client-api/) **[2.2.0](https://repo1.maven.org/maven2/jakarta/websocket/jakarta.websocket-client-api/2.2.0)**
  - [jakarta.ws.rs](https://repo1.maven.org/maven2/jakarta/ws/rs/)
     - [jakarta.ws.rs-api](https://repo1.maven.org/maven2/jakarta/ws/rs/jakarta.ws.rs-api/) **[2.1.6](https://repo1.maven.org/maven2/jakarta/ws/rs/jakarta.ws.rs-api/2.1.6)**
     - [jakarta.ws.rs-api](https://repo1.maven.org/maven2/jakarta/ws/rs/jakarta.ws.rs-api/) **[3.1.0](https://repo1.maven.org/maven2/jakarta/ws/rs/jakarta.ws.rs-api/3.1.0)**
@@ -209,8 +209,8 @@
  - [lpg.runtime](https://repo1.maven.org/maven2/lpg/runtime/)
     - [java](https://repo1.maven.org/maven2/lpg/runtime/java/) **[2.0.17-v201004271640](https://repo1.maven.org/maven2/lpg/runtime/java/2.0.17-v201004271640)**
  - [net.bytebuddy](https://repo1.maven.org/maven2/net/bytebuddy/)
-    - [byte-buddy](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/) **[1.14.15](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.14.15)**
-    - [byte-buddy-agent](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/) **[1.14.15](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.14.15)**
+    - [byte-buddy](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/) **[1.14.16](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.14.16)**
+    - [byte-buddy-agent](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/) **[1.14.16](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.14.16)**
  - [net.i2p.crypto](https://repo1.maven.org/maven2/net/i2p/crypto/)
     - [eddsa](https://repo1.maven.org/maven2/net/i2p/crypto/eddsa/) **[0.3.0](https://repo1.maven.org/maven2/net/i2p/crypto/eddsa/0.3.0)**
  - [net.java.dev.jna](https://repo1.maven.org/maven2/net/java/dev/jna/)

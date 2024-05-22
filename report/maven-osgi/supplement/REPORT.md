@@ -139,8 +139,8 @@
     - [jakarta.transaction-api](https://repo1.maven.org/maven2/jakarta/transaction/jakarta.transaction-api/) **[2.0.1](https://repo1.maven.org/maven2/jakarta/transaction/jakarta.transaction-api/2.0.1)**
  - [jakarta.websocket](https://repo1.maven.org/maven2/jakarta/websocket/)
     - [jakarta.websocket-api](https://repo1.maven.org/maven2/jakarta/websocket/jakarta.websocket-api/) **[1.1.2](https://repo1.maven.org/maven2/jakarta/websocket/jakarta.websocket-api/1.1.2)**
-    - [jakarta.websocket-api](https://repo1.maven.org/maven2/jakarta/websocket/jakarta.websocket-api/) **[2.1.1](https://repo1.maven.org/maven2/jakarta/websocket/jakarta.websocket-api/2.1.1)**
-    - [jakarta.websocket-client-api](https://repo1.maven.org/maven2/jakarta/websocket/jakarta.websocket-client-api/) **[2.1.1](https://repo1.maven.org/maven2/jakarta/websocket/jakarta.websocket-client-api/2.1.1)**
+    - [jakarta.websocket-api](https://repo1.maven.org/maven2/jakarta/websocket/jakarta.websocket-api/) **[2.2.0](https://repo1.maven.org/maven2/jakarta/websocket/jakarta.websocket-api/2.2.0)**
+    - [jakarta.websocket-client-api](https://repo1.maven.org/maven2/jakarta/websocket/jakarta.websocket-client-api/) **[2.2.0](https://repo1.maven.org/maven2/jakarta/websocket/jakarta.websocket-client-api/2.2.0)**
  - [jakarta.ws.rs](https://repo1.maven.org/maven2/jakarta/ws/rs/)
     - [jakarta.ws.rs-api](https://repo1.maven.org/maven2/jakarta/ws/rs/jakarta.ws.rs-api/) **[2.1.6](https://repo1.maven.org/maven2/jakarta/ws/rs/jakarta.ws.rs-api/2.1.6)**
  - [jakarta.xml.rpc](https://repo1.maven.org/maven2/jakarta/xml/rpc/)
