@@ -34,8 +34,8 @@
  - [org.glassfish.hk2](https://repo1.maven.org/maven2/org/glassfish/hk2/)
     - [osgi-resource-locator](https://repo1.maven.org/maven2/org/glassfish/hk2/osgi-resource-locator/) **[1.0.3](https://repo1.maven.org/maven2/org/glassfish/hk2/osgi-resource-locator/1.0.3)** < [2.4.0](https://repo1.maven.org/maven2/org/glassfish/hk2/osgi-resource-locator/2.4.0/)
  - [org.glassfish.jersey.containers](https://repo1.maven.org/maven2/org/glassfish/jersey/containers/)
-    - [jersey-container-servlet](https://repo1.maven.org/maven2/org/glassfish/jersey/containers/jersey-container-servlet/) **[2.43](https://repo1.maven.org/maven2/org/glassfish/jersey/containers/jersey-container-servlet/2.43)** < [3.1.6](https://repo1.maven.org/maven2/org/glassfish/jersey/containers/jersey-container-servlet/3.1.6/)
-    - [jersey-container-servlet-core](https://repo1.maven.org/maven2/org/glassfish/jersey/containers/jersey-container-servlet-core/) **[2.43](https://repo1.maven.org/maven2/org/glassfish/jersey/containers/jersey-container-servlet-core/2.43)** < [3.1.6](https://repo1.maven.org/maven2/org/glassfish/jersey/containers/jersey-container-servlet-core/3.1.6/)
+    - [jersey-container-servlet](https://repo1.maven.org/maven2/org/glassfish/jersey/containers/jersey-container-servlet/) **[2.43](https://repo1.maven.org/maven2/org/glassfish/jersey/containers/jersey-container-servlet/2.43)** < [3.1.7](https://repo1.maven.org/maven2/org/glassfish/jersey/containers/jersey-container-servlet/3.1.7/)
+    - [jersey-container-servlet-core](https://repo1.maven.org/maven2/org/glassfish/jersey/containers/jersey-container-servlet-core/) **[2.43](https://repo1.maven.org/maven2/org/glassfish/jersey/containers/jersey-container-servlet-core/2.43)** < [3.1.7](https://repo1.maven.org/maven2/org/glassfish/jersey/containers/jersey-container-servlet-core/3.1.7/)
 
 ## Content
  - [args4j](https://repo1.maven.org/maven2/args4j/)
@@ -287,26 +287,26 @@
     - [osgi-resource-locator](https://repo1.maven.org/maven2/org/glassfish/hk2/osgi-resource-locator/) **[1.0.3](https://repo1.maven.org/maven2/org/glassfish/hk2/osgi-resource-locator/1.0.3)**
  - [org.glassfish.jersey.connectors](https://repo1.maven.org/maven2/org/glassfish/jersey/connectors/)
     - [jersey-apache-connector](https://repo1.maven.org/maven2/org/glassfish/jersey/connectors/jersey-apache-connector/) **[2.43](https://repo1.maven.org/maven2/org/glassfish/jersey/connectors/jersey-apache-connector/2.43)**
-    - [jersey-apache-connector](https://repo1.maven.org/maven2/org/glassfish/jersey/connectors/jersey-apache-connector/) **[3.1.6](https://repo1.maven.org/maven2/org/glassfish/jersey/connectors/jersey-apache-connector/3.1.6)**
+    - [jersey-apache-connector](https://repo1.maven.org/maven2/org/glassfish/jersey/connectors/jersey-apache-connector/) **[3.1.7](https://repo1.maven.org/maven2/org/glassfish/jersey/connectors/jersey-apache-connector/3.1.7)**
  - [org.glassfish.jersey.containers](https://repo1.maven.org/maven2/org/glassfish/jersey/containers/)
     - [jersey-container-servlet](https://repo1.maven.org/maven2/org/glassfish/jersey/containers/jersey-container-servlet/) **[2.43](https://repo1.maven.org/maven2/org/glassfish/jersey/containers/jersey-container-servlet/2.43)**
     - [jersey-container-servlet-core](https://repo1.maven.org/maven2/org/glassfish/jersey/containers/jersey-container-servlet-core/) **[2.43](https://repo1.maven.org/maven2/org/glassfish/jersey/containers/jersey-container-servlet-core/2.43)**
  - [org.glassfish.jersey.core](https://repo1.maven.org/maven2/org/glassfish/jersey/core/)
     - [jersey-client](https://repo1.maven.org/maven2/org/glassfish/jersey/core/jersey-client/) **[2.43](https://repo1.maven.org/maven2/org/glassfish/jersey/core/jersey-client/2.43)**
-    - [jersey-client](https://repo1.maven.org/maven2/org/glassfish/jersey/core/jersey-client/) **[3.1.6](https://repo1.maven.org/maven2/org/glassfish/jersey/core/jersey-client/3.1.6)**
+    - [jersey-client](https://repo1.maven.org/maven2/org/glassfish/jersey/core/jersey-client/) **[3.1.7](https://repo1.maven.org/maven2/org/glassfish/jersey/core/jersey-client/3.1.7)**
     - [jersey-common](https://repo1.maven.org/maven2/org/glassfish/jersey/core/jersey-common/) **[2.43](https://repo1.maven.org/maven2/org/glassfish/jersey/core/jersey-common/2.43)**
-    - [jersey-common](https://repo1.maven.org/maven2/org/glassfish/jersey/core/jersey-common/) **[3.1.6](https://repo1.maven.org/maven2/org/glassfish/jersey/core/jersey-common/3.1.6)**
+    - [jersey-common](https://repo1.maven.org/maven2/org/glassfish/jersey/core/jersey-common/) **[3.1.7](https://repo1.maven.org/maven2/org/glassfish/jersey/core/jersey-common/3.1.7)**
     - [jersey-server](https://repo1.maven.org/maven2/org/glassfish/jersey/core/jersey-server/) **[2.43](https://repo1.maven.org/maven2/org/glassfish/jersey/core/jersey-server/2.43)**
-    - [jersey-server](https://repo1.maven.org/maven2/org/glassfish/jersey/core/jersey-server/) **[3.1.6](https://repo1.maven.org/maven2/org/glassfish/jersey/core/jersey-server/3.1.6)**
+    - [jersey-server](https://repo1.maven.org/maven2/org/glassfish/jersey/core/jersey-server/) **[3.1.7](https://repo1.maven.org/maven2/org/glassfish/jersey/core/jersey-server/3.1.7)**
  - [org.glassfish.jersey.ext](https://repo1.maven.org/maven2/org/glassfish/jersey/ext/)
     - [jersey-entity-filtering](https://repo1.maven.org/maven2/org/glassfish/jersey/ext/jersey-entity-filtering/) **[2.43](https://repo1.maven.org/maven2/org/glassfish/jersey/ext/jersey-entity-filtering/2.43)**
-    - [jersey-entity-filtering](https://repo1.maven.org/maven2/org/glassfish/jersey/ext/jersey-entity-filtering/) **[3.1.6](https://repo1.maven.org/maven2/org/glassfish/jersey/ext/jersey-entity-filtering/3.1.6)**
+    - [jersey-entity-filtering](https://repo1.maven.org/maven2/org/glassfish/jersey/ext/jersey-entity-filtering/) **[3.1.7](https://repo1.maven.org/maven2/org/glassfish/jersey/ext/jersey-entity-filtering/3.1.7)**
  - [org.glassfish.jersey.inject](https://repo1.maven.org/maven2/org/glassfish/jersey/inject/)
     - [jersey-hk2](https://repo1.maven.org/maven2/org/glassfish/jersey/inject/jersey-hk2/) **[2.43](https://repo1.maven.org/maven2/org/glassfish/jersey/inject/jersey-hk2/2.43)**
-    - [jersey-hk2](https://repo1.maven.org/maven2/org/glassfish/jersey/inject/jersey-hk2/) **[3.1.6](https://repo1.maven.org/maven2/org/glassfish/jersey/inject/jersey-hk2/3.1.6)**
+    - [jersey-hk2](https://repo1.maven.org/maven2/org/glassfish/jersey/inject/jersey-hk2/) **[3.1.7](https://repo1.maven.org/maven2/org/glassfish/jersey/inject/jersey-hk2/3.1.7)**
  - [org.glassfish.jersey.media](https://repo1.maven.org/maven2/org/glassfish/jersey/media/)
     - [jersey-media-json-jackson](https://repo1.maven.org/maven2/org/glassfish/jersey/media/jersey-media-json-jackson/) **[2.43](https://repo1.maven.org/maven2/org/glassfish/jersey/media/jersey-media-json-jackson/2.43)**
-    - [jersey-media-json-jackson](https://repo1.maven.org/maven2/org/glassfish/jersey/media/jersey-media-json-jackson/) **[3.1.6](https://repo1.maven.org/maven2/org/glassfish/jersey/media/jersey-media-json-jackson/3.1.6)**
+    - [jersey-media-json-jackson](https://repo1.maven.org/maven2/org/glassfish/jersey/media/jersey-media-json-jackson/) **[3.1.7](https://repo1.maven.org/maven2/org/glassfish/jersey/media/jersey-media-json-jackson/3.1.7)**
  - [org.hamcrest](https://repo1.maven.org/maven2/org/hamcrest/)
     - [hamcrest](https://repo1.maven.org/maven2/org/hamcrest/hamcrest/) **[2.2](https://repo1.maven.org/maven2/org/hamcrest/hamcrest/2.2)**
  - [org.jacoco](https://repo1.maven.org/maven2/org/jacoco/)

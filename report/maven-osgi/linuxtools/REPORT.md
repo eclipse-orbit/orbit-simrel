@@ -3,6 +3,18 @@
 ## Minor Updates
  - [org.apache.commons](https://repo1.maven.org/maven2/org/apache/commons/)
     - [commons-compress](https://repo1.maven.org/maven2/org/apache/commons/commons-compress/) **[1.26.1](https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.26.1)** < [1.26.2](https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.26.2/)
+ - [org.glassfish.jersey.connectors](https://repo1.maven.org/maven2/org/glassfish/jersey/connectors/)
+    - [jersey-apache-connector](https://repo1.maven.org/maven2/org/glassfish/jersey/connectors/jersey-apache-connector/) **[3.1.6](https://repo1.maven.org/maven2/org/glassfish/jersey/connectors/jersey-apache-connector/3.1.6)** < [3.1.7](https://repo1.maven.org/maven2/org/glassfish/jersey/connectors/jersey-apache-connector/3.1.7/)
+ - [org.glassfish.jersey.core](https://repo1.maven.org/maven2/org/glassfish/jersey/core/)
+    - [jersey-client](https://repo1.maven.org/maven2/org/glassfish/jersey/core/jersey-client/) **[3.1.6](https://repo1.maven.org/maven2/org/glassfish/jersey/core/jersey-client/3.1.6)** < [3.1.7](https://repo1.maven.org/maven2/org/glassfish/jersey/core/jersey-client/3.1.7/)
+    - [jersey-common](https://repo1.maven.org/maven2/org/glassfish/jersey/core/jersey-common/) **[3.1.6](https://repo1.maven.org/maven2/org/glassfish/jersey/core/jersey-common/3.1.6)** < [3.1.7](https://repo1.maven.org/maven2/org/glassfish/jersey/core/jersey-common/3.1.7/)
+    - [jersey-server](https://repo1.maven.org/maven2/org/glassfish/jersey/core/jersey-server/) **[3.1.6](https://repo1.maven.org/maven2/org/glassfish/jersey/core/jersey-server/3.1.6)** < [3.1.7](https://repo1.maven.org/maven2/org/glassfish/jersey/core/jersey-server/3.1.7/)
+ - [org.glassfish.jersey.ext](https://repo1.maven.org/maven2/org/glassfish/jersey/ext/)
+    - [jersey-entity-filtering](https://repo1.maven.org/maven2/org/glassfish/jersey/ext/jersey-entity-filtering/) **[3.1.6](https://repo1.maven.org/maven2/org/glassfish/jersey/ext/jersey-entity-filtering/3.1.6)** < [3.1.7](https://repo1.maven.org/maven2/org/glassfish/jersey/ext/jersey-entity-filtering/3.1.7/)
+ - [org.glassfish.jersey.inject](https://repo1.maven.org/maven2/org/glassfish/jersey/inject/)
+    - [jersey-hk2](https://repo1.maven.org/maven2/org/glassfish/jersey/inject/jersey-hk2/) **[3.1.6](https://repo1.maven.org/maven2/org/glassfish/jersey/inject/jersey-hk2/3.1.6)** < [3.1.7](https://repo1.maven.org/maven2/org/glassfish/jersey/inject/jersey-hk2/3.1.7/)
+ - [org.glassfish.jersey.media](https://repo1.maven.org/maven2/org/glassfish/jersey/media/)
+    - [jersey-media-json-jackson](https://repo1.maven.org/maven2/org/glassfish/jersey/media/jersey-media-json-jackson/) **[3.1.6](https://repo1.maven.org/maven2/org/glassfish/jersey/media/jersey-media-json-jackson/3.1.6)** < [3.1.7](https://repo1.maven.org/maven2/org/glassfish/jersey/media/jersey-media-json-jackson/3.1.7/)
 
 ## Major Updates
  - [jakarta.ws.rs](https://repo1.maven.org/maven2/jakarta/ws/rs/)
