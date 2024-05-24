@@ -118,7 +118,7 @@
  - [commons-beanutils](https://repo1.maven.org/maven2/commons-beanutils/)
     - [commons-beanutils](https://repo1.maven.org/maven2/commons-beanutils/commons-beanutils/) **[1.9.4](https://repo1.maven.org/maven2/commons-beanutils/commons-beanutils/1.9.4)**
  - [commons-cli](https://repo1.maven.org/maven2/commons-cli/)
-    - [commons-cli](https://repo1.maven.org/maven2/commons-cli/commons-cli/) **[1.7.0](https://repo1.maven.org/maven2/commons-cli/commons-cli/1.7.0)**
+    - [commons-cli](https://repo1.maven.org/maven2/commons-cli/commons-cli/) **[1.8.0](https://repo1.maven.org/maven2/commons-cli/commons-cli/1.8.0)**
  - [commons-codec](https://repo1.maven.org/maven2/commons-codec/)
     - [commons-codec](https://repo1.maven.org/maven2/commons-codec/commons-codec/) **[1.17.0](https://repo1.maven.org/maven2/commons-codec/commons-codec/1.17.0)**
  - [commons-collections](https://repo1.maven.org/maven2/commons-collections/)
@@ -221,7 +221,7 @@
     - [org.apache.aries.spifly.dynamic.bundle](https://repo1.maven.org/maven2/org/apache/aries/spifly/org.apache.aries.spifly.dynamic.bundle/) **[1.3.7](https://repo1.maven.org/maven2/org/apache/aries/spifly/org.apache.aries.spifly.dynamic.bundle/1.3.7)**
  - [org.apache.commons](https://repo1.maven.org/maven2/org/apache/commons/)
     - [commons-collections4](https://repo1.maven.org/maven2/org/apache/commons/commons-collections4/) **[4.4](https://repo1.maven.org/maven2/org/apache/commons/commons-collections4/4.4)**
-    - [commons-compress](https://repo1.maven.org/maven2/org/apache/commons/commons-compress/) **[1.26.1](https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.26.1)**
+    - [commons-compress](https://repo1.maven.org/maven2/org/apache/commons/commons-compress/) **[1.26.2](https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.26.2)**
     - [commons-csv](https://repo1.maven.org/maven2/org/apache/commons/commons-csv/) **[1.11.0](https://repo1.maven.org/maven2/org/apache/commons/commons-csv/1.11.0)**
     - [commons-lang3](https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/) **[3.14.0](https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.14.0)**
     - [commons-math3](https://repo1.maven.org/maven2/org/apache/commons/commons-math3/) **[3.6.1](https://repo1.maven.org/maven2/org/apache/commons/commons-math3/3.6.1)**
