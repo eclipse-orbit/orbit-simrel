@@ -3,7 +3,7 @@
 <target name="Maven" sequenceNumber="1">
   <locations>
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="error" type="Maven">
-      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.32.0.v20240524-1500">
+      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.32.0.v20240527-0800">
         <description>This feature's dependencies are pulled directly from Maven central.</description>
         <copyright>
 Copyright (c) 2024 Eclipse contributors and others.
@@ -16,7 +16,7 @@ https://www.eclipse.org/legal/epl-2.0/
 SPDX-License-Identifier: EPL-2.0
         </copyright>
         <license url="https://www.eclipse.org/legal/epl-2.0/"/>
-        <!-- SHA1 c481e06cf01357558a144ae4a89a50fbf55af5c9 -->
+        <!-- SHA1 de23eeb3328c63b288bfaca1a9fef8bccdff7e6f -->
       </feature>
       <dependencies>
         <dependency>
@@ -221,7 +221,7 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>com.github.oshi</groupId>
           <artifactId>oshi-core</artifactId>
-          <version>6.6.0</version>
+          <version>6.6.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -815,7 +815,7 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>org.assertj</groupId>
           <artifactId>assertj-core</artifactId>
-          <version>3.25.3</version>
+          <version>3.26.0</version>
           <type>jar</type>
         </dependency>
         <dependency>

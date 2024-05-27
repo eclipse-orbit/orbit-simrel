@@ -3,6 +3,8 @@
 ## Minor Updates
  - [org.apache.commons](https://repo1.maven.org/maven2/org/apache/commons/)
     - [commons-compress](https://repo1.maven.org/maven2/org/apache/commons/commons-compress/) **[1.26.1](https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.26.1)** < [1.26.2](https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.26.2/)
+ - [org.assertj](https://repo1.maven.org/maven2/org/assertj/)
+    - [assertj-core](https://repo1.maven.org/maven2/org/assertj/assertj-core/) **[3.25.3](https://repo1.maven.org/maven2/org/assertj/assertj-core/3.25.3)** < [3.26.0](https://repo1.maven.org/maven2/org/assertj/assertj-core/3.26.0/)
 
 ## Major Updates
  - [jakarta.servlet](https://repo1.maven.org/maven2/jakarta/servlet/)

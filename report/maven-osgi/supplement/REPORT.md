@@ -77,7 +77,7 @@
  - [com.github.librepdf](https://repo1.maven.org/maven2/com/github/librepdf/)
     - [openpdf](https://repo1.maven.org/maven2/com/github/librepdf/openpdf/) **[1.4.2](https://repo1.maven.org/maven2/com/github/librepdf/openpdf/1.4.2)**
  - [com.github.oshi](https://repo1.maven.org/maven2/com/github/oshi/)
-    - [oshi-core](https://repo1.maven.org/maven2/com/github/oshi/oshi-core/) **[6.6.0](https://repo1.maven.org/maven2/com/github/oshi/oshi-core/6.6.0)**
+    - [oshi-core](https://repo1.maven.org/maven2/com/github/oshi/oshi-core/) **[6.6.1](https://repo1.maven.org/maven2/com/github/oshi/oshi-core/6.6.1)**
  - [com.glazedlists](https://repo1.maven.org/maven2/com/glazedlists/)
     - [glazedlists](https://repo1.maven.org/maven2/com/glazedlists/glazedlists/) **[1.11.0](https://repo1.maven.org/maven2/com/glazedlists/glazedlists/1.11.0)**
  - [com.google.errorprone](https://repo1.maven.org/maven2/com/google/errorprone/)
