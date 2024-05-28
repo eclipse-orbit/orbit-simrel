@@ -15,7 +15,12 @@ maven apache
 	dependency {
 		groupId = "org.apache.commons"
 		artifactId = "commons-compress"
-		version = "1.26.1"
+		version = "1.26.2"
+	}
+	dependency {
+		groupId = "org.apache.commons"
+		artifactId = "commons-lang3"
+		version = "3.14.0"
 	}
 	dependency {
 		groupId = "commons-io"
@@ -51,7 +56,7 @@ maven assertj
 	dependency {
 		groupId = "org.assertj"
 		artifactId = "assertj-core"
-		version = "3.25.3"
+		version = "3.26.0"
 	}
 }
 
