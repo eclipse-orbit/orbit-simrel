@@ -89,6 +89,7 @@ SPDX-License-Identifier: EPL-2.0
                 -body-image https://raw.githubusercontent.com/eclipse-orbit/.github/main/assets/artwork/svg/Orbit-Color.svg
                 -title-image https://raw.githubusercontent.com/eclipse-orbit/.github/main/assets/artwork/svg/Orbit-Title-Color.svg
                 -simrel-alias
+                -maven-wrapped-mapping org.eclipse.orbit:derby:(.*)
                 -maven-wrapped-mapping org.eclipse.orbit:ant:(.*)
                 -maven-wrapped-mapping org.eclipse.orbit:org.apache.axis:(.*)
                 -maven-wrapped-mapping org.eclipse.orbit:org.apache.axis-ant:(.*)

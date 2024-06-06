@@ -127,6 +127,15 @@
         url="https://download.eclipse.org/cbi/updates/p2-aggregator/tools/nightly/latest"/>
   </setupTask>
   <setupTask
+      xsi:type="setup.p2:P2Task"
+      label="CBI TPD">
+    <requirement
+        name="org.eclipse.cbi.targetplatform.feature.feature.group"
+        optional="true"/>
+    <repository
+        url="https://download.eclipse.org/cbi/updates/tpd/nightly/latest"/>
+  </setupTask>
+  <setupTask
       xsi:type="setup:VariableTask"
       type="BOOLEAN"
       name="install.bnd"
@@ -391,7 +400,7 @@
         <operand
             xsi:type="predicates:RepositoryPredicate"
             project="org.eclipse.orbit.simrel"
-            relativePathPattern="maven(-bnd|-osgi|-ant|-sign)?/.*"/>
+            relativePathPattern="maven(-bnd|-osgi|-ant|-sign|-derby)?/.*"/>
       </predicate>
     </workingSet>
     <workingSet

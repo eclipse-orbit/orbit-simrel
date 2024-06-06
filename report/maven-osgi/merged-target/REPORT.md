@@ -93,10 +93,10 @@
  - [com.google.code.gson](https://repo1.maven.org/maven2/com/google/code/gson/)
     - [gson](https://repo1.maven.org/maven2/com/google/code/gson/gson/) **[2.11.0](https://repo1.maven.org/maven2/com/google/code/gson/gson/2.11.0)**
  - [com.google.errorprone](https://repo1.maven.org/maven2/com/google/errorprone/)
-    - [error_prone_annotations](https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/) **[2.27.1](https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.27.1)**
+    - [error_prone_annotations](https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/) **[2.28.0](https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.28.0)**
  - [com.google.guava](https://repo1.maven.org/maven2/com/google/guava/)
     - [failureaccess](https://repo1.maven.org/maven2/com/google/guava/failureaccess/) **[1.0.2](https://repo1.maven.org/maven2/com/google/guava/failureaccess/1.0.2)**
-    - [guava](https://repo1.maven.org/maven2/com/google/guava/guava/) **[33.2.0-jre](https://repo1.maven.org/maven2/com/google/guava/guava/33.2.0-jre)**
+    - [guava](https://repo1.maven.org/maven2/com/google/guava/guava/) **[33.2.1-jre](https://repo1.maven.org/maven2/com/google/guava/guava/33.2.1-jre)**
  - [com.google.inject](https://repo1.maven.org/maven2/com/google/inject/)
     - [guice](https://repo1.maven.org/maven2/com/google/inject/guice/) **[7.0.0](https://repo1.maven.org/maven2/com/google/inject/guice/7.0.0)**
  - [com.google.inject.extensions](https://repo1.maven.org/maven2/com/google/inject/extensions/)
@@ -139,7 +139,7 @@
  - [dnsjava](https://repo1.maven.org/maven2/dnsjava/)
     - [dnsjava](https://repo1.maven.org/maven2/dnsjava/dnsjava/) **[3.5.3](https://repo1.maven.org/maven2/dnsjava/dnsjava/3.5.3)**
  - [io.github.classgraph](https://repo1.maven.org/maven2/io/github/classgraph/)
-    - [classgraph](https://repo1.maven.org/maven2/io/github/classgraph/classgraph/) **[4.8.172](https://repo1.maven.org/maven2/io/github/classgraph/classgraph/4.8.172)**
+    - [classgraph](https://repo1.maven.org/maven2/io/github/classgraph/classgraph/) **[4.8.173](https://repo1.maven.org/maven2/io/github/classgraph/classgraph/4.8.173)**
  - [io.github.toolfactory](https://repo1.maven.org/maven2/io/github/toolfactory/)
     - [jvm-driver](https://repo1.maven.org/maven2/io/github/toolfactory/jvm-driver/) **[9.7.1](https://repo1.maven.org/maven2/io/github/toolfactory/jvm-driver/9.7.1)**
     - [narcissus](https://repo1.maven.org/maven2/io/github/toolfactory/narcissus/) **[1.0.7](https://repo1.maven.org/maven2/io/github/toolfactory/narcissus/1.0.7)**
@@ -209,8 +209,8 @@
  - [lpg.runtime](https://repo1.maven.org/maven2/lpg/runtime/)
     - [java](https://repo1.maven.org/maven2/lpg/runtime/java/) **[2.0.17-v201004271640](https://repo1.maven.org/maven2/lpg/runtime/java/2.0.17-v201004271640)**
  - [net.bytebuddy](https://repo1.maven.org/maven2/net/bytebuddy/)
-    - [byte-buddy](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/) **[1.14.16](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.14.16)**
-    - [byte-buddy-agent](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/) **[1.14.16](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.14.16)**
+    - [byte-buddy](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/) **[1.14.17](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.14.17)**
+    - [byte-buddy-agent](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/) **[1.14.17](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.14.17)**
  - [net.i2p.crypto](https://repo1.maven.org/maven2/net/i2p/crypto/)
     - [eddsa](https://repo1.maven.org/maven2/net/i2p/crypto/eddsa/) **[0.3.0](https://repo1.maven.org/maven2/net/i2p/crypto/eddsa/0.3.0)**
  - [net.java.dev.jna](https://repo1.maven.org/maven2/net/java/dev/jna/)
@@ -274,7 +274,7 @@
  - [org.eclipse.jetty.toolchain](https://repo1.maven.org/maven2/org/eclipse/jetty/toolchain/)
     - [jetty-servlet-api](https://repo1.maven.org/maven2/org/eclipse/jetty/toolchain/jetty-servlet-api/) **[4.0.6](https://repo1.maven.org/maven2/org/eclipse/jetty/toolchain/jetty-servlet-api/4.0.6)**
  - [org.freemarker](https://repo1.maven.org/maven2/org/freemarker/)
-    - [freemarker](https://repo1.maven.org/maven2/org/freemarker/freemarker/) **[2.3.32](https://repo1.maven.org/maven2/org/freemarker/freemarker/2.3.32)**
+    - [freemarker](https://repo1.maven.org/maven2/org/freemarker/freemarker/) **[2.3.33](https://repo1.maven.org/maven2/org/freemarker/freemarker/2.3.33)**
  - [org.glassfish](https://repo1.maven.org/maven2/org/glassfish/)
     - [jakarta.el](https://repo1.maven.org/maven2/org/glassfish/jakarta.el/) **[3.0.4](https://repo1.maven.org/maven2/org/glassfish/jakarta.el/3.0.4)**
  - [org.glassfish.hk2](https://repo1.maven.org/maven2/org/glassfish/hk2/)
