@@ -231,7 +231,7 @@
     - [org.apache.felix.gogo.runtime](https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.gogo.runtime/) **[1.1.6](https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.gogo.runtime/1.1.6)**
     - [org.apache.felix.gogo.shell](https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.gogo.shell/) **[1.1.4](https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.gogo.shell/1.1.4)**
     - [org.apache.felix.http.servlet-api](https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.http.servlet-api/) **[1.2.0](https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.http.servlet-api/1.2.0)**
-    - [org.apache.felix.scr](https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.scr/) **[2.2.10](https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.scr/2.2.10)**
+    - [org.apache.felix.scr](https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.scr/) **[2.2.12](https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.scr/2.2.12)**
  - [org.apache.httpcomponents](https://repo1.maven.org/maven2/org/apache/httpcomponents/)
     - [httpasyncclient-osgi](https://repo1.maven.org/maven2/org/apache/httpcomponents/httpasyncclient-osgi/) **[4.1.5](https://repo1.maven.org/maven2/org/apache/httpcomponents/httpasyncclient-osgi/4.1.5)**
     - [httpclient-osgi](https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient-osgi/) **[4.5.14](https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient-osgi/4.5.14)**

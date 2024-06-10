@@ -3,7 +3,7 @@
 <target name="Maven" sequenceNumber="1">
   <locations>
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="error" type="Maven">
-      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.33.0.v20240609-1700">
+      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.33.0.v20240610-1800">
         <description>This feature's dependencies are pulled directly from Maven central.</description>
         <copyright>
 Copyright (c) 2024 Eclipse contributors and others.
@@ -16,7 +16,7 @@ https://www.eclipse.org/legal/epl-2.0/
 SPDX-License-Identifier: EPL-2.0
         </copyright>
         <license url="https://www.eclipse.org/legal/epl-2.0/"/>
-        <!-- SHA1 2bec63896f3e58c9dfde4385c71988f119c6ff52 -->
+        <!-- SHA1 db91df7afdcc4704e2ead87d9746149af548f0d9 -->
       </feature>
       <dependencies>
         <dependency>
@@ -755,7 +755,7 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>org.apache.felix</groupId>
           <artifactId>org.apache.felix.scr</artifactId>
-          <version>2.2.10</version>
+          <version>2.2.12</version>
           <type>jar</type>
         </dependency>
         <dependency>
