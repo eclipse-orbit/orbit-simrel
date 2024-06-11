@@ -948,7 +948,7 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>jakarta.servlet</groupId>
           <artifactId>jakarta.servlet-api</artifactId>
-          <version>6.0.0</version>
+          <version>6.1.0</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -1038,7 +1038,7 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>org.eclipse.jdt</groupId>
           <artifactId>ecj</artifactId>
-          <version>3.37.0</version>
+          <version>3.38.0</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -1050,7 +1050,7 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>org.eclipse.platform</groupId>
           <artifactId>org.eclipse.osgi</artifactId>
-          <version>3.19.0</version>
+          <version>3.20.0</version>
           <type>jar</type>
         </dependency>
         <dependency>
