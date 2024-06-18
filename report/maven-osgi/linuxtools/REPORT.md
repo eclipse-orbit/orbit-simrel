@@ -1,4 +1,4 @@
-# Target Platform: [linuxtools](https://raw.githubusercontent.com/eclipse-linuxtools/org.eclipse.linuxtools/master/releng/org.eclipse.linuxtools.target/linuxtools-e4.32.target)
+# Target Platform: [linuxtools](https://raw.githubusercontent.com/eclipse-linuxtools/org.eclipse.linuxtools/master/releng/org.eclipse.linuxtools.target/linuxtools-e4.33.target)
 
 ## Minor Updates
  - [com.google.guava](https://repo1.maven.org/maven2/com/google/guava/)
