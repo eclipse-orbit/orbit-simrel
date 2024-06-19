@@ -4,9 +4,6 @@
  - [net.bytebuddy](https://repo1.maven.org/maven2/net/bytebuddy/)
     - [byte-buddy](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/) **[1.14.16](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.14.16)** < [1.14.17](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.14.17/)
     - [byte-buddy-agent](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/) **[1.14.16](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.14.16)** < [1.14.17](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.14.17/)
- - [org.apache.sshd](https://repo1.maven.org/maven2/org/apache/sshd/)
-    - [sshd-osgi](https://repo1.maven.org/maven2/org/apache/sshd/sshd-osgi/) **[2.12.1](https://repo1.maven.org/maven2/org/apache/sshd/sshd-osgi/2.12.1)** < [2.13.0](https://repo1.maven.org/maven2/org/apache/sshd/sshd-osgi/2.13.0/)
-    - [sshd-sftp](https://repo1.maven.org/maven2/org/apache/sshd/sshd-sftp/) **[2.12.1](https://repo1.maven.org/maven2/org/apache/sshd/sshd-sftp/2.12.1)** < [2.13.0](https://repo1.maven.org/maven2/org/apache/sshd/sshd-sftp/2.13.0/)
 
 ## Major Updates
  - [jakarta.servlet](https://repo1.maven.org/maven2/jakarta/servlet/)

@@ -58,6 +58,7 @@ ch.qos.logback:logback-classic:1.4.7 // Has non-optional missing required servic
 org.apache.commons:commons-digester3:3.2 // requires 'java.package; net.sf.cglib.proxy 0.0.0' but it could not be found
 org.javassist:javassist:3.30.0-GA // Bogus ee requirement
 org.bouncycastle:.*:1.78  // Broken https://github.com/bcgit/bc-java/issues/1621
+org.apache.sshd:.*:2\.13\.0
 
 -keep
 commons-logging:commons-logging:1.2
