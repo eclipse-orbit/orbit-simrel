@@ -205,7 +205,7 @@
         <dependency>
           <groupId>jakarta.authentication</groupId>
           <artifactId>jakarta.authentication-api</artifactId>
-          <version>3.0.0</version>
+          <version>3.1.0</version>
           <type>jar</type>
         </dependency>
         <dependency>

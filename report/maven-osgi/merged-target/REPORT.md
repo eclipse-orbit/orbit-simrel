@@ -153,7 +153,7 @@
     - [jakarta.annotation-api](https://repo1.maven.org/maven2/jakarta/annotation/jakarta.annotation-api/) **[2.1.1](https://repo1.maven.org/maven2/jakarta/annotation/jakarta.annotation-api/2.1.1)**
  - [jakarta.authentication](https://repo1.maven.org/maven2/jakarta/authentication/)
     - [jakarta.authentication-api](https://repo1.maven.org/maven2/jakarta/authentication/jakarta.authentication-api/) **[2.0.0](https://repo1.maven.org/maven2/jakarta/authentication/jakarta.authentication-api/2.0.0)**
-    - [jakarta.authentication-api](https://repo1.maven.org/maven2/jakarta/authentication/jakarta.authentication-api/) **[3.0.0](https://repo1.maven.org/maven2/jakarta/authentication/jakarta.authentication-api/3.0.0)**
+    - [jakarta.authentication-api](https://repo1.maven.org/maven2/jakarta/authentication/jakarta.authentication-api/) **[3.1.0](https://repo1.maven.org/maven2/jakarta/authentication/jakarta.authentication-api/3.1.0)**
  - [jakarta.ejb](https://repo1.maven.org/maven2/jakarta/ejb/)
     - [jakarta.ejb-api](https://repo1.maven.org/maven2/jakarta/ejb/jakarta.ejb-api/) **[3.2.6](https://repo1.maven.org/maven2/jakarta/ejb/jakarta.ejb-api/3.2.6)**
  - [jakarta.el](https://repo1.maven.org/maven2/jakarta/el/)
