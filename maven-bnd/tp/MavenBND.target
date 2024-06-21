@@ -2719,7 +2719,7 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>com.networknt</groupId>
           <artifactId>json-schema-validator</artifactId>
-          <version>1.4.0</version>
+          <version>1.4.2</version>
           <type>jar</type>
         </dependency>
 

@@ -111,7 +111,7 @@
     - [miglayout-core](https://repo1.maven.org/maven2/com/miglayout/miglayout-core/) **[11.3](https://repo1.maven.org/maven2/com/miglayout/miglayout-core/11.3)**
     - [miglayout-swing](https://repo1.maven.org/maven2/com/miglayout/miglayout-swing/) **[11.3](https://repo1.maven.org/maven2/com/miglayout/miglayout-swing/11.3)**
  - [com.networknt](https://repo1.maven.org/maven2/com/networknt/)
-    - [json-schema-validator](https://repo1.maven.org/maven2/com/networknt/json-schema-validator/) **[1.4.0](https://repo1.maven.org/maven2/com/networknt/json-schema-validator/1.4.0)**
+    - [json-schema-validator](https://repo1.maven.org/maven2/com/networknt/json-schema-validator/) **[1.4.2](https://repo1.maven.org/maven2/com/networknt/json-schema-validator/1.4.2)**
  - [com.sun.xml.bind](https://repo1.maven.org/maven2/com/sun/xml/bind/)
     - [jaxb-core](https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-core/) **[4.0.5](https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-core/4.0.5)**
     - [jaxb-impl](https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-impl/) **[4.0.5](https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-impl/4.0.5)**
