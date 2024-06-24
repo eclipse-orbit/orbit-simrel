@@ -243,8 +243,8 @@
  - [org.apache.logging.log4j](https://repo1.maven.org/maven2/org/apache/logging/log4j/)
     - [log4j-api](https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/) **[2.23.1](https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.23.1)**
  - [org.apache.sshd](https://repo1.maven.org/maven2/org/apache/sshd/)
-    - [sshd-osgi](https://repo1.maven.org/maven2/org/apache/sshd/sshd-osgi/) **[2.12.1](https://repo1.maven.org/maven2/org/apache/sshd/sshd-osgi/2.12.1)**
-    - [sshd-sftp](https://repo1.maven.org/maven2/org/apache/sshd/sshd-sftp/) **[2.12.1](https://repo1.maven.org/maven2/org/apache/sshd/sshd-sftp/2.12.1)**
+    - [sshd-osgi](https://repo1.maven.org/maven2/org/apache/sshd/sshd-osgi/) **[2.13.1](https://repo1.maven.org/maven2/org/apache/sshd/sshd-osgi/2.13.1)**
+    - [sshd-sftp](https://repo1.maven.org/maven2/org/apache/sshd/sshd-sftp/) **[2.13.1](https://repo1.maven.org/maven2/org/apache/sshd/sshd-sftp/2.13.1)**
  - [org.apache.tika](https://repo1.maven.org/maven2/org/apache/tika/)
     - [tika-core](https://repo1.maven.org/maven2/org/apache/tika/tika-core/) **[2.9.2](https://repo1.maven.org/maven2/org/apache/tika/tika-core/2.9.2)**
  - [org.apache.velocity](https://repo1.maven.org/maven2/org/apache/velocity/)
