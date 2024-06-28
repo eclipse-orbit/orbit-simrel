@@ -5,6 +5,9 @@
     - [guava](https://repo1.maven.org/maven2/com/google/guava/guava/) **[33.2.0-jre](https://repo1.maven.org/maven2/com/google/guava/guava/33.2.0-jre)** < [33.2.1-jre](https://repo1.maven.org/maven2/com/google/guava/guava/33.2.1-jre/)
  - [org.freemarker](https://repo1.maven.org/maven2/org/freemarker/)
     - [freemarker](https://repo1.maven.org/maven2/org/freemarker/freemarker/) **[2.3.32](https://repo1.maven.org/maven2/org/freemarker/freemarker/2.3.32)** < [2.3.33](https://repo1.maven.org/maven2/org/freemarker/freemarker/2.3.33/)
+ - [org.junit.jupiter](https://repo1.maven.org/maven2/org/junit/jupiter/)
+    - [junit-jupiter-api](https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-api/) **[5.10.2](https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-api/5.10.2)** < [5.10.3](https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-api/5.10.3/)
+    - [junit-jupiter-engine](https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-engine/) **[5.10.2](https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.10.2)** < [5.10.3](https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.10.3/)
 
 ## Major Updates
  - [jakarta.activation](https://repo1.maven.org/maven2/jakarta/activation/)

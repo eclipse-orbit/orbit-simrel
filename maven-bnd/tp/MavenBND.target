@@ -6,7 +6,7 @@
 <!-- _____________________________________________________ org.apache.lucene ___________________________________________________________________________________________________-->
 
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
-      <feature id="org.eclipse.orbit.maven.lucene" label="Orbit Maven BND org.apache.lucene" provider-name="Eclipse Orbit" version="4.33.0.v20240607-1000">
+      <feature id="org.eclipse.orbit.maven.lucene" label="Orbit Maven BND org.apache.lucene" provider-name="Eclipse Orbit" version="4.33.0.v20240628-1000">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
 Copyright (c) 2024 Eclipse contributors and others.
@@ -24,53 +24,53 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>org.apache.lucene</groupId>
           <artifactId>lucene-analysis-common</artifactId>
-          <version>9.11.0</version>
+          <version>9.11.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.apache.lucene</groupId>
           <artifactId>lucene-analysis-smartcn</artifactId>
-          <version>9.11.0</version>
+          <version>9.11.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.apache.lucene</groupId>
           <artifactId>lucene-core</artifactId>
-          <version>9.11.0</version>
+          <version>9.11.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.apache.lucene</groupId>
           <artifactId>lucene-misc</artifactId>
-          <version>9.11.0</version>
+          <version>9.11.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.apache.lucene</groupId>
           <artifactId>lucene-queries</artifactId>
-          <version>9.11.0</version>
+          <version>9.11.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.apache.lucene</groupId>
           <artifactId>lucene-queryparser</artifactId>
-          <version>9.11.0</version>
+          <version>9.11.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.apache.lucene</groupId>
           <artifactId>lucene-sandbox</artifactId>
-          <version>9.11.0</version>
+          <version>9.11.1</version>
           <type>jar</type>
         </dependency>
       </dependencies>
       <instructions>
-<!-- SHA1 bef7ba310d6060dfa94b639506079e0a334ae1d1 -->
+<!-- SHA1 714faf77f2206b8b9775db4d336b5d0267f650de -->
 <![CDATA[
 Bundle-Name:            Bundle ${mvnGroupId} : ${mvnArtifactId}
 version:                ${versionmask;===;${version_cleanup;${mvnVersion}}}
 Bundle-SymbolicName:    ${mvnGroupId}.${replacestring;${mvnArtifactId};lucene-}
-Bundle-Version:         ${version}.v20240607-1000
+Bundle-Version:         ${version}.v20240628-1000
 Eclipse-Wrapped-Bundle: ${mvnGroupId}:${mvnArtifactId}:${mvnVersion}
 Import-Package:         org.apache.lucene.*;version="${range;[==,+);${version}}",\
                         *
