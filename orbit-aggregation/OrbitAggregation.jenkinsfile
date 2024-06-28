@@ -33,25 +33,25 @@ pipeline {
     string (
       name: 'ORBIT_LEGACY',
       defaultValue: 'https://download.eclipse.org/tools/orbit/simrel/orbit-legacy/nightly/latest',
-      description: 'The Orbit Legacy repository to aggregate.<br/>Visit <a href="https://download.eclipse.org/tools/orbit/simrel/orbit-legacy/">https://download.eclipse.org/tools/orbit/simrel/orbit-legacy/table.html<a/> for choices.'
+      description: 'The Orbit Legacy repository to aggregate.<br/>Visit <a href="https://download.eclipse.org/tools/orbit/simrel/orbit-legacy/table.html">https://download.eclipse.org/tools/orbit/simrel/orbit-legacy/<a/> for choices.'
     )
 
     string (
       name: 'MAVEN_OSGI',
       defaultValue: 'https://download.eclipse.org/tools/orbit/simrel/maven-osgi/nightly/latest',
-      description: 'The Orbit Maven OSGi repository to aggregate.<br/>Visit <a href="https://download.eclipse.org/tools/orbit/simrel/maven-osgi/">https://download.eclipse.org/tools/orbit/simrel/maven-osgi/table.html<a/> for choices.'
+      description: 'The Orbit Maven OSGi repository to aggregate.<br/>Visit <a href="https://download.eclipse.org/tools/orbit/simrel/maven-osgi/table.html">https://download.eclipse.org/tools/orbit/simrel/maven-osgi/<a/> for choices.'
     )
 
     string (
       name: 'MAVEN_BND',
       defaultValue: 'https://download.eclipse.org/tools/orbit/simrel/maven-bnd/nightly/latest',
-      description: 'The Orbit Maven BND repository to aggregate.<br/>Visit <a href="https://download.eclipse.org/tools/orbit/simrel/maven-bnd/">https://download.eclipse.org/tools/orbit/simrel/maven-bnd/table.html<a/> for choices.'
+      description: 'The Orbit Maven BND repository to aggregate.<br/>Visit <a href="https://download.eclipse.org/tools/orbit/simrel/maven-bnd/table.html">https://download.eclipse.org/tools/orbit/simrel/maven-bnd/<a/> for choices.'
     )
 
     string (
       name: 'MAVEN_SIGN',
       defaultValue: 'https://download.eclipse.org/tools/orbit/simrel/maven-sign/nightly/latest',
-      description: 'The Orbit Maven Sign repository to aggregate.<br/>Visit <a href="https://download.eclipse.org/tools/orbit/simrel/maven-sign/">https://download.eclipse.org/tools/orbit/simrel/maven-sign/table.html<a/> for choices.'
+      description: 'The Orbit Maven Sign repository to aggregate.<br/>Visit <a href="https://download.eclipse.org/tools/orbit/simrel/maven-sign/table.html">https://download.eclipse.org/tools/orbit/simrel/maven-sign/<a/> for choices.'
     )
 
     booleanParam(
