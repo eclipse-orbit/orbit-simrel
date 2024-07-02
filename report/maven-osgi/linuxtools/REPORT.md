@@ -3,6 +3,10 @@
 ## Minor Updates
  - [com.google.guava](https://repo1.maven.org/maven2/com/google/guava/)
     - [guava](https://repo1.maven.org/maven2/com/google/guava/guava/) **[33.2.0-jre](https://repo1.maven.org/maven2/com/google/guava/guava/33.2.0-jre)** < [33.2.1-jre](https://repo1.maven.org/maven2/com/google/guava/guava/33.2.1-jre/)
+ - [org.glassfish.hk2](https://repo1.maven.org/maven2/org/glassfish/hk2/)
+    - [hk2-api](https://repo1.maven.org/maven2/org/glassfish/hk2/hk2-api/) **[3.1.0](https://repo1.maven.org/maven2/org/glassfish/hk2/hk2-api/3.1.0)** < [3.1.1](https://repo1.maven.org/maven2/org/glassfish/hk2/hk2-api/3.1.1/)
+    - [hk2-locator](https://repo1.maven.org/maven2/org/glassfish/hk2/hk2-locator/) **[3.1.0](https://repo1.maven.org/maven2/org/glassfish/hk2/hk2-locator/3.1.0)** < [3.1.1](https://repo1.maven.org/maven2/org/glassfish/hk2/hk2-locator/3.1.1/)
+    - [hk2-utils](https://repo1.maven.org/maven2/org/glassfish/hk2/hk2-utils/) **[3.1.0](https://repo1.maven.org/maven2/org/glassfish/hk2/hk2-utils/3.1.0)** < [3.1.1](https://repo1.maven.org/maven2/org/glassfish/hk2/hk2-utils/3.1.1/)
 
 ## Major Updates
  - [jakarta.ws.rs](https://repo1.maven.org/maven2/jakarta/ws/rs/)

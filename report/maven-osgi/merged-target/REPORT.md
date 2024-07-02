@@ -283,11 +283,11 @@
     - [jakarta.el](https://repo1.maven.org/maven2/org/glassfish/jakarta.el/) **[3.0.4](https://repo1.maven.org/maven2/org/glassfish/jakarta.el/3.0.4)**
  - [org.glassfish.hk2](https://repo1.maven.org/maven2/org/glassfish/hk2/)
     - [hk2-api](https://repo1.maven.org/maven2/org/glassfish/hk2/hk2-api/) **[2.6.1](https://repo1.maven.org/maven2/org/glassfish/hk2/hk2-api/2.6.1)**
-    - [hk2-api](https://repo1.maven.org/maven2/org/glassfish/hk2/hk2-api/) **[3.1.0](https://repo1.maven.org/maven2/org/glassfish/hk2/hk2-api/3.1.0)**
+    - [hk2-api](https://repo1.maven.org/maven2/org/glassfish/hk2/hk2-api/) **[3.1.1](https://repo1.maven.org/maven2/org/glassfish/hk2/hk2-api/3.1.1)**
     - [hk2-locator](https://repo1.maven.org/maven2/org/glassfish/hk2/hk2-locator/) **[2.6.1](https://repo1.maven.org/maven2/org/glassfish/hk2/hk2-locator/2.6.1)**
-    - [hk2-locator](https://repo1.maven.org/maven2/org/glassfish/hk2/hk2-locator/) **[3.1.0](https://repo1.maven.org/maven2/org/glassfish/hk2/hk2-locator/3.1.0)**
+    - [hk2-locator](https://repo1.maven.org/maven2/org/glassfish/hk2/hk2-locator/) **[3.1.1](https://repo1.maven.org/maven2/org/glassfish/hk2/hk2-locator/3.1.1)**
     - [hk2-utils](https://repo1.maven.org/maven2/org/glassfish/hk2/hk2-utils/) **[2.6.1](https://repo1.maven.org/maven2/org/glassfish/hk2/hk2-utils/2.6.1)**
-    - [hk2-utils](https://repo1.maven.org/maven2/org/glassfish/hk2/hk2-utils/) **[3.1.0](https://repo1.maven.org/maven2/org/glassfish/hk2/hk2-utils/3.1.0)**
+    - [hk2-utils](https://repo1.maven.org/maven2/org/glassfish/hk2/hk2-utils/) **[3.1.1](https://repo1.maven.org/maven2/org/glassfish/hk2/hk2-utils/3.1.1)**
     - [osgi-resource-locator](https://repo1.maven.org/maven2/org/glassfish/hk2/osgi-resource-locator/) **[1.0.3](https://repo1.maven.org/maven2/org/glassfish/hk2/osgi-resource-locator/1.0.3)**
  - [org.glassfish.jersey.connectors](https://repo1.maven.org/maven2/org/glassfish/jersey/connectors/)
     - [jersey-apache-connector](https://repo1.maven.org/maven2/org/glassfish/jersey/connectors/jersey-apache-connector/) **[2.43](https://repo1.maven.org/maven2/org/glassfish/jersey/connectors/jersey-apache-connector/2.43)**
