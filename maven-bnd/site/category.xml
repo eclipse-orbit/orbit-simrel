@@ -2,6 +2,8 @@
 <site>
    <feature id="org.eclipse.orbit.maven.aopalliance"/>
    <feature id="org.eclipse.orbit.maven.aopalliance.source"/>
+   <feature id="org.eclipse.orbit.maven.com.github.jtidy"/>
+   <feature id="org.eclipse.orbit.maven.com.github.jtidy.source"/>
    <feature id="org.eclipse.orbit.maven.com.github.package-url"/>
    <feature id="org.eclipse.orbit.maven.com.github.package-url.source"/>
    <feature id="org.eclipse.orbit.maven.com.github.virtuald"/>

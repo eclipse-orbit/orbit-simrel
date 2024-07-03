@@ -12,6 +12,8 @@
  - [com.github.jnr](https://repo1.maven.org/maven2/com/github/jnr/)
     - [jnr-a64asm](https://repo1.maven.org/maven2/com/github/jnr/jnr-a64asm/) **[1.0.0](https://repo1.maven.org/maven2/com/github/jnr/jnr-a64asm/1.0.0)**
     - [jnr-x86asm](https://repo1.maven.org/maven2/com/github/jnr/jnr-x86asm/) **[1.0.2](https://repo1.maven.org/maven2/com/github/jnr/jnr-x86asm/1.0.2)**
+ - [com.github.jtidy](https://repo1.maven.org/maven2/com/github/jtidy/)
+    - [jtidy](https://repo1.maven.org/maven2/com/github/jtidy/jtidy/) **[1.0.5](https://repo1.maven.org/maven2/com/github/jtidy/jtidy/1.0.5)**
  - [com.github.package-url](https://repo1.maven.org/maven2/com/github/package-url/)
     - [packageurl-java](https://repo1.maven.org/maven2/com/github/package-url/packageurl-java/) **[1.5.0](https://repo1.maven.org/maven2/com/github/package-url/packageurl-java/1.5.0)**
  - [com.github.virtuald](https://repo1.maven.org/maven2/com/github/virtuald/)
