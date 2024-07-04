@@ -1,6 +1,8 @@
 # Target Platform: [egit](https://raw.githubusercontent.com/eclipse-egit/egit/master/org.eclipse.egit.target/maven/dependencies.tpd)
 
 ## Minor Updates
+ - [commons-logging](https://repo1.maven.org/maven2/commons-logging/)
+    - [commons-logging](https://repo1.maven.org/maven2/commons-logging/commons-logging/) **[1.3.2](https://repo1.maven.org/maven2/commons-logging/commons-logging/1.3.2)** < [1.3.3](https://repo1.maven.org/maven2/commons-logging/commons-logging/1.3.3/)
  - [net.bytebuddy](https://repo1.maven.org/maven2/net/bytebuddy/)
     - [byte-buddy](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/) **[1.14.16](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.14.16)** < [1.14.17](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.14.17/)
     - [byte-buddy-agent](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/) **[1.14.16](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.14.16)** < [1.14.17](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.14.17/)

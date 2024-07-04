@@ -1,6 +1,8 @@
 # Target Platform: [jgit](https://raw.githubusercontent.com/eclipse-jgit/jgit/master/org.eclipse.jgit.packaging/org.eclipse.jgit.target/maven/dependencies.tpd)
 
 ## Minor Updates
+ - [commons-logging](https://repo1.maven.org/maven2/commons-logging/)
+    - [commons-logging](https://repo1.maven.org/maven2/commons-logging/commons-logging/) **[1.3.2](https://repo1.maven.org/maven2/commons-logging/commons-logging/1.3.2)** < [1.3.3](https://repo1.maven.org/maven2/commons-logging/commons-logging/1.3.3/)
  - [jakarta.servlet](https://repo1.maven.org/maven2/jakarta/servlet/)
     - [jakarta.servlet-api](https://repo1.maven.org/maven2/jakarta/servlet/jakarta.servlet-api/) **[6.0.0](https://repo1.maven.org/maven2/jakarta/servlet/jakarta.servlet-api/6.0.0)** < [6.1.0](https://repo1.maven.org/maven2/jakarta/servlet/jakarta.servlet-api/6.1.0/)
  - [org.eclipse.jetty](https://repo1.maven.org/maven2/org/eclipse/jetty/)
