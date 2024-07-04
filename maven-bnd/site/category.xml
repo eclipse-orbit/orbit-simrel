@@ -70,6 +70,8 @@
    <feature id="org.eclipse.orbit.maven.org.apache.xmlbeans.source"/>
    <feature id="org.eclipse.orbit.maven.org.apache.xmlgraphics"/>
    <feature id="org.eclipse.orbit.maven.org.apache.xmlgraphics.source"/>
+   <feature id="org.eclipse.orbit.maven.org.apache.xmlgraphics.fop"/>
+   <feature id="org.eclipse.orbit.maven.org.apache.xmlgraphics.fop.source"/>
    <feature id="org.eclipse.orbit.maven.org.codelibs.nekohtml"/>
    <feature id="org.eclipse.orbit.maven.org.codelibs.nekohtml.source"/>
    <feature id="org.eclipse.orbit.maven.org.commonmark"/>

@@ -1128,10 +1128,60 @@ Export-Package:         *;version="${version}"
     </location>
 
 
+<!-- _____________________________________________________ org.apache.xmlgraphics.fop ___________________________________________________________________________________________________-->
+
+    <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
+      <feature id="org.eclipse.orbit.maven.org.apache.xmlgraphics.fop" label="Orbit Maven BND org.apache.xmlgraphics.fop" provider-name="Eclipse Orbit" version="4.33.0.v20240704-1200">
+        <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
+        <copyright>
+Copyright (c) 2024 Eclipse contributors and others.
+
+This program and the accompanying materials
+are made available under the terms of the Eclipse Public License 2.0
+which accompanies this distribution, and is available at
+https://www.eclipse.org/legal/epl-2.0/
+
+SPDX-License-Identifier: EPL-2.0
+        </copyright>
+        <license url="https://www.eclipse.org/legal/epl-2.0/"/>
+      </feature>
+      <dependencies>
+        <dependency>
+          <groupId>org.apache.xmlgraphics</groupId>
+          <artifactId>fop-core</artifactId>
+          <version>2.9</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>org.apache.xmlgraphics</groupId>
+          <artifactId>fop-events</artifactId>
+          <version>2.9</version>
+          <type>jar</type>
+        </dependency>
+      </dependencies>
+      <instructions>
+<!-- SHA1 690f9ea7f82e650372a8827f2abcdb7720fcc4bc -->
+<![CDATA[
+Bundle-Name:            Bundle ${mvnGroupId} : ${mvnArtifactId}
+version:                ${versionmask;===;${version_cleanup;${mvnVersion}}}
+Bundle-SymbolicName:    ${mvnGroupId}.${mvnArtifactId}
+Bundle-Version:         ${version}.v20240704-1200
+Automatic-Module-Name:  ${mvnGroupId}.${mvnArtifactId}
+Eclipse-Wrapped-Bundle: ${mvnGroupId}:${mvnArtifactId}:${mvnVersion}
+Import-Package:         javax.media.jai|org.apache.fontbox.cff|com.thoughtworks.qdox*|org.apache.tools.ant*|javax.servlet*;resolution:=optional,\
+                        *
+Export-Package:         *;version="${version}";-noimport:=true
+-noextraheaders:        true
+-removeheaders:         Private-Package
+]]>
+      </instructions>
+    </location>
+
+
 <!-- ______________________________________________________ org.apache.batik __________________________________________________________________________________________________-->
 
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
-      <feature id="org.eclipse.orbit.maven.org.apache.batik" label="Orbit Maven BND org.apache.batik" provider-name="Eclipse Orbit" version="4.33.0">
+      <feature id="org.eclipse.orbit.maven.org.apache.batik" label="Orbit Maven BND org.apache.batik" provider-name="Eclipse Orbit" version="4.33.0.v20240704-1100">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
 Copyright (c) 2024 Eclipse contributors and others.
@@ -1202,6 +1252,12 @@ SPDX-License-Identifier: EPL-2.0
         </dependency>
         <dependency>
           <groupId>org.apache.xmlgraphics</groupId>
+          <artifactId>batik-extension</artifactId>
+          <version>1.17</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>org.apache.xmlgraphics</groupId>
           <artifactId>batik-gvt</artifactId>
           <version>1.17</version>
           <type>jar</type>
@@ -1256,7 +1312,7 @@ SPDX-License-Identifier: EPL-2.0
         </dependency>
       </dependencies>
       <instructions>
-<!-- SHA1 0f38dcc21abcdb9d106a3ac271759c7cb3f2e7c6 -->
+<!-- SHA1 40c08102bbb5830e075995f243130d96939248bd -->
 <![CDATA[
 Bundle-Name:            Bundle ${mvnGroupId} : ${mvnArtifactId}
 version:                ${versionmask;===;${version_cleanup;${mvnVersion}}}
