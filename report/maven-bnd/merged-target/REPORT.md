@@ -70,6 +70,7 @@
     - [batik-css](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-css/) **[1.17](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-css/1.17)**
     - [batik-dom](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-dom/) **[1.17](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-dom/1.17)**
     - [batik-ext](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-ext/) **[1.17](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-ext/1.17)**
+    - [batik-extension](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-extension/) **[1.17](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-extension/1.17)**
     - [batik-gvt](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-gvt/) **[1.17](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-gvt/1.17)**
     - [batik-i18n](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-i18n/) **[1.17](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-i18n/1.17)**
     - [batik-parser](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-parser/) **[1.17](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-parser/1.17)**
@@ -80,6 +81,8 @@
     - [batik-transcoder](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-transcoder/) **[1.17](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-transcoder/1.17)**
     - [batik-util](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-util/) **[1.17](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-util/1.17)**
     - [batik-xml](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-xml/) **[1.17](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-xml/1.17)**
+    - [fop-core](https://repo1.maven.org/maven2/org/apache/xmlgraphics/fop-core/) **[2.9](https://repo1.maven.org/maven2/org/apache/xmlgraphics/fop-core/2.9)**
+    - [fop-events](https://repo1.maven.org/maven2/org/apache/xmlgraphics/fop-events/) **[2.9](https://repo1.maven.org/maven2/org/apache/xmlgraphics/fop-events/2.9)**
     - [xmlgraphics-commons](https://repo1.maven.org/maven2/org/apache/xmlgraphics/xmlgraphics-commons/) **[2.9](https://repo1.maven.org/maven2/org/apache/xmlgraphics/xmlgraphics-commons/2.9)**
  - [org.codelibs](https://repo1.maven.org/maven2/org/codelibs/)
     - [nekohtml](https://repo1.maven.org/maven2/org/codelibs/nekohtml/) **[2.1.3](https://repo1.maven.org/maven2/org/codelibs/nekohtml/2.1.3)**
