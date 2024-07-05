@@ -1,5 +1,13 @@
 # Target Platform: [windowbuilder](https://raw.githubusercontent.com/eclipse/windowbuilder/master/target-platform/mvn/wb-mvn.target)
 
+## Minor Updates
+ - [com.miglayout](https://repo1.maven.org/maven2/com/miglayout/)
+    - [miglayout-core](https://repo1.maven.org/maven2/com/miglayout/miglayout-core/) **[11.3](https://repo1.maven.org/maven2/com/miglayout/miglayout-core/11.3)** < [11.4](https://repo1.maven.org/maven2/com/miglayout/miglayout-core/11.4/)
+    - [miglayout-swing](https://repo1.maven.org/maven2/com/miglayout/miglayout-swing/) **[11.3](https://repo1.maven.org/maven2/com/miglayout/miglayout-swing/11.3)** < [11.4](https://repo1.maven.org/maven2/com/miglayout/miglayout-swing/11.4/)
+
+## Updates Applied
+[updated.target](updated.target)
+
 ## Content
  - [com.miglayout](https://repo1.maven.org/maven2/com/miglayout/)
     - [miglayout-core](https://repo1.maven.org/maven2/com/miglayout/miglayout-core/) **[11.3](https://repo1.maven.org/maven2/com/miglayout/miglayout-core/11.3)**

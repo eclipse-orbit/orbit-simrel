@@ -3,7 +3,7 @@
 <target name="Maven" sequenceNumber="1">
   <locations>
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="error" type="Maven">
-      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.33.0.v20240704-1700">
+      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.33.0.v20240705-0700">
         <description>This feature's dependencies are pulled directly from Maven central.</description>
         <copyright>
 Copyright (c) 2024 Eclipse contributors and others.
@@ -16,7 +16,7 @@ https://www.eclipse.org/legal/epl-2.0/
 SPDX-License-Identifier: EPL-2.0
         </copyright>
         <license url="https://www.eclipse.org/legal/epl-2.0/"/>
-        <!-- SHA1 1b38549396d1cc8cad175b36c0628e453f24072d -->
+        <!-- SHA1 8a05d335f019c0d60bae7cb1fa07bbc719f9172e -->
       </feature>
       <dependencies>
         <dependency>
@@ -281,13 +281,13 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>com.miglayout</groupId>
           <artifactId>miglayout-core</artifactId>
-          <version>11.3</version>
+          <version>11.4</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>com.miglayout</groupId>
           <artifactId>miglayout-swing</artifactId>
-          <version>11.3</version>
+          <version>11.4</version>
           <type>jar</type>
         </dependency>
         <dependency>
