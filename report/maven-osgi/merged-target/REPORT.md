@@ -107,6 +107,8 @@
     - [guice-assistedinject](https://repo1.maven.org/maven2/com/google/inject/extensions/guice-assistedinject/) **[7.0.0](https://repo1.maven.org/maven2/com/google/inject/extensions/guice-assistedinject/7.0.0)**
  - [com.googlecode.javaewah](https://repo1.maven.org/maven2/com/googlecode/javaewah/)
     - [JavaEWAH](https://repo1.maven.org/maven2/com/googlecode/javaewah/JavaEWAH/) **[1.2.3](https://repo1.maven.org/maven2/com/googlecode/javaewah/JavaEWAH/1.2.3)**
+ - [com.h2database](https://repo1.maven.org/maven2/com/h2database/)
+    - [h2](https://repo1.maven.org/maven2/com/h2database/h2/) **[2.2.224](https://repo1.maven.org/maven2/com/h2database/h2/2.2.224)**
  - [com.ibm.icu](https://repo1.maven.org/maven2/com/ibm/icu/)
     - [icu4j](https://repo1.maven.org/maven2/com/ibm/icu/icu4j/) **[75.1](https://repo1.maven.org/maven2/com/ibm/icu/icu4j/75.1)**
  - [com.miglayout](https://repo1.maven.org/maven2/com/miglayout/)
