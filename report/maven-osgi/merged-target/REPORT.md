@@ -256,7 +256,7 @@
  - [org.apiguardian](https://repo1.maven.org/maven2/org/apiguardian/)
     - [apiguardian-api](https://repo1.maven.org/maven2/org/apiguardian/apiguardian-api/) **[1.1.2](https://repo1.maven.org/maven2/org/apiguardian/apiguardian-api/1.1.2)**
  - [org.assertj](https://repo1.maven.org/maven2/org/assertj/)
-    - [assertj-core](https://repo1.maven.org/maven2/org/assertj/assertj-core/) **[3.26.0](https://repo1.maven.org/maven2/org/assertj/assertj-core/3.26.0)**
+    - [assertj-core](https://repo1.maven.org/maven2/org/assertj/assertj-core/) **[3.26.3](https://repo1.maven.org/maven2/org/assertj/assertj-core/3.26.3)**
  - [org.bndtools](https://repo1.maven.org/maven2/org/bndtools/)
     - [bndtools.api](https://repo1.maven.org/maven2/org/bndtools/bndtools.api/) **[7.0.0](https://repo1.maven.org/maven2/org/bndtools/bndtools.api/7.0.0)**
     - [org.bndtools.headless.build.manager](https://repo1.maven.org/maven2/org/bndtools/org.bndtools.headless.build.manager/) **[7.0.0](https://repo1.maven.org/maven2/org/bndtools/org.bndtools.headless.build.manager/7.0.0)**
@@ -326,7 +326,7 @@
  - [org.json](https://repo1.maven.org/maven2/org/json/)
     - [json](https://repo1.maven.org/maven2/org/json/json/) **[20230227](https://repo1.maven.org/maven2/org/json/json/20230227)**
  - [org.jsoup](https://repo1.maven.org/maven2/org/jsoup/)
-    - [jsoup](https://repo1.maven.org/maven2/org/jsoup/jsoup/) **[1.17.2](https://repo1.maven.org/maven2/org/jsoup/jsoup/1.17.2)**
+    - [jsoup](https://repo1.maven.org/maven2/org/jsoup/jsoup/) **[1.18.1](https://repo1.maven.org/maven2/org/jsoup/jsoup/1.18.1)**
  - [org.junit.jupiter](https://repo1.maven.org/maven2/org/junit/jupiter/)
     - [junit-jupiter-api](https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-api/) **[5.10.3](https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-api/5.10.3)**
     - [junit-jupiter-engine](https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-engine/) **[5.10.3](https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.10.3)**

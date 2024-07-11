@@ -1,9 +1,10 @@
 # Target Platform: [platform](https://raw.githubusercontent.com/eclipse-platform/eclipse.platform.releng.aggregator/master/eclipse.platform.releng.prereqs.sdk/eclipse-sdk-prereqs.target)
 
 ## Minor Updates
- - [net.bytebuddy](https://repo1.maven.org/maven2/net/bytebuddy/)
-    - [byte-buddy](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/) **[1.14.17](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.14.17)** < [1.14.18](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.14.18/)
-    - [byte-buddy-agent](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/) **[1.14.17](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.14.17)** < [1.14.18](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.14.18/)
+ - [org.assertj](https://repo1.maven.org/maven2/org/assertj/)
+    - [assertj-core](https://repo1.maven.org/maven2/org/assertj/assertj-core/) **[3.26.0](https://repo1.maven.org/maven2/org/assertj/assertj-core/3.26.0)** < [3.26.3](https://repo1.maven.org/maven2/org/assertj/assertj-core/3.26.3/)
+ - [org.jsoup](https://repo1.maven.org/maven2/org/jsoup/)
+    - [jsoup](https://repo1.maven.org/maven2/org/jsoup/jsoup/) **[1.17.2](https://repo1.maven.org/maven2/org/jsoup/jsoup/1.17.2)** < [1.18.1](https://repo1.maven.org/maven2/org/jsoup/jsoup/1.18.1/)
 
 ## Major Updates
  - [jakarta.annotation](https://repo1.maven.org/maven2/jakarta/annotation/)
@@ -65,8 +66,8 @@
  - [javax.servlet.jsp](https://repo1.maven.org/maven2/javax/servlet/jsp/)
     - [javax.servlet.jsp-api](https://repo1.maven.org/maven2/javax/servlet/jsp/javax.servlet.jsp-api/) **[2.3.3](https://repo1.maven.org/maven2/javax/servlet/jsp/javax.servlet.jsp-api/2.3.3)**
  - [net.bytebuddy](https://repo1.maven.org/maven2/net/bytebuddy/)
-    - [byte-buddy](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/) **[1.14.17](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.14.17)**
-    - [byte-buddy-agent](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/) **[1.14.17](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.14.17)**
+    - [byte-buddy](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/) **[1.14.18](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.14.18)**
+    - [byte-buddy-agent](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/) **[1.14.18](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.14.18)**
  - [net.java.dev.jna](https://repo1.maven.org/maven2/net/java/dev/jna/)
     - [jna-platform](https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/) **[5.14.0](https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/5.14.0)**
  - [org.apache.aries.spifly](https://repo1.maven.org/maven2/org/apache/aries/spifly/)

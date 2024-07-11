@@ -3,7 +3,7 @@
 <target name="Maven" sequenceNumber="1">
   <locations>
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="error" type="Maven">
-      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.33.0.v20240709-0800">
+      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.33.0.v20240711-1400">
         <description>This feature's dependencies are pulled directly from Maven central.</description>
         <copyright>
 Copyright (c) 2024 Eclipse contributors and others.
@@ -16,7 +16,7 @@ https://www.eclipse.org/legal/epl-2.0/
 SPDX-License-Identifier: EPL-2.0
         </copyright>
         <license url="https://www.eclipse.org/legal/epl-2.0/"/>
-        <!-- SHA1 46066eb2bbd30f042f7d3bd4c935e139eb2e9681 -->
+        <!-- SHA1 c9a23d6839319250a84a5bbfe7d2439d86ffe77e -->
       </feature>
       <dependencies>
         <dependency>
@@ -827,7 +827,7 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>org.assertj</groupId>
           <artifactId>assertj-core</artifactId>
-          <version>3.26.0</version>
+          <version>3.26.3</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -1121,7 +1121,7 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>org.jsoup</groupId>
           <artifactId>jsoup</artifactId>
-          <version>1.17.2</version>
+          <version>1.18.1</version>
           <type>jar</type>
         </dependency>
         <dependency>

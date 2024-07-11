@@ -3,6 +3,8 @@
 ## Minor Updates
  - [com.google.guava](https://repo1.maven.org/maven2/com/google/guava/)
     - [guava](https://repo1.maven.org/maven2/com/google/guava/guava/) **[33.2.0-jre](https://repo1.maven.org/maven2/com/google/guava/guava/33.2.0-jre)** < [33.2.1-jre](https://repo1.maven.org/maven2/com/google/guava/guava/33.2.1-jre/)
+ - [org.assertj](https://repo1.maven.org/maven2/org/assertj/)
+    - [assertj-core](https://repo1.maven.org/maven2/org/assertj/assertj-core/) **[3.26.0](https://repo1.maven.org/maven2/org/assertj/assertj-core/3.26.0)** < [3.26.3](https://repo1.maven.org/maven2/org/assertj/assertj-core/3.26.3/)
  - [org.freemarker](https://repo1.maven.org/maven2/org/freemarker/)
     - [freemarker](https://repo1.maven.org/maven2/org/freemarker/freemarker/) **[2.3.32](https://repo1.maven.org/maven2/org/freemarker/freemarker/2.3.32)** < [2.3.33](https://repo1.maven.org/maven2/org/freemarker/freemarker/2.3.33/)
  - [org.junit.jupiter](https://repo1.maven.org/maven2/org/junit/jupiter/)
