@@ -108,7 +108,7 @@
  - [com.googlecode.javaewah](https://repo1.maven.org/maven2/com/googlecode/javaewah/)
     - [JavaEWAH](https://repo1.maven.org/maven2/com/googlecode/javaewah/JavaEWAH/) **[1.2.3](https://repo1.maven.org/maven2/com/googlecode/javaewah/JavaEWAH/1.2.3)**
  - [com.h2database](https://repo1.maven.org/maven2/com/h2database/)
-    - [h2](https://repo1.maven.org/maven2/com/h2database/h2/) **[2.2.224](https://repo1.maven.org/maven2/com/h2database/h2/2.2.224)**
+    - [h2](https://repo1.maven.org/maven2/com/h2database/h2/) **[2.3.230](https://repo1.maven.org/maven2/com/h2database/h2/2.3.230)**
  - [com.ibm.icu](https://repo1.maven.org/maven2/com/ibm/icu/)
     - [icu4j](https://repo1.maven.org/maven2/com/ibm/icu/icu4j/) **[75.1](https://repo1.maven.org/maven2/com/ibm/icu/icu4j/75.1)**
  - [com.miglayout](https://repo1.maven.org/maven2/com/miglayout/)
@@ -126,7 +126,7 @@
  - [commons-cli](https://repo1.maven.org/maven2/commons-cli/)
     - [commons-cli](https://repo1.maven.org/maven2/commons-cli/commons-cli/) **[1.8.0](https://repo1.maven.org/maven2/commons-cli/commons-cli/1.8.0)**
  - [commons-codec](https://repo1.maven.org/maven2/commons-codec/)
-    - [commons-codec](https://repo1.maven.org/maven2/commons-codec/commons-codec/) **[1.17.0](https://repo1.maven.org/maven2/commons-codec/commons-codec/1.17.0)**
+    - [commons-codec](https://repo1.maven.org/maven2/commons-codec/commons-codec/) **[1.17.1](https://repo1.maven.org/maven2/commons-codec/commons-codec/1.17.1)**
  - [commons-collections](https://repo1.maven.org/maven2/commons-collections/)
     - [commons-collections](https://repo1.maven.org/maven2/commons-collections/commons-collections/) **[3.2.2](https://repo1.maven.org/maven2/commons-collections/commons-collections/3.2.2)**
  - [commons-discovery](https://repo1.maven.org/maven2/commons-discovery/)

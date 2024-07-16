@@ -91,7 +91,7 @@
  - [com.google.inject.extensions](https://repo1.maven.org/maven2/com/google/inject/extensions/)
     - [guice-assistedinject](https://repo1.maven.org/maven2/com/google/inject/extensions/guice-assistedinject/) **[7.0.0](https://repo1.maven.org/maven2/com/google/inject/extensions/guice-assistedinject/7.0.0)**
  - [com.h2database](https://repo1.maven.org/maven2/com/h2database/)
-    - [h2](https://repo1.maven.org/maven2/com/h2database/h2/) **[2.2.224](https://repo1.maven.org/maven2/com/h2database/h2/2.2.224)**
+    - [h2](https://repo1.maven.org/maven2/com/h2database/h2/) **[2.3.230](https://repo1.maven.org/maven2/com/h2database/h2/2.3.230)**
  - [com.networknt](https://repo1.maven.org/maven2/com/networknt/)
     - [json-schema-validator](https://repo1.maven.org/maven2/com/networknt/json-schema-validator/) **[1.5.0](https://repo1.maven.org/maven2/com/networknt/json-schema-validator/1.5.0)**
  - [com.sun.xml.bind](https://repo1.maven.org/maven2/com/sun/xml/bind/)

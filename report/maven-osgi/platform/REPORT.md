@@ -1,11 +1,5 @@
 # Target Platform: [platform](https://raw.githubusercontent.com/eclipse-platform/eclipse.platform.releng.aggregator/master/eclipse.platform.releng.prereqs.sdk/eclipse-sdk-prereqs.target)
 
-## Minor Updates
- - [org.assertj](https://repo1.maven.org/maven2/org/assertj/)
-    - [assertj-core](https://repo1.maven.org/maven2/org/assertj/assertj-core/) **[3.26.0](https://repo1.maven.org/maven2/org/assertj/assertj-core/3.26.0)** < [3.26.3](https://repo1.maven.org/maven2/org/assertj/assertj-core/3.26.3/)
- - [org.jsoup](https://repo1.maven.org/maven2/org/jsoup/)
-    - [jsoup](https://repo1.maven.org/maven2/org/jsoup/jsoup/) **[1.17.2](https://repo1.maven.org/maven2/org/jsoup/jsoup/1.17.2)** < [1.18.1](https://repo1.maven.org/maven2/org/jsoup/jsoup/1.18.1/)
-
 ## Major Updates
  - [jakarta.annotation](https://repo1.maven.org/maven2/jakarta/annotation/)
     - [jakarta.annotation-api](https://repo1.maven.org/maven2/jakarta/annotation/jakarta.annotation-api/) **[1.3.5](https://repo1.maven.org/maven2/jakarta/annotation/jakarta.annotation-api/1.3.5)** < [3.0.0](https://repo1.maven.org/maven2/jakarta/annotation/jakarta.annotation-api/3.0.0/)
@@ -19,9 +13,6 @@
  - [org.mortbay.jasper](https://repo1.maven.org/maven2/org/mortbay/jasper/)
     - [apache-el](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-el/) **[9.0.90](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-el/9.0.90)** < [10.1.25](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-el/10.1.25/)
     - [apache-jsp](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-jsp/) **[9.0.90](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-jsp/9.0.90)** < [10.1.25](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-jsp/10.1.25/)
-
-## Updates Applied
-[updated.target](updated.target)
 
 ## Content
  - [biz.aQute.bnd](https://repo1.maven.org/maven2/biz/aQute/bnd/)
@@ -82,7 +73,7 @@
  - [org.apiguardian](https://repo1.maven.org/maven2/org/apiguardian/)
     - [apiguardian-api](https://repo1.maven.org/maven2/org/apiguardian/apiguardian-api/) **[1.1.2](https://repo1.maven.org/maven2/org/apiguardian/apiguardian-api/1.1.2)**
  - [org.assertj](https://repo1.maven.org/maven2/org/assertj/)
-    - [assertj-core](https://repo1.maven.org/maven2/org/assertj/assertj-core/) **[3.26.0](https://repo1.maven.org/maven2/org/assertj/assertj-core/3.26.0)**
+    - [assertj-core](https://repo1.maven.org/maven2/org/assertj/assertj-core/) **[3.26.3](https://repo1.maven.org/maven2/org/assertj/assertj-core/3.26.3)**
  - [org.bndtools](https://repo1.maven.org/maven2/org/bndtools/)
     - [bndtools.api](https://repo1.maven.org/maven2/org/bndtools/bndtools.api/) **[7.0.0](https://repo1.maven.org/maven2/org/bndtools/bndtools.api/7.0.0)**
     - [bndtools.jareditor](https://repo1.maven.org/maven2/org/bndtools/bndtools.jareditor/) **[7.0.0](https://repo1.maven.org/maven2/org/bndtools/bndtools.jareditor/7.0.0)**
@@ -116,7 +107,7 @@
  - [org.hamcrest](https://repo1.maven.org/maven2/org/hamcrest/)
     - [hamcrest](https://repo1.maven.org/maven2/org/hamcrest/hamcrest/) **[2.2](https://repo1.maven.org/maven2/org/hamcrest/hamcrest/2.2)**
  - [org.jsoup](https://repo1.maven.org/maven2/org/jsoup/)
-    - [jsoup](https://repo1.maven.org/maven2/org/jsoup/jsoup/) **[1.17.2](https://repo1.maven.org/maven2/org/jsoup/jsoup/1.17.2)**
+    - [jsoup](https://repo1.maven.org/maven2/org/jsoup/jsoup/) **[1.18.1](https://repo1.maven.org/maven2/org/jsoup/jsoup/1.18.1)**
  - [org.junit.jupiter](https://repo1.maven.org/maven2/org/junit/jupiter/)
     - [junit-jupiter-api](https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-api/) **[5.10.3](https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-api/5.10.3)**
     - [junit-jupiter-engine](https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-engine/) **[5.10.3](https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.10.3)**

@@ -3,6 +3,8 @@
 ## Minor Updates
  - [com.google.guava](https://repo1.maven.org/maven2/com/google/guava/)
     - [guava](https://repo1.maven.org/maven2/com/google/guava/guava/) **[33.2.0-jre](https://repo1.maven.org/maven2/com/google/guava/guava/33.2.0-jre)** < [33.2.1-jre](https://repo1.maven.org/maven2/com/google/guava/guava/33.2.1-jre/)
+ - [commons-codec](https://repo1.maven.org/maven2/commons-codec/)
+    - [commons-codec](https://repo1.maven.org/maven2/commons-codec/commons-codec/) **[1.17.0](https://repo1.maven.org/maven2/commons-codec/commons-codec/1.17.0)** < [1.17.1](https://repo1.maven.org/maven2/commons-codec/commons-codec/1.17.1/)
 
 ## Updates Applied
 [updated.target](updated.target)
