@@ -97,7 +97,7 @@
  - [com.google.code.gson](https://repo1.maven.org/maven2/com/google/code/gson/)
     - [gson](https://repo1.maven.org/maven2/com/google/code/gson/gson/) **[2.11.0](https://repo1.maven.org/maven2/com/google/code/gson/gson/2.11.0)**
  - [com.google.errorprone](https://repo1.maven.org/maven2/com/google/errorprone/)
-    - [error_prone_annotations](https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/) **[2.29.0](https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.29.0)**
+    - [error_prone_annotations](https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/) **[2.29.1](https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.29.1)**
  - [com.google.guava](https://repo1.maven.org/maven2/com/google/guava/)
     - [failureaccess](https://repo1.maven.org/maven2/com/google/guava/failureaccess/) **[1.0.2](https://repo1.maven.org/maven2/com/google/guava/failureaccess/1.0.2)**
     - [guava](https://repo1.maven.org/maven2/com/google/guava/guava/) **[33.2.1-jre](https://repo1.maven.org/maven2/com/google/guava/guava/33.2.1-jre)**
@@ -231,7 +231,7 @@
     - [commons-collections4](https://repo1.maven.org/maven2/org/apache/commons/commons-collections4/) **[4.4](https://repo1.maven.org/maven2/org/apache/commons/commons-collections4/4.4)**
     - [commons-compress](https://repo1.maven.org/maven2/org/apache/commons/commons-compress/) **[1.26.2](https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.26.2)**
     - [commons-csv](https://repo1.maven.org/maven2/org/apache/commons/commons-csv/) **[1.11.0](https://repo1.maven.org/maven2/org/apache/commons/commons-csv/1.11.0)**
-    - [commons-lang3](https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/) **[3.14.0](https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.14.0)**
+    - [commons-lang3](https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/) **[3.15.0](https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.15.0)**
     - [commons-math3](https://repo1.maven.org/maven2/org/apache/commons/commons-math3/) **[3.6.1](https://repo1.maven.org/maven2/org/apache/commons/commons-math3/3.6.1)**
     - [commons-text](https://repo1.maven.org/maven2/org/apache/commons/commons-text/) **[1.12.0](https://repo1.maven.org/maven2/org/apache/commons/commons-text/1.12.0)**
  - [org.apache.felix](https://repo1.maven.org/maven2/org/apache/felix/)
