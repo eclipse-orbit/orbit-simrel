@@ -660,6 +660,7 @@ public class DependencyAnalyzer {
 		}
 
 		public List<Version> getUpdateVersions(Dependency dependency) throws IOException {
+			var preReleaseQualifier = isPreReleaseQualifier(dependency.version);
 			var nextMajor = dependency.nextMajorVersion(majorInclusions);
 			var nextAvailableVersion = dependency.version;
 			var maxAvailableVersion = dependency.version;
@@ -668,7 +669,8 @@ public class DependencyAnalyzer {
 
 			for (var availableVersion : availableVersions) {
 				if (!ignorePatterns.stream().anyMatch(it -> dependency.create(availableVersion).matches(it))) {
-					if (isIncludedQualifier(availableVersion)) {
+					if (isIncludedQualifier(availableVersion)
+							|| preReleaseQualifier && isPreReleaseQualifier(availableVersion)) {
 						if (availableVersion.compareTo(nextMajor) < 0
 								&& availableVersion.compareTo(nextAvailableVersion) > 0) {
 							nextAvailableVersion = availableVersion;
@@ -704,9 +706,25 @@ public class DependencyAnalyzer {
 		}
 
 		private static final Pattern INCLUDED_QUALIFIER = Pattern
-				.compile("[-.][0-9]+|[.]v20[0-9]+|-ga|-GA|-jre|[.]20[0-9]+-[0-9]+");
+				.compile("[-.][0-9]+|[.]v20[0-9]+|-ga|-GA|-jre|[.]20[0-9]+-[0-9]+|[.]Final");
 
 		private static final Pattern INCLUDED_PURE_QUALIFIER = Pattern.compile("v20[0-9]+");
+
+		private static final Pattern PRE_RELEASE_QUALIFEIR = Pattern.compile("[-.]rc[0-9]+|[-.]m[0-9]+",
+				Pattern.CASE_INSENSITIVE);
+
+		private boolean isPreReleaseQualifier(Version version) {
+			var qualifier = version.qualifier;
+			if (qualifier == null) {
+				return false;
+			}
+
+			if (PRE_RELEASE_QUALIFEIR.matcher(qualifier).matches()) {
+				return true;
+			}
+
+			return false;
+		}
 
 		private boolean isIncludedQualifier(Version version) {
 			var qualifier = version.qualifier;
