@@ -10,8 +10,8 @@
  - [jakarta.ejb](https://repo1.maven.org/maven2/jakarta/ejb/)
     - [jakarta.ejb-api](https://repo1.maven.org/maven2/jakarta/ejb/jakarta.ejb-api/) **[3.2.6](https://repo1.maven.org/maven2/jakarta/ejb/jakarta.ejb-api/3.2.6)** < [4.0.1](https://repo1.maven.org/maven2/jakarta/ejb/jakarta.ejb-api/4.0.1/)
  - [jakarta.el](https://repo1.maven.org/maven2/jakarta/el/)
-    - [jakarta.el-api](https://repo1.maven.org/maven2/jakarta/el/jakarta.el-api/) **[4.0.0](https://repo1.maven.org/maven2/jakarta/el/jakarta.el-api/4.0.0)** < [6.0.0](https://repo1.maven.org/maven2/jakarta/el/jakarta.el-api/6.0.0/)
-    - [jakarta.el-api](https://repo1.maven.org/maven2/jakarta/el/jakarta.el-api/) **[5.0.1](https://repo1.maven.org/maven2/jakarta/el/jakarta.el-api/5.0.1)** < [6.0.0](https://repo1.maven.org/maven2/jakarta/el/jakarta.el-api/6.0.0/)
+    - [jakarta.el-api](https://repo1.maven.org/maven2/jakarta/el/jakarta.el-api/) **[4.0.0](https://repo1.maven.org/maven2/jakarta/el/jakarta.el-api/4.0.0)** < [6.0.1](https://repo1.maven.org/maven2/jakarta/el/jakarta.el-api/6.0.1/)
+    - [jakarta.el-api](https://repo1.maven.org/maven2/jakarta/el/jakarta.el-api/) **[5.0.1](https://repo1.maven.org/maven2/jakarta/el/jakarta.el-api/5.0.1)** < [6.0.1](https://repo1.maven.org/maven2/jakarta/el/jakarta.el-api/6.0.1/)
  - [jakarta.jws](https://repo1.maven.org/maven2/jakarta/jws/)
     - [jakarta.jws-api](https://repo1.maven.org/maven2/jakarta/jws/jakarta.jws-api/) **[2.1.0](https://repo1.maven.org/maven2/jakarta/jws/jakarta.jws-api/2.1.0)** < [3.0.0](https://repo1.maven.org/maven2/jakarta/jws/jakarta.jws-api/3.0.0/)
  - [jakarta.mail](https://repo1.maven.org/maven2/jakarta/mail/)
@@ -85,7 +85,7 @@
  - [com.glazedlists](https://repo1.maven.org/maven2/com/glazedlists/)
     - [glazedlists](https://repo1.maven.org/maven2/com/glazedlists/glazedlists/) **[1.11.0](https://repo1.maven.org/maven2/com/glazedlists/glazedlists/1.11.0)**
  - [com.google.errorprone](https://repo1.maven.org/maven2/com/google/errorprone/)
-    - [error_prone_annotations](https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/) **[2.29.1](https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.29.1)**
+    - [error_prone_annotations](https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/) **[2.29.2](https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.29.2)**
  - [com.google.inject](https://repo1.maven.org/maven2/com/google/inject/)
     - [guice](https://repo1.maven.org/maven2/com/google/inject/guice/) **[7.0.0](https://repo1.maven.org/maven2/com/google/inject/guice/7.0.0)**
  - [com.google.inject.extensions](https://repo1.maven.org/maven2/com/google/inject/extensions/)
