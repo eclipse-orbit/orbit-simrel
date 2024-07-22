@@ -81,7 +81,7 @@
  - [com.github.librepdf](https://repo1.maven.org/maven2/com/github/librepdf/)
     - [openpdf](https://repo1.maven.org/maven2/com/github/librepdf/openpdf/) **[1.4.2](https://repo1.maven.org/maven2/com/github/librepdf/openpdf/1.4.2)**
  - [com.github.oshi](https://repo1.maven.org/maven2/com/github/oshi/)
-    - [oshi-core](https://repo1.maven.org/maven2/com/github/oshi/oshi-core/) **[6.6.1](https://repo1.maven.org/maven2/com/github/oshi/oshi-core/6.6.1)**
+    - [oshi-core](https://repo1.maven.org/maven2/com/github/oshi/oshi-core/) **[6.6.2](https://repo1.maven.org/maven2/com/github/oshi/oshi-core/6.6.2)**
  - [com.glazedlists](https://repo1.maven.org/maven2/com/glazedlists/)
     - [glazedlists](https://repo1.maven.org/maven2/com/glazedlists/glazedlists/) **[1.11.0](https://repo1.maven.org/maven2/com/glazedlists/glazedlists/1.11.0)**
  - [com.google.errorprone](https://repo1.maven.org/maven2/com/google/errorprone/)
@@ -106,7 +106,7 @@
  - [commons-net](https://repo1.maven.org/maven2/commons-net/)
     - [commons-net](https://repo1.maven.org/maven2/commons-net/commons-net/) **[3.11.1](https://repo1.maven.org/maven2/commons-net/commons-net/3.11.1)**
  - [dnsjava](https://repo1.maven.org/maven2/dnsjava/)
-    - [dnsjava](https://repo1.maven.org/maven2/dnsjava/dnsjava/) **[3.5.3](https://repo1.maven.org/maven2/dnsjava/dnsjava/3.5.3)**
+    - [dnsjava](https://repo1.maven.org/maven2/dnsjava/dnsjava/) **[3.6.0](https://repo1.maven.org/maven2/dnsjava/dnsjava/3.6.0)**
  - [io.github.classgraph](https://repo1.maven.org/maven2/io/github/classgraph/)
     - [classgraph](https://repo1.maven.org/maven2/io/github/classgraph/classgraph/) **[4.8.174](https://repo1.maven.org/maven2/io/github/classgraph/classgraph/4.8.174)**
  - [jakarta.activation](https://repo1.maven.org/maven2/jakarta/activation/)
