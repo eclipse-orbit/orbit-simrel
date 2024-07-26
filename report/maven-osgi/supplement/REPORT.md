@@ -92,7 +92,7 @@
  - [com.h2database](https://repo1.maven.org/maven2/com/h2database/)
     - [h2](https://repo1.maven.org/maven2/com/h2database/h2/) **[2.3.230](https://repo1.maven.org/maven2/com/h2database/h2/2.3.230)**
  - [com.networknt](https://repo1.maven.org/maven2/com/networknt/)
-    - [json-schema-validator](https://repo1.maven.org/maven2/com/networknt/json-schema-validator/) **[1.5.0](https://repo1.maven.org/maven2/com/networknt/json-schema-validator/1.5.0)**
+    - [json-schema-validator](https://repo1.maven.org/maven2/com/networknt/json-schema-validator/) **[1.5.1](https://repo1.maven.org/maven2/com/networknt/json-schema-validator/1.5.1)**
  - [com.sun.xml.bind](https://repo1.maven.org/maven2/com/sun/xml/bind/)
     - [jaxb-core](https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-core/) **[4.0.5](https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-core/4.0.5)**
     - [jaxb-impl](https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-impl/) **[4.0.5](https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-impl/4.0.5)**
