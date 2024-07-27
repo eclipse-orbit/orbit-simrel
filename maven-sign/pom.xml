@@ -22,6 +22,7 @@
     <org.eclipse.justj.p2.manager.build.url>http://www.example.com/</org.eclipse.justj.p2.manager.build.url>
     <build.type>nightly</build.type>
     <org.eclipse.orbit.maven.signer.sign>true</org.eclipse.orbit.maven.signer.sign>
+    <org.eclipse.dash.version>1.1.1-SNAPSHOT</org.eclipse.dash.version>
   </properties>
 
   <pluginRepositories>
@@ -54,7 +55,7 @@
       <plugin>
         <groupId>org.eclipse.dash</groupId>
         <artifactId>license-tool-plugin</artifactId>
-        <version>0.0.1-SNAPSHOT</version>
+        <version>${org.eclipse.dash.version}</version>
         <executions>
           <execution>
             <id>license-check</id>
