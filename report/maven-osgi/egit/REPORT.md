@@ -24,6 +24,8 @@
     - [jetty-util-ajax](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util-ajax/) **[12.0.10](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util-ajax/12.0.10)** < [12.0.11](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util-ajax/12.0.11/)
  - [org.eclipse.jetty.ee10](https://repo1.maven.org/maven2/org/eclipse/jetty/ee10/)
     - [jetty-ee10-servlet](https://repo1.maven.org/maven2/org/eclipse/jetty/ee10/jetty-ee10-servlet/) **[12.0.10](https://repo1.maven.org/maven2/org/eclipse/jetty/ee10/jetty-ee10-servlet/12.0.10)** < [12.0.11](https://repo1.maven.org/maven2/org/eclipse/jetty/ee10/jetty-ee10-servlet/12.0.11/)
+ - [org.tukaani](https://repo1.maven.org/maven2/org/tukaani/)
+    - [xz](https://repo1.maven.org/maven2/org/tukaani/xz/) **[1.9](https://repo1.maven.org/maven2/org/tukaani/xz/1.9)** < [1.10](https://repo1.maven.org/maven2/org/tukaani/xz/1.10/)
 
 ## Major Updates
  - [org.slf4j](https://repo1.maven.org/maven2/org/slf4j/)

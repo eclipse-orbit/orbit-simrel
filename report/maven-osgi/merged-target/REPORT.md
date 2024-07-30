@@ -144,7 +144,7 @@
  - [commons-net](https://repo1.maven.org/maven2/commons-net/)
     - [commons-net](https://repo1.maven.org/maven2/commons-net/commons-net/) **[3.11.1](https://repo1.maven.org/maven2/commons-net/commons-net/3.11.1)**
  - [dnsjava](https://repo1.maven.org/maven2/dnsjava/)
-    - [dnsjava](https://repo1.maven.org/maven2/dnsjava/dnsjava/) **[3.6.0](https://repo1.maven.org/maven2/dnsjava/dnsjava/3.6.0)**
+    - [dnsjava](https://repo1.maven.org/maven2/dnsjava/dnsjava/) **[3.6.1](https://repo1.maven.org/maven2/dnsjava/dnsjava/3.6.1)**
  - [io.github.classgraph](https://repo1.maven.org/maven2/io/github/classgraph/)
     - [classgraph](https://repo1.maven.org/maven2/io/github/classgraph/classgraph/) **[4.8.174](https://repo1.maven.org/maven2/io/github/classgraph/classgraph/4.8.174)**
  - [io.github.toolfactory](https://repo1.maven.org/maven2/io/github/toolfactory/)
@@ -425,6 +425,6 @@
  - [org.snakeyaml](https://repo1.maven.org/maven2/org/snakeyaml/)
     - [snakeyaml-engine](https://repo1.maven.org/maven2/org/snakeyaml/snakeyaml-engine/) **[2.7](https://repo1.maven.org/maven2/org/snakeyaml/snakeyaml-engine/2.7)**
  - [org.tukaani](https://repo1.maven.org/maven2/org/tukaani/)
-    - [xz](https://repo1.maven.org/maven2/org/tukaani/xz/) **[1.9](https://repo1.maven.org/maven2/org/tukaani/xz/1.9)**
+    - [xz](https://repo1.maven.org/maven2/org/tukaani/xz/) **[1.10](https://repo1.maven.org/maven2/org/tukaani/xz/1.10)**
  - [org.yaml](https://repo1.maven.org/maven2/org/yaml/)
     - [snakeyaml](https://repo1.maven.org/maven2/org/yaml/snakeyaml/) **[2.2](https://repo1.maven.org/maven2/org/yaml/snakeyaml/2.2)**
