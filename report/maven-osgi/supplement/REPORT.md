@@ -193,7 +193,7 @@
  - [org.conscrypt](https://repo1.maven.org/maven2/org/conscrypt/)
     - [conscrypt-openjdk-uber](https://repo1.maven.org/maven2/org/conscrypt/conscrypt-openjdk-uber/) **[2.5.2](https://repo1.maven.org/maven2/org/conscrypt/conscrypt-openjdk-uber/2.5.2)**
  - [org.easymock](https://repo1.maven.org/maven2/org/easymock/)
-    - [easymock](https://repo1.maven.org/maven2/org/easymock/easymock/) **[5.3.0](https://repo1.maven.org/maven2/org/easymock/easymock/5.3.0)**
+    - [easymock](https://repo1.maven.org/maven2/org/easymock/easymock/) **[5.4.0](https://repo1.maven.org/maven2/org/easymock/easymock/5.4.0)**
  - [org.eclipse.jetty.toolchain](https://repo1.maven.org/maven2/org/eclipse/jetty/toolchain/)
     - [jetty-servlet-api](https://repo1.maven.org/maven2/org/eclipse/jetty/toolchain/jetty-servlet-api/) **[4.0.6](https://repo1.maven.org/maven2/org/eclipse/jetty/toolchain/jetty-servlet-api/4.0.6)**
  - [org.glassfish.hk2](https://repo1.maven.org/maven2/org/glassfish/hk2/)

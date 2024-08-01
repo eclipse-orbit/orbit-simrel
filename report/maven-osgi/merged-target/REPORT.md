@@ -251,8 +251,8 @@
     - [log4j-api](https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/) **[2.23.1](https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.23.1)**
     - [log4j-to-slf4j](https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-to-slf4j/) **[2.23.1](https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-to-slf4j/2.23.1)**
  - [org.apache.sshd](https://repo1.maven.org/maven2/org/apache/sshd/)
-    - [sshd-osgi](https://repo1.maven.org/maven2/org/apache/sshd/sshd-osgi/) **[2.13.1](https://repo1.maven.org/maven2/org/apache/sshd/sshd-osgi/2.13.1)**
-    - [sshd-sftp](https://repo1.maven.org/maven2/org/apache/sshd/sshd-sftp/) **[2.13.1](https://repo1.maven.org/maven2/org/apache/sshd/sshd-sftp/2.13.1)**
+    - [sshd-osgi](https://repo1.maven.org/maven2/org/apache/sshd/sshd-osgi/) **[2.13.2](https://repo1.maven.org/maven2/org/apache/sshd/sshd-osgi/2.13.2)**
+    - [sshd-sftp](https://repo1.maven.org/maven2/org/apache/sshd/sshd-sftp/) **[2.13.2](https://repo1.maven.org/maven2/org/apache/sshd/sshd-sftp/2.13.2)**
  - [org.apache.tika](https://repo1.maven.org/maven2/org/apache/tika/)
     - [tika-core](https://repo1.maven.org/maven2/org/apache/tika/tika-core/) **[2.9.2](https://repo1.maven.org/maven2/org/apache/tika/tika-core/2.9.2)**
  - [org.apache.velocity](https://repo1.maven.org/maven2/org/apache/velocity/)
@@ -282,7 +282,7 @@
  - [org.conscrypt](https://repo1.maven.org/maven2/org/conscrypt/)
     - [conscrypt-openjdk-uber](https://repo1.maven.org/maven2/org/conscrypt/conscrypt-openjdk-uber/) **[2.5.2](https://repo1.maven.org/maven2/org/conscrypt/conscrypt-openjdk-uber/2.5.2)**
  - [org.easymock](https://repo1.maven.org/maven2/org/easymock/)
-    - [easymock](https://repo1.maven.org/maven2/org/easymock/easymock/) **[5.3.0](https://repo1.maven.org/maven2/org/easymock/easymock/5.3.0)**
+    - [easymock](https://repo1.maven.org/maven2/org/easymock/easymock/) **[5.4.0](https://repo1.maven.org/maven2/org/easymock/easymock/5.4.0)**
  - [org.eclipse.jetty.toolchain](https://repo1.maven.org/maven2/org/eclipse/jetty/toolchain/)
     - [jetty-servlet-api](https://repo1.maven.org/maven2/org/eclipse/jetty/toolchain/jetty-servlet-api/) **[4.0.6](https://repo1.maven.org/maven2/org/eclipse/jetty/toolchain/jetty-servlet-api/4.0.6)**
  - [org.freemarker](https://repo1.maven.org/maven2/org/freemarker/)

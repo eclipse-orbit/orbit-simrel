@@ -1,6 +1,8 @@
 # Target Platform: [platform](https://raw.githubusercontent.com/eclipse-platform/eclipse.platform.releng.aggregator/master/eclipse.platform.releng.prereqs.sdk/eclipse-sdk-prereqs.target)
 
 ## Minor Updates
+ - [org.apache.sshd](https://repo1.maven.org/maven2/org/apache/sshd/)
+    - [sshd-osgi](https://repo1.maven.org/maven2/org/apache/sshd/sshd-osgi/) **[2.13.1](https://repo1.maven.org/maven2/org/apache/sshd/sshd-osgi/2.13.1)** < [2.13.2](https://repo1.maven.org/maven2/org/apache/sshd/sshd-osgi/2.13.2/)
  - [org.eclipse.jetty](https://repo1.maven.org/maven2/org/eclipse/jetty/)
     - [jetty-http](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/) **[12.0.11](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/12.0.11)** < [12.0.12](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/12.0.12/)
     - [jetty-io](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/) **[12.0.11](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/12.0.11)** < [12.0.12](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/12.0.12/)
