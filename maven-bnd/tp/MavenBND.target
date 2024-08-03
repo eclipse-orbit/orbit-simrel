@@ -3,6 +3,59 @@
 <target name="MavenBND" sequenceNumber="1">
   <locations>
 
+<!-- _____________________________________________________ org.apache.derby ___________________________________________________________________________________________________-->
+
+    <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
+      <feature id="org.eclipse.orbit.maven.org.apache.derby" label="Orbit Maven BND org.apache.derby" provider-name="Eclipse Orbit" version="4.33.0.v20240802-0900">
+        <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
+        <copyright>
+Copyright (c) 2024 Eclipse contributors and others.
+
+This program and the accompanying materials
+are made available under the terms of the Eclipse Public License 2.0
+which accompanies this distribution, and is available at
+https://www.eclipse.org/legal/epl-2.0/
+
+SPDX-License-Identifier: EPL-2.0
+        </copyright>
+        <license url="https://www.eclipse.org/legal/epl-2.0/"/>
+      </feature>
+      <dependencies>
+        <dependency>
+          <groupId>org.eclipse.orbit</groupId>
+          <artifactId>derby</artifactId>
+          <version>10.16.1.1</version>
+          <type>jar</type>
+        </dependency>
+      </dependencies>
+      <repositories>
+        <repository>
+          <id>maven-derby-repository</id>
+<!-- 
+          <url>file:/D:/Users/merks/orbit-simrel/git/orbit-simrel/maven-derby/repository</url>
+-->
+          <url>https://repo.eclipse.org/content/repositories/orbit-approved-artifacts</url>
+        </repository>
+      </repositories>
+      <instructions>
+<!-- SHA1 aec144264dfbeffbcbdf8c10cb7aebe06aacfe1b -->
+<![CDATA[
+Bundle-Name:            Apache Derby
+version:                ${versionmask;===;${version_cleanup;${mvnVersion}}}
+Bundle-SymbolicName:    org.apache.derby
+Bundle-Version:         ${version}.v20240802-0900
+Automatic-Module-Name:  org.apache.derby
+Eclipse-Wrapped-Bundle: org.apache.derby:derby:${mvnVersion}
+Import-Package:         com.ibm.*;resolution:=optional,\
+                        *
+Export-Package:         *;version="${version}";-noimport:=true
+-noextraheaders:        true
+-removeheaders:         Private-Package
+]]>
+      </instructions>
+    </location>
+
+
 <!-- _____________________________________________________ org.apache.lucene ___________________________________________________________________________________________________-->
 
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">

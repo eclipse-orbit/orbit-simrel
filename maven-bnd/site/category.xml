@@ -54,6 +54,8 @@
    <feature id="org.eclipse.orbit.maven.org.apache.batik.source"/>
    <feature id="org.eclipse.orbit.maven.org.apache.commons.httpclient"/>
    <feature id="org.eclipse.orbit.maven.org.apache.commons.httpclient.source"/>
+   <feature id="org.eclipse.orbit.maven.org.apache.derby"/>
+   <feature id="org.eclipse.orbit.maven.org.apache.derby.source"/>
    <feature id="org.eclipse.orbit.maven.org.apache.httpcomponents.client5.httpclient5"/>
    <feature id="org.eclipse.orbit.maven.org.apache.httpcomponents.client5.httpclient5.source"/>
    <feature id="org.eclipse.orbit.maven.org.apache.httpcomponents.client5.httpclient5-win"/>
