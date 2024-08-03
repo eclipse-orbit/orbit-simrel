@@ -3,6 +3,11 @@
 ## Major Updates
  - [org.cyclonedx](https://repo1.maven.org/maven2/org/cyclonedx/)
     - [cyclonedx-core-java](https://repo1.maven.org/maven2/org/cyclonedx/cyclonedx-core-java/) **[8.0.3](https://repo1.maven.org/maven2/org/cyclonedx/cyclonedx-core-java/8.0.3)** < [9.0.4](https://repo1.maven.org/maven2/org/cyclonedx/cyclonedx-core-java/9.0.4/)
+ - [org.hamcrest](https://repo1.maven.org/maven2/org/hamcrest/)
+    - [hamcrest-core](https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/) **[1.3](https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3)** < [3.0](https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/3.0/)
+    - [hamcrest-core](https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/) **[2.2](https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/2.2)** < [3.0](https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/3.0/)
+    - [hamcrest-library](https://repo1.maven.org/maven2/org/hamcrest/hamcrest-library/) **[1.3](https://repo1.maven.org/maven2/org/hamcrest/hamcrest-library/1.3)** < [3.0](https://repo1.maven.org/maven2/org/hamcrest/hamcrest-library/3.0/)
+    - [hamcrest-library](https://repo1.maven.org/maven2/org/hamcrest/hamcrest-library/) **[2.2](https://repo1.maven.org/maven2/org/hamcrest/hamcrest-library/2.2)** < [3.0](https://repo1.maven.org/maven2/org/hamcrest/hamcrest-library/3.0/)
  - [org.jdom](https://repo1.maven.org/maven2/org/jdom/)
     - [jdom](https://repo1.maven.org/maven2/org/jdom/jdom/) **[1.1.3](https://repo1.maven.org/maven2/org/jdom/jdom/1.1.3)** < [2.0.2](https://repo1.maven.org/maven2/org/jdom/jdom/2.0.2/)
 
@@ -101,6 +106,7 @@
     - [dom4j](https://repo1.maven.org/maven2/org/dom4j/dom4j/) **[2.1.4](https://repo1.maven.org/maven2/org/dom4j/dom4j/2.1.4)**
  - [org.eclipse.orbit](https://repo.eclipse.org/content/repositories/orbit-approved-artifacts/org/eclipse/orbit/)
     - [ant](https://repo.eclipse.org/content/repositories/orbit-approved-artifacts/org/eclipse/orbit/ant/) **[1.10.14](https://repo.eclipse.org/content/repositories/orbit-approved-artifacts/org/eclipse/orbit/ant/1.10.14)**
+    - [derby](https://repo.eclipse.org/content/repositories/orbit-approved-artifacts/org/eclipse/orbit/derby/) **[10.16.1.1](https://repo.eclipse.org/content/repositories/orbit-approved-artifacts/org/eclipse/orbit/derby/10.16.1.1)**
     - [org.apache.axis](https://repo.eclipse.org/content/repositories/orbit-approved-artifacts/org/eclipse/orbit/org.apache.axis/) **[1.4.1.20231107-0755](https://repo.eclipse.org/content/repositories/orbit-approved-artifacts/org/eclipse/orbit/org.apache.axis/1.4.1.20231107-0755)**
     - [org.apache.axis-ant](https://repo.eclipse.org/content/repositories/orbit-approved-artifacts/org/eclipse/orbit/org.apache.axis-ant/) **[1.4.1.20231107-0755](https://repo.eclipse.org/content/repositories/orbit-approved-artifacts/org/eclipse/orbit/org.apache.axis-ant/1.4.1.20231107-0755)**
  - [org.hamcrest](https://repo1.maven.org/maven2/org/hamcrest/)
