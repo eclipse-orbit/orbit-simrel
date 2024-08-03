@@ -38,8 +38,6 @@
  - [org.glassfish.jersey.containers](https://repo1.maven.org/maven2/org/glassfish/jersey/containers/)
     - [jersey-container-servlet](https://repo1.maven.org/maven2/org/glassfish/jersey/containers/jersey-container-servlet/) **[2.44](https://repo1.maven.org/maven2/org/glassfish/jersey/containers/jersey-container-servlet/2.44)** < [3.1.8](https://repo1.maven.org/maven2/org/glassfish/jersey/containers/jersey-container-servlet/3.1.8/)
     - [jersey-container-servlet-core](https://repo1.maven.org/maven2/org/glassfish/jersey/containers/jersey-container-servlet-core/) **[2.44](https://repo1.maven.org/maven2/org/glassfish/jersey/containers/jersey-container-servlet-core/2.44)** < [3.1.8](https://repo1.maven.org/maven2/org/glassfish/jersey/containers/jersey-container-servlet-core/3.1.8/)
- - [org.hamcrest](https://repo1.maven.org/maven2/org/hamcrest/)
-    - [hamcrest](https://repo1.maven.org/maven2/org/hamcrest/hamcrest/) **[2.2](https://repo1.maven.org/maven2/org/hamcrest/hamcrest/2.2)** < [3.0](https://repo1.maven.org/maven2/org/hamcrest/hamcrest/3.0/)
 
 ## Content
  - [args4j](https://repo1.maven.org/maven2/args4j/)
@@ -323,6 +321,7 @@
     - [jersey-media-json-jackson](https://repo1.maven.org/maven2/org/glassfish/jersey/media/jersey-media-json-jackson/) **[3.1.8](https://repo1.maven.org/maven2/org/glassfish/jersey/media/jersey-media-json-jackson/3.1.8)**
  - [org.hamcrest](https://repo1.maven.org/maven2/org/hamcrest/)
     - [hamcrest](https://repo1.maven.org/maven2/org/hamcrest/hamcrest/) **[2.2](https://repo1.maven.org/maven2/org/hamcrest/hamcrest/2.2)**
+    - [hamcrest](https://repo1.maven.org/maven2/org/hamcrest/hamcrest/) **[3.0](https://repo1.maven.org/maven2/org/hamcrest/hamcrest/3.0)**
  - [org.jacoco](https://repo1.maven.org/maven2/org/jacoco/)
     - [org.jacoco.agent](https://repo1.maven.org/maven2/org/jacoco/org.jacoco.agent/) **[0.8.12](https://repo1.maven.org/maven2/org/jacoco/org.jacoco.agent/0.8.12)**
     - [org.jacoco.core](https://repo1.maven.org/maven2/org/jacoco/org.jacoco.core/) **[0.8.12](https://repo1.maven.org/maven2/org/jacoco/org.jacoco.core/0.8.12)**

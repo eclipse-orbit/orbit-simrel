@@ -3,7 +3,7 @@
 <target name="Maven" sequenceNumber="1">
   <locations>
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="error" type="Maven">
-      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.33.0.v20240803-1400">
+      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.33.0.v20240803-1500">
         <description>This feature's dependencies are pulled directly from Maven central.</description>
         <copyright>
 Copyright (c) 2024 Eclipse contributors and others.
@@ -16,7 +16,7 @@ https://www.eclipse.org/legal/epl-2.0/
 SPDX-License-Identifier: EPL-2.0
         </copyright>
         <license url="https://www.eclipse.org/legal/epl-2.0/"/>
-        <!-- SHA1 c5f78d303726f83808a91c5d7e1f76b0693d3136 -->
+        <!-- SHA1 f2a33c9022f6b8d27692aade088113a9ae061dfc -->
       </feature>
       <dependencies>
         <dependency>
@@ -1122,6 +1122,12 @@ SPDX-License-Identifier: EPL-2.0
           <groupId>org.hamcrest</groupId>
           <artifactId>hamcrest</artifactId>
           <version>2.2</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>org.hamcrest</groupId>
+          <artifactId>hamcrest</artifactId>
+          <version>3.0</version>
           <type>jar</type>
         </dependency>
         <dependency>

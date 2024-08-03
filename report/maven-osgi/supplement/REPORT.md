@@ -48,8 +48,6 @@
     - [jersey-hk2](https://repo1.maven.org/maven2/org/glassfish/jersey/inject/jersey-hk2/) **[2.44](https://repo1.maven.org/maven2/org/glassfish/jersey/inject/jersey-hk2/2.44)** < [3.1.8](https://repo1.maven.org/maven2/org/glassfish/jersey/inject/jersey-hk2/3.1.8/)
  - [org.glassfish.jersey.media](https://repo1.maven.org/maven2/org/glassfish/jersey/media/)
     - [jersey-media-json-jackson](https://repo1.maven.org/maven2/org/glassfish/jersey/media/jersey-media-json-jackson/) **[2.44](https://repo1.maven.org/maven2/org/glassfish/jersey/media/jersey-media-json-jackson/2.44)** < [3.1.8](https://repo1.maven.org/maven2/org/glassfish/jersey/media/jersey-media-json-jackson/3.1.8/)
- - [org.hamcrest](https://repo1.maven.org/maven2/org/hamcrest/)
-    - [hamcrest](https://repo1.maven.org/maven2/org/hamcrest/hamcrest/) **[2.2](https://repo1.maven.org/maven2/org/hamcrest/hamcrest/2.2)** < [3.0](https://repo1.maven.org/maven2/org/hamcrest/hamcrest/3.0/)
  - [org.mandas](https://repo1.maven.org/maven2/org/mandas/)
     - [docker-client](https://repo1.maven.org/maven2/org/mandas/docker-client/) **[5.2.2](https://repo1.maven.org/maven2/org/mandas/docker-client/5.2.2)** < [7.0.8](https://repo1.maven.org/maven2/org/mandas/docker-client/7.0.8/)
 
@@ -220,6 +218,7 @@
     - [jersey-media-json-jackson](https://repo1.maven.org/maven2/org/glassfish/jersey/media/jersey-media-json-jackson/) **[2.44](https://repo1.maven.org/maven2/org/glassfish/jersey/media/jersey-media-json-jackson/2.44)**
  - [org.hamcrest](https://repo1.maven.org/maven2/org/hamcrest/)
     - [hamcrest](https://repo1.maven.org/maven2/org/hamcrest/hamcrest/) **[2.2](https://repo1.maven.org/maven2/org/hamcrest/hamcrest/2.2)**
+    - [hamcrest](https://repo1.maven.org/maven2/org/hamcrest/hamcrest/) **[3.0](https://repo1.maven.org/maven2/org/hamcrest/hamcrest/3.0)**
  - [org.jacoco](https://repo1.maven.org/maven2/org/jacoco/)
     - [org.jacoco.agent](https://repo1.maven.org/maven2/org/jacoco/org.jacoco.agent/) **[0.8.12](https://repo1.maven.org/maven2/org/jacoco/org.jacoco.agent/0.8.12)**
     - [org.jacoco.core](https://repo1.maven.org/maven2/org/jacoco/org.jacoco.core/) **[0.8.12](https://repo1.maven.org/maven2/org/jacoco/org.jacoco.core/0.8.12)**

@@ -617,6 +617,12 @@
           <type>jar</type>
         </dependency>
         <dependency>
+          <groupId>org.hamcrest</groupId>
+          <artifactId>hamcrest</artifactId>
+          <version>3.0</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
           <groupId>org.jacoco</groupId>
           <artifactId>org.jacoco.agent</artifactId>
           <version>0.8.12</version>
