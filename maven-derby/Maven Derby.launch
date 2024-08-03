@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.ui.externaltools.ProgramLaunchConfigurationType">
+    <stringAttribute key="bad_container_name" value="\org.eclipse.orbit.simrel\mavena"/>
+    <booleanAttribute key="org.eclipse.debug.core.ATTR_FORCE_SYSTEM_CONSOLE_ENCODING" value="false"/>
+    <stringAttribute key="org.eclipse.debug.core.ATTR_REFRESH_SCOPE" value="${working_set:&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;resources&gt;&#13;&#10;&lt;item path=&quot;/org.eclipse.orbit.simrel/maven-bnd&quot; type=&quot;2&quot;/&gt;&#13;&#10;&lt;/resources&gt;}"/>
+    <mapAttribute key="org.eclipse.debug.core.environmentVariables">
+        <mapEntry key="JAVA_HOME" value="${maven.build.java.home}"/>
+        <mapEntry key="PATH" value="${maven.bash.home}/../usr/bin${system_property:path.separator}${env_var:PATH}"/>
+    </mapAttribute>
+    <stringAttribute key="org.eclipse.debug.ui.ATTR_CAPTURE_IN_FILE" value="${project_loc:/org.eclipse.orbit.simrel}/maven-derby/build.log"/>
+    <listAttribute key="org.eclipse.debug.ui.favoriteGroups">
+        <listEntry value="org.eclipse.ui.externaltools.launchGroup"/>
+    </listAttribute>
+    <stringAttribute key="org.eclipse.ui.externaltools.ATTR_LOCATION" value="${maven.build.command}"/>
+    <stringAttribute key="org.eclipse.ui.externaltools.ATTR_TOOL_ARGUMENTS" value="-DU&#13;&#10;-DX&#13;&#10;-DDtycho.debug.resolver=true&#13;&#10;-Dmaven.artifact.threads=16&#13;&#10;-Duser.home=${system_property:user.home}&#13;&#10;-Durl=${file_uri:${resource_loc:/org.eclipse.orbit.simrel/maven-derby}}/repository&#13;&#10;clean&#13;&#10;verify"/>
+    <stringAttribute key="org.eclipse.ui.externaltools.ATTR_WORKING_DIRECTORY" value="${project_loc:/org.eclipse.orbit.simrel}/maven-derby"/>
+</launchConfiguration>
