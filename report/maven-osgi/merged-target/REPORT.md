@@ -20,9 +20,6 @@
     - [jakarta.persistence-api](https://repo1.maven.org/maven2/jakarta/persistence/jakarta.persistence-api/) **[2.2.3](https://repo1.maven.org/maven2/jakarta/persistence/jakarta.persistence-api/2.2.3)** < [3.2.0](https://repo1.maven.org/maven2/jakarta/persistence/jakarta.persistence-api/3.2.0/)
  - [jakarta.servlet.jsp](https://repo1.maven.org/maven2/jakarta/servlet/jsp/)
     - [jakarta.servlet.jsp-api](https://repo1.maven.org/maven2/jakarta/servlet/jsp/jakarta.servlet.jsp-api/) **[3.1.1](https://repo1.maven.org/maven2/jakarta/servlet/jsp/jakarta.servlet.jsp-api/3.1.1)** < [4.0.0](https://repo1.maven.org/maven2/jakarta/servlet/jsp/jakarta.servlet.jsp-api/4.0.0/)
- - [jakarta.ws.rs](https://repo1.maven.org/maven2/jakarta/ws/rs/)
-    - [jakarta.ws.rs-api](https://repo1.maven.org/maven2/jakarta/ws/rs/jakarta.ws.rs-api/) **[2.1.6](https://repo1.maven.org/maven2/jakarta/ws/rs/jakarta.ws.rs-api/2.1.6)** < [4.0.0](https://repo1.maven.org/maven2/jakarta/ws/rs/jakarta.ws.rs-api/4.0.0/)
-    - [jakarta.ws.rs-api](https://repo1.maven.org/maven2/jakarta/ws/rs/jakarta.ws.rs-api/) **[3.1.0](https://repo1.maven.org/maven2/jakarta/ws/rs/jakarta.ws.rs-api/3.1.0)** < [4.0.0](https://repo1.maven.org/maven2/jakarta/ws/rs/jakarta.ws.rs-api/4.0.0/)
  - [jakarta.xml.soap](https://repo1.maven.org/maven2/jakarta/xml/soap/)
     - [jakarta.xml.soap-api](https://repo1.maven.org/maven2/jakarta/xml/soap/jakarta.xml.soap-api/) **[1.4.2](https://repo1.maven.org/maven2/jakarta/xml/soap/jakarta.xml.soap-api/1.4.2)** < [3.0.2](https://repo1.maven.org/maven2/jakarta/xml/soap/jakarta.xml.soap-api/3.0.2/)
  - [jakarta.xml.ws](https://repo1.maven.org/maven2/jakarta/xml/ws/)
@@ -198,6 +195,7 @@
  - [jakarta.ws.rs](https://repo1.maven.org/maven2/jakarta/ws/rs/)
     - [jakarta.ws.rs-api](https://repo1.maven.org/maven2/jakarta/ws/rs/jakarta.ws.rs-api/) **[2.1.6](https://repo1.maven.org/maven2/jakarta/ws/rs/jakarta.ws.rs-api/2.1.6)**
     - [jakarta.ws.rs-api](https://repo1.maven.org/maven2/jakarta/ws/rs/jakarta.ws.rs-api/) **[3.1.0](https://repo1.maven.org/maven2/jakarta/ws/rs/jakarta.ws.rs-api/3.1.0)**
+    - [jakarta.ws.rs-api](https://repo1.maven.org/maven2/jakarta/ws/rs/jakarta.ws.rs-api/) **[4.0.0](https://repo1.maven.org/maven2/jakarta/ws/rs/jakarta.ws.rs-api/4.0.0)**
  - [jakarta.xml.bind](https://repo1.maven.org/maven2/jakarta/xml/bind/)
     - [jakarta.xml.bind-api](https://repo1.maven.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/) **[2.3.3](https://repo1.maven.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3)**
     - [jakarta.xml.bind-api](https://repo1.maven.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/) **[4.0.2](https://repo1.maven.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/4.0.2)**
@@ -348,8 +346,8 @@
  - [org.junit.vintage](https://repo1.maven.org/maven2/org/junit/vintage/)
     - [junit-vintage-engine](https://repo1.maven.org/maven2/org/junit/vintage/junit-vintage-engine/) **[5.10.3](https://repo1.maven.org/maven2/org/junit/vintage/junit-vintage-engine/5.10.3)**
  - [org.mandas](https://repo1.maven.org/maven2/org/mandas/)
-    - [docker-client](https://repo1.maven.org/maven2/org/mandas/docker-client/) **[5.2.2](https://repo1.maven.org/maven2/org/mandas/docker-client/5.2.2)**
     - [docker-client](https://repo1.maven.org/maven2/org/mandas/docker-client/) **[7.0.8](https://repo1.maven.org/maven2/org/mandas/docker-client/7.0.8)**
+    - [docker-client](https://repo1.maven.org/maven2/org/mandas/docker-client/) **[8.0.1](https://repo1.maven.org/maven2/org/mandas/docker-client/8.0.1)**
  - [org.mockito](https://repo1.maven.org/maven2/org/mockito/)
     - [mockito-core](https://repo1.maven.org/maven2/org/mockito/mockito-core/) **[5.12.0](https://repo1.maven.org/maven2/org/mockito/mockito-core/5.12.0)**
     - [mockito-junit-jupiter](https://repo1.maven.org/maven2/org/mockito/mockito-junit-jupiter/) **[5.12.0](https://repo1.maven.org/maven2/org/mockito/mockito-junit-jupiter/5.12.0)**

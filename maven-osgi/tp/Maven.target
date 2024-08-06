@@ -3,7 +3,7 @@
 <target name="Maven" sequenceNumber="1">
   <locations>
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="error" type="Maven">
-      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.33.0.v20240803-2145">
+      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.33.0.v20240806-0900">
         <description>This feature's dependencies are pulled directly from Maven central.</description>
         <copyright>
 Copyright (c) 2024 Eclipse contributors and others.
@@ -16,7 +16,7 @@ https://www.eclipse.org/legal/epl-2.0/
 SPDX-License-Identifier: EPL-2.0
         </copyright>
         <license url="https://www.eclipse.org/legal/epl-2.0/"/>
-        <!-- SHA1 134b18da44264537414e8a7a6bcdf5612ce56821 -->
+        <!-- SHA1 fde827b580a17acd1b85351f9997ba6743200213 -->
       </feature>
       <dependencies>
         <dependency>
@@ -618,6 +618,12 @@ SPDX-License-Identifier: EPL-2.0
           <groupId>jakarta.ws.rs</groupId>
           <artifactId>jakarta.ws.rs-api</artifactId>
           <version>3.1.0</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>jakarta.ws.rs</groupId>
+          <artifactId>jakarta.ws.rs-api</artifactId>
+          <version>4.0.0</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -1241,13 +1247,13 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>org.mandas</groupId>
           <artifactId>docker-client</artifactId>
-          <version>5.2.2</version>
+          <version>7.0.8</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.mandas</groupId>
           <artifactId>docker-client</artifactId>
-          <version>7.0.8</version>
+          <version>8.0.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -1682,6 +1688,7 @@ SPDX-License-Identifier: EPL-2.0
 
 <!-- ______________________________________________________ EXCLUDE __________________________________________________________________________________________________-->
 
+<!--
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
       <feature id="org.eclipse.orbit.maven.osgi.exclude" label="Orbit Maven OSGi (excluded because they are only for resolution validation)" provider-name="Eclipse Orbit" version="4.33.0">
         <description>This feature's dependencies are pulled directly from Maven central.</description>
@@ -1700,6 +1707,8 @@ SPDX-License-Identifier: EPL-2.0
       <dependencies>
       </dependencies>
     </location>
+-->
 
   </locations>
+
 </target>
