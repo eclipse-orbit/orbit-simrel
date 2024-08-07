@@ -42,6 +42,7 @@ net.java.dev.jna:jna:.* // Needs signing
 org.bndtools:bndtools.jareditor:.* // Drags in the entire Eclipse IDE via requirements.
 org.bouncycastle:.*:1.78  // Broken https://github.com/bcgit/bc-java/issues/1621
 
+
 // There are dependencies for which we want to update to major versions automatically because these provides mostly only increment to major versions.
 //
 -include-major
@@ -59,6 +60,7 @@ org.apache.commons:commons-digester3:3.2 // requires 'java.package; net.sf.cglib
 org.javassist:javassist:3.30.0-GA // Bogus ee requirement
 org.bouncycastle:.*:1.78  // Broken https://github.com/bcgit/bc-java/issues/1621
 org.apache.sshd:.*:2\.13\.0
+org\.slf4j:slf4j-.*:2\.0\.14 // Broken exported package versions
 
 -keep
 commons-logging:commons-logging:1.2

@@ -23,3 +23,4 @@ org.eclipse.jetty(.ee[^:]*|.quic|.demos)?:(jetty-http-tools|jetty-ee[0-9]+-runne
 // These are update versions to which we don't wish to update.
 //
 -ignore
+org\.slf4j:slf4j-.*:2\.0\.14 // Broken exported package versions
