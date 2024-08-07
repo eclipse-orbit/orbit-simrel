@@ -10,6 +10,9 @@
  - [org.junit.jupiter](https://repo1.maven.org/maven2/org/junit/jupiter/)
     - [junit-jupiter-api](https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-api/) **[5.10.2](https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-api/5.10.2)** < [5.10.3](https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-api/5.10.3/)
     - [junit-jupiter-engine](https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-engine/) **[5.10.2](https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.10.2)** < [5.10.3](https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.10.3/)
+ - [org.slf4j](https://repo1.maven.org/maven2/org/slf4j/)
+    - [slf4j-api](https://repo1.maven.org/maven2/org/slf4j/slf4j-api/) **[2.0.13](https://repo1.maven.org/maven2/org/slf4j/slf4j-api/2.0.13)** < [2.0.14](https://repo1.maven.org/maven2/org/slf4j/slf4j-api/2.0.14/)
+    - [slf4j-simple](https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/) **[2.0.13](https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/2.0.13)** < [2.0.14](https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/2.0.14/)
 
 ## Major Updates
  - [jakarta.activation](https://repo1.maven.org/maven2/jakarta/activation/)
