@@ -234,7 +234,7 @@
     - [commons-fileupload2-jakarta-servlet5](https://repo1.maven.org/maven2/org/apache/commons/commons-fileupload2-jakarta-servlet5/) **[2.0.0-M2](https://repo1.maven.org/maven2/org/apache/commons/commons-fileupload2-jakarta-servlet5/2.0.0-M2)**
     - [commons-fileupload2-jakarta-servlet6](https://repo1.maven.org/maven2/org/apache/commons/commons-fileupload2-jakarta-servlet6/) **[2.0.0-M2](https://repo1.maven.org/maven2/org/apache/commons/commons-fileupload2-jakarta-servlet6/2.0.0-M2)**
     - [commons-fileupload2-javax](https://repo1.maven.org/maven2/org/apache/commons/commons-fileupload2-javax/) **[2.0.0-M2](https://repo1.maven.org/maven2/org/apache/commons/commons-fileupload2-javax/2.0.0-M2)**
-    - [commons-lang3](https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/) **[3.15.0](https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.15.0)**
+    - [commons-lang3](https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/) **[3.16.0](https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.16.0)**
     - [commons-math3](https://repo1.maven.org/maven2/org/apache/commons/commons-math3/) **[3.6.1](https://repo1.maven.org/maven2/org/apache/commons/commons-math3/3.6.1)**
     - [commons-text](https://repo1.maven.org/maven2/org/apache/commons/commons-text/) **[1.12.0](https://repo1.maven.org/maven2/org/apache/commons/commons-text/1.12.0)**
  - [org.apache.felix](https://repo1.maven.org/maven2/org/apache/felix/)

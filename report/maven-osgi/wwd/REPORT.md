@@ -2,7 +2,7 @@
 
 ## Minor Updates
  - [org.apache.commons](https://repo1.maven.org/maven2/org/apache/commons/)
-    - [commons-lang3](https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/) **[3.14.0](https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.14.0)** < [3.15.0](https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.15.0/)
+    - [commons-lang3](https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/) **[3.14.0](https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.14.0)** < [3.16.0](https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.16.0/)
 
 ## Updates Applied
 [updated.target](updated.target)
