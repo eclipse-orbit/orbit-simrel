@@ -87,7 +87,7 @@
     - [jnr-unixsocket](https://repo1.maven.org/maven2/com/github/jnr/jnr-unixsocket/) **[0.38.22](https://repo1.maven.org/maven2/com/github/jnr/jnr-unixsocket/0.38.22)**
  - [com.github.librepdf](https://repo1.maven.org/maven2/com/github/librepdf/)
     - [openpdf](https://repo1.maven.org/maven2/com/github/librepdf/openpdf/) **[1.4.2](https://repo1.maven.org/maven2/com/github/librepdf/openpdf/1.4.2)**
-    - [openpdf](https://repo1.maven.org/maven2/com/github/librepdf/openpdf/) **[2.0.2](https://repo1.maven.org/maven2/com/github/librepdf/openpdf/2.0.2)**
+    - [openpdf](https://repo1.maven.org/maven2/com/github/librepdf/openpdf/) **[2.0.3](https://repo1.maven.org/maven2/com/github/librepdf/openpdf/2.0.3)**
  - [com.github.oshi](https://repo1.maven.org/maven2/com/github/oshi/)
     - [oshi-core](https://repo1.maven.org/maven2/com/github/oshi/oshi-core/) **[6.6.2](https://repo1.maven.org/maven2/com/github/oshi/oshi-core/6.6.2)**
  - [com.glazedlists](https://repo1.maven.org/maven2/com/glazedlists/)
