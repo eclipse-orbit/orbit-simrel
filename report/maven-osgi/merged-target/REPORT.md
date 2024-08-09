@@ -35,8 +35,6 @@
  - [org.glassfish.jersey.containers](https://repo1.maven.org/maven2/org/glassfish/jersey/containers/)
     - [jersey-container-servlet](https://repo1.maven.org/maven2/org/glassfish/jersey/containers/jersey-container-servlet/) **[2.44](https://repo1.maven.org/maven2/org/glassfish/jersey/containers/jersey-container-servlet/2.44)** < [3.1.8](https://repo1.maven.org/maven2/org/glassfish/jersey/containers/jersey-container-servlet/3.1.8/)
     - [jersey-container-servlet-core](https://repo1.maven.org/maven2/org/glassfish/jersey/containers/jersey-container-servlet-core/) **[2.44](https://repo1.maven.org/maven2/org/glassfish/jersey/containers/jersey-container-servlet-core/2.44)** < [3.1.8](https://repo1.maven.org/maven2/org/glassfish/jersey/containers/jersey-container-servlet-core/3.1.8/)
- - [org.slf4j](https://repo1.maven.org/maven2/org/slf4j/)
-    - [slf4j-nop](https://repo1.maven.org/maven2/org/slf4j/slf4j-nop/) **[1.7.36](https://repo1.maven.org/maven2/org/slf4j/slf4j-nop/1.7.36)** < [2.0.13](https://repo1.maven.org/maven2/org/slf4j/slf4j-nop/2.0.13/)
 
 ## Content
  - [args4j](https://repo1.maven.org/maven2/args4j/)
@@ -228,7 +226,7 @@
     - [org.apache.aries.spifly.dynamic.bundle](https://repo1.maven.org/maven2/org/apache/aries/spifly/org.apache.aries.spifly.dynamic.bundle/) **[1.3.7](https://repo1.maven.org/maven2/org/apache/aries/spifly/org.apache.aries.spifly.dynamic.bundle/1.3.7)**
  - [org.apache.commons](https://repo1.maven.org/maven2/org/apache/commons/)
     - [commons-collections4](https://repo1.maven.org/maven2/org/apache/commons/commons-collections4/) **[4.4](https://repo1.maven.org/maven2/org/apache/commons/commons-collections4/4.4)**
-    - [commons-compress](https://repo1.maven.org/maven2/org/apache/commons/commons-compress/) **[1.26.2](https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.26.2)**
+    - [commons-compress](https://repo1.maven.org/maven2/org/apache/commons/commons-compress/) **[1.27.0](https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.27.0)**
     - [commons-csv](https://repo1.maven.org/maven2/org/apache/commons/commons-csv/) **[1.11.0](https://repo1.maven.org/maven2/org/apache/commons/commons-csv/1.11.0)**
     - [commons-fileupload2-core](https://repo1.maven.org/maven2/org/apache/commons/commons-fileupload2-core/) **[2.0.0-M2](https://repo1.maven.org/maven2/org/apache/commons/commons-fileupload2-core/2.0.0-M2)**
     - [commons-fileupload2-jakarta-servlet5](https://repo1.maven.org/maven2/org/apache/commons/commons-fileupload2-jakarta-servlet5/) **[2.0.0-M2](https://repo1.maven.org/maven2/org/apache/commons/commons-fileupload2-jakarta-servlet5/2.0.0-M2)**
@@ -417,12 +415,12 @@
     - [org.ow2.sat4j.pb](https://repo1.maven.org/maven2/org/ow2/sat4j/org.ow2.sat4j.pb/) **[2.3.6](https://repo1.maven.org/maven2/org/ow2/sat4j/org.ow2.sat4j.pb/2.3.6)**
  - [org.slf4j](https://repo1.maven.org/maven2/org/slf4j/)
     - [slf4j-api](https://repo1.maven.org/maven2/org/slf4j/slf4j-api/) **[1.7.36](https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.36)**
-    - [slf4j-api](https://repo1.maven.org/maven2/org/slf4j/slf4j-api/) **[2.0.13](https://repo1.maven.org/maven2/org/slf4j/slf4j-api/2.0.13)**
+    - [slf4j-api](https://repo1.maven.org/maven2/org/slf4j/slf4j-api/) **[2.0.15](https://repo1.maven.org/maven2/org/slf4j/slf4j-api/2.0.15)**
     - [slf4j-nop](https://repo1.maven.org/maven2/org/slf4j/slf4j-nop/) **[1.7.36](https://repo1.maven.org/maven2/org/slf4j/slf4j-nop/1.7.36)**
-    - [slf4j-nop](https://repo1.maven.org/maven2/org/slf4j/slf4j-nop/) **[2.0.14](https://repo1.maven.org/maven2/org/slf4j/slf4j-nop/2.0.14)**
-    - [slf4j-reload4j](https://repo1.maven.org/maven2/org/slf4j/slf4j-reload4j/) **[2.0.14](https://repo1.maven.org/maven2/org/slf4j/slf4j-reload4j/2.0.14)**
+    - [slf4j-nop](https://repo1.maven.org/maven2/org/slf4j/slf4j-nop/) **[2.0.15](https://repo1.maven.org/maven2/org/slf4j/slf4j-nop/2.0.15)**
+    - [slf4j-reload4j](https://repo1.maven.org/maven2/org/slf4j/slf4j-reload4j/) **[2.0.15](https://repo1.maven.org/maven2/org/slf4j/slf4j-reload4j/2.0.15)**
     - [slf4j-simple](https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/) **[1.7.36](https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/1.7.36)**
-    - [slf4j-simple](https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/) **[2.0.13](https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/2.0.13)**
+    - [slf4j-simple](https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/) **[2.0.15](https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/2.0.15)**
  - [org.snakeyaml](https://repo1.maven.org/maven2/org/snakeyaml/)
     - [snakeyaml-engine](https://repo1.maven.org/maven2/org/snakeyaml/snakeyaml-engine/) **[2.7](https://repo1.maven.org/maven2/org/snakeyaml/snakeyaml-engine/2.7)**
  - [org.tukaani](https://repo1.maven.org/maven2/org/tukaani/)
