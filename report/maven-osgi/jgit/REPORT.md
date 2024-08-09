@@ -11,6 +11,7 @@
     - [byte-buddy](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/) **[1.14.17](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.14.17)** < [1.14.18](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.14.18/)
     - [byte-buddy-agent](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/) **[1.14.17](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.14.17)** < [1.14.18](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.14.18/)
  - [org.apache.commons](https://repo1.maven.org/maven2/org/apache/commons/)
+    - [commons-compress](https://repo1.maven.org/maven2/org/apache/commons/commons-compress/) **[1.26.2](https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.26.2)** < [1.27.0](https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.27.0/)
     - [commons-lang3](https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/) **[3.14.0](https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.14.0)** < [3.16.0](https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.16.0/)
  - [org.apache.sshd](https://repo1.maven.org/maven2/org/apache/sshd/)
     - [sshd-osgi](https://repo1.maven.org/maven2/org/apache/sshd/sshd-osgi/) **[2.13.1](https://repo1.maven.org/maven2/org/apache/sshd/sshd-osgi/2.13.1)** < [2.13.2](https://repo1.maven.org/maven2/org/apache/sshd/sshd-osgi/2.13.2/)
@@ -34,8 +35,8 @@
  - [org.hamcrest](https://repo1.maven.org/maven2/org/hamcrest/)
     - [hamcrest](https://repo1.maven.org/maven2/org/hamcrest/hamcrest/) **[2.2](https://repo1.maven.org/maven2/org/hamcrest/hamcrest/2.2)** < [3.0](https://repo1.maven.org/maven2/org/hamcrest/hamcrest/3.0/)
  - [org.slf4j](https://repo1.maven.org/maven2/org/slf4j/)
-    - [slf4j-api](https://repo1.maven.org/maven2/org/slf4j/slf4j-api/) **[1.7.36](https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.36)** < [2.0.13](https://repo1.maven.org/maven2/org/slf4j/slf4j-api/2.0.13/)
-    - [slf4j-simple](https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/) **[1.7.36](https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/1.7.36)** < [2.0.13](https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/2.0.13/)
+    - [slf4j-api](https://repo1.maven.org/maven2/org/slf4j/slf4j-api/) **[1.7.36](https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.36)** < [2.0.15](https://repo1.maven.org/maven2/org/slf4j/slf4j-api/2.0.15/)
+    - [slf4j-simple](https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/) **[1.7.36](https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/1.7.36)** < [2.0.15](https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/2.0.15/)
 
 ## Updates Applied
 [updated.tpd](updated.tpd)

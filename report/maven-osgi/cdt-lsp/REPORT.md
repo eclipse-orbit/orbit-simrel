@@ -3,6 +3,8 @@
 ## Minor Updates
  - [com.google.guava](https://repo1.maven.org/maven2/com/google/guava/)
     - [guava](https://repo1.maven.org/maven2/com/google/guava/guava/) **[33.2.0-jre](https://repo1.maven.org/maven2/com/google/guava/guava/33.2.0-jre)** < [33.2.1-jre](https://repo1.maven.org/maven2/com/google/guava/guava/33.2.1-jre/)
+ - [org.apache.commons](https://repo1.maven.org/maven2/org/apache/commons/)
+    - [commons-compress](https://repo1.maven.org/maven2/org/apache/commons/commons-compress/) **[1.26.2](https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.26.2)** < [1.27.0](https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.27.0/)
  - [org.assertj](https://repo1.maven.org/maven2/org/assertj/)
     - [assertj-core](https://repo1.maven.org/maven2/org/assertj/assertj-core/) **[3.26.0](https://repo1.maven.org/maven2/org/assertj/assertj-core/3.26.0)** < [3.26.3](https://repo1.maven.org/maven2/org/assertj/assertj-core/3.26.3/)
  - [org.freemarker](https://repo1.maven.org/maven2/org/freemarker/)
@@ -10,6 +12,9 @@
  - [org.junit.jupiter](https://repo1.maven.org/maven2/org/junit/jupiter/)
     - [junit-jupiter-api](https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-api/) **[5.10.2](https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-api/5.10.2)** < [5.10.3](https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-api/5.10.3/)
     - [junit-jupiter-engine](https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-engine/) **[5.10.2](https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.10.2)** < [5.10.3](https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.10.3/)
+ - [org.slf4j](https://repo1.maven.org/maven2/org/slf4j/)
+    - [slf4j-api](https://repo1.maven.org/maven2/org/slf4j/slf4j-api/) **[2.0.13](https://repo1.maven.org/maven2/org/slf4j/slf4j-api/2.0.13)** < [2.0.15](https://repo1.maven.org/maven2/org/slf4j/slf4j-api/2.0.15/)
+    - [slf4j-simple](https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/) **[2.0.13](https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/2.0.13)** < [2.0.15](https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/2.0.15/)
 
 ## Major Updates
  - [jakarta.activation](https://repo1.maven.org/maven2/jakarta/activation/)
