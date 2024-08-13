@@ -13,9 +13,6 @@
  - [org.apache.commons](https://repo1.maven.org/maven2/org/apache/commons/)
     - [commons-compress](https://repo1.maven.org/maven2/org/apache/commons/commons-compress/) **[1.26.2](https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.26.2)** < [1.27.0](https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.27.0/)
     - [commons-lang3](https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/) **[3.14.0](https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.14.0)** < [3.16.0](https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.16.0/)
- - [org.apache.sshd](https://repo1.maven.org/maven2/org/apache/sshd/)
-    - [sshd-osgi](https://repo1.maven.org/maven2/org/apache/sshd/sshd-osgi/) **[2.13.1](https://repo1.maven.org/maven2/org/apache/sshd/sshd-osgi/2.13.1)** < [2.13.2](https://repo1.maven.org/maven2/org/apache/sshd/sshd-osgi/2.13.2/)
-    - [sshd-sftp](https://repo1.maven.org/maven2/org/apache/sshd/sshd-sftp/) **[2.13.1](https://repo1.maven.org/maven2/org/apache/sshd/sshd-sftp/2.13.1)** < [2.13.2](https://repo1.maven.org/maven2/org/apache/sshd/sshd-sftp/2.13.2/)
  - [org.assertj](https://repo1.maven.org/maven2/org/assertj/)
     - [assertj-core](https://repo1.maven.org/maven2/org/assertj/assertj-core/) **[3.26.0](https://repo1.maven.org/maven2/org/assertj/assertj-core/3.26.0)** < [3.26.3](https://repo1.maven.org/maven2/org/assertj/assertj-core/3.26.3/)
  - [org.eclipse.jetty](https://repo1.maven.org/maven2/org/eclipse/jetty/)
@@ -64,8 +61,8 @@
     - [commons-compress](https://repo1.maven.org/maven2/org/apache/commons/commons-compress/) **[1.26.2](https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.26.2)**
     - [commons-lang3](https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/) **[3.14.0](https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.14.0)**
  - [org.apache.sshd](https://repo1.maven.org/maven2/org/apache/sshd/)
-    - [sshd-osgi](https://repo1.maven.org/maven2/org/apache/sshd/sshd-osgi/) **[2.13.1](https://repo1.maven.org/maven2/org/apache/sshd/sshd-osgi/2.13.1)**
-    - [sshd-sftp](https://repo1.maven.org/maven2/org/apache/sshd/sshd-sftp/) **[2.13.1](https://repo1.maven.org/maven2/org/apache/sshd/sshd-sftp/2.13.1)**
+    - [sshd-osgi](https://repo1.maven.org/maven2/org/apache/sshd/sshd-osgi/) **[2.13.2](https://repo1.maven.org/maven2/org/apache/sshd/sshd-osgi/2.13.2)**
+    - [sshd-sftp](https://repo1.maven.org/maven2/org/apache/sshd/sshd-sftp/) **[2.13.2](https://repo1.maven.org/maven2/org/apache/sshd/sshd-sftp/2.13.2)**
  - [org.assertj](https://repo1.maven.org/maven2/org/assertj/)
     - [assertj-core](https://repo1.maven.org/maven2/org/assertj/assertj-core/) **[3.26.0](https://repo1.maven.org/maven2/org/assertj/assertj-core/3.26.0)**
  - [org.bouncycastle](https://repo1.maven.org/maven2/org/bouncycastle/)
