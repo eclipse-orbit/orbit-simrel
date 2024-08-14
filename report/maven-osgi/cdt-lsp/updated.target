@@ -112,13 +112,13 @@
 				<dependency>
 					<groupId>org.junit.jupiter</groupId>
 					<artifactId>junit-jupiter-api</artifactId>
-					<version>5.10.3</version>
+					<version>5.11.0</version>
 					<type>jar</type>
 				</dependency>
 				<dependency>
 					<groupId>org.junit.jupiter</groupId>
 					<artifactId>junit-jupiter-engine</artifactId>
-					<version>5.10.3</version>
+					<version>5.11.0</version>
 					<type>jar</type>
 				</dependency>
 				<dependency>
