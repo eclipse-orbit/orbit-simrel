@@ -3,9 +3,6 @@
 ## Major Updates
  - [com.fasterxml.woodstox](https://repo1.maven.org/maven2/com/fasterxml/woodstox/)
     - [woodstox-core](https://repo1.maven.org/maven2/com/fasterxml/woodstox/woodstox-core/) **[6.7.0](https://repo1.maven.org/maven2/com/fasterxml/woodstox/woodstox-core/6.7.0)** < [7.0.0](https://repo1.maven.org/maven2/com/fasterxml/woodstox/woodstox-core/7.0.0/)
- - [jakarta.annotation](https://repo1.maven.org/maven2/jakarta/annotation/)
-    - [jakarta.annotation-api](https://repo1.maven.org/maven2/jakarta/annotation/jakarta.annotation-api/) **[1.3.5](https://repo1.maven.org/maven2/jakarta/annotation/jakarta.annotation-api/1.3.5)** < [3.0.0](https://repo1.maven.org/maven2/jakarta/annotation/jakarta.annotation-api/3.0.0/)
-    - [jakarta.annotation-api](https://repo1.maven.org/maven2/jakarta/annotation/jakarta.annotation-api/) **[2.1.1](https://repo1.maven.org/maven2/jakarta/annotation/jakarta.annotation-api/2.1.1)** < [3.0.0](https://repo1.maven.org/maven2/jakarta/annotation/jakarta.annotation-api/3.0.0/)
  - [jakarta.ejb](https://repo1.maven.org/maven2/jakarta/ejb/)
     - [jakarta.ejb-api](https://repo1.maven.org/maven2/jakarta/ejb/jakarta.ejb-api/) **[3.2.6](https://repo1.maven.org/maven2/jakarta/ejb/jakarta.ejb-api/3.2.6)** < [4.0.1](https://repo1.maven.org/maven2/jakarta/ejb/jakarta.ejb-api/4.0.1/)
  - [jakarta.el](https://repo1.maven.org/maven2/jakarta/el/)
@@ -153,6 +150,7 @@
  - [jakarta.annotation](https://repo1.maven.org/maven2/jakarta/annotation/)
     - [jakarta.annotation-api](https://repo1.maven.org/maven2/jakarta/annotation/jakarta.annotation-api/) **[1.3.5](https://repo1.maven.org/maven2/jakarta/annotation/jakarta.annotation-api/1.3.5)**
     - [jakarta.annotation-api](https://repo1.maven.org/maven2/jakarta/annotation/jakarta.annotation-api/) **[2.1.1](https://repo1.maven.org/maven2/jakarta/annotation/jakarta.annotation-api/2.1.1)**
+    - [jakarta.annotation-api](https://repo1.maven.org/maven2/jakarta/annotation/jakarta.annotation-api/) **[3.0.0](https://repo1.maven.org/maven2/jakarta/annotation/jakarta.annotation-api/3.0.0)**
  - [jakarta.authentication](https://repo1.maven.org/maven2/jakarta/authentication/)
     - [jakarta.authentication-api](https://repo1.maven.org/maven2/jakarta/authentication/jakarta.authentication-api/) **[2.0.0](https://repo1.maven.org/maven2/jakarta/authentication/jakarta.authentication-api/2.0.0)**
     - [jakarta.authentication-api](https://repo1.maven.org/maven2/jakarta/authentication/jakarta.authentication-api/) **[3.1.0](https://repo1.maven.org/maven2/jakarta/authentication/jakarta.authentication-api/3.1.0)**
