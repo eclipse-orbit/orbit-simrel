@@ -120,7 +120,7 @@
  - [commons-beanutils](https://repo1.maven.org/maven2/commons-beanutils/)
     - [commons-beanutils](https://repo1.maven.org/maven2/commons-beanutils/commons-beanutils/) **[1.9.4](https://repo1.maven.org/maven2/commons-beanutils/commons-beanutils/1.9.4)**
  - [commons-cli](https://repo1.maven.org/maven2/commons-cli/)
-    - [commons-cli](https://repo1.maven.org/maven2/commons-cli/commons-cli/) **[1.8.0](https://repo1.maven.org/maven2/commons-cli/commons-cli/1.8.0)**
+    - [commons-cli](https://repo1.maven.org/maven2/commons-cli/commons-cli/) **[1.9.0](https://repo1.maven.org/maven2/commons-cli/commons-cli/1.9.0)**
  - [commons-codec](https://repo1.maven.org/maven2/commons-codec/)
     - [commons-codec](https://repo1.maven.org/maven2/commons-codec/commons-codec/) **[1.17.1](https://repo1.maven.org/maven2/commons-codec/commons-codec/1.17.1)**
  - [commons-collections](https://repo1.maven.org/maven2/commons-collections/)
