@@ -1,6 +1,8 @@
 # Target Platform: [m2e](https://raw.githubusercontent.com/eclipse-m2e/m2e-core/master/target-platform/target-platform.target)
 
 ## Minor Updates
+ - [ch.qos.logback](https://repo1.maven.org/maven2/ch/qos/logback/)
+    - [logback-classic](https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/) **[1.5.6](https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.5.6)** < [1.5.7](https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.5.7/)
  - [com.google.guava](https://repo1.maven.org/maven2/com/google/guava/)
     - [guava](https://repo1.maven.org/maven2/com/google/guava/guava/) **[33.2.0-jre](https://repo1.maven.org/maven2/com/google/guava/guava/33.2.0-jre)** < [33.2.1-jre](https://repo1.maven.org/maven2/com/google/guava/guava/33.2.1-jre/)
  - [commons-cli](https://repo1.maven.org/maven2/commons-cli/)

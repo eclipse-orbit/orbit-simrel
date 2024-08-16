@@ -44,8 +44,8 @@
     - [biz.aQute.repository](https://repo1.maven.org/maven2/biz/aQute/bnd/biz.aQute.repository/) **[7.0.0](https://repo1.maven.org/maven2/biz/aQute/bnd/biz.aQute.repository/7.0.0)**
     - [biz.aQute.resolve](https://repo1.maven.org/maven2/biz/aQute/bnd/biz.aQute.resolve/) **[7.0.0](https://repo1.maven.org/maven2/biz/aQute/bnd/biz.aQute.resolve/7.0.0)**
  - [ch.qos.logback](https://repo1.maven.org/maven2/ch/qos/logback/)
-    - [logback-classic](https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/) **[1.5.6](https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.5.6)**
-    - [logback-core](https://repo1.maven.org/maven2/ch/qos/logback/logback-core/) **[1.5.6](https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.5.6)**
+    - [logback-classic](https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/) **[1.5.7](https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.5.7)**
+    - [logback-core](https://repo1.maven.org/maven2/ch/qos/logback/logback-core/) **[1.5.7](https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.5.7)**
  - [ch.qos.reload4j](https://repo1.maven.org/maven2/ch/qos/reload4j/)
     - [reload4j](https://repo1.maven.org/maven2/ch/qos/reload4j/reload4j/) **[1.2.25](https://repo1.maven.org/maven2/ch/qos/reload4j/reload4j/1.2.25)**
  - [com.ethlo.time](https://repo1.maven.org/maven2/com/ethlo/time/)
@@ -212,8 +212,8 @@
  - [lpg.runtime](https://repo1.maven.org/maven2/lpg/runtime/)
     - [java](https://repo1.maven.org/maven2/lpg/runtime/java/) **[2.0.17-v201004271640](https://repo1.maven.org/maven2/lpg/runtime/java/2.0.17-v201004271640)**
  - [net.bytebuddy](https://repo1.maven.org/maven2/net/bytebuddy/)
-    - [byte-buddy](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/) **[1.14.18](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.14.18)**
-    - [byte-buddy-agent](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/) **[1.14.18](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.14.18)**
+    - [byte-buddy](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/) **[1.14.19](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.14.19)**
+    - [byte-buddy-agent](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/) **[1.14.19](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.14.19)**
  - [net.i2p.crypto](https://repo1.maven.org/maven2/net/i2p/crypto/)
     - [eddsa](https://repo1.maven.org/maven2/net/i2p/crypto/eddsa/) **[0.3.0](https://repo1.maven.org/maven2/net/i2p/crypto/eddsa/0.3.0)**
  - [net.java.dev.jna](https://repo1.maven.org/maven2/net/java/dev/jna/)
