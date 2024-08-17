@@ -93,7 +93,7 @@
     - [error_prone_annotations](https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/) **[2.30.0](https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.30.0)**
  - [com.google.guava](https://repo1.maven.org/maven2/com/google/guava/)
     - [failureaccess](https://repo1.maven.org/maven2/com/google/guava/failureaccess/) **[1.0.2](https://repo1.maven.org/maven2/com/google/guava/failureaccess/1.0.2)**
-    - [guava](https://repo1.maven.org/maven2/com/google/guava/guava/) **[33.2.1-jre](https://repo1.maven.org/maven2/com/google/guava/guava/33.2.1-jre)**
+    - [guava](https://repo1.maven.org/maven2/com/google/guava/guava/) **[33.3.0-jre](https://repo1.maven.org/maven2/com/google/guava/guava/33.3.0-jre)**
  - [com.google.inject](https://repo1.maven.org/maven2/com/google/inject/)
     - [guice](https://repo1.maven.org/maven2/com/google/inject/guice/) **[7.0.0](https://repo1.maven.org/maven2/com/google/inject/guice/7.0.0)**
  - [com.google.inject.extensions](https://repo1.maven.org/maven2/com/google/inject/extensions/)
@@ -344,8 +344,7 @@
  - [org.junit.vintage](https://repo1.maven.org/maven2/org/junit/vintage/)
     - [junit-vintage-engine](https://repo1.maven.org/maven2/org/junit/vintage/junit-vintage-engine/) **[5.11.0](https://repo1.maven.org/maven2/org/junit/vintage/junit-vintage-engine/5.11.0)**
  - [org.mandas](https://repo1.maven.org/maven2/org/mandas/)
-    - [docker-client](https://repo1.maven.org/maven2/org/mandas/docker-client/) **[7.0.8](https://repo1.maven.org/maven2/org/mandas/docker-client/7.0.8)**
-    - [docker-client](https://repo1.maven.org/maven2/org/mandas/docker-client/) **[8.0.1](https://repo1.maven.org/maven2/org/mandas/docker-client/8.0.1)**
+    - [docker-client](https://repo1.maven.org/maven2/org/mandas/docker-client/) **[8.0.2](https://repo1.maven.org/maven2/org/mandas/docker-client/8.0.2)**
  - [org.mockito](https://repo1.maven.org/maven2/org/mockito/)
     - [mockito-core](https://repo1.maven.org/maven2/org/mockito/mockito-core/) **[5.12.0](https://repo1.maven.org/maven2/org/mockito/mockito-core/5.12.0)**
     - [mockito-junit-jupiter](https://repo1.maven.org/maven2/org/mockito/mockito-junit-jupiter/) **[5.12.0](https://repo1.maven.org/maven2/org/mockito/mockito-junit-jupiter/5.12.0)**

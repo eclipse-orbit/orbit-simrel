@@ -3,7 +3,7 @@
 <target name="Maven" sequenceNumber="1">
   <locations>
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="error" type="Maven">
-      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.33.0.v20240816-0800">
+      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.33.0.v20240817-0800">
         <description>This feature's dependencies are pulled directly from Maven central.</description>
         <copyright>
 Copyright (c) 2024 Eclipse contributors and others.
@@ -16,7 +16,7 @@ https://www.eclipse.org/legal/epl-2.0/
 SPDX-License-Identifier: EPL-2.0
         </copyright>
         <license url="https://www.eclipse.org/legal/epl-2.0/"/>
-        <!-- SHA1 1cdc8b00e537b8201922ede70bebd4090b08c3a9 -->
+        <!-- SHA1 ca73a8d335f79d5affd0342d7921e768602e5272 -->
       </feature>
       <dependencies>
         <dependency>
@@ -257,7 +257,7 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>com.google.guava</groupId>
           <artifactId>guava</artifactId>
-          <version>33.2.1-jre</version>
+          <version>33.3.0-jre</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -1253,13 +1253,7 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>org.mandas</groupId>
           <artifactId>docker-client</artifactId>
-          <version>7.0.8</version>
-          <type>jar</type>
-        </dependency>
-        <dependency>
-          <groupId>org.mandas</groupId>
-          <artifactId>docker-client</artifactId>
-          <version>8.0.1</version>
+          <version>8.0.2</version>
           <type>jar</type>
         </dependency>
         <dependency>

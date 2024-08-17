@@ -4,7 +4,7 @@
  - [ch.qos.logback](https://repo1.maven.org/maven2/ch/qos/logback/)
     - [logback-classic](https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/) **[1.5.6](https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.5.6)** < [1.5.7](https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.5.7/)
  - [com.google.guava](https://repo1.maven.org/maven2/com/google/guava/)
-    - [guava](https://repo1.maven.org/maven2/com/google/guava/guava/) **[33.2.0-jre](https://repo1.maven.org/maven2/com/google/guava/guava/33.2.0-jre)** < [33.2.1-jre](https://repo1.maven.org/maven2/com/google/guava/guava/33.2.1-jre/)
+    - [guava](https://repo1.maven.org/maven2/com/google/guava/guava/) **[33.2.0-jre](https://repo1.maven.org/maven2/com/google/guava/guava/33.2.0-jre)** < [33.3.0-jre](https://repo1.maven.org/maven2/com/google/guava/guava/33.3.0-jre/)
  - [commons-cli](https://repo1.maven.org/maven2/commons-cli/)
     - [commons-cli](https://repo1.maven.org/maven2/commons-cli/commons-cli/) **[1.8.0](https://repo1.maven.org/maven2/commons-cli/commons-cli/1.8.0)** < [1.9.0](https://repo1.maven.org/maven2/commons-cli/commons-cli/1.9.0/)
  - [commons-codec](https://repo1.maven.org/maven2/commons-codec/)

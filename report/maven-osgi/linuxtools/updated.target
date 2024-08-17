@@ -162,7 +162,7 @@
 			<dependency>
 				<groupId>com.google.guava</groupId>
 				<artifactId>guava</artifactId>
-				<version>33.2.1-jre</version>
+				<version>33.3.0-jre</version>
 				<type>jar</type>
 			</dependency>
 			<dependency>
@@ -276,7 +276,7 @@
 			<dependency>
 				<groupId>org.mandas</groupId>
 				<artifactId>docker-client</artifactId>
-				<version>7.0.8</version>
+				<version>8.0.2</version>
 				<type>jar</type>
 			</dependency>
 		</dependencies>

@@ -223,7 +223,7 @@
  - [org.json](https://repo1.maven.org/maven2/org/json/)
     - [json](https://repo1.maven.org/maven2/org/json/json/) **[20230227](https://repo1.maven.org/maven2/org/json/json/20230227)**
  - [org.mandas](https://repo1.maven.org/maven2/org/mandas/)
-    - [docker-client](https://repo1.maven.org/maven2/org/mandas/docker-client/) **[8.0.1](https://repo1.maven.org/maven2/org/mandas/docker-client/8.0.1)**
+    - [docker-client](https://repo1.maven.org/maven2/org/mandas/docker-client/) **[8.0.2](https://repo1.maven.org/maven2/org/mandas/docker-client/8.0.2)**
  - [org.mockito](https://repo1.maven.org/maven2/org/mockito/)
     - [mockito-junit-jupiter](https://repo1.maven.org/maven2/org/mockito/mockito-junit-jupiter/) **[5.12.0](https://repo1.maven.org/maven2/org/mockito/mockito-junit-jupiter/5.12.0)**
  - [org.mongodb](https://repo1.maven.org/maven2/org/mongodb/)
