@@ -4,7 +4,7 @@
  - [commons-codec](https://repo1.maven.org/maven2/commons-codec/)
     - [commons-codec](https://repo1.maven.org/maven2/commons-codec/commons-codec/) **[1.17.0](https://repo1.maven.org/maven2/commons-codec/commons-codec/1.17.0)** < [1.17.1](https://repo1.maven.org/maven2/commons-codec/commons-codec/1.17.1/)
  - [commons-logging](https://repo1.maven.org/maven2/commons-logging/)
-    - [commons-logging](https://repo1.maven.org/maven2/commons-logging/commons-logging/) **[1.3.2](https://repo1.maven.org/maven2/commons-logging/commons-logging/1.3.2)** < [1.3.3](https://repo1.maven.org/maven2/commons-logging/commons-logging/1.3.3/)
+    - [commons-logging](https://repo1.maven.org/maven2/commons-logging/commons-logging/) **[1.3.2](https://repo1.maven.org/maven2/commons-logging/commons-logging/1.3.2)** < [1.3.4](https://repo1.maven.org/maven2/commons-logging/commons-logging/1.3.4/)
  - [jakarta.servlet](https://repo1.maven.org/maven2/jakarta/servlet/)
     - [jakarta.servlet-api](https://repo1.maven.org/maven2/jakarta/servlet/jakarta.servlet-api/) **[6.0.0](https://repo1.maven.org/maven2/jakarta/servlet/jakarta.servlet-api/6.0.0)** < [6.1.0](https://repo1.maven.org/maven2/jakarta/servlet/jakarta.servlet-api/6.1.0/)
  - [net.bytebuddy](https://repo1.maven.org/maven2/net/bytebuddy/)

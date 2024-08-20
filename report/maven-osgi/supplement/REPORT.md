@@ -97,7 +97,7 @@
     - [commons-discovery](https://repo1.maven.org/maven2/commons-discovery/commons-discovery/) **[0.5](https://repo1.maven.org/maven2/commons-discovery/commons-discovery/0.5)**
  - [commons-logging](https://repo1.maven.org/maven2/commons-logging/)
     - [commons-logging](https://repo1.maven.org/maven2/commons-logging/commons-logging/) **[1.2](https://repo1.maven.org/maven2/commons-logging/commons-logging/1.2)**
-    - [commons-logging](https://repo1.maven.org/maven2/commons-logging/commons-logging/) **[1.3.3](https://repo1.maven.org/maven2/commons-logging/commons-logging/1.3.3)**
+    - [commons-logging](https://repo1.maven.org/maven2/commons-logging/commons-logging/) **[1.3.4](https://repo1.maven.org/maven2/commons-logging/commons-logging/1.3.4)**
  - [commons-net](https://repo1.maven.org/maven2/commons-net/)
     - [commons-net](https://repo1.maven.org/maven2/commons-net/commons-net/) **[3.11.1](https://repo1.maven.org/maven2/commons-net/commons-net/3.11.1)**
  - [dnsjava](https://repo1.maven.org/maven2/dnsjava/)
