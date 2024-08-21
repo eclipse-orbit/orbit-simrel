@@ -109,7 +109,7 @@
         <dependency>
           <groupId>com.github.oshi</groupId>
           <artifactId>oshi-core</artifactId>
-          <version>6.6.2</version>
+          <version>6.6.3</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -199,7 +199,7 @@
         <dependency>
           <groupId>io.github.classgraph</groupId>
           <artifactId>classgraph</artifactId>
-          <version>4.8.174</version>
+          <version>4.8.175</version>
           <type>jar</type>
         </dependency>
         <dependency>

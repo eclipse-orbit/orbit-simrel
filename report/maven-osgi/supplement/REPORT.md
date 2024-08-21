@@ -76,7 +76,7 @@
     - [openpdf](https://repo1.maven.org/maven2/com/github/librepdf/openpdf/) **[1.4.2](https://repo1.maven.org/maven2/com/github/librepdf/openpdf/1.4.2)**
     - [openpdf](https://repo1.maven.org/maven2/com/github/librepdf/openpdf/) **[2.0.3](https://repo1.maven.org/maven2/com/github/librepdf/openpdf/2.0.3)**
  - [com.github.oshi](https://repo1.maven.org/maven2/com/github/oshi/)
-    - [oshi-core](https://repo1.maven.org/maven2/com/github/oshi/oshi-core/) **[6.6.2](https://repo1.maven.org/maven2/com/github/oshi/oshi-core/6.6.2)**
+    - [oshi-core](https://repo1.maven.org/maven2/com/github/oshi/oshi-core/) **[6.6.3](https://repo1.maven.org/maven2/com/github/oshi/oshi-core/6.6.3)**
  - [com.glazedlists](https://repo1.maven.org/maven2/com/glazedlists/)
     - [glazedlists](https://repo1.maven.org/maven2/com/glazedlists/glazedlists/) **[1.11.0](https://repo1.maven.org/maven2/com/glazedlists/glazedlists/1.11.0)**
  - [com.google.errorprone](https://repo1.maven.org/maven2/com/google/errorprone/)
@@ -103,7 +103,7 @@
  - [dnsjava](https://repo1.maven.org/maven2/dnsjava/)
     - [dnsjava](https://repo1.maven.org/maven2/dnsjava/dnsjava/) **[3.6.1](https://repo1.maven.org/maven2/dnsjava/dnsjava/3.6.1)**
  - [io.github.classgraph](https://repo1.maven.org/maven2/io/github/classgraph/)
-    - [classgraph](https://repo1.maven.org/maven2/io/github/classgraph/classgraph/) **[4.8.174](https://repo1.maven.org/maven2/io/github/classgraph/classgraph/4.8.174)**
+    - [classgraph](https://repo1.maven.org/maven2/io/github/classgraph/classgraph/) **[4.8.175](https://repo1.maven.org/maven2/io/github/classgraph/classgraph/4.8.175)**
  - [jakarta.activation](https://repo1.maven.org/maven2/jakarta/activation/)
     - [jakarta.activation-api](https://repo1.maven.org/maven2/jakarta/activation/jakarta.activation-api/) **[1.2.2](https://repo1.maven.org/maven2/jakarta/activation/jakarta.activation-api/1.2.2)**
     - [jakarta.activation-api](https://repo1.maven.org/maven2/jakarta/activation/jakarta.activation-api/) **[2.1.3](https://repo1.maven.org/maven2/jakarta/activation/jakarta.activation-api/2.1.3)**

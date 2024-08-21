@@ -84,7 +84,7 @@
     - [openpdf](https://repo1.maven.org/maven2/com/github/librepdf/openpdf/) **[1.4.2](https://repo1.maven.org/maven2/com/github/librepdf/openpdf/1.4.2)**
     - [openpdf](https://repo1.maven.org/maven2/com/github/librepdf/openpdf/) **[2.0.3](https://repo1.maven.org/maven2/com/github/librepdf/openpdf/2.0.3)**
  - [com.github.oshi](https://repo1.maven.org/maven2/com/github/oshi/)
-    - [oshi-core](https://repo1.maven.org/maven2/com/github/oshi/oshi-core/) **[6.6.2](https://repo1.maven.org/maven2/com/github/oshi/oshi-core/6.6.2)**
+    - [oshi-core](https://repo1.maven.org/maven2/com/github/oshi/oshi-core/) **[6.6.3](https://repo1.maven.org/maven2/com/github/oshi/oshi-core/6.6.3)**
  - [com.glazedlists](https://repo1.maven.org/maven2/com/glazedlists/)
     - [glazedlists](https://repo1.maven.org/maven2/com/glazedlists/glazedlists/) **[1.11.0](https://repo1.maven.org/maven2/com/glazedlists/glazedlists/1.11.0)**
  - [com.google.code.gson](https://repo1.maven.org/maven2/com/google/code/gson/)
@@ -140,7 +140,7 @@
  - [dnsjava](https://repo1.maven.org/maven2/dnsjava/)
     - [dnsjava](https://repo1.maven.org/maven2/dnsjava/dnsjava/) **[3.6.1](https://repo1.maven.org/maven2/dnsjava/dnsjava/3.6.1)**
  - [io.github.classgraph](https://repo1.maven.org/maven2/io/github/classgraph/)
-    - [classgraph](https://repo1.maven.org/maven2/io/github/classgraph/classgraph/) **[4.8.174](https://repo1.maven.org/maven2/io/github/classgraph/classgraph/4.8.174)**
+    - [classgraph](https://repo1.maven.org/maven2/io/github/classgraph/classgraph/) **[4.8.175](https://repo1.maven.org/maven2/io/github/classgraph/classgraph/4.8.175)**
  - [io.github.toolfactory](https://repo1.maven.org/maven2/io/github/toolfactory/)
     - [jvm-driver](https://repo1.maven.org/maven2/io/github/toolfactory/jvm-driver/) **[9.7.1](https://repo1.maven.org/maven2/io/github/toolfactory/jvm-driver/9.7.1)**
     - [narcissus](https://repo1.maven.org/maven2/io/github/toolfactory/narcissus/) **[1.0.7](https://repo1.maven.org/maven2/io/github/toolfactory/narcissus/1.0.7)**
@@ -224,7 +224,7 @@
     - [org.apache.aries.spifly.dynamic.bundle](https://repo1.maven.org/maven2/org/apache/aries/spifly/org.apache.aries.spifly.dynamic.bundle/) **[1.3.7](https://repo1.maven.org/maven2/org/apache/aries/spifly/org.apache.aries.spifly.dynamic.bundle/1.3.7)**
  - [org.apache.commons](https://repo1.maven.org/maven2/org/apache/commons/)
     - [commons-collections4](https://repo1.maven.org/maven2/org/apache/commons/commons-collections4/) **[4.4](https://repo1.maven.org/maven2/org/apache/commons/commons-collections4/4.4)**
-    - [commons-compress](https://repo1.maven.org/maven2/org/apache/commons/commons-compress/) **[1.27.0](https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.27.0)**
+    - [commons-compress](https://repo1.maven.org/maven2/org/apache/commons/commons-compress/) **[1.27.1](https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.27.1)**
     - [commons-csv](https://repo1.maven.org/maven2/org/apache/commons/commons-csv/) **[1.11.0](https://repo1.maven.org/maven2/org/apache/commons/commons-csv/1.11.0)**
     - [commons-fileupload2-core](https://repo1.maven.org/maven2/org/apache/commons/commons-fileupload2-core/) **[2.0.0-M2](https://repo1.maven.org/maven2/org/apache/commons/commons-fileupload2-core/2.0.0-M2)**
     - [commons-fileupload2-jakarta-servlet5](https://repo1.maven.org/maven2/org/apache/commons/commons-fileupload2-jakarta-servlet5/) **[2.0.0-M2](https://repo1.maven.org/maven2/org/apache/commons/commons-fileupload2-jakarta-servlet5/2.0.0-M2)**

@@ -3,6 +3,8 @@
 ## Minor Updates
  - [com.google.guava](https://repo1.maven.org/maven2/com/google/guava/)
     - [guava](https://repo1.maven.org/maven2/com/google/guava/guava/) **[33.2.1-jre](https://repo1.maven.org/maven2/com/google/guava/guava/33.2.1-jre)** < [33.3.0-jre](https://repo1.maven.org/maven2/com/google/guava/guava/33.3.0-jre/)
+ - [org.apache.commons](https://repo1.maven.org/maven2/org/apache/commons/)
+    - [commons-compress](https://repo1.maven.org/maven2/org/apache/commons/commons-compress/) **[1.27.0](https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.27.0)** < [1.27.1](https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.27.1/)
 
 ## Major Updates
  - [jakarta.ws.rs](https://repo1.maven.org/maven2/jakarta/ws/rs/)

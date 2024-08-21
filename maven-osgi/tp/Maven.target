@@ -3,7 +3,7 @@
 <target name="Maven" sequenceNumber="1">
   <locations>
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="error" type="Maven">
-      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.33.0.v20240820-0700">
+      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.33.0.v20240821-0700">
         <description>This feature's dependencies are pulled directly from Maven central.</description>
         <copyright>
 Copyright (c) 2024 Eclipse contributors and others.
@@ -16,7 +16,7 @@ https://www.eclipse.org/legal/epl-2.0/
 SPDX-License-Identifier: EPL-2.0
         </copyright>
         <license url="https://www.eclipse.org/legal/epl-2.0/"/>
-        <!-- SHA1 5a5e0f7496d02e30c81b090ffbd3a9abf5fe75c6 -->
+        <!-- SHA1 60c686d03a932f3d1874f55ecf7e00c77f9c9a55 -->
       </feature>
       <dependencies>
         <dependency>
@@ -227,7 +227,7 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>com.github.oshi</groupId>
           <artifactId>oshi-core</artifactId>
-          <version>6.6.2</version>
+          <version>6.6.3</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -413,7 +413,7 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>io.github.classgraph</groupId>
           <artifactId>classgraph</artifactId>
-          <version>4.8.174</version>
+          <version>4.8.175</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -731,7 +731,7 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>org.apache.commons</groupId>
           <artifactId>commons-compress</artifactId>
-          <version>1.27.0</version>
+          <version>1.27.1</version>
           <type>jar</type>
         </dependency>
         <dependency>

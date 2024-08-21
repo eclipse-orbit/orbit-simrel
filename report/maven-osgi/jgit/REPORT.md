@@ -11,7 +11,7 @@
     - [byte-buddy](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/) **[1.14.17](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.14.17)** < [1.14.19](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.14.19/)
     - [byte-buddy-agent](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/) **[1.14.17](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.14.17)** < [1.14.19](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.14.19/)
  - [org.apache.commons](https://repo1.maven.org/maven2/org/apache/commons/)
-    - [commons-compress](https://repo1.maven.org/maven2/org/apache/commons/commons-compress/) **[1.26.2](https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.26.2)** < [1.27.0](https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.27.0/)
+    - [commons-compress](https://repo1.maven.org/maven2/org/apache/commons/commons-compress/) **[1.26.2](https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.26.2)** < [1.27.1](https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.27.1/)
     - [commons-lang3](https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/) **[3.14.0](https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.14.0)** < [3.16.0](https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.16.0/)
  - [org.assertj](https://repo1.maven.org/maven2/org/assertj/)
     - [assertj-core](https://repo1.maven.org/maven2/org/assertj/assertj-core/) **[3.26.0](https://repo1.maven.org/maven2/org/assertj/assertj-core/3.26.0)** < [3.26.3](https://repo1.maven.org/maven2/org/assertj/assertj-core/3.26.3/)
