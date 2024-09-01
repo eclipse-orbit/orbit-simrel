@@ -7,6 +7,7 @@
     <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
         <listEntry value="1"/>
     </listAttribute>
+    <stringAttribute key="org.eclipse.debug.ui.ATTR_CAPTURE_IN_FILE" value="${workspace_loc:/org.eclipse.orbit.ant.generator}/build.log"/>
     <listAttribute key="org.eclipse.debug.ui.favoriteGroups">
         <listEntry value="org.eclipse.debug.ui.launchGroup.debug"/>
         <listEntry value="org.eclipse.debug.ui.launchGroup.run"/>
@@ -17,6 +18,6 @@
     <booleanAttribute key="org.eclipse.jdt.launching.ATTR_USE_CLASSPATH_ONLY_JAR" value="false"/>
     <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="org.eclipse.orbit.ant.generator.AntGenerator"/>
     <stringAttribute key="org.eclipse.jdt.launching.MODULE_NAME" value="org.eclipse.orbit.ant.generator"/>
-    <stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="-version 1.10.14&#13;&#10;-cache&#13;&#10;${project_loc:/org.eclipse.orbit.ant.generator}/cache&#13;&#10;-target&#13;&#10;${project_loc:/org.eclipse.orbit.ant.generator}/../publish"/>
+    <stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="-version 1.10.15&#13;&#10;-cache&#13;&#10;${project_loc:/org.eclipse.orbit.ant.generator}/cache&#13;&#10;-target&#13;&#10;${project_loc:/org.eclipse.orbit.ant.generator}/../publish"/>
     <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="org.eclipse.orbit.ant.generator"/>
 </launchConfiguration>

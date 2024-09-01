@@ -5,3 +5,4 @@ updates/
 *.swp
 */tp/extras/**
 dependency-analyzer-arg-extra.txt
+maven-ant/repository
