@@ -1,5 +1,14 @@
 # Target Platform: [m2e](https://raw.githubusercontent.com/eclipse-m2e/m2e-core/master/target-platform/target-platform.target)
 
+## Minor Updates
+ - [ch.qos.logback](https://repo1.maven.org/maven2/ch/qos/logback/)
+    - [logback-classic](https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/) **[1.5.7](https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.5.7)** < [1.5.8](https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.5.8/)
+ - [org.apache.commons](https://repo1.maven.org/maven2/org/apache/commons/)
+    - [commons-lang3](https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/) **[3.16.0](https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.16.0)** < [3.17.0](https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.17.0/)
+
+## Updates Applied
+[updated.target](updated.target)
+
 ## Content
  - [ch.qos.logback](https://repo1.maven.org/maven2/ch/qos/logback/)
     - [logback-classic](https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/) **[1.5.7](https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.5.7)**
