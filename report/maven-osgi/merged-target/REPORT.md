@@ -217,7 +217,7 @@
  - [net.i2p.crypto](https://repo1.maven.org/maven2/net/i2p/crypto/)
     - [eddsa](https://repo1.maven.org/maven2/net/i2p/crypto/eddsa/) **[0.3.0](https://repo1.maven.org/maven2/net/i2p/crypto/eddsa/0.3.0)**
  - [net.java.dev.jna](https://repo1.maven.org/maven2/net/java/dev/jna/)
-    - [jna-platform](https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/) **[5.14.0](https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/5.14.0)**
+    - [jna-platform](https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/) **[5.15.0](https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/5.15.0)**
  - [org.antlr](https://repo1.maven.org/maven2/org/antlr/)
     - [antlr4-runtime](https://repo1.maven.org/maven2/org/antlr/antlr4-runtime/) **[4.13.2](https://repo1.maven.org/maven2/org/antlr/antlr4-runtime/4.13.2)**
  - [org.apache.aries.spifly](https://repo1.maven.org/maven2/org/apache/aries/spifly/)

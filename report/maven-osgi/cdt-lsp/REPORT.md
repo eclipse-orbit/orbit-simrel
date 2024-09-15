@@ -1,6 +1,9 @@
 # Target Platform: [cdt-lsp](https://raw.githubusercontent.com/eclipse-cdt/cdt-lsp/master/releng/org.eclipse.cdt.lsp.target/org.eclipse.cdt.lsp.target.target)
 
 ## Minor Updates
+ - [net.java.dev.jna](https://repo1.maven.org/maven2/net/java/dev/jna/)
+    - [jna](https://repo1.maven.org/maven2/net/java/dev/jna/jna/) **[5.14.0](https://repo1.maven.org/maven2/net/java/dev/jna/jna/5.14.0)** < [5.15.0](https://repo1.maven.org/maven2/net/java/dev/jna/jna/5.15.0/)
+    - [jna-platform](https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/) **[5.14.0](https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/5.14.0)** < [5.15.0](https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/5.15.0/)
  - [org.yaml](https://repo1.maven.org/maven2/org/yaml/)
     - [snakeyaml](https://repo1.maven.org/maven2/org/yaml/snakeyaml/) **[2.2](https://repo1.maven.org/maven2/org/yaml/snakeyaml/2.2)** < [2.3](https://repo1.maven.org/maven2/org/yaml/snakeyaml/2.3/)
 
