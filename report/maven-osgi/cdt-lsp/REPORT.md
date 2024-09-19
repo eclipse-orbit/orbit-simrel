@@ -1,6 +1,8 @@
 # Target Platform: [cdt-lsp](https://raw.githubusercontent.com/eclipse-cdt/cdt-lsp/master/releng/org.eclipse.cdt.lsp.target/org.eclipse.cdt.lsp.target.target)
 
 ## Minor Updates
+ - [commons-io](https://repo1.maven.org/maven2/commons-io/)
+    - [commons-io](https://repo1.maven.org/maven2/commons-io/commons-io/) **[2.16.1](https://repo1.maven.org/maven2/commons-io/commons-io/2.16.1)** < [2.17.0](https://repo1.maven.org/maven2/commons-io/commons-io/2.17.0/)
  - [net.java.dev.jna](https://repo1.maven.org/maven2/net/java/dev/jna/)
     - [jna](https://repo1.maven.org/maven2/net/java/dev/jna/jna/) **[5.14.0](https://repo1.maven.org/maven2/net/java/dev/jna/jna/5.14.0)** < [5.15.0](https://repo1.maven.org/maven2/net/java/dev/jna/jna/5.15.0/)
     - [jna-platform](https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/) **[5.14.0](https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/5.14.0)** < [5.15.0](https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/5.15.0/)
