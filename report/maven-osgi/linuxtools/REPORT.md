@@ -1,4 +1,4 @@
-# Target Platform: [linuxtools](https://raw.githubusercontent.com/eclipse-linuxtools/org.eclipse.linuxtools/master/releng/org.eclipse.linuxtools.target/linuxtools-e4.33.target)
+# Target Platform: [linuxtools](https://raw.githubusercontent.com/eclipse-linuxtools/org.eclipse.linuxtools/refs/heads/master/releng/org.eclipse.linuxtools.target/linuxtools-latest.target)
 
 ## Major Updates
  - [jakarta.ws.rs](https://repo1.maven.org/maven2/jakarta/ws/rs/)
