@@ -3,7 +3,7 @@
 <target name="Maven" sequenceNumber="1">
   <locations>
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="error" type="Maven">
-      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.34.0.v20240920-0800">
+      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.34.0.v20240922-0900">
         <description>This feature's dependencies are pulled directly from Maven central.</description>
         <copyright>
 Copyright (c) 2024 Eclipse contributors and others.
@@ -16,7 +16,7 @@ https://www.eclipse.org/legal/epl-2.0/
 SPDX-License-Identifier: EPL-2.0
         </copyright>
         <license url="https://www.eclipse.org/legal/epl-2.0/"/>
-        <!-- SHA1 5f15b9e62e94d0363e844c368cf2fc281e60ddcd -->
+        <!-- SHA1 960695f8f1c2204fa29ca7dd8f29f9e1aa24eee3 -->
       </feature>
       <dependencies>
         <dependency>
@@ -407,7 +407,7 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>dnsjava</groupId>
           <artifactId>dnsjava</artifactId>
-          <version>3.6.1</version>
+          <version>3.6.2</version>
           <type>jar</type>
         </dependency>
         <dependency>

@@ -101,7 +101,7 @@
  - [commons-net](https://repo1.maven.org/maven2/commons-net/)
     - [commons-net](https://repo1.maven.org/maven2/commons-net/commons-net/) **[3.11.1](https://repo1.maven.org/maven2/commons-net/commons-net/3.11.1)**
  - [dnsjava](https://repo1.maven.org/maven2/dnsjava/)
-    - [dnsjava](https://repo1.maven.org/maven2/dnsjava/dnsjava/) **[3.6.1](https://repo1.maven.org/maven2/dnsjava/dnsjava/3.6.1)**
+    - [dnsjava](https://repo1.maven.org/maven2/dnsjava/dnsjava/) **[3.6.2](https://repo1.maven.org/maven2/dnsjava/dnsjava/3.6.2)**
  - [io.github.classgraph](https://repo1.maven.org/maven2/io/github/classgraph/)
     - [classgraph](https://repo1.maven.org/maven2/io/github/classgraph/classgraph/) **[4.8.176](https://repo1.maven.org/maven2/io/github/classgraph/classgraph/4.8.176)**
  - [jakarta.activation](https://repo1.maven.org/maven2/jakarta/activation/)
