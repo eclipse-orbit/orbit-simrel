@@ -7,6 +7,10 @@
     - [guava](https://repo1.maven.org/maven2/com/google/guava/guava/) **[33.3.0-jre](https://repo1.maven.org/maven2/com/google/guava/guava/33.3.0-jre)** < [33.3.1-jre](https://repo1.maven.org/maven2/com/google/guava/guava/33.3.1-jre/)
  - [org.apache.commons](https://repo1.maven.org/maven2/org/apache/commons/)
     - [commons-lang3](https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/) **[3.16.0](https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.16.0)** < [3.17.0](https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.17.0/)
+ - [org.apache.maven.archetype](https://repo1.maven.org/maven2/org/apache/maven/archetype/)
+    - [archetype-catalog](https://repo1.maven.org/maven2/org/apache/maven/archetype/archetype-catalog/) **[3.2.1](https://repo1.maven.org/maven2/org/apache/maven/archetype/archetype-catalog/3.2.1)** < [3.3.0](https://repo1.maven.org/maven2/org/apache/maven/archetype/archetype-catalog/3.3.0/)
+    - [archetype-common](https://repo1.maven.org/maven2/org/apache/maven/archetype/archetype-common/) **[3.2.1](https://repo1.maven.org/maven2/org/apache/maven/archetype/archetype-common/3.2.1)** < [3.3.0](https://repo1.maven.org/maven2/org/apache/maven/archetype/archetype-common/3.3.0/)
+    - [archetype-descriptor](https://repo1.maven.org/maven2/org/apache/maven/archetype/archetype-descriptor/) **[3.2.1](https://repo1.maven.org/maven2/org/apache/maven/archetype/archetype-descriptor/3.2.1)** < [3.3.0](https://repo1.maven.org/maven2/org/apache/maven/archetype/archetype-descriptor/3.3.0/)
 
 ## Updates Applied
 [updated.target](updated.target)
