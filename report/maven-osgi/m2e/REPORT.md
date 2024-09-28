@@ -1,12 +1,6 @@
 # Target Platform: [m2e](https://raw.githubusercontent.com/eclipse-m2e/m2e-core/master/target-platform/target-platform.target)
 
 ## Minor Updates
- - [ch.qos.logback](https://repo1.maven.org/maven2/ch/qos/logback/)
-    - [logback-classic](https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/) **[1.5.7](https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.5.7)** < [1.5.8](https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.5.8/)
- - [com.google.guava](https://repo1.maven.org/maven2/com/google/guava/)
-    - [guava](https://repo1.maven.org/maven2/com/google/guava/guava/) **[33.3.0-jre](https://repo1.maven.org/maven2/com/google/guava/guava/33.3.0-jre)** < [33.3.1-jre](https://repo1.maven.org/maven2/com/google/guava/guava/33.3.1-jre/)
- - [org.apache.commons](https://repo1.maven.org/maven2/org/apache/commons/)
-    - [commons-lang3](https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/) **[3.16.0](https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.16.0)** < [3.17.0](https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.17.0/)
  - [org.apache.maven.archetype](https://repo1.maven.org/maven2/org/apache/maven/archetype/)
     - [archetype-catalog](https://repo1.maven.org/maven2/org/apache/maven/archetype/archetype-catalog/) **[3.2.1](https://repo1.maven.org/maven2/org/apache/maven/archetype/archetype-catalog/3.2.1)** < [3.3.0](https://repo1.maven.org/maven2/org/apache/maven/archetype/archetype-catalog/3.3.0/)
     - [archetype-common](https://repo1.maven.org/maven2/org/apache/maven/archetype/archetype-common/) **[3.2.1](https://repo1.maven.org/maven2/org/apache/maven/archetype/archetype-common/3.2.1)** < [3.3.0](https://repo1.maven.org/maven2/org/apache/maven/archetype/archetype-common/3.3.0/)
@@ -17,12 +11,12 @@
 
 ## Content
  - [ch.qos.logback](https://repo1.maven.org/maven2/ch/qos/logback/)
-    - [logback-classic](https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/) **[1.5.7](https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.5.7)**
+    - [logback-classic](https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/) **[1.5.8](https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.5.8)**
  - [com.google.code.gson](https://repo1.maven.org/maven2/com/google/code/gson/)
     - [gson](https://repo1.maven.org/maven2/com/google/code/gson/gson/) **[2.11.0](https://repo1.maven.org/maven2/com/google/code/gson/gson/2.11.0)**
  - [com.google.guava](https://repo1.maven.org/maven2/com/google/guava/)
     - [failureaccess](https://repo1.maven.org/maven2/com/google/guava/failureaccess/) **[1.0.2](https://repo1.maven.org/maven2/com/google/guava/failureaccess/1.0.2)**
-    - [guava](https://repo1.maven.org/maven2/com/google/guava/guava/) **[33.3.0-jre](https://repo1.maven.org/maven2/com/google/guava/guava/33.3.0-jre)**
+    - [guava](https://repo1.maven.org/maven2/com/google/guava/guava/) **[33.3.1-jre](https://repo1.maven.org/maven2/com/google/guava/guava/33.3.1-jre)**
  - [commons-cli](https://repo1.maven.org/maven2/commons-cli/)
     - [commons-cli](https://repo1.maven.org/maven2/commons-cli/commons-cli/) **[1.9.0](https://repo1.maven.org/maven2/commons-cli/commons-cli/1.9.0)**
  - [commons-codec](https://repo1.maven.org/maven2/commons-codec/)
@@ -32,7 +26,7 @@
  - [org.apache.aries.spifly](https://repo1.maven.org/maven2/org/apache/aries/spifly/)
     - [org.apache.aries.spifly.dynamic.bundle](https://repo1.maven.org/maven2/org/apache/aries/spifly/org.apache.aries.spifly.dynamic.bundle/) **[1.3.7](https://repo1.maven.org/maven2/org/apache/aries/spifly/org.apache.aries.spifly.dynamic.bundle/1.3.7)**
  - [org.apache.commons](https://repo1.maven.org/maven2/org/apache/commons/)
-    - [commons-lang3](https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/) **[3.16.0](https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.16.0)**
+    - [commons-lang3](https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/) **[3.17.0](https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.17.0)**
  - [org.apache.maven.archetype](https://repo1.maven.org/maven2/org/apache/maven/archetype/)
     - [archetype-catalog](https://repo1.maven.org/maven2/org/apache/maven/archetype/archetype-catalog/) **[3.2.1](https://repo1.maven.org/maven2/org/apache/maven/archetype/archetype-catalog/3.2.1)**
     - [archetype-common](https://repo1.maven.org/maven2/org/apache/maven/archetype/archetype-common/) **[3.2.1](https://repo1.maven.org/maven2/org/apache/maven/archetype/archetype-common/3.2.1)**
