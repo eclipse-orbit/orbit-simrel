@@ -10,7 +10,7 @@
     - [jna](https://repo1.maven.org/maven2/net/java/dev/jna/jna/) **[5.14.0](https://repo1.maven.org/maven2/net/java/dev/jna/jna/5.14.0)** < [5.15.0](https://repo1.maven.org/maven2/net/java/dev/jna/jna/5.15.0/)
     - [jna-platform](https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/) **[5.14.0](https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/5.14.0)** < [5.15.0](https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/5.15.0/)
  - [org.mockito](https://repo1.maven.org/maven2/org/mockito/)
-    - [mockito-core](https://repo1.maven.org/maven2/org/mockito/mockito-core/) **[5.13.0](https://repo1.maven.org/maven2/org/mockito/mockito-core/5.13.0)** < [5.14.0](https://repo1.maven.org/maven2/org/mockito/mockito-core/5.14.0/)
+    - [mockito-core](https://repo1.maven.org/maven2/org/mockito/mockito-core/) **[5.13.0](https://repo1.maven.org/maven2/org/mockito/mockito-core/5.13.0)** < [5.14.1](https://repo1.maven.org/maven2/org/mockito/mockito-core/5.14.1/)
 
 ## Major Updates
  - [org.slf4j](https://repo1.maven.org/maven2/org/slf4j/)

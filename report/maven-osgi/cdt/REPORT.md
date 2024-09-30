@@ -12,7 +12,7 @@
     - [junit-jupiter-api](https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-api/) **[5.11.0](https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-api/5.11.0)** < [5.11.1](https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-api/5.11.1/)
     - [junit-jupiter-engine](https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-engine/) **[5.11.0](https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.11.0)** < [5.11.1](https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.11.1/)
  - [org.mockito](https://repo1.maven.org/maven2/org/mockito/)
-    - [mockito-core](https://repo1.maven.org/maven2/org/mockito/mockito-core/) **[5.13.0](https://repo1.maven.org/maven2/org/mockito/mockito-core/5.13.0)** < [5.14.0](https://repo1.maven.org/maven2/org/mockito/mockito-core/5.14.0/)
+    - [mockito-core](https://repo1.maven.org/maven2/org/mockito/mockito-core/) **[5.13.0](https://repo1.maven.org/maven2/org/mockito/mockito-core/5.13.0)** < [5.14.1](https://repo1.maven.org/maven2/org/mockito/mockito-core/5.14.1/)
  - [org.yaml](https://repo1.maven.org/maven2/org/yaml/)
     - [snakeyaml](https://repo1.maven.org/maven2/org/yaml/snakeyaml/) **[2.2](https://repo1.maven.org/maven2/org/yaml/snakeyaml/2.2)** < [2.3](https://repo1.maven.org/maven2/org/yaml/snakeyaml/2.3/)
 
