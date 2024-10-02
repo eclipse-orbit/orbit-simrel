@@ -7,49 +7,49 @@
         <dependency>
           <groupId>org.eclipse.jetty</groupId>
           <artifactId>jetty-bom</artifactId>
-          <version>12.0.13</version>
+          <version>12.0.14</version>
           <type>pom</type>
         </dependency>
         <dependency>
           <groupId>org.eclipse.jetty</groupId>
           <artifactId>jetty-ee</artifactId>
-          <version>12.0.13</version>
+          <version>12.0.14</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.eclipse.jetty.ee10</groupId>
           <artifactId>jetty-ee10-bom</artifactId>
-          <version>12.0.13</version>
+          <version>12.0.14</version>
           <type>pom</type>
         </dependency>
         <dependency>
           <groupId>org.eclipse.jetty.ee10</groupId>
           <artifactId>jetty-ee10-webapp</artifactId>
-          <version>12.0.13</version>
+          <version>12.0.14</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.eclipse.jetty.ee8</groupId>
           <artifactId>jetty-ee8-bom</artifactId>
-          <version>12.0.13</version>
+          <version>12.0.14</version>
           <type>pom</type>
         </dependency>
         <dependency>
           <groupId>org.eclipse.jetty.ee8.osgi</groupId>
           <artifactId>jetty-ee8-osgi-boot</artifactId>
-          <version>12.0.13</version>
+          <version>12.0.14</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.eclipse.jetty.ee8.osgi</groupId>
           <artifactId>jetty-ee8-osgi-boot-jsp</artifactId>
-          <version>12.0.13</version>
+          <version>12.0.14</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.eclipse.jetty.ee9</groupId>
           <artifactId>jetty-ee9-bom</artifactId>
-          <version>12.0.13</version>
+          <version>12.0.14</version>
           <type>pom</type>
         </dependency>
       </dependencies>
