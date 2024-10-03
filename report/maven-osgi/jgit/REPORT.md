@@ -1,6 +1,9 @@
 # Target Platform: [jgit](https://raw.githubusercontent.com/eclipse-jgit/jgit/master/org.eclipse.jgit.packaging/org.eclipse.jgit.target/maven/dependencies.tpd)
 
 ## Minor Updates
+ - [org.apache.sshd](https://repo1.maven.org/maven2/org/apache/sshd/)
+    - [sshd-osgi](https://repo1.maven.org/maven2/org/apache/sshd/sshd-osgi/) **[2.13.2](https://repo1.maven.org/maven2/org/apache/sshd/sshd-osgi/2.13.2)** < [2.14.0](https://repo1.maven.org/maven2/org/apache/sshd/sshd-osgi/2.14.0/)
+    - [sshd-sftp](https://repo1.maven.org/maven2/org/apache/sshd/sshd-sftp/) **[2.13.2](https://repo1.maven.org/maven2/org/apache/sshd/sshd-sftp/2.13.2)** < [2.14.0](https://repo1.maven.org/maven2/org/apache/sshd/sshd-sftp/2.14.0/)
  - [org.eclipse.jetty](https://repo1.maven.org/maven2/org/eclipse/jetty/)
     - [jetty-http](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/) **[12.0.13](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/12.0.13)** < [12.0.14](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/12.0.14/)
     - [jetty-io](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/) **[12.0.13](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/12.0.13)** < [12.0.14](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/12.0.14/)
