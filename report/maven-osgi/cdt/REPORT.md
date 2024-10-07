@@ -13,6 +13,12 @@
     - [junit-jupiter-engine](https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-engine/) **[5.11.0](https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.11.0)** < [5.11.2](https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.11.2/)
  - [org.mockito](https://repo1.maven.org/maven2/org/mockito/)
     - [mockito-core](https://repo1.maven.org/maven2/org/mockito/mockito-core/) **[5.13.0](https://repo1.maven.org/maven2/org/mockito/mockito-core/5.13.0)** < [5.14.1](https://repo1.maven.org/maven2/org/mockito/mockito-core/5.14.1/)
+ - [org.ow2.asm](https://repo1.maven.org/maven2/org/ow2/asm/)
+    - [asm](https://repo1.maven.org/maven2/org/ow2/asm/asm/) **[9.7](https://repo1.maven.org/maven2/org/ow2/asm/asm/9.7)** < [9.7.1](https://repo1.maven.org/maven2/org/ow2/asm/asm/9.7.1/)
+    - [asm-analysis](https://repo1.maven.org/maven2/org/ow2/asm/asm-analysis/) **[9.7](https://repo1.maven.org/maven2/org/ow2/asm/asm-analysis/9.7)** < [9.7.1](https://repo1.maven.org/maven2/org/ow2/asm/asm-analysis/9.7.1/)
+    - [asm-commons](https://repo1.maven.org/maven2/org/ow2/asm/asm-commons/) **[9.7](https://repo1.maven.org/maven2/org/ow2/asm/asm-commons/9.7)** < [9.7.1](https://repo1.maven.org/maven2/org/ow2/asm/asm-commons/9.7.1/)
+    - [asm-tree](https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/) **[9.7](https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/9.7)** < [9.7.1](https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/9.7.1/)
+    - [asm-util](https://repo1.maven.org/maven2/org/ow2/asm/asm-util/) **[9.7](https://repo1.maven.org/maven2/org/ow2/asm/asm-util/9.7)** < [9.7.1](https://repo1.maven.org/maven2/org/ow2/asm/asm-util/9.7.1/)
  - [org.yaml](https://repo1.maven.org/maven2/org/yaml/)
     - [snakeyaml](https://repo1.maven.org/maven2/org/yaml/snakeyaml/) **[2.2](https://repo1.maven.org/maven2/org/yaml/snakeyaml/2.2)** < [2.3](https://repo1.maven.org/maven2/org/yaml/snakeyaml/2.3/)
 
