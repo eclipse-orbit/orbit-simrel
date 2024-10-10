@@ -32,6 +32,11 @@
  - [org.glassfish.jersey.containers](https://repo1.maven.org/maven2/org/glassfish/jersey/containers/)
     - [jersey-container-servlet](https://repo1.maven.org/maven2/org/glassfish/jersey/containers/jersey-container-servlet/) **[2.45](https://repo1.maven.org/maven2/org/glassfish/jersey/containers/jersey-container-servlet/2.45)** < [3.1.9](https://repo1.maven.org/maven2/org/glassfish/jersey/containers/jersey-container-servlet/3.1.9/)
     - [jersey-container-servlet-core](https://repo1.maven.org/maven2/org/glassfish/jersey/containers/jersey-container-servlet-core/) **[2.45](https://repo1.maven.org/maven2/org/glassfish/jersey/containers/jersey-container-servlet-core/2.45)** < [3.1.9](https://repo1.maven.org/maven2/org/glassfish/jersey/containers/jersey-container-servlet-core/3.1.9/)
+ - [org.mortbay.jasper](https://repo1.maven.org/maven2/org/mortbay/jasper/)
+    - [apache-el](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-el/) **[9.0.90](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-el/9.0.90)** < [11.0.0](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-el/11.0.0/)
+    - [apache-el](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-el/) **[10.1.25](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-el/10.1.25)** < [11.0.0](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-el/11.0.0/)
+    - [apache-jsp](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-jsp/) **[9.0.90](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-jsp/9.0.90)** < [11.0.0](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-jsp/11.0.0/)
+    - [apache-jsp](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-jsp/) **[10.1.25](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-jsp/10.1.25)** < [11.0.0](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-jsp/11.0.0/)
 
 ## Content
  - [args4j](https://repo1.maven.org/maven2/args4j/)
@@ -212,8 +217,8 @@
  - [lpg.runtime](https://repo1.maven.org/maven2/lpg/runtime/)
     - [java](https://repo1.maven.org/maven2/lpg/runtime/java/) **[2.0.17-v201004271640](https://repo1.maven.org/maven2/lpg/runtime/java/2.0.17-v201004271640)**
  - [net.bytebuddy](https://repo1.maven.org/maven2/net/bytebuddy/)
-    - [byte-buddy](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/) **[1.15.3](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.15.3)**
-    - [byte-buddy-agent](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/) **[1.15.3](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.15.3)**
+    - [byte-buddy](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/) **[1.15.4](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.15.4)**
+    - [byte-buddy-agent](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/) **[1.15.4](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.15.4)**
  - [net.i2p.crypto](https://repo1.maven.org/maven2/net/i2p/crypto/)
     - [eddsa](https://repo1.maven.org/maven2/net/i2p/crypto/eddsa/) **[0.3.0](https://repo1.maven.org/maven2/net/i2p/crypto/eddsa/0.3.0)**
  - [net.java.dev.jna](https://repo1.maven.org/maven2/net/java/dev/jna/)

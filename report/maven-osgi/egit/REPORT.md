@@ -1,6 +1,9 @@
 # Target Platform: [egit](https://raw.githubusercontent.com/eclipse-egit/egit/master/org.eclipse.egit.target/maven/dependencies.tpd)
 
 ## Minor Updates
+ - [net.bytebuddy](https://repo1.maven.org/maven2/net/bytebuddy/)
+    - [byte-buddy](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/) **[1.15.3](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.15.3)** < [1.15.4](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.15.4/)
+    - [byte-buddy-agent](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/) **[1.15.3](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.15.3)** < [1.15.4](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.15.4/)
  - [org.apache.sshd](https://repo1.maven.org/maven2/org/apache/sshd/)
     - [sshd-osgi](https://repo1.maven.org/maven2/org/apache/sshd/sshd-osgi/) **[2.13.2](https://repo1.maven.org/maven2/org/apache/sshd/sshd-osgi/2.13.2)** < [2.14.0](https://repo1.maven.org/maven2/org/apache/sshd/sshd-osgi/2.14.0/)
     - [sshd-sftp](https://repo1.maven.org/maven2/org/apache/sshd/sshd-sftp/) **[2.13.2](https://repo1.maven.org/maven2/org/apache/sshd/sshd-sftp/2.13.2)** < [2.14.0](https://repo1.maven.org/maven2/org/apache/sshd/sshd-sftp/2.14.0/)
