@@ -1,6 +1,11 @@
 # Target Platform: [linuxtools](https://raw.githubusercontent.com/eclipse-linuxtools/org.eclipse.linuxtools/refs/heads/master/releng/org.eclipse.linuxtools.target/linuxtools-latest.target)
 
 ## Minor Updates
+ - [com.github.jnr](https://repo1.maven.org/maven2/com/github/jnr/)
+    - [jnr-enxio](https://repo1.maven.org/maven2/com/github/jnr/jnr-enxio/) **[0.32.17](https://repo1.maven.org/maven2/com/github/jnr/jnr-enxio/0.32.17)** < [0.32.18](https://repo1.maven.org/maven2/com/github/jnr/jnr-enxio/0.32.18/)
+    - [jnr-ffi](https://repo1.maven.org/maven2/com/github/jnr/jnr-ffi/) **[2.2.16](https://repo1.maven.org/maven2/com/github/jnr/jnr-ffi/2.2.16)** < [2.2.17](https://repo1.maven.org/maven2/com/github/jnr/jnr-ffi/2.2.17/)
+    - [jnr-posix](https://repo1.maven.org/maven2/com/github/jnr/jnr-posix/) **[3.1.19](https://repo1.maven.org/maven2/com/github/jnr/jnr-posix/3.1.19)** < [3.1.20](https://repo1.maven.org/maven2/com/github/jnr/jnr-posix/3.1.20/)
+    - [jnr-unixsocket](https://repo1.maven.org/maven2/com/github/jnr/jnr-unixsocket/) **[0.38.22](https://repo1.maven.org/maven2/com/github/jnr/jnr-unixsocket/0.38.22)** < [0.38.23](https://repo1.maven.org/maven2/com/github/jnr/jnr-unixsocket/0.38.23/)
  - [org.glassfish.jersey.connectors](https://repo1.maven.org/maven2/org/glassfish/jersey/connectors/)
     - [jersey-apache-connector](https://repo1.maven.org/maven2/org/glassfish/jersey/connectors/jersey-apache-connector/) **[3.1.8](https://repo1.maven.org/maven2/org/glassfish/jersey/connectors/jersey-apache-connector/3.1.8)** < [3.1.9](https://repo1.maven.org/maven2/org/glassfish/jersey/connectors/jersey-apache-connector/3.1.9/)
  - [org.glassfish.jersey.core](https://repo1.maven.org/maven2/org/glassfish/jersey/core/)

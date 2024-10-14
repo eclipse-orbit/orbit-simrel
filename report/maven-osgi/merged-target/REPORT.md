@@ -81,10 +81,10 @@
  - [com.github.jnr](https://repo1.maven.org/maven2/com/github/jnr/)
     - [jffi](https://repo1.maven.org/maven2/com/github/jnr/jffi/) **[1.3.13](https://repo1.maven.org/maven2/com/github/jnr/jffi/1.3.13)** - *complete*
     - [jnr-constants](https://repo1.maven.org/maven2/com/github/jnr/jnr-constants/) **[0.10.4](https://repo1.maven.org/maven2/com/github/jnr/jnr-constants/0.10.4)**
-    - [jnr-enxio](https://repo1.maven.org/maven2/com/github/jnr/jnr-enxio/) **[0.32.17](https://repo1.maven.org/maven2/com/github/jnr/jnr-enxio/0.32.17)**
-    - [jnr-ffi](https://repo1.maven.org/maven2/com/github/jnr/jnr-ffi/) **[2.2.16](https://repo1.maven.org/maven2/com/github/jnr/jnr-ffi/2.2.16)**
-    - [jnr-posix](https://repo1.maven.org/maven2/com/github/jnr/jnr-posix/) **[3.1.19](https://repo1.maven.org/maven2/com/github/jnr/jnr-posix/3.1.19)**
-    - [jnr-unixsocket](https://repo1.maven.org/maven2/com/github/jnr/jnr-unixsocket/) **[0.38.22](https://repo1.maven.org/maven2/com/github/jnr/jnr-unixsocket/0.38.22)**
+    - [jnr-enxio](https://repo1.maven.org/maven2/com/github/jnr/jnr-enxio/) **[0.32.18](https://repo1.maven.org/maven2/com/github/jnr/jnr-enxio/0.32.18)**
+    - [jnr-ffi](https://repo1.maven.org/maven2/com/github/jnr/jnr-ffi/) **[2.2.17](https://repo1.maven.org/maven2/com/github/jnr/jnr-ffi/2.2.17)**
+    - [jnr-posix](https://repo1.maven.org/maven2/com/github/jnr/jnr-posix/) **[3.1.20](https://repo1.maven.org/maven2/com/github/jnr/jnr-posix/3.1.20)**
+    - [jnr-unixsocket](https://repo1.maven.org/maven2/com/github/jnr/jnr-unixsocket/) **[0.38.23](https://repo1.maven.org/maven2/com/github/jnr/jnr-unixsocket/0.38.23)**
  - [com.github.librepdf](https://repo1.maven.org/maven2/com/github/librepdf/)
     - [openpdf](https://repo1.maven.org/maven2/com/github/librepdf/openpdf/) **[1.4.2](https://repo1.maven.org/maven2/com/github/librepdf/openpdf/1.4.2)**
     - [openpdf](https://repo1.maven.org/maven2/com/github/librepdf/openpdf/) **[2.0.3](https://repo1.maven.org/maven2/com/github/librepdf/openpdf/2.0.3)**
