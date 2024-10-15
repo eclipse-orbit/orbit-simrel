@@ -54,7 +54,7 @@
 
 ## Content
  - [ch.qos.logback](https://repo1.maven.org/maven2/ch/qos/logback/)
-    - [logback-core](https://repo1.maven.org/maven2/ch/qos/logback/logback-core/) **[1.5.10](https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.5.10)**
+    - [logback-core](https://repo1.maven.org/maven2/ch/qos/logback/logback-core/) **[1.5.11](https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.5.11)**
  - [ch.qos.reload4j](https://repo1.maven.org/maven2/ch/qos/reload4j/)
     - [reload4j](https://repo1.maven.org/maven2/ch/qos/reload4j/reload4j/) **[1.2.25](https://repo1.maven.org/maven2/ch/qos/reload4j/reload4j/1.2.25)**
  - [com.ethlo.time](https://repo1.maven.org/maven2/com/ethlo/time/)
@@ -230,7 +230,7 @@
  - [org.mandas](https://repo1.maven.org/maven2/org/mandas/)
     - [docker-client](https://repo1.maven.org/maven2/org/mandas/docker-client/) **[8.0.2](https://repo1.maven.org/maven2/org/mandas/docker-client/8.0.2)**
  - [org.mockito](https://repo1.maven.org/maven2/org/mockito/)
-    - [mockito-junit-jupiter](https://repo1.maven.org/maven2/org/mockito/mockito-junit-jupiter/) **[5.14.1](https://repo1.maven.org/maven2/org/mockito/mockito-junit-jupiter/5.14.1)**
+    - [mockito-junit-jupiter](https://repo1.maven.org/maven2/org/mockito/mockito-junit-jupiter/) **[5.14.2](https://repo1.maven.org/maven2/org/mockito/mockito-junit-jupiter/5.14.2)**
  - [org.mongodb](https://repo1.maven.org/maven2/org/mongodb/)
     - [mongo-java-driver](https://repo1.maven.org/maven2/org/mongodb/mongo-java-driver/) **[3.12.14](https://repo1.maven.org/maven2/org/mongodb/mongo-java-driver/3.12.14)**
  - [org.mortbay.jasper](https://repo1.maven.org/maven2/org/mortbay/jasper/)
