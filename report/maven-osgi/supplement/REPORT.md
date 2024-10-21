@@ -26,6 +26,8 @@
     - [javax.servlet-api](https://repo1.maven.org/maven2/javax/servlet/javax.servlet-api/) **[3.1.0](https://repo1.maven.org/maven2/javax/servlet/javax.servlet-api/3.1.0)** < [4.0.1](https://repo1.maven.org/maven2/javax/servlet/javax.servlet-api/4.0.1/)
  - [org.apache.felix](https://repo1.maven.org/maven2/org/apache/felix/)
     - [org.apache.felix.http.servlet-api](https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.http.servlet-api/) **[1.2.0](https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.http.servlet-api/1.2.0)** < [3.0.0](https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.http.servlet-api/3.0.0/)
+ - [org.apache.tika](https://repo1.maven.org/maven2/org/apache/tika/)
+    - [tika-core](https://repo1.maven.org/maven2/org/apache/tika/tika-core/) **[2.9.2](https://repo1.maven.org/maven2/org/apache/tika/tika-core/2.9.2)** < [3.0.0](https://repo1.maven.org/maven2/org/apache/tika/tika-core/3.0.0/)
  - [org.glassfish.hk2](https://repo1.maven.org/maven2/org/glassfish/hk2/)
     - [hk2-api](https://repo1.maven.org/maven2/org/glassfish/hk2/hk2-api/) **[2.6.1](https://repo1.maven.org/maven2/org/glassfish/hk2/hk2-api/2.6.1)** < [3.1.1](https://repo1.maven.org/maven2/org/glassfish/hk2/hk2-api/3.1.1/)
     - [hk2-locator](https://repo1.maven.org/maven2/org/glassfish/hk2/hk2-locator/) **[2.6.1](https://repo1.maven.org/maven2/org/glassfish/hk2/hk2-locator/2.6.1)** < [3.1.1](https://repo1.maven.org/maven2/org/glassfish/hk2/hk2-locator/3.1.1/)
