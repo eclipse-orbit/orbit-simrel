@@ -2,7 +2,7 @@
 
 ## Major Updates
  - [com.fasterxml.woodstox](https://repo1.maven.org/maven2/com/fasterxml/woodstox/)
-    - [woodstox-core](https://repo1.maven.org/maven2/com/fasterxml/woodstox/woodstox-core/) **[6.7.0](https://repo1.maven.org/maven2/com/fasterxml/woodstox/woodstox-core/6.7.0)** < [7.0.0](https://repo1.maven.org/maven2/com/fasterxml/woodstox/woodstox-core/7.0.0/)
+    - [woodstox-core](https://repo1.maven.org/maven2/com/fasterxml/woodstox/woodstox-core/) **[6.7.0](https://repo1.maven.org/maven2/com/fasterxml/woodstox/woodstox-core/6.7.0)** < [7.1.0](https://repo1.maven.org/maven2/com/fasterxml/woodstox/woodstox-core/7.1.0/)
  - [com.sun.xml.bind](https://repo1.maven.org/maven2/com/sun/xml/bind/)
     - [jaxb-osgi](https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-osgi/) **[2.3.9](https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-osgi/2.3.9)** < [4.0.5](https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-osgi/4.0.5/)
  - [jakarta.ejb](https://repo1.maven.org/maven2/jakarta/ejb/)

@@ -2,7 +2,7 @@
 
 ## Major Updates
  - [com.fasterxml.woodstox](https://repo1.maven.org/maven2/com/fasterxml/woodstox/)
-    - [woodstox-core](https://repo1.maven.org/maven2/com/fasterxml/woodstox/woodstox-core/) **[6.7.0](https://repo1.maven.org/maven2/com/fasterxml/woodstox/woodstox-core/6.7.0)** < [7.0.0](https://repo1.maven.org/maven2/com/fasterxml/woodstox/woodstox-core/7.0.0/)
+    - [woodstox-core](https://repo1.maven.org/maven2/com/fasterxml/woodstox/woodstox-core/) **[6.7.0](https://repo1.maven.org/maven2/com/fasterxml/woodstox/woodstox-core/6.7.0)** < [7.1.0](https://repo1.maven.org/maven2/com/fasterxml/woodstox/woodstox-core/7.1.0/)
  - [jakarta.ejb](https://repo1.maven.org/maven2/jakarta/ejb/)
     - [jakarta.ejb-api](https://repo1.maven.org/maven2/jakarta/ejb/jakarta.ejb-api/) **[3.2.6](https://repo1.maven.org/maven2/jakarta/ejb/jakarta.ejb-api/3.2.6)** < [4.0.1](https://repo1.maven.org/maven2/jakarta/ejb/jakarta.ejb-api/4.0.1/)
  - [jakarta.el](https://repo1.maven.org/maven2/jakarta/el/)
@@ -219,8 +219,8 @@
  - [lpg.runtime](https://repo1.maven.org/maven2/lpg/runtime/)
     - [java](https://repo1.maven.org/maven2/lpg/runtime/java/) **[2.0.17-v201004271640](https://repo1.maven.org/maven2/lpg/runtime/java/2.0.17-v201004271640)**
  - [net.bytebuddy](https://repo1.maven.org/maven2/net/bytebuddy/)
-    - [byte-buddy](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/) **[1.15.5](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.15.5)**
-    - [byte-buddy-agent](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/) **[1.15.5](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.15.5)**
+    - [byte-buddy](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/) **[1.15.7](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.15.7)**
+    - [byte-buddy-agent](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/) **[1.15.7](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.15.7)**
  - [net.i2p.crypto](https://repo1.maven.org/maven2/net/i2p/crypto/)
     - [eddsa](https://repo1.maven.org/maven2/net/i2p/crypto/eddsa/) **[0.3.0](https://repo1.maven.org/maven2/net/i2p/crypto/eddsa/0.3.0)**
  - [net.java.dev.jna](https://repo1.maven.org/maven2/net/java/dev/jna/)

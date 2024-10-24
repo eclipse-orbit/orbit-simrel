@@ -2,8 +2,8 @@
 
 ## Minor Updates
  - [net.bytebuddy](https://repo1.maven.org/maven2/net/bytebuddy/)
-    - [byte-buddy](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/) **[1.15.3](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.15.3)** < [1.15.5](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.15.5/)
-    - [byte-buddy-agent](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/) **[1.15.3](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.15.3)** < [1.15.5](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.15.5/)
+    - [byte-buddy](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/) **[1.15.3](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.15.3)** < [1.15.7](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.15.7/)
+    - [byte-buddy-agent](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/) **[1.15.3](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.15.3)** < [1.15.7](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.15.7/)
  - [org.mockito](https://repo1.maven.org/maven2/org/mockito/)
     - [mockito-core](https://repo1.maven.org/maven2/org/mockito/mockito-core/) **[5.14.1](https://repo1.maven.org/maven2/org/mockito/mockito-core/5.14.1)** < [5.14.2](https://repo1.maven.org/maven2/org/mockito/mockito-core/5.14.2/)
 
