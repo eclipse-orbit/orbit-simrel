@@ -51,8 +51,8 @@
     - [biz.aQute.repository](https://repo1.maven.org/maven2/biz/aQute/bnd/biz.aQute.repository/) **[7.0.0](https://repo1.maven.org/maven2/biz/aQute/bnd/biz.aQute.repository/7.0.0)**
     - [biz.aQute.resolve](https://repo1.maven.org/maven2/biz/aQute/bnd/biz.aQute.resolve/) **[7.0.0](https://repo1.maven.org/maven2/biz/aQute/bnd/biz.aQute.resolve/7.0.0)**
  - [ch.qos.logback](https://repo1.maven.org/maven2/ch/qos/logback/)
-    - [logback-classic](https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/) **[1.5.11](https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.5.11)**
-    - [logback-core](https://repo1.maven.org/maven2/ch/qos/logback/logback-core/) **[1.5.11](https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.5.11)**
+    - [logback-classic](https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/) **[1.5.12](https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.5.12)**
+    - [logback-core](https://repo1.maven.org/maven2/ch/qos/logback/logback-core/) **[1.5.12](https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.5.12)**
  - [ch.qos.reload4j](https://repo1.maven.org/maven2/ch/qos/reload4j/)
     - [reload4j](https://repo1.maven.org/maven2/ch/qos/reload4j/reload4j/) **[1.2.25](https://repo1.maven.org/maven2/ch/qos/reload4j/reload4j/1.2.25)**
  - [com.ethlo.time](https://repo1.maven.org/maven2/com/ethlo/time/)
@@ -97,7 +97,7 @@
  - [com.google.code.gson](https://repo1.maven.org/maven2/com/google/code/gson/)
     - [gson](https://repo1.maven.org/maven2/com/google/code/gson/gson/) **[2.11.0](https://repo1.maven.org/maven2/com/google/code/gson/gson/2.11.0)**
  - [com.google.errorprone](https://repo1.maven.org/maven2/com/google/errorprone/)
-    - [error_prone_annotations](https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/) **[2.34.0](https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.34.0)**
+    - [error_prone_annotations](https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/) **[2.35.1](https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.35.1)**
  - [com.google.guava](https://repo1.maven.org/maven2/com/google/guava/)
     - [failureaccess](https://repo1.maven.org/maven2/com/google/guava/failureaccess/) **[1.0.2](https://repo1.maven.org/maven2/com/google/guava/failureaccess/1.0.2)**
     - [guava](https://repo1.maven.org/maven2/com/google/guava/guava/) **[33.3.1-jre](https://repo1.maven.org/maven2/com/google/guava/guava/33.3.1-jre)**

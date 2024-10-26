@@ -3,7 +3,7 @@
 <target name="Maven" sequenceNumber="1">
   <locations>
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="error" type="Maven">
-      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.34.0.v20241025-0800">
+      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.34.0.v20241026-0800">
         <description>This feature's dependencies are pulled directly from Maven central.</description>
         <copyright>
 Copyright (c) 2024 Eclipse contributors and others.
@@ -16,7 +16,7 @@ https://www.eclipse.org/legal/epl-2.0/
 SPDX-License-Identifier: EPL-2.0
         </copyright>
         <license url="https://www.eclipse.org/legal/epl-2.0/"/>
-        <!-- SHA1 a7c7dac74a9572b7eb37fe650c1b179899406b0e -->
+        <!-- SHA1 39967b75e49b65e33be91464a3d97e40331e9239 -->
       </feature>
       <dependencies>
         <dependency>
@@ -64,13 +64,13 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>ch.qos.logback</groupId>
           <artifactId>logback-classic</artifactId>
-          <version>1.5.11</version>
+          <version>1.5.12</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>ch.qos.logback</groupId>
           <artifactId>logback-core</artifactId>
-          <version>1.5.11</version>
+          <version>1.5.12</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -245,7 +245,7 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>com.google.errorprone</groupId>
           <artifactId>error_prone_annotations</artifactId>
-          <version>2.34.0</version>
+          <version>2.35.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
