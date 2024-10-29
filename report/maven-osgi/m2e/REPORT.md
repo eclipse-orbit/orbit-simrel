@@ -4,9 +4,9 @@
  - [ch.qos.logback](https://repo1.maven.org/maven2/ch/qos/logback/)
     - [logback-classic](https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/) **[1.5.8](https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.5.8)** < [1.5.12](https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.5.12/)
  - [org.apache.maven.archetype](https://repo1.maven.org/maven2/org/apache/maven/archetype/)
-    - [archetype-catalog](https://repo1.maven.org/maven2/org/apache/maven/archetype/archetype-catalog/) **[3.2.1](https://repo1.maven.org/maven2/org/apache/maven/archetype/archetype-catalog/3.2.1)** < [3.3.0](https://repo1.maven.org/maven2/org/apache/maven/archetype/archetype-catalog/3.3.0/)
-    - [archetype-common](https://repo1.maven.org/maven2/org/apache/maven/archetype/archetype-common/) **[3.2.1](https://repo1.maven.org/maven2/org/apache/maven/archetype/archetype-common/3.2.1)** < [3.3.0](https://repo1.maven.org/maven2/org/apache/maven/archetype/archetype-common/3.3.0/)
-    - [archetype-descriptor](https://repo1.maven.org/maven2/org/apache/maven/archetype/archetype-descriptor/) **[3.2.1](https://repo1.maven.org/maven2/org/apache/maven/archetype/archetype-descriptor/3.2.1)** < [3.3.0](https://repo1.maven.org/maven2/org/apache/maven/archetype/archetype-descriptor/3.3.0/)
+    - [archetype-catalog](https://repo1.maven.org/maven2/org/apache/maven/archetype/archetype-catalog/) **[3.2.1](https://repo1.maven.org/maven2/org/apache/maven/archetype/archetype-catalog/3.2.1)** < [3.3.1](https://repo1.maven.org/maven2/org/apache/maven/archetype/archetype-catalog/3.3.1/)
+    - [archetype-common](https://repo1.maven.org/maven2/org/apache/maven/archetype/archetype-common/) **[3.2.1](https://repo1.maven.org/maven2/org/apache/maven/archetype/archetype-common/3.2.1)** < [3.3.1](https://repo1.maven.org/maven2/org/apache/maven/archetype/archetype-common/3.3.1/)
+    - [archetype-descriptor](https://repo1.maven.org/maven2/org/apache/maven/archetype/archetype-descriptor/) **[3.2.1](https://repo1.maven.org/maven2/org/apache/maven/archetype/archetype-descriptor/3.2.1)** < [3.3.1](https://repo1.maven.org/maven2/org/apache/maven/archetype/archetype-descriptor/3.3.1/)
 
 ## Updates Applied
 [updated.target](updated.target)
