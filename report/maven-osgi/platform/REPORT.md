@@ -3,6 +3,10 @@
 ## Minor Updates
  - [com.ibm.icu](https://repo1.maven.org/maven2/com/ibm/icu/)
     - [icu4j](https://repo1.maven.org/maven2/com/ibm/icu/icu4j/) **[75.1](https://repo1.maven.org/maven2/com/ibm/icu/icu4j/75.1)** < [76.1](https://repo1.maven.org/maven2/com/ibm/icu/icu4j/76.1/)
+ - [org.bouncycastle](https://repo1.maven.org/maven2/org/bouncycastle/)
+    - [bcpg-jdk18on](https://repo1.maven.org/maven2/org/bouncycastle/bcpg-jdk18on/) **[1.78.1](https://repo1.maven.org/maven2/org/bouncycastle/bcpg-jdk18on/1.78.1)** < [1.79](https://repo1.maven.org/maven2/org/bouncycastle/bcpg-jdk18on/1.79/)
+    - [bcprov-jdk18on](https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk18on/) **[1.78.1](https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk18on/1.78.1)** < [1.79](https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk18on/1.79/)
+    - [bcutil-jdk18on](https://repo1.maven.org/maven2/org/bouncycastle/bcutil-jdk18on/) **[1.78.1](https://repo1.maven.org/maven2/org/bouncycastle/bcutil-jdk18on/1.78.1)** < [1.79](https://repo1.maven.org/maven2/org/bouncycastle/bcutil-jdk18on/1.79/)
 
 ## Major Updates
  - [jakarta.el](https://repo1.maven.org/maven2/jakarta/el/)
