@@ -3,10 +3,6 @@
 ## Minor Updates
  - [com.ibm.icu](https://repo1.maven.org/maven2/com/ibm/icu/)
     - [icu4j](https://repo1.maven.org/maven2/com/ibm/icu/icu4j/) **[75.1](https://repo1.maven.org/maven2/com/ibm/icu/icu4j/75.1)** < [76.1](https://repo1.maven.org/maven2/com/ibm/icu/icu4j/76.1/)
- - [org.bouncycastle](https://repo1.maven.org/maven2/org/bouncycastle/)
-    - [bcpg-jdk18on](https://repo1.maven.org/maven2/org/bouncycastle/bcpg-jdk18on/) **[1.78.1](https://repo1.maven.org/maven2/org/bouncycastle/bcpg-jdk18on/1.78.1)** < [1.79](https://repo1.maven.org/maven2/org/bouncycastle/bcpg-jdk18on/1.79/)
-    - [bcprov-jdk18on](https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk18on/) **[1.78.1](https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk18on/1.78.1)** < [1.79](https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk18on/1.79/)
-    - [bcutil-jdk18on](https://repo1.maven.org/maven2/org/bouncycastle/bcutil-jdk18on/) **[1.78.1](https://repo1.maven.org/maven2/org/bouncycastle/bcutil-jdk18on/1.78.1)** < [1.79](https://repo1.maven.org/maven2/org/bouncycastle/bcutil-jdk18on/1.79/)
 
 ## Major Updates
  - [jakarta.el](https://repo1.maven.org/maven2/jakarta/el/)
@@ -95,9 +91,9 @@
     - [org.bndtools.versioncontrol.ignores.manager](https://repo1.maven.org/maven2/org/bndtools/org.bndtools.versioncontrol.ignores.manager/) **[7.0.0](https://repo1.maven.org/maven2/org/bndtools/org.bndtools.versioncontrol.ignores.manager/7.0.0)**
     - [org.bndtools.versioncontrol.ignores.plugin.git](https://repo1.maven.org/maven2/org/bndtools/org.bndtools.versioncontrol.ignores.plugin.git/) **[7.0.0](https://repo1.maven.org/maven2/org/bndtools/org.bndtools.versioncontrol.ignores.plugin.git/7.0.0)**
  - [org.bouncycastle](https://repo1.maven.org/maven2/org/bouncycastle/)
-    - [bcpg-jdk18on](https://repo1.maven.org/maven2/org/bouncycastle/bcpg-jdk18on/) **[1.78.1](https://repo1.maven.org/maven2/org/bouncycastle/bcpg-jdk18on/1.78.1)**
-    - [bcprov-jdk18on](https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk18on/) **[1.78.1](https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk18on/1.78.1)**
-    - [bcutil-jdk18on](https://repo1.maven.org/maven2/org/bouncycastle/bcutil-jdk18on/) **[1.78.1](https://repo1.maven.org/maven2/org/bouncycastle/bcutil-jdk18on/1.78.1)**
+    - [bcpg-jdk18on](https://repo1.maven.org/maven2/org/bouncycastle/bcpg-jdk18on/) **[1.79](https://repo1.maven.org/maven2/org/bouncycastle/bcpg-jdk18on/1.79)**
+    - [bcprov-jdk18on](https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk18on/) **[1.79](https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk18on/1.79)**
+    - [bcutil-jdk18on](https://repo1.maven.org/maven2/org/bouncycastle/bcutil-jdk18on/) **[1.79](https://repo1.maven.org/maven2/org/bouncycastle/bcutil-jdk18on/1.79)**
  - [org.eclipse.jetty](https://repo1.maven.org/maven2/org/eclipse/jetty/)
     - [jetty-http](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/) **[12.0.14](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/12.0.14)**
     - [jetty-io](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/) **[12.0.14](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/12.0.14)**
