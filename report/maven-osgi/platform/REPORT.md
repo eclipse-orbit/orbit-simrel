@@ -2,8 +2,8 @@
 
 ## Minor Updates
  - [net.bytebuddy](https://repo1.maven.org/maven2/net/bytebuddy/)
-    - [byte-buddy](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/) **[1.15.7](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.15.7)** < [1.15.9](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.15.9/)
-    - [byte-buddy-agent](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/) **[1.15.7](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.15.7)** < [1.15.9](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.15.9/)
+    - [byte-buddy](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/) **[1.15.7](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.15.7)** < [1.15.10](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.15.10/)
+    - [byte-buddy-agent](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/) **[1.15.7](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.15.7)** < [1.15.10](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.15.10/)
 
 ## Major Updates
  - [jakarta.el](https://repo1.maven.org/maven2/jakarta/el/)
