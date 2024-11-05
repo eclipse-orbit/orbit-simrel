@@ -1,9 +1,6 @@
 # Target Platform: [jgit](https://raw.githubusercontent.com/eclipse-jgit/jgit/master/org.eclipse.jgit.packaging/org.eclipse.jgit.target/maven/dependencies.tpd)
 
 ## Minor Updates
- - [net.bytebuddy](https://repo1.maven.org/maven2/net/bytebuddy/)
-    - [byte-buddy](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/) **[1.15.7](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.15.7)** < [1.15.10](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.15.10/)
-    - [byte-buddy-agent](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/) **[1.15.7](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.15.7)** < [1.15.10](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.15.10/)
  - [org.bouncycastle](https://repo1.maven.org/maven2/org/bouncycastle/)
     - [bcpg-jdk18on](https://repo1.maven.org/maven2/org/bouncycastle/bcpg-jdk18on/) **[1.78.1](https://repo1.maven.org/maven2/org/bouncycastle/bcpg-jdk18on/1.78.1)** < [1.79](https://repo1.maven.org/maven2/org/bouncycastle/bcpg-jdk18on/1.79/)
     - [bcpkix-jdk18on](https://repo1.maven.org/maven2/org/bouncycastle/bcpkix-jdk18on/) **[1.78.1](https://repo1.maven.org/maven2/org/bouncycastle/bcpkix-jdk18on/1.78.1)** < [1.79](https://repo1.maven.org/maven2/org/bouncycastle/bcpkix-jdk18on/1.79/)
@@ -36,8 +33,8 @@
  - [jakarta.servlet](https://repo1.maven.org/maven2/jakarta/servlet/)
     - [jakarta.servlet-api](https://repo1.maven.org/maven2/jakarta/servlet/jakarta.servlet-api/) **[6.1.0](https://repo1.maven.org/maven2/jakarta/servlet/jakarta.servlet-api/6.1.0)**
  - [net.bytebuddy](https://repo1.maven.org/maven2/net/bytebuddy/)
-    - [byte-buddy](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/) **[1.15.7](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.15.7)**
-    - [byte-buddy-agent](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/) **[1.15.7](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.15.7)**
+    - [byte-buddy](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/) **[1.15.10](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.15.10)**
+    - [byte-buddy-agent](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/) **[1.15.10](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.15.10)**
  - [net.java.dev.jna](https://repo1.maven.org/maven2/net/java/dev/jna/)
     - [jna](https://repo1.maven.org/maven2/net/java/dev/jna/jna/) **[5.15.0](https://repo1.maven.org/maven2/net/java/dev/jna/jna/5.15.0)**
     - [jna-platform](https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/) **[5.15.0](https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/5.15.0)**

@@ -1,18 +1,10 @@
 # Target Platform: [linuxtools](https://raw.githubusercontent.com/eclipse-linuxtools/org.eclipse.linuxtools/refs/heads/master/releng/org.eclipse.linuxtools.target/linuxtools-latest.target)
 
-## Minor Updates
- - [org.bouncycastle](https://repo1.maven.org/maven2/org/bouncycastle/)
-    - [bcpkix-jdk18on](https://repo1.maven.org/maven2/org/bouncycastle/bcpkix-jdk18on/) **[1.78.1](https://repo1.maven.org/maven2/org/bouncycastle/bcpkix-jdk18on/1.78.1)** < [1.79](https://repo1.maven.org/maven2/org/bouncycastle/bcpkix-jdk18on/1.79/)
-    - [bcutil-jdk18on](https://repo1.maven.org/maven2/org/bouncycastle/bcutil-jdk18on/) **[1.78.1](https://repo1.maven.org/maven2/org/bouncycastle/bcutil-jdk18on/1.78.1)** < [1.79](https://repo1.maven.org/maven2/org/bouncycastle/bcutil-jdk18on/1.79/)
-
 ## Major Updates
  - [jakarta.ws.rs](https://repo1.maven.org/maven2/jakarta/ws/rs/)
     - [jakarta.ws.rs-api](https://repo1.maven.org/maven2/jakarta/ws/rs/jakarta.ws.rs-api/) **[3.1.0](https://repo1.maven.org/maven2/jakarta/ws/rs/jakarta.ws.rs-api/3.1.0)** < [4.0.0](https://repo1.maven.org/maven2/jakarta/ws/rs/jakarta.ws.rs-api/4.0.0/)
  - [org.glassfish.hk2](https://repo1.maven.org/maven2/org/glassfish/hk2/)
     - [osgi-resource-locator](https://repo1.maven.org/maven2/org/glassfish/hk2/osgi-resource-locator/) **[1.0.3](https://repo1.maven.org/maven2/org/glassfish/hk2/osgi-resource-locator/1.0.3)** < [2.4.0](https://repo1.maven.org/maven2/org/glassfish/hk2/osgi-resource-locator/2.4.0/)
-
-## Updates Applied
-[updated.target](updated.target)
 
 ## Content
  - [com.fasterxml.jackson.core](https://repo1.maven.org/maven2/com/fasterxml/jackson/core/)
@@ -41,8 +33,8 @@
  - [org.apache.commons](https://repo1.maven.org/maven2/org/apache/commons/)
     - [commons-compress](https://repo1.maven.org/maven2/org/apache/commons/commons-compress/) **[1.27.1](https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.27.1)**
  - [org.bouncycastle](https://repo1.maven.org/maven2/org/bouncycastle/)
-    - [bcpkix-jdk18on](https://repo1.maven.org/maven2/org/bouncycastle/bcpkix-jdk18on/) **[1.78.1](https://repo1.maven.org/maven2/org/bouncycastle/bcpkix-jdk18on/1.78.1)**
-    - [bcutil-jdk18on](https://repo1.maven.org/maven2/org/bouncycastle/bcutil-jdk18on/) **[1.78.1](https://repo1.maven.org/maven2/org/bouncycastle/bcutil-jdk18on/1.78.1)**
+    - [bcpkix-jdk18on](https://repo1.maven.org/maven2/org/bouncycastle/bcpkix-jdk18on/) **[1.79](https://repo1.maven.org/maven2/org/bouncycastle/bcpkix-jdk18on/1.79)**
+    - [bcutil-jdk18on](https://repo1.maven.org/maven2/org/bouncycastle/bcutil-jdk18on/) **[1.79](https://repo1.maven.org/maven2/org/bouncycastle/bcutil-jdk18on/1.79)**
  - [org.glassfish.hk2](https://repo1.maven.org/maven2/org/glassfish/hk2/)
     - [hk2-api](https://repo1.maven.org/maven2/org/glassfish/hk2/hk2-api/) **[3.1.1](https://repo1.maven.org/maven2/org/glassfish/hk2/hk2-api/3.1.1)**
     - [hk2-locator](https://repo1.maven.org/maven2/org/glassfish/hk2/hk2-locator/) **[3.1.1](https://repo1.maven.org/maven2/org/glassfish/hk2/hk2-locator/3.1.1)**
