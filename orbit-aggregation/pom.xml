@@ -9,7 +9,7 @@
   <packaging>pom</packaging>
 
   <properties>
-    <tycho-version>4.0.9</tycho-version>
+    <tycho-version>4.0.10</tycho-version>
     <download.eclipse.org>https://download.eclipse.org</download.eclipse.org>
     <eclipse.repo>${download.eclipse.org}/releases/latest</eclipse.repo>
     <simrel.aggregator.repo.url.relative>nightly/latest</simrel.aggregator.repo.url.relative>
