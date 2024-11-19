@@ -3,7 +3,7 @@
 <target name="Maven" sequenceNumber="1">
   <locations>
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="error" type="Maven">
-      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.34.0.v20241113-0800">
+      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.34.0.v20241119-0800">
         <description>This feature's dependencies are pulled directly from Maven central.</description>
         <copyright>
 Copyright (c) 2024 Eclipse contributors and others.
@@ -16,7 +16,7 @@ https://www.eclipse.org/legal/epl-2.0/
 SPDX-License-Identifier: EPL-2.0
         </copyright>
         <license url="https://www.eclipse.org/legal/epl-2.0/"/>
-        <!-- SHA1 a0a1453d605f4378dac12c7caa883d11e83d3bad -->
+        <!-- SHA1 10f3d1b99aab52573d3479165721e347049a047b -->
       </feature>
       <dependencies>
         <dependency>
@@ -245,7 +245,7 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>com.google.errorprone</groupId>
           <artifactId>error_prone_annotations</artifactId>
-          <version>2.35.1</version>
+          <version>2.36.0</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -971,7 +971,7 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>org.easymock</groupId>
           <artifactId>easymock</artifactId>
-          <version>5.4.0</version>
+          <version>5.5.0</version>
           <type>jar</type>
         </dependency>
         <dependency>
