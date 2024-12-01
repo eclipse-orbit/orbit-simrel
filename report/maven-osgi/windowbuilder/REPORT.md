@@ -1,5 +1,12 @@
 # Target Platform: [windowbuilder](https://raw.githubusercontent.com/eclipse/windowbuilder/master/target-platform/mvn/wb-mvn.target)
 
+## Minor Updates
+ - [commons-io](https://repo1.maven.org/maven2/commons-io/)
+    - [commons-io](https://repo1.maven.org/maven2/commons-io/commons-io/) **[2.17.0](https://repo1.maven.org/maven2/commons-io/commons-io/2.17.0)** < [2.18.0](https://repo1.maven.org/maven2/commons-io/commons-io/2.18.0/)
+
+## Updates Applied
+[updated.target](updated.target)
+
 ## Content
  - [com.miglayout](https://repo1.maven.org/maven2/com/miglayout/)
     - [miglayout-core](https://repo1.maven.org/maven2/com/miglayout/miglayout-core/) **[11.4.2](https://repo1.maven.org/maven2/com/miglayout/miglayout-core/11.4.2)**
