@@ -107,7 +107,7 @@
  - [org.hamcrest](https://repo1.maven.org/maven2/org/hamcrest/)
     - [hamcrest](https://repo1.maven.org/maven2/org/hamcrest/hamcrest/) **[2.2](https://repo1.maven.org/maven2/org/hamcrest/hamcrest/2.2)**
  - [org.jsoup](https://repo1.maven.org/maven2/org/jsoup/)
-    - [jsoup](https://repo1.maven.org/maven2/org/jsoup/jsoup/) **[1.18.2](https://repo1.maven.org/maven2/org/jsoup/jsoup/1.18.2)**
+    - [jsoup](https://repo1.maven.org/maven2/org/jsoup/jsoup/) **[1.18.3](https://repo1.maven.org/maven2/org/jsoup/jsoup/1.18.3)**
  - [org.junit.jupiter](https://repo1.maven.org/maven2/org/junit/jupiter/)
     - [junit-jupiter-api](https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-api/) **[5.11.3](https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-api/5.11.3)**
     - [junit-jupiter-engine](https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-engine/) **[5.11.3](https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.11.3)**

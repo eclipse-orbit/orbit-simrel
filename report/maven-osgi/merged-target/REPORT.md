@@ -334,7 +334,7 @@
  - [org.json](https://repo1.maven.org/maven2/org/json/)
     - [json](https://repo1.maven.org/maven2/org/json/json/) **[20230227](https://repo1.maven.org/maven2/org/json/json/20230227)**
  - [org.jsoup](https://repo1.maven.org/maven2/org/jsoup/)
-    - [jsoup](https://repo1.maven.org/maven2/org/jsoup/jsoup/) **[1.18.2](https://repo1.maven.org/maven2/org/jsoup/jsoup/1.18.2)**
+    - [jsoup](https://repo1.maven.org/maven2/org/jsoup/jsoup/) **[1.18.3](https://repo1.maven.org/maven2/org/jsoup/jsoup/1.18.3)**
  - [org.junit.jupiter](https://repo1.maven.org/maven2/org/junit/jupiter/)
     - [junit-jupiter-api](https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-api/) **[5.11.3](https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-api/5.11.3)**
     - [junit-jupiter-engine](https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-engine/) **[5.11.3](https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.11.3)**
