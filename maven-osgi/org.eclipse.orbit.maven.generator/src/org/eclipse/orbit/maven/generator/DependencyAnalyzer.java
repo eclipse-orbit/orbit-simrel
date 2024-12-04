@@ -581,6 +581,10 @@ public class DependencyAnalyzer {
 						"(?:\\s*type\\s*=\\s*\"([^\"]+)\")?" + //
 						"\\s*\\}", Pattern.MULTILINE | Pattern.DOTALL);
 
+		public boolean isIgnored(Dependency dependency) {
+			return ignorePatterns.stream().anyMatch(it -> dependency.matches(it));
+		}
+
 		public List<Dependency> getTargetDependencies(URI location, Pattern excludedFeaturesPattern)
 				throws IOException {
 			var dependencies = new ArrayList<Dependency>();
@@ -661,7 +665,7 @@ public class DependencyAnalyzer {
 
 		public List<Version> getUpdateVersions(Dependency dependency) throws IOException {
 			List<Version> versionList = new ArrayList<>();
-			if (ignorePatterns.stream().anyMatch(it -> dependency.matches(it))) {
+			if (isIgnored(dependency)) {
 				return versionList;
 			}
 
@@ -672,7 +676,7 @@ public class DependencyAnalyzer {
 
 			var availableVersions = getAvailableVersions(dependency);
 			for (var availableVersion : availableVersions) {
-				if (!ignorePatterns.stream().anyMatch(it -> dependency.create(availableVersion).matches(it))) {
+				if (!isIgnored(dependency.create(availableVersion))) {
 					if (isIncludedQualifier(availableVersion)
 							|| preReleaseQualifier && isPreReleaseQualifier(availableVersion)) {
 						if (availableVersion.compareTo(nextMajor) < 0
@@ -892,9 +896,11 @@ public class DependencyAnalyzer {
 		}
 
 		public URI getGroupURI() {
-			var baseURI = "org.eclipse.orbit".equals(groupId)
-					? "https://repo.eclipse.org/content/repositories/orbit-approved-artifacts/"
-					: "https://repo1.maven.org/maven2/";
+			var baseURI = "org.eclipse.lemminx".equals(groupId)
+					? "https://repo.eclipse.org/content/repositories/lemminx-releases/"
+					: "org.eclipse.orbit".equals(groupId)
+							? "https://repo.eclipse.org/content/repositories/orbit-approved-artifacts/"
+							: "https://repo1.maven.org/maven2/";
 			return URI.create(baseURI + groupId.replace('.', '/') + "/");
 		}
 
