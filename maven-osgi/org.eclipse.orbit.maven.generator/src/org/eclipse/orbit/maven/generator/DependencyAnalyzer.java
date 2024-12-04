@@ -660,13 +660,17 @@ public class DependencyAnalyzer {
 		}
 
 		public List<Version> getUpdateVersions(Dependency dependency) throws IOException {
+			List<Version> versionList = new ArrayList<>();
+			if (ignorePatterns.stream().anyMatch(it -> dependency.matches(it))) {
+				return versionList;
+			}
+
 			var preReleaseQualifier = isPreReleaseQualifier(dependency.version);
 			var nextMajor = dependency.nextMajorVersion(majorInclusions);
 			var nextAvailableVersion = dependency.version;
 			var maxAvailableVersion = dependency.version;
 
 			var availableVersions = getAvailableVersions(dependency);
-
 			for (var availableVersion : availableVersions) {
 				if (!ignorePatterns.stream().anyMatch(it -> dependency.create(availableVersion).matches(it))) {
 					if (isIncludedQualifier(availableVersion)
@@ -683,7 +687,6 @@ public class DependencyAnalyzer {
 				}
 			}
 
-			List<Version> versionList = new ArrayList<>();
 			if (!nextAvailableVersion.equals(dependency.version)) {
 				if (!nextAvailableVersion.equals(maxAvailableVersion)) {
 					versionList.add(nextAvailableVersion);
