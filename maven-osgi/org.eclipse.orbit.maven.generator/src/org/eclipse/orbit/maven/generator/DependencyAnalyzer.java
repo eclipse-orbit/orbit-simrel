@@ -1058,7 +1058,7 @@ public class DependencyAnalyzer {
 				var now = System.currentTimeMillis();
 				var age = now - lastModifiedTime.toMillis();
 				var ageInHours = age / 1000 / 60 / 60;
-				if (ageInHours < 8) {
+				if (ageInHours < 1) {
 					return Files.readString(path);
 				}
 			}
