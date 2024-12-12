@@ -11,7 +11,7 @@
     - [lucene-queryparser](https://repo1.maven.org/maven2/org/apache/lucene/lucene-queryparser/) **[9.12.0](https://repo1.maven.org/maven2/org/apache/lucene/lucene-queryparser/9.12.0)** < [10.0.0](https://repo1.maven.org/maven2/org/apache/lucene/lucene-queryparser/10.0.0/)
     - [lucene-sandbox](https://repo1.maven.org/maven2/org/apache/lucene/lucene-sandbox/) **[9.12.0](https://repo1.maven.org/maven2/org/apache/lucene/lucene-sandbox/9.12.0)** < [10.0.0](https://repo1.maven.org/maven2/org/apache/lucene/lucene-sandbox/10.0.0/)
  - [org.cyclonedx](https://repo1.maven.org/maven2/org/cyclonedx/)
-    - [cyclonedx-core-java](https://repo1.maven.org/maven2/org/cyclonedx/cyclonedx-core-java/) **[8.0.3](https://repo1.maven.org/maven2/org/cyclonedx/cyclonedx-core-java/8.0.3)** < [9.1.0](https://repo1.maven.org/maven2/org/cyclonedx/cyclonedx-core-java/9.1.0/)
+    - [cyclonedx-core-java](https://repo1.maven.org/maven2/org/cyclonedx/cyclonedx-core-java/) **[8.0.3](https://repo1.maven.org/maven2/org/cyclonedx/cyclonedx-core-java/8.0.3)** < [10.0.0](https://repo1.maven.org/maven2/org/cyclonedx/cyclonedx-core-java/10.0.0/)
 
 ## Content
  - [aopalliance](https://repo1.maven.org/maven2/aopalliance/)
