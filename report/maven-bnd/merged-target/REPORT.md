@@ -1,15 +1,6 @@
 # Target Platform: [merged-target](https://github.com/eclipse-orbit/orbit-simrel/blob/main/maven-bnd/tp/MavenBND.target)
 
 ## Major Updates
- - [org.apache.lucene](https://repo1.maven.org/maven2/org/apache/lucene/)
-    - [lucene-analysis-common](https://repo1.maven.org/maven2/org/apache/lucene/lucene-analysis-common/) **[9.12.0](https://repo1.maven.org/maven2/org/apache/lucene/lucene-analysis-common/9.12.0)** < [10.0.0](https://repo1.maven.org/maven2/org/apache/lucene/lucene-analysis-common/10.0.0/)
-    - [lucene-analysis-smartcn](https://repo1.maven.org/maven2/org/apache/lucene/lucene-analysis-smartcn/) **[9.12.0](https://repo1.maven.org/maven2/org/apache/lucene/lucene-analysis-smartcn/9.12.0)** < [10.0.0](https://repo1.maven.org/maven2/org/apache/lucene/lucene-analysis-smartcn/10.0.0/)
-    - [lucene-core](https://repo1.maven.org/maven2/org/apache/lucene/lucene-core/) **[9.12.0](https://repo1.maven.org/maven2/org/apache/lucene/lucene-core/9.12.0)** < [10.0.0](https://repo1.maven.org/maven2/org/apache/lucene/lucene-core/10.0.0/)
-    - [lucene-facet](https://repo1.maven.org/maven2/org/apache/lucene/lucene-facet/) **[9.12.0](https://repo1.maven.org/maven2/org/apache/lucene/lucene-facet/9.12.0)** < [10.0.0](https://repo1.maven.org/maven2/org/apache/lucene/lucene-facet/10.0.0/)
-    - [lucene-misc](https://repo1.maven.org/maven2/org/apache/lucene/lucene-misc/) **[9.12.0](https://repo1.maven.org/maven2/org/apache/lucene/lucene-misc/9.12.0)** < [10.0.0](https://repo1.maven.org/maven2/org/apache/lucene/lucene-misc/10.0.0/)
-    - [lucene-queries](https://repo1.maven.org/maven2/org/apache/lucene/lucene-queries/) **[9.12.0](https://repo1.maven.org/maven2/org/apache/lucene/lucene-queries/9.12.0)** < [10.0.0](https://repo1.maven.org/maven2/org/apache/lucene/lucene-queries/10.0.0/)
-    - [lucene-queryparser](https://repo1.maven.org/maven2/org/apache/lucene/lucene-queryparser/) **[9.12.0](https://repo1.maven.org/maven2/org/apache/lucene/lucene-queryparser/9.12.0)** < [10.0.0](https://repo1.maven.org/maven2/org/apache/lucene/lucene-queryparser/10.0.0/)
-    - [lucene-sandbox](https://repo1.maven.org/maven2/org/apache/lucene/lucene-sandbox/) **[9.12.0](https://repo1.maven.org/maven2/org/apache/lucene/lucene-sandbox/9.12.0)** < [10.0.0](https://repo1.maven.org/maven2/org/apache/lucene/lucene-sandbox/10.0.0/)
  - [org.cyclonedx](https://repo1.maven.org/maven2/org/cyclonedx/)
     - [cyclonedx-core-java](https://repo1.maven.org/maven2/org/cyclonedx/cyclonedx-core-java/) **[8.0.3](https://repo1.maven.org/maven2/org/cyclonedx/cyclonedx-core-java/8.0.3)** < [10.0.0](https://repo1.maven.org/maven2/org/cyclonedx/cyclonedx-core-java/10.0.0/)
 
@@ -53,14 +44,22 @@
     - [httpcore5](https://repo1.maven.org/maven2/org/apache/httpcomponents/core5/httpcore5/) **[5.3.1](https://repo1.maven.org/maven2/org/apache/httpcomponents/core5/httpcore5/5.3.1)**
     - [httpcore5-h2](https://repo1.maven.org/maven2/org/apache/httpcomponents/core5/httpcore5-h2/) **[5.3.1](https://repo1.maven.org/maven2/org/apache/httpcomponents/core5/httpcore5-h2/5.3.1)**
  - [org.apache.lucene](https://repo1.maven.org/maven2/org/apache/lucene/)
-    - [lucene-analysis-common](https://repo1.maven.org/maven2/org/apache/lucene/lucene-analysis-common/) **[9.12.0](https://repo1.maven.org/maven2/org/apache/lucene/lucene-analysis-common/9.12.0)**
-    - [lucene-analysis-smartcn](https://repo1.maven.org/maven2/org/apache/lucene/lucene-analysis-smartcn/) **[9.12.0](https://repo1.maven.org/maven2/org/apache/lucene/lucene-analysis-smartcn/9.12.0)**
-    - [lucene-core](https://repo1.maven.org/maven2/org/apache/lucene/lucene-core/) **[9.12.0](https://repo1.maven.org/maven2/org/apache/lucene/lucene-core/9.12.0)**
-    - [lucene-facet](https://repo1.maven.org/maven2/org/apache/lucene/lucene-facet/) **[9.12.0](https://repo1.maven.org/maven2/org/apache/lucene/lucene-facet/9.12.0)**
-    - [lucene-misc](https://repo1.maven.org/maven2/org/apache/lucene/lucene-misc/) **[9.12.0](https://repo1.maven.org/maven2/org/apache/lucene/lucene-misc/9.12.0)**
-    - [lucene-queries](https://repo1.maven.org/maven2/org/apache/lucene/lucene-queries/) **[9.12.0](https://repo1.maven.org/maven2/org/apache/lucene/lucene-queries/9.12.0)**
-    - [lucene-queryparser](https://repo1.maven.org/maven2/org/apache/lucene/lucene-queryparser/) **[9.12.0](https://repo1.maven.org/maven2/org/apache/lucene/lucene-queryparser/9.12.0)**
-    - [lucene-sandbox](https://repo1.maven.org/maven2/org/apache/lucene/lucene-sandbox/) **[9.12.0](https://repo1.maven.org/maven2/org/apache/lucene/lucene-sandbox/9.12.0)**
+    - [lucene-analysis-common](https://repo1.maven.org/maven2/org/apache/lucene/lucene-analysis-common/) **[9.12.1](https://repo1.maven.org/maven2/org/apache/lucene/lucene-analysis-common/9.12.1)**
+    - [lucene-analysis-common](https://repo1.maven.org/maven2/org/apache/lucene/lucene-analysis-common/) **[10.0.0](https://repo1.maven.org/maven2/org/apache/lucene/lucene-analysis-common/10.0.0)**
+    - [lucene-analysis-smartcn](https://repo1.maven.org/maven2/org/apache/lucene/lucene-analysis-smartcn/) **[9.12.1](https://repo1.maven.org/maven2/org/apache/lucene/lucene-analysis-smartcn/9.12.1)**
+    - [lucene-analysis-smartcn](https://repo1.maven.org/maven2/org/apache/lucene/lucene-analysis-smartcn/) **[10.0.0](https://repo1.maven.org/maven2/org/apache/lucene/lucene-analysis-smartcn/10.0.0)**
+    - [lucene-core](https://repo1.maven.org/maven2/org/apache/lucene/lucene-core/) **[9.12.1](https://repo1.maven.org/maven2/org/apache/lucene/lucene-core/9.12.1)**
+    - [lucene-core](https://repo1.maven.org/maven2/org/apache/lucene/lucene-core/) **[10.0.0](https://repo1.maven.org/maven2/org/apache/lucene/lucene-core/10.0.0)**
+    - [lucene-facet](https://repo1.maven.org/maven2/org/apache/lucene/lucene-facet/) **[9.12.1](https://repo1.maven.org/maven2/org/apache/lucene/lucene-facet/9.12.1)**
+    - [lucene-facet](https://repo1.maven.org/maven2/org/apache/lucene/lucene-facet/) **[10.0.0](https://repo1.maven.org/maven2/org/apache/lucene/lucene-facet/10.0.0)**
+    - [lucene-misc](https://repo1.maven.org/maven2/org/apache/lucene/lucene-misc/) **[9.12.1](https://repo1.maven.org/maven2/org/apache/lucene/lucene-misc/9.12.1)**
+    - [lucene-misc](https://repo1.maven.org/maven2/org/apache/lucene/lucene-misc/) **[10.0.0](https://repo1.maven.org/maven2/org/apache/lucene/lucene-misc/10.0.0)**
+    - [lucene-queries](https://repo1.maven.org/maven2/org/apache/lucene/lucene-queries/) **[9.12.1](https://repo1.maven.org/maven2/org/apache/lucene/lucene-queries/9.12.1)**
+    - [lucene-queries](https://repo1.maven.org/maven2/org/apache/lucene/lucene-queries/) **[10.0.0](https://repo1.maven.org/maven2/org/apache/lucene/lucene-queries/10.0.0)**
+    - [lucene-queryparser](https://repo1.maven.org/maven2/org/apache/lucene/lucene-queryparser/) **[9.12.1](https://repo1.maven.org/maven2/org/apache/lucene/lucene-queryparser/9.12.1)**
+    - [lucene-queryparser](https://repo1.maven.org/maven2/org/apache/lucene/lucene-queryparser/) **[10.0.0](https://repo1.maven.org/maven2/org/apache/lucene/lucene-queryparser/10.0.0)**
+    - [lucene-sandbox](https://repo1.maven.org/maven2/org/apache/lucene/lucene-sandbox/) **[9.12.1](https://repo1.maven.org/maven2/org/apache/lucene/lucene-sandbox/9.12.1)**
+    - [lucene-sandbox](https://repo1.maven.org/maven2/org/apache/lucene/lucene-sandbox/) **[10.0.0](https://repo1.maven.org/maven2/org/apache/lucene/lucene-sandbox/10.0.0)**
  - [org.apache.poi](https://repo1.maven.org/maven2/org/apache/poi/)
     - [poi](https://repo1.maven.org/maven2/org/apache/poi/poi/) **[5.3.0](https://repo1.maven.org/maven2/org/apache/poi/poi/5.3.0)**
     - [poi-ooxml](https://repo1.maven.org/maven2/org/apache/poi/poi-ooxml/) **[5.3.0](https://repo1.maven.org/maven2/org/apache/poi/poi-ooxml/5.3.0)**

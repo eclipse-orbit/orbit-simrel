@@ -115,7 +115,7 @@
               <classifier>MavenBND</classifier>
             </artifact>
           </target>
-          <executionEnvironment>JavaSE-17</executionEnvironment>
+          <executionEnvironment>JavaSE-21</executionEnvironment>
           <environments>
             <environment>
               <os>win32</os>

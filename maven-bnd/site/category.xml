@@ -40,6 +40,8 @@
    <feature id="org.eclipse.orbit.maven.junit.source"/>
    <feature id="org.eclipse.orbit.maven.lucene"/>
    <feature id="org.eclipse.orbit.maven.lucene.source"/>
+   <feature id="org.eclipse.orbit.maven.lucene-10"/>
+   <feature id="org.eclipse.orbit.maven.lucene-10.source"/>
    <feature id="org.eclipse.orbit.maven.org.antlr.3.2"/>
    <feature id="org.eclipse.orbit.maven.org.antlr.3.2.source"/>
    <feature id="org.eclipse.orbit.maven.org.antlr.3.x"/>
