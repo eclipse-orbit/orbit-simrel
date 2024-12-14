@@ -228,6 +228,7 @@
                     -body-image https://raw.githubusercontent.com/eclipse-orbit/.github/main/assets/artwork/svg/Orbit-Color.svg
                     -title-image https://raw.githubusercontent.com/eclipse-orbit/.github/main/assets/artwork/svg/Orbit-Title-Color.svg
                     -simrel-alias
+                    -bree
                     ${org.eclipse.justj.p2.manager.extra.args}
                   </appArgLine>
                 </configuration>
