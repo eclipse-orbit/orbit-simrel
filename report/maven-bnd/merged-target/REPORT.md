@@ -67,7 +67,7 @@
  - [org.apache.ws.commons.util](https://repo1.maven.org/maven2/org/apache/ws/commons/util/)
     - [ws-commons-util](https://repo1.maven.org/maven2/org/apache/ws/commons/util/ws-commons-util/) **[1.0.2](https://repo1.maven.org/maven2/org/apache/ws/commons/util/ws-commons-util/1.0.2)**
  - [org.apache.xmlbeans](https://repo1.maven.org/maven2/org/apache/xmlbeans/)
-    - [xmlbeans](https://repo1.maven.org/maven2/org/apache/xmlbeans/xmlbeans/) **[5.2.2](https://repo1.maven.org/maven2/org/apache/xmlbeans/xmlbeans/5.2.2)**
+    - [xmlbeans](https://repo1.maven.org/maven2/org/apache/xmlbeans/xmlbeans/) **[5.3.0](https://repo1.maven.org/maven2/org/apache/xmlbeans/xmlbeans/5.3.0)**
  - [org.apache.xmlgraphics](https://repo1.maven.org/maven2/org/apache/xmlgraphics/)
     - [batik-anim](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-anim/) **[1.18](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-anim/1.18)**
     - [batik-awt-util](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-awt-util/) **[1.18](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-awt-util/1.18)**

@@ -2008,7 +2008,7 @@ Export-Package:         *;version="${version}"
 <!-- _____________________________________________________ org.apache.xmlbeans ___________________________________________________________________________________________________-->
 
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
-      <feature id="org.eclipse.orbit.maven.org.apache.xmlbeans" label="Orbit Maven BND org.apache.xmlbeans" provider-name="Eclipse Orbit" version="4.35.0">
+      <feature id="org.eclipse.orbit.maven.org.apache.xmlbeans" label="Orbit Maven BND org.apache.xmlbeans" provider-name="Eclipse Orbit" version="4.35.0.v20241214-0800">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
 Copyright (c) 2024 Eclipse contributors and others.
@@ -2026,17 +2026,17 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>org.apache.xmlbeans</groupId>
           <artifactId>xmlbeans</artifactId>
-          <version>5.2.2</version>
+          <version>5.3.0</version>
           <type>jar</type>
         </dependency>
       </dependencies>
       <instructions>
-<!-- SHA1 c58ea0c1d9b962b6459f8288ebc42b248766e44e -->
+<!-- SHA1 46f94ae7d7943dbbb43aa27e5576fc77fb8bea9a -->
 <![CDATA[
 Bundle-Name:            Bundle ${mvnGroupId} : ${mvnArtifactId}
 version:                ${versionmask;===;${version_cleanup;${mvnVersion}}}
 Bundle-SymbolicName:    ${mvnGroupId}
-Bundle-Version:         ${version}.v20241105-1800
+Bundle-Version:         ${version}.v20241214-0800
 Automatic-Module-Name:  ${mvnGroupId}
 Eclipse-Wrapped-Bundle: ${mvnGroupId}:${mvnArtifactId}:${mvnVersion}
 Import-Package:         *;resolution:=optional
@@ -2900,7 +2900,7 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>org.apache.logging.log4j</groupId>
           <artifactId>log4j-api</artifactId>
-          <version>2.24.2</version>
+          <version>2.24.3</version>
           <type>jar</type>
         </dependency>
 

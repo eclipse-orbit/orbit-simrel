@@ -3,7 +3,7 @@
 <target name="Maven" sequenceNumber="1">
   <locations>
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="error" type="Maven">
-      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.35.0.v20241204-0752">
+      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.35.0.v20241214-0800">
         <description>This feature's dependencies are pulled directly from Maven central.</description>
         <copyright>
 Copyright (c) 2024 Eclipse contributors and others.
@@ -16,7 +16,7 @@ https://www.eclipse.org/legal/epl-2.0/
 SPDX-License-Identifier: EPL-2.0
         </copyright>
         <license url="https://www.eclipse.org/legal/epl-2.0/"/>
-        <!-- SHA1 72d14a157797ea98c58642047cb0aa8375f9f9a9 -->
+        <!-- SHA1 4ce00e463d30bb7e9df816d696482fa17ae74bff -->
       </feature>
       <dependencies>
         <dependency>
@@ -779,7 +779,7 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>org.apache.commons</groupId>
           <artifactId>commons-text</artifactId>
-          <version>1.12.0</version>
+          <version>1.13.0</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -833,13 +833,13 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>org.apache.logging.log4j</groupId>
           <artifactId>log4j-api</artifactId>
-          <version>2.24.2</version>
+          <version>2.24.3</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.apache.logging.log4j</groupId>
           <artifactId>log4j-to-slf4j</artifactId>
-          <version>2.24.2</version>
+          <version>2.24.3</version>
           <type>jar</type>
         </dependency>
         <dependency>
