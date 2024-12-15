@@ -3,6 +3,9 @@
 ## Minor Updates
  - [commons-io](https://repo1.maven.org/maven2/commons-io/)
     - [commons-io](https://repo1.maven.org/maven2/commons-io/commons-io/) **[2.17.0](https://repo1.maven.org/maven2/commons-io/commons-io/2.17.0)** < [2.18.0](https://repo1.maven.org/maven2/commons-io/commons-io/2.18.0/)
+ - [net.bytebuddy](https://repo1.maven.org/maven2/net/bytebuddy/)
+    - [byte-buddy](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/) **[1.15.10](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.15.10)** < [1.15.11](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.15.11/)
+    - [byte-buddy-agent](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/) **[1.15.10](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.15.10)** < [1.15.11](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.15.11/)
  - [org.eclipse.jetty](https://repo1.maven.org/maven2/org/eclipse/jetty/)
     - [jetty-http](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/) **[12.0.15](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/12.0.15)** < [12.0.16](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/12.0.16/)
     - [jetty-io](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/) **[12.0.15](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/12.0.15)** < [12.0.16](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/12.0.16/)
