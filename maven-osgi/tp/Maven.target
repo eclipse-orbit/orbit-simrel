@@ -3,7 +3,7 @@
 <target name="Maven" sequenceNumber="1">
   <locations>
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="error" type="Maven">
-      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.35.0.v20241215-1000">
+      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.35.0.v20241216-0800">
         <description>This feature's dependencies are pulled directly from Maven central.</description>
         <copyright>
 Copyright (c) 2024 Eclipse contributors and others.
@@ -16,7 +16,7 @@ https://www.eclipse.org/legal/epl-2.0/
 SPDX-License-Identifier: EPL-2.0
         </copyright>
         <license url="https://www.eclipse.org/legal/epl-2.0/"/>
-        <!-- SHA1 ebd1793bc92c09d6350f44cf5be99b92d7e4e970 -->
+        <!-- SHA1 bee7e131b07ff6cff0fa84caf1748fb51c92a98c -->
       </feature>
       <dependencies>
         <dependency>
@@ -76,7 +76,7 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>ch.qos.reload4j</groupId>
           <artifactId>reload4j</artifactId>
-          <version>1.2.25</version>
+          <version>1.2.26</version>
           <type>jar</type>
         </dependency>
         <dependency>
