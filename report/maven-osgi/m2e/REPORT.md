@@ -1,6 +1,8 @@
 # Target Platform: [m2e](https://raw.githubusercontent.com/eclipse-m2e/m2e-core/master/target-platform/target-platform.target)
 
 ## Minor Updates
+ - [com.google.guava](https://repo1.maven.org/maven2/com/google/guava/)
+    - [guava](https://repo1.maven.org/maven2/com/google/guava/guava/) **[33.3.1-jre](https://repo1.maven.org/maven2/com/google/guava/guava/33.3.1-jre)** < [33.4.0-jre](https://repo1.maven.org/maven2/com/google/guava/guava/33.4.0-jre/)
  - [org.apache.maven.archetype](https://repo1.maven.org/maven2/org/apache/maven/archetype/)
     - [archetype-catalog](https://repo1.maven.org/maven2/org/apache/maven/archetype/archetype-catalog/) **[3.2.1](https://repo1.maven.org/maven2/org/apache/maven/archetype/archetype-catalog/3.2.1)** < [3.3.1](https://repo1.maven.org/maven2/org/apache/maven/archetype/archetype-catalog/3.3.1/)
     - [archetype-common](https://repo1.maven.org/maven2/org/apache/maven/archetype/archetype-common/) **[3.2.1](https://repo1.maven.org/maven2/org/apache/maven/archetype/archetype-common/3.2.1)** < [3.3.1](https://repo1.maven.org/maven2/org/apache/maven/archetype/archetype-common/3.3.1/)

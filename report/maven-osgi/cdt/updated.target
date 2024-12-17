@@ -106,13 +106,13 @@
 				<dependency>
 					<groupId>org.junit.jupiter</groupId>
 					<artifactId>junit-jupiter-api</artifactId>
-					<version>5.11.3</version>
+					<version>5.11.4</version>
 					<type>jar</type>
 				</dependency>
 				<dependency>
 					<groupId>org.junit.jupiter</groupId>
 					<artifactId>junit-jupiter-engine</artifactId>
-					<version>5.11.3</version>
+					<version>5.11.4</version>
 					<type>jar</type>
 				</dependency>
 				<dependency>
@@ -142,7 +142,7 @@
 				<dependency>
 					<groupId>com.google.guava</groupId>
 					<artifactId>guava</artifactId>
-					<version>33.3.1-jre</version>
+					<version>33.4.0-jre</version>
 					<type>jar</type>
 				</dependency>
 				<dependency>

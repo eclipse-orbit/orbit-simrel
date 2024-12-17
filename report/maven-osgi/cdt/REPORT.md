@@ -2,15 +2,15 @@
 
 ## Minor Updates
  - [com.google.guava](https://repo1.maven.org/maven2/com/google/guava/)
-    - [guava](https://repo1.maven.org/maven2/com/google/guava/guava/) **[33.3.0-jre](https://repo1.maven.org/maven2/com/google/guava/guava/33.3.0-jre)** < [33.3.1-jre](https://repo1.maven.org/maven2/com/google/guava/guava/33.3.1-jre/)
+    - [guava](https://repo1.maven.org/maven2/com/google/guava/guava/) **[33.3.0-jre](https://repo1.maven.org/maven2/com/google/guava/guava/33.3.0-jre)** < [33.4.0-jre](https://repo1.maven.org/maven2/com/google/guava/guava/33.4.0-jre/)
  - [commons-io](https://repo1.maven.org/maven2/commons-io/)
     - [commons-io](https://repo1.maven.org/maven2/commons-io/commons-io/) **[2.16.1](https://repo1.maven.org/maven2/commons-io/commons-io/2.16.1)** < [2.18.0](https://repo1.maven.org/maven2/commons-io/commons-io/2.18.0/)
  - [net.java.dev.jna](https://repo1.maven.org/maven2/net/java/dev/jna/)
     - [jna](https://repo1.maven.org/maven2/net/java/dev/jna/jna/) **[5.14.0](https://repo1.maven.org/maven2/net/java/dev/jna/jna/5.14.0)** < [5.15.0](https://repo1.maven.org/maven2/net/java/dev/jna/jna/5.15.0/)
     - [jna-platform](https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/) **[5.14.0](https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/5.14.0)** < [5.15.0](https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/5.15.0/)
  - [org.junit.jupiter](https://repo1.maven.org/maven2/org/junit/jupiter/)
-    - [junit-jupiter-api](https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-api/) **[5.11.0](https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-api/5.11.0)** < [5.11.3](https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-api/5.11.3/)
-    - [junit-jupiter-engine](https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-engine/) **[5.11.0](https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.11.0)** < [5.11.3](https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.11.3/)
+    - [junit-jupiter-api](https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-api/) **[5.11.0](https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-api/5.11.0)** < [5.11.4](https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-api/5.11.4/)
+    - [junit-jupiter-engine](https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-engine/) **[5.11.0](https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.11.0)** < [5.11.4](https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.11.4/)
  - [org.mockito](https://repo1.maven.org/maven2/org/mockito/)
     - [mockito-core](https://repo1.maven.org/maven2/org/mockito/mockito-core/) **[5.13.0](https://repo1.maven.org/maven2/org/mockito/mockito-core/5.13.0)** < [5.14.2](https://repo1.maven.org/maven2/org/mockito/mockito-core/5.14.2/)
  - [org.ow2.asm](https://repo1.maven.org/maven2/org/ow2/asm/)
