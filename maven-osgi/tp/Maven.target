@@ -3,7 +3,7 @@
 <target name="Maven" sequenceNumber="1">
   <locations>
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="error" type="Maven">
-      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.35.0.v20241216-0800">
+      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.35.0.v20241217-0800">
         <description>This feature's dependencies are pulled directly from Maven central.</description>
         <copyright>
 Copyright (c) 2024 Eclipse contributors and others.
@@ -16,7 +16,7 @@ https://www.eclipse.org/legal/epl-2.0/
 SPDX-License-Identifier: EPL-2.0
         </copyright>
         <license url="https://www.eclipse.org/legal/epl-2.0/"/>
-        <!-- SHA1 bee7e131b07ff6cff0fa84caf1748fb51c92a98c -->
+        <!-- SHA1 c224dd8c530a62d7424ee6d6a90f579474482ae7 -->
       </feature>
       <dependencies>
         <dependency>
@@ -257,7 +257,7 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>com.google.guava</groupId>
           <artifactId>guava</artifactId>
-          <version>33.3.1-jre</version>
+          <version>33.4.0-jre</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -1181,73 +1181,73 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>org.junit.jupiter</groupId>
           <artifactId>junit-jupiter-api</artifactId>
-          <version>5.11.3</version>
+          <version>5.11.4</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.junit.jupiter</groupId>
           <artifactId>junit-jupiter-engine</artifactId>
-          <version>5.11.3</version>
+          <version>5.11.4</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.junit.jupiter</groupId>
           <artifactId>junit-jupiter-migrationsupport</artifactId>
-          <version>5.11.3</version>
+          <version>5.11.4</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.junit.jupiter</groupId>
           <artifactId>junit-jupiter-params</artifactId>
-          <version>5.11.3</version>
+          <version>5.11.4</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.junit.platform</groupId>
           <artifactId>junit-platform-commons</artifactId>
-          <version>1.11.3</version>
+          <version>1.11.4</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.junit.platform</groupId>
           <artifactId>junit-platform-engine</artifactId>
-          <version>1.11.3</version>
+          <version>1.11.4</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.junit.platform</groupId>
           <artifactId>junit-platform-launcher</artifactId>
-          <version>1.11.3</version>
+          <version>1.11.4</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.junit.platform</groupId>
           <artifactId>junit-platform-runner</artifactId>
-          <version>1.11.3</version>
+          <version>1.11.4</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.junit.platform</groupId>
           <artifactId>junit-platform-suite-api</artifactId>
-          <version>1.11.3</version>
+          <version>1.11.4</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.junit.platform</groupId>
           <artifactId>junit-platform-suite-commons</artifactId>
-          <version>1.11.3</version>
+          <version>1.11.4</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.junit.platform</groupId>
           <artifactId>junit-platform-suite-engine</artifactId>
-          <version>1.11.3</version>
+          <version>1.11.4</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.junit.vintage</groupId>
           <artifactId>junit-vintage-engine</artifactId>
-          <version>5.11.3</version>
+          <version>5.11.4</version>
           <type>jar</type>
         </dependency>
         <dependency>
