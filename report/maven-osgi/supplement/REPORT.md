@@ -48,6 +48,8 @@
     - [jersey-hk2](https://repo1.maven.org/maven2/org/glassfish/jersey/inject/jersey-hk2/) **[2.46](https://repo1.maven.org/maven2/org/glassfish/jersey/inject/jersey-hk2/2.46)** < [3.1.9](https://repo1.maven.org/maven2/org/glassfish/jersey/inject/jersey-hk2/3.1.9/)
  - [org.glassfish.jersey.media](https://repo1.maven.org/maven2/org/glassfish/jersey/media/)
     - [jersey-media-json-jackson](https://repo1.maven.org/maven2/org/glassfish/jersey/media/jersey-media-json-jackson/) **[2.46](https://repo1.maven.org/maven2/org/glassfish/jersey/media/jersey-media-json-jackson/2.46)** < [3.1.9](https://repo1.maven.org/maven2/org/glassfish/jersey/media/jersey-media-json-jackson/3.1.9/)
+ - [org.mandas](https://repo1.maven.org/maven2/org/mandas/)
+    - [docker-client](https://repo1.maven.org/maven2/org/mandas/docker-client/) **[8.0.3](https://repo1.maven.org/maven2/org/mandas/docker-client/8.0.3)** < [9.0.0](https://repo1.maven.org/maven2/org/mandas/docker-client/9.0.0/)
  - [org.mortbay.jasper](https://repo1.maven.org/maven2/org/mortbay/jasper/)
     - [apache-el](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-el/) **[9.0.96](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-el/9.0.96)** < [11.0.0](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-el/11.0.0/)
     - [apache-el](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-el/) **[10.1.31](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-el/10.1.31)** < [11.0.0](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-el/11.0.0/)
@@ -56,7 +58,7 @@
 
 ## Content
  - [ch.qos.logback](https://repo1.maven.org/maven2/ch/qos/logback/)
-    - [logback-core](https://repo1.maven.org/maven2/ch/qos/logback/logback-core/) **[1.5.14](https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.5.14)**
+    - [logback-core](https://repo1.maven.org/maven2/ch/qos/logback/logback-core/) **[1.5.15](https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.5.15)**
  - [ch.qos.reload4j](https://repo1.maven.org/maven2/ch/qos/reload4j/)
     - [reload4j](https://repo1.maven.org/maven2/ch/qos/reload4j/reload4j/) **[1.2.26](https://repo1.maven.org/maven2/ch/qos/reload4j/reload4j/1.2.26)**
  - [com.ethlo.time](https://repo1.maven.org/maven2/com/ethlo/time/)
