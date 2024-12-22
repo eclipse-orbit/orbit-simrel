@@ -45,7 +45,7 @@ Bundle-Version:         ${version}.v20240215-1616
 <!-- _______________________________________________________ net.java.dev.jna _________________________________________________________________________________________________-->
 
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="error" type="Maven">
-      <feature id="org.eclipse.orbit.maven.net.java.dev.jna" label="Orbit Maven BND net.java.dev.jna" provider-name="Eclipse Orbit" version="4.35.0">
+      <feature id="org.eclipse.orbit.maven.net.java.dev.jna" label="Orbit Maven BND net.java.dev.jna" provider-name="Eclipse Orbit" version="4.35.0.v20241222-1200">
         <description>This feature's dependencies are pulled directly from Maven central and is signed.</description>
         <copyright>
 Copyright (c) 2024 Eclipse contributors and others.
@@ -63,19 +63,19 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>net.java.dev.jna</groupId>
           <artifactId>jna</artifactId>
-          <version>5.15.0</version>
+          <version>5.16.0</version>
           <type>jar</type>
         </dependency>
       </dependencies>
       
       <instructions>
-<!-- SHA1 c533251dc368203ae6048a6f2c0649c1f835e791 -->
+<!-- SHA1 410621713608fbac8afd278a64c8f23ea5d897d3 -->
 <![CDATA[
 # These instructions are not actually used because this is an OSGi artifact
 version:                ${versionmask;===;${version_cleanup;${mvnVersion}}}
 # Bundles that match this pattern will be updated to use this qualifier.
 # bundle-pattern:       com\.sun\.jna(\.source)?
-Bundle-Version:         ${version}.v20240915-2000
+Bundle-Version:         ${version}.v20241222-1200
 ]]>
       </instructions>
     </location>

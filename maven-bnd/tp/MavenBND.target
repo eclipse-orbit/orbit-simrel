@@ -2725,14 +2725,14 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>net.java.dev.jna</groupId>
           <artifactId>jna</artifactId>
-          <version>5.15.0</version>
+          <version>5.16.0</version>
           <type>jar</type>
         </dependency>
 
         <dependency>
           <groupId>net.java.dev.jna</groupId>
           <artifactId>jna-platform</artifactId>
-          <version>5.15.0</version>
+          <version>5.16.0</version>
           <type>jar</type>
         </dependency>
 
