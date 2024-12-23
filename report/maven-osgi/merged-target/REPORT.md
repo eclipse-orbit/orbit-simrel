@@ -291,7 +291,7 @@
  - [org.eclipse.jetty.toolchain](https://repo1.maven.org/maven2/org/eclipse/jetty/toolchain/)
     - [jetty-servlet-api](https://repo1.maven.org/maven2/org/eclipse/jetty/toolchain/jetty-servlet-api/) **[4.0.6](https://repo1.maven.org/maven2/org/eclipse/jetty/toolchain/jetty-servlet-api/4.0.6)**
  - [org.freemarker](https://repo1.maven.org/maven2/org/freemarker/)
-    - [freemarker](https://repo1.maven.org/maven2/org/freemarker/freemarker/) **[2.3.33](https://repo1.maven.org/maven2/org/freemarker/freemarker/2.3.33)**
+    - [freemarker](https://repo1.maven.org/maven2/org/freemarker/freemarker/) **[2.3.34](https://repo1.maven.org/maven2/org/freemarker/freemarker/2.3.34)**
  - [org.glassfish](https://repo1.maven.org/maven2/org/glassfish/)
     - [jakarta.el](https://repo1.maven.org/maven2/org/glassfish/jakarta.el/) **[3.0.4](https://repo1.maven.org/maven2/org/glassfish/jakarta.el/3.0.4)**
  - [org.glassfish.hk2](https://repo1.maven.org/maven2/org/glassfish/hk2/)

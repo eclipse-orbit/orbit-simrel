@@ -100,7 +100,7 @@
 				<dependency>
 					<groupId>org.freemarker</groupId>
 					<artifactId>freemarker</artifactId>
-					<version>2.3.33</version> <!-- Also update in releng/org.eclipse.cdt.repo/category.xml-->
+					<version>2.3.34</version> <!-- Also update in releng/org.eclipse.cdt.repo/category.xml-->
 					<type>jar</type>
 				</dependency>
 				<dependency>
