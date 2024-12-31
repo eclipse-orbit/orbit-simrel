@@ -2,7 +2,7 @@
 
 ## Major Updates
  - [org.cyclonedx](https://repo1.maven.org/maven2/org/cyclonedx/)
-    - [cyclonedx-core-java](https://repo1.maven.org/maven2/org/cyclonedx/cyclonedx-core-java/) **[8.0.3](https://repo1.maven.org/maven2/org/cyclonedx/cyclonedx-core-java/8.0.3)** < [10.0.0](https://repo1.maven.org/maven2/org/cyclonedx/cyclonedx-core-java/10.0.0/)
+    - [cyclonedx-core-java](https://repo1.maven.org/maven2/org/cyclonedx/cyclonedx-core-java/) **[8.0.3](https://repo1.maven.org/maven2/org/cyclonedx/cyclonedx-core-java/8.0.3)** < [10.1.0](https://repo1.maven.org/maven2/org/cyclonedx/cyclonedx-core-java/10.1.0/)
 
 ## Content
  - [aopalliance](https://repo1.maven.org/maven2/aopalliance/)
