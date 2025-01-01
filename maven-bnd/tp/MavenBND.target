@@ -9,7 +9,7 @@
       <feature id="org.eclipse.orbit.maven.org.apache.derby" label="Orbit Maven BND org.apache.derby" provider-name="Eclipse Orbit" version="4.35.0">
         <description>This feature's dependencies are repackaged Derby downloads that are wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
-Copyright (c) 2024 Eclipse contributors and others.
+Copyright (c) 2025 Eclipse contributors and others.
 
 This program and the accompanying materials
 are made available under the terms of the Eclipse Public License 2.0
@@ -62,7 +62,7 @@ Export-Package:         *;version="${version}";-noimport:=true
       <feature id="org.eclipse.orbit.maven.lucene" label="Orbit Maven BND org.apache.lucene" provider-name="Eclipse Orbit" version="4.35.0.v20241213-1200">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
-Copyright (c) 2024 Eclipse contributors and others.
+Copyright (c) 2025 Eclipse contributors and others.
 
 This program and the accompanying materials
 are made available under the terms of the Eclipse Public License 2.0
@@ -147,7 +147,7 @@ Export-Package:         *;version="${version}";-noimport:=true
       <feature id="org.eclipse.orbit.maven.lucene-10" label="Orbit Maven BND org.apache.lucene 10" provider-name="Eclipse Orbit" version="4.35.0.v20241221-1000">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
-Copyright (c) 2024 Eclipse contributors and others.
+Copyright (c) 2025 Eclipse contributors and others.
 
 This program and the accompanying materials
 are made available under the terms of the Eclipse Public License 2.0
@@ -233,7 +233,7 @@ Export-Package:         *;version="${version}";-noimport:=true
       <feature id="org.eclipse.orbit.maven.joni" label="Orbit Maven BND org.jruby.joni + org.jruby.jcodings" provider-name="Eclipse Orbit" version="4.35.0">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
-Copyright (c) 2024 Eclipse contributors and others.
+Copyright (c) 2025 Eclipse contributors and others.
 
 This program and the accompanying materials
 are made available under the terms of the Eclipse Public License 2.0
@@ -281,7 +281,7 @@ Export-Package:         *;version="${version}";-noimport:=true
       <feature id="org.eclipse.orbit.maven.jnr" label="Orbit Maven BND com.github.jnr" provider-name="Eclipse Orbit" version="4.35.0">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
-Copyright (c) 2024 Eclipse contributors and others.
+Copyright (c) 2025 Eclipse contributors and others.
 
 This program and the accompanying materials
 are made available under the terms of the Eclipse Public License 2.0
@@ -328,7 +328,7 @@ Export-Package:         *;version="${version}";-noimport:=true
       <feature id="org.eclipse.orbit.maven.hamcrest.core" label="Orbit Maven BND org.hamcrest.core" provider-name="Eclipse Orbit" version="4.35.0">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
-Copyright (c) 2024 Eclipse contributors and others.
+Copyright (c) 2025 Eclipse contributors and others.
 
 This program and the accompanying materials
 are made available under the terms of the Eclipse Public License 2.0
@@ -373,7 +373,7 @@ Export-Package:         org.hamcrest;${suffix}=split;version="${version}";mandat
       <feature id="org.eclipse.orbit.maven.hamcrest.library" label="Orbit Maven BND org.hamcrest.library" provider-name="Eclipse Orbit" version="4.35.0">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
-Copyright (c) 2024 Eclipse contributors and others.
+Copyright (c) 2025 Eclipse contributors and others.
 
 This program and the accompanying materials
 are made available under the terms of the Eclipse Public License 2.0
@@ -420,7 +420,7 @@ Export-Package:         org.hamcrest;${suffix}=split;version="${version}";mandat
       <feature id="org.eclipse.orbit.maven.hamcrest.deprecated" label="Orbit Maven BND org.hamcrest.deprecated" provider-name="Eclipse Orbit" version="4.35.0">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
-Copyright (c) 2024 Eclipse contributors and others.
+Copyright (c) 2025 Eclipse contributors and others.
 
 This program and the accompanying materials
 are made available under the terms of the Eclipse Public License 2.0
@@ -473,7 +473,7 @@ Export-Package:         !org.hamcrest.core.deprecated,\
       <feature id="org.eclipse.orbit.maven.junit" label="Orbit Maven BND junit" provider-name="Eclipse Orbit" version="4.35.0">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
-Copyright (c) 2024 Eclipse contributors and others.
+Copyright (c) 2025 Eclipse contributors and others.
 
 This program and the accompanying materials
 are made available under the terms of the Eclipse Public License 2.0
@@ -517,7 +517,7 @@ Export-Package:         *.internal.*;x-internal:=true;version="${version}";-noim
       <feature id="org.eclipse.orbit.maven.aopalliance" label="Orbit Maven BND org.aopalliance" provider-name="Eclipse Orbit" version="4.35.0">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
-Copyright (c) 2024 Eclipse contributors and others.
+Copyright (c) 2025 Eclipse contributors and others.
 
 This program and the accompanying materials
 are made available under the terms of the Eclipse Public License 2.0
@@ -559,7 +559,7 @@ Export-Package:         *;version="${version}";-noimport:=true
       <feature id="org.eclipse.orbit.maven.org.jdom" label="Orbit Maven BND org.jdom" provider-name="Eclipse Orbit" version="4.35.0">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
-Copyright (c) 2024 Eclipse contributors and others.
+Copyright (c) 2025 Eclipse contributors and others.
 
 This program and the accompanying materials
 are made available under the terms of the Eclipse Public License 2.0
@@ -601,7 +601,7 @@ Export-Package:         *;version="${version}";-noimport:=true
       <feature id="org.eclipse.orbit.maven.jdom2" label="Orbit Maven BND org.jdom2" provider-name="Eclipse Orbit" version="4.35.0">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
-Copyright (c) 2024 Eclipse contributors and others.
+Copyright (c) 2025 Eclipse contributors and others.
 
 This program and the accompanying materials
 are made available under the terms of the Eclipse Public License 2.0
@@ -644,7 +644,7 @@ Export-Package:         *;version="${version}";-noimport:=true
       <feature id="org.eclipse.orbit.maven.org.codelibs.nekohtml" label="Orbit Maven BND org.codelibs.nekohtml" provider-name="Eclipse Orbit" version="4.35.0">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
-Copyright (c) 2024 Eclipse contributors and others.
+Copyright (c) 2025 Eclipse contributors and others.
 
 This program and the accompanying materials
 are made available under the terms of the Eclipse Public License 2.0
@@ -688,7 +688,7 @@ Export-Package:         *;version="${version}";-noimport:=true
       <feature id="org.eclipse.orbit.maven.org.apache.ws.commons.util" label="Orbit Maven BND org.apache.ws.commons.util" provider-name="Eclipse Orbit" version="4.35.0">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
-Copyright (c) 2024 Eclipse contributors and others.
+Copyright (c) 2025 Eclipse contributors and others.
 
 This program and the accompanying materials
 are made available under the terms of the Eclipse Public License 2.0
@@ -730,7 +730,7 @@ Export-Package:         *;version="${version}";-noimport:=true
       <feature id="org.eclipse.orbit.maven.javax.wsdl" label="Orbit Maven BND javax.wsdl" provider-name="Eclipse Orbit" version="4.35.0">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
-Copyright (c) 2024 Eclipse contributors and others.
+Copyright (c) 2025 Eclipse contributors and others.
 
 This program and the accompanying materials
 are made available under the terms of the Eclipse Public License 2.0
@@ -771,7 +771,7 @@ Export-Package:         *;version="${version}";-noimport:=true
       <feature id="org.eclipse.orbit.maven.org.apache.axis" label="Orbit Maven BND org.apache.axis" provider-name="Eclipse Orbit" version="4.35.0">
         <description>This feature's dependencies are a rebuilt version of Axis with CVE fixes and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
-Copyright (c) 2024 Eclipse contributors and others.
+Copyright (c) 2025 Eclipse contributors and others.
 
 This program and the accompanying materials
 are made available under the terms of the Eclipse Public License 2.0
@@ -830,7 +830,7 @@ Export-Package:         *;version="${version}";-noimport:=true
       <feature id="org.eclipse.orbit.maven.org.apache.axis.ant" label="Orbit Maven BND org.apache.axis.ant" provider-name="Eclipse Orbit" version="4.35.0">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
-Copyright (c) 2024 Eclipse contributors and others.
+Copyright (c) 2025 Eclipse contributors and others.
 
 This program and the accompanying materials
 are made available under the terms of the Eclipse Public License 2.0
@@ -884,7 +884,7 @@ Export-Package:         org.apache.axis;split=ant;mandatory:=split;version="${ve
       <feature id="org.eclipse.orbit.maven.org.apache.commons.httpclient" label="Orbit Maven BND org.apache.commons.httpclient" provider-name="Eclipse Orbit" version="4.35.0">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
-Copyright (c) 2024 Eclipse contributors and others.
+Copyright (c) 2025 Eclipse contributors and others.
 
 This program and the accompanying materials
 are made available under the terms of the Eclipse Public License 2.0
@@ -927,7 +927,7 @@ Export-Package:         *;version="${version}";-noimport:=true
       <feature id="org.eclipse.orbit.maven.org.apache.httpcomponents.core5" label="Orbit Maven BND org.apache.httpcomponents.core5" provider-name="Eclipse Orbit" version="4.35.0">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
-Copyright (c) 2024 Eclipse contributors and others.
+Copyright (c) 2025 Eclipse contributors and others.
 
 This program and the accompanying materials
 are made available under the terms of the Eclipse Public License 2.0
@@ -978,7 +978,7 @@ Export-Package:         *;version="${version}";-noimport:=true
       <feature id="org.eclipse.orbit.maven.org.apache.httpcomponents.client5.httpclient5" label="Orbit Maven BND org.apache.httpcomponents.client5.httpclient5" provider-name="Eclipse Orbit" version="4.35.0">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
-Copyright (c) 2024 Eclipse contributors and others.
+Copyright (c) 2025 Eclipse contributors and others.
 
 This program and the accompanying materials
 are made available under the terms of the Eclipse Public License 2.0
@@ -1022,7 +1022,7 @@ Export-Package:         *;version="${version}";-noimport:=true
       <feature id="org.eclipse.orbit.maven.org.apache.httpcomponents.httpclient-win" label="Orbit Maven BND org.apache.httpcomponents.httpclient-win" provider-name="Eclipse Orbit" version="4.35.0">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
-Copyright (c) 2024 Eclipse contributors and others.
+Copyright (c) 2025 Eclipse contributors and others.
 
 This program and the accompanying materials
 are made available under the terms of the Eclipse Public License 2.0
@@ -1067,7 +1067,7 @@ Export-Package:         *;version="${version}";-noimport:=true
       <feature id="org.eclipse.orbit.maven.org.apache.httpcomponents.client5.httpclient5-win" label="Orbit Maven BND org.apache.httpcomponents.client5.httpclient5-win" provider-name="Eclipse Orbit" version="4.35.0">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
-Copyright (c) 2024 Eclipse contributors and others.
+Copyright (c) 2025 Eclipse contributors and others.
 
 This program and the accompanying materials
 are made available under the terms of the Eclipse Public License 2.0
@@ -1111,7 +1111,7 @@ Export-Package:         *;version="${version}";-noimport:=true
       <feature id="org.eclipse.orbit.maven.com.konghq" label="Orbit Maven BND com.konghq" provider-name="Eclipse Orbit" version="4.35.0">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
-Copyright (c) 2024 Eclipse contributors and others.
+Copyright (c) 2025 Eclipse contributors and others.
 
 This program and the accompanying materials
 are made available under the terms of the Eclipse Public License 2.0
@@ -1154,7 +1154,7 @@ Export-Package:         *;version="${version}";-noimport:=true
       <feature id="org.eclipse.orbit.maven.com.jcraft.jsch" label="Orbit Maven BND com.jcraft.jsch" provider-name="Eclipse Orbit" version="4.35.0">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
-Copyright (c) 2024 Eclipse contributors and others.
+Copyright (c) 2025 Eclipse contributors and others.
 
 This program and the accompanying materials
 are made available under the terms of the Eclipse Public License 2.0
@@ -1196,7 +1196,7 @@ Export-Package:         *;version="${version}";-noimport:=true
       <feature id="org.eclipse.orbit.maven.com.jcraft.jzlib" label="Orbit Maven BND com.jcraft.jzlib" provider-name="Eclipse Orbit" version="4.35.0">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
-Copyright (c) 2024 Eclipse contributors and others.
+Copyright (c) 2025 Eclipse contributors and others.
 
 This program and the accompanying materials
 are made available under the terms of the Eclipse Public License 2.0
@@ -1237,7 +1237,7 @@ Export-Package:         *;version="${version}";-noimport:=true
       <feature id="org.eclipse.orbit.maven.org.apache.xmlgraphics" label="Orbit Maven BND org.apache.xmlgraphics" provider-name="Eclipse Orbit" version="4.35.0">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
-Copyright (c) 2024 Eclipse contributors and others.
+Copyright (c) 2025 Eclipse contributors and others.
 
 This program and the accompanying materials
 are made available under the terms of the Eclipse Public License 2.0
@@ -1279,7 +1279,7 @@ Export-Package:         *;version="${version}"
       <feature id="org.eclipse.orbit.maven.org.apache.xmlgraphics.fop" label="Orbit Maven BND org.apache.xmlgraphics.fop" provider-name="Eclipse Orbit" version="4.35.0">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
-Copyright (c) 2024 Eclipse contributors and others.
+Copyright (c) 2025 Eclipse contributors and others.
 
 This program and the accompanying materials
 are made available under the terms of the Eclipse Public License 2.0
@@ -1335,7 +1335,7 @@ Export-Package:         *;version="${version}";-noimport:=true
       <feature id="org.eclipse.orbit.maven.org.apache.batik" label="Orbit Maven BND org.apache.batik" provider-name="Eclipse Orbit" version="4.35.0">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
-Copyright (c) 2024 Eclipse contributors and others.
+Copyright (c) 2025 Eclipse contributors and others.
 
 This program and the accompanying materials
 are made available under the terms of the Eclipse Public License 2.0
@@ -1494,7 +1494,7 @@ Eclipse-RegisterBuddy:  org.apache.batik.awt.util,org.apache.batik.transcoder,or
       <feature id="org.eclipse.orbit.maven.org.apache.ant" label="Orbit Maven BND org.apache.ant" provider-name="Eclipse Orbit" version="4.35.0">
         <description>This feature's dependencies are repackaged Ant downloads that wre wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
-Copyright (c) 2024 Eclipse contributors and others.
+Copyright (c) 2025 Eclipse contributors and others.
 
 This program and the accompanying materials
 are made available under the terms of the Eclipse Public License 2.0
@@ -1573,7 +1573,7 @@ Automatic-Module-Name:  org.apache.ant
       <feature id="org.eclipse.orbit.maven.org.commonmark" label="Orbit Maven BND org.commonmark" provider-name="Eclipse Orbit" version="4.35.0">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
-Copyright (c) 2024 Eclipse contributors and others.
+Copyright (c) 2025 Eclipse contributors and others.
 
 This program and the accompanying materials
 are made available under the terms of the Eclipse Public License 2.0
@@ -1675,7 +1675,7 @@ Export-Package:         *.internal.*;x-internal:=true;version="${version}",\
       <feature id="org.eclipse.orbit.maven.com.github.virtuald" label="Orbit Maven BND com.github.virtuald" provider-name="Eclipse Orbit" version="4.35.0">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
-Copyright (c) 2024 Eclipse contributors and others.
+Copyright (c) 2025 Eclipse contributors and others.
 
 This program and the accompanying materials
 are made available under the terms of the Eclipse Public License 2.0
@@ -1720,7 +1720,7 @@ Export-Package:         *;version="${version}";-noimport:=true
       <feature id="org.eclipse.orbit.maven.com.google.javascript" label="Orbit Maven BND com.google.javascript" provider-name="Eclipse Orbit" version="4.35.0">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
-Copyright (c) 2024 Eclipse contributors and others.
+Copyright (c) 2025 Eclipse contributors and others.
 
 This program and the accompanying materials
 are made available under the terms of the Eclipse Public License 2.0
@@ -1765,7 +1765,7 @@ Export-Package:         *;version="${version}";-noimport:=true
       <feature id="org.eclipse.orbit.maven.xml-resolver" label="Orbit Maven BND xml-resolver" provider-name="Eclipse Orbit" version="4.35.0">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
-Copyright (c) 2024 Eclipse contributors and others.
+Copyright (c) 2025 Eclipse contributors and others.
 
 This program and the accompanying materials
 are made available under the terms of the Eclipse Public License 2.0
@@ -1809,7 +1809,7 @@ Export-Package:         *;version="${version}"
       <feature id="org.eclipse.orbit.maven.xerces" label="Orbit Maven BND xerces" provider-name="Eclipse Orbit" version="4.35.0">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
-Copyright (c) 2024 Eclipse contributors and others.
+Copyright (c) 2025 Eclipse contributors and others.
 
 This program and the accompanying materials
 are made available under the terms of the Eclipse Public License 2.0
@@ -1855,7 +1855,7 @@ Export-Package:         *;version="${version}"
       <feature id="org.eclipse.orbit.maven.xalan" label="Orbit Maven BND xalan" provider-name="Eclipse Orbit" version="4.35.0">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
-Copyright (c) 2024 Eclipse contributors and others.
+Copyright (c) 2025 Eclipse contributors and others.
 
 This program and the accompanying materials
 are made available under the terms of the Eclipse Public License 2.0
@@ -1907,7 +1907,7 @@ Export-Package:         *;version="${version}"
       <feature id="org.eclipse.orbit.maven.org.apache.poi" label="Orbit Maven BND org.apache.poi" provider-name="Eclipse Orbit" version="4.35.0">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
-Copyright (c) 2024 Eclipse contributors and others.
+Copyright (c) 2025 Eclipse contributors and others.
 
 This program and the accompanying materials
 are made available under the terms of the Eclipse Public License 2.0
@@ -1968,7 +1968,7 @@ Eclipse-BuddyPolicy:    dependent
       <feature id="org.eclipse.orbit.maven.com.zaxxer" label="Orbit Maven BND com.zaxxer" provider-name="Eclipse Orbit" version="4.35.0">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
-Copyright (c) 2024 Eclipse contributors and others.
+Copyright (c) 2025 Eclipse contributors and others.
 
 This program and the accompanying materials
 are made available under the terms of the Eclipse Public License 2.0
@@ -2011,7 +2011,7 @@ Export-Package:         *;version="${version}"
       <feature id="org.eclipse.orbit.maven.org.apache.xmlbeans" label="Orbit Maven BND org.apache.xmlbeans" provider-name="Eclipse Orbit" version="4.35.0.v20241214-0800">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
-Copyright (c) 2024 Eclipse contributors and others.
+Copyright (c) 2025 Eclipse contributors and others.
 
 This program and the accompanying materials
 are made available under the terms of the Eclipse Public License 2.0
@@ -2054,7 +2054,7 @@ Export-Package:         *;version="${version}"
       <feature id="org.eclipse.orbit.maven.org.antlr.3.2" label="Orbit Maven BND org.antlr.3.2" provider-name="Eclipse Orbit" version="4.35.0">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
-Copyright (c) 2024 Eclipse contributors and others.
+Copyright (c) 2025 Eclipse contributors and others.
 
 This program and the accompanying materials
 are made available under the terms of the Eclipse Public License 2.0
@@ -2098,7 +2098,7 @@ Export-Package:         *;version="${version}";-noimport:=true
       <feature id="org.eclipse.orbit.maven.org.antlr.3.x" label="Orbit Maven BND org.antlr.3.x" provider-name="Eclipse Orbit" version="4.35.0">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
-Copyright (c) 2024 Eclipse contributors and others.
+Copyright (c) 2025 Eclipse contributors and others.
 
 This program and the accompanying materials
 are made available under the terms of the Eclipse Public License 2.0
@@ -2142,7 +2142,7 @@ Export-Package:         *;version="${version}";-noimport:=true
       <feature id="org.eclipse.orbit.maven.org.dom4j" label="Orbit Maven BND org.dom4j" provider-name="Eclipse Orbit" version="4.35.0">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
-Copyright (c) 2024 Eclipse contributors and others.
+Copyright (c) 2025 Eclipse contributors and others.
 
 This program and the accompanying materials
 are made available under the terms of the Eclipse Public License 2.0
@@ -2188,7 +2188,7 @@ Export-Package:         *;version="${version}"
       <feature id="org.eclipse.orbit.maven.org.pushingpixels.trident" label="Orbit Maven BND org.pushingpixels.trident" provider-name="Eclipse Orbit" version="4.35.0">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
-Copyright (c) 2024 Eclipse contributors and others.
+Copyright (c) 2025 Eclipse contributors and others.
 
 This program and the accompanying materials
 are made available under the terms of the Eclipse Public License 2.0
@@ -2236,7 +2236,7 @@ Export-Package:         !*swing,\
       <feature id="org.eclipse.orbit.maven.org.cyclonedx" label="Orbit Maven BND org.cyclonedx" provider-name="Eclipse Orbit" version="4.35.0">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
-Copyright (c) 2024 Eclipse contributors and others.
+Copyright (c) 2025 Eclipse contributors and others.
 
 This program and the accompanying materials
 are made available under the terms of the Eclipse Public License 2.0
@@ -2280,7 +2280,7 @@ Export-Package:         *;version="${version}";-noimport:=true
       <feature id="org.eclipse.orbit.maven.com.github.package-url" label="Orbit Maven BND com.github.package-url" provider-name="Eclipse Orbit" version="4.35.0">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
-Copyright (c) 2024 Eclipse contributors and others.
+Copyright (c) 2025 Eclipse contributors and others.
 
 This program and the accompanying materials
 are made available under the terms of the Eclipse Public License 2.0
@@ -2324,7 +2324,7 @@ Export-Package:         *;version="${version}"
       <feature id="org.eclipse.orbit.maven.com.jgoodies.common" label="Orbit Maven BND com.jgoodies.common" provider-name="Eclipse Orbit" version="4.35.0">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
-Copyright (c) 2024 Eclipse contributors and others.
+Copyright (c) 2025 Eclipse contributors and others.
 
 This program and the accompanying materials
 are made available under the terms of the Eclipse Public License 2.0
@@ -2369,7 +2369,7 @@ Export-Package:         *;version="${version}";-noimport:=true
       <feature id="org.eclipse.orbit.maven.com.jgoodies.forms" label="Orbit Maven BND com.jgoodies.forms" provider-name="Eclipse Orbit" version="4.35.0">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
-Copyright (c) 2024 Eclipse contributors and others.
+Copyright (c) 2025 Eclipse contributors and others.
 
 This program and the accompanying materials
 are made available under the terms of the Eclipse Public License 2.0
@@ -2414,7 +2414,7 @@ Export-Package:         *;version="${version}";-noimport:=true
       <feature id="org.eclipse.orbit.maven.com.github.jtidy" label="Orbit Maven BND com.github.jtidy" provider-name="Eclipse Orbit" version="4.35.0">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
-Copyright (c) 2024 Eclipse contributors and others.
+Copyright (c) 2025 Eclipse contributors and others.
 
 This program and the accompanying materials
 are made available under the terms of the Eclipse Public License 2.0
@@ -2458,7 +2458,7 @@ Export-Package:         *;version="${version}";-noimport:=true
       <feature id="org.eclipse.orbit.maven.osgi.exclude" label="Orbit Maven OSGi (excluded because they are only for resolution validation)" provider-name="Eclipse Orbit" version="4.35.0">
         <description>This feature's dependencies are pulled directly from Maven central.</description>
         <copyright>
-Copyright (c) 2024 Eclipse contributors and others.
+Copyright (c) 2025 Eclipse contributors and others.
 
 This program and the accompanying materials
 are made available under the terms of the Eclipse Public License 2.0

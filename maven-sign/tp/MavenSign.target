@@ -9,7 +9,7 @@
       <feature id="org.eclipse.orbit.maven.com.github.jnr.jffi" label="Orbit Maven BND com.github.jnr.jffi" provider-name="Eclipse Orbit" version="4.35.0">
         <description>This feature's dependencies are pulled directly from Maven central and is signed.</description>
         <copyright>
-Copyright (c) 2024 Eclipse contributors and others.
+Copyright (c) 2025 Eclipse contributors and others.
 
 This program and the accompanying materials
 are made available under the terms of the Eclipse Public License 2.0
@@ -48,7 +48,7 @@ Bundle-Version:         ${version}.v20240215-1616
       <feature id="org.eclipse.orbit.maven.net.java.dev.jna" label="Orbit Maven BND net.java.dev.jna" provider-name="Eclipse Orbit" version="4.35.0.v20241222-1200">
         <description>This feature's dependencies are pulled directly from Maven central and is signed.</description>
         <copyright>
-Copyright (c) 2024 Eclipse contributors and others.
+Copyright (c) 2025 Eclipse contributors and others.
 
 This program and the accompanying materials
 are made available under the terms of the Eclipse Public License 2.0
@@ -87,7 +87,7 @@ Bundle-Version:         ${version}.v20241222-1200
       <feature id="org.eclipse.orbit.maven.com.exclude" label="Orbit Maven BND exclude" provider-name="Eclipse Orbit" version="4.35.0">
         <description>This feature's dependencies are pulled directly from Maven central and is signed.</description>
         <copyright>
-Copyright (c) 2024 Eclipse contributors and others.
+Copyright (c) 2025 Eclipse contributors and others.
 
 This program and the accompanying materials
 are made available under the terms of the Eclipse Public License 2.0
