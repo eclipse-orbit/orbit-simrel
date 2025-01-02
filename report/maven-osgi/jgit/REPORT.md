@@ -4,6 +4,8 @@
  - [net.java.dev.jna](https://repo1.maven.org/maven2/net/java/dev/jna/)
     - [jna](https://repo1.maven.org/maven2/net/java/dev/jna/jna/) **[5.15.0](https://repo1.maven.org/maven2/net/java/dev/jna/jna/5.15.0)** < [5.16.0](https://repo1.maven.org/maven2/net/java/dev/jna/jna/5.16.0/)
     - [jna-platform](https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/) **[5.15.0](https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/5.15.0)** < [5.16.0](https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/5.16.0/)
+ - [org.assertj](https://repo1.maven.org/maven2/org/assertj/)
+    - [assertj-core](https://repo1.maven.org/maven2/org/assertj/assertj-core/) **[3.27.0](https://repo1.maven.org/maven2/org/assertj/assertj-core/3.27.0)** < [3.27.1](https://repo1.maven.org/maven2/org/assertj/assertj-core/3.27.1/)
 
 ## Major Updates
  - [org.hamcrest](https://repo1.maven.org/maven2/org/hamcrest/)

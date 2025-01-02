@@ -9,7 +9,7 @@
     - [jna](https://repo1.maven.org/maven2/net/java/dev/jna/jna/) **[5.14.0](https://repo1.maven.org/maven2/net/java/dev/jna/jna/5.14.0)** < [5.16.0](https://repo1.maven.org/maven2/net/java/dev/jna/jna/5.16.0/)
     - [jna-platform](https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/) **[5.14.0](https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/5.14.0)** < [5.16.0](https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/5.16.0/)
  - [org.assertj](https://repo1.maven.org/maven2/org/assertj/)
-    - [assertj-core](https://repo1.maven.org/maven2/org/assertj/assertj-core/) **[3.26.3](https://repo1.maven.org/maven2/org/assertj/assertj-core/3.26.3)** < [3.27.0](https://repo1.maven.org/maven2/org/assertj/assertj-core/3.27.0/)
+    - [assertj-core](https://repo1.maven.org/maven2/org/assertj/assertj-core/) **[3.26.3](https://repo1.maven.org/maven2/org/assertj/assertj-core/3.26.3)** < [3.27.1](https://repo1.maven.org/maven2/org/assertj/assertj-core/3.27.1/)
  - [org.freemarker](https://repo1.maven.org/maven2/org/freemarker/)
     - [freemarker](https://repo1.maven.org/maven2/org/freemarker/freemarker/) **[2.3.33](https://repo1.maven.org/maven2/org/freemarker/freemarker/2.3.33)** < [2.3.34](https://repo1.maven.org/maven2/org/freemarker/freemarker/2.3.34/)
  - [org.junit.jupiter](https://repo1.maven.org/maven2/org/junit/jupiter/)

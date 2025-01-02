@@ -265,7 +265,7 @@
  - [org.apiguardian](https://repo1.maven.org/maven2/org/apiguardian/)
     - [apiguardian-api](https://repo1.maven.org/maven2/org/apiguardian/apiguardian-api/) **[1.1.2](https://repo1.maven.org/maven2/org/apiguardian/apiguardian-api/1.1.2)**
  - [org.assertj](https://repo1.maven.org/maven2/org/assertj/)
-    - [assertj-core](https://repo1.maven.org/maven2/org/assertj/assertj-core/) **[3.27.0](https://repo1.maven.org/maven2/org/assertj/assertj-core/3.27.0)**
+    - [assertj-core](https://repo1.maven.org/maven2/org/assertj/assertj-core/) **[3.27.1](https://repo1.maven.org/maven2/org/assertj/assertj-core/3.27.1)**
  - [org.bndtools](https://repo1.maven.org/maven2/org/bndtools/)
     - [bndtools.api](https://repo1.maven.org/maven2/org/bndtools/bndtools.api/) **[7.1.0](https://repo1.maven.org/maven2/org/bndtools/bndtools.api/7.1.0)**
     - [org.bndtools.headless.build.manager](https://repo1.maven.org/maven2/org/bndtools/org.bndtools.headless.build.manager/) **[7.1.0](https://repo1.maven.org/maven2/org/bndtools/org.bndtools.headless.build.manager/7.1.0)**
