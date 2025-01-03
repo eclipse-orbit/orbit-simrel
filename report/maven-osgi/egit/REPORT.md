@@ -6,6 +6,8 @@
     - [jna-platform](https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/) **[5.15.0](https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/5.15.0)** < [5.16.0](https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/5.16.0/)
  - [org.assertj](https://repo1.maven.org/maven2/org/assertj/)
     - [assertj-core](https://repo1.maven.org/maven2/org/assertj/assertj-core/) **[3.27.0](https://repo1.maven.org/maven2/org/assertj/assertj-core/3.27.0)** < [3.27.1](https://repo1.maven.org/maven2/org/assertj/assertj-core/3.27.1/)
+ - [org.mockito](https://repo1.maven.org/maven2/org/mockito/)
+    - [mockito-core](https://repo1.maven.org/maven2/org/mockito/mockito-core/) **[5.14.2](https://repo1.maven.org/maven2/org/mockito/mockito-core/5.14.2)** < [5.15.2](https://repo1.maven.org/maven2/org/mockito/mockito-core/5.15.2/)
 
 ## Major Updates
  - [org.slf4j](https://repo1.maven.org/maven2/org/slf4j/)
