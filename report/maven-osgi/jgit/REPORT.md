@@ -1,11 +1,6 @@
 # Target Platform: [jgit](https://raw.githubusercontent.com/eclipse-jgit/jgit/master/org.eclipse.jgit.packaging/org.eclipse.jgit.target/maven/dependencies.tpd)
 
 ## Minor Updates
- - [net.java.dev.jna](https://repo1.maven.org/maven2/net/java/dev/jna/)
-    - [jna](https://repo1.maven.org/maven2/net/java/dev/jna/jna/) **[5.15.0](https://repo1.maven.org/maven2/net/java/dev/jna/jna/5.15.0)** < [5.16.0](https://repo1.maven.org/maven2/net/java/dev/jna/jna/5.16.0/)
-    - [jna-platform](https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/) **[5.15.0](https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/5.15.0)** < [5.16.0](https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/5.16.0/)
- - [org.assertj](https://repo1.maven.org/maven2/org/assertj/)
-    - [assertj-core](https://repo1.maven.org/maven2/org/assertj/assertj-core/) **[3.27.0](https://repo1.maven.org/maven2/org/assertj/assertj-core/3.27.0)** < [3.27.1](https://repo1.maven.org/maven2/org/assertj/assertj-core/3.27.1/)
  - [org.mockito](https://repo1.maven.org/maven2/org/mockito/)
     - [mockito-core](https://repo1.maven.org/maven2/org/mockito/mockito-core/) **[5.14.2](https://repo1.maven.org/maven2/org/mockito/mockito-core/5.14.2)** < [5.15.2](https://repo1.maven.org/maven2/org/mockito/mockito-core/5.15.2/)
 
@@ -38,8 +33,8 @@
     - [byte-buddy](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/) **[1.15.11](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.15.11)**
     - [byte-buddy-agent](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/) **[1.15.11](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.15.11)**
  - [net.java.dev.jna](https://repo1.maven.org/maven2/net/java/dev/jna/)
-    - [jna](https://repo1.maven.org/maven2/net/java/dev/jna/jna/) **[5.15.0](https://repo1.maven.org/maven2/net/java/dev/jna/jna/5.15.0)**
-    - [jna-platform](https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/) **[5.15.0](https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/5.15.0)**
+    - [jna](https://repo1.maven.org/maven2/net/java/dev/jna/jna/) **[5.16.0](https://repo1.maven.org/maven2/net/java/dev/jna/jna/5.16.0)**
+    - [jna-platform](https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/) **[5.16.0](https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/5.16.0)**
  - [org.apache.commons](https://repo1.maven.org/maven2/org/apache/commons/)
     - [commons-compress](https://repo1.maven.org/maven2/org/apache/commons/commons-compress/) **[1.27.1](https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.27.1)**
     - [commons-lang3](https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/) **[3.17.0](https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.17.0)**
@@ -47,7 +42,7 @@
     - [sshd-osgi](https://repo1.maven.org/maven2/org/apache/sshd/sshd-osgi/) **[2.14.0](https://repo1.maven.org/maven2/org/apache/sshd/sshd-osgi/2.14.0)**
     - [sshd-sftp](https://repo1.maven.org/maven2/org/apache/sshd/sshd-sftp/) **[2.14.0](https://repo1.maven.org/maven2/org/apache/sshd/sshd-sftp/2.14.0)**
  - [org.assertj](https://repo1.maven.org/maven2/org/assertj/)
-    - [assertj-core](https://repo1.maven.org/maven2/org/assertj/assertj-core/) **[3.27.0](https://repo1.maven.org/maven2/org/assertj/assertj-core/3.27.0)**
+    - [assertj-core](https://repo1.maven.org/maven2/org/assertj/assertj-core/) **[3.27.1](https://repo1.maven.org/maven2/org/assertj/assertj-core/3.27.1)**
  - [org.bouncycastle](https://repo1.maven.org/maven2/org/bouncycastle/)
     - [bcpg-jdk18on](https://repo1.maven.org/maven2/org/bouncycastle/bcpg-jdk18on/) **[1.79](https://repo1.maven.org/maven2/org/bouncycastle/bcpg-jdk18on/1.79)**
     - [bcpkix-jdk18on](https://repo1.maven.org/maven2/org/bouncycastle/bcpkix-jdk18on/) **[1.79](https://repo1.maven.org/maven2/org/bouncycastle/bcpkix-jdk18on/1.79)**
