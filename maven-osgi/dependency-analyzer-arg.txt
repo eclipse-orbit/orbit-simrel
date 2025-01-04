@@ -40,8 +40,6 @@ org.yaml:snakeyaml:1.33 // Ignore old version
 com.github.jnr:jffi:.*:native // Needs signing
 net.java.dev.jna:jna:.* // Needs signing
 org.bndtools:bndtools.jareditor:.* // Drags in the entire Eclipse IDE via requirements.
-org.bouncycastle:.*:1.78  // Broken https://github.com/bcgit/bc-java/issues/1621
-org.mozilla:rhino:1\.8\.0 // This version is not an OSGI bundle https://github.com/mozilla/rhino/discussions/1788
 org.eclipse.lemminx:.* // Eclipse project content not in maven central. 
 
 
