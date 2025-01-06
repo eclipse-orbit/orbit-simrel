@@ -2508,7 +2508,7 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>com.ethlo.time</groupId>
           <artifactId>itu</artifactId>
-          <version>1.10.2</version>
+          <version>1.10.3</version>
           <type>jar</type>
         </dependency>
 

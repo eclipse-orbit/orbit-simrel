@@ -3,7 +3,7 @@
 <target name="Maven" sequenceNumber="1">
   <locations>
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="error" type="Maven">
-      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.35.0.v20250106-0700">
+      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.35.0.v20250106-1600">
         <description>This feature's dependencies are pulled directly from Maven central.</description>
         <copyright>
 Copyright (c) 2025 Eclipse contributors and others.
@@ -16,7 +16,7 @@ https://www.eclipse.org/legal/epl-2.0/
 SPDX-License-Identifier: EPL-2.0
         </copyright>
         <license url="https://www.eclipse.org/legal/epl-2.0/"/>
-        <!-- SHA1 2b2a8dc3f3e6ad55617cbc6d35aed5e2b377534d -->
+        <!-- SHA1 060d304223c0b5c1a2ee307d8bb13dae918f9663 -->
       </feature>
       <dependencies>
         <dependency>
@@ -82,7 +82,7 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>com.ethlo.time</groupId>
           <artifactId>itu</artifactId>
-          <version>1.10.2</version>
+          <version>1.10.3</version>
           <type>jar</type>
         </dependency>
         <dependency>
