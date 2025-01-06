@@ -3,7 +3,7 @@
 <target name="Maven" sequenceNumber="1">
   <locations>
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="error" type="Maven">
-      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.35.0.v20250104-1300">
+      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.35.0.v20250106-0700">
         <description>This feature's dependencies are pulled directly from Maven central.</description>
         <copyright>
 Copyright (c) 2025 Eclipse contributors and others.
@@ -16,7 +16,7 @@ https://www.eclipse.org/legal/epl-2.0/
 SPDX-License-Identifier: EPL-2.0
         </copyright>
         <license url="https://www.eclipse.org/legal/epl-2.0/"/>
-        <!-- SHA1 b56751a8d9d187049b5d833e1512618b962b075f -->
+        <!-- SHA1 2b2a8dc3f3e6ad55617cbc6d35aed5e2b377534d -->
       </feature>
       <dependencies>
         <dependency>
@@ -64,13 +64,13 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>ch.qos.logback</groupId>
           <artifactId>logback-classic</artifactId>
-          <version>1.5.15</version>
+          <version>1.5.16</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>ch.qos.logback</groupId>
           <artifactId>logback-core</artifactId>
-          <version>1.5.15</version>
+          <version>1.5.16</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -1047,6 +1047,12 @@ SPDX-License-Identifier: EPL-2.0
           <type>jar</type>
         </dependency>
         <dependency>
+          <groupId>org.glassfish.jersey.connectors</groupId>
+          <artifactId>jersey-apache5-connector</artifactId>
+          <version>3.1.9</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
           <groupId>org.glassfish.jersey.containers</groupId>
           <artifactId>jersey-container-servlet</artifactId>
           <version>2.46</version>
@@ -1254,6 +1260,12 @@ SPDX-License-Identifier: EPL-2.0
           <groupId>org.mandas</groupId>
           <artifactId>docker-client</artifactId>
           <version>8.0.3</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>org.mandas</groupId>
+          <artifactId>docker-client</artifactId>
+          <version>9.0.0</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -1683,6 +1695,9 @@ SPDX-License-Identifier: EPL-2.0
       <unit id="org.hamcrest.core" version="0.0.0"/>
       <unit id="org.jdom" version="0.0.0"/>
       <unit id="org.junit" version="0.0.0"/>
+      <unit id="org.apache.httpcomponents.client5.httpclient5" version="0.0.0"/>
+      <unit id="org.apache.httpcomponents.core5.httpcore5" version="0.0.0"/>
+      <unit id="org.apache.httpcomponents.core5.httpcore5-h2" version="0.0.0"/>
       <unit id="org.apache.ws.commons.util" version="0.0.0"/>
     </location>
 
