@@ -126,7 +126,7 @@
  - [commons-cli](https://repo1.maven.org/maven2/commons-cli/)
     - [commons-cli](https://repo1.maven.org/maven2/commons-cli/commons-cli/) **[1.9.0](https://repo1.maven.org/maven2/commons-cli/commons-cli/1.9.0)**
  - [commons-codec](https://repo1.maven.org/maven2/commons-codec/)
-    - [commons-codec](https://repo1.maven.org/maven2/commons-codec/commons-codec/) **[1.17.1](https://repo1.maven.org/maven2/commons-codec/commons-codec/1.17.1)**
+    - [commons-codec](https://repo1.maven.org/maven2/commons-codec/commons-codec/) **[1.17.2](https://repo1.maven.org/maven2/commons-codec/commons-codec/1.17.2)**
  - [commons-collections](https://repo1.maven.org/maven2/commons-collections/)
     - [commons-collections](https://repo1.maven.org/maven2/commons-collections/commons-collections/) **[3.2.2](https://repo1.maven.org/maven2/commons-collections/commons-collections/3.2.2)**
  - [commons-discovery](https://repo1.maven.org/maven2/commons-discovery/)

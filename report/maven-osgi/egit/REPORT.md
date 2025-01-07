@@ -1,9 +1,16 @@
 # Target Platform: [egit](https://raw.githubusercontent.com/eclipse-egit/egit/master/org.eclipse.egit.target/maven/dependencies.tpd)
 
+## Minor Updates
+ - [commons-codec](https://repo1.maven.org/maven2/commons-codec/)
+    - [commons-codec](https://repo1.maven.org/maven2/commons-codec/commons-codec/) **[1.17.1](https://repo1.maven.org/maven2/commons-codec/commons-codec/1.17.1)** < [1.17.2](https://repo1.maven.org/maven2/commons-codec/commons-codec/1.17.2/)
+
 ## Major Updates
  - [org.slf4j](https://repo1.maven.org/maven2/org/slf4j/)
     - [slf4j-api](https://repo1.maven.org/maven2/org/slf4j/slf4j-api/) **[1.7.36](https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.36)** < [2.0.16](https://repo1.maven.org/maven2/org/slf4j/slf4j-api/2.0.16/)
     - [slf4j-simple](https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/) **[1.7.36](https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/1.7.36)** < [2.0.16](https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/2.0.16/)
+
+## Updates Applied
+[updated.tpd](updated.tpd)
 
 ## Content
  - [args4j](https://repo1.maven.org/maven2/args4j/)
