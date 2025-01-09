@@ -61,9 +61,9 @@
     - [lucene-sandbox](https://repo1.maven.org/maven2/org/apache/lucene/lucene-sandbox/) **[9.12.1](https://repo1.maven.org/maven2/org/apache/lucene/lucene-sandbox/9.12.1)**
     - [lucene-sandbox](https://repo1.maven.org/maven2/org/apache/lucene/lucene-sandbox/) **[10.1.0](https://repo1.maven.org/maven2/org/apache/lucene/lucene-sandbox/10.1.0)**
  - [org.apache.poi](https://repo1.maven.org/maven2/org/apache/poi/)
-    - [poi](https://repo1.maven.org/maven2/org/apache/poi/poi/) **[5.3.0](https://repo1.maven.org/maven2/org/apache/poi/poi/5.3.0)**
-    - [poi-ooxml](https://repo1.maven.org/maven2/org/apache/poi/poi-ooxml/) **[5.3.0](https://repo1.maven.org/maven2/org/apache/poi/poi-ooxml/5.3.0)**
-    - [poi-ooxml-lite](https://repo1.maven.org/maven2/org/apache/poi/poi-ooxml-lite/) **[5.3.0](https://repo1.maven.org/maven2/org/apache/poi/poi-ooxml-lite/5.3.0)**
+    - [poi](https://repo1.maven.org/maven2/org/apache/poi/poi/) **[5.4.0](https://repo1.maven.org/maven2/org/apache/poi/poi/5.4.0)**
+    - [poi-ooxml](https://repo1.maven.org/maven2/org/apache/poi/poi-ooxml/) **[5.4.0](https://repo1.maven.org/maven2/org/apache/poi/poi-ooxml/5.4.0)**
+    - [poi-ooxml-lite](https://repo1.maven.org/maven2/org/apache/poi/poi-ooxml-lite/) **[5.4.0](https://repo1.maven.org/maven2/org/apache/poi/poi-ooxml-lite/5.4.0)**
  - [org.apache.ws.commons.util](https://repo1.maven.org/maven2/org/apache/ws/commons/util/)
     - [ws-commons-util](https://repo1.maven.org/maven2/org/apache/ws/commons/util/ws-commons-util/) **[1.0.2](https://repo1.maven.org/maven2/org/apache/ws/commons/util/ws-commons-util/1.0.2)**
  - [org.apache.xmlbeans](https://repo1.maven.org/maven2/org/apache/xmlbeans/)
