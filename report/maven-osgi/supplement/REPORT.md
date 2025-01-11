@@ -172,7 +172,7 @@
     - [antlr4-runtime](https://repo1.maven.org/maven2/org/antlr/antlr4-runtime/) **[4.13.2](https://repo1.maven.org/maven2/org/antlr/antlr4-runtime/4.13.2)**
  - [org.apache.commons](https://repo1.maven.org/maven2/org/apache/commons/)
     - [commons-collections4](https://repo1.maven.org/maven2/org/apache/commons/commons-collections4/) **[4.4](https://repo1.maven.org/maven2/org/apache/commons/commons-collections4/4.4)**
-    - [commons-csv](https://repo1.maven.org/maven2/org/apache/commons/commons-csv/) **[1.12.0](https://repo1.maven.org/maven2/org/apache/commons/commons-csv/1.12.0)**
+    - [commons-csv](https://repo1.maven.org/maven2/org/apache/commons/commons-csv/) **[1.13.0](https://repo1.maven.org/maven2/org/apache/commons/commons-csv/1.13.0)**
     - [commons-fileupload2-core](https://repo1.maven.org/maven2/org/apache/commons/commons-fileupload2-core/) **[2.0.0-M2](https://repo1.maven.org/maven2/org/apache/commons/commons-fileupload2-core/2.0.0-M2)**
     - [commons-fileupload2-jakarta-servlet5](https://repo1.maven.org/maven2/org/apache/commons/commons-fileupload2-jakarta-servlet5/) **[2.0.0-M2](https://repo1.maven.org/maven2/org/apache/commons/commons-fileupload2-jakarta-servlet5/2.0.0-M2)**
     - [commons-fileupload2-jakarta-servlet6](https://repo1.maven.org/maven2/org/apache/commons/commons-fileupload2-jakarta-servlet6/) **[2.0.0-M2](https://repo1.maven.org/maven2/org/apache/commons/commons-fileupload2-jakarta-servlet6/2.0.0-M2)**
