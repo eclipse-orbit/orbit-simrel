@@ -364,8 +364,6 @@
     - [apache-el](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-el/) **[10.1.31](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-el/10.1.31)**
     - [apache-jsp](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-jsp/) **[9.0.96](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-jsp/9.0.96)**
     - [apache-jsp](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-jsp/) **[10.1.31](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-jsp/10.1.31)**
- - [org.mozilla](https://repo1.maven.org/maven2/org/mozilla/)
-    - [rhino](https://repo1.maven.org/maven2/org/mozilla/rhino/) **[1.7.15](https://repo1.maven.org/maven2/org/mozilla/rhino/1.7.15)**
  - [org.mvel](https://repo1.maven.org/maven2/org/mvel/)
     - [mvel2](https://repo1.maven.org/maven2/org/mvel/mvel2/) **[2.5.2.Final](https://repo1.maven.org/maven2/org/mvel/mvel2/2.5.2.Final)**
  - [org.objenesis](https://repo1.maven.org/maven2/org/objenesis/)

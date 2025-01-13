@@ -96,4 +96,6 @@
    <feature id="org.eclipse.orbit.maven.xerces.source"/>
    <feature id="org.eclipse.orbit.maven.xml-resolver"/>
    <feature id="org.eclipse.orbit.maven.xml-resolver.source"/>
+   <feature id="org.mozilla.rhino"/>
+   <feature id="org.mozilla.rhino.source"/>
 </site>

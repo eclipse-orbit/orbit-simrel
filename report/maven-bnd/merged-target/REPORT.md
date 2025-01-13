@@ -124,6 +124,8 @@
     - [jcodings](https://repo1.maven.org/maven2/org/jruby/jcodings/jcodings/) **[1.0.58](https://repo1.maven.org/maven2/org/jruby/jcodings/jcodings/1.0.58)**
  - [org.jruby.joni](https://repo1.maven.org/maven2/org/jruby/joni/)
     - [joni](https://repo1.maven.org/maven2/org/jruby/joni/joni/) **[2.2.1](https://repo1.maven.org/maven2/org/jruby/joni/joni/2.2.1)**
+ - [org.mozilla](https://repo1.maven.org/maven2/org/mozilla/)
+    - [rhino](https://repo1.maven.org/maven2/org/mozilla/rhino/) **[1.8.0](https://repo1.maven.org/maven2/org/mozilla/rhino/1.8.0)**
  - [org.pushingpixels](https://repo1.maven.org/maven2/org/pushingpixels/)
     - [trident](https://repo1.maven.org/maven2/org/pushingpixels/trident/) **[1.3](https://repo1.maven.org/maven2/org/pushingpixels/trident/1.3)**
  - [wsdl4j](https://repo1.maven.org/maven2/wsdl4j/)
