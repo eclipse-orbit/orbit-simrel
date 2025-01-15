@@ -1,6 +1,9 @@
 # Target Platform: [linuxtools](https://raw.githubusercontent.com/eclipse-linuxtools/org.eclipse.linuxtools/refs/heads/master/releng/org.eclipse.linuxtools.target/linuxtools-latest.target)
 
 ## Minor Updates
+ - [org.bouncycastle](https://repo1.maven.org/maven2/org/bouncycastle/)
+    - [bcpkix-jdk18on](https://repo1.maven.org/maven2/org/bouncycastle/bcpkix-jdk18on/) **[1.79](https://repo1.maven.org/maven2/org/bouncycastle/bcpkix-jdk18on/1.79)** < [1.80](https://repo1.maven.org/maven2/org/bouncycastle/bcpkix-jdk18on/1.80/)
+    - [bcutil-jdk18on](https://repo1.maven.org/maven2/org/bouncycastle/bcutil-jdk18on/) **[1.79](https://repo1.maven.org/maven2/org/bouncycastle/bcutil-jdk18on/1.79)** < [1.80](https://repo1.maven.org/maven2/org/bouncycastle/bcutil-jdk18on/1.80/)
  - [org.glassfish.jersey.connectors](https://repo1.maven.org/maven2/org/glassfish/jersey/connectors/)
     - [jersey-apache5-connector](https://repo1.maven.org/maven2/org/glassfish/jersey/connectors/jersey-apache5-connector/) **[3.1.9](https://repo1.maven.org/maven2/org/glassfish/jersey/connectors/jersey-apache5-connector/3.1.9)** < [3.1.10](https://repo1.maven.org/maven2/org/glassfish/jersey/connectors/jersey-apache5-connector/3.1.10/)
  - [org.glassfish.jersey.core](https://repo1.maven.org/maven2/org/glassfish/jersey/core/)

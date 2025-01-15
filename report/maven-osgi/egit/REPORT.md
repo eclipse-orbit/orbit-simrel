@@ -3,6 +3,11 @@
 ## Minor Updates
  - [commons-codec](https://repo1.maven.org/maven2/commons-codec/)
     - [commons-codec](https://repo1.maven.org/maven2/commons-codec/commons-codec/) **[1.17.1](https://repo1.maven.org/maven2/commons-codec/commons-codec/1.17.1)** < [1.17.2](https://repo1.maven.org/maven2/commons-codec/commons-codec/1.17.2/)
+ - [org.bouncycastle](https://repo1.maven.org/maven2/org/bouncycastle/)
+    - [bcpg-jdk18on](https://repo1.maven.org/maven2/org/bouncycastle/bcpg-jdk18on/) **[1.79](https://repo1.maven.org/maven2/org/bouncycastle/bcpg-jdk18on/1.79)** < [1.80](https://repo1.maven.org/maven2/org/bouncycastle/bcpg-jdk18on/1.80/)
+    - [bcpkix-jdk18on](https://repo1.maven.org/maven2/org/bouncycastle/bcpkix-jdk18on/) **[1.79](https://repo1.maven.org/maven2/org/bouncycastle/bcpkix-jdk18on/1.79)** < [1.80](https://repo1.maven.org/maven2/org/bouncycastle/bcpkix-jdk18on/1.80/)
+    - [bcprov-jdk18on](https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk18on/) **[1.79](https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk18on/1.79)** < [1.80](https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk18on/1.80/)
+    - [bcutil-jdk18on](https://repo1.maven.org/maven2/org/bouncycastle/bcutil-jdk18on/) **[1.79](https://repo1.maven.org/maven2/org/bouncycastle/bcutil-jdk18on/1.79)** < [1.80](https://repo1.maven.org/maven2/org/bouncycastle/bcutil-jdk18on/1.80/)
 
 ## Major Updates
  - [org.slf4j](https://repo1.maven.org/maven2/org/slf4j/)
