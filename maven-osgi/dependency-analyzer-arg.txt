@@ -15,6 +15,7 @@ jgit=https://raw.githubusercontent.com/eclipse-jgit/jgit/master/org.eclipse.jgit
 cdt=https://raw.githubusercontent.com/eclipse-cdt/cdt/main/releng/org.eclipse.cdt.target/cdt.target
 cdt-lsp=https://raw.githubusercontent.com/eclipse-cdt/cdt-lsp/master/releng/org.eclipse.cdt.lsp.target/org.eclipse.cdt.lsp.target.target
 jdt-ls=https://raw.githubusercontent.com/eclipse-jdtls/eclipse.jdt.ls/master/org.eclipse.jdt.ls.target/org.eclipse.jdt.ls.tp.target
+lsp4e=https://raw.githubusercontent.com/eclipse-lsp4e/lsp4e/refs/heads/main/target-platforms/target-platform-latest/target-platform-latest.target
 
 // This augments those dependencies collected from other projects.
 // This is in our own Git repository so we have a redirection that ensures we analyze the local copy and not the remote copy.
