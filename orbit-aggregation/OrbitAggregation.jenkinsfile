@@ -5,6 +5,7 @@ pipeline {
     buildDiscarder(logRotator(numToKeepStr: '10'))
     disableConcurrentBuilds()
     skipDefaultCheckout true
+    quietPeriod(300)
   }
 
   triggers {
