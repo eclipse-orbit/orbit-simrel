@@ -428,7 +428,7 @@
     - [slf4j-simple](https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/) **[1.7.36](https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/1.7.36)**
     - [slf4j-simple](https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/) **[2.0.16](https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/2.0.16)**
  - [org.snakeyaml](https://repo1.maven.org/maven2/org/snakeyaml/)
-    - [snakeyaml-engine](https://repo1.maven.org/maven2/org/snakeyaml/snakeyaml-engine/) **[2.8](https://repo1.maven.org/maven2/org/snakeyaml/snakeyaml-engine/2.8)**
+    - [snakeyaml-engine](https://repo1.maven.org/maven2/org/snakeyaml/snakeyaml-engine/) **[2.9](https://repo1.maven.org/maven2/org/snakeyaml/snakeyaml-engine/2.9)**
  - [org.tukaani](https://repo1.maven.org/maven2/org/tukaani/)
     - [xz](https://repo1.maven.org/maven2/org/tukaani/xz/) **[1.10](https://repo1.maven.org/maven2/org/tukaani/xz/1.10)**
  - [org.yaml](https://repo1.maven.org/maven2/org/yaml/)

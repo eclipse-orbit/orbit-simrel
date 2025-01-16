@@ -1,11 +1,5 @@
 # Target Platform: [platform](https://raw.githubusercontent.com/eclipse-platform/eclipse.platform.releng.aggregator/master/eclipse.platform.releng.prereqs.sdk/eclipse-sdk-prereqs.target)
 
-## Minor Updates
- - [org.bouncycastle](https://repo1.maven.org/maven2/org/bouncycastle/)
-    - [bcpg-jdk18on](https://repo1.maven.org/maven2/org/bouncycastle/bcpg-jdk18on/) **[1.79](https://repo1.maven.org/maven2/org/bouncycastle/bcpg-jdk18on/1.79)** < [1.80](https://repo1.maven.org/maven2/org/bouncycastle/bcpg-jdk18on/1.80/)
-    - [bcprov-jdk18on](https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk18on/) **[1.79](https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk18on/1.79)** < [1.80](https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk18on/1.80/)
-    - [bcutil-jdk18on](https://repo1.maven.org/maven2/org/bouncycastle/bcutil-jdk18on/) **[1.79](https://repo1.maven.org/maven2/org/bouncycastle/bcutil-jdk18on/1.79)** < [1.80](https://repo1.maven.org/maven2/org/bouncycastle/bcutil-jdk18on/1.80/)
-
 ## Major Updates
  - [jakarta.el](https://repo1.maven.org/maven2/jakarta/el/)
     - [jakarta.el-api](https://repo1.maven.org/maven2/jakarta/el/jakarta.el-api/) **[3.0.3](https://repo1.maven.org/maven2/jakarta/el/jakarta.el-api/3.0.3)** < [6.0.1](https://repo1.maven.org/maven2/jakarta/el/jakarta.el-api/6.0.1/)
@@ -18,9 +12,6 @@
  - [org.mortbay.jasper](https://repo1.maven.org/maven2/org/mortbay/jasper/)
     - [apache-el](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-el/) **[9.0.96](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-el/9.0.96)** < [11.0.0](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-el/11.0.0/)
     - [apache-jsp](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-jsp/) **[9.0.96](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-jsp/9.0.96)** < [11.0.0](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-jsp/11.0.0/)
-
-## Updates Applied
-[updated.target](updated.target)
 
 ## Content
  - [biz.aQute.bnd](https://repo1.maven.org/maven2/biz/aQute/bnd/)
@@ -93,9 +84,9 @@
     - [org.bndtools.versioncontrol.ignores.manager](https://repo1.maven.org/maven2/org/bndtools/org.bndtools.versioncontrol.ignores.manager/) **[7.1.0](https://repo1.maven.org/maven2/org/bndtools/org.bndtools.versioncontrol.ignores.manager/7.1.0)**
     - [org.bndtools.versioncontrol.ignores.plugin.git](https://repo1.maven.org/maven2/org/bndtools/org.bndtools.versioncontrol.ignores.plugin.git/) **[7.1.0](https://repo1.maven.org/maven2/org/bndtools/org.bndtools.versioncontrol.ignores.plugin.git/7.1.0)**
  - [org.bouncycastle](https://repo1.maven.org/maven2/org/bouncycastle/)
-    - [bcpg-jdk18on](https://repo1.maven.org/maven2/org/bouncycastle/bcpg-jdk18on/) **[1.79](https://repo1.maven.org/maven2/org/bouncycastle/bcpg-jdk18on/1.79)**
-    - [bcprov-jdk18on](https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk18on/) **[1.79](https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk18on/1.79)**
-    - [bcutil-jdk18on](https://repo1.maven.org/maven2/org/bouncycastle/bcutil-jdk18on/) **[1.79](https://repo1.maven.org/maven2/org/bouncycastle/bcutil-jdk18on/1.79)**
+    - [bcpg-jdk18on](https://repo1.maven.org/maven2/org/bouncycastle/bcpg-jdk18on/) **[1.80](https://repo1.maven.org/maven2/org/bouncycastle/bcpg-jdk18on/1.80)**
+    - [bcprov-jdk18on](https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk18on/) **[1.80](https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk18on/1.80)**
+    - [bcutil-jdk18on](https://repo1.maven.org/maven2/org/bouncycastle/bcutil-jdk18on/) **[1.80](https://repo1.maven.org/maven2/org/bouncycastle/bcutil-jdk18on/1.80)**
  - [org.eclipse.jetty](https://repo1.maven.org/maven2/org/eclipse/jetty/)
     - [jetty-http](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/) **[12.0.16](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/12.0.16)**
     - [jetty-io](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/) **[12.0.16](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/12.0.16)**

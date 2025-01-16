@@ -227,10 +227,10 @@ Export-Package:         *;version="${version}";-noimport:=true
     </location>
 
 
-<!-- _______________________________________________________ org.jruby _________________________________________________________________________________________________-->
+<!-- _______________________________________________________ org.jruby.joni _________________________________________________________________________________________________-->
 
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
-      <feature id="org.eclipse.orbit.maven.joni" label="Orbit Maven BND org.jruby.joni + org.jruby.jcodings" provider-name="Eclipse Orbit" version="4.35.0">
+      <feature id="org.eclipse.orbit.maven.org.jruby.joni" label="Orbit Maven BND org.jruby.joni" provider-name="Eclipse Orbit" version="4.35.0.v20250116-1030">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
 Copyright (c) 2025 Eclipse contributors and others.
@@ -251,20 +251,55 @@ SPDX-License-Identifier: EPL-2.0
           <version>2.2.1</version>
           <type>jar</type>
         </dependency>
-        <dependency>
-          <groupId>org.jruby.jcodings</groupId>
-          <artifactId>jcodings</artifactId>
-          <version>1.0.58</version>
-          <type>jar</type>
-        </dependency>
       </dependencies>
       <instructions>
-<!-- SHA1 fd9355103381897a0c9d0438a5682ef11e4ed0d5 -->
+<!-- SHA1 f2da722fad2745f383fdd9e63db92dbaeda75861 -->
 <![CDATA[
 Bundle-Name:            Bundle ${mvnGroupId} : ${mvnArtifactId}
 version:                ${versionmask;===;${version_cleanup;${mvnVersion}}}
 Bundle-SymbolicName:    org.${mvnArtifactId}
 Bundle-Version:         ${version}.v20230703-0749
+Eclipse-Wrapped-Bundle: ${mvnGroupId}:${mvnArtifactId}:${mvnVersion}
+Import-Package:         *
+Export-Package:         *;version="${version}";-noimport:=true
+-noextraheaders:        true
+-removeheaders:         Private-Package
+]]>
+      </instructions>
+    </location>
+
+<!-- _______________________________________________________ org.jruby.jcodings _________________________________________________________________________________________________-->
+
+    <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
+      <feature id="org.eclipse.orbit.maven.org.jruby.jcodings" label="Orbit Maven BND org.jruby.jcodings" provider-name="Eclipse Orbit" version="4.35.0.v20250116-1030">
+        <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
+        <copyright>
+Copyright (c) 2025 Eclipse contributors and others.
+
+This program and the accompanying materials
+are made available under the terms of the Eclipse Public License 2.0
+which accompanies this distribution, and is available at
+https://www.eclipse.org/legal/epl-2.0/
+
+SPDX-License-Identifier: EPL-2.0
+        </copyright>
+        <license url="https://www.eclipse.org/legal/epl-2.0/"/>
+      </feature>
+      <dependencies>
+        <dependency>
+          <groupId>org.jruby.jcodings</groupId>
+          <artifactId>jcodings</artifactId>
+          <version>1.0.59</version>
+          <type>jar</type>
+        </dependency>
+      </dependencies>
+      <instructions>
+<!-- SHA1 47ee88fe95b2b68819e9c63663f458462d440a16 -->
+<![CDATA[
+Bundle-Name:            Bundle ${mvnGroupId} : ${mvnArtifactId}
+version:                ${versionmask;===;${version_cleanup;${mvnVersion}}}
+Bundle-SymbolicName:    org.${mvnArtifactId}
+Bundle-Version:         ${version}.v20250116-1030
 Eclipse-Wrapped-Bundle: ${mvnGroupId}:${mvnArtifactId}:${mvnVersion}
 Import-Package:         *
 Export-Package:         *;version="${version}";-noimport:=true

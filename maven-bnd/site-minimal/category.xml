@@ -34,8 +34,6 @@
    <feature id="org.eclipse.orbit.maven.jdom2.source"/>
    <feature id="org.eclipse.orbit.maven.jnr"/>
    <feature id="org.eclipse.orbit.maven.jnr.source"/>
-   <feature id="org.eclipse.orbit.maven.joni"/>
-   <feature id="org.eclipse.orbit.maven.joni.source"/>
    <feature id="org.eclipse.orbit.maven.junit"/>
    <feature id="org.eclipse.orbit.maven.junit.source"/>
    <feature id="org.eclipse.orbit.maven.lucene"/>
@@ -86,6 +84,10 @@
    <feature id="org.eclipse.orbit.maven.org.dom4j.source"/>
    <feature id="org.eclipse.orbit.maven.org.jdom"/>
    <feature id="org.eclipse.orbit.maven.org.jdom.source"/>
+   <feature id="org.eclipse.orbit.maven.org.jruby.jcodings"/>
+   <feature id="org.eclipse.orbit.maven.org.jruby.jcodings.source"/>
+   <feature id="org.eclipse.orbit.maven.org.jruby.joni"/>
+   <feature id="org.eclipse.orbit.maven.org.jruby.joni.source"/>
    <feature id="org.eclipse.orbit.maven.org.pushingpixels.trident"/>
    <feature id="org.eclipse.orbit.maven.org.pushingpixels.trident.source"/>
    <feature id="org.eclipse.orbit.maven.xalan"/>
