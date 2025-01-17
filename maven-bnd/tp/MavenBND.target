@@ -2490,7 +2490,7 @@ Export-Package:         *;version="${version}";-noimport:=true
 <!-- _____________________________________________________ org.mozilla.rhino ___________________________________________________________________________________________________-->
 
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
-      <feature id="org.mozilla.rhino" label="Orbit Maven BND org.mozilla.rhino" provider-name="Eclipse Orbit" version="4.35.0">
+      <feature id="org.eclipse.orbit.maven.org.mozilla.rhino" label="Orbit Maven BND org.mozilla.rhino" provider-name="Eclipse Orbit" version="4.35.0">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
 Copyright (c) 2025 Eclipse contributors and others.
