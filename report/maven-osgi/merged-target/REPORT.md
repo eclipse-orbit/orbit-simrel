@@ -254,6 +254,8 @@
     - [httpcore-osgi](https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore-osgi/) **[4.4.16](https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore-osgi/4.4.16)**
  - [org.apache.logging.log4j](https://repo1.maven.org/maven2/org/apache/logging/log4j/)
     - [log4j-api](https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/) **[2.24.3](https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.24.3)**
+    - [log4j-core](https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-core/) **[2.24.3](https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-core/2.24.3)**
+    - [log4j-slf4j2-impl](https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-slf4j2-impl/) **[2.24.3](https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-slf4j2-impl/2.24.3)**
     - [log4j-to-slf4j](https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-to-slf4j/) **[2.24.3](https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-to-slf4j/2.24.3)**
  - [org.apache.sshd](https://repo1.maven.org/maven2/org/apache/sshd/)
     - [sshd-osgi](https://repo1.maven.org/maven2/org/apache/sshd/sshd-osgi/) **[2.14.0](https://repo1.maven.org/maven2/org/apache/sshd/sshd-osgi/2.14.0)**
