@@ -2,8 +2,10 @@
 
 ## Minor Updates
  - [net.bytebuddy](https://repo1.maven.org/maven2/net/bytebuddy/)
-    - [byte-buddy](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/) **[1.15.11](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.15.11)** < [1.16.0](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.16.0/)
-    - [byte-buddy-agent](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/) **[1.15.11](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.15.11)** < [1.16.0](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.16.0/)
+    - [byte-buddy](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/) **[1.15.11](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.15.11)** < [1.16.1](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.16.1/)
+    - [byte-buddy-agent](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/) **[1.15.11](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.15.11)** < [1.16.1](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.16.1/)
+ - [org.assertj](https://repo1.maven.org/maven2/org/assertj/)
+    - [assertj-core](https://repo1.maven.org/maven2/org/assertj/assertj-core/) **[3.27.2](https://repo1.maven.org/maven2/org/assertj/assertj-core/3.27.2)** < [3.27.3](https://repo1.maven.org/maven2/org/assertj/assertj-core/3.27.3/)
 
 ## Major Updates
  - [org.hamcrest](https://repo1.maven.org/maven2/org/hamcrest/)

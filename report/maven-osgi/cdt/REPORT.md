@@ -1,10 +1,17 @@
 # Target Platform: [cdt](https://raw.githubusercontent.com/eclipse-cdt/cdt/main/releng/org.eclipse.cdt.target/cdt.target)
 
+## Minor Updates
+ - [org.assertj](https://repo1.maven.org/maven2/org/assertj/)
+    - [assertj-core](https://repo1.maven.org/maven2/org/assertj/assertj-core/) **[3.27.2](https://repo1.maven.org/maven2/org/assertj/assertj-core/3.27.2)** < [3.27.3](https://repo1.maven.org/maven2/org/assertj/assertj-core/3.27.3/)
+
 ## Major Updates
  - [jakarta.activation](https://repo1.maven.org/maven2/jakarta/activation/)
     - [jakarta.activation-api](https://repo1.maven.org/maven2/jakarta/activation/jakarta.activation-api/) **[1.2.2](https://repo1.maven.org/maven2/jakarta/activation/jakarta.activation-api/1.2.2)** < [2.1.3](https://repo1.maven.org/maven2/jakarta/activation/jakarta.activation-api/2.1.3/)
  - [jakarta.xml.bind](https://repo1.maven.org/maven2/jakarta/xml/bind/)
     - [jakarta.xml.bind-api](https://repo1.maven.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/) **[2.3.3](https://repo1.maven.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3)** < [4.0.2](https://repo1.maven.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/4.0.2/)
+
+## Updates Applied
+[updated.target](updated.target)
 
 ## Content
  - [com.google.code.gson](https://repo1.maven.org/maven2/com/google/code/gson/)
