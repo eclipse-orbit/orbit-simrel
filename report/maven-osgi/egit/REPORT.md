@@ -1,11 +1,8 @@
 # Target Platform: [egit](https://raw.githubusercontent.com/eclipse-egit/egit/master/org.eclipse.egit.target/maven/dependencies.tpd)
 
 ## Minor Updates
- - [net.bytebuddy](https://repo1.maven.org/maven2/net/bytebuddy/)
-    - [byte-buddy](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/) **[1.15.11](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.15.11)** < [1.16.1](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.16.1/)
-    - [byte-buddy-agent](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/) **[1.15.11](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.15.11)** < [1.16.1](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.16.1/)
- - [org.assertj](https://repo1.maven.org/maven2/org/assertj/)
-    - [assertj-core](https://repo1.maven.org/maven2/org/assertj/assertj-core/) **[3.27.2](https://repo1.maven.org/maven2/org/assertj/assertj-core/3.27.2)** < [3.27.3](https://repo1.maven.org/maven2/org/assertj/assertj-core/3.27.3/)
+ - [commons-codec](https://repo1.maven.org/maven2/commons-codec/)
+    - [commons-codec](https://repo1.maven.org/maven2/commons-codec/commons-codec/) **[1.17.2](https://repo1.maven.org/maven2/commons-codec/commons-codec/1.17.2)** < [1.18.0](https://repo1.maven.org/maven2/commons-codec/commons-codec/1.18.0/)
 
 ## Major Updates
  - [org.slf4j](https://repo1.maven.org/maven2/org/slf4j/)
@@ -31,8 +28,8 @@
  - [jakarta.servlet](https://repo1.maven.org/maven2/jakarta/servlet/)
     - [jakarta.servlet-api](https://repo1.maven.org/maven2/jakarta/servlet/jakarta.servlet-api/) **[6.1.0](https://repo1.maven.org/maven2/jakarta/servlet/jakarta.servlet-api/6.1.0)**
  - [net.bytebuddy](https://repo1.maven.org/maven2/net/bytebuddy/)
-    - [byte-buddy](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/) **[1.15.11](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.15.11)**
-    - [byte-buddy-agent](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/) **[1.15.11](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.15.11)**
+    - [byte-buddy](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/) **[1.16.1](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.16.1)**
+    - [byte-buddy-agent](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/) **[1.16.1](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.16.1)**
  - [net.java.dev.jna](https://repo1.maven.org/maven2/net/java/dev/jna/)
     - [jna](https://repo1.maven.org/maven2/net/java/dev/jna/jna/) **[5.16.0](https://repo1.maven.org/maven2/net/java/dev/jna/jna/5.16.0)**
     - [jna-platform](https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/) **[5.16.0](https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/5.16.0)**
@@ -43,7 +40,7 @@
     - [sshd-osgi](https://repo1.maven.org/maven2/org/apache/sshd/sshd-osgi/) **[2.14.0](https://repo1.maven.org/maven2/org/apache/sshd/sshd-osgi/2.14.0)**
     - [sshd-sftp](https://repo1.maven.org/maven2/org/apache/sshd/sshd-sftp/) **[2.14.0](https://repo1.maven.org/maven2/org/apache/sshd/sshd-sftp/2.14.0)**
  - [org.assertj](https://repo1.maven.org/maven2/org/assertj/)
-    - [assertj-core](https://repo1.maven.org/maven2/org/assertj/assertj-core/) **[3.27.2](https://repo1.maven.org/maven2/org/assertj/assertj-core/3.27.2)**
+    - [assertj-core](https://repo1.maven.org/maven2/org/assertj/assertj-core/) **[3.27.3](https://repo1.maven.org/maven2/org/assertj/assertj-core/3.27.3)**
  - [org.bouncycastle](https://repo1.maven.org/maven2/org/bouncycastle/)
     - [bcpg-jdk18on](https://repo1.maven.org/maven2/org/bouncycastle/bcpg-jdk18on/) **[1.80](https://repo1.maven.org/maven2/org/bouncycastle/bcpg-jdk18on/1.80)**
     - [bcpkix-jdk18on](https://repo1.maven.org/maven2/org/bouncycastle/bcpkix-jdk18on/) **[1.80](https://repo1.maven.org/maven2/org/bouncycastle/bcpkix-jdk18on/1.80)**
