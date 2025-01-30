@@ -1,10 +1,11 @@
 # Target Platform: [jgit](https://raw.githubusercontent.com/eclipse-jgit/jgit/master/org.eclipse.jgit.packaging/org.eclipse.jgit.target/maven/dependencies.tpd)
 
 ## Minor Updates
- - [com.google.code.gson](https://repo1.maven.org/maven2/com/google/code/gson/)
-    - [gson](https://repo1.maven.org/maven2/com/google/code/gson/gson/) **[2.11.0](https://repo1.maven.org/maven2/com/google/code/gson/gson/2.11.0)** < [2.12.0](https://repo1.maven.org/maven2/com/google/code/gson/gson/2.12.0/)
  - [commons-codec](https://repo1.maven.org/maven2/commons-codec/)
     - [commons-codec](https://repo1.maven.org/maven2/commons-codec/commons-codec/) **[1.17.2](https://repo1.maven.org/maven2/commons-codec/commons-codec/1.17.2)** < [1.18.0](https://repo1.maven.org/maven2/commons-codec/commons-codec/1.18.0/)
+ - [net.bytebuddy](https://repo1.maven.org/maven2/net/bytebuddy/)
+    - [byte-buddy](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/) **[1.16.1](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.16.1)** < [1.17.0](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.17.0/)
+    - [byte-buddy-agent](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/) **[1.16.1](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.16.1)** < [1.17.0](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.17.0/)
 
 ## Major Updates
  - [org.hamcrest](https://repo1.maven.org/maven2/org/hamcrest/)

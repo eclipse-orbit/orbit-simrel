@@ -1,8 +1,6 @@
 # Target Platform: [cdt-lsp](https://raw.githubusercontent.com/eclipse-cdt/cdt-lsp/master/releng/org.eclipse.cdt.lsp.target/org.eclipse.cdt.lsp.target.target)
 
 ## Minor Updates
- - [com.google.code.gson](https://repo1.maven.org/maven2/com/google/code/gson/)
-    - [gson](https://repo1.maven.org/maven2/com/google/code/gson/gson/) **[2.11.0](https://repo1.maven.org/maven2/com/google/code/gson/gson/2.11.0)** < [2.12.0](https://repo1.maven.org/maven2/com/google/code/gson/gson/2.12.0/)
  - [com.google.guava](https://repo1.maven.org/maven2/com/google/guava/)
     - [guava](https://repo1.maven.org/maven2/com/google/guava/guava/) **[33.3.0-jre](https://repo1.maven.org/maven2/com/google/guava/guava/33.3.0-jre)** < [33.4.0-jre](https://repo1.maven.org/maven2/com/google/guava/guava/33.4.0-jre/)
  - [commons-io](https://repo1.maven.org/maven2/commons-io/)
