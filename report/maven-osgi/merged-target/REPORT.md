@@ -26,7 +26,7 @@
  - [org.apache.felix](https://repo1.maven.org/maven2/org/apache/felix/)
     - [org.apache.felix.http.servlet-api](https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.http.servlet-api/) **[1.2.0](https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.http.servlet-api/1.2.0)** < [3.0.0](https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.http.servlet-api/3.0.0/)
  - [org.apache.tika](https://repo1.maven.org/maven2/org/apache/tika/)
-    - [tika-core](https://repo1.maven.org/maven2/org/apache/tika/tika-core/) **[2.9.2](https://repo1.maven.org/maven2/org/apache/tika/tika-core/2.9.2)** < [3.0.0](https://repo1.maven.org/maven2/org/apache/tika/tika-core/3.0.0/)
+    - [tika-core](https://repo1.maven.org/maven2/org/apache/tika/tika-core/) **[2.9.2](https://repo1.maven.org/maven2/org/apache/tika/tika-core/2.9.2)** < [3.1.0](https://repo1.maven.org/maven2/org/apache/tika/tika-core/3.1.0/)
  - [org.glassfish](https://repo1.maven.org/maven2/org/glassfish/)
     - [jakarta.el](https://repo1.maven.org/maven2/org/glassfish/jakarta.el/) **[3.0.4](https://repo1.maven.org/maven2/org/glassfish/jakarta.el/3.0.4)** < [4.0.2](https://repo1.maven.org/maven2/org/glassfish/jakarta.el/4.0.2/)
  - [org.glassfish.hk2](https://repo1.maven.org/maven2/org/glassfish/hk2/)
