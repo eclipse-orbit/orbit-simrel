@@ -1,6 +1,8 @@
 # Target Platform: [egit](https://raw.githubusercontent.com/eclipse-egit/egit/master/org.eclipse.egit.target/maven/dependencies.tpd)
 
 ## Minor Updates
+ - [com.google.code.gson](https://repo1.maven.org/maven2/com/google/code/gson/)
+    - [gson](https://repo1.maven.org/maven2/com/google/code/gson/gson/) **[2.11.0](https://repo1.maven.org/maven2/com/google/code/gson/gson/2.11.0)** < [2.12.1](https://repo1.maven.org/maven2/com/google/code/gson/gson/2.12.1/)
  - [commons-codec](https://repo1.maven.org/maven2/commons-codec/)
     - [commons-codec](https://repo1.maven.org/maven2/commons-codec/commons-codec/) **[1.17.2](https://repo1.maven.org/maven2/commons-codec/commons-codec/1.17.2)** < [1.18.0](https://repo1.maven.org/maven2/commons-codec/commons-codec/1.18.0/)
  - [net.bytebuddy](https://repo1.maven.org/maven2/net/bytebuddy/)

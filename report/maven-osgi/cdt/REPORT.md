@@ -1,6 +1,8 @@
 # Target Platform: [cdt](https://raw.githubusercontent.com/eclipse-cdt/cdt/main/releng/org.eclipse.cdt.target/cdt.target)
 
 ## Minor Updates
+ - [com.google.code.gson](https://repo1.maven.org/maven2/com/google/code/gson/)
+    - [gson](https://repo1.maven.org/maven2/com/google/code/gson/gson/) **[2.11.0](https://repo1.maven.org/maven2/com/google/code/gson/gson/2.11.0)** < [2.12.1](https://repo1.maven.org/maven2/com/google/code/gson/gson/2.12.1/)
  - [org.assertj](https://repo1.maven.org/maven2/org/assertj/)
     - [assertj-core](https://repo1.maven.org/maven2/org/assertj/assertj-core/) **[3.27.2](https://repo1.maven.org/maven2/org/assertj/assertj-core/3.27.2)** < [3.27.3](https://repo1.maven.org/maven2/org/assertj/assertj-core/3.27.3/)
 

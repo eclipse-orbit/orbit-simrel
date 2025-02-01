@@ -1,10 +1,5 @@
 # Target Platform: [platform](https://raw.githubusercontent.com/eclipse-platform/eclipse.platform.releng.aggregator/master/eclipse.platform.releng.prereqs.sdk/eclipse-sdk-prereqs.target)
 
-## Minor Updates
- - [net.bytebuddy](https://repo1.maven.org/maven2/net/bytebuddy/)
-    - [byte-buddy](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/) **[1.16.1](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.16.1)** < [1.17.0](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.17.0/)
-    - [byte-buddy-agent](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/) **[1.16.1](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.16.1)** < [1.17.0](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.17.0/)
-
 ## Major Updates
  - [jakarta.el](https://repo1.maven.org/maven2/jakarta/el/)
     - [jakarta.el-api](https://repo1.maven.org/maven2/jakarta/el/jakarta.el-api/) **[3.0.3](https://repo1.maven.org/maven2/jakarta/el/jakarta.el-api/3.0.3)** < [6.0.1](https://repo1.maven.org/maven2/jakarta/el/jakarta.el-api/6.0.1/)
@@ -18,9 +13,6 @@
     - [apache-el](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-el/) **[9.0.96](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-el/9.0.96)** < [11.0.0](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-el/11.0.0/)
     - [apache-jsp](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-jsp/) **[9.0.96](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-jsp/9.0.96)** < [11.0.0](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-jsp/11.0.0/)
 
-## Updates Applied
-[updated.target](updated.target)
-
 ## Content
  - [biz.aQute.bnd](https://repo1.maven.org/maven2/biz/aQute/bnd/)
     - [biz.aQute.bnd.annotation](https://repo1.maven.org/maven2/biz/aQute/bnd/biz.aQute.bnd.annotation/) **[7.1.0](https://repo1.maven.org/maven2/biz/aQute/bnd/biz.aQute.bnd.annotation/7.1.0)**
@@ -30,7 +22,7 @@
     - [biz.aQute.repository](https://repo1.maven.org/maven2/biz/aQute/bnd/biz.aQute.repository/) **[7.1.0](https://repo1.maven.org/maven2/biz/aQute/bnd/biz.aQute.repository/7.1.0)**
     - [biz.aQute.resolve](https://repo1.maven.org/maven2/biz/aQute/bnd/biz.aQute.resolve/) **[7.1.0](https://repo1.maven.org/maven2/biz/aQute/bnd/biz.aQute.resolve/7.1.0)**
  - [com.google.code.gson](https://repo1.maven.org/maven2/com/google/code/gson/)
-    - [gson](https://repo1.maven.org/maven2/com/google/code/gson/gson/) **[2.11.0](https://repo1.maven.org/maven2/com/google/code/gson/gson/2.11.0)**
+    - [gson](https://repo1.maven.org/maven2/com/google/code/gson/gson/) **[2.12.1](https://repo1.maven.org/maven2/com/google/code/gson/gson/2.12.1)**
  - [com.ibm.icu](https://repo1.maven.org/maven2/com/ibm/icu/)
     - [icu4j](https://repo1.maven.org/maven2/com/ibm/icu/icu4j/) **[76.1](https://repo1.maven.org/maven2/com/ibm/icu/icu4j/76.1)**
  - [commons-beanutils](https://repo1.maven.org/maven2/commons-beanutils/)
@@ -65,8 +57,8 @@
  - [javax.servlet.jsp](https://repo1.maven.org/maven2/javax/servlet/jsp/)
     - [javax.servlet.jsp-api](https://repo1.maven.org/maven2/javax/servlet/jsp/javax.servlet.jsp-api/) **[2.3.3](https://repo1.maven.org/maven2/javax/servlet/jsp/javax.servlet.jsp-api/2.3.3)**
  - [net.bytebuddy](https://repo1.maven.org/maven2/net/bytebuddy/)
-    - [byte-buddy](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/) **[1.16.1](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.16.1)**
-    - [byte-buddy-agent](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/) **[1.16.1](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.16.1)**
+    - [byte-buddy](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/) **[1.17.0](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.17.0)**
+    - [byte-buddy-agent](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/) **[1.17.0](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.17.0)**
  - [net.java.dev.jna](https://repo1.maven.org/maven2/net/java/dev/jna/)
     - [jna-platform](https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/) **[5.16.0](https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/5.16.0)**
  - [org.apache.aries.spifly](https://repo1.maven.org/maven2/org/apache/aries/spifly/)
