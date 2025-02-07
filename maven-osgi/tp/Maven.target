@@ -3,7 +3,7 @@
 <target name="Maven" sequenceNumber="1">
   <locations>
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="error" type="Maven">
-      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.35.0.v20250131-1000">
+      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.35.0.v20250207-0700">
         <description>This feature's dependencies are pulled directly from Maven central.</description>
         <copyright>
 Copyright (c) 2025 Eclipse contributors and others.
@@ -16,7 +16,7 @@ https://www.eclipse.org/legal/epl-2.0/
 SPDX-License-Identifier: EPL-2.0
         </copyright>
         <license url="https://www.eclipse.org/legal/epl-2.0/"/>
-        <!-- SHA1 14ad4512e710838ed7d8329214b249630bd3095e -->
+        <!-- SHA1 8166badd9c40c2212ba983784aca00fcf7648b35 -->
       </feature>
       <dependencies>
         <dependency>
@@ -228,6 +228,12 @@ SPDX-License-Identifier: EPL-2.0
           <groupId>com.github.oshi</groupId>
           <artifactId>oshi-core</artifactId>
           <version>6.6.6</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>com.github.weisj</groupId>
+          <artifactId>jsvg</artifactId>
+          <version>1.7.0</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -875,7 +881,7 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>org.apache.tika</groupId>
           <artifactId>tika-core</artifactId>
-          <version>2.9.2</version>
+          <version>2.9.3</version>
           <type>jar</type>
         </dependency>
         <dependency>
