@@ -5,6 +5,8 @@
     - [gson](https://repo1.maven.org/maven2/com/google/code/gson/gson/) **[2.11.0](https://repo1.maven.org/maven2/com/google/code/gson/gson/2.11.0)** < [2.12.1](https://repo1.maven.org/maven2/com/google/code/gson/gson/2.12.1/)
  - [commons-codec](https://repo1.maven.org/maven2/commons-codec/)
     - [commons-codec](https://repo1.maven.org/maven2/commons-codec/commons-codec/) **[1.17.2](https://repo1.maven.org/maven2/commons-codec/commons-codec/1.17.2)** < [1.18.0](https://repo1.maven.org/maven2/commons-codec/commons-codec/1.18.0/)
+ - [commons-logging](https://repo1.maven.org/maven2/commons-logging/)
+    - [commons-logging](https://repo1.maven.org/maven2/commons-logging/commons-logging/) **[1.3.4](https://repo1.maven.org/maven2/commons-logging/commons-logging/1.3.4)** < [1.3.5](https://repo1.maven.org/maven2/commons-logging/commons-logging/1.3.5/)
  - [net.bytebuddy](https://repo1.maven.org/maven2/net/bytebuddy/)
     - [byte-buddy](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/) **[1.16.1](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.16.1)** < [1.17.0](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.17.0/)
     - [byte-buddy-agent](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/) **[1.16.1](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.16.1)** < [1.17.0](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.17.0/)
