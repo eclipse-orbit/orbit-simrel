@@ -63,7 +63,7 @@ org.bouncycastle:.*:1.78  // Broken https://github.com/bcgit/bc-java/issues/1621
 org.apache.sshd:.*:2\.13\.0
 org\.slf4j:slf4j-.*:2\.0\.14 // Broken exported package versions
 org.mozilla:rhino:1\.8\.0 // This version is not an OSGI bundle https://github.com/mozilla/rhino/discussions/1788
-com.google.code.gson:gson:2\.12\.0 // This version as strange new annotations dependencies.
+com.ethlo.time:itu:1\.11\.0 // Not an OSGi bundle
 
 -keep
 commons-logging:commons-logging:1.2

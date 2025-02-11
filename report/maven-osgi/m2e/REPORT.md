@@ -41,3 +41,5 @@
     - [archetype-descriptor](https://repo1.maven.org/maven2/org/apache/maven/archetype/archetype-descriptor/) **[3.2.1](https://repo1.maven.org/maven2/org/apache/maven/archetype/archetype-descriptor/3.2.1)**
  - [org.apache.maven.shared](https://repo1.maven.org/maven2/org/apache/maven/shared/)
     - [maven-artifact-transfer](https://repo1.maven.org/maven2/org/apache/maven/shared/maven-artifact-transfer/) **[0.13.1](https://repo1.maven.org/maven2/org/apache/maven/shared/maven-artifact-transfer/0.13.1)**
+ - [org.eclipse.lemminx](https://repo.eclipse.org/content/repositories/lemminx-releases/org/eclipse/lemminx/)
+    - [org.eclipse.lemminx](https://repo.eclipse.org/content/repositories/lemminx-releases/org/eclipse/lemminx/org.eclipse.lemminx/) **[0.29.0](https://repo.eclipse.org/content/repositories/lemminx-releases/org/eclipse/lemminx/org.eclipse.lemminx/0.29.0)** - *uber*
