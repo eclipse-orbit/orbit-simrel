@@ -100,8 +100,14 @@
     - [jaxb-core](https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-core/) **[4.0.5](https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-core/4.0.5)**
     - [jaxb-impl](https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-impl/) **[4.0.5](https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-impl/4.0.5)**
     - [jaxb-osgi](https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-osgi/) **[2.3.9](https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-osgi/2.3.9)**
+ - [commons-beanutils](https://repo1.maven.org/maven2/commons-beanutils/)
+    - [commons-beanutils](https://repo1.maven.org/maven2/commons-beanutils/commons-beanutils/) **[1.10.0](https://repo1.maven.org/maven2/commons-beanutils/commons-beanutils/1.10.0)**
+ - [commons-collections](https://repo1.maven.org/maven2/commons-collections/)
+    - [commons-collections](https://repo1.maven.org/maven2/commons-collections/commons-collections/) **[3.2.2](https://repo1.maven.org/maven2/commons-collections/commons-collections/3.2.2)**
  - [commons-discovery](https://repo1.maven.org/maven2/commons-discovery/)
     - [commons-discovery](https://repo1.maven.org/maven2/commons-discovery/commons-discovery/) **[0.5](https://repo1.maven.org/maven2/commons-discovery/commons-discovery/0.5)**
+ - [commons-jxpath](https://repo1.maven.org/maven2/commons-jxpath/)
+    - [commons-jxpath](https://repo1.maven.org/maven2/commons-jxpath/commons-jxpath/) **[1.3](https://repo1.maven.org/maven2/commons-jxpath/commons-jxpath/1.3)**
  - [commons-logging](https://repo1.maven.org/maven2/commons-logging/)
     - [commons-logging](https://repo1.maven.org/maven2/commons-logging/commons-logging/) **[1.2](https://repo1.maven.org/maven2/commons-logging/commons-logging/1.2)**
     - [commons-logging](https://repo1.maven.org/maven2/commons-logging/commons-logging/) **[1.3.5](https://repo1.maven.org/maven2/commons-logging/commons-logging/1.3.5)**
