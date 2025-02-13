@@ -3,7 +3,7 @@
 <target name="Maven" sequenceNumber="1">
   <locations>
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="error" type="Maven">
-      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.35.0.v20250208-0800">
+      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.35.0.v20250213-1500">
         <description>This feature's dependencies are pulled directly from Maven central.</description>
         <copyright>
 Copyright (c) 2025 Eclipse contributors and others.
@@ -16,7 +16,7 @@ https://www.eclipse.org/legal/epl-2.0/
 SPDX-License-Identifier: EPL-2.0
         </copyright>
         <license url="https://www.eclipse.org/legal/epl-2.0/"/>
-        <!-- SHA1 ef8621f54be287951c000bbfc7b4e33a9e58ed4f -->
+        <!-- SHA1 3d807df42be895bce542606b5afc20e9ddfc711c -->
       </feature>
       <dependencies>
         <dependency>
@@ -82,7 +82,7 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>com.ethlo.time</groupId>
           <artifactId>itu</artifactId>
-          <version>1.10.3</version>
+          <version>1.12.0</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -347,7 +347,7 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>commons-beanutils</groupId>
           <artifactId>commons-beanutils</artifactId>
-          <version>1.10.0</version>
+          <version>1.10.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
