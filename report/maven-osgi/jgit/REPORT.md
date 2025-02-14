@@ -8,8 +8,8 @@
  - [commons-logging](https://repo1.maven.org/maven2/commons-logging/)
     - [commons-logging](https://repo1.maven.org/maven2/commons-logging/commons-logging/) **[1.3.4](https://repo1.maven.org/maven2/commons-logging/commons-logging/1.3.4)** < [1.3.5](https://repo1.maven.org/maven2/commons-logging/commons-logging/1.3.5/)
  - [net.bytebuddy](https://repo1.maven.org/maven2/net/bytebuddy/)
-    - [byte-buddy](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/) **[1.16.1](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.16.1)** < [1.17.0](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.17.0/)
-    - [byte-buddy-agent](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/) **[1.16.1](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.16.1)** < [1.17.0](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.17.0/)
+    - [byte-buddy](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/) **[1.16.1](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.16.1)** < [1.17.1](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.17.1/)
+    - [byte-buddy-agent](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/) **[1.16.1](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.16.1)** < [1.17.1](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.17.1/)
 
 ## Major Updates
  - [org.hamcrest](https://repo1.maven.org/maven2/org/hamcrest/)
