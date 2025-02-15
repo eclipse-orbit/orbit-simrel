@@ -26,7 +26,7 @@
     - [asm-tree](https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/) **[9.7](https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/9.7)** < [9.7.1](https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/9.7.1/)
     - [asm-util](https://repo1.maven.org/maven2/org/ow2/asm/asm-util/) **[9.7](https://repo1.maven.org/maven2/org/ow2/asm/asm-util/9.7)** < [9.7.1](https://repo1.maven.org/maven2/org/ow2/asm/asm-util/9.7.1/)
  - [org.yaml](https://repo1.maven.org/maven2/org/yaml/)
-    - [snakeyaml](https://repo1.maven.org/maven2/org/yaml/snakeyaml/) **[2.2](https://repo1.maven.org/maven2/org/yaml/snakeyaml/2.2)** < [2.3](https://repo1.maven.org/maven2/org/yaml/snakeyaml/2.3/)
+    - [snakeyaml](https://repo1.maven.org/maven2/org/yaml/snakeyaml/) **[2.2](https://repo1.maven.org/maven2/org/yaml/snakeyaml/2.2)** < [2.4](https://repo1.maven.org/maven2/org/yaml/snakeyaml/2.4/)
 
 ## Major Updates
  - [jakarta.activation](https://repo1.maven.org/maven2/jakarta/activation/)

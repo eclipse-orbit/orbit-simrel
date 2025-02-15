@@ -5,6 +5,8 @@
     - [gson](https://repo1.maven.org/maven2/com/google/code/gson/gson/) **[2.11.0](https://repo1.maven.org/maven2/com/google/code/gson/gson/2.11.0)** < [2.12.1](https://repo1.maven.org/maven2/com/google/code/gson/gson/2.12.1/)
  - [org.assertj](https://repo1.maven.org/maven2/org/assertj/)
     - [assertj-core](https://repo1.maven.org/maven2/org/assertj/assertj-core/) **[3.27.2](https://repo1.maven.org/maven2/org/assertj/assertj-core/3.27.2)** < [3.27.3](https://repo1.maven.org/maven2/org/assertj/assertj-core/3.27.3/)
+ - [org.yaml](https://repo1.maven.org/maven2/org/yaml/)
+    - [snakeyaml](https://repo1.maven.org/maven2/org/yaml/snakeyaml/) **[2.3](https://repo1.maven.org/maven2/org/yaml/snakeyaml/2.3)** < [2.4](https://repo1.maven.org/maven2/org/yaml/snakeyaml/2.4/)
 
 ## Major Updates
  - [jakarta.activation](https://repo1.maven.org/maven2/jakarta/activation/)
