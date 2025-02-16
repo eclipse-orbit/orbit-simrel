@@ -744,6 +744,12 @@
         </dependency>
         <dependency>
           <groupId>org.osgi</groupId>
+          <artifactId>org.osgi.namespace.implementation</artifactId>
+          <version>1.0.0</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>org.osgi</groupId>
           <artifactId>org.osgi.resource</artifactId>
           <version>1.0.1</version>
           <type>jar</type>
@@ -786,8 +792,56 @@
         </dependency>
         <dependency>
           <groupId>org.osgi</groupId>
+          <artifactId>org.osgi.test.assertj.framework</artifactId>
+          <version>1.3.0</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>org.osgi</groupId>
+          <artifactId>org.osgi.test.assertj.log</artifactId>
+          <version>1.3.0</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>org.osgi</groupId>
+          <artifactId>org.osgi.test.assertj.promise</artifactId>
+          <version>1.3.0</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>org.osgi</groupId>
+          <artifactId>org.osgi.test.common</artifactId>
+          <version>1.3.0</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>org.osgi</groupId>
+          <artifactId>org.osgi.test.junit4</artifactId>
+          <version>1.3.0</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>org.osgi</groupId>
+          <artifactId>org.osgi.test.junit5</artifactId>
+          <version>1.3.0</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>org.osgi</groupId>
+          <artifactId>org.osgi.test.junit5.cm</artifactId>
+          <version>1.3.0</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>org.osgi</groupId>
           <artifactId>org.osgi.util.tracker</artifactId>
           <version>1.5.4</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>org.osgi</groupId>
+          <artifactId>osgi.annotation</artifactId>
+          <version>8.1.0</version>
           <type>jar</type>
         </dependency>
         <dependency>

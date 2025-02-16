@@ -383,6 +383,7 @@
     - [org.osgi.framework](https://repo1.maven.org/maven2/org/osgi/org.osgi.framework/) **[1.10.0](https://repo1.maven.org/maven2/org/osgi/org.osgi.framework/1.10.0)**
     - [org.osgi.namespace.contract](https://repo1.maven.org/maven2/org/osgi/org.osgi.namespace.contract/) **[1.0.0](https://repo1.maven.org/maven2/org/osgi/org.osgi.namespace.contract/1.0.0)**
     - [org.osgi.namespace.extender](https://repo1.maven.org/maven2/org/osgi/org.osgi.namespace.extender/) **[1.0.1](https://repo1.maven.org/maven2/org/osgi/org.osgi.namespace.extender/1.0.1)**
+    - [org.osgi.namespace.implementation](https://repo1.maven.org/maven2/org/osgi/org.osgi.namespace.implementation/) **[1.0.0](https://repo1.maven.org/maven2/org/osgi/org.osgi.namespace.implementation/1.0.0)**
     - [org.osgi.namespace.service](https://repo1.maven.org/maven2/org/osgi/org.osgi.namespace.service/) **[1.0.0](https://repo1.maven.org/maven2/org/osgi/org.osgi.namespace.service/1.0.0)**
     - [org.osgi.resource](https://repo1.maven.org/maven2/org/osgi/org.osgi.resource/) **[1.0.1](https://repo1.maven.org/maven2/org/osgi/org.osgi.resource/1.0.1)**
     - [org.osgi.service.cm](https://repo1.maven.org/maven2/org/osgi/org.osgi.service.cm/) **[1.6.1](https://repo1.maven.org/maven2/org/osgi/org.osgi.service.cm/1.6.1)**
@@ -407,6 +408,13 @@
     - [org.osgi.service.url](https://repo1.maven.org/maven2/org/osgi/org.osgi.service.url/) **[1.0.1](https://repo1.maven.org/maven2/org/osgi/org.osgi.service.url/1.0.1)**
     - [org.osgi.service.useradmin](https://repo1.maven.org/maven2/org/osgi/org.osgi.service.useradmin/) **[1.1.1](https://repo1.maven.org/maven2/org/osgi/org.osgi.service.useradmin/1.1.1)**
     - [org.osgi.service.wireadmin](https://repo1.maven.org/maven2/org/osgi/org.osgi.service.wireadmin/) **[1.0.2](https://repo1.maven.org/maven2/org/osgi/org.osgi.service.wireadmin/1.0.2)**
+    - [org.osgi.test.assertj.framework](https://repo1.maven.org/maven2/org/osgi/org.osgi.test.assertj.framework/) **[1.3.0](https://repo1.maven.org/maven2/org/osgi/org.osgi.test.assertj.framework/1.3.0)**
+    - [org.osgi.test.assertj.log](https://repo1.maven.org/maven2/org/osgi/org.osgi.test.assertj.log/) **[1.3.0](https://repo1.maven.org/maven2/org/osgi/org.osgi.test.assertj.log/1.3.0)**
+    - [org.osgi.test.assertj.promise](https://repo1.maven.org/maven2/org/osgi/org.osgi.test.assertj.promise/) **[1.3.0](https://repo1.maven.org/maven2/org/osgi/org.osgi.test.assertj.promise/1.3.0)**
+    - [org.osgi.test.common](https://repo1.maven.org/maven2/org/osgi/org.osgi.test.common/) **[1.3.0](https://repo1.maven.org/maven2/org/osgi/org.osgi.test.common/1.3.0)**
+    - [org.osgi.test.junit4](https://repo1.maven.org/maven2/org/osgi/org.osgi.test.junit4/) **[1.3.0](https://repo1.maven.org/maven2/org/osgi/org.osgi.test.junit4/1.3.0)**
+    - [org.osgi.test.junit5](https://repo1.maven.org/maven2/org/osgi/org.osgi.test.junit5/) **[1.3.0](https://repo1.maven.org/maven2/org/osgi/org.osgi.test.junit5/1.3.0)**
+    - [org.osgi.test.junit5.cm](https://repo1.maven.org/maven2/org/osgi/org.osgi.test.junit5.cm/) **[1.3.0](https://repo1.maven.org/maven2/org/osgi/org.osgi.test.junit5.cm/1.3.0)**
     - [org.osgi.util.function](https://repo1.maven.org/maven2/org/osgi/org.osgi.util.function/) **[1.2.0](https://repo1.maven.org/maven2/org/osgi/org.osgi.util.function/1.2.0)**
     - [org.osgi.util.measurement](https://repo1.maven.org/maven2/org/osgi/org.osgi.util.measurement/) **[1.0.2](https://repo1.maven.org/maven2/org/osgi/org.osgi.util.measurement/1.0.2)**
     - [org.osgi.util.position](https://repo1.maven.org/maven2/org/osgi/org.osgi.util.position/) **[1.0.1](https://repo1.maven.org/maven2/org/osgi/org.osgi.util.position/1.0.1)**
@@ -414,6 +422,7 @@
     - [org.osgi.util.pushstream](https://repo1.maven.org/maven2/org/osgi/org.osgi.util.pushstream/) **[1.1.0](https://repo1.maven.org/maven2/org/osgi/org.osgi.util.pushstream/1.1.0)**
     - [org.osgi.util.tracker](https://repo1.maven.org/maven2/org/osgi/org.osgi.util.tracker/) **[1.5.4](https://repo1.maven.org/maven2/org/osgi/org.osgi.util.tracker/1.5.4)**
     - [org.osgi.util.xml](https://repo1.maven.org/maven2/org/osgi/org.osgi.util.xml/) **[1.0.2](https://repo1.maven.org/maven2/org/osgi/org.osgi.util.xml/1.0.2)**
+    - [osgi.annotation](https://repo1.maven.org/maven2/org/osgi/osgi.annotation/) **[8.1.0](https://repo1.maven.org/maven2/org/osgi/osgi.annotation/8.1.0)**
  - [org.ow2.asm](https://repo1.maven.org/maven2/org/ow2/asm/)
     - [asm](https://repo1.maven.org/maven2/org/ow2/asm/asm/) **[9.7.1](https://repo1.maven.org/maven2/org/ow2/asm/asm/9.7.1)**
     - [asm-analysis](https://repo1.maven.org/maven2/org/ow2/asm/asm-analysis/) **[9.7.1](https://repo1.maven.org/maven2/org/ow2/asm/asm-analysis/9.7.1)**

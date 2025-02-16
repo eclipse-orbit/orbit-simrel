@@ -252,6 +252,7 @@
  - [org.osgi](https://repo1.maven.org/maven2/org/osgi/)
     - [org.osgi.dto](https://repo1.maven.org/maven2/org/osgi/org.osgi.dto/) **[1.1.1](https://repo1.maven.org/maven2/org/osgi/org.osgi.dto/1.1.1)**
     - [org.osgi.framework](https://repo1.maven.org/maven2/org/osgi/org.osgi.framework/) **[1.10.0](https://repo1.maven.org/maven2/org/osgi/org.osgi.framework/1.10.0)**
+    - [org.osgi.namespace.implementation](https://repo1.maven.org/maven2/org/osgi/org.osgi.namespace.implementation/) **[1.0.0](https://repo1.maven.org/maven2/org/osgi/org.osgi.namespace.implementation/1.0.0)**
     - [org.osgi.resource](https://repo1.maven.org/maven2/org/osgi/org.osgi.resource/) **[1.0.1](https://repo1.maven.org/maven2/org/osgi/org.osgi.resource/1.0.1)**
     - [org.osgi.service.http](https://repo1.maven.org/maven2/org/osgi/org.osgi.service.http/) **[1.2.2](https://repo1.maven.org/maven2/org/osgi/org.osgi.service.http/1.2.2)**
     - [org.osgi.service.log](https://repo1.maven.org/maven2/org/osgi/org.osgi.service.log/) **[1.5.0](https://repo1.maven.org/maven2/org/osgi/org.osgi.service.log/1.5.0)**
@@ -259,7 +260,15 @@
     - [org.osgi.service.resolver](https://repo1.maven.org/maven2/org/osgi/org.osgi.service.resolver/) **[1.1.1](https://repo1.maven.org/maven2/org/osgi/org.osgi.service.resolver/1.1.1)**
     - [org.osgi.service.startlevel](https://repo1.maven.org/maven2/org/osgi/org.osgi.service.startlevel/) **[1.1.1](https://repo1.maven.org/maven2/org/osgi/org.osgi.service.startlevel/1.1.1)**
     - [org.osgi.service.url](https://repo1.maven.org/maven2/org/osgi/org.osgi.service.url/) **[1.0.1](https://repo1.maven.org/maven2/org/osgi/org.osgi.service.url/1.0.1)**
+    - [org.osgi.test.assertj.framework](https://repo1.maven.org/maven2/org/osgi/org.osgi.test.assertj.framework/) **[1.3.0](https://repo1.maven.org/maven2/org/osgi/org.osgi.test.assertj.framework/1.3.0)**
+    - [org.osgi.test.assertj.log](https://repo1.maven.org/maven2/org/osgi/org.osgi.test.assertj.log/) **[1.3.0](https://repo1.maven.org/maven2/org/osgi/org.osgi.test.assertj.log/1.3.0)**
+    - [org.osgi.test.assertj.promise](https://repo1.maven.org/maven2/org/osgi/org.osgi.test.assertj.promise/) **[1.3.0](https://repo1.maven.org/maven2/org/osgi/org.osgi.test.assertj.promise/1.3.0)**
+    - [org.osgi.test.common](https://repo1.maven.org/maven2/org/osgi/org.osgi.test.common/) **[1.3.0](https://repo1.maven.org/maven2/org/osgi/org.osgi.test.common/1.3.0)**
+    - [org.osgi.test.junit4](https://repo1.maven.org/maven2/org/osgi/org.osgi.test.junit4/) **[1.3.0](https://repo1.maven.org/maven2/org/osgi/org.osgi.test.junit4/1.3.0)**
+    - [org.osgi.test.junit5](https://repo1.maven.org/maven2/org/osgi/org.osgi.test.junit5/) **[1.3.0](https://repo1.maven.org/maven2/org/osgi/org.osgi.test.junit5/1.3.0)**
+    - [org.osgi.test.junit5.cm](https://repo1.maven.org/maven2/org/osgi/org.osgi.test.junit5.cm/) **[1.3.0](https://repo1.maven.org/maven2/org/osgi/org.osgi.test.junit5.cm/1.3.0)**
     - [org.osgi.util.tracker](https://repo1.maven.org/maven2/org/osgi/org.osgi.util.tracker/) **[1.5.4](https://repo1.maven.org/maven2/org/osgi/org.osgi.util.tracker/1.5.4)**
+    - [osgi.annotation](https://repo1.maven.org/maven2/org/osgi/osgi.annotation/) **[8.1.0](https://repo1.maven.org/maven2/org/osgi/osgi.annotation/8.1.0)**
  - [org.slf4j](https://repo1.maven.org/maven2/org/slf4j/)
     - [slf4j-nop](https://repo1.maven.org/maven2/org/slf4j/slf4j-nop/) **[1.7.36](https://repo1.maven.org/maven2/org/slf4j/slf4j-nop/1.7.36)**
     - [slf4j-nop](https://repo1.maven.org/maven2/org/slf4j/slf4j-nop/) **[2.0.16](https://repo1.maven.org/maven2/org/slf4j/slf4j-nop/2.0.16)**
