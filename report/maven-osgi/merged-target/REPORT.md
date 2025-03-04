@@ -341,7 +341,7 @@
  - [org.json](https://repo1.maven.org/maven2/org/json/)
     - [json](https://repo1.maven.org/maven2/org/json/json/) **[20230227](https://repo1.maven.org/maven2/org/json/json/20230227)**
  - [org.jsoup](https://repo1.maven.org/maven2/org/jsoup/)
-    - [jsoup](https://repo1.maven.org/maven2/org/jsoup/jsoup/) **[1.18.3](https://repo1.maven.org/maven2/org/jsoup/jsoup/1.18.3)**
+    - [jsoup](https://repo1.maven.org/maven2/org/jsoup/jsoup/) **[1.19.1](https://repo1.maven.org/maven2/org/jsoup/jsoup/1.19.1)**
  - [org.junit.jupiter](https://repo1.maven.org/maven2/org/junit/jupiter/)
     - [junit-jupiter-api](https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-api/) **[5.12.0](https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-api/5.12.0)**
     - [junit-jupiter-engine](https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-engine/) **[5.12.0](https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.12.0)**
@@ -361,8 +361,8 @@
     - [docker-client](https://repo1.maven.org/maven2/org/mandas/docker-client/) **[8.0.3](https://repo1.maven.org/maven2/org/mandas/docker-client/8.0.3)**
     - [docker-client](https://repo1.maven.org/maven2/org/mandas/docker-client/) **[9.0.0](https://repo1.maven.org/maven2/org/mandas/docker-client/9.0.0)**
  - [org.mockito](https://repo1.maven.org/maven2/org/mockito/)
-    - [mockito-core](https://repo1.maven.org/maven2/org/mockito/mockito-core/) **[5.15.2](https://repo1.maven.org/maven2/org/mockito/mockito-core/5.15.2)**
-    - [mockito-junit-jupiter](https://repo1.maven.org/maven2/org/mockito/mockito-junit-jupiter/) **[5.15.2](https://repo1.maven.org/maven2/org/mockito/mockito-junit-jupiter/5.15.2)**
+    - [mockito-core](https://repo1.maven.org/maven2/org/mockito/mockito-core/) **[5.16.0](https://repo1.maven.org/maven2/org/mockito/mockito-core/5.16.0)**
+    - [mockito-junit-jupiter](https://repo1.maven.org/maven2/org/mockito/mockito-junit-jupiter/) **[5.16.0](https://repo1.maven.org/maven2/org/mockito/mockito-junit-jupiter/5.16.0)**
  - [org.mongodb](https://repo1.maven.org/maven2/org/mongodb/)
     - [mongo-java-driver](https://repo1.maven.org/maven2/org/mongodb/mongo-java-driver/) **[3.12.14](https://repo1.maven.org/maven2/org/mongodb/mongo-java-driver/3.12.14)**
  - [org.mortbay.jasper](https://repo1.maven.org/maven2/org/mortbay/jasper/)
