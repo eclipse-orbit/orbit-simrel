@@ -8,6 +8,11 @@
  - [org.junit.jupiter](https://repo1.maven.org/maven2/org/junit/jupiter/)
     - [junit-jupiter-api](https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-api/) **[5.11.4](https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-api/5.11.4)** < [5.12.0](https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-api/5.12.0/)
     - [junit-jupiter-engine](https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-engine/) **[5.11.4](https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.11.4)** < [5.12.0](https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.12.0/)
+ - [org.mockito](https://repo1.maven.org/maven2/org/mockito/)
+    - [mockito-core](https://repo1.maven.org/maven2/org/mockito/mockito-core/) **[5.15.2](https://repo1.maven.org/maven2/org/mockito/mockito-core/5.15.2)** < [5.16.0](https://repo1.maven.org/maven2/org/mockito/mockito-core/5.16.0/)
+ - [org.slf4j](https://repo1.maven.org/maven2/org/slf4j/)
+    - [slf4j-api](https://repo1.maven.org/maven2/org/slf4j/slf4j-api/) **[2.0.16](https://repo1.maven.org/maven2/org/slf4j/slf4j-api/2.0.16)** < [2.0.17](https://repo1.maven.org/maven2/org/slf4j/slf4j-api/2.0.17/)
+    - [slf4j-simple](https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/) **[2.0.16](https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/2.0.16)** < [2.0.17](https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/2.0.17/)
  - [org.yaml](https://repo1.maven.org/maven2/org/yaml/)
     - [snakeyaml](https://repo1.maven.org/maven2/org/yaml/snakeyaml/) **[2.3](https://repo1.maven.org/maven2/org/yaml/snakeyaml/2.3)** < [2.4](https://repo1.maven.org/maven2/org/yaml/snakeyaml/2.4/)
 

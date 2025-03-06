@@ -1,10 +1,24 @@
 # Target Platform: [linuxtools](https://raw.githubusercontent.com/eclipse-linuxtools/org.eclipse.linuxtools/refs/heads/master/releng/org.eclipse.linuxtools.target/linuxtools-latest.target)
 
+## Minor Updates
+ - [com.fasterxml.jackson.core](https://repo1.maven.org/maven2/com/fasterxml/jackson/core/)
+    - [jackson-annotations](https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/) **[2.18.2](https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.18.2)** < [2.18.3](https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.18.3/)
+    - [jackson-core](https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/) **[2.18.2](https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.18.2)** < [2.18.3](https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.18.3/)
+    - [jackson-databind](https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/) **[2.18.2](https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.18.2)** < [2.18.3](https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.18.3/)
+ - [com.fasterxml.jackson.datatype](https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/)
+    - [jackson-datatype-guava](https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-guava/) **[2.18.2](https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-guava/2.18.2)** < [2.18.3](https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-guava/2.18.3/)
+ - [com.fasterxml.jackson.module](https://repo1.maven.org/maven2/com/fasterxml/jackson/module/)
+    - [jackson-module-jakarta-xmlbind-annotations](https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-jakarta-xmlbind-annotations/) **[2.18.2](https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-jakarta-xmlbind-annotations/2.18.2)** < [2.18.3](https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-jakarta-xmlbind-annotations/2.18.3/)
+    - [jackson-module-jaxb-annotations](https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/) **[2.18.2](https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.18.2)** < [2.18.3](https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.18.3/)
+
 ## Major Updates
  - [jakarta.ws.rs](https://repo1.maven.org/maven2/jakarta/ws/rs/)
     - [jakarta.ws.rs-api](https://repo1.maven.org/maven2/jakarta/ws/rs/jakarta.ws.rs-api/) **[3.1.0](https://repo1.maven.org/maven2/jakarta/ws/rs/jakarta.ws.rs-api/3.1.0)** < [4.0.0](https://repo1.maven.org/maven2/jakarta/ws/rs/jakarta.ws.rs-api/4.0.0/)
  - [org.glassfish.hk2](https://repo1.maven.org/maven2/org/glassfish/hk2/)
     - [osgi-resource-locator](https://repo1.maven.org/maven2/org/glassfish/hk2/osgi-resource-locator/) **[1.0.3](https://repo1.maven.org/maven2/org/glassfish/hk2/osgi-resource-locator/1.0.3)** < [3.0.0](https://repo1.maven.org/maven2/org/glassfish/hk2/osgi-resource-locator/3.0.0/)
+
+## Updates Applied
+[updated.target](updated.target)
 
 ## Content
  - [com.fasterxml.jackson.core](https://repo1.maven.org/maven2/com/fasterxml/jackson/core/)

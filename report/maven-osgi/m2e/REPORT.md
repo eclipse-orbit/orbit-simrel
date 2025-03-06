@@ -5,13 +5,15 @@
     - [archetype-catalog](https://repo1.maven.org/maven2/org/apache/maven/archetype/archetype-catalog/) **[3.2.1](https://repo1.maven.org/maven2/org/apache/maven/archetype/archetype-catalog/3.2.1)** < [3.3.1](https://repo1.maven.org/maven2/org/apache/maven/archetype/archetype-catalog/3.3.1/)
     - [archetype-common](https://repo1.maven.org/maven2/org/apache/maven/archetype/archetype-common/) **[3.2.1](https://repo1.maven.org/maven2/org/apache/maven/archetype/archetype-common/3.2.1)** < [3.3.1](https://repo1.maven.org/maven2/org/apache/maven/archetype/archetype-common/3.3.1/)
     - [archetype-descriptor](https://repo1.maven.org/maven2/org/apache/maven/archetype/archetype-descriptor/) **[3.2.1](https://repo1.maven.org/maven2/org/apache/maven/archetype/archetype-descriptor/3.2.1)** < [3.3.1](https://repo1.maven.org/maven2/org/apache/maven/archetype/archetype-descriptor/3.3.1/)
+ - [org.eclipse.lemminx](https://repo.eclipse.org/content/repositories/lemminx-releases/org/eclipse/lemminx/)
+    - [org.eclipse.lemminx](https://repo.eclipse.org/content/repositories/lemminx-releases/org/eclipse/lemminx/org.eclipse.lemminx/) **[0.29.0](https://repo.eclipse.org/content/repositories/lemminx-releases/org/eclipse/lemminx/org.eclipse.lemminx/0.29.0)** < [0.30.0](https://repo1.maven.org/maven2/org/eclipse/lemminx/org.eclipse.lemminx/0.30.0/)
 
 ## Updates Applied
 [updated.target](updated.target)
 
 ## Content
  - [ch.qos.logback](https://repo1.maven.org/maven2/ch/qos/logback/)
-    - [logback-classic](https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/) **[1.5.16](https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.5.16)**
+    - [logback-classic](https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/) **[1.5.17](https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.5.17)**
  - [com.google.code.gson](https://repo1.maven.org/maven2/com/google/code/gson/)
     - [gson](https://repo1.maven.org/maven2/com/google/code/gson/gson/) **[2.12.1](https://repo1.maven.org/maven2/com/google/code/gson/gson/2.12.1)**
  - [com.google.guava](https://repo1.maven.org/maven2/com/google/guava/)
