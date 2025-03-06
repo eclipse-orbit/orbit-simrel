@@ -3,7 +3,7 @@
 <target name="Maven" sequenceNumber="1">
   <locations>
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="error" type="Maven">
-      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.36.0.v20250304-1000">
+      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.36.0.v20250306-1600">
         <description>This feature's dependencies are pulled directly from Maven central.</description>
         <copyright>
 Copyright (c) 2025 Eclipse contributors and others.
@@ -16,7 +16,7 @@ https://www.eclipse.org/legal/epl-2.0/
 SPDX-License-Identifier: EPL-2.0
         </copyright>
         <license url="https://www.eclipse.org/legal/epl-2.0/"/>
-        <!-- SHA1 39430c43213d974aac84f28bdc716f8bf203c777 -->
+        <!-- SHA1 d02704612cebe103ebf09567d938cc3fc381efd7 -->
       </feature>
       <dependencies>
         <dependency>
@@ -58,6 +58,18 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>biz.aQute.bnd</groupId>
           <artifactId>biz.aQute.resolve</artifactId>
+          <version>7.1.0</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>biz.aQute.bnd</groupId>
+          <artifactId>biz.aQute.tester</artifactId>
+          <version>7.1.0</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>biz.aQute.bnd</groupId>
+          <artifactId>biz.aQute.tester.junit-platform</artifactId>
           <version>7.1.0</version>
           <type>jar</type>
         </dependency>

@@ -222,25 +222,25 @@
 			  <dependency>
 				  <groupId>org.eclipse.jetty.ee8</groupId>
 				  <artifactId>jetty-ee8-apache-jsp</artifactId>
-				  <version>12.0.16</version>
+				  <version>12.0.17</version>
 				  <type>jar</type>
 			  </dependency>
 			  <dependency>
 				  <groupId>org.eclipse.jetty.ee8</groupId>
 				  <artifactId>jetty-ee8-nested</artifactId>
-				  <version>12.0.16</version>
+				  <version>12.0.17</version>
 				  <type>jar</type>
 			  </dependency>
 			  <dependency>
 				  <groupId>org.eclipse.jetty.ee8</groupId>
 				  <artifactId>jetty-ee8-security</artifactId>
-				  <version>12.0.16</version>
+				  <version>12.0.17</version>
 				  <type>jar</type>
 			  </dependency>
 			  <dependency>
 				  <groupId>org.eclipse.jetty.ee8</groupId>
 				  <artifactId>jetty-ee8-servlet</artifactId>
-				  <version>12.0.16</version>
+				  <version>12.0.17</version>
 				  <type>jar</type>
 			  </dependency>
 			  <dependency>
@@ -252,43 +252,43 @@
 			  <dependency>
 				  <groupId>org.eclipse.jetty</groupId>
 				  <artifactId>jetty-http</artifactId>
-				  <version>12.0.16</version>
+				  <version>12.0.17</version>
 				  <type>jar</type>
 			  </dependency>
 			  <dependency>
 				  <groupId>org.eclipse.jetty</groupId>
 				  <artifactId>jetty-io</artifactId>
-				  <version>12.0.16</version>
+				  <version>12.0.17</version>
 				  <type>jar</type>
 			  </dependency>
 			  <dependency>
 				  <groupId>org.eclipse.jetty</groupId>
 				  <artifactId>jetty-security</artifactId>
-				  <version>12.0.16</version>
+				  <version>12.0.17</version>
 				  <type>jar</type>
 			  </dependency>
 			  <dependency>
 				  <groupId>org.eclipse.jetty</groupId>
 				  <artifactId>jetty-server</artifactId>
-				  <version>12.0.16</version>
+				  <version>12.0.17</version>
 				  <type>jar</type>
 			  </dependency>
 			  <dependency>
 				  <groupId>org.eclipse.jetty</groupId>
 				  <artifactId>jetty-session</artifactId>
-				  <version>12.0.16</version>
+				  <version>12.0.17</version>
 				  <type>jar</type>
 			  </dependency>
 			  <dependency>
 				  <groupId>org.eclipse.jetty</groupId>
 				  <artifactId>jetty-util-ajax</artifactId>
-				  <version>12.0.16</version>
+				  <version>12.0.17</version>
 				  <type>jar</type>
 			  </dependency>
 			  <dependency>
 				  <groupId>org.eclipse.jetty</groupId>
 				  <artifactId>jetty-util</artifactId>
-				  <version>12.0.16</version>
+				  <version>12.0.17</version>
 				  <type>jar</type>
 			  </dependency>
 			  <dependency>
@@ -403,6 +403,12 @@
 				  <groupId>org.osgi</groupId>
 				  <artifactId>org.osgi.namespace.extender</artifactId>
 				  <version>1.0.1</version>
+				  <type>jar</type>
+			  </dependency>
+			  <dependency>
+				  <groupId>org.osgi</groupId>
+				  <artifactId>org.osgi.namespace.implementation</artifactId>
+				  <version>1.0.0</version>
 				  <type>jar</type>
 			  </dependency>
 			  <dependency>
@@ -543,6 +549,12 @@
 				  <version>1.0.2</version>
 				  <type>jar</type>
 			  </dependency>
+			  <dependency>
+				  <groupId>org.osgi</groupId>
+				  <artifactId>osgi.annotation</artifactId>
+				  <version>8.1.0</version>
+				  <type>jar</type>
+			  </dependency>
 		  </dependencies>
 	  </location>
 	  <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" label="BND" missingManifest="error" type="Maven">
@@ -554,11 +566,22 @@
 				  <type>jar</type>
 			  </dependency>
 			  <dependency>
+			    <groupId>biz.aQute.bnd</groupId>
+			    <artifactId>biz.aQute.bnd.embedded-repo</artifactId>
+			    <version>7.1.0</version>
+			  </dependency>
+			  <dependency>
 				  <groupId>biz.aQute.bnd</groupId>
-				  <artifactId>biz.aQute.bnd.embedded-repo</artifactId>
+				  <artifactId>biz.aQute.tester.junit-platform</artifactId>
 				  <version>7.1.0</version>
 				  <type>jar</type>
 			  </dependency>
+			  <dependency>
+				  <groupId>biz.aQute.bnd</groupId>
+				  <artifactId>biz.aQute.tester</artifactId>
+				  <version>7.1.0</version>
+				  <type>jar</type>
+			  </dependency>>
 			  <dependency>
 				  <groupId>biz.aQute.bnd</groupId>
 				  <artifactId>biz.aQute.bnd.util</artifactId>
@@ -791,6 +814,52 @@
 				  <groupId>jakarta.xml.bind</groupId>
 				  <artifactId>jakarta.xml.bind-api</artifactId>
 				  <version>4.0.2</version>
+				  <type>jar</type>
+			  </dependency>
+		  </dependencies>
+	  </location>
+	  <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" label="OSGi Test" missingManifest="error" type="Maven">
+		  <dependencies>
+			  <dependency>
+				  <groupId>org.osgi</groupId>
+				  <artifactId>org.osgi.test.assertj.framework</artifactId>
+				  <version>1.3.0</version>
+				  <type>jar</type>
+			  </dependency>
+			  <dependency>
+				  <groupId>org.osgi</groupId>
+				  <artifactId>org.osgi.test.assertj.log</artifactId>
+				  <version>1.3.0</version>
+				  <type>jar</type>
+			  </dependency>
+			  <dependency>
+				  <groupId>org.osgi</groupId>
+				  <artifactId>org.osgi.test.assertj.promise</artifactId>
+				  <version>1.3.0</version>
+				  <type>jar</type>
+			  </dependency>
+			  <dependency>
+				  <groupId>org.osgi</groupId>
+				  <artifactId>org.osgi.test.common</artifactId>
+				  <version>1.3.0</version>
+				  <type>jar</type>
+			  </dependency>
+			  <dependency>
+				  <groupId>org.osgi</groupId>
+				  <artifactId>org.osgi.test.junit4</artifactId>
+				  <version>1.3.0</version>
+				  <type>jar</type>
+			  </dependency>
+			  <dependency>
+				  <groupId>org.osgi</groupId>
+				  <artifactId>org.osgi.test.junit5.cm</artifactId>
+				  <version>1.3.0</version>
+				  <type>jar</type>
+			  </dependency>
+			  <dependency>
+				  <groupId>org.osgi</groupId>
+				  <artifactId>org.osgi.test.junit5</artifactId>
+				  <version>1.3.0</version>
 				  <type>jar</type>
 			  </dependency>
 		  </dependencies>
