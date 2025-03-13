@@ -93,7 +93,7 @@
     - [openpdf](https://repo1.maven.org/maven2/com/github/librepdf/openpdf/) **[1.4.2](https://repo1.maven.org/maven2/com/github/librepdf/openpdf/1.4.2)**
     - [openpdf](https://repo1.maven.org/maven2/com/github/librepdf/openpdf/) **[2.0.3](https://repo1.maven.org/maven2/com/github/librepdf/openpdf/2.0.3)**
  - [com.github.oshi](https://repo1.maven.org/maven2/com/github/oshi/)
-    - [oshi-core](https://repo1.maven.org/maven2/com/github/oshi/oshi-core/) **[6.6.6](https://repo1.maven.org/maven2/com/github/oshi/oshi-core/6.6.6)**
+    - [oshi-core](https://repo1.maven.org/maven2/com/github/oshi/oshi-core/) **[6.7.1](https://repo1.maven.org/maven2/com/github/oshi/oshi-core/6.7.1)**
  - [com.github.weisj](https://repo1.maven.org/maven2/com/github/weisj/)
     - [jsvg](https://repo1.maven.org/maven2/com/github/weisj/jsvg/) **[1.7.0](https://repo1.maven.org/maven2/com/github/weisj/jsvg/1.7.0)**
  - [com.glazedlists](https://repo1.maven.org/maven2/com/glazedlists/)
@@ -361,7 +361,7 @@
     - [junit-vintage-engine](https://repo1.maven.org/maven2/org/junit/vintage/junit-vintage-engine/) **[5.12.0](https://repo1.maven.org/maven2/org/junit/vintage/junit-vintage-engine/5.12.0)**
  - [org.mandas](https://repo1.maven.org/maven2/org/mandas/)
     - [docker-client](https://repo1.maven.org/maven2/org/mandas/docker-client/) **[8.0.3](https://repo1.maven.org/maven2/org/mandas/docker-client/8.0.3)**
-    - [docker-client](https://repo1.maven.org/maven2/org/mandas/docker-client/) **[9.0.0](https://repo1.maven.org/maven2/org/mandas/docker-client/9.0.0)**
+    - [docker-client](https://repo1.maven.org/maven2/org/mandas/docker-client/) **[9.0.1](https://repo1.maven.org/maven2/org/mandas/docker-client/9.0.1)**
  - [org.mockito](https://repo1.maven.org/maven2/org/mockito/)
     - [mockito-core](https://repo1.maven.org/maven2/org/mockito/mockito-core/) **[5.16.0](https://repo1.maven.org/maven2/org/mockito/mockito-core/5.16.0)**
     - [mockito-junit-jupiter](https://repo1.maven.org/maven2/org/mockito/mockito-junit-jupiter/) **[5.16.0](https://repo1.maven.org/maven2/org/mockito/mockito-junit-jupiter/5.16.0)**
