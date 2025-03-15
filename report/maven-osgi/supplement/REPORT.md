@@ -47,7 +47,7 @@
  - [org.glassfish.jersey.media](https://repo1.maven.org/maven2/org/glassfish/jersey/media/)
     - [jersey-media-json-jackson](https://repo1.maven.org/maven2/org/glassfish/jersey/media/jersey-media-json-jackson/) **[2.46](https://repo1.maven.org/maven2/org/glassfish/jersey/media/jersey-media-json-jackson/2.46)** < [3.1.10](https://repo1.maven.org/maven2/org/glassfish/jersey/media/jersey-media-json-jackson/3.1.10/)
  - [org.mandas](https://repo1.maven.org/maven2/org/mandas/)
-    - [docker-client](https://repo1.maven.org/maven2/org/mandas/docker-client/) **[8.0.3](https://repo1.maven.org/maven2/org/mandas/docker-client/8.0.3)** < [9.0.1](https://repo1.maven.org/maven2/org/mandas/docker-client/9.0.1/)
+    - [docker-client](https://repo1.maven.org/maven2/org/mandas/docker-client/) **[8.0.3](https://repo1.maven.org/maven2/org/mandas/docker-client/8.0.3)** < [9.0.2](https://repo1.maven.org/maven2/org/mandas/docker-client/9.0.2/)
  - [org.mortbay.jasper](https://repo1.maven.org/maven2/org/mortbay/jasper/)
     - [apache-el](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-el/) **[9.0.96](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-el/9.0.96)** < [11.0.4](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-el/11.0.4/)
     - [apache-el](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-el/) **[10.1.31](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-el/10.1.31)** < [11.0.4](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-el/11.0.4/)
