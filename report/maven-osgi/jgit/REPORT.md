@@ -1,11 +1,21 @@
 # Target Platform: [jgit](https://raw.githubusercontent.com/eclipse-jgit/jgit/master/org.eclipse.jgit.packaging/org.eclipse.jgit.target/maven/dependencies.tpd)
 
+## Minor Updates
+ - [net.java.dev.jna](https://repo1.maven.org/maven2/net/java/dev/jna/)
+    - [jna](https://repo1.maven.org/maven2/net/java/dev/jna/jna/) **[5.16.0](https://repo1.maven.org/maven2/net/java/dev/jna/jna/5.16.0)** < [5.17.0](https://repo1.maven.org/maven2/net/java/dev/jna/jna/5.17.0/)
+    - [jna-platform](https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/) **[5.16.0](https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/5.16.0)** < [5.17.0](https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/5.17.0/)
+ - [org.mockito](https://repo1.maven.org/maven2/org/mockito/)
+    - [mockito-core](https://repo1.maven.org/maven2/org/mockito/mockito-core/) **[5.16.0](https://repo1.maven.org/maven2/org/mockito/mockito-core/5.16.0)** < [5.16.1](https://repo1.maven.org/maven2/org/mockito/mockito-core/5.16.1/)
+
 ## Major Updates
  - [org.hamcrest](https://repo1.maven.org/maven2/org/hamcrest/)
     - [hamcrest](https://repo1.maven.org/maven2/org/hamcrest/hamcrest/) **[2.2](https://repo1.maven.org/maven2/org/hamcrest/hamcrest/2.2)** < [3.0](https://repo1.maven.org/maven2/org/hamcrest/hamcrest/3.0/)
  - [org.slf4j](https://repo1.maven.org/maven2/org/slf4j/)
     - [slf4j-api](https://repo1.maven.org/maven2/org/slf4j/slf4j-api/) **[1.7.36](https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.36)** < [2.0.17](https://repo1.maven.org/maven2/org/slf4j/slf4j-api/2.0.17/)
     - [slf4j-simple](https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/) **[1.7.36](https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/1.7.36)** < [2.0.17](https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/2.0.17/)
+
+## Updates Applied
+[updated.tpd](updated.tpd)
 
 ## Content
  - [args4j](https://repo1.maven.org/maven2/args4j/)

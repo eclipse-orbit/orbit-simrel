@@ -1,9 +1,19 @@
 # Target Platform: [egit](https://raw.githubusercontent.com/eclipse-egit/egit/master/org.eclipse.egit.target/maven/dependencies.tpd)
 
+## Minor Updates
+ - [net.java.dev.jna](https://repo1.maven.org/maven2/net/java/dev/jna/)
+    - [jna](https://repo1.maven.org/maven2/net/java/dev/jna/jna/) **[5.16.0](https://repo1.maven.org/maven2/net/java/dev/jna/jna/5.16.0)** < [5.17.0](https://repo1.maven.org/maven2/net/java/dev/jna/jna/5.17.0/)
+    - [jna-platform](https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/) **[5.16.0](https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/5.16.0)** < [5.17.0](https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/5.17.0/)
+ - [org.mockito](https://repo1.maven.org/maven2/org/mockito/)
+    - [mockito-core](https://repo1.maven.org/maven2/org/mockito/mockito-core/) **[5.16.0](https://repo1.maven.org/maven2/org/mockito/mockito-core/5.16.0)** < [5.16.1](https://repo1.maven.org/maven2/org/mockito/mockito-core/5.16.1/)
+
 ## Major Updates
  - [org.slf4j](https://repo1.maven.org/maven2/org/slf4j/)
     - [slf4j-api](https://repo1.maven.org/maven2/org/slf4j/slf4j-api/) **[1.7.36](https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.36)** < [2.0.17](https://repo1.maven.org/maven2/org/slf4j/slf4j-api/2.0.17/)
     - [slf4j-simple](https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/) **[1.7.36](https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/1.7.36)** < [2.0.17](https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/2.0.17/)
+
+## Updates Applied
+[updated.tpd](updated.tpd)
 
 ## Content
  - [args4j](https://repo1.maven.org/maven2/args4j/)
