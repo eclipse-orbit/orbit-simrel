@@ -126,7 +126,7 @@
     - [jaxb-osgi](https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-osgi/) **[2.3.9](https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-osgi/2.3.9)**
     - [jaxb-osgi](https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-osgi/) **[4.0.5](https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-osgi/4.0.5)**
  - [com.vegardit.no-npe](https://repo1.maven.org/maven2/com/vegardit/no-npe/)
-    - [no-npe-eea-all](https://repo1.maven.org/maven2/com/vegardit/no-npe/no-npe-eea-all/) **[1.3.2](https://repo1.maven.org/maven2/com/vegardit/no-npe/no-npe-eea-all/1.3.2)**
+    - [no-npe-eea-all](https://repo1.maven.org/maven2/com/vegardit/no-npe/no-npe-eea-all/) **[1.3.3](https://repo1.maven.org/maven2/com/vegardit/no-npe/no-npe-eea-all/1.3.3)**
  - [commons-beanutils](https://repo1.maven.org/maven2/commons-beanutils/)
     - [commons-beanutils](https://repo1.maven.org/maven2/commons-beanutils/commons-beanutils/) **[1.10.1](https://repo1.maven.org/maven2/commons-beanutils/commons-beanutils/1.10.1)**
  - [commons-cli](https://repo1.maven.org/maven2/commons-cli/)

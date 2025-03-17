@@ -2,7 +2,7 @@
 
 ## Minor Updates
  - [com.vegardit.no-npe](https://repo1.maven.org/maven2/com/vegardit/no-npe/)
-    - [no-npe-eea-all](https://repo1.maven.org/maven2/com/vegardit/no-npe/no-npe-eea-all/) **[1.3.1](https://repo1.maven.org/maven2/com/vegardit/no-npe/no-npe-eea-all/1.3.1)** < [1.3.2](https://repo1.maven.org/maven2/com/vegardit/no-npe/no-npe-eea-all/1.3.2/)
+    - [no-npe-eea-all](https://repo1.maven.org/maven2/com/vegardit/no-npe/no-npe-eea-all/) **[1.3.1](https://repo1.maven.org/maven2/com/vegardit/no-npe/no-npe-eea-all/1.3.1)** < [1.3.3](https://repo1.maven.org/maven2/com/vegardit/no-npe/no-npe-eea-all/1.3.3/)
 
 ## Content
  - [com.vegardit.no-npe](https://repo1.maven.org/maven2/com/vegardit/no-npe/)
