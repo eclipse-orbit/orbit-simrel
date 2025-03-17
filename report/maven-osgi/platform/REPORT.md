@@ -1,8 +1,19 @@
 # Target Platform: [platform](https://raw.githubusercontent.com/eclipse-platform/eclipse.platform.releng.aggregator/master/eclipse.platform.releng.prereqs.sdk/eclipse-sdk-prereqs.target)
 
 ## Minor Updates
- - [net.java.dev.jna](https://repo1.maven.org/maven2/net/java/dev/jna/)
-    - [jna-platform](https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/) **[5.16.0](https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/5.16.0)** < [5.17.0](https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/5.17.0/)
+ - [org.eclipse.jetty](https://repo1.maven.org/maven2/org/eclipse/jetty/)
+    - [jetty-http](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/) **[12.0.17](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/12.0.17)** < [12.0.18](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/12.0.18/)
+    - [jetty-io](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/) **[12.0.17](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/12.0.17)** < [12.0.18](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/12.0.18/)
+    - [jetty-security](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-security/) **[12.0.17](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-security/12.0.17)** < [12.0.18](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-security/12.0.18/)
+    - [jetty-server](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-server/) **[12.0.17](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-server/12.0.17)** < [12.0.18](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-server/12.0.18/)
+    - [jetty-session](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-session/) **[12.0.17](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-session/12.0.17)** < [12.0.18](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-session/12.0.18/)
+    - [jetty-util](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/) **[12.0.17](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/12.0.17)** < [12.0.18](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/12.0.18/)
+    - [jetty-util-ajax](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util-ajax/) **[12.0.17](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util-ajax/12.0.17)** < [12.0.18](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util-ajax/12.0.18/)
+ - [org.eclipse.jetty.ee8](https://repo1.maven.org/maven2/org/eclipse/jetty/ee8/)
+    - [jetty-ee8-apache-jsp](https://repo1.maven.org/maven2/org/eclipse/jetty/ee8/jetty-ee8-apache-jsp/) **[12.0.17](https://repo1.maven.org/maven2/org/eclipse/jetty/ee8/jetty-ee8-apache-jsp/12.0.17)** < [12.0.18](https://repo1.maven.org/maven2/org/eclipse/jetty/ee8/jetty-ee8-apache-jsp/12.0.18/)
+    - [jetty-ee8-nested](https://repo1.maven.org/maven2/org/eclipse/jetty/ee8/jetty-ee8-nested/) **[12.0.17](https://repo1.maven.org/maven2/org/eclipse/jetty/ee8/jetty-ee8-nested/12.0.17)** < [12.0.18](https://repo1.maven.org/maven2/org/eclipse/jetty/ee8/jetty-ee8-nested/12.0.18/)
+    - [jetty-ee8-security](https://repo1.maven.org/maven2/org/eclipse/jetty/ee8/jetty-ee8-security/) **[12.0.17](https://repo1.maven.org/maven2/org/eclipse/jetty/ee8/jetty-ee8-security/12.0.17)** < [12.0.18](https://repo1.maven.org/maven2/org/eclipse/jetty/ee8/jetty-ee8-security/12.0.18/)
+    - [jetty-ee8-servlet](https://repo1.maven.org/maven2/org/eclipse/jetty/ee8/jetty-ee8-servlet/) **[12.0.17](https://repo1.maven.org/maven2/org/eclipse/jetty/ee8/jetty-ee8-servlet/12.0.17)** < [12.0.18](https://repo1.maven.org/maven2/org/eclipse/jetty/ee8/jetty-ee8-servlet/12.0.18/)
 
 ## Major Updates
  - [jakarta.el](https://repo1.maven.org/maven2/jakarta/el/)
@@ -65,7 +76,7 @@
     - [byte-buddy](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/) **[1.17.2](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.17.2)**
     - [byte-buddy-agent](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/) **[1.17.2](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.17.2)**
  - [net.java.dev.jna](https://repo1.maven.org/maven2/net/java/dev/jna/)
-    - [jna-platform](https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/) **[5.16.0](https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/5.16.0)**
+    - [jna-platform](https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/) **[5.17.0](https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/5.17.0)**
  - [org.apache.aries.spifly](https://repo1.maven.org/maven2/org/apache/aries/spifly/)
     - [org.apache.aries.spifly.dynamic.bundle](https://repo1.maven.org/maven2/org/apache/aries/spifly/org.apache.aries.spifly.dynamic.bundle/) **[1.3.7](https://repo1.maven.org/maven2/org/apache/aries/spifly/org.apache.aries.spifly.dynamic.bundle/1.3.7)**
  - [org.apache.felix](https://repo1.maven.org/maven2/org/apache/felix/)
