@@ -53,8 +53,8 @@
     - [biz.aQute.tester](https://repo1.maven.org/maven2/biz/aQute/bnd/biz.aQute.tester/) **[7.1.0](https://repo1.maven.org/maven2/biz/aQute/bnd/biz.aQute.tester/7.1.0)**
     - [biz.aQute.tester.junit-platform](https://repo1.maven.org/maven2/biz/aQute/bnd/biz.aQute.tester.junit-platform/) **[7.1.0](https://repo1.maven.org/maven2/biz/aQute/bnd/biz.aQute.tester.junit-platform/7.1.0)**
  - [ch.qos.logback](https://repo1.maven.org/maven2/ch/qos/logback/)
-    - [logback-classic](https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/) **[1.5.17](https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.5.17)**
-    - [logback-core](https://repo1.maven.org/maven2/ch/qos/logback/logback-core/) **[1.5.17](https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.5.17)**
+    - [logback-classic](https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/) **[1.5.18](https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.5.18)**
+    - [logback-core](https://repo1.maven.org/maven2/ch/qos/logback/logback-core/) **[1.5.18](https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.5.18)**
  - [ch.qos.reload4j](https://repo1.maven.org/maven2/ch/qos/reload4j/)
     - [reload4j](https://repo1.maven.org/maven2/ch/qos/reload4j/reload4j/) **[1.2.26](https://repo1.maven.org/maven2/ch/qos/reload4j/reload4j/1.2.26)**
  - [com.ethlo.time](https://repo1.maven.org/maven2/com/ethlo/time/)
@@ -95,7 +95,7 @@
  - [com.github.oshi](https://repo1.maven.org/maven2/com/github/oshi/)
     - [oshi-core](https://repo1.maven.org/maven2/com/github/oshi/oshi-core/) **[6.7.1](https://repo1.maven.org/maven2/com/github/oshi/oshi-core/6.7.1)**
  - [com.github.weisj](https://repo1.maven.org/maven2/com/github/weisj/)
-    - [jsvg](https://repo1.maven.org/maven2/com/github/weisj/jsvg/) **[1.7.0](https://repo1.maven.org/maven2/com/github/weisj/jsvg/1.7.0)**
+    - [jsvg](https://repo1.maven.org/maven2/com/github/weisj/jsvg/) **[1.7.1](https://repo1.maven.org/maven2/com/github/weisj/jsvg/1.7.1)**
  - [com.glazedlists](https://repo1.maven.org/maven2/com/glazedlists/)
     - [glazedlists](https://repo1.maven.org/maven2/com/glazedlists/glazedlists/) **[1.11.0](https://repo1.maven.org/maven2/com/glazedlists/glazedlists/1.11.0)**
  - [com.google.code.gson](https://repo1.maven.org/maven2/com/google/code/gson/)
@@ -126,7 +126,7 @@
     - [jaxb-osgi](https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-osgi/) **[2.3.9](https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-osgi/2.3.9)**
     - [jaxb-osgi](https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-osgi/) **[4.0.5](https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-osgi/4.0.5)**
  - [com.vegardit.no-npe](https://repo1.maven.org/maven2/com/vegardit/no-npe/)
-    - [no-npe-eea-all](https://repo1.maven.org/maven2/com/vegardit/no-npe/no-npe-eea-all/) **[1.3.3](https://repo1.maven.org/maven2/com/vegardit/no-npe/no-npe-eea-all/1.3.3)**
+    - [no-npe-eea-all](https://repo1.maven.org/maven2/com/vegardit/no-npe/no-npe-eea-all/) **[1.3.4](https://repo1.maven.org/maven2/com/vegardit/no-npe/no-npe-eea-all/1.3.4)**
  - [commons-beanutils](https://repo1.maven.org/maven2/commons-beanutils/)
     - [commons-beanutils](https://repo1.maven.org/maven2/commons-beanutils/commons-beanutils/) **[1.10.1](https://repo1.maven.org/maven2/commons-beanutils/commons-beanutils/1.10.1)**
  - [commons-cli](https://repo1.maven.org/maven2/commons-cli/)

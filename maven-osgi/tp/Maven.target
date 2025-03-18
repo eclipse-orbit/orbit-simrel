@@ -3,7 +3,7 @@
 <target name="Maven" sequenceNumber="1">
   <locations>
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="error" type="Maven">
-      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.36.0.v20250317-0700">
+      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.36.0.v20250318-1700">
         <description>This feature's dependencies are pulled directly from Maven central.</description>
         <copyright>
 Copyright (c) 2025 Eclipse contributors and others.
@@ -16,7 +16,7 @@ https://www.eclipse.org/legal/epl-2.0/
 SPDX-License-Identifier: EPL-2.0
         </copyright>
         <license url="https://www.eclipse.org/legal/epl-2.0/"/>
-        <!-- SHA1 5c701caf10a1dec4479a05842d97bc287c9d8be2 -->
+        <!-- SHA1 9e3970db56524e55945b1130b332414d747f2588 -->
       </feature>
       <dependencies>
         <dependency>
@@ -76,13 +76,13 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>ch.qos.logback</groupId>
           <artifactId>logback-classic</artifactId>
-          <version>1.5.17</version>
+          <version>1.5.18</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>ch.qos.logback</groupId>
           <artifactId>logback-core</artifactId>
-          <version>1.5.17</version>
+          <version>1.5.18</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -245,7 +245,7 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>com.github.weisj</groupId>
           <artifactId>jsvg</artifactId>
-          <version>1.7.0</version>
+          <version>1.7.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -353,7 +353,7 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>com.vegardit.no-npe</groupId>
           <artifactId>no-npe-eea-all</artifactId>
-          <version>1.3.3</version>
+          <version>1.3.4</version>
           <type>jar</type>
         </dependency>
         <dependency>
