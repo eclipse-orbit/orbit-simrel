@@ -76,13 +76,13 @@
 				<dependency>
 					<groupId>com.google.guava</groupId>
 					<artifactId>failureaccess</artifactId>
-					<version>1.0.2</version>
+					<version>1.0.3</version>
 					<type>jar</type>
 				</dependency>
 				<dependency>
 					<groupId>com.google.guava</groupId>
 					<artifactId>guava</artifactId>
-					<version>33.4.0-jre</version>
+					<version>33.4.5-jre</version>
 					<type>jar</type>
 				</dependency>
 				<dependency>

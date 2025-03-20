@@ -1,9 +1,5 @@
 # Target Platform: [platform](https://raw.githubusercontent.com/eclipse-platform/eclipse.platform.releng.aggregator/master/eclipse.platform.releng.prereqs.sdk/eclipse-sdk-prereqs.target)
 
-## Minor Updates
- - [com.github.weisj](https://repo1.maven.org/maven2/com/github/weisj/)
-    - [jsvg](https://repo1.maven.org/maven2/com/github/weisj/jsvg/) **[1.7.0](https://repo1.maven.org/maven2/com/github/weisj/jsvg/1.7.0)** < [1.7.1](https://repo1.maven.org/maven2/com/github/weisj/jsvg/1.7.1/)
-
 ## Major Updates
  - [jakarta.el](https://repo1.maven.org/maven2/jakarta/el/)
     - [jakarta.el-api](https://repo1.maven.org/maven2/jakarta/el/jakarta.el-api/) **[3.0.3](https://repo1.maven.org/maven2/jakarta/el/jakarta.el-api/3.0.3)** < [6.0.1](https://repo1.maven.org/maven2/jakarta/el/jakarta.el-api/6.0.1/)
@@ -17,9 +13,6 @@
     - [apache-el](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-el/) **[9.0.96](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-el/9.0.96)** < [11.0.4](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-el/11.0.4/)
     - [apache-jsp](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-jsp/) **[9.0.96](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-jsp/9.0.96)** < [11.0.4](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-jsp/11.0.4/)
 
-## Updates Applied
-[updated.target](updated.target)
-
 ## Content
  - [biz.aQute.bnd](https://repo1.maven.org/maven2/biz/aQute/bnd/)
     - [biz.aQute.bnd.annotation](https://repo1.maven.org/maven2/biz/aQute/bnd/biz.aQute.bnd.annotation/) **[7.1.0](https://repo1.maven.org/maven2/biz/aQute/bnd/biz.aQute.bnd.annotation/7.1.0)**
@@ -31,7 +24,7 @@
     - [biz.aQute.tester](https://repo1.maven.org/maven2/biz/aQute/bnd/biz.aQute.tester/) **[7.1.0](https://repo1.maven.org/maven2/biz/aQute/bnd/biz.aQute.tester/7.1.0)**
     - [biz.aQute.tester.junit-platform](https://repo1.maven.org/maven2/biz/aQute/bnd/biz.aQute.tester.junit-platform/) **[7.1.0](https://repo1.maven.org/maven2/biz/aQute/bnd/biz.aQute.tester.junit-platform/7.1.0)**
  - [com.github.weisj](https://repo1.maven.org/maven2/com/github/weisj/)
-    - [jsvg](https://repo1.maven.org/maven2/com/github/weisj/jsvg/) **[1.7.0](https://repo1.maven.org/maven2/com/github/weisj/jsvg/1.7.0)**
+    - [jsvg](https://repo1.maven.org/maven2/com/github/weisj/jsvg/) **[1.7.1](https://repo1.maven.org/maven2/com/github/weisj/jsvg/1.7.1)**
  - [com.google.code.gson](https://repo1.maven.org/maven2/com/google/code/gson/)
     - [gson](https://repo1.maven.org/maven2/com/google/code/gson/gson/) **[2.12.1](https://repo1.maven.org/maven2/com/google/code/gson/gson/2.12.1)**
  - [com.ibm.icu](https://repo1.maven.org/maven2/com/ibm/icu/)

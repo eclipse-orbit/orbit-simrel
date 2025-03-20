@@ -47,7 +47,7 @@
  - [org.glassfish.jersey.media](https://repo1.maven.org/maven2/org/glassfish/jersey/media/)
     - [jersey-media-json-jackson](https://repo1.maven.org/maven2/org/glassfish/jersey/media/jersey-media-json-jackson/) **[2.46](https://repo1.maven.org/maven2/org/glassfish/jersey/media/jersey-media-json-jackson/2.46)** < [3.1.10](https://repo1.maven.org/maven2/org/glassfish/jersey/media/jersey-media-json-jackson/3.1.10/)
  - [org.mandas](https://repo1.maven.org/maven2/org/mandas/)
-    - [docker-client](https://repo1.maven.org/maven2/org/mandas/docker-client/) **[8.0.3](https://repo1.maven.org/maven2/org/mandas/docker-client/8.0.3)** < [9.0.2](https://repo1.maven.org/maven2/org/mandas/docker-client/9.0.2/)
+    - [docker-client](https://repo1.maven.org/maven2/org/mandas/docker-client/) **[8.0.3](https://repo1.maven.org/maven2/org/mandas/docker-client/8.0.3)** < [9.0.3](https://repo1.maven.org/maven2/org/mandas/docker-client/9.0.3/)
  - [org.mortbay.jasper](https://repo1.maven.org/maven2/org/mortbay/jasper/)
     - [apache-el](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-el/) **[9.0.96](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-el/9.0.96)** < [11.0.4](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-el/11.0.4/)
     - [apache-el](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-el/) **[10.1.31](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-el/10.1.31)** < [11.0.4](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-el/11.0.4/)
@@ -87,7 +87,7 @@
  - [com.glazedlists](https://repo1.maven.org/maven2/com/glazedlists/)
     - [glazedlists](https://repo1.maven.org/maven2/com/glazedlists/glazedlists/) **[1.11.0](https://repo1.maven.org/maven2/com/glazedlists/glazedlists/1.11.0)**
  - [com.google.errorprone](https://repo1.maven.org/maven2/com/google/errorprone/)
-    - [error_prone_annotations](https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/) **[2.36.0](https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.36.0)**
+    - [error_prone_annotations](https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/) **[2.37.0](https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.37.0)**
  - [com.google.inject](https://repo1.maven.org/maven2/com/google/inject/)
     - [guice](https://repo1.maven.org/maven2/com/google/inject/guice/) **[7.0.0](https://repo1.maven.org/maven2/com/google/inject/guice/7.0.0)**
  - [com.google.inject.extensions](https://repo1.maven.org/maven2/com/google/inject/extensions/)
@@ -178,7 +178,7 @@
     - [antlr4-runtime](https://repo1.maven.org/maven2/org/antlr/antlr4-runtime/) **[4.13.2](https://repo1.maven.org/maven2/org/antlr/antlr4-runtime/4.13.2)**
  - [org.apache.commons](https://repo1.maven.org/maven2/org/apache/commons/)
     - [commons-collections4](https://repo1.maven.org/maven2/org/apache/commons/commons-collections4/) **[4.4](https://repo1.maven.org/maven2/org/apache/commons/commons-collections4/4.4)**
-    - [commons-csv](https://repo1.maven.org/maven2/org/apache/commons/commons-csv/) **[1.13.0](https://repo1.maven.org/maven2/org/apache/commons/commons-csv/1.13.0)**
+    - [commons-csv](https://repo1.maven.org/maven2/org/apache/commons/commons-csv/) **[1.14.0](https://repo1.maven.org/maven2/org/apache/commons/commons-csv/1.14.0)**
     - [commons-fileupload2-core](https://repo1.maven.org/maven2/org/apache/commons/commons-fileupload2-core/) **[2.0.0-M2](https://repo1.maven.org/maven2/org/apache/commons/commons-fileupload2-core/2.0.0-M2)**
     - [commons-fileupload2-jakarta-servlet5](https://repo1.maven.org/maven2/org/apache/commons/commons-fileupload2-jakarta-servlet5/) **[2.0.0-M2](https://repo1.maven.org/maven2/org/apache/commons/commons-fileupload2-jakarta-servlet5/2.0.0-M2)**
     - [commons-fileupload2-jakarta-servlet6](https://repo1.maven.org/maven2/org/apache/commons/commons-fileupload2-jakarta-servlet6/) **[2.0.0-M2](https://repo1.maven.org/maven2/org/apache/commons/commons-fileupload2-jakarta-servlet6/2.0.0-M2)**

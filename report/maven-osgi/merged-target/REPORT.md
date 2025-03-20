@@ -101,10 +101,10 @@
  - [com.google.code.gson](https://repo1.maven.org/maven2/com/google/code/gson/)
     - [gson](https://repo1.maven.org/maven2/com/google/code/gson/gson/) **[2.12.1](https://repo1.maven.org/maven2/com/google/code/gson/gson/2.12.1)**
  - [com.google.errorprone](https://repo1.maven.org/maven2/com/google/errorprone/)
-    - [error_prone_annotations](https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/) **[2.36.0](https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.36.0)**
+    - [error_prone_annotations](https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/) **[2.37.0](https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.37.0)**
  - [com.google.guava](https://repo1.maven.org/maven2/com/google/guava/)
-    - [failureaccess](https://repo1.maven.org/maven2/com/google/guava/failureaccess/) **[1.0.2](https://repo1.maven.org/maven2/com/google/guava/failureaccess/1.0.2)**
-    - [guava](https://repo1.maven.org/maven2/com/google/guava/guava/) **[33.4.0-jre](https://repo1.maven.org/maven2/com/google/guava/guava/33.4.0-jre)**
+    - [failureaccess](https://repo1.maven.org/maven2/com/google/guava/failureaccess/) **[1.0.3](https://repo1.maven.org/maven2/com/google/guava/failureaccess/1.0.3)**
+    - [guava](https://repo1.maven.org/maven2/com/google/guava/guava/) **[33.4.5-jre](https://repo1.maven.org/maven2/com/google/guava/guava/33.4.5-jre)**
  - [com.google.inject](https://repo1.maven.org/maven2/com/google/inject/)
     - [guice](https://repo1.maven.org/maven2/com/google/inject/guice/) **[7.0.0](https://repo1.maven.org/maven2/com/google/inject/guice/7.0.0)**
  - [com.google.inject.extensions](https://repo1.maven.org/maven2/com/google/inject/extensions/)
@@ -238,7 +238,7 @@
  - [org.apache.commons](https://repo1.maven.org/maven2/org/apache/commons/)
     - [commons-collections4](https://repo1.maven.org/maven2/org/apache/commons/commons-collections4/) **[4.4](https://repo1.maven.org/maven2/org/apache/commons/commons-collections4/4.4)**
     - [commons-compress](https://repo1.maven.org/maven2/org/apache/commons/commons-compress/) **[1.27.1](https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.27.1)**
-    - [commons-csv](https://repo1.maven.org/maven2/org/apache/commons/commons-csv/) **[1.13.0](https://repo1.maven.org/maven2/org/apache/commons/commons-csv/1.13.0)**
+    - [commons-csv](https://repo1.maven.org/maven2/org/apache/commons/commons-csv/) **[1.14.0](https://repo1.maven.org/maven2/org/apache/commons/commons-csv/1.14.0)**
     - [commons-fileupload2-core](https://repo1.maven.org/maven2/org/apache/commons/commons-fileupload2-core/) **[2.0.0-M2](https://repo1.maven.org/maven2/org/apache/commons/commons-fileupload2-core/2.0.0-M2)**
     - [commons-fileupload2-jakarta-servlet5](https://repo1.maven.org/maven2/org/apache/commons/commons-fileupload2-jakarta-servlet5/) **[2.0.0-M2](https://repo1.maven.org/maven2/org/apache/commons/commons-fileupload2-jakarta-servlet5/2.0.0-M2)**
     - [commons-fileupload2-jakarta-servlet6](https://repo1.maven.org/maven2/org/apache/commons/commons-fileupload2-jakarta-servlet6/) **[2.0.0-M2](https://repo1.maven.org/maven2/org/apache/commons/commons-fileupload2-jakarta-servlet6/2.0.0-M2)**
@@ -361,7 +361,7 @@
     - [junit-vintage-engine](https://repo1.maven.org/maven2/org/junit/vintage/junit-vintage-engine/) **[5.12.1](https://repo1.maven.org/maven2/org/junit/vintage/junit-vintage-engine/5.12.1)**
  - [org.mandas](https://repo1.maven.org/maven2/org/mandas/)
     - [docker-client](https://repo1.maven.org/maven2/org/mandas/docker-client/) **[8.0.3](https://repo1.maven.org/maven2/org/mandas/docker-client/8.0.3)**
-    - [docker-client](https://repo1.maven.org/maven2/org/mandas/docker-client/) **[9.0.2](https://repo1.maven.org/maven2/org/mandas/docker-client/9.0.2)**
+    - [docker-client](https://repo1.maven.org/maven2/org/mandas/docker-client/) **[9.0.3](https://repo1.maven.org/maven2/org/mandas/docker-client/9.0.3)**
  - [org.mockito](https://repo1.maven.org/maven2/org/mockito/)
     - [mockito-core](https://repo1.maven.org/maven2/org/mockito/mockito-core/) **[5.16.1](https://repo1.maven.org/maven2/org/mockito/mockito-core/5.16.1)**
     - [mockito-junit-jupiter](https://repo1.maven.org/maven2/org/mockito/mockito-junit-jupiter/) **[5.16.1](https://repo1.maven.org/maven2/org/mockito/mockito-junit-jupiter/5.16.1)**

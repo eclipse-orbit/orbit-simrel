@@ -3,7 +3,7 @@
 <target name="Maven" sequenceNumber="1">
   <locations>
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="error" type="Maven">
-      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.36.0.v20250318-1700">
+      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.36.0.v20250320-1400">
         <description>This feature's dependencies are pulled directly from Maven central.</description>
         <copyright>
 Copyright (c) 2025 Eclipse contributors and others.
@@ -16,7 +16,7 @@ https://www.eclipse.org/legal/epl-2.0/
 SPDX-License-Identifier: EPL-2.0
         </copyright>
         <license url="https://www.eclipse.org/legal/epl-2.0/"/>
-        <!-- SHA1 9e3970db56524e55945b1130b332414d747f2588 -->
+        <!-- SHA1 bfb719a449f59094d080146bba6b53109657c54d -->
       </feature>
       <dependencies>
         <dependency>
@@ -263,19 +263,19 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>com.google.errorprone</groupId>
           <artifactId>error_prone_annotations</artifactId>
-          <version>2.36.0</version>
+          <version>2.37.0</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>com.google.guava</groupId>
           <artifactId>failureaccess</artifactId>
-          <version>1.0.2</version>
+          <version>1.0.3</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>com.google.guava</groupId>
           <artifactId>guava</artifactId>
-          <version>33.4.0-jre</version>
+          <version>33.4.5-jre</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -761,7 +761,7 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>org.apache.commons</groupId>
           <artifactId>commons-csv</artifactId>
-          <version>1.13.0</version>
+          <version>1.14.0</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -1301,7 +1301,7 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>org.mandas</groupId>
           <artifactId>docker-client</artifactId>
-          <version>9.0.2</version>
+          <version>9.0.3</version>
           <type>jar</type>
         </dependency>
         <dependency>

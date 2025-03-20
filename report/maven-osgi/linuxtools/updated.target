@@ -60,6 +60,7 @@
 <unit id="org.eclipse.zest.feature.group" version="0.0.0"/>
 <unit id="org.eclipse.lsp4e" version="0.0.0"/>
 <unit id="org.eclipse.tm4e.feature.feature.group" version="0.0.0"/>
+<unit id="org.eclipse.tm4e.language_pack.feature.feature.group" version="0.0.0"/>
 <repository location="https://download.eclipse.org/releases/latest/"/>
 </location>
 <location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="planner" includeSource="true" type="InstallableUnit">
@@ -156,13 +157,13 @@
 			<dependency>
 				<groupId>com.google.guava</groupId>
 				<artifactId>failureaccess</artifactId>
-				<version>1.0.2</version>
+				<version>1.0.3</version>
 				<type>jar</type>
 			</dependency>
 			<dependency>
 				<groupId>com.google.guava</groupId>
 				<artifactId>guava</artifactId>
-				<version>33.4.0-jre</version>
+				<version>33.4.5-jre</version>
 				<type>jar</type>
 			</dependency>
 			<dependency>
@@ -276,7 +277,7 @@
 			<dependency>
 				<groupId>org.mandas</groupId>
 				<artifactId>docker-client</artifactId>
-				<version>9.0.2</version>
+				<version>9.0.3</version>
 				<type>jar</type>
 			</dependency>
 		</dependencies>
