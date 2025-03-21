@@ -4,8 +4,6 @@
  - [com.google.guava](https://repo1.maven.org/maven2/com/google/guava/)
     - [failureaccess](https://repo1.maven.org/maven2/com/google/guava/failureaccess/) **[1.0.2](https://repo1.maven.org/maven2/com/google/guava/failureaccess/1.0.2)** < [1.0.3](https://repo1.maven.org/maven2/com/google/guava/failureaccess/1.0.3/)
     - [guava](https://repo1.maven.org/maven2/com/google/guava/guava/) **[33.4.0-jre](https://repo1.maven.org/maven2/com/google/guava/guava/33.4.0-jre)** < [33.4.5-jre](https://repo1.maven.org/maven2/com/google/guava/guava/33.4.5-jre/)
- - [org.mandas](https://repo1.maven.org/maven2/org/mandas/)
-    - [docker-client](https://repo1.maven.org/maven2/org/mandas/docker-client/) **[9.0.2](https://repo1.maven.org/maven2/org/mandas/docker-client/9.0.2)** < [9.0.3](https://repo1.maven.org/maven2/org/mandas/docker-client/9.0.3/)
 
 ## Major Updates
  - [jakarta.ws.rs](https://repo1.maven.org/maven2/jakarta/ws/rs/)
@@ -52,7 +50,7 @@
     - [osgi-resource-locator](https://repo1.maven.org/maven2/org/glassfish/hk2/osgi-resource-locator/) **[1.0.3](https://repo1.maven.org/maven2/org/glassfish/hk2/osgi-resource-locator/1.0.3)**
     - [osgi-resource-locator](https://repo1.maven.org/maven2/org/glassfish/hk2/osgi-resource-locator/) **[1.0.3](https://repo1.maven.org/maven2/org/glassfish/hk2/osgi-resource-locator/1.0.3)**
  - [org.glassfish.jersey.connectors](https://repo1.maven.org/maven2/org/glassfish/jersey/connectors/)
-    - [jersey-apache5-connector](https://repo1.maven.org/maven2/org/glassfish/jersey/connectors/jersey-apache5-connector/) **[3.1.10](https://repo1.maven.org/maven2/org/glassfish/jersey/connectors/jersey-apache5-connector/3.1.10)**
+    - [jersey-apache-connector](https://repo1.maven.org/maven2/org/glassfish/jersey/connectors/jersey-apache-connector/) **[3.1.10](https://repo1.maven.org/maven2/org/glassfish/jersey/connectors/jersey-apache-connector/3.1.10)**
  - [org.glassfish.jersey.core](https://repo1.maven.org/maven2/org/glassfish/jersey/core/)
     - [jersey-client](https://repo1.maven.org/maven2/org/glassfish/jersey/core/jersey-client/) **[3.1.10](https://repo1.maven.org/maven2/org/glassfish/jersey/core/jersey-client/3.1.10)**
     - [jersey-common](https://repo1.maven.org/maven2/org/glassfish/jersey/core/jersey-common/) **[3.1.10](https://repo1.maven.org/maven2/org/glassfish/jersey/core/jersey-common/3.1.10)**
@@ -66,4 +64,4 @@
  - [org.javassist](https://repo1.maven.org/maven2/org/javassist/)
     - [javassist](https://repo1.maven.org/maven2/org/javassist/javassist/) **[3.30.2-GA](https://repo1.maven.org/maven2/org/javassist/javassist/3.30.2-GA)**
  - [org.mandas](https://repo1.maven.org/maven2/org/mandas/)
-    - [docker-client](https://repo1.maven.org/maven2/org/mandas/docker-client/) **[9.0.2](https://repo1.maven.org/maven2/org/mandas/docker-client/9.0.2)**
+    - [docker-client](https://repo1.maven.org/maven2/org/mandas/docker-client/) **[9.0.3](https://repo1.maven.org/maven2/org/mandas/docker-client/9.0.3)**

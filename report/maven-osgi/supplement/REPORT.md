@@ -216,6 +216,7 @@
  - [org.glassfish.jersey.connectors](https://repo1.maven.org/maven2/org/glassfish/jersey/connectors/)
     - [jersey-apache-connector](https://repo1.maven.org/maven2/org/glassfish/jersey/connectors/jersey-apache-connector/) **[2.46](https://repo1.maven.org/maven2/org/glassfish/jersey/connectors/jersey-apache-connector/2.46)**
     - [jersey-apache-connector](https://repo1.maven.org/maven2/org/glassfish/jersey/connectors/jersey-apache-connector/) **[3.1.10](https://repo1.maven.org/maven2/org/glassfish/jersey/connectors/jersey-apache-connector/3.1.10)**
+    - [jersey-apache5-connector](https://repo1.maven.org/maven2/org/glassfish/jersey/connectors/jersey-apache5-connector/) **[3.1.10](https://repo1.maven.org/maven2/org/glassfish/jersey/connectors/jersey-apache5-connector/3.1.10)**
  - [org.glassfish.jersey.containers](https://repo1.maven.org/maven2/org/glassfish/jersey/containers/)
     - [jersey-container-servlet](https://repo1.maven.org/maven2/org/glassfish/jersey/containers/jersey-container-servlet/) **[2.46](https://repo1.maven.org/maven2/org/glassfish/jersey/containers/jersey-container-servlet/2.46)**
     - [jersey-container-servlet-core](https://repo1.maven.org/maven2/org/glassfish/jersey/containers/jersey-container-servlet-core/) **[2.46](https://repo1.maven.org/maven2/org/glassfish/jersey/containers/jersey-container-servlet-core/2.46)**

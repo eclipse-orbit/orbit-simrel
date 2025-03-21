@@ -605,6 +605,12 @@
           <type>jar</type>
         </dependency>
         <dependency>
+          <groupId>org.glassfish.jersey.connectors</groupId>
+          <artifactId>jersey-apache5-connector</artifactId>
+          <version>3.1.10</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
           <groupId>org.glassfish.jersey.containers</groupId>
           <artifactId>jersey-container-servlet</artifactId>
           <version>2.46</version>
