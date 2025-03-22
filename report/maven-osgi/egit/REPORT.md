@@ -1,6 +1,9 @@
 # Target Platform: [egit](https://raw.githubusercontent.com/eclipse-egit/egit/master/org.eclipse.egit.target/maven/dependencies.tpd)
 
 ## Minor Updates
+ - [net.bytebuddy](https://repo1.maven.org/maven2/net/bytebuddy/)
+    - [byte-buddy](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/) **[1.17.2](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.17.2)** < [1.17.3](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.17.3/)
+    - [byte-buddy-agent](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/) **[1.17.2](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.17.2)** < [1.17.3](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.17.3/)
  - [net.java.dev.jna](https://repo1.maven.org/maven2/net/java/dev/jna/)
     - [jna](https://repo1.maven.org/maven2/net/java/dev/jna/jna/) **[5.16.0](https://repo1.maven.org/maven2/net/java/dev/jna/jna/5.16.0)** < [5.17.0](https://repo1.maven.org/maven2/net/java/dev/jna/jna/5.17.0/)
     - [jna-platform](https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/) **[5.16.0](https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/5.16.0)** < [5.17.0](https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/5.17.0/)
