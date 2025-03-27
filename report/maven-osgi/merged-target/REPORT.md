@@ -104,7 +104,7 @@
     - [error_prone_annotations](https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/) **[2.37.0](https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.37.0)**
  - [com.google.guava](https://repo1.maven.org/maven2/com/google/guava/)
     - [failureaccess](https://repo1.maven.org/maven2/com/google/guava/failureaccess/) **[1.0.3](https://repo1.maven.org/maven2/com/google/guava/failureaccess/1.0.3)**
-    - [guava](https://repo1.maven.org/maven2/com/google/guava/guava/) **[33.4.5-jre](https://repo1.maven.org/maven2/com/google/guava/guava/33.4.5-jre)**
+    - [guava](https://repo1.maven.org/maven2/com/google/guava/guava/) **[33.4.6-jre](https://repo1.maven.org/maven2/com/google/guava/guava/33.4.6-jre)**
  - [com.google.inject](https://repo1.maven.org/maven2/com/google/inject/)
     - [guice](https://repo1.maven.org/maven2/com/google/inject/guice/) **[7.0.0](https://repo1.maven.org/maven2/com/google/inject/guice/7.0.0)**
  - [com.google.inject.extensions](https://repo1.maven.org/maven2/com/google/inject/extensions/)
