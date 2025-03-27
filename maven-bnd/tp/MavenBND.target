@@ -1010,7 +1010,7 @@ Export-Package:         *;version="${version}";-noimport:=true
 <!-- ______________________________________________________ org.apache.httpcomponents.client5.httpclient5 __________________________________________________________________________________________________-->
 
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
-      <feature id="org.eclipse.orbit.maven.org.apache.httpcomponents.client5.httpclient5" label="Orbit Maven BND org.apache.httpcomponents.client5.httpclient5" provider-name="Eclipse Orbit" version="4.36.0">
+      <feature id="org.eclipse.orbit.maven.org.apache.httpcomponents.client5.httpclient5" label="Orbit Maven BND org.apache.httpcomponents.client5.httpclient5" provider-name="Eclipse Orbit" version="4.36.0.v20250327-0900">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
 Copyright (c) 2025 Eclipse contributors and others.
@@ -1028,17 +1028,17 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>org.apache.httpcomponents.client5</groupId>
           <artifactId>httpclient5</artifactId>
-          <version>5.4.2</version>
+          <version>5.4.3</version>
           <type>jar</type>
         </dependency>
       </dependencies>
       <instructions>
-<!-- SHA1 30ab728fe6a247df8908e86a6496a287d7b69f1c -->
+<!-- SHA1 0b27ac463d32b19f7228d2aa9309140ae01324b5 -->
 <![CDATA[
 Bundle-Name:            Bundle ${mvnGroupId} : ${mvnArtifactId}
 version:                ${versionmask;===;${version_cleanup;${mvnVersion}}}
 Bundle-SymbolicName:    ${mvnGroupId}.${mvnArtifactId}
-Bundle-Version:         ${version}.v20250203-1000
+Bundle-Version:         ${version}.v20250327-0900
 Eclipse-Wrapped-Bundle: ${mvnGroupId}:${mvnArtifactId}:${mvnVersion}
 Import-Package:         org.brotli.dec|org.conscrypt;resolution:=optional,\
                         org.slf4j.*;version=!,\
