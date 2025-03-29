@@ -230,7 +230,7 @@ Export-Package:         *;version="${version}";-noimport:=true
 <!-- _______________________________________________________ org.jruby.joni _________________________________________________________________________________________________-->
 
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
-      <feature id="org.eclipse.orbit.maven.org.jruby.joni" label="Orbit Maven BND org.jruby.joni" provider-name="Eclipse Orbit" version="4.36.0.v20250307-1000">
+      <feature id="org.eclipse.orbit.maven.org.jruby.joni" label="Orbit Maven BND org.jruby.joni" provider-name="Eclipse Orbit" version="4.36.0.v20250329-1000">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
 Copyright (c) 2025 Eclipse contributors and others.
@@ -248,17 +248,17 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>org.jruby.joni</groupId>
           <artifactId>joni</artifactId>
-          <version>2.2.5</version>
+          <version>2.2.6</version>
           <type>jar</type>
         </dependency>
       </dependencies>
       <instructions>
-<!-- SHA1 f953533f284f5e1de1464777179fc2697990f2d7 -->
+<!-- SHA1 4f34b0ca024dc0bfc7cc60440b4980d6de66d864 -->
 <![CDATA[
 Bundle-Name:            Bundle ${mvnGroupId} : ${mvnArtifactId}
 version:                ${versionmask;===;${version_cleanup;${mvnVersion}}}
 Bundle-SymbolicName:    org.${mvnArtifactId}
-Bundle-Version:         ${version}.v20250307-1000
+Bundle-Version:         ${version}.v20250329-1000
 Eclipse-Wrapped-Bundle: ${mvnGroupId}:${mvnArtifactId}:${mvnVersion}
 Import-Package:         *
 Export-Package:         *;version="${version}";-noimport:=true

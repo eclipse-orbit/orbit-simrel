@@ -123,7 +123,7 @@
  - [org.jruby.jcodings](https://repo1.maven.org/maven2/org/jruby/jcodings/)
     - [jcodings](https://repo1.maven.org/maven2/org/jruby/jcodings/jcodings/) **[1.0.63](https://repo1.maven.org/maven2/org/jruby/jcodings/jcodings/1.0.63)**
  - [org.jruby.joni](https://repo1.maven.org/maven2/org/jruby/joni/)
-    - [joni](https://repo1.maven.org/maven2/org/jruby/joni/joni/) **[2.2.5](https://repo1.maven.org/maven2/org/jruby/joni/joni/2.2.5)**
+    - [joni](https://repo1.maven.org/maven2/org/jruby/joni/joni/) **[2.2.6](https://repo1.maven.org/maven2/org/jruby/joni/joni/2.2.6)**
  - [org.mozilla](https://repo1.maven.org/maven2/org/mozilla/)
     - [rhino](https://repo1.maven.org/maven2/org/mozilla/rhino/) **[1.8.0](https://repo1.maven.org/maven2/org/mozilla/rhino/1.8.0)**
  - [org.pushingpixels](https://repo1.maven.org/maven2/org/pushingpixels/)
