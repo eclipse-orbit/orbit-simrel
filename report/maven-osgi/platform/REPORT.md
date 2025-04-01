@@ -55,8 +55,8 @@
  - [javax.servlet.jsp](https://repo1.maven.org/maven2/javax/servlet/jsp/)
     - [javax.servlet.jsp-api](https://repo1.maven.org/maven2/javax/servlet/jsp/javax.servlet.jsp-api/) **[2.3.3](https://repo1.maven.org/maven2/javax/servlet/jsp/javax.servlet.jsp-api/2.3.3)**
  - [net.bytebuddy](https://repo1.maven.org/maven2/net/bytebuddy/)
-    - [byte-buddy](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/) **[1.17.4](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.17.4)**
-    - [byte-buddy-agent](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/) **[1.17.4](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.17.4)**
+    - [byte-buddy](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/) **[1.17.5](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.17.5)**
+    - [byte-buddy-agent](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/) **[1.17.5](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.17.5)**
  - [net.java.dev.jna](https://repo1.maven.org/maven2/net/java/dev/jna/)
     - [jna-platform](https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/) **[5.17.0](https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/5.17.0)**
  - [org.apache.aries.spifly](https://repo1.maven.org/maven2/org/apache/aries/spifly/)
@@ -168,11 +168,11 @@
     - [org.osgi.util.xml](https://repo1.maven.org/maven2/org/osgi/org.osgi.util.xml/) **[1.0.2](https://repo1.maven.org/maven2/org/osgi/org.osgi.util.xml/1.0.2)**
     - [osgi.annotation](https://repo1.maven.org/maven2/org/osgi/osgi.annotation/) **[8.1.0](https://repo1.maven.org/maven2/org/osgi/osgi.annotation/8.1.0)**
  - [org.ow2.asm](https://repo1.maven.org/maven2/org/ow2/asm/)
-    - [asm](https://repo1.maven.org/maven2/org/ow2/asm/asm/) **[9.7.1](https://repo1.maven.org/maven2/org/ow2/asm/asm/9.7.1)**
-    - [asm-analysis](https://repo1.maven.org/maven2/org/ow2/asm/asm-analysis/) **[9.7.1](https://repo1.maven.org/maven2/org/ow2/asm/asm-analysis/9.7.1)**
-    - [asm-commons](https://repo1.maven.org/maven2/org/ow2/asm/asm-commons/) **[9.7.1](https://repo1.maven.org/maven2/org/ow2/asm/asm-commons/9.7.1)**
-    - [asm-tree](https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/) **[9.7.1](https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/9.7.1)**
-    - [asm-util](https://repo1.maven.org/maven2/org/ow2/asm/asm-util/) **[9.7.1](https://repo1.maven.org/maven2/org/ow2/asm/asm-util/9.7.1)**
+    - [asm](https://repo1.maven.org/maven2/org/ow2/asm/asm/) **[9.8](https://repo1.maven.org/maven2/org/ow2/asm/asm/9.8)**
+    - [asm-analysis](https://repo1.maven.org/maven2/org/ow2/asm/asm-analysis/) **[9.8](https://repo1.maven.org/maven2/org/ow2/asm/asm-analysis/9.8)**
+    - [asm-commons](https://repo1.maven.org/maven2/org/ow2/asm/asm-commons/) **[9.8](https://repo1.maven.org/maven2/org/ow2/asm/asm-commons/9.8)**
+    - [asm-tree](https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/) **[9.8](https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/9.8)**
+    - [asm-util](https://repo1.maven.org/maven2/org/ow2/asm/asm-util/) **[9.8](https://repo1.maven.org/maven2/org/ow2/asm/asm-util/9.8)**
  - [org.ow2.sat4j](https://repo1.maven.org/maven2/org/ow2/sat4j/)
     - [org.ow2.sat4j.core](https://repo1.maven.org/maven2/org/ow2/sat4j/org.ow2.sat4j.core/) **[2.3.6](https://repo1.maven.org/maven2/org/ow2/sat4j/org.ow2.sat4j.core/2.3.6)**
     - [org.ow2.sat4j.pb](https://repo1.maven.org/maven2/org/ow2/sat4j/org.ow2.sat4j.pb/) **[2.3.6](https://repo1.maven.org/maven2/org/ow2/sat4j/org.ow2.sat4j.pb/2.3.6)**

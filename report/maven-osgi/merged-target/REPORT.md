@@ -126,7 +126,7 @@
     - [jaxb-osgi](https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-osgi/) **[2.3.9](https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-osgi/2.3.9)**
     - [jaxb-osgi](https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-osgi/) **[4.0.5](https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-osgi/4.0.5)**
  - [com.vegardit.no-npe](https://repo1.maven.org/maven2/com/vegardit/no-npe/)
-    - [no-npe-eea-all](https://repo1.maven.org/maven2/com/vegardit/no-npe/no-npe-eea-all/) **[1.3.4](https://repo1.maven.org/maven2/com/vegardit/no-npe/no-npe-eea-all/1.3.4)**
+    - [no-npe-eea-all](https://repo1.maven.org/maven2/com/vegardit/no-npe/no-npe-eea-all/) **[1.3.5](https://repo1.maven.org/maven2/com/vegardit/no-npe/no-npe-eea-all/1.3.5)**
  - [commons-beanutils](https://repo1.maven.org/maven2/commons-beanutils/)
     - [commons-beanutils](https://repo1.maven.org/maven2/commons-beanutils/commons-beanutils/) **[1.10.1](https://repo1.maven.org/maven2/commons-beanutils/commons-beanutils/1.10.1)**
  - [commons-cli](https://repo1.maven.org/maven2/commons-cli/)
@@ -225,8 +225,8 @@
  - [lpg.runtime](https://repo1.maven.org/maven2/lpg/runtime/)
     - [java](https://repo1.maven.org/maven2/lpg/runtime/java/) **[2.0.17-v201004271640](https://repo1.maven.org/maven2/lpg/runtime/java/2.0.17-v201004271640)**
  - [net.bytebuddy](https://repo1.maven.org/maven2/net/bytebuddy/)
-    - [byte-buddy](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/) **[1.17.4](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.17.4)**
-    - [byte-buddy-agent](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/) **[1.17.4](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.17.4)**
+    - [byte-buddy](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/) **[1.17.5](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.17.5)**
+    - [byte-buddy-agent](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/) **[1.17.5](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.17.5)**
  - [net.i2p.crypto](https://repo1.maven.org/maven2/net/i2p/crypto/)
     - [eddsa](https://repo1.maven.org/maven2/net/i2p/crypto/eddsa/) **[0.3.0](https://repo1.maven.org/maven2/net/i2p/crypto/eddsa/0.3.0)**
  - [net.java.dev.jna](https://repo1.maven.org/maven2/net/java/dev/jna/)

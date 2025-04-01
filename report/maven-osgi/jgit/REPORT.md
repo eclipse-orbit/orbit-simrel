@@ -2,8 +2,8 @@
 
 ## Minor Updates
  - [net.bytebuddy](https://repo1.maven.org/maven2/net/bytebuddy/)
-    - [byte-buddy](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/) **[1.17.3](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.17.3)** < [1.17.4](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.17.4/)
-    - [byte-buddy-agent](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/) **[1.17.3](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.17.3)** < [1.17.4](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.17.4/)
+    - [byte-buddy](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/) **[1.17.3](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.17.3)** < [1.17.5](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.17.5/)
+    - [byte-buddy-agent](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/) **[1.17.3](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.17.3)** < [1.17.5](https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.17.5/)
 
 ## Major Updates
  - [org.hamcrest](https://repo1.maven.org/maven2/org/hamcrest/)

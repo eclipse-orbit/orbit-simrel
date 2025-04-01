@@ -2,4 +2,4 @@
 
 ## Content
  - [com.vegardit.no-npe](https://repo1.maven.org/maven2/com/vegardit/no-npe/)
-    - [no-npe-eea-all](https://repo1.maven.org/maven2/com/vegardit/no-npe/no-npe-eea-all/) **[1.3.4](https://repo1.maven.org/maven2/com/vegardit/no-npe/no-npe-eea-all/1.3.4)**
+    - [no-npe-eea-all](https://repo1.maven.org/maven2/com/vegardit/no-npe/no-npe-eea-all/) **[1.3.5](https://repo1.maven.org/maven2/com/vegardit/no-npe/no-npe-eea-all/1.3.5)**
