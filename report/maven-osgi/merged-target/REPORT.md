@@ -335,9 +335,9 @@
     - [hamcrest](https://repo1.maven.org/maven2/org/hamcrest/hamcrest/) **[2.2](https://repo1.maven.org/maven2/org/hamcrest/hamcrest/2.2)**
     - [hamcrest](https://repo1.maven.org/maven2/org/hamcrest/hamcrest/) **[3.0](https://repo1.maven.org/maven2/org/hamcrest/hamcrest/3.0)**
  - [org.jacoco](https://repo1.maven.org/maven2/org/jacoco/)
-    - [org.jacoco.agent](https://repo1.maven.org/maven2/org/jacoco/org.jacoco.agent/) **[0.8.12](https://repo1.maven.org/maven2/org/jacoco/org.jacoco.agent/0.8.12)**
-    - [org.jacoco.core](https://repo1.maven.org/maven2/org/jacoco/org.jacoco.core/) **[0.8.12](https://repo1.maven.org/maven2/org/jacoco/org.jacoco.core/0.8.12)**
-    - [org.jacoco.report](https://repo1.maven.org/maven2/org/jacoco/org.jacoco.report/) **[0.8.12](https://repo1.maven.org/maven2/org/jacoco/org.jacoco.report/0.8.12)**
+    - [org.jacoco.agent](https://repo1.maven.org/maven2/org/jacoco/org.jacoco.agent/) **[0.8.13](https://repo1.maven.org/maven2/org/jacoco/org.jacoco.agent/0.8.13)**
+    - [org.jacoco.core](https://repo1.maven.org/maven2/org/jacoco/org.jacoco.core/) **[0.8.13](https://repo1.maven.org/maven2/org/jacoco/org.jacoco.core/0.8.13)**
+    - [org.jacoco.report](https://repo1.maven.org/maven2/org/jacoco/org.jacoco.report/) **[0.8.13](https://repo1.maven.org/maven2/org/jacoco/org.jacoco.report/0.8.13)**
  - [org.javassist](https://repo1.maven.org/maven2/org/javassist/)
     - [javassist](https://repo1.maven.org/maven2/org/javassist/javassist/) **[3.30.2-GA](https://repo1.maven.org/maven2/org/javassist/javassist/3.30.2-GA)**
  - [org.json](https://repo1.maven.org/maven2/org/json/)
@@ -426,11 +426,11 @@
     - [org.osgi.util.xml](https://repo1.maven.org/maven2/org/osgi/org.osgi.util.xml/) **[1.0.2](https://repo1.maven.org/maven2/org/osgi/org.osgi.util.xml/1.0.2)**
     - [osgi.annotation](https://repo1.maven.org/maven2/org/osgi/osgi.annotation/) **[8.1.0](https://repo1.maven.org/maven2/org/osgi/osgi.annotation/8.1.0)**
  - [org.ow2.asm](https://repo1.maven.org/maven2/org/ow2/asm/)
-    - [asm](https://repo1.maven.org/maven2/org/ow2/asm/asm/) **[9.7.1](https://repo1.maven.org/maven2/org/ow2/asm/asm/9.7.1)**
-    - [asm-analysis](https://repo1.maven.org/maven2/org/ow2/asm/asm-analysis/) **[9.7.1](https://repo1.maven.org/maven2/org/ow2/asm/asm-analysis/9.7.1)**
-    - [asm-commons](https://repo1.maven.org/maven2/org/ow2/asm/asm-commons/) **[9.7.1](https://repo1.maven.org/maven2/org/ow2/asm/asm-commons/9.7.1)**
-    - [asm-tree](https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/) **[9.7.1](https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/9.7.1)**
-    - [asm-util](https://repo1.maven.org/maven2/org/ow2/asm/asm-util/) **[9.7.1](https://repo1.maven.org/maven2/org/ow2/asm/asm-util/9.7.1)**
+    - [asm](https://repo1.maven.org/maven2/org/ow2/asm/asm/) **[9.8](https://repo1.maven.org/maven2/org/ow2/asm/asm/9.8)**
+    - [asm-analysis](https://repo1.maven.org/maven2/org/ow2/asm/asm-analysis/) **[9.8](https://repo1.maven.org/maven2/org/ow2/asm/asm-analysis/9.8)**
+    - [asm-commons](https://repo1.maven.org/maven2/org/ow2/asm/asm-commons/) **[9.8](https://repo1.maven.org/maven2/org/ow2/asm/asm-commons/9.8)**
+    - [asm-tree](https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/) **[9.8](https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/9.8)**
+    - [asm-util](https://repo1.maven.org/maven2/org/ow2/asm/asm-util/) **[9.8](https://repo1.maven.org/maven2/org/ow2/asm/asm-util/9.8)**
  - [org.ow2.sat4j](https://repo1.maven.org/maven2/org/ow2/sat4j/)
     - [org.ow2.sat4j.core](https://repo1.maven.org/maven2/org/ow2/sat4j/org.ow2.sat4j.core/) **[2.3.6](https://repo1.maven.org/maven2/org/ow2/sat4j/org.ow2.sat4j.core/2.3.6)**
     - [org.ow2.sat4j.pb](https://repo1.maven.org/maven2/org/ow2/sat4j/org.ow2.sat4j.pb/) **[2.3.6](https://repo1.maven.org/maven2/org/ow2/sat4j/org.ow2.sat4j.pb/2.3.6)**

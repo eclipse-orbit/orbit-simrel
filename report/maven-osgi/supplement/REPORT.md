@@ -234,9 +234,9 @@
     - [hamcrest](https://repo1.maven.org/maven2/org/hamcrest/hamcrest/) **[2.2](https://repo1.maven.org/maven2/org/hamcrest/hamcrest/2.2)**
     - [hamcrest](https://repo1.maven.org/maven2/org/hamcrest/hamcrest/) **[3.0](https://repo1.maven.org/maven2/org/hamcrest/hamcrest/3.0)**
  - [org.jacoco](https://repo1.maven.org/maven2/org/jacoco/)
-    - [org.jacoco.agent](https://repo1.maven.org/maven2/org/jacoco/org.jacoco.agent/) **[0.8.12](https://repo1.maven.org/maven2/org/jacoco/org.jacoco.agent/0.8.12)**
-    - [org.jacoco.core](https://repo1.maven.org/maven2/org/jacoco/org.jacoco.core/) **[0.8.12](https://repo1.maven.org/maven2/org/jacoco/org.jacoco.core/0.8.12)**
-    - [org.jacoco.report](https://repo1.maven.org/maven2/org/jacoco/org.jacoco.report/) **[0.8.12](https://repo1.maven.org/maven2/org/jacoco/org.jacoco.report/0.8.12)**
+    - [org.jacoco.agent](https://repo1.maven.org/maven2/org/jacoco/org.jacoco.agent/) **[0.8.13](https://repo1.maven.org/maven2/org/jacoco/org.jacoco.agent/0.8.13)**
+    - [org.jacoco.core](https://repo1.maven.org/maven2/org/jacoco/org.jacoco.core/) **[0.8.13](https://repo1.maven.org/maven2/org/jacoco/org.jacoco.core/0.8.13)**
+    - [org.jacoco.report](https://repo1.maven.org/maven2/org/jacoco/org.jacoco.report/) **[0.8.13](https://repo1.maven.org/maven2/org/jacoco/org.jacoco.report/0.8.13)**
  - [org.json](https://repo1.maven.org/maven2/org/json/)
     - [json](https://repo1.maven.org/maven2/org/json/json/) **[20230227](https://repo1.maven.org/maven2/org/json/json/20230227)**
  - [org.mandas](https://repo1.maven.org/maven2/org/mandas/)

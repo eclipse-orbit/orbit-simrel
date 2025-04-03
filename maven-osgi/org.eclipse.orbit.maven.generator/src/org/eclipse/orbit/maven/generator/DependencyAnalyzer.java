@@ -91,6 +91,7 @@ public class DependencyAnalyzer {
 				getArgument(arguments, "-password"));
 
 		var ignores = getArguments(arguments, "-ignore");
+		// ignores.add("org.ow2.asm:.*:9.9");
 		var ignorePatterns = ignores.stream().map(Pattern::compile).collect(Collectors.toList());
 
 		var majorInclusions = getArguments(arguments, "-include-major");
@@ -146,6 +147,7 @@ public class DependencyAnalyzer {
 		}
 
 		var exclusions = getArguments(arguments, "-exclude");
+		// exclusions.add("org.ow2.asm:.*:9.9");
 		var exclusionPatterns = exclusions.stream().map(Pattern::compile).collect(Collectors.toList());
 		dependencies.removeIf(it -> {
 			return exclusionPatterns.stream().anyMatch(pattern -> it.matches(pattern));
