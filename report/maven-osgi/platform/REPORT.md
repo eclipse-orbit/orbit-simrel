@@ -122,7 +122,7 @@
  - [org.junit.vintage](https://repo1.maven.org/maven2/org/junit/vintage/)
     - [junit-vintage-engine](https://repo1.maven.org/maven2/org/junit/vintage/junit-vintage-engine/) **[5.12.1](https://repo1.maven.org/maven2/org/junit/vintage/junit-vintage-engine/5.12.1)**
  - [org.mockito](https://repo1.maven.org/maven2/org/mockito/)
-    - [mockito-core](https://repo1.maven.org/maven2/org/mockito/mockito-core/) **[5.16.1](https://repo1.maven.org/maven2/org/mockito/mockito-core/5.16.1)**
+    - [mockito-core](https://repo1.maven.org/maven2/org/mockito/mockito-core/) **[5.17.0](https://repo1.maven.org/maven2/org/mockito/mockito-core/5.17.0)**
  - [org.mortbay.jasper](https://repo1.maven.org/maven2/org/mortbay/jasper/)
     - [apache-el](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-el/) **[9.0.102](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-el/9.0.102)**
     - [apache-jsp](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-jsp/) **[9.0.102](https://repo1.maven.org/maven2/org/mortbay/jasper/apache-jsp/9.0.102)**

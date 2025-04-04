@@ -14,6 +14,8 @@
     - [jetty-util-ajax](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util-ajax/) **[12.0.18](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util-ajax/12.0.18)** < [12.0.19](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util-ajax/12.0.19/)
  - [org.eclipse.jetty.ee10](https://repo1.maven.org/maven2/org/eclipse/jetty/ee10/)
     - [jetty-ee10-servlet](https://repo1.maven.org/maven2/org/eclipse/jetty/ee10/jetty-ee10-servlet/) **[12.0.18](https://repo1.maven.org/maven2/org/eclipse/jetty/ee10/jetty-ee10-servlet/12.0.18)** < [12.0.19](https://repo1.maven.org/maven2/org/eclipse/jetty/ee10/jetty-ee10-servlet/12.0.19/)
+ - [org.mockito](https://repo1.maven.org/maven2/org/mockito/)
+    - [mockito-core](https://repo1.maven.org/maven2/org/mockito/mockito-core/) **[5.16.1](https://repo1.maven.org/maven2/org/mockito/mockito-core/5.16.1)** < [5.17.0](https://repo1.maven.org/maven2/org/mockito/mockito-core/5.17.0/)
 
 ## Major Updates
  - [org.slf4j](https://repo1.maven.org/maven2/org/slf4j/)
