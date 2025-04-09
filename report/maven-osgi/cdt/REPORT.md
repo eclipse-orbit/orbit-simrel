@@ -4,7 +4,7 @@
  - [com.google.code.gson](https://repo1.maven.org/maven2/com/google/code/gson/)
     - [gson](https://repo1.maven.org/maven2/com/google/code/gson/gson/) **[2.11.0](https://repo1.maven.org/maven2/com/google/code/gson/gson/2.11.0)** < [2.12.1](https://repo1.maven.org/maven2/com/google/code/gson/gson/2.12.1/)
  - [com.google.guava](https://repo1.maven.org/maven2/com/google/guava/)
-    - [guava](https://repo1.maven.org/maven2/com/google/guava/guava/) **[33.4.0-jre](https://repo1.maven.org/maven2/com/google/guava/guava/33.4.0-jre)** < [33.4.6-jre](https://repo1.maven.org/maven2/com/google/guava/guava/33.4.6-jre/)
+    - [guava](https://repo1.maven.org/maven2/com/google/guava/guava/) **[33.4.0-jre](https://repo1.maven.org/maven2/com/google/guava/guava/33.4.0-jre)** < [33.4.7-jre](https://repo1.maven.org/maven2/com/google/guava/guava/33.4.7-jre/)
  - [net.java.dev.jna](https://repo1.maven.org/maven2/net/java/dev/jna/)
     - [jna](https://repo1.maven.org/maven2/net/java/dev/jna/jna/) **[5.16.0](https://repo1.maven.org/maven2/net/java/dev/jna/jna/5.16.0)** < [5.17.0](https://repo1.maven.org/maven2/net/java/dev/jna/jna/5.17.0/)
     - [jna-platform](https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/) **[5.16.0](https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/5.16.0)** < [5.17.0](https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/5.17.0/)
