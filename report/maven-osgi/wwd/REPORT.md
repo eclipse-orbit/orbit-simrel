@@ -2,7 +2,7 @@
 
 ## Minor Updates
  - [org.eclipse.lemminx](https://repo.eclipse.org/content/repositories/lemminx-releases/org/eclipse/lemminx/)
-    - [org.eclipse.lemminx](https://repo.eclipse.org/content/repositories/lemminx-releases/org/eclipse/lemminx/org.eclipse.lemminx/) **[0.29.0](https://repo.eclipse.org/content/repositories/lemminx-releases/org/eclipse/lemminx/org.eclipse.lemminx/0.29.0)** < [0.30.0](https://repo1.maven.org/maven2/org/eclipse/lemminx/org.eclipse.lemminx/0.30.0/)
+    - [org.eclipse.lemminx](https://repo.eclipse.org/content/repositories/lemminx-releases/org/eclipse/lemminx/org.eclipse.lemminx/) **[0.29.0](https://repo.eclipse.org/content/repositories/lemminx-releases/org/eclipse/lemminx/org.eclipse.lemminx/0.29.0)** < [0.30.1](https://repo1.maven.org/maven2/org/eclipse/lemminx/org.eclipse.lemminx/0.30.1/)
 
 ## Content
  - [org.apache.commons](https://repo1.maven.org/maven2/org/apache/commons/)
