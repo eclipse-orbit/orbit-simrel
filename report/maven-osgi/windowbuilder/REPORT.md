@@ -1,5 +1,12 @@
 # Target Platform: [windowbuilder](https://raw.githubusercontent.com/eclipse/windowbuilder/master/target-platform/mvn/wb-mvn.target)
 
+## Minor Updates
+ - [org.apache.commons](https://repo1.maven.org/maven2/org/apache/commons/)
+    - [commons-text](https://repo1.maven.org/maven2/org/apache/commons/commons-text/) **[1.13.0](https://repo1.maven.org/maven2/org/apache/commons/commons-text/1.13.0)** < [1.13.1](https://repo1.maven.org/maven2/org/apache/commons/commons-text/1.13.1/)
+
+## Updates Applied
+[updated.target](updated.target)
+
 ## Content
  - [com.miglayout](https://repo1.maven.org/maven2/com/miglayout/)
     - [miglayout-core](https://repo1.maven.org/maven2/com/miglayout/miglayout-core/) **[11.4.2](https://repo1.maven.org/maven2/com/miglayout/miglayout-core/11.4.2)**

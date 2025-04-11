@@ -245,7 +245,7 @@
     - [commons-fileupload2-javax](https://repo1.maven.org/maven2/org/apache/commons/commons-fileupload2-javax/) **[2.0.0-M2](https://repo1.maven.org/maven2/org/apache/commons/commons-fileupload2-javax/2.0.0-M2)**
     - [commons-lang3](https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/) **[3.17.0](https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.17.0)**
     - [commons-math3](https://repo1.maven.org/maven2/org/apache/commons/commons-math3/) **[3.6.1](https://repo1.maven.org/maven2/org/apache/commons/commons-math3/3.6.1)**
-    - [commons-text](https://repo1.maven.org/maven2/org/apache/commons/commons-text/) **[1.13.0](https://repo1.maven.org/maven2/org/apache/commons/commons-text/1.13.0)**
+    - [commons-text](https://repo1.maven.org/maven2/org/apache/commons/commons-text/) **[1.13.1](https://repo1.maven.org/maven2/org/apache/commons/commons-text/1.13.1)**
  - [org.apache.felix](https://repo1.maven.org/maven2/org/apache/felix/)
     - [org.apache.felix.gogo.command](https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.gogo.command/) **[1.1.2](https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.gogo.command/1.1.2)**
     - [org.apache.felix.gogo.runtime](https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.gogo.runtime/) **[1.1.6](https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.gogo.runtime/1.1.6)**
