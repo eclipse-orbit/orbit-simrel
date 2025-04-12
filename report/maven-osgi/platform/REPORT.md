@@ -3,6 +3,8 @@
 ## Minor Updates
  - [com.google.code.gson](https://repo1.maven.org/maven2/com/google/code/gson/)
     - [gson](https://repo1.maven.org/maven2/com/google/code/gson/gson/) **[2.12.1](https://repo1.maven.org/maven2/com/google/code/gson/gson/2.12.1)** < [2.13.0](https://repo1.maven.org/maven2/com/google/code/gson/gson/2.13.0/)
+ - [commons-io](https://repo1.maven.org/maven2/commons-io/)
+    - [commons-io](https://repo1.maven.org/maven2/commons-io/commons-io/) **[2.18.0](https://repo1.maven.org/maven2/commons-io/commons-io/2.18.0)** < [2.19.0](https://repo1.maven.org/maven2/commons-io/commons-io/2.19.0/)
  - [org.junit.jupiter](https://repo1.maven.org/maven2/org/junit/jupiter/)
     - [junit-jupiter-api](https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-api/) **[5.12.1](https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-api/5.12.1)** < [5.12.2](https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-api/5.12.2/)
     - [junit-jupiter-engine](https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-engine/) **[5.12.1](https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.12.1)** < [5.12.2](https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.12.2/)
