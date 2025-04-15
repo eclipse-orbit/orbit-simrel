@@ -1,9 +1,5 @@
 # Target Platform: [merged-target](https://github.com/eclipse-orbit/orbit-simrel/blob/main/maven-bnd/tp/MavenBND.target)
 
-## Major Updates
- - [org.cyclonedx](https://repo1.maven.org/maven2/org/cyclonedx/)
-    - [cyclonedx-core-java](https://repo1.maven.org/maven2/org/cyclonedx/cyclonedx-core-java/) **[8.0.3](https://repo1.maven.org/maven2/org/cyclonedx/cyclonedx-core-java/8.0.3)** < [10.2.1](https://repo1.maven.org/maven2/org/cyclonedx/cyclonedx-core-java/10.2.1/)
-
 ## Content
  - [aopalliance](https://repo1.maven.org/maven2/aopalliance/)
     - [aopalliance](https://repo1.maven.org/maven2/aopalliance/aopalliance/) **[1.0](https://repo1.maven.org/maven2/aopalliance/aopalliance/1.0)**
@@ -104,7 +100,7 @@
     - [commonmark-ext-task-list-items](https://repo1.maven.org/maven2/org/commonmark/commonmark-ext-task-list-items/) **[0.24.0](https://repo1.maven.org/maven2/org/commonmark/commonmark-ext-task-list-items/0.24.0)**
     - [commonmark-ext-yaml-front-matter](https://repo1.maven.org/maven2/org/commonmark/commonmark-ext-yaml-front-matter/) **[0.24.0](https://repo1.maven.org/maven2/org/commonmark/commonmark-ext-yaml-front-matter/0.24.0)**
  - [org.cyclonedx](https://repo1.maven.org/maven2/org/cyclonedx/)
-    - [cyclonedx-core-java](https://repo1.maven.org/maven2/org/cyclonedx/cyclonedx-core-java/) **[8.0.3](https://repo1.maven.org/maven2/org/cyclonedx/cyclonedx-core-java/8.0.3)**
+    - [cyclonedx-core-java](https://repo1.maven.org/maven2/org/cyclonedx/cyclonedx-core-java/) **[10.2.1](https://repo1.maven.org/maven2/org/cyclonedx/cyclonedx-core-java/10.2.1)**
  - [org.dom4j](https://repo1.maven.org/maven2/org/dom4j/)
     - [dom4j](https://repo1.maven.org/maven2/org/dom4j/dom4j/) **[2.1.4](https://repo1.maven.org/maven2/org/dom4j/dom4j/2.1.4)**
  - [org.eclipse.orbit](https://repo.eclipse.org/content/repositories/orbit-approved-artifacts/org/eclipse/orbit/)
