@@ -2,13 +2,12 @@
 
 ## Minor Updates
  - [com.google.guava](https://repo1.maven.org/maven2/com/google/guava/)
-    - [guava](https://repo1.maven.org/maven2/com/google/guava/guava/) **[33.4.6-jre](https://repo1.maven.org/maven2/com/google/guava/guava/33.4.6-jre)** < [33.4.7-jre](https://repo1.maven.org/maven2/com/google/guava/guava/33.4.7-jre/)
+    - [guava](https://repo1.maven.org/maven2/com/google/guava/guava/) **[33.4.7-jre](https://repo1.maven.org/maven2/com/google/guava/guava/33.4.7-jre)** < [33.4.8-jre](https://repo1.maven.org/maven2/com/google/guava/guava/33.4.8-jre/)
 
 ## Major Updates
  - [jakarta.ws.rs](https://repo1.maven.org/maven2/jakarta/ws/rs/)
     - [jakarta.ws.rs-api](https://repo1.maven.org/maven2/jakarta/ws/rs/jakarta.ws.rs-api/) **[3.1.0](https://repo1.maven.org/maven2/jakarta/ws/rs/jakarta.ws.rs-api/3.1.0)** < [4.0.0](https://repo1.maven.org/maven2/jakarta/ws/rs/jakarta.ws.rs-api/4.0.0/)
  - [org.glassfish.hk2](https://repo1.maven.org/maven2/org/glassfish/hk2/)
-    - [osgi-resource-locator](https://repo1.maven.org/maven2/org/glassfish/hk2/osgi-resource-locator/) **[1.0.3](https://repo1.maven.org/maven2/org/glassfish/hk2/osgi-resource-locator/1.0.3)** < [3.0.0](https://repo1.maven.org/maven2/org/glassfish/hk2/osgi-resource-locator/3.0.0/)
     - [osgi-resource-locator](https://repo1.maven.org/maven2/org/glassfish/hk2/osgi-resource-locator/) **[1.0.4](https://repo1.maven.org/maven2/org/glassfish/hk2/osgi-resource-locator/1.0.4)** < [3.0.0](https://repo1.maven.org/maven2/org/glassfish/hk2/osgi-resource-locator/3.0.0/)
 
 ## Updates Applied
@@ -33,7 +32,7 @@
     - [jnr-unixsocket](https://repo1.maven.org/maven2/com/github/jnr/jnr-unixsocket/) **[0.38.23](https://repo1.maven.org/maven2/com/github/jnr/jnr-unixsocket/0.38.23)**
  - [com.google.guava](https://repo1.maven.org/maven2/com/google/guava/)
     - [failureaccess](https://repo1.maven.org/maven2/com/google/guava/failureaccess/) **[1.0.3](https://repo1.maven.org/maven2/com/google/guava/failureaccess/1.0.3)**
-    - [guava](https://repo1.maven.org/maven2/com/google/guava/guava/) **[33.4.6-jre](https://repo1.maven.org/maven2/com/google/guava/guava/33.4.6-jre)**
+    - [guava](https://repo1.maven.org/maven2/com/google/guava/guava/) **[33.4.7-jre](https://repo1.maven.org/maven2/com/google/guava/guava/33.4.7-jre)**
  - [jakarta.ws.rs](https://repo1.maven.org/maven2/jakarta/ws/rs/)
     - [jakarta.ws.rs-api](https://repo1.maven.org/maven2/jakarta/ws/rs/jakarta.ws.rs-api/) **[3.1.0](https://repo1.maven.org/maven2/jakarta/ws/rs/jakarta.ws.rs-api/3.1.0)**
  - [jakarta.xml.bind](https://repo1.maven.org/maven2/jakarta/xml/bind/)
@@ -47,7 +46,6 @@
     - [hk2-api](https://repo1.maven.org/maven2/org/glassfish/hk2/hk2-api/) **[3.1.1](https://repo1.maven.org/maven2/org/glassfish/hk2/hk2-api/3.1.1)**
     - [hk2-locator](https://repo1.maven.org/maven2/org/glassfish/hk2/hk2-locator/) **[3.1.1](https://repo1.maven.org/maven2/org/glassfish/hk2/hk2-locator/3.1.1)**
     - [hk2-utils](https://repo1.maven.org/maven2/org/glassfish/hk2/hk2-utils/) **[3.1.1](https://repo1.maven.org/maven2/org/glassfish/hk2/hk2-utils/3.1.1)**
-    - [osgi-resource-locator](https://repo1.maven.org/maven2/org/glassfish/hk2/osgi-resource-locator/) **[1.0.3](https://repo1.maven.org/maven2/org/glassfish/hk2/osgi-resource-locator/1.0.3)**
     - [osgi-resource-locator](https://repo1.maven.org/maven2/org/glassfish/hk2/osgi-resource-locator/) **[1.0.4](https://repo1.maven.org/maven2/org/glassfish/hk2/osgi-resource-locator/1.0.4)**
  - [org.glassfish.jersey.connectors](https://repo1.maven.org/maven2/org/glassfish/jersey/connectors/)
     - [jersey-apache-connector](https://repo1.maven.org/maven2/org/glassfish/jersey/connectors/jersey-apache-connector/) **[3.1.10](https://repo1.maven.org/maven2/org/glassfish/jersey/connectors/jersey-apache-connector/3.1.10)**
