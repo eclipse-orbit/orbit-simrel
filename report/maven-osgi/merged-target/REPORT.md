@@ -93,7 +93,7 @@
     - [openpdf](https://repo1.maven.org/maven2/com/github/librepdf/openpdf/) **[1.4.2](https://repo1.maven.org/maven2/com/github/librepdf/openpdf/1.4.2)**
     - [openpdf](https://repo1.maven.org/maven2/com/github/librepdf/openpdf/) **[2.0.3](https://repo1.maven.org/maven2/com/github/librepdf/openpdf/2.0.3)**
  - [com.github.oshi](https://repo1.maven.org/maven2/com/github/oshi/)
-    - [oshi-core](https://repo1.maven.org/maven2/com/github/oshi/oshi-core/) **[6.8.0](https://repo1.maven.org/maven2/com/github/oshi/oshi-core/6.8.0)**
+    - [oshi-core](https://repo1.maven.org/maven2/com/github/oshi/oshi-core/) **[6.8.1](https://repo1.maven.org/maven2/com/github/oshi/oshi-core/6.8.1)**
  - [com.github.weisj](https://repo1.maven.org/maven2/com/github/weisj/)
     - [jsvg](https://repo1.maven.org/maven2/com/github/weisj/jsvg/) **[1.7.1](https://repo1.maven.org/maven2/com/github/weisj/jsvg/1.7.1)**
  - [com.glazedlists](https://repo1.maven.org/maven2/com/glazedlists/)
@@ -155,7 +155,7 @@
  - [io.github.classgraph](https://repo1.maven.org/maven2/io/github/classgraph/)
     - [classgraph](https://repo1.maven.org/maven2/io/github/classgraph/classgraph/) **[4.8.179](https://repo1.maven.org/maven2/io/github/classgraph/classgraph/4.8.179)**
  - [io.github.toolfactory](https://repo1.maven.org/maven2/io/github/toolfactory/)
-    - [jvm-driver](https://repo1.maven.org/maven2/io/github/toolfactory/jvm-driver/) **[9.7.1](https://repo1.maven.org/maven2/io/github/toolfactory/jvm-driver/9.7.1)**
+    - [jvm-driver](https://repo1.maven.org/maven2/io/github/toolfactory/jvm-driver/) **[9.8.0](https://repo1.maven.org/maven2/io/github/toolfactory/jvm-driver/9.8.0)**
     - [narcissus](https://repo1.maven.org/maven2/io/github/toolfactory/narcissus/) **[1.0.7](https://repo1.maven.org/maven2/io/github/toolfactory/narcissus/1.0.7)**
  - [jakarta.activation](https://repo1.maven.org/maven2/jakarta/activation/)
     - [jakarta.activation-api](https://repo1.maven.org/maven2/jakarta/activation/jakarta.activation-api/) **[1.2.2](https://repo1.maven.org/maven2/jakarta/activation/jakarta.activation-api/1.2.2)**

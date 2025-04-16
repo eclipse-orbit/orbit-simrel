@@ -3,6 +3,8 @@
 ## Minor Updates
  - [commons-io](https://repo1.maven.org/maven2/commons-io/)
     - [commons-io](https://repo1.maven.org/maven2/commons-io/commons-io/) **[2.18.0](https://repo1.maven.org/maven2/commons-io/commons-io/2.18.0)** < [2.19.0](https://repo1.maven.org/maven2/commons-io/commons-io/2.19.0/)
+ - [io.github.toolfactory](https://repo1.maven.org/maven2/io/github/toolfactory/)
+    - [jvm-driver](https://repo1.maven.org/maven2/io/github/toolfactory/jvm-driver/) **[9.7.1](https://repo1.maven.org/maven2/io/github/toolfactory/jvm-driver/9.7.1)** < [9.8.0](https://repo1.maven.org/maven2/io/github/toolfactory/jvm-driver/9.8.0/)
  - [org.apache.commons](https://repo1.maven.org/maven2/org/apache/commons/)
     - [commons-text](https://repo1.maven.org/maven2/org/apache/commons/commons-text/) **[1.13.0](https://repo1.maven.org/maven2/org/apache/commons/commons-text/1.13.0)** < [1.13.1](https://repo1.maven.org/maven2/org/apache/commons/commons-text/1.13.1/)
 
