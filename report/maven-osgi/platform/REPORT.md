@@ -24,7 +24,7 @@
     - [biz.aQute.tester](https://repo1.maven.org/maven2/biz/aQute/bnd/biz.aQute.tester/) **[7.1.0](https://repo1.maven.org/maven2/biz/aQute/bnd/biz.aQute.tester/7.1.0)**
     - [biz.aQute.tester.junit-platform](https://repo1.maven.org/maven2/biz/aQute/bnd/biz.aQute.tester.junit-platform/) **[7.1.0](https://repo1.maven.org/maven2/biz/aQute/bnd/biz.aQute.tester.junit-platform/7.1.0)**
  - [com.github.weisj](https://repo1.maven.org/maven2/com/github/weisj/)
-    - [jsvg](https://repo1.maven.org/maven2/com/github/weisj/jsvg/) **[1.7.1](https://repo1.maven.org/maven2/com/github/weisj/jsvg/1.7.1)**
+    - [jsvg](https://repo1.maven.org/maven2/com/github/weisj/jsvg/) **[1.7.2](https://repo1.maven.org/maven2/com/github/weisj/jsvg/1.7.2)**
  - [com.google.code.gson](https://repo1.maven.org/maven2/com/google/code/gson/)
     - [gson](https://repo1.maven.org/maven2/com/google/code/gson/gson/) **[2.13.0](https://repo1.maven.org/maven2/com/google/code/gson/gson/2.13.0)**
  - [com.ibm.icu](https://repo1.maven.org/maven2/com/ibm/icu/)

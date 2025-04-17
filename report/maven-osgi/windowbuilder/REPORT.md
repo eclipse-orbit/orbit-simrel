@@ -7,6 +7,9 @@
     - [jvm-driver](https://repo1.maven.org/maven2/io/github/toolfactory/jvm-driver/) **[9.7.1](https://repo1.maven.org/maven2/io/github/toolfactory/jvm-driver/9.7.1)** < [9.8.0](https://repo1.maven.org/maven2/io/github/toolfactory/jvm-driver/9.8.0/)
  - [org.apache.commons](https://repo1.maven.org/maven2/org/apache/commons/)
     - [commons-text](https://repo1.maven.org/maven2/org/apache/commons/commons-text/) **[1.13.0](https://repo1.maven.org/maven2/org/apache/commons/commons-text/1.13.0)** < [1.13.1](https://repo1.maven.org/maven2/org/apache/commons/commons-text/1.13.1/)
+ - [org.burningwave](https://repo1.maven.org/maven2/org/burningwave/)
+    - [core](https://repo1.maven.org/maven2/org/burningwave/core/) **[12.65.2](https://repo1.maven.org/maven2/org/burningwave/core/12.65.2)** < [12.66.0](https://repo1.maven.org/maven2/org/burningwave/core/12.66.0/)
+    - [jvm-driver](https://repo1.maven.org/maven2/org/burningwave/jvm-driver/) **[8.16.1](https://repo1.maven.org/maven2/org/burningwave/jvm-driver/8.16.1)** < [8.17.1](https://repo1.maven.org/maven2/org/burningwave/jvm-driver/8.17.1/)
 
 ## Updates Applied
 [updated.target](updated.target)

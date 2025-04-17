@@ -95,7 +95,7 @@
  - [com.github.oshi](https://repo1.maven.org/maven2/com/github/oshi/)
     - [oshi-core](https://repo1.maven.org/maven2/com/github/oshi/oshi-core/) **[6.8.1](https://repo1.maven.org/maven2/com/github/oshi/oshi-core/6.8.1)**
  - [com.github.weisj](https://repo1.maven.org/maven2/com/github/weisj/)
-    - [jsvg](https://repo1.maven.org/maven2/com/github/weisj/jsvg/) **[1.7.1](https://repo1.maven.org/maven2/com/github/weisj/jsvg/1.7.1)**
+    - [jsvg](https://repo1.maven.org/maven2/com/github/weisj/jsvg/) **[1.7.2](https://repo1.maven.org/maven2/com/github/weisj/jsvg/1.7.2)**
  - [com.glazedlists](https://repo1.maven.org/maven2/com/glazedlists/)
     - [glazedlists](https://repo1.maven.org/maven2/com/glazedlists/glazedlists/) **[1.11.0](https://repo1.maven.org/maven2/com/glazedlists/glazedlists/1.11.0)**
  - [com.google.code.gson](https://repo1.maven.org/maven2/com/google/code/gson/)
@@ -286,8 +286,8 @@
     - [bcprov-jdk18on](https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk18on/) **[1.80](https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk18on/1.80)**
     - [bcutil-jdk18on](https://repo1.maven.org/maven2/org/bouncycastle/bcutil-jdk18on/) **[1.80](https://repo1.maven.org/maven2/org/bouncycastle/bcutil-jdk18on/1.80)**
  - [org.burningwave](https://repo1.maven.org/maven2/org/burningwave/)
-    - [core](https://repo1.maven.org/maven2/org/burningwave/core/) **[12.65.2](https://repo1.maven.org/maven2/org/burningwave/core/12.65.2)**
-    - [jvm-driver](https://repo1.maven.org/maven2/org/burningwave/jvm-driver/) **[8.16.1](https://repo1.maven.org/maven2/org/burningwave/jvm-driver/8.16.1)**
+    - [core](https://repo1.maven.org/maven2/org/burningwave/core/) **[12.66.0](https://repo1.maven.org/maven2/org/burningwave/core/12.66.0)**
+    - [jvm-driver](https://repo1.maven.org/maven2/org/burningwave/jvm-driver/) **[8.17.1](https://repo1.maven.org/maven2/org/burningwave/jvm-driver/8.17.1)**
  - [org.codehaus.woodstox](https://repo1.maven.org/maven2/org/codehaus/woodstox/)
     - [stax2-api](https://repo1.maven.org/maven2/org/codehaus/woodstox/stax2-api/) **[4.2.2](https://repo1.maven.org/maven2/org/codehaus/woodstox/stax2-api/4.2.2)**
  - [org.conscrypt](https://repo1.maven.org/maven2/org/conscrypt/)
