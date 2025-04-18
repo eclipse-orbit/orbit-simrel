@@ -61,13 +61,13 @@
 				<dependency>
 					<groupId>org.burningwave</groupId>
 					<artifactId>core</artifactId>
-					<version>12.66.0</version>
+					<version>12.66.1</version>
 					<type>jar</type>
 				</dependency>
 				<dependency>
 					<groupId>org.burningwave</groupId>
 					<artifactId>jvm-driver</artifactId>
-					<version>8.17.1</version>
+					<version>8.19.0</version>
 					<type>jar</type>
 				</dependency>
 				<dependency>

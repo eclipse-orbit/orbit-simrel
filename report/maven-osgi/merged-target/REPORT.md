@@ -286,8 +286,8 @@
     - [bcprov-jdk18on](https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk18on/) **[1.80](https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk18on/1.80)**
     - [bcutil-jdk18on](https://repo1.maven.org/maven2/org/bouncycastle/bcutil-jdk18on/) **[1.80](https://repo1.maven.org/maven2/org/bouncycastle/bcutil-jdk18on/1.80)**
  - [org.burningwave](https://repo1.maven.org/maven2/org/burningwave/)
-    - [core](https://repo1.maven.org/maven2/org/burningwave/core/) **[12.66.0](https://repo1.maven.org/maven2/org/burningwave/core/12.66.0)**
-    - [jvm-driver](https://repo1.maven.org/maven2/org/burningwave/jvm-driver/) **[8.17.1](https://repo1.maven.org/maven2/org/burningwave/jvm-driver/8.17.1)**
+    - [core](https://repo1.maven.org/maven2/org/burningwave/core/) **[12.66.1](https://repo1.maven.org/maven2/org/burningwave/core/12.66.1)**
+    - [jvm-driver](https://repo1.maven.org/maven2/org/burningwave/jvm-driver/) **[8.19.0](https://repo1.maven.org/maven2/org/burningwave/jvm-driver/8.19.0)**
  - [org.codehaus.woodstox](https://repo1.maven.org/maven2/org/codehaus/woodstox/)
     - [stax2-api](https://repo1.maven.org/maven2/org/codehaus/woodstox/stax2-api/) **[4.2.2](https://repo1.maven.org/maven2/org/codehaus/woodstox/stax2-api/4.2.2)**
  - [org.conscrypt](https://repo1.maven.org/maven2/org/conscrypt/)
