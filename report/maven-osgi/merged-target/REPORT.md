@@ -24,7 +24,7 @@
  - [javax.servlet](https://repo1.maven.org/maven2/javax/servlet/)
     - [javax.servlet-api](https://repo1.maven.org/maven2/javax/servlet/javax.servlet-api/) **[3.1.0](https://repo1.maven.org/maven2/javax/servlet/javax.servlet-api/3.1.0)** < [4.0.1](https://repo1.maven.org/maven2/javax/servlet/javax.servlet-api/4.0.1/)
  - [org.apache.felix](https://repo1.maven.org/maven2/org/apache/felix/)
-    - [org.apache.felix.http.servlet-api](https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.http.servlet-api/) **[1.2.0](https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.http.servlet-api/1.2.0)** < [3.0.0](https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.http.servlet-api/3.0.0/)
+    - [org.apache.felix.http.servlet-api](https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.http.servlet-api/) **[1.2.0](https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.http.servlet-api/1.2.0)** < [6.1.0](https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.http.servlet-api/6.1.0/)
  - [org.apache.tika](https://repo1.maven.org/maven2/org/apache/tika/)
     - [tika-core](https://repo1.maven.org/maven2/org/apache/tika/tika-core/) **[2.9.3](https://repo1.maven.org/maven2/org/apache/tika/tika-core/2.9.3)** < [3.1.0](https://repo1.maven.org/maven2/org/apache/tika/tika-core/3.1.0/)
  - [org.glassfish](https://repo1.maven.org/maven2/org/glassfish/)
@@ -101,7 +101,7 @@
  - [com.google.code.gson](https://repo1.maven.org/maven2/com/google/code/gson/)
     - [gson](https://repo1.maven.org/maven2/com/google/code/gson/gson/) **[2.13.0](https://repo1.maven.org/maven2/com/google/code/gson/gson/2.13.0)**
  - [com.google.errorprone](https://repo1.maven.org/maven2/com/google/errorprone/)
-    - [error_prone_annotations](https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/) **[2.37.0](https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.37.0)**
+    - [error_prone_annotations](https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/) **[2.38.0](https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.38.0)**
  - [com.google.guava](https://repo1.maven.org/maven2/com/google/guava/)
     - [failureaccess](https://repo1.maven.org/maven2/com/google/guava/failureaccess/) **[1.0.3](https://repo1.maven.org/maven2/com/google/guava/failureaccess/1.0.3)**
     - [guava](https://repo1.maven.org/maven2/com/google/guava/guava/) **[33.4.8-jre](https://repo1.maven.org/maven2/com/google/guava/guava/33.4.8-jre)**
@@ -142,7 +142,7 @@
  - [commons-io](https://repo1.maven.org/maven2/commons-io/)
     - [commons-io](https://repo1.maven.org/maven2/commons-io/commons-io/) **[2.19.0](https://repo1.maven.org/maven2/commons-io/commons-io/2.19.0)**
  - [commons-jxpath](https://repo1.maven.org/maven2/commons-jxpath/)
-    - [commons-jxpath](https://repo1.maven.org/maven2/commons-jxpath/commons-jxpath/) **[1.3](https://repo1.maven.org/maven2/commons-jxpath/commons-jxpath/1.3)**
+    - [commons-jxpath](https://repo1.maven.org/maven2/commons-jxpath/commons-jxpath/) **[1.4.0](https://repo1.maven.org/maven2/commons-jxpath/commons-jxpath/1.4.0)**
  - [commons-lang](https://repo1.maven.org/maven2/commons-lang/)
     - [commons-lang](https://repo1.maven.org/maven2/commons-lang/commons-lang/) **[2.6](https://repo1.maven.org/maven2/commons-lang/commons-lang/2.6)**
  - [commons-logging](https://repo1.maven.org/maven2/commons-logging/)
@@ -287,7 +287,7 @@
     - [bcutil-jdk18on](https://repo1.maven.org/maven2/org/bouncycastle/bcutil-jdk18on/) **[1.80](https://repo1.maven.org/maven2/org/bouncycastle/bcutil-jdk18on/1.80)**
  - [org.burningwave](https://repo1.maven.org/maven2/org/burningwave/)
     - [core](https://repo1.maven.org/maven2/org/burningwave/core/) **[12.66.1](https://repo1.maven.org/maven2/org/burningwave/core/12.66.1)**
-    - [jvm-driver](https://repo1.maven.org/maven2/org/burningwave/jvm-driver/) **[8.19.0](https://repo1.maven.org/maven2/org/burningwave/jvm-driver/8.19.0)**
+    - [jvm-driver](https://repo1.maven.org/maven2/org/burningwave/jvm-driver/) **[8.19.1](https://repo1.maven.org/maven2/org/burningwave/jvm-driver/8.19.1)**
  - [org.codehaus.woodstox](https://repo1.maven.org/maven2/org/codehaus/woodstox/)
     - [stax2-api](https://repo1.maven.org/maven2/org/codehaus/woodstox/stax2-api/) **[4.2.2](https://repo1.maven.org/maven2/org/codehaus/woodstox/stax2-api/4.2.2)**
  - [org.conscrypt](https://repo1.maven.org/maven2/org/conscrypt/)
