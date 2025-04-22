@@ -1,11 +1,5 @@
 # Target Platform: [jgit](https://raw.githubusercontent.com/eclipse-jgit/jgit/master/org.eclipse.jgit.packaging/org.eclipse.jgit.target/maven/dependencies.tpd)
 
-## Minor Updates
- - [com.google.code.gson](https://repo1.maven.org/maven2/com/google/code/gson/)
-    - [gson](https://repo1.maven.org/maven2/com/google/code/gson/gson/) **[2.12.1](https://repo1.maven.org/maven2/com/google/code/gson/gson/2.12.1)** < [2.13.0](https://repo1.maven.org/maven2/com/google/code/gson/gson/2.13.0/)
- - [commons-io](https://repo1.maven.org/maven2/commons-io/)
-    - [commons-io](https://repo1.maven.org/maven2/commons-io/commons-io/) **[2.18.0](https://repo1.maven.org/maven2/commons-io/commons-io/2.18.0)** < [2.19.0](https://repo1.maven.org/maven2/commons-io/commons-io/2.19.0/)
-
 ## Major Updates
  - [org.hamcrest](https://repo1.maven.org/maven2/org/hamcrest/)
     - [hamcrest](https://repo1.maven.org/maven2/org/hamcrest/hamcrest/) **[2.2](https://repo1.maven.org/maven2/org/hamcrest/hamcrest/2.2)** < [3.0](https://repo1.maven.org/maven2/org/hamcrest/hamcrest/3.0/)
@@ -13,20 +7,17 @@
     - [slf4j-api](https://repo1.maven.org/maven2/org/slf4j/slf4j-api/) **[1.7.36](https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.36)** < [2.0.17](https://repo1.maven.org/maven2/org/slf4j/slf4j-api/2.0.17/)
     - [slf4j-simple](https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/) **[1.7.36](https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/1.7.36)** < [2.0.17](https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/2.0.17/)
 
-## Updates Applied
-[updated.tpd](updated.tpd)
-
 ## Content
  - [args4j](https://repo1.maven.org/maven2/args4j/)
     - [args4j](https://repo1.maven.org/maven2/args4j/args4j/) **[2.37](https://repo1.maven.org/maven2/args4j/args4j/2.37)**
  - [com.google.code.gson](https://repo1.maven.org/maven2/com/google/code/gson/)
-    - [gson](https://repo1.maven.org/maven2/com/google/code/gson/gson/) **[2.12.1](https://repo1.maven.org/maven2/com/google/code/gson/gson/2.12.1)**
+    - [gson](https://repo1.maven.org/maven2/com/google/code/gson/gson/) **[2.13.0](https://repo1.maven.org/maven2/com/google/code/gson/gson/2.13.0)**
  - [com.googlecode.javaewah](https://repo1.maven.org/maven2/com/googlecode/javaewah/)
     - [JavaEWAH](https://repo1.maven.org/maven2/com/googlecode/javaewah/JavaEWAH/) **[1.2.3](https://repo1.maven.org/maven2/com/googlecode/javaewah/JavaEWAH/1.2.3)**
  - [commons-codec](https://repo1.maven.org/maven2/commons-codec/)
     - [commons-codec](https://repo1.maven.org/maven2/commons-codec/commons-codec/) **[1.18.0](https://repo1.maven.org/maven2/commons-codec/commons-codec/1.18.0)**
  - [commons-io](https://repo1.maven.org/maven2/commons-io/)
-    - [commons-io](https://repo1.maven.org/maven2/commons-io/commons-io/) **[2.18.0](https://repo1.maven.org/maven2/commons-io/commons-io/2.18.0)**
+    - [commons-io](https://repo1.maven.org/maven2/commons-io/commons-io/) **[2.19.0](https://repo1.maven.org/maven2/commons-io/commons-io/2.19.0)**
  - [commons-logging](https://repo1.maven.org/maven2/commons-logging/)
     - [commons-logging](https://repo1.maven.org/maven2/commons-logging/commons-logging/) **[1.3.5](https://repo1.maven.org/maven2/commons-logging/commons-logging/1.3.5)**
  - [jakarta.servlet](https://repo1.maven.org/maven2/jakarta/servlet/)

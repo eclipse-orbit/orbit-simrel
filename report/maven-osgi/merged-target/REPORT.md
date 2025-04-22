@@ -155,7 +155,7 @@
  - [io.github.classgraph](https://repo1.maven.org/maven2/io/github/classgraph/)
     - [classgraph](https://repo1.maven.org/maven2/io/github/classgraph/classgraph/) **[4.8.179](https://repo1.maven.org/maven2/io/github/classgraph/classgraph/4.8.179)**
  - [io.github.toolfactory](https://repo1.maven.org/maven2/io/github/toolfactory/)
-    - [jvm-driver](https://repo1.maven.org/maven2/io/github/toolfactory/jvm-driver/) **[9.8.0](https://repo1.maven.org/maven2/io/github/toolfactory/jvm-driver/9.8.0)**
+    - [jvm-driver](https://repo1.maven.org/maven2/io/github/toolfactory/jvm-driver/) **[9.9.10](https://repo1.maven.org/maven2/io/github/toolfactory/jvm-driver/9.9.10)**
     - [narcissus](https://repo1.maven.org/maven2/io/github/toolfactory/narcissus/) **[1.0.7](https://repo1.maven.org/maven2/io/github/toolfactory/narcissus/1.0.7)**
  - [jakarta.activation](https://repo1.maven.org/maven2/jakarta/activation/)
     - [jakarta.activation-api](https://repo1.maven.org/maven2/jakarta/activation/jakarta.activation-api/) **[1.2.2](https://repo1.maven.org/maven2/jakarta/activation/jakarta.activation-api/1.2.2)**
@@ -286,7 +286,7 @@
     - [bcprov-jdk18on](https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk18on/) **[1.80](https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk18on/1.80)**
     - [bcutil-jdk18on](https://repo1.maven.org/maven2/org/bouncycastle/bcutil-jdk18on/) **[1.80](https://repo1.maven.org/maven2/org/bouncycastle/bcutil-jdk18on/1.80)**
  - [org.burningwave](https://repo1.maven.org/maven2/org/burningwave/)
-    - [core](https://repo1.maven.org/maven2/org/burningwave/core/) **[12.66.1](https://repo1.maven.org/maven2/org/burningwave/core/12.66.1)**
+    - [core](https://repo1.maven.org/maven2/org/burningwave/core/) **[12.66.2](https://repo1.maven.org/maven2/org/burningwave/core/12.66.2)**
     - [jvm-driver](https://repo1.maven.org/maven2/org/burningwave/jvm-driver/) **[8.19.1](https://repo1.maven.org/maven2/org/burningwave/jvm-driver/8.19.1)**
  - [org.codehaus.woodstox](https://repo1.maven.org/maven2/org/codehaus/woodstox/)
     - [stax2-api](https://repo1.maven.org/maven2/org/codehaus/woodstox/stax2-api/) **[4.2.2](https://repo1.maven.org/maven2/org/codehaus/woodstox/stax2-api/4.2.2)**
