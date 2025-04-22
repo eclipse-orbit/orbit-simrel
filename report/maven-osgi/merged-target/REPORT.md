@@ -236,7 +236,7 @@
  - [org.apache.aries.spifly](https://repo1.maven.org/maven2/org/apache/aries/spifly/)
     - [org.apache.aries.spifly.dynamic.bundle](https://repo1.maven.org/maven2/org/apache/aries/spifly/org.apache.aries.spifly.dynamic.bundle/) **[1.3.7](https://repo1.maven.org/maven2/org/apache/aries/spifly/org.apache.aries.spifly.dynamic.bundle/1.3.7)**
  - [org.apache.commons](https://repo1.maven.org/maven2/org/apache/commons/)
-    - [commons-collections4](https://repo1.maven.org/maven2/org/apache/commons/commons-collections4/) **[4.4](https://repo1.maven.org/maven2/org/apache/commons/commons-collections4/4.4)**
+    - [commons-collections4](https://repo1.maven.org/maven2/org/apache/commons/commons-collections4/) **[4.5.0](https://repo1.maven.org/maven2/org/apache/commons/commons-collections4/4.5.0)**
     - [commons-compress](https://repo1.maven.org/maven2/org/apache/commons/commons-compress/) **[1.27.1](https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.27.1)**
     - [commons-csv](https://repo1.maven.org/maven2/org/apache/commons/commons-csv/) **[1.14.0](https://repo1.maven.org/maven2/org/apache/commons/commons-csv/1.14.0)**
     - [commons-fileupload2-core](https://repo1.maven.org/maven2/org/apache/commons/commons-fileupload2-core/) **[2.0.0-M2](https://repo1.maven.org/maven2/org/apache/commons/commons-fileupload2-core/2.0.0-M2)**
