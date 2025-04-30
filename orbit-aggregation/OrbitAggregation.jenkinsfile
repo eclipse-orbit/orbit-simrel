@@ -132,7 +132,7 @@ MAVEN_SIGN=${params.MAVEN_SIGN}
           dir('orbit-aggregation') {
             withCredentials([
                 file(credentialsId: 'secret-subkeys.asc', variable: 'KEYRING'),
-                string(credentialsId: 'gpg-passphrase', variable: 'KEYRING_PASSPHRASE') ]) {
+                string(credentialsId: 'gpg-passphrase', variable: 'MAVEN_GPG_PASSPHRASE') ]) {
               sh '''
                 if [[ $PROMOTE == false ]]; then
                   promotion_argument='-Dorg.eclipse.justj.p2.manager.args='
@@ -141,7 +141,6 @@ MAVEN_SIGN=${params.MAVEN_SIGN}
                   --no-transfer-progress \
                   $promotion_argument \
                   -Pgpg-sign \
-                  -Dgpg.passphrase="${KEYRING_PASSPHRASE}" \
                   -Dtycho.pgp.signer.bc.secretKeys="${KEYRING}" \
                   -Dorg.eclipse.justj.p2.manager.build.url=$JOB_URL \
                   -Dorg.eclipse.justj.p2.manager.relative=$PUBLISH_LOCATION \

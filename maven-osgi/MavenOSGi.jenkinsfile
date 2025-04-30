@@ -88,7 +88,7 @@ PROMOTE=${params.PROMOTE}
             withCredentials([
                 string(credentialsId: 'gitlab-api-token', variable: 'GITLAB_API_TOKEN'), 
                 file(credentialsId: 'secret-subkeys.asc', variable: 'KEYRING'),
-                string(credentialsId: 'gpg-passphrase', variable: 'KEYRING_PASSPHRASE') 
+                string(credentialsId: 'gpg-passphrase', variable: 'MAVEN_GPG_PASSPHRASE') 
               ]) {
 
               sh '''
@@ -99,7 +99,6 @@ PROMOTE=${params.PROMOTE}
                   --no-transfer-progress \
                   $promotion_argument \
                   -Pgpg-sign \
-                  -Dgpg.passphrase="${KEYRING_PASSPHRASE}" \
                   -Dtycho.pgp.signer.bc.secretKeys="${KEYRING}" \
                   -Dorg.eclipse.justj.p2.manager.build.url=$JOB_URL \
                   -Dorg.eclipse.justj.p2.manager.relative=$PUBLISH_LOCATION \
