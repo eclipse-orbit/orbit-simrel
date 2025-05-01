@@ -1,16 +1,14 @@
-# Target Platform: [m2e](https://raw.githubusercontent.com/eclipse-m2e/m2e-core/master/target-platform/target-platform.target)
+# Target Platform: [m2e](https://raw.githubusercontent.com/eclipse-m2e/m2e-core/main/target-platform/target-platform.target)
 
 ## Minor Updates
  - [com.google.code.gson](https://repo1.maven.org/maven2/com/google/code/gson/)
-    - [gson](https://repo1.maven.org/maven2/com/google/code/gson/gson/) **[2.12.1](https://repo1.maven.org/maven2/com/google/code/gson/gson/2.12.1)** < [2.13.0](https://repo1.maven.org/maven2/com/google/code/gson/gson/2.13.0/)
+    - [gson](https://repo1.maven.org/maven2/com/google/code/gson/gson/) **[2.12.1](https://repo1.maven.org/maven2/com/google/code/gson/gson/2.12.1)** < [2.13.1](https://repo1.maven.org/maven2/com/google/code/gson/gson/2.13.1/)
  - [com.google.guava](https://repo1.maven.org/maven2/com/google/guava/)
     - [guava](https://repo1.maven.org/maven2/com/google/guava/guava/) **[33.4.5-jre](https://repo1.maven.org/maven2/com/google/guava/guava/33.4.5-jre)** < [33.4.8-jre](https://repo1.maven.org/maven2/com/google/guava/guava/33.4.8-jre/)
  - [org.apache.maven.archetype](https://repo1.maven.org/maven2/org/apache/maven/archetype/)
     - [archetype-catalog](https://repo1.maven.org/maven2/org/apache/maven/archetype/archetype-catalog/) **[3.2.1](https://repo1.maven.org/maven2/org/apache/maven/archetype/archetype-catalog/3.2.1)** < [3.3.1](https://repo1.maven.org/maven2/org/apache/maven/archetype/archetype-catalog/3.3.1/)
     - [archetype-common](https://repo1.maven.org/maven2/org/apache/maven/archetype/archetype-common/) **[3.2.1](https://repo1.maven.org/maven2/org/apache/maven/archetype/archetype-common/3.2.1)** < [3.3.1](https://repo1.maven.org/maven2/org/apache/maven/archetype/archetype-common/3.3.1/)
     - [archetype-descriptor](https://repo1.maven.org/maven2/org/apache/maven/archetype/archetype-descriptor/) **[3.2.1](https://repo1.maven.org/maven2/org/apache/maven/archetype/archetype-descriptor/3.2.1)** < [3.3.1](https://repo1.maven.org/maven2/org/apache/maven/archetype/archetype-descriptor/3.3.1/)
- - [org.eclipse.lemminx](https://repo.eclipse.org/content/repositories/lemminx-releases/org/eclipse/lemminx/)
-    - [org.eclipse.lemminx](https://repo.eclipse.org/content/repositories/lemminx-releases/org/eclipse/lemminx/org.eclipse.lemminx/) **[0.29.0](https://repo.eclipse.org/content/repositories/lemminx-releases/org/eclipse/lemminx/org.eclipse.lemminx/0.29.0)** < [0.30.1](https://repo1.maven.org/maven2/org/eclipse/lemminx/org.eclipse.lemminx/0.30.1/)
 
 ## Updates Applied
 [updated.target](updated.target)

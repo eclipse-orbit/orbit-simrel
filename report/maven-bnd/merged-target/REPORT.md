@@ -34,28 +34,28 @@
  - [org.apache.httpcomponents](https://repo1.maven.org/maven2/org/apache/httpcomponents/)
     - [httpclient-win](https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient-win/) **[4.5.14](https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient-win/4.5.14)**
  - [org.apache.httpcomponents.client5](https://repo1.maven.org/maven2/org/apache/httpcomponents/client5/)
-    - [httpclient5](https://repo1.maven.org/maven2/org/apache/httpcomponents/client5/httpclient5/) **[5.4.3](https://repo1.maven.org/maven2/org/apache/httpcomponents/client5/httpclient5/5.4.3)**
+    - [httpclient5](https://repo1.maven.org/maven2/org/apache/httpcomponents/client5/httpclient5/) **[5.4.4](https://repo1.maven.org/maven2/org/apache/httpcomponents/client5/httpclient5/5.4.4)**
     - [httpclient5-win](https://repo1.maven.org/maven2/org/apache/httpcomponents/client5/httpclient5-win/) **[5.2.3](https://repo1.maven.org/maven2/org/apache/httpcomponents/client5/httpclient5-win/5.2.3)**
  - [org.apache.httpcomponents.core5](https://repo1.maven.org/maven2/org/apache/httpcomponents/core5/)
     - [httpcore5](https://repo1.maven.org/maven2/org/apache/httpcomponents/core5/httpcore5/) **[5.3.4](https://repo1.maven.org/maven2/org/apache/httpcomponents/core5/httpcore5/5.3.4)**
     - [httpcore5-h2](https://repo1.maven.org/maven2/org/apache/httpcomponents/core5/httpcore5-h2/) **[5.3.4](https://repo1.maven.org/maven2/org/apache/httpcomponents/core5/httpcore5-h2/5.3.4)**
  - [org.apache.lucene](https://repo1.maven.org/maven2/org/apache/lucene/)
     - [lucene-analysis-common](https://repo1.maven.org/maven2/org/apache/lucene/lucene-analysis-common/) **[9.12.1](https://repo1.maven.org/maven2/org/apache/lucene/lucene-analysis-common/9.12.1)**
-    - [lucene-analysis-common](https://repo1.maven.org/maven2/org/apache/lucene/lucene-analysis-common/) **[10.2.0](https://repo1.maven.org/maven2/org/apache/lucene/lucene-analysis-common/10.2.0)**
+    - [lucene-analysis-common](https://repo1.maven.org/maven2/org/apache/lucene/lucene-analysis-common/) **[10.2.1](https://repo1.maven.org/maven2/org/apache/lucene/lucene-analysis-common/10.2.1)**
     - [lucene-analysis-smartcn](https://repo1.maven.org/maven2/org/apache/lucene/lucene-analysis-smartcn/) **[9.12.1](https://repo1.maven.org/maven2/org/apache/lucene/lucene-analysis-smartcn/9.12.1)**
-    - [lucene-analysis-smartcn](https://repo1.maven.org/maven2/org/apache/lucene/lucene-analysis-smartcn/) **[10.2.0](https://repo1.maven.org/maven2/org/apache/lucene/lucene-analysis-smartcn/10.2.0)**
+    - [lucene-analysis-smartcn](https://repo1.maven.org/maven2/org/apache/lucene/lucene-analysis-smartcn/) **[10.2.1](https://repo1.maven.org/maven2/org/apache/lucene/lucene-analysis-smartcn/10.2.1)**
     - [lucene-core](https://repo1.maven.org/maven2/org/apache/lucene/lucene-core/) **[9.12.1](https://repo1.maven.org/maven2/org/apache/lucene/lucene-core/9.12.1)**
-    - [lucene-core](https://repo1.maven.org/maven2/org/apache/lucene/lucene-core/) **[10.2.0](https://repo1.maven.org/maven2/org/apache/lucene/lucene-core/10.2.0)**
+    - [lucene-core](https://repo1.maven.org/maven2/org/apache/lucene/lucene-core/) **[10.2.1](https://repo1.maven.org/maven2/org/apache/lucene/lucene-core/10.2.1)**
     - [lucene-facet](https://repo1.maven.org/maven2/org/apache/lucene/lucene-facet/) **[9.12.1](https://repo1.maven.org/maven2/org/apache/lucene/lucene-facet/9.12.1)**
-    - [lucene-facet](https://repo1.maven.org/maven2/org/apache/lucene/lucene-facet/) **[10.2.0](https://repo1.maven.org/maven2/org/apache/lucene/lucene-facet/10.2.0)**
+    - [lucene-facet](https://repo1.maven.org/maven2/org/apache/lucene/lucene-facet/) **[10.2.1](https://repo1.maven.org/maven2/org/apache/lucene/lucene-facet/10.2.1)**
     - [lucene-misc](https://repo1.maven.org/maven2/org/apache/lucene/lucene-misc/) **[9.12.1](https://repo1.maven.org/maven2/org/apache/lucene/lucene-misc/9.12.1)**
-    - [lucene-misc](https://repo1.maven.org/maven2/org/apache/lucene/lucene-misc/) **[10.2.0](https://repo1.maven.org/maven2/org/apache/lucene/lucene-misc/10.2.0)**
+    - [lucene-misc](https://repo1.maven.org/maven2/org/apache/lucene/lucene-misc/) **[10.2.1](https://repo1.maven.org/maven2/org/apache/lucene/lucene-misc/10.2.1)**
     - [lucene-queries](https://repo1.maven.org/maven2/org/apache/lucene/lucene-queries/) **[9.12.1](https://repo1.maven.org/maven2/org/apache/lucene/lucene-queries/9.12.1)**
-    - [lucene-queries](https://repo1.maven.org/maven2/org/apache/lucene/lucene-queries/) **[10.2.0](https://repo1.maven.org/maven2/org/apache/lucene/lucene-queries/10.2.0)**
+    - [lucene-queries](https://repo1.maven.org/maven2/org/apache/lucene/lucene-queries/) **[10.2.1](https://repo1.maven.org/maven2/org/apache/lucene/lucene-queries/10.2.1)**
     - [lucene-queryparser](https://repo1.maven.org/maven2/org/apache/lucene/lucene-queryparser/) **[9.12.1](https://repo1.maven.org/maven2/org/apache/lucene/lucene-queryparser/9.12.1)**
-    - [lucene-queryparser](https://repo1.maven.org/maven2/org/apache/lucene/lucene-queryparser/) **[10.2.0](https://repo1.maven.org/maven2/org/apache/lucene/lucene-queryparser/10.2.0)**
+    - [lucene-queryparser](https://repo1.maven.org/maven2/org/apache/lucene/lucene-queryparser/) **[10.2.1](https://repo1.maven.org/maven2/org/apache/lucene/lucene-queryparser/10.2.1)**
     - [lucene-sandbox](https://repo1.maven.org/maven2/org/apache/lucene/lucene-sandbox/) **[9.12.1](https://repo1.maven.org/maven2/org/apache/lucene/lucene-sandbox/9.12.1)**
-    - [lucene-sandbox](https://repo1.maven.org/maven2/org/apache/lucene/lucene-sandbox/) **[10.2.0](https://repo1.maven.org/maven2/org/apache/lucene/lucene-sandbox/10.2.0)**
+    - [lucene-sandbox](https://repo1.maven.org/maven2/org/apache/lucene/lucene-sandbox/) **[10.2.1](https://repo1.maven.org/maven2/org/apache/lucene/lucene-sandbox/10.2.1)**
  - [org.apache.poi](https://repo1.maven.org/maven2/org/apache/poi/)
     - [poi](https://repo1.maven.org/maven2/org/apache/poi/poi/) **[5.4.1](https://repo1.maven.org/maven2/org/apache/poi/poi/5.4.1)**
     - [poi-ooxml](https://repo1.maven.org/maven2/org/apache/poi/poi-ooxml/) **[5.4.1](https://repo1.maven.org/maven2/org/apache/poi/poi-ooxml/5.4.1)**
