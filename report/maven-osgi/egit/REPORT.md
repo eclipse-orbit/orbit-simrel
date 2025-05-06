@@ -2,9 +2,7 @@
 
 ## Minor Updates
  - [com.google.code.gson](https://repo1.maven.org/maven2/com/google/code/gson/)
-    - [gson](https://repo1.maven.org/maven2/com/google/code/gson/gson/) **[2.12.1](https://repo1.maven.org/maven2/com/google/code/gson/gson/2.12.1)** < [2.13.1](https://repo1.maven.org/maven2/com/google/code/gson/gson/2.13.1/)
- - [commons-io](https://repo1.maven.org/maven2/commons-io/)
-    - [commons-io](https://repo1.maven.org/maven2/commons-io/commons-io/) **[2.18.0](https://repo1.maven.org/maven2/commons-io/commons-io/2.18.0)** < [2.19.0](https://repo1.maven.org/maven2/commons-io/commons-io/2.19.0/)
+    - [gson](https://repo1.maven.org/maven2/com/google/code/gson/gson/) **[2.13.0](https://repo1.maven.org/maven2/com/google/code/gson/gson/2.13.0)** < [2.13.1](https://repo1.maven.org/maven2/com/google/code/gson/gson/2.13.1/)
  - [org.eclipse.jetty](https://repo1.maven.org/maven2/org/eclipse/jetty/)
     - [jetty-http](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/) **[12.0.19](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/12.0.19)** < [12.0.20](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/12.0.20/)
     - [jetty-io](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/) **[12.0.19](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/12.0.19)** < [12.0.20](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/12.0.20/)
@@ -28,13 +26,13 @@
  - [args4j](https://repo1.maven.org/maven2/args4j/)
     - [args4j](https://repo1.maven.org/maven2/args4j/args4j/) **[2.37](https://repo1.maven.org/maven2/args4j/args4j/2.37)**
  - [com.google.code.gson](https://repo1.maven.org/maven2/com/google/code/gson/)
-    - [gson](https://repo1.maven.org/maven2/com/google/code/gson/gson/) **[2.12.1](https://repo1.maven.org/maven2/com/google/code/gson/gson/2.12.1)**
+    - [gson](https://repo1.maven.org/maven2/com/google/code/gson/gson/) **[2.13.0](https://repo1.maven.org/maven2/com/google/code/gson/gson/2.13.0)**
  - [com.googlecode.javaewah](https://repo1.maven.org/maven2/com/googlecode/javaewah/)
     - [JavaEWAH](https://repo1.maven.org/maven2/com/googlecode/javaewah/JavaEWAH/) **[1.2.3](https://repo1.maven.org/maven2/com/googlecode/javaewah/JavaEWAH/1.2.3)**
  - [commons-codec](https://repo1.maven.org/maven2/commons-codec/)
     - [commons-codec](https://repo1.maven.org/maven2/commons-codec/commons-codec/) **[1.18.0](https://repo1.maven.org/maven2/commons-codec/commons-codec/1.18.0)**
  - [commons-io](https://repo1.maven.org/maven2/commons-io/)
-    - [commons-io](https://repo1.maven.org/maven2/commons-io/commons-io/) **[2.18.0](https://repo1.maven.org/maven2/commons-io/commons-io/2.18.0)**
+    - [commons-io](https://repo1.maven.org/maven2/commons-io/commons-io/) **[2.19.0](https://repo1.maven.org/maven2/commons-io/commons-io/2.19.0)**
  - [commons-logging](https://repo1.maven.org/maven2/commons-logging/)
     - [commons-logging](https://repo1.maven.org/maven2/commons-logging/commons-logging/) **[1.3.5](https://repo1.maven.org/maven2/commons-logging/commons-logging/1.3.5)**
  - [jakarta.servlet](https://repo1.maven.org/maven2/jakarta/servlet/)

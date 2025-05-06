@@ -65,29 +65,29 @@
  - [org.apache.xmlbeans](https://repo1.maven.org/maven2/org/apache/xmlbeans/)
     - [xmlbeans](https://repo1.maven.org/maven2/org/apache/xmlbeans/xmlbeans/) **[5.3.0](https://repo1.maven.org/maven2/org/apache/xmlbeans/xmlbeans/5.3.0)**
  - [org.apache.xmlgraphics](https://repo1.maven.org/maven2/org/apache/xmlgraphics/)
-    - [batik-anim](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-anim/) **[1.18](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-anim/1.18)**
-    - [batik-awt-util](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-awt-util/) **[1.18](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-awt-util/1.18)**
-    - [batik-bridge](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-bridge/) **[1.18](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-bridge/1.18)**
-    - [batik-codec](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-codec/) **[1.18](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-codec/1.18)**
-    - [batik-constants](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-constants/) **[1.18](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-constants/1.18)**
-    - [batik-css](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-css/) **[1.18](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-css/1.18)**
-    - [batik-dom](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-dom/) **[1.18](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-dom/1.18)**
-    - [batik-ext](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-ext/) **[1.18](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-ext/1.18)**
-    - [batik-extension](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-extension/) **[1.18](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-extension/1.18)**
-    - [batik-gvt](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-gvt/) **[1.18](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-gvt/1.18)**
-    - [batik-i18n](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-i18n/) **[1.18](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-i18n/1.18)**
-    - [batik-parser](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-parser/) **[1.18](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-parser/1.18)**
-    - [batik-script](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-script/) **[1.18](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-script/1.18)**
-    - [batik-shared-resources](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-shared-resources/) **[1.18](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-shared-resources/1.18)**
-    - [batik-svg-dom](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-svg-dom/) **[1.18](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-svg-dom/1.18)**
-    - [batik-svggen](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-svggen/) **[1.18](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-svggen/1.18)**
-    - [batik-transcoder](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-transcoder/) **[1.18](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-transcoder/1.18)**
-    - [batik-util](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-util/) **[1.18](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-util/1.18)**
-    - [batik-xml](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-xml/) **[1.18](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-xml/1.18)**
-    - [fop-core](https://repo1.maven.org/maven2/org/apache/xmlgraphics/fop-core/) **[2.10](https://repo1.maven.org/maven2/org/apache/xmlgraphics/fop-core/2.10)**
-    - [fop-events](https://repo1.maven.org/maven2/org/apache/xmlgraphics/fop-events/) **[2.10](https://repo1.maven.org/maven2/org/apache/xmlgraphics/fop-events/2.10)**
-    - [fop-util](https://repo1.maven.org/maven2/org/apache/xmlgraphics/fop-util/) **[2.10](https://repo1.maven.org/maven2/org/apache/xmlgraphics/fop-util/2.10)**
-    - [xmlgraphics-commons](https://repo1.maven.org/maven2/org/apache/xmlgraphics/xmlgraphics-commons/) **[2.10](https://repo1.maven.org/maven2/org/apache/xmlgraphics/xmlgraphics-commons/2.10)**
+    - [batik-anim](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-anim/) **[1.19](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-anim/1.19)**
+    - [batik-awt-util](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-awt-util/) **[1.19](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-awt-util/1.19)**
+    - [batik-bridge](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-bridge/) **[1.19](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-bridge/1.19)**
+    - [batik-codec](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-codec/) **[1.19](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-codec/1.19)**
+    - [batik-constants](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-constants/) **[1.19](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-constants/1.19)**
+    - [batik-css](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-css/) **[1.19](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-css/1.19)**
+    - [batik-dom](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-dom/) **[1.19](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-dom/1.19)**
+    - [batik-ext](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-ext/) **[1.19](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-ext/1.19)**
+    - [batik-extension](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-extension/) **[1.19](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-extension/1.19)**
+    - [batik-gvt](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-gvt/) **[1.19](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-gvt/1.19)**
+    - [batik-i18n](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-i18n/) **[1.19](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-i18n/1.19)**
+    - [batik-parser](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-parser/) **[1.19](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-parser/1.19)**
+    - [batik-script](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-script/) **[1.19](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-script/1.19)**
+    - [batik-shared-resources](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-shared-resources/) **[1.19](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-shared-resources/1.19)**
+    - [batik-svg-dom](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-svg-dom/) **[1.19](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-svg-dom/1.19)**
+    - [batik-svggen](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-svggen/) **[1.19](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-svggen/1.19)**
+    - [batik-transcoder](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-transcoder/) **[1.19](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-transcoder/1.19)**
+    - [batik-util](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-util/) **[1.19](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-util/1.19)**
+    - [batik-xml](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-xml/) **[1.19](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-xml/1.19)**
+    - [fop-core](https://repo1.maven.org/maven2/org/apache/xmlgraphics/fop-core/) **[2.11](https://repo1.maven.org/maven2/org/apache/xmlgraphics/fop-core/2.11)**
+    - [fop-events](https://repo1.maven.org/maven2/org/apache/xmlgraphics/fop-events/) **[2.11](https://repo1.maven.org/maven2/org/apache/xmlgraphics/fop-events/2.11)**
+    - [fop-util](https://repo1.maven.org/maven2/org/apache/xmlgraphics/fop-util/) **[2.11](https://repo1.maven.org/maven2/org/apache/xmlgraphics/fop-util/2.11)**
+    - [xmlgraphics-commons](https://repo1.maven.org/maven2/org/apache/xmlgraphics/xmlgraphics-commons/) **[2.11](https://repo1.maven.org/maven2/org/apache/xmlgraphics/xmlgraphics-commons/2.11)**
  - [org.codelibs](https://repo1.maven.org/maven2/org/codelibs/)
     - [nekohtml](https://repo1.maven.org/maven2/org/codelibs/nekohtml/) **[2.1.3](https://repo1.maven.org/maven2/org/codelibs/nekohtml/2.1.3)**
  - [org.commonmark](https://repo1.maven.org/maven2/org/commonmark/)
