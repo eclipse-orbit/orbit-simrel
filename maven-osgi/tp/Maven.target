@@ -3,7 +3,7 @@
 <target name="Maven" sequenceNumber="1">
   <locations>
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="error" type="Maven">
-      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.36.0.v20250506-1400">
+      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.36.0.v20250507-1400">
         <description>This feature's dependencies are pulled directly from Maven central.</description>
         <copyright>
 Copyright (c) 2025 Eclipse contributors and others.
@@ -16,13 +16,19 @@ https://www.eclipse.org/legal/epl-2.0/
 SPDX-License-Identifier: EPL-2.0
         </copyright>
         <license url="https://www.eclipse.org/legal/epl-2.0/"/>
-        <!-- SHA1 79423e8bb6bd13371b0951bfa5024a6d1b93cad3 -->
+        <!-- SHA1 b41c47c7ad44e605d350323b87b0f5a5483a3150 -->
       </feature>
       <dependencies>
         <dependency>
           <groupId>args4j</groupId>
           <artifactId>args4j</artifactId>
           <version>2.37</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>biz.aQute.bnd</groupId>
+          <artifactId>aQute.libg</artifactId>
+          <version>7.1.0</version>
           <type>jar</type>
         </dependency>
         <dependency>

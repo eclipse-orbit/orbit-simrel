@@ -17,6 +17,7 @@
 
 ## Content
  - [biz.aQute.bnd](https://repo1.maven.org/maven2/biz/aQute/bnd/)
+    - [aQute.libg](https://repo1.maven.org/maven2/biz/aQute/bnd/aQute.libg/) **[7.1.0](https://repo1.maven.org/maven2/biz/aQute/bnd/aQute.libg/7.1.0)**
     - [biz.aQute.bnd.annotation](https://repo1.maven.org/maven2/biz/aQute/bnd/biz.aQute.bnd.annotation/) **[7.1.0](https://repo1.maven.org/maven2/biz/aQute/bnd/biz.aQute.bnd.annotation/7.1.0)**
     - [biz.aQute.bnd.embedded-repo](https://repo1.maven.org/maven2/biz/aQute/bnd/biz.aQute.bnd.embedded-repo/) **[7.1.0](https://repo1.maven.org/maven2/biz/aQute/bnd/biz.aQute.bnd.embedded-repo/7.1.0)**
     - [biz.aQute.bnd.util](https://repo1.maven.org/maven2/biz/aQute/bnd/biz.aQute.bnd.util/) **[7.1.0](https://repo1.maven.org/maven2/biz/aQute/bnd/biz.aQute.bnd.util/7.1.0)**
