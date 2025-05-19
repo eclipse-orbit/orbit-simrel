@@ -256,6 +256,7 @@
     - [org.osgi.namespace.implementation](https://repo1.maven.org/maven2/org/osgi/org.osgi.namespace.implementation/) **[1.0.0](https://repo1.maven.org/maven2/org/osgi/org.osgi.namespace.implementation/1.0.0)**
     - [org.osgi.resource](https://repo1.maven.org/maven2/org/osgi/org.osgi.resource/) **[1.0.1](https://repo1.maven.org/maven2/org/osgi/org.osgi.resource/1.0.1)**
     - [org.osgi.service.http](https://repo1.maven.org/maven2/org/osgi/org.osgi.service.http/) **[1.2.2](https://repo1.maven.org/maven2/org/osgi/org.osgi.service.http/1.2.2)**
+    - [org.osgi.service.jdbc](https://repo1.maven.org/maven2/org/osgi/org.osgi.service.jdbc/) **[1.1.0](https://repo1.maven.org/maven2/org/osgi/org.osgi.service.jdbc/1.1.0)**
     - [org.osgi.service.log](https://repo1.maven.org/maven2/org/osgi/org.osgi.service.log/) **[1.5.0](https://repo1.maven.org/maven2/org/osgi/org.osgi.service.log/1.5.0)**
     - [org.osgi.service.packageadmin](https://repo1.maven.org/maven2/org/osgi/org.osgi.service.packageadmin/) **[1.2.1](https://repo1.maven.org/maven2/org/osgi/org.osgi.service.packageadmin/1.2.1)**
     - [org.osgi.service.resolver](https://repo1.maven.org/maven2/org/osgi/org.osgi.service.resolver/) **[1.1.1](https://repo1.maven.org/maven2/org/osgi/org.osgi.service.resolver/1.1.1)**

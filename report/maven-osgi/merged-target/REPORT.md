@@ -399,6 +399,7 @@
     - [org.osgi.service.event](https://repo1.maven.org/maven2/org/osgi/org.osgi.service.event/) **[1.4.1](https://repo1.maven.org/maven2/org/osgi/org.osgi.service.event/1.4.1)**
     - [org.osgi.service.http](https://repo1.maven.org/maven2/org/osgi/org.osgi.service.http/) **[1.2.2](https://repo1.maven.org/maven2/org/osgi/org.osgi.service.http/1.2.2)**
     - [org.osgi.service.http.whiteboard](https://repo1.maven.org/maven2/org/osgi/org.osgi.service.http.whiteboard/) **[1.1.1](https://repo1.maven.org/maven2/org/osgi/org.osgi.service.http.whiteboard/1.1.1)**
+    - [org.osgi.service.jdbc](https://repo1.maven.org/maven2/org/osgi/org.osgi.service.jdbc/) **[1.1.0](https://repo1.maven.org/maven2/org/osgi/org.osgi.service.jdbc/1.1.0)**
     - [org.osgi.service.log](https://repo1.maven.org/maven2/org/osgi/org.osgi.service.log/) **[1.5.0](https://repo1.maven.org/maven2/org/osgi/org.osgi.service.log/1.5.0)**
     - [org.osgi.service.log.stream](https://repo1.maven.org/maven2/org/osgi/org.osgi.service.log.stream/) **[1.0.0](https://repo1.maven.org/maven2/org/osgi/org.osgi.service.log.stream/1.0.0)**
     - [org.osgi.service.metatype](https://repo1.maven.org/maven2/org/osgi/org.osgi.service.metatype/) **[1.4.1](https://repo1.maven.org/maven2/org/osgi/org.osgi.service.metatype/1.4.1)**
