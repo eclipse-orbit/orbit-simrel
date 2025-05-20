@@ -366,8 +366,8 @@
     - [docker-client](https://repo1.maven.org/maven2/org/mandas/docker-client/) **[8.0.3](https://repo1.maven.org/maven2/org/mandas/docker-client/8.0.3)**
     - [docker-client](https://repo1.maven.org/maven2/org/mandas/docker-client/) **[9.0.3](https://repo1.maven.org/maven2/org/mandas/docker-client/9.0.3)**
  - [org.mockito](https://repo1.maven.org/maven2/org/mockito/)
-    - [mockito-core](https://repo1.maven.org/maven2/org/mockito/mockito-core/) **[5.17.0](https://repo1.maven.org/maven2/org/mockito/mockito-core/5.17.0)**
-    - [mockito-junit-jupiter](https://repo1.maven.org/maven2/org/mockito/mockito-junit-jupiter/) **[5.17.0](https://repo1.maven.org/maven2/org/mockito/mockito-junit-jupiter/5.17.0)**
+    - [mockito-core](https://repo1.maven.org/maven2/org/mockito/mockito-core/) **[5.18.0](https://repo1.maven.org/maven2/org/mockito/mockito-core/5.18.0)**
+    - [mockito-junit-jupiter](https://repo1.maven.org/maven2/org/mockito/mockito-junit-jupiter/) **[5.18.0](https://repo1.maven.org/maven2/org/mockito/mockito-junit-jupiter/5.18.0)**
  - [org.mongodb](https://repo1.maven.org/maven2/org/mongodb/)
     - [mongo-java-driver](https://repo1.maven.org/maven2/org/mongodb/mongo-java-driver/) **[3.12.14](https://repo1.maven.org/maven2/org/mongodb/mongo-java-driver/3.12.14)**
  - [org.mortbay.jasper](https://repo1.maven.org/maven2/org/mortbay/jasper/)
