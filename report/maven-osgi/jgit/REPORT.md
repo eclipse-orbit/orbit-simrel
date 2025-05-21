@@ -1,21 +1,5 @@
 # Target Platform: [jgit](https://raw.githubusercontent.com/eclipse-jgit/jgit/master/org.eclipse.jgit.packaging/org.eclipse.jgit.target/maven/dependencies.tpd)
 
-## Minor Updates
- - [com.google.code.gson](https://repo1.maven.org/maven2/com/google/code/gson/)
-    - [gson](https://repo1.maven.org/maven2/com/google/code/gson/gson/) **[2.13.0](https://repo1.maven.org/maven2/com/google/code/gson/gson/2.13.0)** < [2.13.1](https://repo1.maven.org/maven2/com/google/code/gson/gson/2.13.1/)
- - [org.eclipse.jetty](https://repo1.maven.org/maven2/org/eclipse/jetty/)
-    - [jetty-http](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/) **[12.0.19](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/12.0.19)** < [12.0.21](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/12.0.21/)
-    - [jetty-io](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/) **[12.0.19](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/12.0.19)** < [12.0.21](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/12.0.21/)
-    - [jetty-security](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-security/) **[12.0.19](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-security/12.0.19)** < [12.0.21](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-security/12.0.21/)
-    - [jetty-server](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-server/) **[12.0.19](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-server/12.0.19)** < [12.0.21](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-server/12.0.21/)
-    - [jetty-session](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-session/) **[12.0.19](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-session/12.0.19)** < [12.0.21](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-session/12.0.21/)
-    - [jetty-util](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/) **[12.0.19](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/12.0.19)** < [12.0.21](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/12.0.21/)
-    - [jetty-util-ajax](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util-ajax/) **[12.0.19](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util-ajax/12.0.19)** < [12.0.21](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util-ajax/12.0.21/)
- - [org.eclipse.jetty.ee10](https://repo1.maven.org/maven2/org/eclipse/jetty/ee10/)
-    - [jetty-ee10-servlet](https://repo1.maven.org/maven2/org/eclipse/jetty/ee10/jetty-ee10-servlet/) **[12.0.19](https://repo1.maven.org/maven2/org/eclipse/jetty/ee10/jetty-ee10-servlet/12.0.19)** < [12.0.21](https://repo1.maven.org/maven2/org/eclipse/jetty/ee10/jetty-ee10-servlet/12.0.21/)
- - [org.mockito](https://repo1.maven.org/maven2/org/mockito/)
-    - [mockito-core](https://repo1.maven.org/maven2/org/mockito/mockito-core/) **[5.17.0](https://repo1.maven.org/maven2/org/mockito/mockito-core/5.17.0)** < [5.18.0](https://repo1.maven.org/maven2/org/mockito/mockito-core/5.18.0/)
-
 ## Major Updates
  - [org.hamcrest](https://repo1.maven.org/maven2/org/hamcrest/)
     - [hamcrest](https://repo1.maven.org/maven2/org/hamcrest/hamcrest/) **[2.2](https://repo1.maven.org/maven2/org/hamcrest/hamcrest/2.2)** < [3.0](https://repo1.maven.org/maven2/org/hamcrest/hamcrest/3.0/)
@@ -23,14 +7,11 @@
     - [slf4j-api](https://repo1.maven.org/maven2/org/slf4j/slf4j-api/) **[1.7.36](https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.36)** < [2.0.17](https://repo1.maven.org/maven2/org/slf4j/slf4j-api/2.0.17/)
     - [slf4j-simple](https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/) **[1.7.36](https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/1.7.36)** < [2.0.17](https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/2.0.17/)
 
-## Updates Applied
-[updated.tpd](updated.tpd)
-
 ## Content
  - [args4j](https://repo1.maven.org/maven2/args4j/)
     - [args4j](https://repo1.maven.org/maven2/args4j/args4j/) **[2.37](https://repo1.maven.org/maven2/args4j/args4j/2.37)**
  - [com.google.code.gson](https://repo1.maven.org/maven2/com/google/code/gson/)
-    - [gson](https://repo1.maven.org/maven2/com/google/code/gson/gson/) **[2.13.0](https://repo1.maven.org/maven2/com/google/code/gson/gson/2.13.0)**
+    - [gson](https://repo1.maven.org/maven2/com/google/code/gson/gson/) **[2.13.1](https://repo1.maven.org/maven2/com/google/code/gson/gson/2.13.1)**
  - [com.googlecode.javaewah](https://repo1.maven.org/maven2/com/googlecode/javaewah/)
     - [JavaEWAH](https://repo1.maven.org/maven2/com/googlecode/javaewah/JavaEWAH/) **[1.2.3](https://repo1.maven.org/maven2/com/googlecode/javaewah/JavaEWAH/1.2.3)**
  - [commons-codec](https://repo1.maven.org/maven2/commons-codec/)
@@ -61,19 +42,19 @@
     - [bcprov-jdk18on](https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk18on/) **[1.80](https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk18on/1.80)**
     - [bcutil-jdk18on](https://repo1.maven.org/maven2/org/bouncycastle/bcutil-jdk18on/) **[1.80](https://repo1.maven.org/maven2/org/bouncycastle/bcutil-jdk18on/1.80)**
  - [org.eclipse.jetty](https://repo1.maven.org/maven2/org/eclipse/jetty/)
-    - [jetty-http](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/) **[12.0.19](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/12.0.19)**
-    - [jetty-io](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/) **[12.0.19](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/12.0.19)**
-    - [jetty-security](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-security/) **[12.0.19](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-security/12.0.19)**
-    - [jetty-server](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-server/) **[12.0.19](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-server/12.0.19)**
-    - [jetty-session](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-session/) **[12.0.19](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-session/12.0.19)**
-    - [jetty-util](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/) **[12.0.19](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/12.0.19)**
-    - [jetty-util-ajax](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util-ajax/) **[12.0.19](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util-ajax/12.0.19)**
+    - [jetty-http](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/) **[12.0.21](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/12.0.21)**
+    - [jetty-io](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/) **[12.0.21](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/12.0.21)**
+    - [jetty-security](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-security/) **[12.0.21](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-security/12.0.21)**
+    - [jetty-server](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-server/) **[12.0.21](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-server/12.0.21)**
+    - [jetty-session](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-session/) **[12.0.21](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-session/12.0.21)**
+    - [jetty-util](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/) **[12.0.21](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/12.0.21)**
+    - [jetty-util-ajax](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util-ajax/) **[12.0.21](https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util-ajax/12.0.21)**
  - [org.eclipse.jetty.ee10](https://repo1.maven.org/maven2/org/eclipse/jetty/ee10/)
-    - [jetty-ee10-servlet](https://repo1.maven.org/maven2/org/eclipse/jetty/ee10/jetty-ee10-servlet/) **[12.0.19](https://repo1.maven.org/maven2/org/eclipse/jetty/ee10/jetty-ee10-servlet/12.0.19)**
+    - [jetty-ee10-servlet](https://repo1.maven.org/maven2/org/eclipse/jetty/ee10/jetty-ee10-servlet/) **[12.0.21](https://repo1.maven.org/maven2/org/eclipse/jetty/ee10/jetty-ee10-servlet/12.0.21)**
  - [org.hamcrest](https://repo1.maven.org/maven2/org/hamcrest/)
     - [hamcrest](https://repo1.maven.org/maven2/org/hamcrest/hamcrest/) **[2.2](https://repo1.maven.org/maven2/org/hamcrest/hamcrest/2.2)**
  - [org.mockito](https://repo1.maven.org/maven2/org/mockito/)
-    - [mockito-core](https://repo1.maven.org/maven2/org/mockito/mockito-core/) **[5.17.0](https://repo1.maven.org/maven2/org/mockito/mockito-core/5.17.0)**
+    - [mockito-core](https://repo1.maven.org/maven2/org/mockito/mockito-core/) **[5.18.0](https://repo1.maven.org/maven2/org/mockito/mockito-core/5.18.0)**
  - [org.slf4j](https://repo1.maven.org/maven2/org/slf4j/)
     - [slf4j-api](https://repo1.maven.org/maven2/org/slf4j/slf4j-api/) **[1.7.36](https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.36)**
     - [slf4j-simple](https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/) **[1.7.36](https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/1.7.36)**
