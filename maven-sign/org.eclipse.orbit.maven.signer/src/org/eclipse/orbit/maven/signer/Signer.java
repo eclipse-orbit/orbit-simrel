@@ -16,6 +16,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.PrintStream;
+import java.nio.charset.StandardCharsets;
 import java.nio.file.FileSystems;
 import java.nio.file.FileVisitResult;
 import java.nio.file.Files;
@@ -45,20 +46,30 @@ public class Signer {
 
 	private static final Name BUNDLE_VERSION = new Attributes.Name("Bundle-Version");
 
-	private static final Pattern QUALIFIER_PATTERN = Pattern
-			.compile("bundle-pattern: *(\\S+)\\s+Bundle-Version:\\s+\\$\\{version\\}\\.(\\S+)");
+	private static final Pattern QUALIFIER_PATTERN = Pattern.compile(//
+			"<groupId>(?<group>[^<]+)</groupId>\\s*" + //
+					"<artifactId>(?<artifact>[^<]+)</artifactId>\\s*" + //
+					"<version>(?<version>[^<]+)</version>\\s*" + //
+					"<type>(?<type>[^<]+)</type>\\s*" + //
+					"(<classifier>(?<classifier>[^<]+)</classifier>)?.*?" + //
+					"bundle-pattern: *(?<pattern>\\S+)\\s+Bundle-Version:\\s+\\$\\{version\\}\\.(?<qualifier>\\S+)",
+			Pattern.DOTALL);
 
 	private static final Pattern ARTIFACT_PATH_PATTERN = Pattern.compile("(plugins|features)[/\\\\](.*)\\.jar");
 
 	private static final Pattern VERSION_PREFIX_PATTERN = Pattern.compile("(version=\"[^\"]+)");
 
-	private Map<Pattern, String> qualifiers = new LinkedHashMap<>();
+	private final Map<Pattern, String> qualifiers = new LinkedHashMap<>();
 
-	private Path sourceRepository;
+	private final Map<Pattern, Map<String, String>> artifactProperties = new LinkedHashMap<>();
 
-	private Path targetRepository;
+	private final Map<Pattern, Map<String, String>> sourceProperties = new LinkedHashMap<>();
 
-	private boolean sign;
+	private final Path sourceRepository;
+
+	private final Path targetRepository;
+
+	private final boolean sign;
 
 	public static void main(String[] args) throws IOException {
 		new Signer(new ArrayList<>(Arrays.asList(args))).sign();
@@ -77,9 +88,36 @@ public class Signer {
 
 		var targetFileContent = Files.readString(getPathArgument(list, "-versions").toAbsolutePath());
 		for (var matcher = QUALIFIER_PATTERN.matcher(targetFileContent); matcher.find();) {
-			var bundlePattern = matcher.group(1);
-			var versionQualifier = matcher.group(2);
-			qualifiers.put(Pattern.compile(bundlePattern), versionQualifier);
+			var bundlePattern = matcher.group("pattern");
+			var versionQualifier = matcher.group("qualifier");
+			Pattern compiledBundlePattern = Pattern.compile(bundlePattern);
+			qualifiers.put(compiledBundlePattern, versionQualifier);
+
+			var groupId = matcher.group("group");
+			var artifactId = matcher.group("artifact");
+			var version = matcher.group("version");
+			var type = matcher.group("type");
+			var classifier = matcher.group("classifier");
+
+			var artifactProperties = new LinkedHashMap<String, String>();
+			artifactProperties.put("maven-wrapped-groupId", groupId);
+			artifactProperties.put("maven-wrapped-artifactId", artifactId);
+			artifactProperties.put("maven-wrapped-version", version);
+			if (type != null && !"jar".equals(type)) {
+				artifactProperties.put("maven-wrapped-type", type);
+			}
+			if (classifier != null) {
+				artifactProperties.put("maven-wrapped-classifier", classifier);
+			}
+
+			this.artifactProperties.put(compiledBundlePattern, artifactProperties);
+
+			var sourceProperties = new LinkedHashMap<String, String>();
+			sourceProperties.put("maven-wrapped-groupId", groupId);
+			sourceProperties.put("maven-wrapped-artifactId", artifactId);
+			sourceProperties.put("maven-wrapped-version", version);
+			sourceProperties.put("maven-wrapped-classifier", "sources");
+			this.sourceProperties.put(compiledBundlePattern, sourceProperties);
 		}
 
 		sign = "true".equals(getArgument(list, "-sign"));
@@ -109,6 +147,17 @@ public class Signer {
 		throw new IllegalArgumentException("No qualifier is specified for :" + bundleSymbolicName);
 	}
 
+	private Map<String, String> getProperties(String bundleSymbolicName) {
+		var properties = bundleSymbolicName.endsWith(".source") ? sourceProperties : artifactProperties;
+		for (var entry : properties.entrySet()) {
+			if (entry.getKey().matcher(bundleSymbolicName).matches()) {
+				return entry.getValue();
+			}
+		}
+
+		throw new IllegalArgumentException("No properties are specified for :" + bundleSymbolicName);
+	}
+
 	public void unpackArtifact(Path jar, Path targetRoot) throws IOException {
 		try (var fileSystem = FileSystems.newFileSystem(jar)) {
 			var jarRoot = fileSystem.getPath("/");
@@ -124,10 +173,10 @@ public class Signer {
 							var manifest = new Manifest(input);
 							var mainAttributes = manifest.getMainAttributes();
 							var bundleVersion = mainAttributes.get(BUNDLE_VERSION);
-							var bundleSymbolicName = mainAttributes.get(BUNDLE_SYMBOLIC_NAME);
+							var bundleSymbolicName = mainAttributes.get(BUNDLE_SYMBOLIC_NAME).toString();
 							var eclipseSourceBundle = mainAttributes.get(ECLIPSE_SOURCE_BUNDLE);
 
-							var qualifier = getQualifier(bundleSymbolicName.toString());
+							var qualifier = getQualifier(bundleSymbolicName);
 							String qualifiedBundleVersion = bundleVersion + "." + qualifier;
 							mainAttributes.put(BUNDLE_VERSION, qualifiedBundleVersion);
 
@@ -143,6 +192,26 @@ public class Signer {
 							}
 
 							manifest.write(output);
+
+							var p2INFFile = targetFile.resolve("../p2.inf").normalize();
+							var properties = getProperties(bundleSymbolicName);
+							try (var out = new PrintStream(Files.newOutputStream(p2INFFile), false,
+									StandardCharsets.UTF_8)) {
+								var index = 0;
+								for (var entry : properties.entrySet()) {
+									out.print("properties.");
+									out.print(index);
+									out.print(".name = ");
+									out.println(entry.getKey());
+
+									out.print("properties.");
+									out.print(index);
+									out.print(".value = ");
+									out.println(entry.getValue());
+
+									++index;
+								}
+							}
 						}
 					} else if ("feature.xml".equals(relativePathInJar)) {
 						var featureXMLContent = Files.readString(file);
