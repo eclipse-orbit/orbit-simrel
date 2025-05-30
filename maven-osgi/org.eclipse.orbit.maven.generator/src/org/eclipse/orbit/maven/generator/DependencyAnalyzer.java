@@ -367,7 +367,7 @@ public class DependencyAnalyzer {
 	}
 
 	private static String getReportVersion(Dependency dependency, Version version) {
-		return "[" + version + "](https://repo1.maven.org/maven2/" + dependency.groupId.replace('.', '/') + "/"
+		return "[" + version + "](https://repo.maven.apache.org/maven2/" + dependency.groupId.replace('.', '/') + "/"
 				+ dependency.artifactId + "/" + version + "/)";
 	}
 
@@ -902,7 +902,7 @@ public class DependencyAnalyzer {
 					? "https://repo.eclipse.org/content/repositories/lemminx-releases/"
 					: "org.eclipse.orbit".equals(groupId)
 							? "https://repo.eclipse.org/content/repositories/orbit-approved-artifacts/"
-							: "https://repo1.maven.org/maven2/";
+							: "https://repo.maven.apache.org/maven2/";
 			return URI.create(baseURI + groupId.replace('.', '/') + "/");
 		}
 
