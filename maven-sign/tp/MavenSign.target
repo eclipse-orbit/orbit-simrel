@@ -6,7 +6,7 @@
 <!-- _______________________________________________________ com.github.jnr.jffi _________________________________________________________________________________________________-->
 
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="error" type="Maven">
-      <feature id="org.eclipse.orbit.maven.com.github.jnr.jffi" label="Orbit Maven BND com.github.jnr.jffi" provider-name="Eclipse Orbit" version="4.36.0">
+      <feature id="org.eclipse.orbit.maven.com.github.jnr.jffi" label="Orbit Maven BND com.github.jnr.jffi" provider-name="Eclipse Orbit" version="4.37.0">
         <description>This feature's dependencies are pulled directly from Maven central and is signed.</description>
         <copyright>
 Copyright (c) 2025 Eclipse contributors and others.
@@ -45,7 +45,7 @@ Bundle-Version:         ${version}.v20240215-1616
 <!-- _______________________________________________________ net.java.dev.jna _________________________________________________________________________________________________-->
 
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="error" type="Maven">
-      <feature id="org.eclipse.orbit.maven.net.java.dev.jna" label="Orbit Maven BND net.java.dev.jna" provider-name="Eclipse Orbit" version="4.36.0.v20250316-1700">
+      <feature id="org.eclipse.orbit.maven.net.java.dev.jna" label="Orbit Maven BND net.java.dev.jna" provider-name="Eclipse Orbit" version="4.37.0">
         <description>This feature's dependencies are pulled directly from Maven central and is signed.</description>
         <copyright>
 Copyright (c) 2025 Eclipse contributors and others.
@@ -84,7 +84,7 @@ Bundle-Version:         ${version}.v20250316-1700
 <!-- _______________________________________________________ EXCLUDE _________________________________________________________________________________________________-->
 
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
-      <feature id="org.eclipse.orbit.maven.com.exclude" label="Orbit Maven BND exclude" provider-name="Eclipse Orbit" version="4.36.0">
+      <feature id="org.eclipse.orbit.maven.com.exclude" label="Orbit Maven BND exclude" provider-name="Eclipse Orbit" version="4.37.0">
         <description>This feature's dependencies are pulled directly from Maven central and is signed.</description>
         <copyright>
 Copyright (c) 2025 Eclipse contributors and others.
