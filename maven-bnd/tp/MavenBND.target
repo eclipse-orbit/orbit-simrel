@@ -1775,7 +1775,7 @@ SPDX-License-Identifier: EPL-2.0
         </dependency>
       </dependencies>
       <instructions>
-<!-- SHA1 233e38523739cf2f27d1be42307ace6344ab3b71 -->
+<!-- SHA1 8caa74d583598ac93b5c79e7040c29a3da03ab01 -->
 <![CDATA[
 Bundle-Name:            Bundle ${mvnGroupId} : ${mvnArtifactId
 # The version is purely qualifier, so we promote the value after the v to the micro version as has been historically the case.
@@ -1789,6 +1789,7 @@ Import-Package:         java.*,org.w3c.dom,org.xml.sax.*,\
 Export-Package:         *;version="${version}";-noimport:=true
 -noextraheaders:        true
 -removeheaders:         Private-Package
+-fixupmessages:         *;restrict:=error;is:=warning
 ]]>
       </instructions>
     </location>
