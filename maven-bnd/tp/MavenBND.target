@@ -2993,7 +2993,7 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>org.eclipse.platform</groupId>
           <artifactId>org.eclipse.swt</artifactId>
-          <version>3.129.0</version>
+          <version>3.130.0</version>
           <type>jar</type>
         </dependency>
 
