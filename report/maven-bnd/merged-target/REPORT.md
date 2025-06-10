@@ -1,135 +1,135 @@
 # Target Platform: [merged-target](https://github.com/eclipse-orbit/orbit-simrel/blob/main/maven-bnd/tp/MavenBND.target)
 
 ## Content
- - [aopalliance](https://repo1.maven.org/maven2/aopalliance/)
-    - [aopalliance](https://repo1.maven.org/maven2/aopalliance/aopalliance/) **[1.0](https://repo1.maven.org/maven2/aopalliance/aopalliance/1.0)**
- - [com.github.jnr](https://repo1.maven.org/maven2/com/github/jnr/)
-    - [jnr-a64asm](https://repo1.maven.org/maven2/com/github/jnr/jnr-a64asm/) **[1.0.0](https://repo1.maven.org/maven2/com/github/jnr/jnr-a64asm/1.0.0)**
-    - [jnr-x86asm](https://repo1.maven.org/maven2/com/github/jnr/jnr-x86asm/) **[1.0.2](https://repo1.maven.org/maven2/com/github/jnr/jnr-x86asm/1.0.2)**
- - [com.github.jtidy](https://repo1.maven.org/maven2/com/github/jtidy/)
-    - [jtidy](https://repo1.maven.org/maven2/com/github/jtidy/jtidy/) **[1.0.5](https://repo1.maven.org/maven2/com/github/jtidy/jtidy/1.0.5)**
- - [com.github.package-url](https://repo1.maven.org/maven2/com/github/package-url/)
-    - [packageurl-java](https://repo1.maven.org/maven2/com/github/package-url/packageurl-java/) **[1.5.0](https://repo1.maven.org/maven2/com/github/package-url/packageurl-java/1.5.0)**
- - [com.github.virtuald](https://repo1.maven.org/maven2/com/github/virtuald/)
-    - [curvesapi](https://repo1.maven.org/maven2/com/github/virtuald/curvesapi/) **[1.8](https://repo1.maven.org/maven2/com/github/virtuald/curvesapi/1.8)**
- - [com.google.javascript](https://repo1.maven.org/maven2/com/google/javascript/)
-    - [closure-compiler](https://repo1.maven.org/maven2/com/google/javascript/closure-compiler/) **[v20250407](https://repo1.maven.org/maven2/com/google/javascript/closure-compiler/v20250407)**
- - [com.jcraft](https://repo1.maven.org/maven2/com/jcraft/)
-    - [jsch](https://repo1.maven.org/maven2/com/jcraft/jsch/) **[0.1.55](https://repo1.maven.org/maven2/com/jcraft/jsch/0.1.55)**
-    - [jzlib](https://repo1.maven.org/maven2/com/jcraft/jzlib/) **[1.1.3](https://repo1.maven.org/maven2/com/jcraft/jzlib/1.1.3)**
- - [com.jgoodies](https://repo1.maven.org/maven2/com/jgoodies/)
-    - [jgoodies-common](https://repo1.maven.org/maven2/com/jgoodies/jgoodies-common/) **[1.8.1](https://repo1.maven.org/maven2/com/jgoodies/jgoodies-common/1.8.1)**
-    - [jgoodies-forms](https://repo1.maven.org/maven2/com/jgoodies/jgoodies-forms/) **[1.9.0](https://repo1.maven.org/maven2/com/jgoodies/jgoodies-forms/1.9.0)**
- - [com.konghq](https://repo1.maven.org/maven2/com/konghq/)
-    - [unirest-java](https://repo1.maven.org/maven2/com/konghq/unirest-java/) **[3.14.5](https://repo1.maven.org/maven2/com/konghq/unirest-java/3.14.5)**
- - [com.zaxxer](https://repo1.maven.org/maven2/com/zaxxer/)
-    - [SparseBitSet](https://repo1.maven.org/maven2/com/zaxxer/SparseBitSet/) **[1.3](https://repo1.maven.org/maven2/com/zaxxer/SparseBitSet/1.3)**
- - [commons-httpclient](https://repo1.maven.org/maven2/commons-httpclient/)
-    - [commons-httpclient](https://repo1.maven.org/maven2/commons-httpclient/commons-httpclient/) **[3.1](https://repo1.maven.org/maven2/commons-httpclient/commons-httpclient/3.1)**
- - [junit](https://repo1.maven.org/maven2/junit/)
-    - [junit](https://repo1.maven.org/maven2/junit/junit/) **[4.13.2](https://repo1.maven.org/maven2/junit/junit/4.13.2)**
- - [org.antlr](https://repo1.maven.org/maven2/org/antlr/)
-    - [antlr-runtime](https://repo1.maven.org/maven2/org/antlr/antlr-runtime/) **[3.2](https://repo1.maven.org/maven2/org/antlr/antlr-runtime/3.2)**
-    - [antlr-runtime](https://repo1.maven.org/maven2/org/antlr/antlr-runtime/) **[3.5.3](https://repo1.maven.org/maven2/org/antlr/antlr-runtime/3.5.3)**
- - [org.apache.httpcomponents](https://repo1.maven.org/maven2/org/apache/httpcomponents/)
-    - [httpclient-win](https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient-win/) **[4.5.14](https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient-win/4.5.14)**
- - [org.apache.httpcomponents.client5](https://repo1.maven.org/maven2/org/apache/httpcomponents/client5/)
-    - [httpclient5](https://repo1.maven.org/maven2/org/apache/httpcomponents/client5/httpclient5/) **[5.5](https://repo1.maven.org/maven2/org/apache/httpcomponents/client5/httpclient5/5.5)**
-    - [httpclient5-win](https://repo1.maven.org/maven2/org/apache/httpcomponents/client5/httpclient5-win/) **[5.2.3](https://repo1.maven.org/maven2/org/apache/httpcomponents/client5/httpclient5-win/5.2.3)**
- - [org.apache.httpcomponents.core5](https://repo1.maven.org/maven2/org/apache/httpcomponents/core5/)
-    - [httpcore5](https://repo1.maven.org/maven2/org/apache/httpcomponents/core5/httpcore5/) **[5.3.4](https://repo1.maven.org/maven2/org/apache/httpcomponents/core5/httpcore5/5.3.4)**
-    - [httpcore5-h2](https://repo1.maven.org/maven2/org/apache/httpcomponents/core5/httpcore5-h2/) **[5.3.4](https://repo1.maven.org/maven2/org/apache/httpcomponents/core5/httpcore5-h2/5.3.4)**
- - [org.apache.lucene](https://repo1.maven.org/maven2/org/apache/lucene/)
-    - [lucene-analysis-common](https://repo1.maven.org/maven2/org/apache/lucene/lucene-analysis-common/) **[9.12.1](https://repo1.maven.org/maven2/org/apache/lucene/lucene-analysis-common/9.12.1)**
-    - [lucene-analysis-common](https://repo1.maven.org/maven2/org/apache/lucene/lucene-analysis-common/) **[10.2.1](https://repo1.maven.org/maven2/org/apache/lucene/lucene-analysis-common/10.2.1)**
-    - [lucene-analysis-smartcn](https://repo1.maven.org/maven2/org/apache/lucene/lucene-analysis-smartcn/) **[9.12.1](https://repo1.maven.org/maven2/org/apache/lucene/lucene-analysis-smartcn/9.12.1)**
-    - [lucene-analysis-smartcn](https://repo1.maven.org/maven2/org/apache/lucene/lucene-analysis-smartcn/) **[10.2.1](https://repo1.maven.org/maven2/org/apache/lucene/lucene-analysis-smartcn/10.2.1)**
-    - [lucene-core](https://repo1.maven.org/maven2/org/apache/lucene/lucene-core/) **[9.12.1](https://repo1.maven.org/maven2/org/apache/lucene/lucene-core/9.12.1)**
-    - [lucene-core](https://repo1.maven.org/maven2/org/apache/lucene/lucene-core/) **[10.2.1](https://repo1.maven.org/maven2/org/apache/lucene/lucene-core/10.2.1)**
-    - [lucene-facet](https://repo1.maven.org/maven2/org/apache/lucene/lucene-facet/) **[9.12.1](https://repo1.maven.org/maven2/org/apache/lucene/lucene-facet/9.12.1)**
-    - [lucene-facet](https://repo1.maven.org/maven2/org/apache/lucene/lucene-facet/) **[10.2.1](https://repo1.maven.org/maven2/org/apache/lucene/lucene-facet/10.2.1)**
-    - [lucene-misc](https://repo1.maven.org/maven2/org/apache/lucene/lucene-misc/) **[9.12.1](https://repo1.maven.org/maven2/org/apache/lucene/lucene-misc/9.12.1)**
-    - [lucene-misc](https://repo1.maven.org/maven2/org/apache/lucene/lucene-misc/) **[10.2.1](https://repo1.maven.org/maven2/org/apache/lucene/lucene-misc/10.2.1)**
-    - [lucene-queries](https://repo1.maven.org/maven2/org/apache/lucene/lucene-queries/) **[9.12.1](https://repo1.maven.org/maven2/org/apache/lucene/lucene-queries/9.12.1)**
-    - [lucene-queries](https://repo1.maven.org/maven2/org/apache/lucene/lucene-queries/) **[10.2.1](https://repo1.maven.org/maven2/org/apache/lucene/lucene-queries/10.2.1)**
-    - [lucene-queryparser](https://repo1.maven.org/maven2/org/apache/lucene/lucene-queryparser/) **[9.12.1](https://repo1.maven.org/maven2/org/apache/lucene/lucene-queryparser/9.12.1)**
-    - [lucene-queryparser](https://repo1.maven.org/maven2/org/apache/lucene/lucene-queryparser/) **[10.2.1](https://repo1.maven.org/maven2/org/apache/lucene/lucene-queryparser/10.2.1)**
-    - [lucene-sandbox](https://repo1.maven.org/maven2/org/apache/lucene/lucene-sandbox/) **[9.12.1](https://repo1.maven.org/maven2/org/apache/lucene/lucene-sandbox/9.12.1)**
-    - [lucene-sandbox](https://repo1.maven.org/maven2/org/apache/lucene/lucene-sandbox/) **[10.2.1](https://repo1.maven.org/maven2/org/apache/lucene/lucene-sandbox/10.2.1)**
- - [org.apache.poi](https://repo1.maven.org/maven2/org/apache/poi/)
-    - [poi](https://repo1.maven.org/maven2/org/apache/poi/poi/) **[5.4.1](https://repo1.maven.org/maven2/org/apache/poi/poi/5.4.1)**
-    - [poi-ooxml](https://repo1.maven.org/maven2/org/apache/poi/poi-ooxml/) **[5.4.1](https://repo1.maven.org/maven2/org/apache/poi/poi-ooxml/5.4.1)**
-    - [poi-ooxml-lite](https://repo1.maven.org/maven2/org/apache/poi/poi-ooxml-lite/) **[5.4.1](https://repo1.maven.org/maven2/org/apache/poi/poi-ooxml-lite/5.4.1)**
- - [org.apache.ws.commons.util](https://repo1.maven.org/maven2/org/apache/ws/commons/util/)
-    - [ws-commons-util](https://repo1.maven.org/maven2/org/apache/ws/commons/util/ws-commons-util/) **[1.0.2](https://repo1.maven.org/maven2/org/apache/ws/commons/util/ws-commons-util/1.0.2)**
- - [org.apache.xmlbeans](https://repo1.maven.org/maven2/org/apache/xmlbeans/)
-    - [xmlbeans](https://repo1.maven.org/maven2/org/apache/xmlbeans/xmlbeans/) **[5.3.0](https://repo1.maven.org/maven2/org/apache/xmlbeans/xmlbeans/5.3.0)**
- - [org.apache.xmlgraphics](https://repo1.maven.org/maven2/org/apache/xmlgraphics/)
-    - [batik-anim](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-anim/) **[1.19](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-anim/1.19)**
-    - [batik-awt-util](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-awt-util/) **[1.19](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-awt-util/1.19)**
-    - [batik-bridge](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-bridge/) **[1.19](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-bridge/1.19)**
-    - [batik-codec](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-codec/) **[1.19](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-codec/1.19)**
-    - [batik-constants](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-constants/) **[1.19](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-constants/1.19)**
-    - [batik-css](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-css/) **[1.19](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-css/1.19)**
-    - [batik-dom](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-dom/) **[1.19](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-dom/1.19)**
-    - [batik-ext](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-ext/) **[1.19](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-ext/1.19)**
-    - [batik-extension](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-extension/) **[1.19](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-extension/1.19)**
-    - [batik-gvt](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-gvt/) **[1.19](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-gvt/1.19)**
-    - [batik-i18n](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-i18n/) **[1.19](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-i18n/1.19)**
-    - [batik-parser](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-parser/) **[1.19](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-parser/1.19)**
-    - [batik-script](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-script/) **[1.19](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-script/1.19)**
-    - [batik-shared-resources](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-shared-resources/) **[1.19](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-shared-resources/1.19)**
-    - [batik-svg-dom](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-svg-dom/) **[1.19](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-svg-dom/1.19)**
-    - [batik-svggen](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-svggen/) **[1.19](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-svggen/1.19)**
-    - [batik-transcoder](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-transcoder/) **[1.19](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-transcoder/1.19)**
-    - [batik-util](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-util/) **[1.19](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-util/1.19)**
-    - [batik-xml](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-xml/) **[1.19](https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-xml/1.19)**
-    - [fop-core](https://repo1.maven.org/maven2/org/apache/xmlgraphics/fop-core/) **[2.11](https://repo1.maven.org/maven2/org/apache/xmlgraphics/fop-core/2.11)**
-    - [fop-events](https://repo1.maven.org/maven2/org/apache/xmlgraphics/fop-events/) **[2.11](https://repo1.maven.org/maven2/org/apache/xmlgraphics/fop-events/2.11)**
-    - [fop-util](https://repo1.maven.org/maven2/org/apache/xmlgraphics/fop-util/) **[2.11](https://repo1.maven.org/maven2/org/apache/xmlgraphics/fop-util/2.11)**
-    - [xmlgraphics-commons](https://repo1.maven.org/maven2/org/apache/xmlgraphics/xmlgraphics-commons/) **[2.11](https://repo1.maven.org/maven2/org/apache/xmlgraphics/xmlgraphics-commons/2.11)**
- - [org.codelibs](https://repo1.maven.org/maven2/org/codelibs/)
-    - [nekohtml](https://repo1.maven.org/maven2/org/codelibs/nekohtml/) **[2.1.3](https://repo1.maven.org/maven2/org/codelibs/nekohtml/2.1.3)**
- - [org.commonmark](https://repo1.maven.org/maven2/org/commonmark/)
-    - [commonmark](https://repo1.maven.org/maven2/org/commonmark/commonmark/) **[0.24.0](https://repo1.maven.org/maven2/org/commonmark/commonmark/0.24.0)**
-    - [commonmark-ext-gfm-strikethrough](https://repo1.maven.org/maven2/org/commonmark/commonmark-ext-gfm-strikethrough/) **[0.24.0](https://repo1.maven.org/maven2/org/commonmark/commonmark-ext-gfm-strikethrough/0.24.0)**
-    - [commonmark-ext-gfm-tables](https://repo1.maven.org/maven2/org/commonmark/commonmark-ext-gfm-tables/) **[0.24.0](https://repo1.maven.org/maven2/org/commonmark/commonmark-ext-gfm-tables/0.24.0)**
-    - [commonmark-ext-heading-anchor](https://repo1.maven.org/maven2/org/commonmark/commonmark-ext-heading-anchor/) **[0.24.0](https://repo1.maven.org/maven2/org/commonmark/commonmark-ext-heading-anchor/0.24.0)**
-    - [commonmark-ext-image-attributes](https://repo1.maven.org/maven2/org/commonmark/commonmark-ext-image-attributes/) **[0.24.0](https://repo1.maven.org/maven2/org/commonmark/commonmark-ext-image-attributes/0.24.0)**
-    - [commonmark-ext-ins](https://repo1.maven.org/maven2/org/commonmark/commonmark-ext-ins/) **[0.24.0](https://repo1.maven.org/maven2/org/commonmark/commonmark-ext-ins/0.24.0)**
-    - [commonmark-ext-task-list-items](https://repo1.maven.org/maven2/org/commonmark/commonmark-ext-task-list-items/) **[0.24.0](https://repo1.maven.org/maven2/org/commonmark/commonmark-ext-task-list-items/0.24.0)**
-    - [commonmark-ext-yaml-front-matter](https://repo1.maven.org/maven2/org/commonmark/commonmark-ext-yaml-front-matter/) **[0.24.0](https://repo1.maven.org/maven2/org/commonmark/commonmark-ext-yaml-front-matter/0.24.0)**
- - [org.cyclonedx](https://repo1.maven.org/maven2/org/cyclonedx/)
-    - [cyclonedx-core-java](https://repo1.maven.org/maven2/org/cyclonedx/cyclonedx-core-java/) **[10.2.1](https://repo1.maven.org/maven2/org/cyclonedx/cyclonedx-core-java/10.2.1)**
- - [org.dom4j](https://repo1.maven.org/maven2/org/dom4j/)
-    - [dom4j](https://repo1.maven.org/maven2/org/dom4j/dom4j/) **[2.1.4](https://repo1.maven.org/maven2/org/dom4j/dom4j/2.1.4)**
+ - [aopalliance](https://repo.maven.apache.org/maven2/aopalliance/)
+    - [aopalliance](https://repo.maven.apache.org/maven2/aopalliance/aopalliance/) **[1.0](https://repo.maven.apache.org/maven2/aopalliance/aopalliance/1.0)**
+ - [com.github.jnr](https://repo.maven.apache.org/maven2/com/github/jnr/)
+    - [jnr-a64asm](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-a64asm/) **[1.0.0](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-a64asm/1.0.0)**
+    - [jnr-x86asm](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-x86asm/) **[1.0.2](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-x86asm/1.0.2)**
+ - [com.github.jtidy](https://repo.maven.apache.org/maven2/com/github/jtidy/)
+    - [jtidy](https://repo.maven.apache.org/maven2/com/github/jtidy/jtidy/) **[1.0.5](https://repo.maven.apache.org/maven2/com/github/jtidy/jtidy/1.0.5)**
+ - [com.github.package-url](https://repo.maven.apache.org/maven2/com/github/package-url/)
+    - [packageurl-java](https://repo.maven.apache.org/maven2/com/github/package-url/packageurl-java/) **[1.5.0](https://repo.maven.apache.org/maven2/com/github/package-url/packageurl-java/1.5.0)**
+ - [com.github.virtuald](https://repo.maven.apache.org/maven2/com/github/virtuald/)
+    - [curvesapi](https://repo.maven.apache.org/maven2/com/github/virtuald/curvesapi/) **[1.8](https://repo.maven.apache.org/maven2/com/github/virtuald/curvesapi/1.8)**
+ - [com.google.javascript](https://repo.maven.apache.org/maven2/com/google/javascript/)
+    - [closure-compiler](https://repo.maven.apache.org/maven2/com/google/javascript/closure-compiler/) **[v20250528](https://repo.maven.apache.org/maven2/com/google/javascript/closure-compiler/v20250528)**
+ - [com.jcraft](https://repo.maven.apache.org/maven2/com/jcraft/)
+    - [jsch](https://repo.maven.apache.org/maven2/com/jcraft/jsch/) **[0.1.55](https://repo.maven.apache.org/maven2/com/jcraft/jsch/0.1.55)**
+    - [jzlib](https://repo.maven.apache.org/maven2/com/jcraft/jzlib/) **[1.1.3](https://repo.maven.apache.org/maven2/com/jcraft/jzlib/1.1.3)**
+ - [com.jgoodies](https://repo.maven.apache.org/maven2/com/jgoodies/)
+    - [jgoodies-common](https://repo.maven.apache.org/maven2/com/jgoodies/jgoodies-common/) **[1.8.1](https://repo.maven.apache.org/maven2/com/jgoodies/jgoodies-common/1.8.1)**
+    - [jgoodies-forms](https://repo.maven.apache.org/maven2/com/jgoodies/jgoodies-forms/) **[1.9.0](https://repo.maven.apache.org/maven2/com/jgoodies/jgoodies-forms/1.9.0)**
+ - [com.konghq](https://repo.maven.apache.org/maven2/com/konghq/)
+    - [unirest-java](https://repo.maven.apache.org/maven2/com/konghq/unirest-java/) **[3.14.5](https://repo.maven.apache.org/maven2/com/konghq/unirest-java/3.14.5)**
+ - [com.zaxxer](https://repo.maven.apache.org/maven2/com/zaxxer/)
+    - [SparseBitSet](https://repo.maven.apache.org/maven2/com/zaxxer/SparseBitSet/) **[1.3](https://repo.maven.apache.org/maven2/com/zaxxer/SparseBitSet/1.3)**
+ - [commons-httpclient](https://repo.maven.apache.org/maven2/commons-httpclient/)
+    - [commons-httpclient](https://repo.maven.apache.org/maven2/commons-httpclient/commons-httpclient/) **[3.1](https://repo.maven.apache.org/maven2/commons-httpclient/commons-httpclient/3.1)**
+ - [junit](https://repo.maven.apache.org/maven2/junit/)
+    - [junit](https://repo.maven.apache.org/maven2/junit/junit/) **[4.13.2](https://repo.maven.apache.org/maven2/junit/junit/4.13.2)**
+ - [org.antlr](https://repo.maven.apache.org/maven2/org/antlr/)
+    - [antlr-runtime](https://repo.maven.apache.org/maven2/org/antlr/antlr-runtime/) **[3.2](https://repo.maven.apache.org/maven2/org/antlr/antlr-runtime/3.2)**
+    - [antlr-runtime](https://repo.maven.apache.org/maven2/org/antlr/antlr-runtime/) **[3.5.3](https://repo.maven.apache.org/maven2/org/antlr/antlr-runtime/3.5.3)**
+ - [org.apache.httpcomponents](https://repo.maven.apache.org/maven2/org/apache/httpcomponents/)
+    - [httpclient-win](https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpclient-win/) **[4.5.14](https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpclient-win/4.5.14)**
+ - [org.apache.httpcomponents.client5](https://repo.maven.apache.org/maven2/org/apache/httpcomponents/client5/)
+    - [httpclient5](https://repo.maven.apache.org/maven2/org/apache/httpcomponents/client5/httpclient5/) **[5.5](https://repo.maven.apache.org/maven2/org/apache/httpcomponents/client5/httpclient5/5.5)**
+    - [httpclient5-win](https://repo.maven.apache.org/maven2/org/apache/httpcomponents/client5/httpclient5-win/) **[5.2.3](https://repo.maven.apache.org/maven2/org/apache/httpcomponents/client5/httpclient5-win/5.2.3)**
+ - [org.apache.httpcomponents.core5](https://repo.maven.apache.org/maven2/org/apache/httpcomponents/core5/)
+    - [httpcore5](https://repo.maven.apache.org/maven2/org/apache/httpcomponents/core5/httpcore5/) **[5.3.4](https://repo.maven.apache.org/maven2/org/apache/httpcomponents/core5/httpcore5/5.3.4)**
+    - [httpcore5-h2](https://repo.maven.apache.org/maven2/org/apache/httpcomponents/core5/httpcore5-h2/) **[5.3.4](https://repo.maven.apache.org/maven2/org/apache/httpcomponents/core5/httpcore5-h2/5.3.4)**
+ - [org.apache.lucene](https://repo.maven.apache.org/maven2/org/apache/lucene/)
+    - [lucene-analysis-common](https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-analysis-common/) **[9.12.1](https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-analysis-common/9.12.1)**
+    - [lucene-analysis-common](https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-analysis-common/) **[10.2.1](https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-analysis-common/10.2.1)**
+    - [lucene-analysis-smartcn](https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-analysis-smartcn/) **[9.12.1](https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-analysis-smartcn/9.12.1)**
+    - [lucene-analysis-smartcn](https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-analysis-smartcn/) **[10.2.1](https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-analysis-smartcn/10.2.1)**
+    - [lucene-core](https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-core/) **[9.12.1](https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-core/9.12.1)**
+    - [lucene-core](https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-core/) **[10.2.1](https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-core/10.2.1)**
+    - [lucene-facet](https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-facet/) **[9.12.1](https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-facet/9.12.1)**
+    - [lucene-facet](https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-facet/) **[10.2.1](https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-facet/10.2.1)**
+    - [lucene-misc](https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-misc/) **[9.12.1](https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-misc/9.12.1)**
+    - [lucene-misc](https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-misc/) **[10.2.1](https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-misc/10.2.1)**
+    - [lucene-queries](https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-queries/) **[9.12.1](https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-queries/9.12.1)**
+    - [lucene-queries](https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-queries/) **[10.2.1](https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-queries/10.2.1)**
+    - [lucene-queryparser](https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-queryparser/) **[9.12.1](https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-queryparser/9.12.1)**
+    - [lucene-queryparser](https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-queryparser/) **[10.2.1](https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-queryparser/10.2.1)**
+    - [lucene-sandbox](https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-sandbox/) **[9.12.1](https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-sandbox/9.12.1)**
+    - [lucene-sandbox](https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-sandbox/) **[10.2.1](https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-sandbox/10.2.1)**
+ - [org.apache.poi](https://repo.maven.apache.org/maven2/org/apache/poi/)
+    - [poi](https://repo.maven.apache.org/maven2/org/apache/poi/poi/) **[5.4.1](https://repo.maven.apache.org/maven2/org/apache/poi/poi/5.4.1)**
+    - [poi-ooxml](https://repo.maven.apache.org/maven2/org/apache/poi/poi-ooxml/) **[5.4.1](https://repo.maven.apache.org/maven2/org/apache/poi/poi-ooxml/5.4.1)**
+    - [poi-ooxml-lite](https://repo.maven.apache.org/maven2/org/apache/poi/poi-ooxml-lite/) **[5.4.1](https://repo.maven.apache.org/maven2/org/apache/poi/poi-ooxml-lite/5.4.1)**
+ - [org.apache.ws.commons.util](https://repo.maven.apache.org/maven2/org/apache/ws/commons/util/)
+    - [ws-commons-util](https://repo.maven.apache.org/maven2/org/apache/ws/commons/util/ws-commons-util/) **[1.0.2](https://repo.maven.apache.org/maven2/org/apache/ws/commons/util/ws-commons-util/1.0.2)**
+ - [org.apache.xmlbeans](https://repo.maven.apache.org/maven2/org/apache/xmlbeans/)
+    - [xmlbeans](https://repo.maven.apache.org/maven2/org/apache/xmlbeans/xmlbeans/) **[5.3.0](https://repo.maven.apache.org/maven2/org/apache/xmlbeans/xmlbeans/5.3.0)**
+ - [org.apache.xmlgraphics](https://repo.maven.apache.org/maven2/org/apache/xmlgraphics/)
+    - [batik-anim](https://repo.maven.apache.org/maven2/org/apache/xmlgraphics/batik-anim/) **[1.19](https://repo.maven.apache.org/maven2/org/apache/xmlgraphics/batik-anim/1.19)**
+    - [batik-awt-util](https://repo.maven.apache.org/maven2/org/apache/xmlgraphics/batik-awt-util/) **[1.19](https://repo.maven.apache.org/maven2/org/apache/xmlgraphics/batik-awt-util/1.19)**
+    - [batik-bridge](https://repo.maven.apache.org/maven2/org/apache/xmlgraphics/batik-bridge/) **[1.19](https://repo.maven.apache.org/maven2/org/apache/xmlgraphics/batik-bridge/1.19)**
+    - [batik-codec](https://repo.maven.apache.org/maven2/org/apache/xmlgraphics/batik-codec/) **[1.19](https://repo.maven.apache.org/maven2/org/apache/xmlgraphics/batik-codec/1.19)**
+    - [batik-constants](https://repo.maven.apache.org/maven2/org/apache/xmlgraphics/batik-constants/) **[1.19](https://repo.maven.apache.org/maven2/org/apache/xmlgraphics/batik-constants/1.19)**
+    - [batik-css](https://repo.maven.apache.org/maven2/org/apache/xmlgraphics/batik-css/) **[1.19](https://repo.maven.apache.org/maven2/org/apache/xmlgraphics/batik-css/1.19)**
+    - [batik-dom](https://repo.maven.apache.org/maven2/org/apache/xmlgraphics/batik-dom/) **[1.19](https://repo.maven.apache.org/maven2/org/apache/xmlgraphics/batik-dom/1.19)**
+    - [batik-ext](https://repo.maven.apache.org/maven2/org/apache/xmlgraphics/batik-ext/) **[1.19](https://repo.maven.apache.org/maven2/org/apache/xmlgraphics/batik-ext/1.19)**
+    - [batik-extension](https://repo.maven.apache.org/maven2/org/apache/xmlgraphics/batik-extension/) **[1.19](https://repo.maven.apache.org/maven2/org/apache/xmlgraphics/batik-extension/1.19)**
+    - [batik-gvt](https://repo.maven.apache.org/maven2/org/apache/xmlgraphics/batik-gvt/) **[1.19](https://repo.maven.apache.org/maven2/org/apache/xmlgraphics/batik-gvt/1.19)**
+    - [batik-i18n](https://repo.maven.apache.org/maven2/org/apache/xmlgraphics/batik-i18n/) **[1.19](https://repo.maven.apache.org/maven2/org/apache/xmlgraphics/batik-i18n/1.19)**
+    - [batik-parser](https://repo.maven.apache.org/maven2/org/apache/xmlgraphics/batik-parser/) **[1.19](https://repo.maven.apache.org/maven2/org/apache/xmlgraphics/batik-parser/1.19)**
+    - [batik-script](https://repo.maven.apache.org/maven2/org/apache/xmlgraphics/batik-script/) **[1.19](https://repo.maven.apache.org/maven2/org/apache/xmlgraphics/batik-script/1.19)**
+    - [batik-shared-resources](https://repo.maven.apache.org/maven2/org/apache/xmlgraphics/batik-shared-resources/) **[1.19](https://repo.maven.apache.org/maven2/org/apache/xmlgraphics/batik-shared-resources/1.19)**
+    - [batik-svg-dom](https://repo.maven.apache.org/maven2/org/apache/xmlgraphics/batik-svg-dom/) **[1.19](https://repo.maven.apache.org/maven2/org/apache/xmlgraphics/batik-svg-dom/1.19)**
+    - [batik-svggen](https://repo.maven.apache.org/maven2/org/apache/xmlgraphics/batik-svggen/) **[1.19](https://repo.maven.apache.org/maven2/org/apache/xmlgraphics/batik-svggen/1.19)**
+    - [batik-transcoder](https://repo.maven.apache.org/maven2/org/apache/xmlgraphics/batik-transcoder/) **[1.19](https://repo.maven.apache.org/maven2/org/apache/xmlgraphics/batik-transcoder/1.19)**
+    - [batik-util](https://repo.maven.apache.org/maven2/org/apache/xmlgraphics/batik-util/) **[1.19](https://repo.maven.apache.org/maven2/org/apache/xmlgraphics/batik-util/1.19)**
+    - [batik-xml](https://repo.maven.apache.org/maven2/org/apache/xmlgraphics/batik-xml/) **[1.19](https://repo.maven.apache.org/maven2/org/apache/xmlgraphics/batik-xml/1.19)**
+    - [fop-core](https://repo.maven.apache.org/maven2/org/apache/xmlgraphics/fop-core/) **[2.11](https://repo.maven.apache.org/maven2/org/apache/xmlgraphics/fop-core/2.11)**
+    - [fop-events](https://repo.maven.apache.org/maven2/org/apache/xmlgraphics/fop-events/) **[2.11](https://repo.maven.apache.org/maven2/org/apache/xmlgraphics/fop-events/2.11)**
+    - [fop-util](https://repo.maven.apache.org/maven2/org/apache/xmlgraphics/fop-util/) **[2.11](https://repo.maven.apache.org/maven2/org/apache/xmlgraphics/fop-util/2.11)**
+    - [xmlgraphics-commons](https://repo.maven.apache.org/maven2/org/apache/xmlgraphics/xmlgraphics-commons/) **[2.11](https://repo.maven.apache.org/maven2/org/apache/xmlgraphics/xmlgraphics-commons/2.11)**
+ - [org.codelibs](https://repo.maven.apache.org/maven2/org/codelibs/)
+    - [nekohtml](https://repo.maven.apache.org/maven2/org/codelibs/nekohtml/) **[2.1.3](https://repo.maven.apache.org/maven2/org/codelibs/nekohtml/2.1.3)**
+ - [org.commonmark](https://repo.maven.apache.org/maven2/org/commonmark/)
+    - [commonmark](https://repo.maven.apache.org/maven2/org/commonmark/commonmark/) **[0.24.0](https://repo.maven.apache.org/maven2/org/commonmark/commonmark/0.24.0)**
+    - [commonmark-ext-gfm-strikethrough](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-gfm-strikethrough/) **[0.24.0](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-gfm-strikethrough/0.24.0)**
+    - [commonmark-ext-gfm-tables](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-gfm-tables/) **[0.24.0](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-gfm-tables/0.24.0)**
+    - [commonmark-ext-heading-anchor](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-heading-anchor/) **[0.24.0](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-heading-anchor/0.24.0)**
+    - [commonmark-ext-image-attributes](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-image-attributes/) **[0.24.0](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-image-attributes/0.24.0)**
+    - [commonmark-ext-ins](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-ins/) **[0.24.0](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-ins/0.24.0)**
+    - [commonmark-ext-task-list-items](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-task-list-items/) **[0.24.0](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-task-list-items/0.24.0)**
+    - [commonmark-ext-yaml-front-matter](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-yaml-front-matter/) **[0.24.0](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-yaml-front-matter/0.24.0)**
+ - [org.cyclonedx](https://repo.maven.apache.org/maven2/org/cyclonedx/)
+    - [cyclonedx-core-java](https://repo.maven.apache.org/maven2/org/cyclonedx/cyclonedx-core-java/) **[10.2.1](https://repo.maven.apache.org/maven2/org/cyclonedx/cyclonedx-core-java/10.2.1)**
+ - [org.dom4j](https://repo.maven.apache.org/maven2/org/dom4j/)
+    - [dom4j](https://repo.maven.apache.org/maven2/org/dom4j/dom4j/) **[2.1.4](https://repo.maven.apache.org/maven2/org/dom4j/dom4j/2.1.4)**
  - [org.eclipse.orbit](https://repo.eclipse.org/content/repositories/orbit-approved-artifacts/org/eclipse/orbit/)
     - [ant](https://repo.eclipse.org/content/repositories/orbit-approved-artifacts/org/eclipse/orbit/ant/) **[1.10.15](https://repo.eclipse.org/content/repositories/orbit-approved-artifacts/org/eclipse/orbit/ant/1.10.15)**
     - [derby](https://repo.eclipse.org/content/repositories/orbit-approved-artifacts/org/eclipse/orbit/derby/) **[10.16.1.1](https://repo.eclipse.org/content/repositories/orbit-approved-artifacts/org/eclipse/orbit/derby/10.16.1.1)**
     - [org.apache.axis](https://repo.eclipse.org/content/repositories/orbit-approved-artifacts/org/eclipse/orbit/org.apache.axis/) **[1.4.1.20231107-0755](https://repo.eclipse.org/content/repositories/orbit-approved-artifacts/org/eclipse/orbit/org.apache.axis/1.4.1.20231107-0755)**
     - [org.apache.axis-ant](https://repo.eclipse.org/content/repositories/orbit-approved-artifacts/org/eclipse/orbit/org.apache.axis-ant/) **[1.4.1.20231107-0755](https://repo.eclipse.org/content/repositories/orbit-approved-artifacts/org/eclipse/orbit/org.apache.axis-ant/1.4.1.20231107-0755)**
- - [org.hamcrest](https://repo1.maven.org/maven2/org/hamcrest/)
-    - [hamcrest-core](https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/) **[1.3](https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3)**
-    - [hamcrest-core](https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/) **[2.2](https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/2.2)**
-    - [hamcrest-library](https://repo1.maven.org/maven2/org/hamcrest/hamcrest-library/) **[1.3](https://repo1.maven.org/maven2/org/hamcrest/hamcrest-library/1.3)**
-    - [hamcrest-library](https://repo1.maven.org/maven2/org/hamcrest/hamcrest-library/) **[2.2](https://repo1.maven.org/maven2/org/hamcrest/hamcrest-library/2.2)**
- - [org.jdom](https://repo1.maven.org/maven2/org/jdom/)
-    - [jdom](https://repo1.maven.org/maven2/org/jdom/jdom/) **[1.1.3](https://repo1.maven.org/maven2/org/jdom/jdom/1.1.3)**
-    - [jdom2](https://repo1.maven.org/maven2/org/jdom/jdom2/) **[2.0.6.1](https://repo1.maven.org/maven2/org/jdom/jdom2/2.0.6.1)**
- - [org.jruby.jcodings](https://repo1.maven.org/maven2/org/jruby/jcodings/)
-    - [jcodings](https://repo1.maven.org/maven2/org/jruby/jcodings/jcodings/) **[1.0.63](https://repo1.maven.org/maven2/org/jruby/jcodings/jcodings/1.0.63)**
- - [org.jruby.joni](https://repo1.maven.org/maven2/org/jruby/joni/)
-    - [joni](https://repo1.maven.org/maven2/org/jruby/joni/joni/) **[2.2.6](https://repo1.maven.org/maven2/org/jruby/joni/joni/2.2.6)**
- - [org.mozilla](https://repo1.maven.org/maven2/org/mozilla/)
-    - [rhino](https://repo1.maven.org/maven2/org/mozilla/rhino/) **[1.8.0](https://repo1.maven.org/maven2/org/mozilla/rhino/1.8.0)**
- - [org.pushingpixels](https://repo1.maven.org/maven2/org/pushingpixels/)
-    - [trident](https://repo1.maven.org/maven2/org/pushingpixels/trident/) **[1.3](https://repo1.maven.org/maven2/org/pushingpixels/trident/1.3)**
- - [wsdl4j](https://repo1.maven.org/maven2/wsdl4j/)
-    - [wsdl4j](https://repo1.maven.org/maven2/wsdl4j/wsdl4j/) **[1.6.3](https://repo1.maven.org/maven2/wsdl4j/wsdl4j/1.6.3)**
- - [xalan](https://repo1.maven.org/maven2/xalan/)
-    - [serializer](https://repo1.maven.org/maven2/xalan/serializer/) **[2.7.2](https://repo1.maven.org/maven2/xalan/serializer/2.7.2)**
-    - [xalan](https://repo1.maven.org/maven2/xalan/xalan/) **[2.7.2](https://repo1.maven.org/maven2/xalan/xalan/2.7.2)**
- - [xerces](https://repo1.maven.org/maven2/xerces/)
-    - [xercesImpl](https://repo1.maven.org/maven2/xerces/xercesImpl/) **[2.12.2](https://repo1.maven.org/maven2/xerces/xercesImpl/2.12.2)**
- - [xml-resolver](https://repo1.maven.org/maven2/xml-resolver/)
-    - [xml-resolver](https://repo1.maven.org/maven2/xml-resolver/xml-resolver/) **[1.2](https://repo1.maven.org/maven2/xml-resolver/xml-resolver/1.2)**
+ - [org.hamcrest](https://repo.maven.apache.org/maven2/org/hamcrest/)
+    - [hamcrest-core](https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-core/) **[1.3](https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-core/1.3)**
+    - [hamcrest-core](https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-core/) **[2.2](https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-core/2.2)**
+    - [hamcrest-library](https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-library/) **[1.3](https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-library/1.3)**
+    - [hamcrest-library](https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-library/) **[2.2](https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-library/2.2)**
+ - [org.jdom](https://repo.maven.apache.org/maven2/org/jdom/)
+    - [jdom](https://repo.maven.apache.org/maven2/org/jdom/jdom/) **[1.1.3](https://repo.maven.apache.org/maven2/org/jdom/jdom/1.1.3)**
+    - [jdom2](https://repo.maven.apache.org/maven2/org/jdom/jdom2/) **[2.0.6.1](https://repo.maven.apache.org/maven2/org/jdom/jdom2/2.0.6.1)**
+ - [org.jruby.jcodings](https://repo.maven.apache.org/maven2/org/jruby/jcodings/)
+    - [jcodings](https://repo.maven.apache.org/maven2/org/jruby/jcodings/jcodings/) **[1.0.63](https://repo.maven.apache.org/maven2/org/jruby/jcodings/jcodings/1.0.63)**
+ - [org.jruby.joni](https://repo.maven.apache.org/maven2/org/jruby/joni/)
+    - [joni](https://repo.maven.apache.org/maven2/org/jruby/joni/joni/) **[2.2.6](https://repo.maven.apache.org/maven2/org/jruby/joni/joni/2.2.6)**
+ - [org.mozilla](https://repo.maven.apache.org/maven2/org/mozilla/)
+    - [rhino](https://repo.maven.apache.org/maven2/org/mozilla/rhino/) **[1.8.0](https://repo.maven.apache.org/maven2/org/mozilla/rhino/1.8.0)**
+ - [org.pushingpixels](https://repo.maven.apache.org/maven2/org/pushingpixels/)
+    - [trident](https://repo.maven.apache.org/maven2/org/pushingpixels/trident/) **[1.3](https://repo.maven.apache.org/maven2/org/pushingpixels/trident/1.3)**
+ - [wsdl4j](https://repo.maven.apache.org/maven2/wsdl4j/)
+    - [wsdl4j](https://repo.maven.apache.org/maven2/wsdl4j/wsdl4j/) **[1.6.3](https://repo.maven.apache.org/maven2/wsdl4j/wsdl4j/1.6.3)**
+ - [xalan](https://repo.maven.apache.org/maven2/xalan/)
+    - [serializer](https://repo.maven.apache.org/maven2/xalan/serializer/) **[2.7.2](https://repo.maven.apache.org/maven2/xalan/serializer/2.7.2)**
+    - [xalan](https://repo.maven.apache.org/maven2/xalan/xalan/) **[2.7.2](https://repo.maven.apache.org/maven2/xalan/xalan/2.7.2)**
+ - [xerces](https://repo.maven.apache.org/maven2/xerces/)
+    - [xercesImpl](https://repo.maven.apache.org/maven2/xerces/xercesImpl/) **[2.12.2](https://repo.maven.apache.org/maven2/xerces/xercesImpl/2.12.2)**
+ - [xml-resolver](https://repo.maven.apache.org/maven2/xml-resolver/)
+    - [xml-resolver](https://repo.maven.apache.org/maven2/xml-resolver/xml-resolver/) **[1.2](https://repo.maven.apache.org/maven2/xml-resolver/xml-resolver/1.2)**
