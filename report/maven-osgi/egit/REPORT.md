@@ -1,6 +1,9 @@
 # Target Platform: [egit](https://raw.githubusercontent.com/eclipse-egit/egit/master/org.eclipse.egit.target/maven/dependencies.tpd)
 
 ## Minor Updates
+ - [net.bytebuddy](https://repo.maven.apache.org/maven2/net/bytebuddy/)
+    - [byte-buddy](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/) **[1.17.5](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.17.5)** < [1.17.6](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.17.6/)
+    - [byte-buddy-agent](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/) **[1.17.5](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.17.5)** < [1.17.6](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.17.6/)
  - [org.bouncycastle](https://repo.maven.apache.org/maven2/org/bouncycastle/)
     - [bcpg-jdk18on](https://repo.maven.apache.org/maven2/org/bouncycastle/bcpg-jdk18on/) **[1.80](https://repo.maven.apache.org/maven2/org/bouncycastle/bcpg-jdk18on/1.80)** < [1.81](https://repo.maven.apache.org/maven2/org/bouncycastle/bcpg-jdk18on/1.81/)
     - [bcpkix-jdk18on](https://repo.maven.apache.org/maven2/org/bouncycastle/bcpkix-jdk18on/) **[1.80](https://repo.maven.apache.org/maven2/org/bouncycastle/bcpkix-jdk18on/1.80)** < [1.81](https://repo.maven.apache.org/maven2/org/bouncycastle/bcpkix-jdk18on/1.81/)
