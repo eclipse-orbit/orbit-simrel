@@ -81,7 +81,7 @@
     - [caffeine](https://repo.maven.apache.org/maven2/com/github/ben-manes/caffeine/caffeine/) **[3.2.1](https://repo.maven.apache.org/maven2/com/github/ben-manes/caffeine/caffeine/3.2.1)**
  - [com.github.librepdf](https://repo.maven.apache.org/maven2/com/github/librepdf/)
     - [openpdf](https://repo.maven.apache.org/maven2/com/github/librepdf/openpdf/) **[1.4.2](https://repo.maven.apache.org/maven2/com/github/librepdf/openpdf/1.4.2)**
-    - [openpdf](https://repo.maven.apache.org/maven2/com/github/librepdf/openpdf/) **[2.2.0](https://repo.maven.apache.org/maven2/com/github/librepdf/openpdf/2.2.0)**
+    - [openpdf](https://repo.maven.apache.org/maven2/com/github/librepdf/openpdf/) **[2.2.2](https://repo.maven.apache.org/maven2/com/github/librepdf/openpdf/2.2.2)**
  - [com.github.oshi](https://repo.maven.apache.org/maven2/com/github/oshi/)
     - [oshi-core](https://repo.maven.apache.org/maven2/com/github/oshi/oshi-core/) **[6.8.2](https://repo.maven.apache.org/maven2/com/github/oshi/oshi-core/6.8.2)**
  - [com.glazedlists](https://repo.maven.apache.org/maven2/com/glazedlists/)
@@ -179,10 +179,10 @@
  - [org.apache.commons](https://repo.maven.apache.org/maven2/org/apache/commons/)
     - [commons-collections4](https://repo.maven.apache.org/maven2/org/apache/commons/commons-collections4/) **[4.5.0](https://repo.maven.apache.org/maven2/org/apache/commons/commons-collections4/4.5.0)**
     - [commons-csv](https://repo.maven.apache.org/maven2/org/apache/commons/commons-csv/) **[1.14.0](https://repo.maven.apache.org/maven2/org/apache/commons/commons-csv/1.14.0)**
-    - [commons-fileupload2-core](https://repo.maven.apache.org/maven2/org/apache/commons/commons-fileupload2-core/) **[2.0.0-M3](https://repo.maven.apache.org/maven2/org/apache/commons/commons-fileupload2-core/2.0.0-M3)**
-    - [commons-fileupload2-jakarta-servlet5](https://repo.maven.apache.org/maven2/org/apache/commons/commons-fileupload2-jakarta-servlet5/) **[2.0.0-M3](https://repo.maven.apache.org/maven2/org/apache/commons/commons-fileupload2-jakarta-servlet5/2.0.0-M3)**
-    - [commons-fileupload2-jakarta-servlet6](https://repo.maven.apache.org/maven2/org/apache/commons/commons-fileupload2-jakarta-servlet6/) **[2.0.0-M3](https://repo.maven.apache.org/maven2/org/apache/commons/commons-fileupload2-jakarta-servlet6/2.0.0-M3)**
-    - [commons-fileupload2-javax](https://repo.maven.apache.org/maven2/org/apache/commons/commons-fileupload2-javax/) **[2.0.0-M3](https://repo.maven.apache.org/maven2/org/apache/commons/commons-fileupload2-javax/2.0.0-M3)**
+    - [commons-fileupload2-core](https://repo.maven.apache.org/maven2/org/apache/commons/commons-fileupload2-core/) **[2.0.0-M4](https://repo.maven.apache.org/maven2/org/apache/commons/commons-fileupload2-core/2.0.0-M4)**
+    - [commons-fileupload2-jakarta-servlet5](https://repo.maven.apache.org/maven2/org/apache/commons/commons-fileupload2-jakarta-servlet5/) **[2.0.0-M4](https://repo.maven.apache.org/maven2/org/apache/commons/commons-fileupload2-jakarta-servlet5/2.0.0-M4)**
+    - [commons-fileupload2-jakarta-servlet6](https://repo.maven.apache.org/maven2/org/apache/commons/commons-fileupload2-jakarta-servlet6/) **[2.0.0-M4](https://repo.maven.apache.org/maven2/org/apache/commons/commons-fileupload2-jakarta-servlet6/2.0.0-M4)**
+    - [commons-fileupload2-javax](https://repo.maven.apache.org/maven2/org/apache/commons/commons-fileupload2-javax/) **[2.0.0-M4](https://repo.maven.apache.org/maven2/org/apache/commons/commons-fileupload2-javax/2.0.0-M4)**
     - [commons-lang3](https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/) **[3.17.0](https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.17.0)**
     - [commons-math3](https://repo.maven.apache.org/maven2/org/apache/commons/commons-math3/) **[3.6.1](https://repo.maven.apache.org/maven2/org/apache/commons/commons-math3/3.6.1)**
  - [org.apache.felix](https://repo.maven.apache.org/maven2/org/apache/felix/)
