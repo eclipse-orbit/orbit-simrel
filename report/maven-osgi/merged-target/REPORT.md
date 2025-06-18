@@ -94,7 +94,7 @@
     - [jnr-unixsocket](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-unixsocket/) **[0.38.23](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-unixsocket/0.38.23)**
  - [com.github.librepdf](https://repo.maven.apache.org/maven2/com/github/librepdf/)
     - [openpdf](https://repo.maven.apache.org/maven2/com/github/librepdf/openpdf/) **[1.4.2](https://repo.maven.apache.org/maven2/com/github/librepdf/openpdf/1.4.2)**
-    - [openpdf](https://repo.maven.apache.org/maven2/com/github/librepdf/openpdf/) **[2.2.2](https://repo.maven.apache.org/maven2/com/github/librepdf/openpdf/2.2.2)**
+    - [openpdf](https://repo.maven.apache.org/maven2/com/github/librepdf/openpdf/) **[2.2.3](https://repo.maven.apache.org/maven2/com/github/librepdf/openpdf/2.2.3)**
  - [com.github.oshi](https://repo.maven.apache.org/maven2/com/github/oshi/)
     - [oshi-core](https://repo.maven.apache.org/maven2/com/github/oshi/oshi-core/) **[6.8.2](https://repo.maven.apache.org/maven2/com/github/oshi/oshi-core/6.8.2)**
  - [com.github.weisj](https://repo.maven.apache.org/maven2/com/github/weisj/)
