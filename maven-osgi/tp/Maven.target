@@ -3,7 +3,7 @@
 <target name="Maven" sequenceNumber="1">
   <locations>
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="error" type="Maven">
-      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.37.0.v20250618-1600">
+      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.37.0.v20250620-1609">
         <description>This feature's dependencies are pulled directly from Maven central.</description>
         <copyright>
 Copyright (c) 2025 Eclipse contributors and others.
@@ -16,7 +16,7 @@ https://www.eclipse.org/legal/epl-2.0/
 SPDX-License-Identifier: EPL-2.0
         </copyright>
         <license url="https://www.eclipse.org/legal/epl-2.0/"/>
-i        <!-- SHA1 b090516cf8f061be0d72096a43e29975a1cd1909 -->
+i        <!-- SHA1 f263f76971cc435b7455dd970a9d963653fc9ec8 -->
       </feature>
       <dependencies>
         <dependency>
@@ -1014,6 +1014,24 @@ i        <!-- SHA1 b090516cf8f061be0d72096a43e29975a1cd1909 -->
           <groupId>org.easymock</groupId>
           <artifactId>easymock</artifactId>
           <version>5.6.0</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>org.eclipse.collections</groupId>
+          <artifactId>eclipse-collections</artifactId>
+          <version>12.0.0</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>org.eclipse.collections</groupId>
+          <artifactId>eclipse-collections-api</artifactId>
+          <version>12.0.0</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>org.eclipse.collections</groupId>
+          <artifactId>eclipse-collections-forkjoin</artifactId>
+          <version>12.0.0</version>
           <type>jar</type>
         </dependency>
         <dependency>
