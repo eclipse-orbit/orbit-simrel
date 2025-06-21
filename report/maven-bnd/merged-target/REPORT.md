@@ -40,22 +40,22 @@
     - [httpcore5](https://repo.maven.apache.org/maven2/org/apache/httpcomponents/core5/httpcore5/) **[5.3.4](https://repo.maven.apache.org/maven2/org/apache/httpcomponents/core5/httpcore5/5.3.4)**
     - [httpcore5-h2](https://repo.maven.apache.org/maven2/org/apache/httpcomponents/core5/httpcore5-h2/) **[5.3.4](https://repo.maven.apache.org/maven2/org/apache/httpcomponents/core5/httpcore5-h2/5.3.4)**
  - [org.apache.lucene](https://repo.maven.apache.org/maven2/org/apache/lucene/)
-    - [lucene-analysis-common](https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-analysis-common/) **[9.12.1](https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-analysis-common/9.12.1)**
-    - [lucene-analysis-common](https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-analysis-common/) **[10.2.1](https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-analysis-common/10.2.1)**
-    - [lucene-analysis-smartcn](https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-analysis-smartcn/) **[9.12.1](https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-analysis-smartcn/9.12.1)**
-    - [lucene-analysis-smartcn](https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-analysis-smartcn/) **[10.2.1](https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-analysis-smartcn/10.2.1)**
-    - [lucene-core](https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-core/) **[9.12.1](https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-core/9.12.1)**
-    - [lucene-core](https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-core/) **[10.2.1](https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-core/10.2.1)**
-    - [lucene-facet](https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-facet/) **[9.12.1](https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-facet/9.12.1)**
-    - [lucene-facet](https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-facet/) **[10.2.1](https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-facet/10.2.1)**
-    - [lucene-misc](https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-misc/) **[9.12.1](https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-misc/9.12.1)**
-    - [lucene-misc](https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-misc/) **[10.2.1](https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-misc/10.2.1)**
-    - [lucene-queries](https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-queries/) **[9.12.1](https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-queries/9.12.1)**
-    - [lucene-queries](https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-queries/) **[10.2.1](https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-queries/10.2.1)**
-    - [lucene-queryparser](https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-queryparser/) **[9.12.1](https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-queryparser/9.12.1)**
-    - [lucene-queryparser](https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-queryparser/) **[10.2.1](https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-queryparser/10.2.1)**
-    - [lucene-sandbox](https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-sandbox/) **[9.12.1](https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-sandbox/9.12.1)**
-    - [lucene-sandbox](https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-sandbox/) **[10.2.1](https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-sandbox/10.2.1)**
+    - [lucene-analysis-common](https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-analysis-common/) **[9.12.2](https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-analysis-common/9.12.2)**
+    - [lucene-analysis-common](https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-analysis-common/) **[10.2.2](https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-analysis-common/10.2.2)**
+    - [lucene-analysis-smartcn](https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-analysis-smartcn/) **[9.12.2](https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-analysis-smartcn/9.12.2)**
+    - [lucene-analysis-smartcn](https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-analysis-smartcn/) **[10.2.2](https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-analysis-smartcn/10.2.2)**
+    - [lucene-core](https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-core/) **[9.12.2](https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-core/9.12.2)**
+    - [lucene-core](https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-core/) **[10.2.2](https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-core/10.2.2)**
+    - [lucene-facet](https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-facet/) **[9.12.2](https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-facet/9.12.2)**
+    - [lucene-facet](https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-facet/) **[10.2.2](https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-facet/10.2.2)**
+    - [lucene-misc](https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-misc/) **[9.12.2](https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-misc/9.12.2)**
+    - [lucene-misc](https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-misc/) **[10.2.2](https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-misc/10.2.2)**
+    - [lucene-queries](https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-queries/) **[9.12.2](https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-queries/9.12.2)**
+    - [lucene-queries](https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-queries/) **[10.2.2](https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-queries/10.2.2)**
+    - [lucene-queryparser](https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-queryparser/) **[9.12.2](https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-queryparser/9.12.2)**
+    - [lucene-queryparser](https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-queryparser/) **[10.2.2](https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-queryparser/10.2.2)**
+    - [lucene-sandbox](https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-sandbox/) **[9.12.2](https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-sandbox/9.12.2)**
+    - [lucene-sandbox](https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-sandbox/) **[10.2.2](https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-sandbox/10.2.2)**
  - [org.apache.poi](https://repo.maven.apache.org/maven2/org/apache/poi/)
     - [poi](https://repo.maven.apache.org/maven2/org/apache/poi/poi/) **[5.4.1](https://repo.maven.apache.org/maven2/org/apache/poi/poi/5.4.1)**
     - [poi-ooxml](https://repo.maven.apache.org/maven2/org/apache/poi/poi-ooxml/) **[5.4.1](https://repo.maven.apache.org/maven2/org/apache/poi/poi-ooxml/5.4.1)**
@@ -91,14 +91,14 @@
  - [org.codelibs](https://repo.maven.apache.org/maven2/org/codelibs/)
     - [nekohtml](https://repo.maven.apache.org/maven2/org/codelibs/nekohtml/) **[2.1.3](https://repo.maven.apache.org/maven2/org/codelibs/nekohtml/2.1.3)**
  - [org.commonmark](https://repo.maven.apache.org/maven2/org/commonmark/)
-    - [commonmark](https://repo.maven.apache.org/maven2/org/commonmark/commonmark/) **[0.24.0](https://repo.maven.apache.org/maven2/org/commonmark/commonmark/0.24.0)**
-    - [commonmark-ext-gfm-strikethrough](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-gfm-strikethrough/) **[0.24.0](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-gfm-strikethrough/0.24.0)**
-    - [commonmark-ext-gfm-tables](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-gfm-tables/) **[0.24.0](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-gfm-tables/0.24.0)**
-    - [commonmark-ext-heading-anchor](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-heading-anchor/) **[0.24.0](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-heading-anchor/0.24.0)**
-    - [commonmark-ext-image-attributes](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-image-attributes/) **[0.24.0](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-image-attributes/0.24.0)**
-    - [commonmark-ext-ins](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-ins/) **[0.24.0](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-ins/0.24.0)**
-    - [commonmark-ext-task-list-items](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-task-list-items/) **[0.24.0](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-task-list-items/0.24.0)**
-    - [commonmark-ext-yaml-front-matter](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-yaml-front-matter/) **[0.24.0](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-yaml-front-matter/0.24.0)**
+    - [commonmark](https://repo.maven.apache.org/maven2/org/commonmark/commonmark/) **[0.25.0](https://repo.maven.apache.org/maven2/org/commonmark/commonmark/0.25.0)**
+    - [commonmark-ext-gfm-strikethrough](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-gfm-strikethrough/) **[0.25.0](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-gfm-strikethrough/0.25.0)**
+    - [commonmark-ext-gfm-tables](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-gfm-tables/) **[0.25.0](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-gfm-tables/0.25.0)**
+    - [commonmark-ext-heading-anchor](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-heading-anchor/) **[0.25.0](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-heading-anchor/0.25.0)**
+    - [commonmark-ext-image-attributes](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-image-attributes/) **[0.25.0](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-image-attributes/0.25.0)**
+    - [commonmark-ext-ins](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-ins/) **[0.25.0](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-ins/0.25.0)**
+    - [commonmark-ext-task-list-items](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-task-list-items/) **[0.25.0](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-task-list-items/0.25.0)**
+    - [commonmark-ext-yaml-front-matter](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-yaml-front-matter/) **[0.25.0](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-yaml-front-matter/0.25.0)**
  - [org.cyclonedx](https://repo.maven.apache.org/maven2/org/cyclonedx/)
     - [cyclonedx-core-java](https://repo.maven.apache.org/maven2/org/cyclonedx/cyclonedx-core-java/) **[10.2.1](https://repo.maven.apache.org/maven2/org/cyclonedx/cyclonedx-core-java/10.2.1)**
  - [org.dom4j](https://repo.maven.apache.org/maven2/org/dom4j/)

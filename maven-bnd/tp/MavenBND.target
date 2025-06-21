@@ -59,7 +59,7 @@ Export-Package:         *;version="${version}";-noimport:=true
 <!-- _____________________________________________________ org.apache.lucene ___________________________________________________________________________________________________-->
 
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
-      <feature id="org.eclipse.orbit.maven.lucene" label="Orbit Maven BND org.apache.lucene" provider-name="Eclipse Orbit" version="4.37.0">
+      <feature id="org.eclipse.orbit.maven.lucene" label="Orbit Maven BND org.apache.lucene" provider-name="Eclipse Orbit" version="4.37.0.v20250621-0700">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
 Copyright (c) 2025 Eclipse contributors and others.
@@ -77,59 +77,59 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>org.apache.lucene</groupId>
           <artifactId>lucene-analysis-common</artifactId>
-          <version>9.12.1</version>
+          <version>9.12.2</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.apache.lucene</groupId>
           <artifactId>lucene-analysis-smartcn</artifactId>
-          <version>9.12.1</version>
+          <version>9.12.2</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.apache.lucene</groupId>
           <artifactId>lucene-core</artifactId>
-          <version>9.12.1</version>
+          <version>9.12.2</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.apache.lucene</groupId>
           <artifactId>lucene-misc</artifactId>
-          <version>9.12.1</version>
+          <version>9.12.2</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.apache.lucene</groupId>
           <artifactId>lucene-queries</artifactId>
-          <version>9.12.1</version>
+          <version>9.12.2</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.apache.lucene</groupId>
           <artifactId>lucene-queryparser</artifactId>
-          <version>9.12.1</version>
+          <version>9.12.2</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.apache.lucene</groupId>
           <artifactId>lucene-sandbox</artifactId>
-          <version>9.12.1</version>
+          <version>9.12.2</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.apache.lucene</groupId>
           <artifactId>lucene-facet</artifactId>
-          <version>9.12.1</version>
+          <version>9.12.2</version>
           <type>jar</type>
         </dependency>
       </dependencies>
       <instructions>
-<!-- SHA1 d7639c18f4b20cc05c8cc8581ed9ef290d87ea19 -->
+<!-- SHA1 528e1fc3a113a1b94e9442734b0cedc656eaa67b -->
 <![CDATA[
 Bundle-Name:            Bundle ${mvnGroupId} : ${mvnArtifactId}
 version:                ${versionmask;===;${version_cleanup;${mvnVersion}}}
 Bundle-SymbolicName:    ${mvnGroupId}.${replacestring;${mvnArtifactId};lucene-}
-Bundle-Version:         ${version}.v20241213-1200
+Bundle-Version:         ${version}.v20250621-0700
 Eclipse-Wrapped-Bundle: ${mvnGroupId}:${mvnArtifactId}:${mvnVersion}
 Import-Package:         org.apache.lucene.*;version="${range;[==,+);${version}}",\
                         *
@@ -144,7 +144,7 @@ Export-Package:         *;version="${version}";-noimport:=true
 <!-- _____________________________________________________ org.apache.lucene-10 ___________________________________________________________________________________________________-->
 
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
-      <feature id="org.eclipse.orbit.maven.lucene-10" label="Orbit Maven BND org.apache.lucene 10" provider-name="Eclipse Orbit" version="4.37.0">
+      <feature id="org.eclipse.orbit.maven.lucene-10" label="Orbit Maven BND org.apache.lucene 10" provider-name="Eclipse Orbit" version="4.37.0.v20250621-0700">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
 Copyright (c) 2025 Eclipse contributors and others.
@@ -162,59 +162,59 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>org.apache.lucene</groupId>
           <artifactId>lucene-analysis-common</artifactId>
-          <version>10.2.1</version>
+          <version>10.2.2</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.apache.lucene</groupId>
           <artifactId>lucene-analysis-smartcn</artifactId>
-          <version>10.2.1</version>
+          <version>10.2.2</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.apache.lucene</groupId>
           <artifactId>lucene-core</artifactId>
-          <version>10.2.1</version>
+          <version>10.2.2</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.apache.lucene</groupId>
           <artifactId>lucene-misc</artifactId>
-          <version>10.2.1</version>
+          <version>10.2.2</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.apache.lucene</groupId>
           <artifactId>lucene-queries</artifactId>
-          <version>10.2.1</version>
+          <version>10.2.2</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.apache.lucene</groupId>
           <artifactId>lucene-queryparser</artifactId>
-          <version>10.2.1</version>
+          <version>10.2.2</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.apache.lucene</groupId>
           <artifactId>lucene-sandbox</artifactId>
-          <version>10.2.1</version>
+          <version>10.2.2</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.apache.lucene</groupId>
           <artifactId>lucene-facet</artifactId>
-          <version>10.2.1</version>
+          <version>10.2.2</version>
           <type>jar</type>
         </dependency>
       </dependencies>
       <instructions>
-<!-- SHA1 ce2a90a3f5084993fc2b520e08f496abcddca4db -->
+<!-- SHA1 2865d3c8874b1108c632b4d346b8e89ab04f328e -->
 <![CDATA[
 Bundle-Name:            Bundle ${mvnGroupId} : ${mvnArtifactId}
 version:                ${versionmask;===;${version_cleanup;${mvnVersion}}}
 Bundle-SymbolicName:    ${mvnGroupId}.${replacestring;${mvnArtifactId};lucene-}
-Bundle-Version:         ${version}.v20250501-1000
+Bundle-Version:         ${version}.v20250621-0700
 Eclipse-Wrapped-Bundle: ${mvnGroupId}:${mvnArtifactId}:${mvnVersion}
 Import-Package:         org.apache.lucene.*;version="${range;[==,+);${version}}",\
                         jdk.incubator.*;resolution:=optional,\
@@ -1605,7 +1605,7 @@ Automatic-Module-Name:  org.apache.ant
 <!-- ______________________________________________________ org.commonmark __________________________________________________________________________________________________-->
 
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
-      <feature id="org.eclipse.orbit.maven.org.commonmark" label="Orbit Maven BND org.commonmark" provider-name="Eclipse Orbit" version="4.37.0">
+      <feature id="org.eclipse.orbit.maven.org.commonmark" label="Orbit Maven BND org.commonmark" provider-name="Eclipse Orbit" version="4.37.0.v20250621-0700">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
 Copyright (c) 2025 Eclipse contributors and others.
@@ -1623,7 +1623,7 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>org.commonmark</groupId>
           <artifactId>commonmark</artifactId>
-          <version>0.24.0</version>
+          <version>0.25.0</version>
           <type>jar</type>
         </dependency>
 <!--
@@ -1637,61 +1637,61 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>org.commonmark</groupId>
           <artifactId>commonmark-ext-gfm-strikethrough</artifactId>
-          <version>0.24.0</version>
+          <version>0.25.0</version>
           <type>jar</type>
         </dependency>
 
         <dependency>
           <groupId>org.commonmark</groupId>
           <artifactId>commonmark-ext-gfm-tables</artifactId>
-          <version>0.24.0</version>
+          <version>0.25.0</version>
           <type>jar</type>
         </dependency>
 
         <dependency>
           <groupId>org.commonmark</groupId>
           <artifactId>commonmark-ext-heading-anchor</artifactId>
-          <version>0.24.0</version>
+          <version>0.25.0</version>
           <type>jar</type>
         </dependency>
 
         <dependency>
           <groupId>org.commonmark</groupId>
           <artifactId>commonmark-ext-image-attributes</artifactId>
-          <version>0.24.0</version>
+          <version>0.25.0</version>
           <type>jar</type>
         </dependency>
 
         <dependency>
           <groupId>org.commonmark</groupId>
           <artifactId>commonmark-ext-ins</artifactId>
-          <version>0.24.0</version>
+          <version>0.25.0</version>
           <type>jar</type>
         </dependency>
 
         <dependency>
           <groupId>org.commonmark</groupId>
           <artifactId>commonmark-ext-task-list-items</artifactId>
-          <version>0.24.0</version>
+          <version>0.25.0</version>
           <type>jar</type>
         </dependency>
 
         <dependency>
           <groupId>org.commonmark</groupId>
           <artifactId>commonmark-ext-yaml-front-matter</artifactId>
-          <version>0.24.0</version>
+          <version>0.25.0</version>
           <type>jar</type>
         </dependency>
       </dependencies>
 
       <instructions>
-<!-- SHA1 1c10ca6531dad29e683556bacad61e197011c981 -->
+<!-- SHA1 273fc1a5e65d4cf50929efec2b64ca340cf31284 -->
 <![CDATA[
 Bundle-Name:            Bundle ${mvnGroupId} : ${mvnArtifactId}
 version:                ${versionmask;===;${version_cleanup;${mvnVersion}}}
 name:                   ${replacestring;${mvnGroupId}.${mvnArtifactId};.commonmark.commonmark(-ext)?;.commonmark}
 Bundle-SymbolicName:    ${name}
-Bundle-Version:         ${version}.v20241021-1700
+Bundle-Version:         ${version}.v20250621-0700
 Automatic-Module-Name:  ${name}
 Eclipse-Wrapped-Bundle: ${mvnGroupId}:${mvnArtifactId}:${mvnVersion}
 Import-Package:         *
