@@ -76,8 +76,6 @@
    <feature id="org.eclipse.orbit.maven.org.apache.xmlgraphics.fop.source"/>
    <feature id="org.eclipse.orbit.maven.org.codelibs.nekohtml"/>
    <feature id="org.eclipse.orbit.maven.org.codelibs.nekohtml.source"/>
-   <feature id="org.eclipse.orbit.maven.org.commonmark"/>
-   <feature id="org.eclipse.orbit.maven.org.commonmark.source"/>
    <feature id="org.eclipse.orbit.maven.org.cyclonedx"/>
    <feature id="org.eclipse.orbit.maven.org.cyclonedx.source"/>
    <feature id="org.eclipse.orbit.maven.org.dom4j"/>
