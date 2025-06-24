@@ -116,7 +116,7 @@
  - [dnsjava](https://repo.maven.apache.org/maven2/dnsjava/)
     - [dnsjava](https://repo.maven.apache.org/maven2/dnsjava/dnsjava/) **[3.6.3](https://repo.maven.apache.org/maven2/dnsjava/dnsjava/3.6.3)**
  - [io.github.classgraph](https://repo.maven.apache.org/maven2/io/github/classgraph/)
-    - [classgraph](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph/) **[4.8.179](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph/4.8.179)**
+    - [classgraph](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph/) **[4.8.180](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph/4.8.180)**
  - [jakarta.activation](https://repo.maven.apache.org/maven2/jakarta/activation/)
     - [jakarta.activation-api](https://repo.maven.apache.org/maven2/jakarta/activation/jakarta.activation-api/) **[1.2.2](https://repo.maven.apache.org/maven2/jakarta/activation/jakarta.activation-api/1.2.2)**
     - [jakarta.activation-api](https://repo.maven.apache.org/maven2/jakarta/activation/jakarta.activation-api/) **[2.1.3](https://repo.maven.apache.org/maven2/jakarta/activation/jakarta.activation-api/2.1.3)**
@@ -217,8 +217,11 @@
     - [easymock](https://repo.maven.apache.org/maven2/org/easymock/easymock/) **[5.6.0](https://repo.maven.apache.org/maven2/org/easymock/easymock/5.6.0)**
  - [org.eclipse.collections](https://repo.maven.apache.org/maven2/org/eclipse/collections/)
     - [eclipse-collections](https://repo.maven.apache.org/maven2/org/eclipse/collections/eclipse-collections/) **[12.0.0](https://repo.maven.apache.org/maven2/org/eclipse/collections/eclipse-collections/12.0.0)**
+    - [eclipse-collections](https://repo.maven.apache.org/maven2/org/eclipse/collections/eclipse-collections/) **[13.0.0](https://repo.maven.apache.org/maven2/org/eclipse/collections/eclipse-collections/13.0.0)**
     - [eclipse-collections-api](https://repo.maven.apache.org/maven2/org/eclipse/collections/eclipse-collections-api/) **[12.0.0](https://repo.maven.apache.org/maven2/org/eclipse/collections/eclipse-collections-api/12.0.0)**
+    - [eclipse-collections-api](https://repo.maven.apache.org/maven2/org/eclipse/collections/eclipse-collections-api/) **[13.0.0](https://repo.maven.apache.org/maven2/org/eclipse/collections/eclipse-collections-api/13.0.0)**
     - [eclipse-collections-forkjoin](https://repo.maven.apache.org/maven2/org/eclipse/collections/eclipse-collections-forkjoin/) **[12.0.0](https://repo.maven.apache.org/maven2/org/eclipse/collections/eclipse-collections-forkjoin/12.0.0)**
+    - [eclipse-collections-forkjoin](https://repo.maven.apache.org/maven2/org/eclipse/collections/eclipse-collections-forkjoin/) **[13.0.0](https://repo.maven.apache.org/maven2/org/eclipse/collections/eclipse-collections-forkjoin/13.0.0)**
  - [org.eclipse.jetty.toolchain](https://repo.maven.apache.org/maven2/org/eclipse/jetty/toolchain/)
     - [jetty-servlet-api](https://repo.maven.apache.org/maven2/org/eclipse/jetty/toolchain/jetty-servlet-api/) **[4.0.6](https://repo.maven.apache.org/maven2/org/eclipse/jetty/toolchain/jetty-servlet-api/4.0.6)**
  - [org.glassfish.hk2](https://repo.maven.apache.org/maven2/org/glassfish/hk2/)

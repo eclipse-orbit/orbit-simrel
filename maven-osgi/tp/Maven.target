@@ -3,7 +3,7 @@
 <target name="Maven" sequenceNumber="1">
   <locations>
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="error" type="Maven">
-      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.37.0.v20250623-0800">
+      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.37.0.v20250624-0800">
         <description>This feature's dependencies are pulled directly from Maven central.</description>
         <copyright>
 Copyright (c) 2025 Eclipse contributors and others.
@@ -16,7 +16,7 @@ https://www.eclipse.org/legal/epl-2.0/
 SPDX-License-Identifier: EPL-2.0
         </copyright>
         <license url="https://www.eclipse.org/legal/epl-2.0/"/>
-i        <!-- SHA1 e95a0e6aa44a99a46da2b99b15f53b835e51c2b3 -->
+i        <!-- SHA1 c8f682fc0d9d8296267d683ea33f2c25f9c864e5 -->
       </feature>
       <dependencies>
         <dependency>
@@ -443,7 +443,7 @@ i        <!-- SHA1 e95a0e6aa44a99a46da2b99b15f53b835e51c2b3 -->
         <dependency>
           <groupId>io.github.classgraph</groupId>
           <artifactId>classgraph</artifactId>
-          <version>4.8.179</version>
+          <version>4.8.180</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -1072,14 +1072,32 @@ i        <!-- SHA1 e95a0e6aa44a99a46da2b99b15f53b835e51c2b3 -->
         </dependency>
         <dependency>
           <groupId>org.eclipse.collections</groupId>
+          <artifactId>eclipse-collections</artifactId>
+          <version>13.0.0</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>org.eclipse.collections</groupId>
           <artifactId>eclipse-collections-api</artifactId>
           <version>12.0.0</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.eclipse.collections</groupId>
+          <artifactId>eclipse-collections-api</artifactId>
+          <version>13.0.0</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>org.eclipse.collections</groupId>
           <artifactId>eclipse-collections-forkjoin</artifactId>
           <version>12.0.0</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>org.eclipse.collections</groupId>
+          <artifactId>eclipse-collections-forkjoin</artifactId>
+          <version>13.0.0</version>
           <type>jar</type>
         </dependency>
         <dependency>

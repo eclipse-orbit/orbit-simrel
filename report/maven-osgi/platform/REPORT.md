@@ -1,9 +1,5 @@
 # Target Platform: [platform](https://raw.githubusercontent.com/eclipse-platform/eclipse.platform.releng.aggregator/master/eclipse.platform.releng.prereqs.sdk/eclipse-sdk-prereqs.target)
 
-## Minor Updates
- - [org.jsoup](https://repo.maven.apache.org/maven2/org/jsoup/)
-    - [jsoup](https://repo.maven.apache.org/maven2/org/jsoup/jsoup/) **[1.20.1](https://repo.maven.apache.org/maven2/org/jsoup/jsoup/1.20.1)** < [1.21.1](https://repo.maven.apache.org/maven2/org/jsoup/jsoup/1.21.1/)
-
 ## Major Updates
  - [com.github.weisj](https://repo.maven.apache.org/maven2/com/github/weisj/)
     - [jsvg](https://repo.maven.apache.org/maven2/com/github/weisj/jsvg/) **[1.7.2](https://repo.maven.apache.org/maven2/com/github/weisj/jsvg/1.7.2)** < [2.0.0](https://repo.maven.apache.org/maven2/com/github/weisj/jsvg/2.0.0/)
@@ -18,9 +14,6 @@
  - [org.mortbay.jasper](https://repo.maven.apache.org/maven2/org/mortbay/jasper/)
     - [apache-el](https://repo.maven.apache.org/maven2/org/mortbay/jasper/apache-el/) **[9.0.105](https://repo.maven.apache.org/maven2/org/mortbay/jasper/apache-el/9.0.105)** < [11.0.7](https://repo.maven.apache.org/maven2/org/mortbay/jasper/apache-el/11.0.7/)
     - [apache-jsp](https://repo.maven.apache.org/maven2/org/mortbay/jasper/apache-jsp/) **[9.0.105](https://repo.maven.apache.org/maven2/org/mortbay/jasper/apache-jsp/9.0.105)** < [11.0.7](https://repo.maven.apache.org/maven2/org/mortbay/jasper/apache-jsp/11.0.7/)
-
-## Updates Applied
-[updated.target](updated.target)
 
 ## Content
  - [biz.aQute.bnd](https://repo.maven.apache.org/maven2/biz/aQute/bnd/)
@@ -95,6 +88,9 @@
     - [bcpg-jdk18on](https://repo.maven.apache.org/maven2/org/bouncycastle/bcpg-jdk18on/) **[1.81](https://repo.maven.apache.org/maven2/org/bouncycastle/bcpg-jdk18on/1.81)**
     - [bcprov-jdk18on](https://repo.maven.apache.org/maven2/org/bouncycastle/bcprov-jdk18on/) **[1.81](https://repo.maven.apache.org/maven2/org/bouncycastle/bcprov-jdk18on/1.81)**
     - [bcutil-jdk18on](https://repo.maven.apache.org/maven2/org/bouncycastle/bcutil-jdk18on/) **[1.81](https://repo.maven.apache.org/maven2/org/bouncycastle/bcutil-jdk18on/1.81)**
+ - [org.commonmark](https://repo.maven.apache.org/maven2/org/commonmark/)
+    - [commonmark](https://repo.maven.apache.org/maven2/org/commonmark/commonmark/) **[0.25.0](https://repo.maven.apache.org/maven2/org/commonmark/commonmark/0.25.0)**
+    - [commonmark-ext-gfm-tables](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-gfm-tables/) **[0.25.0](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-gfm-tables/0.25.0)**
  - [org.eclipse.jetty](https://repo.maven.apache.org/maven2/org/eclipse/jetty/)
     - [jetty-http](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-http/) **[12.0.22](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-http/12.0.22)**
     - [jetty-io](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-io/) **[12.0.22](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-io/12.0.22)**
@@ -115,7 +111,7 @@
  - [org.hamcrest](https://repo.maven.apache.org/maven2/org/hamcrest/)
     - [hamcrest](https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest/) **[2.2](https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest/2.2)**
  - [org.jsoup](https://repo.maven.apache.org/maven2/org/jsoup/)
-    - [jsoup](https://repo.maven.apache.org/maven2/org/jsoup/jsoup/) **[1.20.1](https://repo.maven.apache.org/maven2/org/jsoup/jsoup/1.20.1)**
+    - [jsoup](https://repo.maven.apache.org/maven2/org/jsoup/jsoup/) **[1.21.1](https://repo.maven.apache.org/maven2/org/jsoup/jsoup/1.21.1)**
  - [org.junit.jupiter](https://repo.maven.apache.org/maven2/org/junit/jupiter/)
     - [junit-jupiter-api](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/) **[5.13.1](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.13.1)**
     - [junit-jupiter-engine](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/) **[5.13.1](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.13.1)**
