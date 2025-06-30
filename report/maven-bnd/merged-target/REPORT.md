@@ -93,7 +93,7 @@
  - [org.cyclonedx](https://repo.maven.apache.org/maven2/org/cyclonedx/)
     - [cyclonedx-core-java](https://repo.maven.apache.org/maven2/org/cyclonedx/cyclonedx-core-java/) **[10.2.1](https://repo.maven.apache.org/maven2/org/cyclonedx/cyclonedx-core-java/10.2.1)**
  - [org.dom4j](https://repo.maven.apache.org/maven2/org/dom4j/)
-    - [dom4j](https://repo.maven.apache.org/maven2/org/dom4j/dom4j/) **[2.1.4](https://repo.maven.apache.org/maven2/org/dom4j/dom4j/2.1.4)**
+    - [dom4j](https://repo.maven.apache.org/maven2/org/dom4j/dom4j/) **[2.2.0](https://repo.maven.apache.org/maven2/org/dom4j/dom4j/2.2.0)**
  - [org.eclipse.orbit](https://repo.eclipse.org/content/repositories/orbit-approved-artifacts/org/eclipse/orbit/)
     - [ant](https://repo.eclipse.org/content/repositories/orbit-approved-artifacts/org/eclipse/orbit/ant/) **[1.10.15](https://repo.eclipse.org/content/repositories/orbit-approved-artifacts/org/eclipse/orbit/ant/1.10.15)**
     - [derby](https://repo.eclipse.org/content/repositories/orbit-approved-artifacts/org/eclipse/orbit/derby/) **[10.16.1.1](https://repo.eclipse.org/content/repositories/orbit-approved-artifacts/org/eclipse/orbit/derby/10.16.1.1)**
