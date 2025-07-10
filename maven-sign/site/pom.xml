@@ -23,7 +23,7 @@
 				<configuration>
 					<repositoryName>Orbit Maven Sign</repositoryName>
 					<includeAllDependencies>false</includeAllDependencies>
-					<includeAllSources>true</includeAllSources>
+					<includeAllSources>false</includeAllSources>
 					<skipArchive>true</skipArchive>
 					<xzCompress>false</xzCompress>
 				</configuration>

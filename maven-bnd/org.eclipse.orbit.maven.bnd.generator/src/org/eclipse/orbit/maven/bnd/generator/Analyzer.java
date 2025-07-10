@@ -140,7 +140,6 @@ public class Analyzer {
 		var body = new StringBuilder(nl);
 		for (var featureID : featureIDs) {
 			body.append("   <feature id=\"").append(featureID).append("\"/>").append(nl);
-			body.append("   <feature id=\"").append(featureID).append(".source\"/>").append(nl);
 		}
 
 		return replace(category, matcher, "body", body.toString());
