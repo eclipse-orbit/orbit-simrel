@@ -1,9 +1,16 @@
 # Target Platform: [egit](https://raw.githubusercontent.com/eclipse-egit/egit/master/org.eclipse.egit.target/maven/dependencies.tpd)
 
+## Minor Updates
+ - [org.apache.commons](https://repo.maven.apache.org/maven2/org/apache/commons/)
+    - [commons-lang3](https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/) **[3.17.0](https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.17.0)** < [3.18.0](https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.18.0/)
+
 ## Major Updates
  - [org.slf4j](https://repo.maven.apache.org/maven2/org/slf4j/)
     - [slf4j-api](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/) **[1.7.36](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.36)** < [2.0.17](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/2.0.17/)
     - [slf4j-simple](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-simple/) **[1.7.36](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-simple/1.7.36)** < [2.0.17](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-simple/2.0.17/)
+
+## Updates Applied
+[updated.tpd](updated.tpd)
 
 ## Content
  - [args4j](https://repo.maven.apache.org/maven2/args4j/)
