@@ -292,4 +292,4 @@
     - [slf4j-nop](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-nop/) **[2.0.17](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-nop/2.0.17)**
     - [slf4j-reload4j](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-reload4j/) **[2.0.17](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-reload4j/2.0.17)**
  - [org.snakeyaml](https://repo.maven.apache.org/maven2/org/snakeyaml/)
-    - [snakeyaml-engine](https://repo.maven.apache.org/maven2/org/snakeyaml/snakeyaml-engine/) **[2.9](https://repo.maven.apache.org/maven2/org/snakeyaml/snakeyaml-engine/2.9)**
+    - [snakeyaml-engine](https://repo.maven.apache.org/maven2/org/snakeyaml/snakeyaml-engine/) **[2.10](https://repo.maven.apache.org/maven2/org/snakeyaml/snakeyaml-engine/2.10)**
