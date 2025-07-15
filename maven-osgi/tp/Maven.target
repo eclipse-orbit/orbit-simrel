@@ -3,7 +3,7 @@
 <target name="Maven" sequenceNumber="1">
   <locations>
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="error" type="Maven">
-      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.37.0.v20250714-0800">
+      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.37.0.v20250715-0800">
         <description>This feature's dependencies are pulled directly from Maven central.</description>
         <copyright>
 Copyright (c) 2025 Eclipse contributors and others.
@@ -16,7 +16,7 @@ https://www.eclipse.org/legal/epl-2.0/
 SPDX-License-Identifier: EPL-2.0
         </copyright>
         <license url="https://www.eclipse.org/legal/epl-2.0/"/>
-i        <!-- SHA1 3ef2da70b0618ce1c700049d415569e936d23048 -->
+i        <!-- SHA1 a874f9d4d413a88c64eaccc8753f9efe62b787cc -->
       </feature>
       <dependencies>
         <dependency>
@@ -1415,25 +1415,25 @@ i        <!-- SHA1 3ef2da70b0618ce1c700049d415569e936d23048 -->
         <dependency>
           <groupId>org.mortbay.jasper</groupId>
           <artifactId>apache-el</artifactId>
-          <version>9.0.105</version>
+          <version>9.0.107</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.mortbay.jasper</groupId>
           <artifactId>apache-el</artifactId>
-          <version>10.1.41</version>
+          <version>10.1.43</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.mortbay.jasper</groupId>
           <artifactId>apache-jsp</artifactId>
-          <version>9.0.105</version>
+          <version>9.0.107</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.mortbay.jasper</groupId>
           <artifactId>apache-jsp</artifactId>
-          <version>10.1.41</version>
+          <version>10.1.43</version>
           <type>jar</type>
         </dependency>
         <dependency>

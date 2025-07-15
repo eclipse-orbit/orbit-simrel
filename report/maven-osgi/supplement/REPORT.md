@@ -49,10 +49,10 @@
  - [org.mandas](https://repo.maven.apache.org/maven2/org/mandas/)
     - [docker-client](https://repo.maven.apache.org/maven2/org/mandas/docker-client/) **[8.0.3](https://repo.maven.apache.org/maven2/org/mandas/docker-client/8.0.3)** < [9.0.3](https://repo.maven.apache.org/maven2/org/mandas/docker-client/9.0.3/)
  - [org.mortbay.jasper](https://repo.maven.apache.org/maven2/org/mortbay/jasper/)
-    - [apache-el](https://repo.maven.apache.org/maven2/org/mortbay/jasper/apache-el/) **[9.0.105](https://repo.maven.apache.org/maven2/org/mortbay/jasper/apache-el/9.0.105)** < [11.0.7](https://repo.maven.apache.org/maven2/org/mortbay/jasper/apache-el/11.0.7/)
-    - [apache-el](https://repo.maven.apache.org/maven2/org/mortbay/jasper/apache-el/) **[10.1.41](https://repo.maven.apache.org/maven2/org/mortbay/jasper/apache-el/10.1.41)** < [11.0.7](https://repo.maven.apache.org/maven2/org/mortbay/jasper/apache-el/11.0.7/)
-    - [apache-jsp](https://repo.maven.apache.org/maven2/org/mortbay/jasper/apache-jsp/) **[9.0.105](https://repo.maven.apache.org/maven2/org/mortbay/jasper/apache-jsp/9.0.105)** < [11.0.7](https://repo.maven.apache.org/maven2/org/mortbay/jasper/apache-jsp/11.0.7/)
-    - [apache-jsp](https://repo.maven.apache.org/maven2/org/mortbay/jasper/apache-jsp/) **[10.1.41](https://repo.maven.apache.org/maven2/org/mortbay/jasper/apache-jsp/10.1.41)** < [11.0.7](https://repo.maven.apache.org/maven2/org/mortbay/jasper/apache-jsp/11.0.7/)
+    - [apache-el](https://repo.maven.apache.org/maven2/org/mortbay/jasper/apache-el/) **[9.0.107](https://repo.maven.apache.org/maven2/org/mortbay/jasper/apache-el/9.0.107)** < [11.0.9](https://repo.maven.apache.org/maven2/org/mortbay/jasper/apache-el/11.0.9/)
+    - [apache-el](https://repo.maven.apache.org/maven2/org/mortbay/jasper/apache-el/) **[10.1.43](https://repo.maven.apache.org/maven2/org/mortbay/jasper/apache-el/10.1.43)** < [11.0.9](https://repo.maven.apache.org/maven2/org/mortbay/jasper/apache-el/11.0.9/)
+    - [apache-jsp](https://repo.maven.apache.org/maven2/org/mortbay/jasper/apache-jsp/) **[9.0.107](https://repo.maven.apache.org/maven2/org/mortbay/jasper/apache-jsp/9.0.107)** < [11.0.9](https://repo.maven.apache.org/maven2/org/mortbay/jasper/apache-jsp/11.0.9/)
+    - [apache-jsp](https://repo.maven.apache.org/maven2/org/mortbay/jasper/apache-jsp/) **[10.1.43](https://repo.maven.apache.org/maven2/org/mortbay/jasper/apache-jsp/10.1.43)** < [11.0.9](https://repo.maven.apache.org/maven2/org/mortbay/jasper/apache-jsp/11.0.9/)
 
 ## Content
  - [ch.qos.logback](https://repo.maven.apache.org/maven2/ch/qos/logback/)
@@ -262,10 +262,10 @@
  - [org.mongodb](https://repo.maven.apache.org/maven2/org/mongodb/)
     - [mongo-java-driver](https://repo.maven.apache.org/maven2/org/mongodb/mongo-java-driver/) **[3.12.14](https://repo.maven.apache.org/maven2/org/mongodb/mongo-java-driver/3.12.14)**
  - [org.mortbay.jasper](https://repo.maven.apache.org/maven2/org/mortbay/jasper/)
-    - [apache-el](https://repo.maven.apache.org/maven2/org/mortbay/jasper/apache-el/) **[9.0.105](https://repo.maven.apache.org/maven2/org/mortbay/jasper/apache-el/9.0.105)**
-    - [apache-el](https://repo.maven.apache.org/maven2/org/mortbay/jasper/apache-el/) **[10.1.41](https://repo.maven.apache.org/maven2/org/mortbay/jasper/apache-el/10.1.41)**
-    - [apache-jsp](https://repo.maven.apache.org/maven2/org/mortbay/jasper/apache-jsp/) **[9.0.105](https://repo.maven.apache.org/maven2/org/mortbay/jasper/apache-jsp/9.0.105)**
-    - [apache-jsp](https://repo.maven.apache.org/maven2/org/mortbay/jasper/apache-jsp/) **[10.1.41](https://repo.maven.apache.org/maven2/org/mortbay/jasper/apache-jsp/10.1.41)**
+    - [apache-el](https://repo.maven.apache.org/maven2/org/mortbay/jasper/apache-el/) **[9.0.107](https://repo.maven.apache.org/maven2/org/mortbay/jasper/apache-el/9.0.107)**
+    - [apache-el](https://repo.maven.apache.org/maven2/org/mortbay/jasper/apache-el/) **[10.1.43](https://repo.maven.apache.org/maven2/org/mortbay/jasper/apache-el/10.1.43)**
+    - [apache-jsp](https://repo.maven.apache.org/maven2/org/mortbay/jasper/apache-jsp/) **[9.0.107](https://repo.maven.apache.org/maven2/org/mortbay/jasper/apache-jsp/9.0.107)**
+    - [apache-jsp](https://repo.maven.apache.org/maven2/org/mortbay/jasper/apache-jsp/) **[10.1.43](https://repo.maven.apache.org/maven2/org/mortbay/jasper/apache-jsp/10.1.43)**
  - [org.osgi](https://repo.maven.apache.org/maven2/org/osgi/)
     - [org.osgi.dto](https://repo.maven.apache.org/maven2/org/osgi/org.osgi.dto/) **[1.1.1](https://repo.maven.apache.org/maven2/org/osgi/org.osgi.dto/1.1.1)**
     - [org.osgi.framework](https://repo.maven.apache.org/maven2/org/osgi/org.osgi.framework/) **[1.10.0](https://repo.maven.apache.org/maven2/org/osgi/org.osgi.framework/1.10.0)**
