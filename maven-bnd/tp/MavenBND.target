@@ -1839,7 +1839,7 @@ Export-Package:         *;version="${version}"
 <!-- _____________________________________________________ org.apache.poi ___________________________________________________________________________________________________-->
 
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
-      <feature id="org.eclipse.orbit.maven.org.apache.poi" label="Orbit Maven BND org.apache.poi" provider-name="Eclipse Orbit" version="4.37.0">
+      <feature id="org.eclipse.orbit.maven.org.apache.poi" label="Orbit Maven BND org.apache.poi" provider-name="Eclipse Orbit" version="4.37.0.v20250715-1000">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
 Copyright (c) 2025 Eclipse contributors and others.
@@ -1874,7 +1874,7 @@ SPDX-License-Identifier: EPL-2.0
         </dependency>
       </dependencies>
       <instructions>
-<!-- SHA1 689164876033e3cd5d408de7f6ec555fdba1ade0 -->
+<!-- SHA1 29c6e7bf2805192eee01a3d254b621a4771d78be -->
 <![CDATA[
 Bundle-Name:            Bundle ${mvnGroupId} : ${mvnArtifactId}
 version:                ${versionmask;===;${version_cleanup;${mvnVersion}}}
@@ -1882,14 +1882,15 @@ base-suffix             ${replacestring;${mvnArtifactId};-;.}
 suffix                  ${replacestring;${base-suffix};lite;schemas}
 name:                   org.apache.${suffix}
 Bundle-SymbolicName:    ${name}
-Bundle-Version:         ${version}.v20250407-1000
+Bundle-Version:         ${version}.v20250715-1000
 Automatic-Module-Name:  ${name}
 Eclipse-Wrapped-Bundle: ${mvnGroupId}:${mvnArtifactId}:${mvnVersion}
 Import-Package:         de.rototor.pdfbox*|org.bouncycastle*|org.apache.pdfbox*|org.apache.xmlgraphics*|org.apache.jcp*|org.apache.xml.security*;resolution:=optional,\
                         com.microsoft.schemas*|org.openxmlformats.schemas*;resolution:=optional,\
                         *
 Export-Package:         *;version="${version}"
-Eclipse-BuddyPolicy:    dependent
+Eclipse-BuddyPolicy:    registered
+Eclipse-RegisterBuddy:  org.apache.poi
 -noextraheaders:        true
 -removeheaders:         Private-Package
 ]]>
