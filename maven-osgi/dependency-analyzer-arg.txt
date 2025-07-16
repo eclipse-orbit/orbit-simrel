@@ -65,6 +65,7 @@ org\.slf4j:slf4j-.*:2\.0\.14 // Broken exported package versions
 org.mozilla:rhino:1\.8\.0 // This version is not an OSGI bundle https://github.com/mozilla/rhino/discussions/1788
 com.ethlo.time:itu:1\.11\.0 // Not an OSGi bundle
 com.github.oshi:oshi-core:6\.7\.0 // Bad new dependencies
+io.github.classgraph:classgraph:4\.8\.181 // Not a bundle
 
 -keep
 commons-logging:commons-logging:1.2
