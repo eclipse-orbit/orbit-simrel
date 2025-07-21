@@ -4,8 +4,8 @@
  - [commons-io](https://repo.maven.apache.org/maven2/commons-io/)
     - [commons-io](https://repo.maven.apache.org/maven2/commons-io/commons-io/) **[2.19.0](https://repo.maven.apache.org/maven2/commons-io/commons-io/2.19.0)** < [2.20.0](https://repo.maven.apache.org/maven2/commons-io/commons-io/2.20.0/)
  - [org.junit.jupiter](https://repo.maven.apache.org/maven2/org/junit/jupiter/)
-    - [junit-jupiter-api](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/) **[5.12.2](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.12.2)** < [5.13.3](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.13.3/)
-    - [junit-jupiter-engine](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/) **[5.12.2](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.12.2)** < [5.13.3](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.13.3/)
+    - [junit-jupiter-api](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/) **[5.12.2](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.12.2)** < [5.13.4](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.13.4/)
+    - [junit-jupiter-engine](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/) **[5.12.2](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.12.2)** < [5.13.4](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.13.4/)
 
 ## Major Updates
  - [jakarta.activation](https://repo.maven.apache.org/maven2/jakarta/activation/)
