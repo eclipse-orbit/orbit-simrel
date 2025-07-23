@@ -1,6 +1,8 @@
 # Target Platform: [egit](https://raw.githubusercontent.com/eclipse-egit/egit/master/org.eclipse.egit.target/maven/dependencies.tpd)
 
 ## Minor Updates
+ - [commons-codec](https://repo.maven.apache.org/maven2/commons-codec/)
+    - [commons-codec](https://repo.maven.apache.org/maven2/commons-codec/commons-codec/) **[1.18.0](https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.18.0)** < [1.19.0](https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.19.0/)
  - [commons-io](https://repo.maven.apache.org/maven2/commons-io/)
     - [commons-io](https://repo.maven.apache.org/maven2/commons-io/commons-io/) **[2.19.0](https://repo.maven.apache.org/maven2/commons-io/commons-io/2.19.0)** < [2.20.0](https://repo.maven.apache.org/maven2/commons-io/commons-io/2.20.0/)
  - [org.apache.commons](https://repo.maven.apache.org/maven2/org/apache/commons/)

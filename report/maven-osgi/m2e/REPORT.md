@@ -1,6 +1,8 @@
 # Target Platform: [m2e](https://raw.githubusercontent.com/eclipse-m2e/m2e-core/main/target-platform/target-platform.target)
 
 ## Minor Updates
+ - [commons-codec](https://repo.maven.apache.org/maven2/commons-codec/)
+    - [commons-codec](https://repo.maven.apache.org/maven2/commons-codec/commons-codec/) **[1.18.0](https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.18.0)** < [1.19.0](https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.19.0/)
  - [org.apache.commons](https://repo.maven.apache.org/maven2/org/apache/commons/)
     - [commons-lang3](https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/) **[3.17.0](https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.17.0)** < [3.18.0](https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.18.0/)
  - [org.apache.maven.archetype](https://repo.maven.apache.org/maven2/org/apache/maven/archetype/)

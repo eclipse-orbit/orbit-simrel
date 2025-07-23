@@ -2,7 +2,7 @@
 
 ## Content
  - [commons-codec](https://repo.maven.apache.org/maven2/commons-codec/)
-    - [commons-codec](https://repo.maven.apache.org/maven2/commons-codec/commons-codec/) **[1.18.0](https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.18.0)**
+    - [commons-codec](https://repo.maven.apache.org/maven2/commons-codec/commons-codec/) **[1.19.0](https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.19.0)**
  - [jakarta.servlet](https://repo.maven.apache.org/maven2/jakarta/servlet/)
     - [jakarta.servlet-api](https://repo.maven.apache.org/maven2/jakarta/servlet/jakarta.servlet-api/) **[6.1.0](https://repo.maven.apache.org/maven2/jakarta/servlet/jakarta.servlet-api/6.1.0)**
  - [org.apache.commons](https://repo.maven.apache.org/maven2/org/apache/commons/)
