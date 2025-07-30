@@ -13,7 +13,7 @@
  - [jakarta.jws](https://repo.maven.apache.org/maven2/jakarta/jws/)
     - [jakarta.jws-api](https://repo.maven.apache.org/maven2/jakarta/jws/jakarta.jws-api/) **[2.1.0](https://repo.maven.apache.org/maven2/jakarta/jws/jakarta.jws-api/2.1.0)** < [3.0.0](https://repo.maven.apache.org/maven2/jakarta/jws/jakarta.jws-api/3.0.0/)
  - [jakarta.mail](https://repo.maven.apache.org/maven2/jakarta/mail/)
-    - [jakarta.mail-api](https://repo.maven.apache.org/maven2/jakarta/mail/jakarta.mail-api/) **[1.6.7](https://repo.maven.apache.org/maven2/jakarta/mail/jakarta.mail-api/1.6.7)** < [2.1.3](https://repo.maven.apache.org/maven2/jakarta/mail/jakarta.mail-api/2.1.3/)
+    - [jakarta.mail-api](https://repo.maven.apache.org/maven2/jakarta/mail/jakarta.mail-api/) **[1.6.8](https://repo.maven.apache.org/maven2/jakarta/mail/jakarta.mail-api/1.6.8)** < [2.1.3](https://repo.maven.apache.org/maven2/jakarta/mail/jakarta.mail-api/2.1.3/)
  - [jakarta.persistence](https://repo.maven.apache.org/maven2/jakarta/persistence/)
     - [jakarta.persistence-api](https://repo.maven.apache.org/maven2/jakarta/persistence/jakarta.persistence-api/) **[2.2.3](https://repo.maven.apache.org/maven2/jakarta/persistence/jakarta.persistence-api/2.2.3)** < [3.2.0](https://repo.maven.apache.org/maven2/jakarta/persistence/jakarta.persistence-api/3.2.0/)
  - [jakarta.servlet.jsp](https://repo.maven.apache.org/maven2/jakarta/servlet/jsp/)
@@ -141,7 +141,7 @@
  - [jakarta.jws](https://repo.maven.apache.org/maven2/jakarta/jws/)
     - [jakarta.jws-api](https://repo.maven.apache.org/maven2/jakarta/jws/jakarta.jws-api/) **[2.1.0](https://repo.maven.apache.org/maven2/jakarta/jws/jakarta.jws-api/2.1.0)**
  - [jakarta.mail](https://repo.maven.apache.org/maven2/jakarta/mail/)
-    - [jakarta.mail-api](https://repo.maven.apache.org/maven2/jakarta/mail/jakarta.mail-api/) **[1.6.7](https://repo.maven.apache.org/maven2/jakarta/mail/jakarta.mail-api/1.6.7)**
+    - [jakarta.mail-api](https://repo.maven.apache.org/maven2/jakarta/mail/jakarta.mail-api/) **[1.6.8](https://repo.maven.apache.org/maven2/jakarta/mail/jakarta.mail-api/1.6.8)**
  - [jakarta.persistence](https://repo.maven.apache.org/maven2/jakarta/persistence/)
     - [jakarta.persistence-api](https://repo.maven.apache.org/maven2/jakarta/persistence/jakarta.persistence-api/) **[2.2.3](https://repo.maven.apache.org/maven2/jakarta/persistence/jakarta.persistence-api/2.2.3)**
  - [jakarta.servlet](https://repo.maven.apache.org/maven2/jakarta/servlet/)

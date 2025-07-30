@@ -930,7 +930,7 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>jakarta.mail</groupId>
           <artifactId>jakarta.mail-api</artifactId>
-          <version>1.6.7</version>
+          <version>1.6.8</version>
           <type>jar</type>
         </dependency>
         <dependency>

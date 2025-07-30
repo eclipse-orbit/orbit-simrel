@@ -10,6 +10,8 @@
  - [net.java.dev.jna](https://repo.maven.apache.org/maven2/net/java/dev/jna/)
     - [jna](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna/) **[5.14.0](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna/5.14.0)** < [5.17.0](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna/5.17.0/)
     - [jna-platform](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna-platform/) **[5.14.0](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna-platform/5.14.0)** < [5.17.0](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna-platform/5.17.0/)
+ - [org.apache.commons](https://repo.maven.apache.org/maven2/org/apache/commons/)
+    - [commons-compress](https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/) **[1.27.1](https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.27.1)** < [1.28.0](https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.28.0/)
  - [org.assertj](https://repo.maven.apache.org/maven2/org/assertj/)
     - [assertj-core](https://repo.maven.apache.org/maven2/org/assertj/assertj-core/) **[3.26.3](https://repo.maven.apache.org/maven2/org/assertj/assertj-core/3.26.3)** < [3.27.3](https://repo.maven.apache.org/maven2/org/assertj/assertj-core/3.27.3/)
  - [org.freemarker](https://repo.maven.apache.org/maven2/org/freemarker/)

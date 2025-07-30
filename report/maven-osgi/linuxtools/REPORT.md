@@ -1,10 +1,17 @@
 # Target Platform: [linuxtools](https://raw.githubusercontent.com/eclipse-linuxtools/org.eclipse.linuxtools/refs/heads/master/releng/org.eclipse.linuxtools.target/linuxtools-latest.target)
 
+## Minor Updates
+ - [org.apache.commons](https://repo.maven.apache.org/maven2/org/apache/commons/)
+    - [commons-compress](https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/) **[1.27.1](https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.27.1)** < [1.28.0](https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.28.0/)
+
 ## Major Updates
  - [jakarta.ws.rs](https://repo.maven.apache.org/maven2/jakarta/ws/rs/)
     - [jakarta.ws.rs-api](https://repo.maven.apache.org/maven2/jakarta/ws/rs/jakarta.ws.rs-api/) **[3.1.0](https://repo.maven.apache.org/maven2/jakarta/ws/rs/jakarta.ws.rs-api/3.1.0)** < [4.0.0](https://repo.maven.apache.org/maven2/jakarta/ws/rs/jakarta.ws.rs-api/4.0.0/)
  - [org.glassfish.hk2](https://repo.maven.apache.org/maven2/org/glassfish/hk2/)
     - [osgi-resource-locator](https://repo.maven.apache.org/maven2/org/glassfish/hk2/osgi-resource-locator/) **[1.0.4](https://repo.maven.apache.org/maven2/org/glassfish/hk2/osgi-resource-locator/1.0.4)** < [3.0.0](https://repo.maven.apache.org/maven2/org/glassfish/hk2/osgi-resource-locator/3.0.0/)
+
+## Updates Applied
+[updated.target](updated.target)
 
 ## Content
  - [com.fasterxml.jackson.core](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/)

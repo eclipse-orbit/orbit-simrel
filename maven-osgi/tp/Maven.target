@@ -3,7 +3,7 @@
 <target name="Maven" sequenceNumber="1">
   <locations>
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="error" type="Maven">
-      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.37.0.v20250724-2000">
+      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.37.0.v20250730-0900">
         <description>This feature's dependencies are pulled directly from Maven central.</description>
         <copyright>
 Copyright (c) 2025 Eclipse contributors and others.
@@ -16,7 +16,7 @@ https://www.eclipse.org/legal/epl-2.0/
 SPDX-License-Identifier: EPL-2.0
         </copyright>
         <license url="https://www.eclipse.org/legal/epl-2.0/"/>
-i        <!-- SHA1 be101d253bf63763a0e8e4f32a5dcf3150bcfb6f -->
+i        <!-- SHA1 090eb947b86d164ab567ac328f710fe1ce397398 -->
       </feature>
       <dependencies>
         <dependency>
@@ -581,7 +581,7 @@ i        <!-- SHA1 be101d253bf63763a0e8e4f32a5dcf3150bcfb6f -->
         <dependency>
           <groupId>jakarta.mail</groupId>
           <artifactId>jakarta.mail-api</artifactId>
-          <version>1.6.7</version>
+          <version>1.6.8</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -761,7 +761,7 @@ i        <!-- SHA1 be101d253bf63763a0e8e4f32a5dcf3150bcfb6f -->
         <dependency>
           <groupId>org.apache.commons</groupId>
           <artifactId>commons-compress</artifactId>
-          <version>1.27.1</version>
+          <version>1.28.0</version>
           <type>jar</type>
         </dependency>
         <dependency>

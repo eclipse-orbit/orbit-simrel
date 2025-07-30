@@ -1,12 +1,8 @@
 # Target Platform: [jgit](https://raw.githubusercontent.com/eclipse-jgit/jgit/master/org.eclipse.jgit.packaging/org.eclipse.jgit.target/maven/dependencies.tpd)
 
 ## Minor Updates
- - [commons-codec](https://repo.maven.apache.org/maven2/commons-codec/)
-    - [commons-codec](https://repo.maven.apache.org/maven2/commons-codec/commons-codec/) **[1.18.0](https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.18.0)** < [1.19.0](https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.19.0/)
- - [commons-io](https://repo.maven.apache.org/maven2/commons-io/)
-    - [commons-io](https://repo.maven.apache.org/maven2/commons-io/commons-io/) **[2.19.0](https://repo.maven.apache.org/maven2/commons-io/commons-io/2.19.0)** < [2.20.0](https://repo.maven.apache.org/maven2/commons-io/commons-io/2.20.0/)
  - [org.apache.commons](https://repo.maven.apache.org/maven2/org/apache/commons/)
-    - [commons-lang3](https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/) **[3.17.0](https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.17.0)** < [3.18.0](https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.18.0/)
+    - [commons-compress](https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/) **[1.27.1](https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.27.1)** < [1.28.0](https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.28.0/)
 
 ## Major Updates
  - [org.hamcrest](https://repo.maven.apache.org/maven2/org/hamcrest/)
@@ -26,9 +22,9 @@
  - [com.googlecode.javaewah](https://repo.maven.apache.org/maven2/com/googlecode/javaewah/)
     - [JavaEWAH](https://repo.maven.apache.org/maven2/com/googlecode/javaewah/JavaEWAH/) **[1.2.3](https://repo.maven.apache.org/maven2/com/googlecode/javaewah/JavaEWAH/1.2.3)**
  - [commons-codec](https://repo.maven.apache.org/maven2/commons-codec/)
-    - [commons-codec](https://repo.maven.apache.org/maven2/commons-codec/commons-codec/) **[1.18.0](https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.18.0)**
+    - [commons-codec](https://repo.maven.apache.org/maven2/commons-codec/commons-codec/) **[1.19.0](https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.19.0)**
  - [commons-io](https://repo.maven.apache.org/maven2/commons-io/)
-    - [commons-io](https://repo.maven.apache.org/maven2/commons-io/commons-io/) **[2.19.0](https://repo.maven.apache.org/maven2/commons-io/commons-io/2.19.0)**
+    - [commons-io](https://repo.maven.apache.org/maven2/commons-io/commons-io/) **[2.20.0](https://repo.maven.apache.org/maven2/commons-io/commons-io/2.20.0)**
  - [commons-logging](https://repo.maven.apache.org/maven2/commons-logging/)
     - [commons-logging](https://repo.maven.apache.org/maven2/commons-logging/commons-logging/) **[1.3.5](https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.3.5)**
  - [jakarta.servlet](https://repo.maven.apache.org/maven2/jakarta/servlet/)
@@ -41,7 +37,7 @@
     - [jna-platform](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna-platform/) **[5.17.0](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna-platform/5.17.0)**
  - [org.apache.commons](https://repo.maven.apache.org/maven2/org/apache/commons/)
     - [commons-compress](https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/) **[1.27.1](https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.27.1)**
-    - [commons-lang3](https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/) **[3.17.0](https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.17.0)**
+    - [commons-lang3](https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/) **[3.18.0](https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.18.0)**
  - [org.apache.sshd](https://repo.maven.apache.org/maven2/org/apache/sshd/)
     - [sshd-osgi](https://repo.maven.apache.org/maven2/org/apache/sshd/sshd-osgi/) **[2.15.0](https://repo.maven.apache.org/maven2/org/apache/sshd/sshd-osgi/2.15.0)**
     - [sshd-sftp](https://repo.maven.apache.org/maven2/org/apache/sshd/sshd-sftp/) **[2.15.0](https://repo.maven.apache.org/maven2/org/apache/sshd/sshd-sftp/2.15.0)**
