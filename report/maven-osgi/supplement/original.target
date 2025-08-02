@@ -205,7 +205,7 @@
         <dependency>
           <groupId>commons-net</groupId>
           <artifactId>commons-net</artifactId>
-          <version>3.11.1</version>
+          <version>3.12.0</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -553,49 +553,49 @@
         <dependency>
           <groupId>org.commonmark</groupId>
           <artifactId>commonmark</artifactId>
-          <version>0.25.0</version>
+          <version>0.25.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.commonmark</groupId>
           <artifactId>commonmark-ext-gfm-strikethrough</artifactId>
-          <version>0.25.0</version>
+          <version>0.25.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.commonmark</groupId>
           <artifactId>commonmark-ext-gfm-tables</artifactId>
-          <version>0.25.0</version>
+          <version>0.25.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.commonmark</groupId>
           <artifactId>commonmark-ext-heading-anchor</artifactId>
-          <version>0.25.0</version>
+          <version>0.25.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.commonmark</groupId>
           <artifactId>commonmark-ext-image-attributes</artifactId>
-          <version>0.25.0</version>
+          <version>0.25.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.commonmark</groupId>
           <artifactId>commonmark-ext-ins</artifactId>
-          <version>0.25.0</version>
+          <version>0.25.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.commonmark</groupId>
           <artifactId>commonmark-ext-task-list-items</artifactId>
-          <version>0.25.0</version>
+          <version>0.25.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.commonmark</groupId>
           <artifactId>commonmark-ext-yaml-front-matter</artifactId>
-          <version>0.25.0</version>
+          <version>0.25.1</version>
           <type>jar</type>
         </dependency>
         <dependency>

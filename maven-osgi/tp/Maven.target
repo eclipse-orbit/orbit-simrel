@@ -3,7 +3,7 @@
 <target name="Maven" sequenceNumber="1">
   <locations>
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="error" type="Maven">
-      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.37.0.v20250731-0900">
+      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.37.0.v20250802-0900">
         <description>This feature's dependencies are pulled directly from Maven central.</description>
         <copyright>
 Copyright (c) 2025 Eclipse contributors and others.
@@ -16,7 +16,7 @@ https://www.eclipse.org/legal/epl-2.0/
 SPDX-License-Identifier: EPL-2.0
         </copyright>
         <license url="https://www.eclipse.org/legal/epl-2.0/"/>
-i        <!-- SHA1 293bed4075213a2b15ad32008a92f0d8acb7f6b1 -->
+i        <!-- SHA1 7ea34483bd4b7f6d48fc1d15043797c3baf63a55 -->
       </feature>
       <dependencies>
         <dependency>
@@ -431,7 +431,7 @@ i        <!-- SHA1 293bed4075213a2b15ad32008a92f0d8acb7f6b1 -->
         <dependency>
           <groupId>commons-net</groupId>
           <artifactId>commons-net</artifactId>
-          <version>3.11.1</version>
+          <version>3.12.0</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -1007,49 +1007,49 @@ i        <!-- SHA1 293bed4075213a2b15ad32008a92f0d8acb7f6b1 -->
         <dependency>
           <groupId>org.commonmark</groupId>
           <artifactId>commonmark</artifactId>
-          <version>0.25.0</version>
+          <version>0.25.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.commonmark</groupId>
           <artifactId>commonmark-ext-gfm-strikethrough</artifactId>
-          <version>0.25.0</version>
+          <version>0.25.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.commonmark</groupId>
           <artifactId>commonmark-ext-gfm-tables</artifactId>
-          <version>0.25.0</version>
+          <version>0.25.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.commonmark</groupId>
           <artifactId>commonmark-ext-heading-anchor</artifactId>
-          <version>0.25.0</version>
+          <version>0.25.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.commonmark</groupId>
           <artifactId>commonmark-ext-image-attributes</artifactId>
-          <version>0.25.0</version>
+          <version>0.25.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.commonmark</groupId>
           <artifactId>commonmark-ext-ins</artifactId>
-          <version>0.25.0</version>
+          <version>0.25.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.commonmark</groupId>
           <artifactId>commonmark-ext-task-list-items</artifactId>
-          <version>0.25.0</version>
+          <version>0.25.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.commonmark</groupId>
           <artifactId>commonmark-ext-yaml-front-matter</artifactId>
-          <version>0.25.0</version>
+          <version>0.25.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
