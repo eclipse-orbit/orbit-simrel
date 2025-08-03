@@ -266,7 +266,7 @@
 			<dependency>
 				<groupId>org.mandas</groupId>
 				<artifactId>docker-client</artifactId>
-				<version>9.0.3</version>
+				<version>9.0.4</version>
 				<type>jar</type>
 			</dependency>
 		</dependencies>

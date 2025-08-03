@@ -133,7 +133,7 @@
  - [commons-beanutils](https://repo.maven.apache.org/maven2/commons-beanutils/)
     - [commons-beanutils](https://repo.maven.apache.org/maven2/commons-beanutils/commons-beanutils/) **[1.11.0](https://repo.maven.apache.org/maven2/commons-beanutils/commons-beanutils/1.11.0)**
  - [commons-cli](https://repo.maven.apache.org/maven2/commons-cli/)
-    - [commons-cli](https://repo.maven.apache.org/maven2/commons-cli/commons-cli/) **[1.9.0](https://repo.maven.apache.org/maven2/commons-cli/commons-cli/1.9.0)**
+    - [commons-cli](https://repo.maven.apache.org/maven2/commons-cli/commons-cli/) **[1.10.0](https://repo.maven.apache.org/maven2/commons-cli/commons-cli/1.10.0)**
  - [commons-codec](https://repo.maven.apache.org/maven2/commons-codec/)
     - [commons-codec](https://repo.maven.apache.org/maven2/commons-codec/commons-codec/) **[1.19.0](https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.19.0)**
  - [commons-collections](https://repo.maven.apache.org/maven2/commons-collections/)
@@ -380,7 +380,7 @@
     - [junit-vintage-engine](https://repo.maven.apache.org/maven2/org/junit/vintage/junit-vintage-engine/) **[5.13.4](https://repo.maven.apache.org/maven2/org/junit/vintage/junit-vintage-engine/5.13.4)**
  - [org.mandas](https://repo.maven.apache.org/maven2/org/mandas/)
     - [docker-client](https://repo.maven.apache.org/maven2/org/mandas/docker-client/) **[8.0.3](https://repo.maven.apache.org/maven2/org/mandas/docker-client/8.0.3)**
-    - [docker-client](https://repo.maven.apache.org/maven2/org/mandas/docker-client/) **[9.0.3](https://repo.maven.apache.org/maven2/org/mandas/docker-client/9.0.3)**
+    - [docker-client](https://repo.maven.apache.org/maven2/org/mandas/docker-client/) **[9.0.4](https://repo.maven.apache.org/maven2/org/mandas/docker-client/9.0.4)**
  - [org.mockito](https://repo.maven.apache.org/maven2/org/mockito/)
     - [mockito-core](https://repo.maven.apache.org/maven2/org/mockito/mockito-core/) **[5.18.0](https://repo.maven.apache.org/maven2/org/mockito/mockito-core/5.18.0)**
     - [mockito-junit-jupiter](https://repo.maven.apache.org/maven2/org/mockito/mockito-junit-jupiter/) **[5.18.0](https://repo.maven.apache.org/maven2/org/mockito/mockito-junit-jupiter/5.18.0)**

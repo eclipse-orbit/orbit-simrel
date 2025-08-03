@@ -3,6 +3,8 @@
 ## Minor Updates
  - [org.apache.commons](https://repo.maven.apache.org/maven2/org/apache/commons/)
     - [commons-compress](https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/) **[1.27.1](https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.27.1)** < [1.28.0](https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.28.0/)
+ - [org.mandas](https://repo.maven.apache.org/maven2/org/mandas/)
+    - [docker-client](https://repo.maven.apache.org/maven2/org/mandas/docker-client/) **[9.0.3](https://repo.maven.apache.org/maven2/org/mandas/docker-client/9.0.3)** < [9.0.4](https://repo.maven.apache.org/maven2/org/mandas/docker-client/9.0.4/)
 
 ## Major Updates
  - [jakarta.ws.rs](https://repo.maven.apache.org/maven2/jakarta/ws/rs/)
