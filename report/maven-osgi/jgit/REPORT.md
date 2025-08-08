@@ -1,6 +1,8 @@
 # Target Platform: [jgit](https://raw.githubusercontent.com/eclipse-jgit/jgit/master/org.eclipse.jgit.packaging/org.eclipse.jgit.target/maven/dependencies.tpd)
 
 ## Minor Updates
+ - [org.assertj](https://repo.maven.apache.org/maven2/org/assertj/)
+    - [assertj-core](https://repo.maven.apache.org/maven2/org/assertj/assertj-core/) **[3.27.3](https://repo.maven.apache.org/maven2/org/assertj/assertj-core/3.27.3)** < [3.27.4](https://repo.maven.apache.org/maven2/org/assertj/assertj-core/3.27.4/)
  - [org.eclipse.jetty](https://repo.maven.apache.org/maven2/org/eclipse/jetty/)
     - [jetty-http](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-http/) **[12.0.23](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-http/12.0.23)** < [12.0.24](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-http/12.0.24/)
     - [jetty-io](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-io/) **[12.0.23](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-io/12.0.23)** < [12.0.24](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-io/12.0.24/)

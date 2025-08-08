@@ -13,7 +13,7 @@
  - [org.apache.commons](https://repo.maven.apache.org/maven2/org/apache/commons/)
     - [commons-compress](https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/) **[1.27.1](https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.27.1)** < [1.28.0](https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.28.0/)
  - [org.assertj](https://repo.maven.apache.org/maven2/org/assertj/)
-    - [assertj-core](https://repo.maven.apache.org/maven2/org/assertj/assertj-core/) **[3.26.3](https://repo.maven.apache.org/maven2/org/assertj/assertj-core/3.26.3)** < [3.27.3](https://repo.maven.apache.org/maven2/org/assertj/assertj-core/3.27.3/)
+    - [assertj-core](https://repo.maven.apache.org/maven2/org/assertj/assertj-core/) **[3.26.3](https://repo.maven.apache.org/maven2/org/assertj/assertj-core/3.26.3)** < [3.27.4](https://repo.maven.apache.org/maven2/org/assertj/assertj-core/3.27.4/)
  - [org.freemarker](https://repo.maven.apache.org/maven2/org/freemarker/)
     - [freemarker](https://repo.maven.apache.org/maven2/org/freemarker/freemarker/) **[2.3.33](https://repo.maven.apache.org/maven2/org/freemarker/freemarker/2.3.33)** < [2.3.34](https://repo.maven.apache.org/maven2/org/freemarker/freemarker/2.3.34/)
  - [org.junit.jupiter](https://repo.maven.apache.org/maven2/org/junit/jupiter/)
