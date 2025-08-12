@@ -1,8 +1,6 @@
 # Target Platform: [m2e](https://raw.githubusercontent.com/eclipse-m2e/m2e-core/main/target-platform/target-platform.target)
 
 ## Minor Updates
- - [commons-cli](https://repo.maven.apache.org/maven2/commons-cli/)
-    - [commons-cli](https://repo.maven.apache.org/maven2/commons-cli/commons-cli/) **[1.9.0](https://repo.maven.apache.org/maven2/commons-cli/commons-cli/1.9.0)** < [1.10.0](https://repo.maven.apache.org/maven2/commons-cli/commons-cli/1.10.0/)
  - [org.apache.maven.archetype](https://repo.maven.apache.org/maven2/org/apache/maven/archetype/)
     - [archetype-catalog](https://repo.maven.apache.org/maven2/org/apache/maven/archetype/archetype-catalog/) **[3.2.1](https://repo.maven.apache.org/maven2/org/apache/maven/archetype/archetype-catalog/3.2.1)** < [3.4.0](https://repo.maven.apache.org/maven2/org/apache/maven/archetype/archetype-catalog/3.4.0/)
     - [archetype-common](https://repo.maven.apache.org/maven2/org/apache/maven/archetype/archetype-common/) **[3.2.1](https://repo.maven.apache.org/maven2/org/apache/maven/archetype/archetype-common/3.2.1)** < [3.4.0](https://repo.maven.apache.org/maven2/org/apache/maven/archetype/archetype-common/3.4.0/)
@@ -20,7 +18,7 @@
     - [failureaccess](https://repo.maven.apache.org/maven2/com/google/guava/failureaccess/) **[1.0.3](https://repo.maven.apache.org/maven2/com/google/guava/failureaccess/1.0.3)**
     - [guava](https://repo.maven.apache.org/maven2/com/google/guava/guava/) **[33.4.8-jre](https://repo.maven.apache.org/maven2/com/google/guava/guava/33.4.8-jre)**
  - [commons-cli](https://repo.maven.apache.org/maven2/commons-cli/)
-    - [commons-cli](https://repo.maven.apache.org/maven2/commons-cli/commons-cli/) **[1.9.0](https://repo.maven.apache.org/maven2/commons-cli/commons-cli/1.9.0)**
+    - [commons-cli](https://repo.maven.apache.org/maven2/commons-cli/commons-cli/) **[1.10.0](https://repo.maven.apache.org/maven2/commons-cli/commons-cli/1.10.0)**
  - [commons-codec](https://repo.maven.apache.org/maven2/commons-codec/)
     - [commons-codec](https://repo.maven.apache.org/maven2/commons-codec/commons-codec/) **[1.19.0](https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.19.0)**
  - [io.takari.m2e.workspace](https://repo.maven.apache.org/maven2/io/takari/m2e/workspace/)
