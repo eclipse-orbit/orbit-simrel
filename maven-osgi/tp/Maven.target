@@ -3,7 +3,7 @@
 <target name="Maven" sequenceNumber="1">
   <locations>
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="error" type="Maven">
-      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.37.0.v20250808-1400">
+      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.37.0.v20250815-2100">
         <description>This feature's dependencies are pulled directly from Maven central.</description>
         <copyright>
 Copyright (c) 2025 Eclipse contributors and others.
@@ -16,7 +16,7 @@ https://www.eclipse.org/legal/epl-2.0/
 SPDX-License-Identifier: EPL-2.0
         </copyright>
         <license url="https://www.eclipse.org/legal/epl-2.0/"/>
-i        <!-- SHA1 edcd04e11a8138ae3f5bc9782535dbf4f89c3be4 -->
+i        <!-- SHA1 40d31e6b76e57f90e7a38ebd84dccb5ade57ac16 -->
       </feature>
       <dependencies>
         <dependency>
@@ -1397,13 +1397,13 @@ i        <!-- SHA1 edcd04e11a8138ae3f5bc9782535dbf4f89c3be4 -->
         <dependency>
           <groupId>org.mockito</groupId>
           <artifactId>mockito-core</artifactId>
-          <version>5.18.0</version>
+          <version>5.19.0</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.mockito</groupId>
           <artifactId>mockito-junit-jupiter</artifactId>
-          <version>5.18.0</version>
+          <version>5.19.0</version>
           <type>jar</type>
         </dependency>
         <dependency>
