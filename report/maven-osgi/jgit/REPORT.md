@@ -1,6 +1,9 @@
 # Target Platform: [jgit](https://raw.githubusercontent.com/eclipse-jgit/jgit/master/org.eclipse.jgit.packaging/org.eclipse.jgit.target/maven/dependencies.tpd)
 
 ## Minor Updates
+ - [net.bytebuddy](https://repo.maven.apache.org/maven2/net/bytebuddy/)
+    - [byte-buddy](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/) **[1.17.6](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.17.6)** < [1.17.7](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.17.7/)
+    - [byte-buddy-agent](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/) **[1.17.6](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.17.6)** < [1.17.7](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.17.7/)
  - [org.assertj](https://repo.maven.apache.org/maven2/org/assertj/)
     - [assertj-core](https://repo.maven.apache.org/maven2/org/assertj/assertj-core/) **[3.27.3](https://repo.maven.apache.org/maven2/org/assertj/assertj-core/3.27.3)** < [3.27.4](https://repo.maven.apache.org/maven2/org/assertj/assertj-core/3.27.4/)
  - [org.eclipse.jetty](https://repo.maven.apache.org/maven2/org/eclipse/jetty/)
