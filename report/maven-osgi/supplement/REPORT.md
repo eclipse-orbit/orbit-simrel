@@ -3,6 +3,9 @@
 ## Major Updates
  - [com.fasterxml.woodstox](https://repo.maven.apache.org/maven2/com/fasterxml/woodstox/)
     - [woodstox-core](https://repo.maven.apache.org/maven2/com/fasterxml/woodstox/woodstox-core/) **[6.7.0](https://repo.maven.apache.org/maven2/com/fasterxml/woodstox/woodstox-core/6.7.0)** < [7.1.1](https://repo.maven.apache.org/maven2/com/fasterxml/woodstox/woodstox-core/7.1.1/)
+ - [com.github.librepdf](https://repo.maven.apache.org/maven2/com/github/librepdf/)
+    - [openpdf](https://repo.maven.apache.org/maven2/com/github/librepdf/openpdf/) **[1.4.2](https://repo.maven.apache.org/maven2/com/github/librepdf/openpdf/1.4.2)** < [3.0.0](https://repo.maven.apache.org/maven2/com/github/librepdf/openpdf/3.0.0/)
+    - [openpdf](https://repo.maven.apache.org/maven2/com/github/librepdf/openpdf/) **[2.4.0](https://repo.maven.apache.org/maven2/com/github/librepdf/openpdf/2.4.0)** < [3.0.0](https://repo.maven.apache.org/maven2/com/github/librepdf/openpdf/3.0.0/)
  - [com.sun.xml.bind](https://repo.maven.apache.org/maven2/com/sun/xml/bind/)
     - [jaxb-osgi](https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-osgi/) **[2.3.9](https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-osgi/2.3.9)** < [4.0.5](https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-osgi/4.0.5/)
  - [jakarta.ejb](https://repo.maven.apache.org/maven2/jakarta/ejb/)
@@ -83,7 +86,7 @@
     - [openpdf](https://repo.maven.apache.org/maven2/com/github/librepdf/openpdf/) **[1.4.2](https://repo.maven.apache.org/maven2/com/github/librepdf/openpdf/1.4.2)**
     - [openpdf](https://repo.maven.apache.org/maven2/com/github/librepdf/openpdf/) **[2.4.0](https://repo.maven.apache.org/maven2/com/github/librepdf/openpdf/2.4.0)**
  - [com.github.oshi](https://repo.maven.apache.org/maven2/com/github/oshi/)
-    - [oshi-core](https://repo.maven.apache.org/maven2/com/github/oshi/oshi-core/) **[6.8.2](https://repo.maven.apache.org/maven2/com/github/oshi/oshi-core/6.8.2)**
+    - [oshi-core](https://repo.maven.apache.org/maven2/com/github/oshi/oshi-core/) **[6.8.3](https://repo.maven.apache.org/maven2/com/github/oshi/oshi-core/6.8.3)**
  - [com.glazedlists](https://repo.maven.apache.org/maven2/com/glazedlists/)
     - [glazedlists](https://repo.maven.apache.org/maven2/com/glazedlists/glazedlists/) **[1.11.0](https://repo.maven.apache.org/maven2/com/glazedlists/glazedlists/1.11.0)**
  - [com.google.errorprone](https://repo.maven.apache.org/maven2/com/google/errorprone/)

@@ -3,6 +3,9 @@
 ## Major Updates
  - [com.fasterxml.woodstox](https://repo.maven.apache.org/maven2/com/fasterxml/woodstox/)
     - [woodstox-core](https://repo.maven.apache.org/maven2/com/fasterxml/woodstox/woodstox-core/) **[6.7.0](https://repo.maven.apache.org/maven2/com/fasterxml/woodstox/woodstox-core/6.7.0)** < [7.1.1](https://repo.maven.apache.org/maven2/com/fasterxml/woodstox/woodstox-core/7.1.1/)
+ - [com.github.librepdf](https://repo.maven.apache.org/maven2/com/github/librepdf/)
+    - [openpdf](https://repo.maven.apache.org/maven2/com/github/librepdf/openpdf/) **[1.4.2](https://repo.maven.apache.org/maven2/com/github/librepdf/openpdf/1.4.2)** < [3.0.0](https://repo.maven.apache.org/maven2/com/github/librepdf/openpdf/3.0.0/)
+    - [openpdf](https://repo.maven.apache.org/maven2/com/github/librepdf/openpdf/) **[2.4.0](https://repo.maven.apache.org/maven2/com/github/librepdf/openpdf/2.4.0)** < [3.0.0](https://repo.maven.apache.org/maven2/com/github/librepdf/openpdf/3.0.0/)
  - [com.github.weisj](https://repo.maven.apache.org/maven2/com/github/weisj/)
     - [jsvg](https://repo.maven.apache.org/maven2/com/github/weisj/jsvg/) **[1.7.2](https://repo.maven.apache.org/maven2/com/github/weisj/jsvg/1.7.2)** < [2.0.0](https://repo.maven.apache.org/maven2/com/github/weisj/jsvg/2.0.0/)
  - [jakarta.ejb](https://repo.maven.apache.org/maven2/jakarta/ejb/)
@@ -96,7 +99,7 @@
     - [openpdf](https://repo.maven.apache.org/maven2/com/github/librepdf/openpdf/) **[1.4.2](https://repo.maven.apache.org/maven2/com/github/librepdf/openpdf/1.4.2)**
     - [openpdf](https://repo.maven.apache.org/maven2/com/github/librepdf/openpdf/) **[2.4.0](https://repo.maven.apache.org/maven2/com/github/librepdf/openpdf/2.4.0)**
  - [com.github.oshi](https://repo.maven.apache.org/maven2/com/github/oshi/)
-    - [oshi-core](https://repo.maven.apache.org/maven2/com/github/oshi/oshi-core/) **[6.8.2](https://repo.maven.apache.org/maven2/com/github/oshi/oshi-core/6.8.2)**
+    - [oshi-core](https://repo.maven.apache.org/maven2/com/github/oshi/oshi-core/) **[6.8.3](https://repo.maven.apache.org/maven2/com/github/oshi/oshi-core/6.8.3)**
  - [com.github.weisj](https://repo.maven.apache.org/maven2/com/github/weisj/)
     - [jsvg](https://repo.maven.apache.org/maven2/com/github/weisj/jsvg/) **[1.7.2](https://repo.maven.apache.org/maven2/com/github/weisj/jsvg/1.7.2)**
  - [com.glazedlists](https://repo.maven.apache.org/maven2/com/glazedlists/)
