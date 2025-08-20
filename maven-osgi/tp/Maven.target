@@ -16,7 +16,7 @@ https://www.eclipse.org/legal/epl-2.0/
 SPDX-License-Identifier: EPL-2.0
         </copyright>
         <license url="https://www.eclipse.org/legal/epl-2.0/"/>
-i        <!-- SHA1 4837410b456797edf05113f05f55c0cc3f523362 -->
+        <!-- SHA1 4837410b456797edf05113f05f55c0cc3f523362 -->
       </feature>
       <dependencies>
         <dependency>
