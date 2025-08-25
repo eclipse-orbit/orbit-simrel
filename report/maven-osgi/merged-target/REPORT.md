@@ -268,8 +268,8 @@
     - [log4j-slf4j2-impl](https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-slf4j2-impl/) **[2.25.1](https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-slf4j2-impl/2.25.1)**
     - [log4j-to-slf4j](https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-to-slf4j/) **[2.25.1](https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-to-slf4j/2.25.1)**
  - [org.apache.sshd](https://repo.maven.apache.org/maven2/org/apache/sshd/)
-    - [sshd-osgi](https://repo.maven.apache.org/maven2/org/apache/sshd/sshd-osgi/) **[2.15.0](https://repo.maven.apache.org/maven2/org/apache/sshd/sshd-osgi/2.15.0)**
-    - [sshd-sftp](https://repo.maven.apache.org/maven2/org/apache/sshd/sshd-sftp/) **[2.15.0](https://repo.maven.apache.org/maven2/org/apache/sshd/sshd-sftp/2.15.0)**
+    - [sshd-osgi](https://repo.maven.apache.org/maven2/org/apache/sshd/sshd-osgi/) **[2.16.0](https://repo.maven.apache.org/maven2/org/apache/sshd/sshd-osgi/2.16.0)**
+    - [sshd-sftp](https://repo.maven.apache.org/maven2/org/apache/sshd/sshd-sftp/) **[2.16.0](https://repo.maven.apache.org/maven2/org/apache/sshd/sshd-sftp/2.16.0)**
  - [org.apache.tika](https://repo.maven.apache.org/maven2/org/apache/tika/)
     - [tika-core](https://repo.maven.apache.org/maven2/org/apache/tika/tika-core/) **[2.9.4](https://repo.maven.apache.org/maven2/org/apache/tika/tika-core/2.9.4)**
  - [org.apache.velocity](https://repo.maven.apache.org/maven2/org/apache/velocity/)
@@ -365,7 +365,7 @@
  - [org.json](https://repo.maven.apache.org/maven2/org/json/)
     - [json](https://repo.maven.apache.org/maven2/org/json/json/) **[20230227](https://repo.maven.apache.org/maven2/org/json/json/20230227)**
  - [org.jsoup](https://repo.maven.apache.org/maven2/org/jsoup/)
-    - [jsoup](https://repo.maven.apache.org/maven2/org/jsoup/jsoup/) **[1.21.1](https://repo.maven.apache.org/maven2/org/jsoup/jsoup/1.21.1)**
+    - [jsoup](https://repo.maven.apache.org/maven2/org/jsoup/jsoup/) **[1.21.2](https://repo.maven.apache.org/maven2/org/jsoup/jsoup/1.21.2)**
  - [org.junit.jupiter](https://repo.maven.apache.org/maven2/org/junit/jupiter/)
     - [junit-jupiter-api](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/) **[5.13.4](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.13.4)**
     - [junit-jupiter-engine](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/) **[5.13.4](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.13.4)**
