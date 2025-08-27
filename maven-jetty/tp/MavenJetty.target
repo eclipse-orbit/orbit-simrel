@@ -361,6 +361,144 @@ SPDX-License-Identifier: EPL-2.0
           <type>jar</type>
         </dependency>
         <dependency>
+          <groupId>org.eclipse.jetty.ee11</groupId>
+          <artifactId>jetty-ee11-annotations</artifactId>
+          <version>12.1.0</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>org.eclipse.jetty.ee11</groupId>
+          <artifactId>jetty-ee11-apache-jsp</artifactId>
+          <version>12.1.0</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>org.eclipse.jetty.ee11</groupId>
+          <artifactId>jetty-ee11-cdi</artifactId>
+          <version>12.1.0</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>org.eclipse.jetty.ee11</groupId>
+          <artifactId>jetty-ee11-fcgi-proxy</artifactId>
+          <version>12.1.0</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>org.eclipse.jetty.ee11</groupId>
+          <artifactId>jetty-ee11-glassfish-jstl</artifactId>
+          <version>12.1.0</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>org.eclipse.jetty.ee11</groupId>
+          <artifactId>jetty-ee11-jaspi</artifactId>
+          <version>12.1.0</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>org.eclipse.jetty.ee11</groupId>
+          <artifactId>jetty-ee11-jndi</artifactId>
+          <version>12.1.0</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>org.eclipse.jetty.ee11</groupId>
+          <artifactId>jetty-ee11-plus</artifactId>
+          <version>12.1.0</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>org.eclipse.jetty.ee11</groupId>
+          <artifactId>jetty-ee11-proxy</artifactId>
+          <version>12.1.0</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>org.eclipse.jetty.ee11</groupId>
+          <artifactId>jetty-ee11-quickstart</artifactId>
+          <version>12.1.0</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>org.eclipse.jetty.ee11</groupId>
+          <artifactId>jetty-ee11-servlet</artifactId>
+          <version>12.1.0</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>org.eclipse.jetty.ee11</groupId>
+          <artifactId>jetty-ee11-servlets</artifactId>
+          <version>12.1.0</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>org.eclipse.jetty.ee11</groupId>
+          <artifactId>jetty-ee11-webapp</artifactId>
+          <version>12.1.0</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>org.eclipse.jetty.ee11.osgi</groupId>
+          <artifactId>jetty-ee11-osgi-alpn</artifactId>
+          <version>12.1.0</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>org.eclipse.jetty.ee11.osgi</groupId>
+          <artifactId>jetty-ee11-osgi-boot</artifactId>
+          <version>12.1.0</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>org.eclipse.jetty.ee11.osgi</groupId>
+          <artifactId>jetty-ee11-osgi-boot-jsp</artifactId>
+          <version>12.1.0</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>org.eclipse.jetty.ee11.websocket</groupId>
+          <artifactId>jetty-ee11-websocket-jakarta-client</artifactId>
+          <version>12.1.0</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>org.eclipse.jetty.ee11.websocket</groupId>
+          <artifactId>jetty-ee11-websocket-jakarta-client-webapp</artifactId>
+          <version>12.1.0</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>org.eclipse.jetty.ee11.websocket</groupId>
+          <artifactId>jetty-ee11-websocket-jakarta-common</artifactId>
+          <version>12.1.0</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>org.eclipse.jetty.ee11.websocket</groupId>
+          <artifactId>jetty-ee11-websocket-jakarta-server</artifactId>
+          <version>12.1.0</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>org.eclipse.jetty.ee11.websocket</groupId>
+          <artifactId>jetty-ee11-websocket-jetty-client-webapp</artifactId>
+          <version>12.1.0</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>org.eclipse.jetty.ee11.websocket</groupId>
+          <artifactId>jetty-ee11-websocket-jetty-server</artifactId>
+          <version>12.1.0</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>org.eclipse.jetty.ee11.websocket</groupId>
+          <artifactId>jetty-ee11-websocket-servlet</artifactId>
+          <version>12.1.0</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
           <groupId>org.eclipse.jetty.ee8</groupId>
           <artifactId>jetty-ee8-annotations</artifactId>
           <version>12.1.0</version>
@@ -868,6 +1006,12 @@ SPDX-License-Identifier: EPL-2.0
           <type>jar</type>
         </dependency>
         <dependency>
+          <groupId>jakarta.annotation</groupId>
+          <artifactId>jakarta.annotation-api</artifactId>
+          <version>3.0.0</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
           <groupId>jakarta.authentication</groupId>
           <artifactId>jakarta.authentication-api</artifactId>
           <version>2.0.0</version>
@@ -895,6 +1039,12 @@ SPDX-License-Identifier: EPL-2.0
           <groupId>jakarta.el</groupId>
           <artifactId>jakarta.el-api</artifactId>
           <version>5.0.1</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>jakarta.el</groupId>
+          <artifactId>jakarta.el-api</artifactId>
+          <version>6.0.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -973,6 +1123,12 @@ SPDX-License-Identifier: EPL-2.0
           <groupId>jakarta.servlet.jsp</groupId>
           <artifactId>jakarta.servlet.jsp-api</artifactId>
           <version>3.1.1</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>jakarta.servlet.jsp</groupId>
+          <artifactId>jakarta.servlet.jsp-api</artifactId>
+          <version>4.0.0</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -1074,25 +1230,37 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>org.mortbay.jasper</groupId>
           <artifactId>apache-el</artifactId>
-          <version>9.0.107</version>
+          <version>9.0.108</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.mortbay.jasper</groupId>
           <artifactId>apache-el</artifactId>
-          <version>10.1.43</version>
+          <version>11.0.10</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>org.mortbay.jasper</groupId>
+          <artifactId>apache-el</artifactId>
+          <version>10.1.44</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.mortbay.jasper</groupId>
           <artifactId>apache-jsp</artifactId>
-          <version>9.0.107</version>
+          <version>9.0.108</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.mortbay.jasper</groupId>
           <artifactId>apache-jsp</artifactId>
-          <version>10.1.43</version>
+          <version>10.1.44</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>org.mortbay.jasper</groupId>
+          <artifactId>apache-jsp</artifactId>
+          <version>11.0.10</version>
           <type>jar</type>
         </dependency>
         <dependency>
