@@ -3,7 +3,7 @@
 <target name="Maven" sequenceNumber="1">
   <locations>
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="error" type="Maven">
-      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.37.0.v20250825-1000">
+      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.38.0">
         <description>This feature's dependencies are pulled directly from Maven central.</description>
         <copyright>
 Copyright (c) 2025 Eclipse contributors and others.
@@ -16,7 +16,7 @@ https://www.eclipse.org/legal/epl-2.0/
 SPDX-License-Identifier: EPL-2.0
         </copyright>
         <license url="https://www.eclipse.org/legal/epl-2.0/"/>
-        <!-- SHA1 65de81f7db641476d0bc8842552df8a4e99eb272 -->
+        <!-- SHA1 50b08a82eccd8ad4a5136d6ae86ef6a5abd04125 -->
       </feature>
       <dependencies>
         <dependency>
@@ -525,6 +525,12 @@ SPDX-License-Identifier: EPL-2.0
           <type>jar</type>
         </dependency>
         <dependency>
+          <groupId>jakarta.el</groupId>
+          <artifactId>jakarta.el-api</artifactId>
+          <version>6.0.1</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
           <groupId>jakarta.enterprise</groupId>
           <artifactId>jakarta.enterprise.cdi-api</artifactId>
           <version>2.0.2</version>
@@ -612,6 +618,12 @@ SPDX-License-Identifier: EPL-2.0
           <groupId>jakarta.servlet.jsp</groupId>
           <artifactId>jakarta.servlet.jsp-api</artifactId>
           <version>3.1.1</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>jakarta.servlet.jsp</groupId>
+          <artifactId>jakarta.servlet.jsp-api</artifactId>
+          <version>4.0.0</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -1415,25 +1427,37 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>org.mortbay.jasper</groupId>
           <artifactId>apache-el</artifactId>
-          <version>9.0.107</version>
+          <version>9.0.108</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.mortbay.jasper</groupId>
           <artifactId>apache-el</artifactId>
-          <version>10.1.43</version>
+          <version>10.1.44</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>org.mortbay.jasper</groupId>
+          <artifactId>apache-el</artifactId>
+          <version>11.0.10</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.mortbay.jasper</groupId>
           <artifactId>apache-jsp</artifactId>
-          <version>9.0.107</version>
+          <version>9.0.108</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.mortbay.jasper</groupId>
           <artifactId>apache-jsp</artifactId>
-          <version>10.1.43</version>
+          <version>10.1.44</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>org.mortbay.jasper</groupId>
+          <artifactId>apache-jsp</artifactId>
+          <version>11.0.10</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -1886,7 +1910,7 @@ SPDX-License-Identifier: EPL-2.0
 
 <!--
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
-      <feature id="org.eclipse.orbit.maven.osgi.exclude" label="Orbit Maven OSGi (excluded because they are only for resolution validation)" provider-name="Eclipse Orbit" version="4.37.0">
+      <feature id="org.eclipse.orbit.maven.osgi.exclude" label="Orbit Maven OSGi (excluded because they are only for resolution validation)" provider-name="Eclipse Orbit" version="4.38.0">
         <description>This feature's dependencies are pulled directly from Maven central.</description>
         <copyright>
 Copyright (c) 2025 Eclipse contributors and others.

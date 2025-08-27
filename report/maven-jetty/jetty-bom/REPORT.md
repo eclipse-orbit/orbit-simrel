@@ -7,6 +7,9 @@
  - [org.eclipse.jetty.ee10](https://repo.maven.apache.org/maven2/org/eclipse/jetty/ee10/)
     - [jetty-ee10-bom](https://repo.maven.apache.org/maven2/org/eclipse/jetty/ee10/jetty-ee10-bom/) **[12.1.0](https://repo.maven.apache.org/maven2/org/eclipse/jetty/ee10/jetty-ee10-bom/12.1.0)**
     - [jetty-ee10-webapp](https://repo.maven.apache.org/maven2/org/eclipse/jetty/ee10/jetty-ee10-webapp/) **[12.1.0](https://repo.maven.apache.org/maven2/org/eclipse/jetty/ee10/jetty-ee10-webapp/12.1.0)**
+ - [org.eclipse.jetty.ee11](https://repo.maven.apache.org/maven2/org/eclipse/jetty/ee11/)
+    - [jetty-ee11-bom](https://repo.maven.apache.org/maven2/org/eclipse/jetty/ee11/jetty-ee11-bom/) **[12.1.0](https://repo.maven.apache.org/maven2/org/eclipse/jetty/ee11/jetty-ee11-bom/12.1.0)**
+    - [jetty-ee11-webapp](https://repo.maven.apache.org/maven2/org/eclipse/jetty/ee11/jetty-ee11-webapp/) **[12.1.0](https://repo.maven.apache.org/maven2/org/eclipse/jetty/ee11/jetty-ee11-webapp/12.1.0)**
  - [org.eclipse.jetty.ee8](https://repo.maven.apache.org/maven2/org/eclipse/jetty/ee8/)
     - [jetty-ee8-bom](https://repo.maven.apache.org/maven2/org/eclipse/jetty/ee8/jetty-ee8-bom/) **[12.1.0](https://repo.maven.apache.org/maven2/org/eclipse/jetty/ee8/jetty-ee8-bom/12.1.0)**
  - [org.eclipse.jetty.ee8.osgi](https://repo.maven.apache.org/maven2/org/eclipse/jetty/ee8/osgi/)
