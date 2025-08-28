@@ -2098,16 +2098,15 @@ SPDX-License-Identifier: EPL-2.0
         </dependency>
       </dependencies>
       <instructions>
-<!-- SHA1 cff3c7257df78ea5db7d64d6274c2d4306e092a0 -->
+<!-- SHA1 c736c7502d3f15225620b9d32b0decd3b5f3fbb8 -->
 <![CDATA[
 Bundle-Name:            Bundle ${mvnGroupId} : ${mvnArtifactId}
 version:                ${versionmask;===;${version_cleanup;${mvnVersion}}}
 Bundle-SymbolicName:    ${mvnGroupId}
-Bundle-Version:         ${version}.v20250630-1400
+Bundle-Version:         ${version}.v20250828-1500
 Automatic-Module-Name:  ${mvnGroupId}
 Eclipse-Wrapped-Bundle: ${mvnGroupId}:${mvnArtifactId}:${mvnVersion}
 Import-Package:         com.sun.msv*|javax.swing*|org.gjt.xpp*|org.jaxen*|org.relaxng*|org.xmlpull*;version=!;resolution:=optional,\
-                        javax.xml.bind,\
                         javax.xml*;version=!,\
                         *
 Export-Package:         *;version="${version}"
