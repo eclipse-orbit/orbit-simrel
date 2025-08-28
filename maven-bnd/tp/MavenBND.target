@@ -2107,8 +2107,7 @@ Bundle-Version:         ${version}.v20250630-1400
 Automatic-Module-Name:  ${mvnGroupId}
 Eclipse-Wrapped-Bundle: ${mvnGroupId}:${mvnArtifactId}:${mvnVersion}
 Import-Package:         com.sun.msv*|javax.swing*|org.gjt.xpp*|org.jaxen*|org.relaxng*|org.xmlpull*;version=!;resolution:=optional,\
-                        javax.xml.bind,\
-                        javax.xml*;version=!,\
+                        jakarta.xml.bind
                         *
 Export-Package:         *;version="${version}"
 -noextraheaders:        true
