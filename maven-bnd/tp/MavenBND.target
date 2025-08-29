@@ -977,24 +977,24 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>org.apache.httpcomponents.core5</groupId>
           <artifactId>httpcore5</artifactId>
-          <version>5.3.4</version>
+          <version>5.3.5</version>
           <type>jar</type>
         </dependency>
 
         <dependency>
           <groupId>org.apache.httpcomponents.core5</groupId>
           <artifactId>httpcore5-h2</artifactId>
-          <version>5.3.4</version>
+          <version>5.3.5</version>
           <type>jar</type>
         </dependency>
       </dependencies>
       <instructions>
-<!-- SHA1 fd2aa5651bc5aa75528ef01262b7a2d8161545ab -->
+<!-- SHA1 aae545b6bb8e0c3fda465f54769fa7fbb925735f -->
 <![CDATA[
 Bundle-Name:            Bundle ${mvnGroupId} : ${mvnArtifactId}
 version:                ${versionmask;===;${version_cleanup;${mvnVersion}}}
 Bundle-SymbolicName:    ${mvnGroupId}.${mvnArtifactId}
-Bundle-Version:         ${version}.v20250320-1400
+Bundle-Version:         ${version}.v20250829-1600
 Eclipse-Wrapped-Bundle: ${mvnGroupId}:${mvnArtifactId}:${mvnVersion}
 Import-Package:         org.conscrypt;resolution:=optional,\
                         *
