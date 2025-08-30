@@ -116,6 +116,7 @@ BASELINE=${params.BASELINE}
                   -Ddash.fail=$DASH_STRICT \
                   -Dtycho.target.eager=true \
                   -Ddash.iplab.token=$GITLAB_API_TOKEN \
+                  -Dosgi.platform=gtk.linux.x86_64 \
                   -Dorg.eclipse.justj.p2.manager.extra.args="$extra_arguments" \
                   clean \
                   verify
