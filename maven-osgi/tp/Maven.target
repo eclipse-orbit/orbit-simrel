@@ -16,7 +16,7 @@ https://www.eclipse.org/legal/epl-2.0/
 SPDX-License-Identifier: EPL-2.0
         </copyright>
         <license url="https://www.eclipse.org/legal/epl-2.0/"/>
-        <!-- SHA1 0f62aa32ef32a905837f8f3da11d8e6809f3e8b0 -->
+        <!-- SHA1 8a078727bd9c56e88ddd78d0c3d7da927e99a4e5 -->
       </feature>
       <dependencies>
         <dependency>
@@ -1859,7 +1859,7 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>org.yaml</groupId>
           <artifactId>snakeyaml</artifactId>
-          <version>2.4</version>
+          <version>2.5</version>
           <type>jar</type>
         </dependency>
       </dependencies>
