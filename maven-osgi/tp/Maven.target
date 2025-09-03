@@ -16,7 +16,7 @@ https://www.eclipse.org/legal/epl-2.0/
 SPDX-License-Identifier: EPL-2.0
         </copyright>
         <license url="https://www.eclipse.org/legal/epl-2.0/"/>
-        <!-- SHA1 5e852aa5defa9e2e159289c962509da3798e0ba0 -->
+        <!-- SHA1 bd62c30a18d16f4fda33da8214308f69ebcdb3d7 -->
       </feature>
       <dependencies>
         <dependency>
@@ -1426,37 +1426,37 @@ SPDX-License-Identifier: EPL-2.0
         </dependency>
         <dependency>
           <groupId>org.mortbay.jasper</groupId>
-          <artifactId>apache-el</artifactId>
+          <artifactId>mortbay-apache-el</artifactId>
           <version>9.0.108.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.mortbay.jasper</groupId>
-          <artifactId>apache-el</artifactId>
+          <artifactId>mortbay-apache-el</artifactId>
           <version>10.1.44.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.mortbay.jasper</groupId>
-          <artifactId>apache-el</artifactId>
+          <artifactId>mortbay-apache-el</artifactId>
           <version>11.0.10.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.mortbay.jasper</groupId>
-          <artifactId>apache-jsp</artifactId>
+          <artifactId>mortbay-apache-jsp</artifactId>
           <version>9.0.108.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.mortbay.jasper</groupId>
-          <artifactId>apache-jsp</artifactId>
+          <artifactId>mortbay-apache-jsp</artifactId>
           <version>10.1.44.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.mortbay.jasper</groupId>
-          <artifactId>apache-jsp</artifactId>
+          <artifactId>mortbay-apache-jsp</artifactId>
           <version>11.0.10.1</version>
           <type>jar</type>
         </dependency>
