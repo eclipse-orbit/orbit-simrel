@@ -859,7 +859,7 @@ SPDX-License-Identifier: EPL-2.0
           <artifactId>httpasyncclient-osgi</artifactId>
           <version>4.1.5</version>
           <type>jar</type>
-        </dependency>b
+        </dependency>
         <dependency>
           <groupId>org.apache.httpcomponents</groupId>
           <artifactId>httpclient-osgi</artifactId>
