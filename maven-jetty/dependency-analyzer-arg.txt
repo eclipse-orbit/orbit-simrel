@@ -13,7 +13,7 @@ jetty-bom=https://raw.githubusercontent.com/eclipse-orbit/orbit-simrel/main/mave
 //
 -exclude
 org.eclipse.jetty(.ee[^:]*|.quic|.demos)?:(jetty-http-tools|jetty-ee[0-9]+-runner|jetty-quic-quiche-foreign(-incubator)?|jetty-demo-handler|.*-bom|.*-maven-plugin):.* // Ignore Jetty artifacts that are not bundles
-org.eclipse.jetty.http3:.*:12.1.0 // Ignore these because they have strange dependency problems.
+org.eclipse.jetty.compression:(jetty-compression-brotli|jetty-compression-zstandard):.* // Ignore these because they drag too many new dependencies
 
 
 // There are dependencies for which we want to update to major versions automatically because these provides mostly only increment to major versions.
