@@ -31,7 +31,7 @@
     - [slf4j-api](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/) **[2.0.16](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/2.0.16)** < [2.0.17](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/2.0.17/)
     - [slf4j-simple](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-simple/) **[2.0.16](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-simple/2.0.16)** < [2.0.17](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-simple/2.0.17/)
  - [org.yaml](https://repo.maven.apache.org/maven2/org/yaml/)
-    - [snakeyaml](https://repo.maven.apache.org/maven2/org/yaml/snakeyaml/) **[2.2](https://repo.maven.apache.org/maven2/org/yaml/snakeyaml/2.2)** < [2.4](https://repo.maven.apache.org/maven2/org/yaml/snakeyaml/2.4/)
+    - [snakeyaml](https://repo.maven.apache.org/maven2/org/yaml/snakeyaml/) **[2.2](https://repo.maven.apache.org/maven2/org/yaml/snakeyaml/2.2)** < [2.5](https://repo.maven.apache.org/maven2/org/yaml/snakeyaml/2.5/)
 
 ## Major Updates
  - [jakarta.activation](https://repo.maven.apache.org/maven2/jakarta/activation/)

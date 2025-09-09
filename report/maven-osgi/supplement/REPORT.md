@@ -10,17 +10,12 @@
     - [jaxb-osgi](https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-osgi/) **[2.3.9](https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-osgi/2.3.9)** < [4.0.5](https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-osgi/4.0.5/)
  - [jakarta.ejb](https://repo.maven.apache.org/maven2/jakarta/ejb/)
     - [jakarta.ejb-api](https://repo.maven.apache.org/maven2/jakarta/ejb/jakarta.ejb-api/) **[3.2.6](https://repo.maven.apache.org/maven2/jakarta/ejb/jakarta.ejb-api/3.2.6)** < [4.0.1](https://repo.maven.apache.org/maven2/jakarta/ejb/jakarta.ejb-api/4.0.1/)
- - [jakarta.el](https://repo.maven.apache.org/maven2/jakarta/el/)
-    - [jakarta.el-api](https://repo.maven.apache.org/maven2/jakarta/el/jakarta.el-api/) **[4.0.0](https://repo.maven.apache.org/maven2/jakarta/el/jakarta.el-api/4.0.0)** < [6.0.1](https://repo.maven.apache.org/maven2/jakarta/el/jakarta.el-api/6.0.1/)
-    - [jakarta.el-api](https://repo.maven.apache.org/maven2/jakarta/el/jakarta.el-api/) **[5.0.1](https://repo.maven.apache.org/maven2/jakarta/el/jakarta.el-api/5.0.1)** < [6.0.1](https://repo.maven.apache.org/maven2/jakarta/el/jakarta.el-api/6.0.1/)
  - [jakarta.jws](https://repo.maven.apache.org/maven2/jakarta/jws/)
     - [jakarta.jws-api](https://repo.maven.apache.org/maven2/jakarta/jws/jakarta.jws-api/) **[2.1.0](https://repo.maven.apache.org/maven2/jakarta/jws/jakarta.jws-api/2.1.0)** < [3.0.0](https://repo.maven.apache.org/maven2/jakarta/jws/jakarta.jws-api/3.0.0/)
  - [jakarta.mail](https://repo.maven.apache.org/maven2/jakarta/mail/)
-    - [jakarta.mail-api](https://repo.maven.apache.org/maven2/jakarta/mail/jakarta.mail-api/) **[1.6.8](https://repo.maven.apache.org/maven2/jakarta/mail/jakarta.mail-api/1.6.8)** < [2.1.3](https://repo.maven.apache.org/maven2/jakarta/mail/jakarta.mail-api/2.1.3/)
+    - [jakarta.mail-api](https://repo.maven.apache.org/maven2/jakarta/mail/jakarta.mail-api/) **[1.6.8](https://repo.maven.apache.org/maven2/jakarta/mail/jakarta.mail-api/1.6.8)** < [2.1.4](https://repo.maven.apache.org/maven2/jakarta/mail/jakarta.mail-api/2.1.4/)
  - [jakarta.persistence](https://repo.maven.apache.org/maven2/jakarta/persistence/)
     - [jakarta.persistence-api](https://repo.maven.apache.org/maven2/jakarta/persistence/jakarta.persistence-api/) **[2.2.3](https://repo.maven.apache.org/maven2/jakarta/persistence/jakarta.persistence-api/2.2.3)** < [3.2.0](https://repo.maven.apache.org/maven2/jakarta/persistence/jakarta.persistence-api/3.2.0/)
- - [jakarta.servlet.jsp](https://repo.maven.apache.org/maven2/jakarta/servlet/jsp/)
-    - [jakarta.servlet.jsp-api](https://repo.maven.apache.org/maven2/jakarta/servlet/jsp/jakarta.servlet.jsp-api/) **[3.1.1](https://repo.maven.apache.org/maven2/jakarta/servlet/jsp/jakarta.servlet.jsp-api/3.1.1)** < [4.0.0](https://repo.maven.apache.org/maven2/jakarta/servlet/jsp/jakarta.servlet.jsp-api/4.0.0/)
  - [jakarta.xml.soap](https://repo.maven.apache.org/maven2/jakarta/xml/soap/)
     - [jakarta.xml.soap-api](https://repo.maven.apache.org/maven2/jakarta/xml/soap/jakarta.xml.soap-api/) **[1.4.2](https://repo.maven.apache.org/maven2/jakarta/xml/soap/jakarta.xml.soap-api/1.4.2)** < [3.0.2](https://repo.maven.apache.org/maven2/jakarta/xml/soap/jakarta.xml.soap-api/3.0.2/)
  - [jakarta.xml.ws](https://repo.maven.apache.org/maven2/jakarta/xml/ws/)
@@ -51,11 +46,6 @@
     - [jersey-media-json-jackson](https://repo.maven.apache.org/maven2/org/glassfish/jersey/media/jersey-media-json-jackson/) **[2.47](https://repo.maven.apache.org/maven2/org/glassfish/jersey/media/jersey-media-json-jackson/2.47)** < [3.1.11](https://repo.maven.apache.org/maven2/org/glassfish/jersey/media/jersey-media-json-jackson/3.1.11/)
  - [org.mandas](https://repo.maven.apache.org/maven2/org/mandas/)
     - [docker-client](https://repo.maven.apache.org/maven2/org/mandas/docker-client/) **[8.0.3](https://repo.maven.apache.org/maven2/org/mandas/docker-client/8.0.3)** < [9.0.4](https://repo.maven.apache.org/maven2/org/mandas/docker-client/9.0.4/)
- - [org.mortbay.jasper](https://repo.maven.apache.org/maven2/org/mortbay/jasper/)
-    - [apache-el](https://repo.maven.apache.org/maven2/org/mortbay/jasper/apache-el/) **[9.0.107](https://repo.maven.apache.org/maven2/org/mortbay/jasper/apache-el/9.0.107)** < [11.0.9](https://repo.maven.apache.org/maven2/org/mortbay/jasper/apache-el/11.0.9/)
-    - [apache-el](https://repo.maven.apache.org/maven2/org/mortbay/jasper/apache-el/) **[10.1.43](https://repo.maven.apache.org/maven2/org/mortbay/jasper/apache-el/10.1.43)** < [11.0.9](https://repo.maven.apache.org/maven2/org/mortbay/jasper/apache-el/11.0.9/)
-    - [apache-jsp](https://repo.maven.apache.org/maven2/org/mortbay/jasper/apache-jsp/) **[9.0.107](https://repo.maven.apache.org/maven2/org/mortbay/jasper/apache-jsp/9.0.107)** < [11.0.9](https://repo.maven.apache.org/maven2/org/mortbay/jasper/apache-jsp/11.0.9/)
-    - [apache-jsp](https://repo.maven.apache.org/maven2/org/mortbay/jasper/apache-jsp/) **[10.1.43](https://repo.maven.apache.org/maven2/org/mortbay/jasper/apache-jsp/10.1.43)** < [11.0.9](https://repo.maven.apache.org/maven2/org/mortbay/jasper/apache-jsp/11.0.9/)
 
 ## Content
  - [ch.qos.logback](https://repo.maven.apache.org/maven2/ch/qos/logback/)
@@ -69,15 +59,15 @@
     - [xmlrpc-common](https://repo.maven.apache.org/maven2/com/evolvedbinary/thirdparty/org/apache/xmlrpc/xmlrpc-common/) **[5.0.0](https://repo.maven.apache.org/maven2/com/evolvedbinary/thirdparty/org/apache/xmlrpc/xmlrpc-common/5.0.0)**
     - [xmlrpc-server](https://repo.maven.apache.org/maven2/com/evolvedbinary/thirdparty/org/apache/xmlrpc/xmlrpc-server/) **[5.0.0](https://repo.maven.apache.org/maven2/com/evolvedbinary/thirdparty/org/apache/xmlrpc/xmlrpc-server/5.0.0)**
  - [com.fasterxml.jackson.core](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/)
-    - [jackson-annotations](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/) **[2.19.2](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.19.2)**
-    - [jackson-core](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/) **[2.19.2](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.19.2)**
-    - [jackson-databind](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/) **[2.19.2](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.19.2)**
+    - [jackson-annotations](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/) **[2.20](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.20)**
+    - [jackson-core](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/) **[2.20.0](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.20.0)**
+    - [jackson-databind](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/) **[2.20.0](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.20.0)**
  - [com.fasterxml.jackson.dataformat](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/)
-    - [jackson-dataformat-xml](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-xml/) **[2.19.2](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-xml/2.19.2)**
-    - [jackson-dataformat-yaml](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/) **[2.19.2](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.19.2)**
+    - [jackson-dataformat-xml](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-xml/) **[2.20.0](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-xml/2.20.0)**
+    - [jackson-dataformat-yaml](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/) **[2.20.0](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.20.0)**
  - [com.fasterxml.jackson.jaxrs](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jaxrs/)
-    - [jackson-jaxrs-base](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jaxrs/jackson-jaxrs-base/) **[2.19.2](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jaxrs/jackson-jaxrs-base/2.19.2)**
-    - [jackson-jaxrs-json-provider](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jaxrs/jackson-jaxrs-json-provider/) **[2.19.2](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jaxrs/jackson-jaxrs-json-provider/2.19.2)**
+    - [jackson-jaxrs-base](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jaxrs/jackson-jaxrs-base/) **[2.20.0](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jaxrs/jackson-jaxrs-base/2.20.0)**
+    - [jackson-jaxrs-json-provider](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jaxrs/jackson-jaxrs-json-provider/) **[2.20.0](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jaxrs/jackson-jaxrs-json-provider/2.20.0)**
  - [com.fasterxml.woodstox](https://repo.maven.apache.org/maven2/com/fasterxml/woodstox/)
     - [woodstox-core](https://repo.maven.apache.org/maven2/com/fasterxml/woodstox/woodstox-core/) **[6.7.0](https://repo.maven.apache.org/maven2/com/fasterxml/woodstox/woodstox-core/6.7.0)**
  - [com.github.ben-manes.caffeine](https://repo.maven.apache.org/maven2/com/github/ben-manes/caffeine/)
@@ -123,6 +113,8 @@
  - [jakarta.activation](https://repo.maven.apache.org/maven2/jakarta/activation/)
     - [jakarta.activation-api](https://repo.maven.apache.org/maven2/jakarta/activation/jakarta.activation-api/) **[1.2.2](https://repo.maven.apache.org/maven2/jakarta/activation/jakarta.activation-api/1.2.2)**
     - [jakarta.activation-api](https://repo.maven.apache.org/maven2/jakarta/activation/jakarta.activation-api/) **[2.1.3](https://repo.maven.apache.org/maven2/jakarta/activation/jakarta.activation-api/2.1.3)**
+ - [jakarta.annotation](https://repo.maven.apache.org/maven2/jakarta/annotation/)
+    - [jakarta.annotation-api](https://repo.maven.apache.org/maven2/jakarta/annotation/jakarta.annotation-api/) **[3.0.0](https://repo.maven.apache.org/maven2/jakarta/annotation/jakarta.annotation-api/3.0.0)**
  - [jakarta.authentication](https://repo.maven.apache.org/maven2/jakarta/authentication/)
     - [jakarta.authentication-api](https://repo.maven.apache.org/maven2/jakarta/authentication/jakarta.authentication-api/) **[2.0.0](https://repo.maven.apache.org/maven2/jakarta/authentication/jakarta.authentication-api/2.0.0)**
     - [jakarta.authentication-api](https://repo.maven.apache.org/maven2/jakarta/authentication/jakarta.authentication-api/) **[3.1.0](https://repo.maven.apache.org/maven2/jakarta/authentication/jakarta.authentication-api/3.1.0)**
@@ -131,6 +123,7 @@
  - [jakarta.el](https://repo.maven.apache.org/maven2/jakarta/el/)
     - [jakarta.el-api](https://repo.maven.apache.org/maven2/jakarta/el/jakarta.el-api/) **[4.0.0](https://repo.maven.apache.org/maven2/jakarta/el/jakarta.el-api/4.0.0)**
     - [jakarta.el-api](https://repo.maven.apache.org/maven2/jakarta/el/jakarta.el-api/) **[5.0.1](https://repo.maven.apache.org/maven2/jakarta/el/jakarta.el-api/5.0.1)**
+    - [jakarta.el-api](https://repo.maven.apache.org/maven2/jakarta/el/jakarta.el-api/) **[6.0.1](https://repo.maven.apache.org/maven2/jakarta/el/jakarta.el-api/6.0.1)**
  - [jakarta.enterprise](https://repo.maven.apache.org/maven2/jakarta/enterprise/)
     - [jakarta.enterprise.cdi-api](https://repo.maven.apache.org/maven2/jakarta/enterprise/jakarta.enterprise.cdi-api/) **[2.0.2](https://repo.maven.apache.org/maven2/jakarta/enterprise/jakarta.enterprise.cdi-api/2.0.2)**
     - [jakarta.enterprise.cdi-api](https://repo.maven.apache.org/maven2/jakarta/enterprise/jakarta.enterprise.cdi-api/) **[3.0.1](https://repo.maven.apache.org/maven2/jakarta/enterprise/jakarta.enterprise.cdi-api/3.0.1)**
@@ -153,6 +146,7 @@
     - [jakarta.servlet-api](https://repo.maven.apache.org/maven2/jakarta/servlet/jakarta.servlet-api/) **[6.1.0](https://repo.maven.apache.org/maven2/jakarta/servlet/jakarta.servlet-api/6.1.0)**
  - [jakarta.servlet.jsp](https://repo.maven.apache.org/maven2/jakarta/servlet/jsp/)
     - [jakarta.servlet.jsp-api](https://repo.maven.apache.org/maven2/jakarta/servlet/jsp/jakarta.servlet.jsp-api/) **[3.1.1](https://repo.maven.apache.org/maven2/jakarta/servlet/jsp/jakarta.servlet.jsp-api/3.1.1)**
+    - [jakarta.servlet.jsp-api](https://repo.maven.apache.org/maven2/jakarta/servlet/jsp/jakarta.servlet.jsp-api/) **[4.0.0](https://repo.maven.apache.org/maven2/jakarta/servlet/jsp/jakarta.servlet.jsp-api/4.0.0)**
  - [jakarta.transaction](https://repo.maven.apache.org/maven2/jakarta/transaction/)
     - [jakarta.transaction-api](https://repo.maven.apache.org/maven2/jakarta/transaction/jakarta.transaction-api/) **[1.3.3](https://repo.maven.apache.org/maven2/jakarta/transaction/jakarta.transaction-api/1.3.3)**
     - [jakarta.transaction-api](https://repo.maven.apache.org/maven2/jakarta/transaction/jakarta.transaction-api/) **[2.0.1](https://repo.maven.apache.org/maven2/jakarta/transaction/jakarta.transaction-api/2.0.1)**
@@ -265,10 +259,12 @@
  - [org.mongodb](https://repo.maven.apache.org/maven2/org/mongodb/)
     - [mongo-java-driver](https://repo.maven.apache.org/maven2/org/mongodb/mongo-java-driver/) **[3.12.14](https://repo.maven.apache.org/maven2/org/mongodb/mongo-java-driver/3.12.14)**
  - [org.mortbay.jasper](https://repo.maven.apache.org/maven2/org/mortbay/jasper/)
-    - [apache-el](https://repo.maven.apache.org/maven2/org/mortbay/jasper/apache-el/) **[9.0.107](https://repo.maven.apache.org/maven2/org/mortbay/jasper/apache-el/9.0.107)**
-    - [apache-el](https://repo.maven.apache.org/maven2/org/mortbay/jasper/apache-el/) **[10.1.43](https://repo.maven.apache.org/maven2/org/mortbay/jasper/apache-el/10.1.43)**
-    - [apache-jsp](https://repo.maven.apache.org/maven2/org/mortbay/jasper/apache-jsp/) **[9.0.107](https://repo.maven.apache.org/maven2/org/mortbay/jasper/apache-jsp/9.0.107)**
-    - [apache-jsp](https://repo.maven.apache.org/maven2/org/mortbay/jasper/apache-jsp/) **[10.1.43](https://repo.maven.apache.org/maven2/org/mortbay/jasper/apache-jsp/10.1.43)**
+    - [mortbay-apache-el](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-el/) **[9.0.108.1](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-el/9.0.108.1)**
+    - [mortbay-apache-el](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-el/) **[10.1.44.1](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-el/10.1.44.1)**
+    - [mortbay-apache-el](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-el/) **[11.0.10.1](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-el/11.0.10.1)**
+    - [mortbay-apache-jsp](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-jsp/) **[9.0.108.1](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-jsp/9.0.108.1)**
+    - [mortbay-apache-jsp](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-jsp/) **[10.1.44.1](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-jsp/10.1.44.1)**
+    - [mortbay-apache-jsp](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-jsp/) **[11.0.10.1](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-jsp/11.0.10.1)**
  - [org.osgi](https://repo.maven.apache.org/maven2/org/osgi/)
     - [org.osgi.dto](https://repo.maven.apache.org/maven2/org/osgi/org.osgi.dto/) **[1.1.1](https://repo.maven.apache.org/maven2/org/osgi/org.osgi.dto/1.1.1)**
     - [org.osgi.framework](https://repo.maven.apache.org/maven2/org/osgi/org.osgi.framework/) **[1.10.0](https://repo.maven.apache.org/maven2/org/osgi/org.osgi.framework/1.10.0)**

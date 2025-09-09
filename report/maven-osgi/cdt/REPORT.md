@@ -12,6 +12,8 @@
     - [junit-jupiter-engine](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/) **[5.12.2](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.12.2)** < [5.13.4](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.13.4/)
  - [org.mockito](https://repo.maven.apache.org/maven2/org/mockito/)
     - [mockito-core](https://repo.maven.apache.org/maven2/org/mockito/mockito-core/) **[5.18.0](https://repo.maven.apache.org/maven2/org/mockito/mockito-core/5.18.0)** < [5.19.0](https://repo.maven.apache.org/maven2/org/mockito/mockito-core/5.19.0/)
+ - [org.yaml](https://repo.maven.apache.org/maven2/org/yaml/)
+    - [snakeyaml](https://repo.maven.apache.org/maven2/org/yaml/snakeyaml/) **[2.4](https://repo.maven.apache.org/maven2/org/yaml/snakeyaml/2.4)** < [2.5](https://repo.maven.apache.org/maven2/org/yaml/snakeyaml/2.5/)
 
 ## Major Updates
  - [jakarta.activation](https://repo.maven.apache.org/maven2/jakarta/activation/)

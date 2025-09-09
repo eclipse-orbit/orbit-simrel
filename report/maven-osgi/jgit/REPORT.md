@@ -1,9 +1,16 @@
 # Target Platform: [jgit](https://raw.githubusercontent.com/eclipse-jgit/jgit/master/org.eclipse.jgit.packaging/org.eclipse.jgit.target/maven/dependencies.tpd)
 
 ## Minor Updates
- - [org.apache.sshd](https://repo.maven.apache.org/maven2/org/apache/sshd/)
-    - [sshd-osgi](https://repo.maven.apache.org/maven2/org/apache/sshd/sshd-osgi/) **[2.15.0](https://repo.maven.apache.org/maven2/org/apache/sshd/sshd-osgi/2.15.0)** < [2.16.0](https://repo.maven.apache.org/maven2/org/apache/sshd/sshd-osgi/2.16.0/)
-    - [sshd-sftp](https://repo.maven.apache.org/maven2/org/apache/sshd/sshd-sftp/) **[2.15.0](https://repo.maven.apache.org/maven2/org/apache/sshd/sshd-sftp/2.15.0)** < [2.16.0](https://repo.maven.apache.org/maven2/org/apache/sshd/sshd-sftp/2.16.0/)
+ - [org.eclipse.jetty](https://repo.maven.apache.org/maven2/org/eclipse/jetty/)
+    - [jetty-http](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-http/) **[12.1.0](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-http/12.1.0)** < [12.1.1](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-http/12.1.1/)
+    - [jetty-io](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-io/) **[12.1.0](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-io/12.1.0)** < [12.1.1](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-io/12.1.1/)
+    - [jetty-security](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-security/) **[12.1.0](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-security/12.1.0)** < [12.1.1](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-security/12.1.1/)
+    - [jetty-server](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-server/) **[12.1.0](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-server/12.1.0)** < [12.1.1](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-server/12.1.1/)
+    - [jetty-session](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-session/) **[12.1.0](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-session/12.1.0)** < [12.1.1](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-session/12.1.1/)
+    - [jetty-util](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util/) **[12.1.0](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util/12.1.0)** < [12.1.1](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util/12.1.1/)
+    - [jetty-util-ajax](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util-ajax/) **[12.1.0](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util-ajax/12.1.0)** < [12.1.1](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util-ajax/12.1.1/)
+ - [org.eclipse.jetty.ee10](https://repo.maven.apache.org/maven2/org/eclipse/jetty/ee10/)
+    - [jetty-ee10-servlet](https://repo.maven.apache.org/maven2/org/eclipse/jetty/ee10/jetty-ee10-servlet/) **[12.1.0](https://repo.maven.apache.org/maven2/org/eclipse/jetty/ee10/jetty-ee10-servlet/12.1.0)** < [12.1.1](https://repo.maven.apache.org/maven2/org/eclipse/jetty/ee10/jetty-ee10-servlet/12.1.1/)
 
 ## Major Updates
  - [org.hamcrest](https://repo.maven.apache.org/maven2/org/hamcrest/)
@@ -40,8 +47,8 @@
     - [commons-compress](https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/) **[1.28.0](https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.28.0)**
     - [commons-lang3](https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/) **[3.18.0](https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.18.0)**
  - [org.apache.sshd](https://repo.maven.apache.org/maven2/org/apache/sshd/)
-    - [sshd-osgi](https://repo.maven.apache.org/maven2/org/apache/sshd/sshd-osgi/) **[2.15.0](https://repo.maven.apache.org/maven2/org/apache/sshd/sshd-osgi/2.15.0)**
-    - [sshd-sftp](https://repo.maven.apache.org/maven2/org/apache/sshd/sshd-sftp/) **[2.15.0](https://repo.maven.apache.org/maven2/org/apache/sshd/sshd-sftp/2.15.0)**
+    - [sshd-osgi](https://repo.maven.apache.org/maven2/org/apache/sshd/sshd-osgi/) **[2.16.0](https://repo.maven.apache.org/maven2/org/apache/sshd/sshd-osgi/2.16.0)**
+    - [sshd-sftp](https://repo.maven.apache.org/maven2/org/apache/sshd/sshd-sftp/) **[2.16.0](https://repo.maven.apache.org/maven2/org/apache/sshd/sshd-sftp/2.16.0)**
  - [org.assertj](https://repo.maven.apache.org/maven2/org/assertj/)
     - [assertj-core](https://repo.maven.apache.org/maven2/org/assertj/assertj-core/) **[3.27.4](https://repo.maven.apache.org/maven2/org/assertj/assertj-core/3.27.4)**
  - [org.bouncycastle](https://repo.maven.apache.org/maven2/org/bouncycastle/)
