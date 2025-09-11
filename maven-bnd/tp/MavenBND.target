@@ -2815,7 +2815,7 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>com.google.code.gson</groupId>
           <artifactId>gson</artifactId>
-          <version>2.13.1</version>
+          <version>2.13.2</version>
           <type>jar</type>
         </dependency>
 
