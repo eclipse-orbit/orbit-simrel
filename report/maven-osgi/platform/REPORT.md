@@ -1,5 +1,10 @@
 # Target Platform: [platform](https://raw.githubusercontent.com/eclipse-platform/eclipse.platform.releng.aggregator/master/eclipse.platform.releng.prereqs.sdk/eclipse-sdk-prereqs.target)
 
+## Minor Updates
+ - [org.commonmark](https://repo.maven.apache.org/maven2/org/commonmark/)
+    - [commonmark](https://repo.maven.apache.org/maven2/org/commonmark/commonmark/) **[0.25.1](https://repo.maven.apache.org/maven2/org/commonmark/commonmark/0.25.1)** < [0.26.0](https://repo.maven.apache.org/maven2/org/commonmark/commonmark/0.26.0/)
+    - [commonmark-ext-gfm-tables](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-gfm-tables/) **[0.25.1](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-gfm-tables/0.25.1)** < [0.26.0](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-gfm-tables/0.26.0/)
+
 ## Major Updates
  - [com.github.weisj](https://repo.maven.apache.org/maven2/com/github/weisj/)
     - [jsvg](https://repo.maven.apache.org/maven2/com/github/weisj/jsvg/) **[1.7.2](https://repo.maven.apache.org/maven2/com/github/weisj/jsvg/1.7.2)** < [2.0.0](https://repo.maven.apache.org/maven2/com/github/weisj/jsvg/2.0.0/)
@@ -14,6 +19,9 @@
  - [org.mortbay.jasper](https://repo.maven.apache.org/maven2/org/mortbay/jasper/)
     - [mortbay-apache-el](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-el/) **[9.0.108.1](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-el/9.0.108.1)** < [11.0.10.1](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-el/11.0.10.1/)
     - [mortbay-apache-jsp](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-jsp/) **[9.0.108.1](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-jsp/9.0.108.1)** < [11.0.10.1](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-jsp/11.0.10.1/)
+
+## Updates Applied
+[updated.target](updated.target)
 
 ## Content
  - [biz.aQute.bnd](https://repo.maven.apache.org/maven2/biz/aQute/bnd/)
