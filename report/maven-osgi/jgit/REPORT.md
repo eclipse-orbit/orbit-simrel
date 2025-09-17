@@ -3,6 +3,11 @@
 ## Minor Updates
  - [com.google.code.gson](https://repo.maven.apache.org/maven2/com/google/code/gson/)
     - [gson](https://repo.maven.apache.org/maven2/com/google/code/gson/gson/) **[2.13.1](https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.13.1)** < [2.13.2](https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.13.2/)
+ - [org.bouncycastle](https://repo.maven.apache.org/maven2/org/bouncycastle/)
+    - [bcpg-jdk18on](https://repo.maven.apache.org/maven2/org/bouncycastle/bcpg-jdk18on/) **[1.81](https://repo.maven.apache.org/maven2/org/bouncycastle/bcpg-jdk18on/1.81)** < [1.82](https://repo.maven.apache.org/maven2/org/bouncycastle/bcpg-jdk18on/1.82/)
+    - [bcpkix-jdk18on](https://repo.maven.apache.org/maven2/org/bouncycastle/bcpkix-jdk18on/) **[1.81](https://repo.maven.apache.org/maven2/org/bouncycastle/bcpkix-jdk18on/1.81)** < [1.82](https://repo.maven.apache.org/maven2/org/bouncycastle/bcpkix-jdk18on/1.82/)
+    - [bcprov-jdk18on](https://repo.maven.apache.org/maven2/org/bouncycastle/bcprov-jdk18on/) **[1.81](https://repo.maven.apache.org/maven2/org/bouncycastle/bcprov-jdk18on/1.81)** < [1.82](https://repo.maven.apache.org/maven2/org/bouncycastle/bcprov-jdk18on/1.82/)
+    - [bcutil-jdk18on](https://repo.maven.apache.org/maven2/org/bouncycastle/bcutil-jdk18on/) **[1.81](https://repo.maven.apache.org/maven2/org/bouncycastle/bcutil-jdk18on/1.81)** < [1.82](https://repo.maven.apache.org/maven2/org/bouncycastle/bcutil-jdk18on/1.82/)
  - [org.eclipse.jetty](https://repo.maven.apache.org/maven2/org/eclipse/jetty/)
     - [jetty-http](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-http/) **[12.1.0](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-http/12.1.0)** < [12.1.1](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-http/12.1.1/)
     - [jetty-io](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-io/) **[12.1.0](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-io/12.1.0)** < [12.1.1](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-io/12.1.1/)
