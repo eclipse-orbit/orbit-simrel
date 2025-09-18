@@ -1,14 +1,5 @@
 # Target Platform: [windowbuilder](https://raw.githubusercontent.com/eclipse/windowbuilder/master/target-platform/mvn/wb-mvn.target)
 
-## Minor Updates
- - [jakarta.activation](https://repo.maven.apache.org/maven2/jakarta/activation/)
-    - [jakarta.activation-api](https://repo.maven.apache.org/maven2/jakarta/activation/jakarta.activation-api/) **[2.1.3](https://repo.maven.apache.org/maven2/jakarta/activation/jakarta.activation-api/2.1.3)** < [2.1.4](https://repo.maven.apache.org/maven2/jakarta/activation/jakarta.activation-api/2.1.4/)
- - [jakarta.xml.bind](https://repo.maven.apache.org/maven2/jakarta/xml/bind/)
-    - [jakarta.xml.bind-api](https://repo.maven.apache.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/) **[4.0.2](https://repo.maven.apache.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/4.0.2)** < [4.0.4](https://repo.maven.apache.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/4.0.4/)
-
-## Updates Applied
-[updated.target](updated.target)
-
 ## Content
  - [com.miglayout](https://repo.maven.apache.org/maven2/com/miglayout/)
     - [miglayout-core](https://repo.maven.apache.org/maven2/com/miglayout/miglayout-core/) **[11.4.2](https://repo.maven.apache.org/maven2/com/miglayout/miglayout-core/11.4.2)**
@@ -21,9 +12,9 @@
     - [jvm-driver](https://repo.maven.apache.org/maven2/io/github/toolfactory/jvm-driver/) **[9.9.10](https://repo.maven.apache.org/maven2/io/github/toolfactory/jvm-driver/9.9.10)**
     - [narcissus](https://repo.maven.apache.org/maven2/io/github/toolfactory/narcissus/) **[1.0.11](https://repo.maven.apache.org/maven2/io/github/toolfactory/narcissus/1.0.11)**
  - [jakarta.activation](https://repo.maven.apache.org/maven2/jakarta/activation/)
-    - [jakarta.activation-api](https://repo.maven.apache.org/maven2/jakarta/activation/jakarta.activation-api/) **[2.1.3](https://repo.maven.apache.org/maven2/jakarta/activation/jakarta.activation-api/2.1.3)**
+    - [jakarta.activation-api](https://repo.maven.apache.org/maven2/jakarta/activation/jakarta.activation-api/) **[2.1.4](https://repo.maven.apache.org/maven2/jakarta/activation/jakarta.activation-api/2.1.4)**
  - [jakarta.xml.bind](https://repo.maven.apache.org/maven2/jakarta/xml/bind/)
-    - [jakarta.xml.bind-api](https://repo.maven.apache.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/) **[4.0.2](https://repo.maven.apache.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/4.0.2)**
+    - [jakarta.xml.bind-api](https://repo.maven.apache.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/) **[4.0.4](https://repo.maven.apache.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/4.0.4)**
  - [org.apache.commons](https://repo.maven.apache.org/maven2/org/apache/commons/)
     - [commons-text](https://repo.maven.apache.org/maven2/org/apache/commons/commons-text/) **[1.14.0](https://repo.maven.apache.org/maven2/org/apache/commons/commons-text/1.14.0)**
  - [org.burningwave](https://repo.maven.apache.org/maven2/org/burningwave/)

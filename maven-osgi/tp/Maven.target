@@ -3,7 +3,7 @@
 <target name="Maven" sequenceNumber="1">
   <locations>
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="error" type="Maven">
-      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.38.0.v20250917-1000">
+      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.38.0.v20250918-0800">
         <description>This feature's dependencies are pulled directly from Maven central.</description>
         <copyright>
 Copyright (c) 2025 Eclipse contributors and others.
@@ -16,7 +16,7 @@ https://www.eclipse.org/legal/epl-2.0/
 SPDX-License-Identifier: EPL-2.0
         </copyright>
         <license url="https://www.eclipse.org/legal/epl-2.0/"/>
-        <!-- SHA1 a15bf556fcbee9633311da13e40e0ecaf6df56ca -->
+        <!-- SHA1 84cc298ca7be3a021f470cbe04b2054de157b4ed -->
       </feature>
       <dependencies>
         <dependency>
@@ -281,7 +281,7 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>com.google.guava</groupId>
           <artifactId>guava</artifactId>
-          <version>33.4.8-jre</version>
+          <version>33.5.0-jre</version>
           <type>jar</type>
         </dependency>
         <dependency>

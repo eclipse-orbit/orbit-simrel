@@ -3,6 +3,8 @@
 ## Minor Updates
  - [com.google.code.gson](https://repo.maven.apache.org/maven2/com/google/code/gson/)
     - [gson](https://repo.maven.apache.org/maven2/com/google/code/gson/gson/) **[2.13.1](https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.13.1)** < [2.13.2](https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.13.2/)
+ - [com.google.guava](https://repo.maven.apache.org/maven2/com/google/guava/)
+    - [guava](https://repo.maven.apache.org/maven2/com/google/guava/guava/) **[33.4.8-jre](https://repo.maven.apache.org/maven2/com/google/guava/guava/33.4.8-jre)** < [33.5.0-jre](https://repo.maven.apache.org/maven2/com/google/guava/guava/33.5.0-jre/)
  - [org.apache.maven.archetype](https://repo.maven.apache.org/maven2/org/apache/maven/archetype/)
     - [archetype-catalog](https://repo.maven.apache.org/maven2/org/apache/maven/archetype/archetype-catalog/) **[3.2.1](https://repo.maven.apache.org/maven2/org/apache/maven/archetype/archetype-catalog/3.2.1)** < [3.4.0](https://repo.maven.apache.org/maven2/org/apache/maven/archetype/archetype-catalog/3.4.0/)
     - [archetype-common](https://repo.maven.apache.org/maven2/org/apache/maven/archetype/archetype-common/) **[3.2.1](https://repo.maven.apache.org/maven2/org/apache/maven/archetype/archetype-common/3.2.1)** < [3.4.0](https://repo.maven.apache.org/maven2/org/apache/maven/archetype/archetype-common/3.4.0/)

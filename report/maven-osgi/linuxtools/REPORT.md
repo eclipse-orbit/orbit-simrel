@@ -1,17 +1,10 @@
 # Target Platform: [linuxtools](https://raw.githubusercontent.com/eclipse-linuxtools/org.eclipse.linuxtools/refs/heads/master/releng/org.eclipse.linuxtools.target/linuxtools-latest.target)
 
-## Minor Updates
- - [org.bouncycastle](https://repo.maven.apache.org/maven2/org/bouncycastle/)
-    - [bcpkix-jdk18on](https://repo.maven.apache.org/maven2/org/bouncycastle/bcpkix-jdk18on/) **[1.81](https://repo.maven.apache.org/maven2/org/bouncycastle/bcpkix-jdk18on/1.81)** < [1.82](https://repo.maven.apache.org/maven2/org/bouncycastle/bcpkix-jdk18on/1.82/)
-
 ## Major Updates
  - [jakarta.ws.rs](https://repo.maven.apache.org/maven2/jakarta/ws/rs/)
     - [jakarta.ws.rs-api](https://repo.maven.apache.org/maven2/jakarta/ws/rs/jakarta.ws.rs-api/) **[3.1.0](https://repo.maven.apache.org/maven2/jakarta/ws/rs/jakarta.ws.rs-api/3.1.0)** < [4.0.0](https://repo.maven.apache.org/maven2/jakarta/ws/rs/jakarta.ws.rs-api/4.0.0/)
  - [org.glassfish.hk2](https://repo.maven.apache.org/maven2/org/glassfish/hk2/)
     - [osgi-resource-locator](https://repo.maven.apache.org/maven2/org/glassfish/hk2/osgi-resource-locator/) **[1.0.4](https://repo.maven.apache.org/maven2/org/glassfish/hk2/osgi-resource-locator/1.0.4)** < [3.0.0](https://repo.maven.apache.org/maven2/org/glassfish/hk2/osgi-resource-locator/3.0.0/)
-
-## Updates Applied
-[updated.target](updated.target)
 
 ## Content
  - [com.fasterxml.jackson.core](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/)
@@ -32,7 +25,7 @@
     - [jnr-unixsocket](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-unixsocket/) **[0.38.23](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-unixsocket/0.38.23)**
  - [com.google.guava](https://repo.maven.apache.org/maven2/com/google/guava/)
     - [failureaccess](https://repo.maven.apache.org/maven2/com/google/guava/failureaccess/) **[1.0.3](https://repo.maven.apache.org/maven2/com/google/guava/failureaccess/1.0.3)**
-    - [guava](https://repo.maven.apache.org/maven2/com/google/guava/guava/) **[33.4.8-jre](https://repo.maven.apache.org/maven2/com/google/guava/guava/33.4.8-jre)**
+    - [guava](https://repo.maven.apache.org/maven2/com/google/guava/guava/) **[33.5.0-jre](https://repo.maven.apache.org/maven2/com/google/guava/guava/33.5.0-jre)**
  - [jakarta.ws.rs](https://repo.maven.apache.org/maven2/jakarta/ws/rs/)
     - [jakarta.ws.rs-api](https://repo.maven.apache.org/maven2/jakarta/ws/rs/jakarta.ws.rs-api/) **[3.1.0](https://repo.maven.apache.org/maven2/jakarta/ws/rs/jakarta.ws.rs-api/3.1.0)**
  - [jakarta.xml.bind](https://repo.maven.apache.org/maven2/jakarta/xml/bind/)
@@ -40,7 +33,7 @@
  - [org.apache.commons](https://repo.maven.apache.org/maven2/org/apache/commons/)
     - [commons-compress](https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/) **[1.28.0](https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.28.0)**
  - [org.bouncycastle](https://repo.maven.apache.org/maven2/org/bouncycastle/)
-    - [bcpkix-jdk18on](https://repo.maven.apache.org/maven2/org/bouncycastle/bcpkix-jdk18on/) **[1.81](https://repo.maven.apache.org/maven2/org/bouncycastle/bcpkix-jdk18on/1.81)**
+    - [bcpkix-jdk18on](https://repo.maven.apache.org/maven2/org/bouncycastle/bcpkix-jdk18on/) **[1.82](https://repo.maven.apache.org/maven2/org/bouncycastle/bcpkix-jdk18on/1.82)**
  - [org.glassfish.hk2](https://repo.maven.apache.org/maven2/org/glassfish/hk2/)
     - [hk2-api](https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-api/) **[3.1.1](https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-api/3.1.1)**
     - [hk2-locator](https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-locator/) **[3.1.1](https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-locator/3.1.1)**
