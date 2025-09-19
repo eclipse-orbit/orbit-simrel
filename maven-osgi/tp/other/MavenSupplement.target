@@ -107,6 +107,12 @@
           <type>jar</type>
         </dependency>
         <dependency>
+          <groupId>com.github.librepdf</groupId>
+          <artifactId>openpdf</artifactId>
+          <version>3.0.0</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
           <groupId>com.github.oshi</groupId>
           <artifactId>oshi-core</artifactId>
           <version>6.9.0</version>
