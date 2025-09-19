@@ -3,6 +3,8 @@
 ## Minor Updates
  - [com.google.code.gson](https://repo.maven.apache.org/maven2/com/google/code/gson/)
     - [gson](https://repo.maven.apache.org/maven2/com/google/code/gson/gson/) **[2.13.1](https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.13.1)** < [2.13.2](https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.13.2/)
+ - [org.assertj](https://repo.maven.apache.org/maven2/org/assertj/)
+    - [assertj-core](https://repo.maven.apache.org/maven2/org/assertj/assertj-core/) **[3.27.4](https://repo.maven.apache.org/maven2/org/assertj/assertj-core/3.27.4)** < [3.27.5](https://repo.maven.apache.org/maven2/org/assertj/assertj-core/3.27.5/)
  - [org.bouncycastle](https://repo.maven.apache.org/maven2/org/bouncycastle/)
     - [bcpg-jdk18on](https://repo.maven.apache.org/maven2/org/bouncycastle/bcpg-jdk18on/) **[1.81](https://repo.maven.apache.org/maven2/org/bouncycastle/bcpg-jdk18on/1.81)** < [1.82](https://repo.maven.apache.org/maven2/org/bouncycastle/bcpg-jdk18on/1.82/)
     - [bcpkix-jdk18on](https://repo.maven.apache.org/maven2/org/bouncycastle/bcpkix-jdk18on/) **[1.81](https://repo.maven.apache.org/maven2/org/bouncycastle/bcpkix-jdk18on/1.81)** < [1.82](https://repo.maven.apache.org/maven2/org/bouncycastle/bcpkix-jdk18on/1.82/)

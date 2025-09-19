@@ -5,6 +5,8 @@
     - [gson](https://repo.maven.apache.org/maven2/com/google/code/gson/gson/) **[2.13.1](https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.13.1)** < [2.13.2](https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.13.2/)
  - [com.google.guava](https://repo.maven.apache.org/maven2/com/google/guava/)
     - [guava](https://repo.maven.apache.org/maven2/com/google/guava/guava/) **[33.4.8-jre](https://repo.maven.apache.org/maven2/com/google/guava/guava/33.4.8-jre)** < [33.5.0-jre](https://repo.maven.apache.org/maven2/com/google/guava/guava/33.5.0-jre/)
+ - [org.assertj](https://repo.maven.apache.org/maven2/org/assertj/)
+    - [assertj-core](https://repo.maven.apache.org/maven2/org/assertj/assertj-core/) **[3.27.4](https://repo.maven.apache.org/maven2/org/assertj/assertj-core/3.27.4)** < [3.27.5](https://repo.maven.apache.org/maven2/org/assertj/assertj-core/3.27.5/)
  - [org.yaml](https://repo.maven.apache.org/maven2/org/yaml/)
     - [snakeyaml](https://repo.maven.apache.org/maven2/org/yaml/snakeyaml/) **[2.4](https://repo.maven.apache.org/maven2/org/yaml/snakeyaml/2.4)** < [2.5](https://repo.maven.apache.org/maven2/org/yaml/snakeyaml/2.5/)
 
