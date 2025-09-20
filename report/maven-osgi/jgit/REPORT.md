@@ -20,6 +20,8 @@
     - [jetty-util-ajax](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util-ajax/) **[12.1.0](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util-ajax/12.1.0)** < [12.1.1](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util-ajax/12.1.1/)
  - [org.eclipse.jetty.ee10](https://repo.maven.apache.org/maven2/org/eclipse/jetty/ee10/)
     - [jetty-ee10-servlet](https://repo.maven.apache.org/maven2/org/eclipse/jetty/ee10/jetty-ee10-servlet/) **[12.1.0](https://repo.maven.apache.org/maven2/org/eclipse/jetty/ee10/jetty-ee10-servlet/12.1.0)** < [12.1.1](https://repo.maven.apache.org/maven2/org/eclipse/jetty/ee10/jetty-ee10-servlet/12.1.1/)
+ - [org.mockito](https://repo.maven.apache.org/maven2/org/mockito/)
+    - [mockito-core](https://repo.maven.apache.org/maven2/org/mockito/mockito-core/) **[5.19.0](https://repo.maven.apache.org/maven2/org/mockito/mockito-core/5.19.0)** < [5.20.0](https://repo.maven.apache.org/maven2/org/mockito/mockito-core/5.20.0/)
 
 ## Major Updates
  - [org.hamcrest](https://repo.maven.apache.org/maven2/org/hamcrest/)

@@ -253,7 +253,7 @@
  - [org.mandas](https://repo.maven.apache.org/maven2/org/mandas/)
     - [docker-client](https://repo.maven.apache.org/maven2/org/mandas/docker-client/) **[8.0.3](https://repo.maven.apache.org/maven2/org/mandas/docker-client/8.0.3)**
  - [org.mockito](https://repo.maven.apache.org/maven2/org/mockito/)
-    - [mockito-junit-jupiter](https://repo.maven.apache.org/maven2/org/mockito/mockito-junit-jupiter/) **[5.19.0](https://repo.maven.apache.org/maven2/org/mockito/mockito-junit-jupiter/5.19.0)**
+    - [mockito-junit-jupiter](https://repo.maven.apache.org/maven2/org/mockito/mockito-junit-jupiter/) **[5.20.0](https://repo.maven.apache.org/maven2/org/mockito/mockito-junit-jupiter/5.20.0)**
  - [org.mongodb](https://repo.maven.apache.org/maven2/org/mongodb/)
     - [mongo-java-driver](https://repo.maven.apache.org/maven2/org/mongodb/mongo-java-driver/) **[3.12.14](https://repo.maven.apache.org/maven2/org/mongodb/mongo-java-driver/3.12.14)**
  - [org.mortbay.jasper](https://repo.maven.apache.org/maven2/org/mortbay/jasper/)
