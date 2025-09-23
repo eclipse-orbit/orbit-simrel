@@ -9,7 +9,7 @@
     - [jna](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna/) **[5.17.0](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna/5.17.0)** < [5.18.0](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna/5.18.0/)
     - [jna-platform](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna-platform/) **[5.17.0](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna-platform/5.17.0)** < [5.18.0](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna-platform/5.18.0/)
  - [org.assertj](https://repo.maven.apache.org/maven2/org/assertj/)
-    - [assertj-core](https://repo.maven.apache.org/maven2/org/assertj/assertj-core/) **[3.27.4](https://repo.maven.apache.org/maven2/org/assertj/assertj-core/3.27.4)** < [3.27.5](https://repo.maven.apache.org/maven2/org/assertj/assertj-core/3.27.5/)
+    - [assertj-core](https://repo.maven.apache.org/maven2/org/assertj/assertj-core/) **[3.27.4](https://repo.maven.apache.org/maven2/org/assertj/assertj-core/3.27.4)** < [3.27.6](https://repo.maven.apache.org/maven2/org/assertj/assertj-core/3.27.6/)
  - [org.mockito](https://repo.maven.apache.org/maven2/org/mockito/)
     - [mockito-core](https://repo.maven.apache.org/maven2/org/mockito/mockito-core/) **[5.19.0](https://repo.maven.apache.org/maven2/org/mockito/mockito-core/5.19.0)** < [5.20.0](https://repo.maven.apache.org/maven2/org/mockito/mockito-core/5.20.0/)
  - [org.yaml](https://repo.maven.apache.org/maven2/org/yaml/)

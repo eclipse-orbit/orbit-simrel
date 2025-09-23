@@ -3,6 +3,8 @@
 ## Minor Updates
  - [net.java.dev.jna](https://repo.maven.apache.org/maven2/net/java/dev/jna/)
     - [jna-platform](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna-platform/) **[5.17.0](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna-platform/5.17.0)** < [5.18.0](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna-platform/5.18.0/)
+ - [org.assertj](https://repo.maven.apache.org/maven2/org/assertj/)
+    - [assertj-core](https://repo.maven.apache.org/maven2/org/assertj/assertj-core/) **[3.27.5](https://repo.maven.apache.org/maven2/org/assertj/assertj-core/3.27.5)** < [3.27.6](https://repo.maven.apache.org/maven2/org/assertj/assertj-core/3.27.6/)
 
 ## Major Updates
  - [com.github.weisj](https://repo.maven.apache.org/maven2/com/github/weisj/)

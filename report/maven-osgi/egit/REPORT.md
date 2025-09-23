@@ -7,7 +7,7 @@
     - [jna](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna/) **[5.17.0](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna/5.17.0)** < [5.18.0](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna/5.18.0/)
     - [jna-platform](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna-platform/) **[5.17.0](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna-platform/5.17.0)** < [5.18.0](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna-platform/5.18.0/)
  - [org.assertj](https://repo.maven.apache.org/maven2/org/assertj/)
-    - [assertj-core](https://repo.maven.apache.org/maven2/org/assertj/assertj-core/) **[3.27.4](https://repo.maven.apache.org/maven2/org/assertj/assertj-core/3.27.4)** < [3.27.5](https://repo.maven.apache.org/maven2/org/assertj/assertj-core/3.27.5/)
+    - [assertj-core](https://repo.maven.apache.org/maven2/org/assertj/assertj-core/) **[3.27.4](https://repo.maven.apache.org/maven2/org/assertj/assertj-core/3.27.4)** < [3.27.6](https://repo.maven.apache.org/maven2/org/assertj/assertj-core/3.27.6/)
  - [org.bouncycastle](https://repo.maven.apache.org/maven2/org/bouncycastle/)
     - [bcpg-jdk18on](https://repo.maven.apache.org/maven2/org/bouncycastle/bcpg-jdk18on/) **[1.81](https://repo.maven.apache.org/maven2/org/bouncycastle/bcpg-jdk18on/1.81)** < [1.82](https://repo.maven.apache.org/maven2/org/bouncycastle/bcpg-jdk18on/1.82/)
     - [bcpkix-jdk18on](https://repo.maven.apache.org/maven2/org/bouncycastle/bcpkix-jdk18on/) **[1.81](https://repo.maven.apache.org/maven2/org/bouncycastle/bcpkix-jdk18on/1.81)** < [1.82](https://repo.maven.apache.org/maven2/org/bouncycastle/bcpkix-jdk18on/1.82/)
