@@ -23,7 +23,7 @@
       <unit id="org.apache.lucene.analysis-common" version="10.3.0.v20250914-0700"/>
 
       <!-- This version contains with notarized *.jnilib -->
-      <unit id="com.sun.jna" version="5.17.0.v20250316-1700"/>
+      <unit id="com.sun.jna" version="5.18.0.v20250922-1600"/>
 
       <!-- Batik dependencies -->
       <unit id="org.eclipse.orbit.xml-apis-ext" version="1.0.0.v20240917-0534"/>
@@ -31,22 +31,22 @@
       <!-- ECF -->
       <unit id="org.apache.httpcomponents.client5.httpclient5" version="5.5.0.v20250522-2300"/>
       <unit id="org.apache.httpcomponents.client5.httpclient5-win" version="5.2.3.v20231203-1619"/>
-      <unit id="org.apache.httpcomponents.core5.httpcore5" version="5.3.5.v20250829-1600"/>
-      <unit id="org.apache.httpcomponents.core5.httpcore5-h2" version="5.3.5.v20250829-1600"/>
+      <unit id="org.apache.httpcomponents.core5.httpcore5" version="5.3.6.v20250921-0900"/>
+      <unit id="org.apache.httpcomponents.core5.httpcore5-h2" version="5.3.6.v20250921-0900"/>
 
       <!-- This is the "normal" Orbit repository is expected to be updated on milestones and releases based on Orbit deliveries. -->
-      <repository location="https://download.eclipse.org/tools/orbit/simrel/orbit-aggregation/milestone/S202509170715"/>
+      <repository location="https://download.eclipse.org/tools/orbit/simrel/orbit-aggregation/milestone/S202509240750"/>
     </location>
 
     <location includeAllPlatforms="true" includeConfigurePhase="false" includeMode="slicer" includeSource="true" type="InstallableUnit">
-      <unit id="org.eclipse.emf.common" version="2.43.0.v20250629-1403"/>
-      <unit id="org.eclipse.emf.ecore" version="2.40.0.v20250803-1633"/>
-      <unit id="org.eclipse.emf.ecore.change" version="2.17.0.v20240604-0832"/>
-      <unit id="org.eclipse.emf.ecore.xmi" version="2.39.0.v20250414-1351"/>
-      <unit id="org.eclipse.emf.edit" version="2.23.0.v20250330-0741"/>
-      <unit id="org.eclipse.emf.databinding" version="1.9.0.v20240604-0832"/>
-      <unit id="org.eclipse.emf.databinding.edit" version="1.10.0.v20240604-0832"/>
-      <repository location="https://download.eclipse.org/modeling/emf/emf/builds/release/2.43.0"/>
+      <unit id="org.eclipse.emf.common" version="2.44.0.v20250911-0838"/>
+      <unit id="org.eclipse.emf.ecore" version="2.40.0.v20250910-1205"/>
+      <unit id="org.eclipse.emf.ecore.change" version="2.17.0.v20250910-1205"/>
+      <unit id="org.eclipse.emf.ecore.xmi" version="2.39.0.v20250910-1205"/>
+      <unit id="org.eclipse.emf.edit" version="2.23.0.v20250910-1205"/>
+      <unit id="org.eclipse.emf.databinding" version="1.9.0.v20250910-1205"/>
+      <unit id="org.eclipse.emf.databinding.edit" version="1.10.0.v20250910-1205"/>
+      <repository location="https://download.eclipse.org/modeling/emf/emf/builds/milestone/S202509240621"/>
     </location>
 
     <location includeAllPlatforms="true" includeConfigurePhase="false" includeMode="slicer" includeSource="true" type="InstallableUnit">

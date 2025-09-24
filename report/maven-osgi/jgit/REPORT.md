@@ -6,6 +6,8 @@
  - [net.java.dev.jna](https://repo.maven.apache.org/maven2/net/java/dev/jna/)
     - [jna](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna/) **[5.17.0](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna/5.17.0)** < [5.18.0](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna/5.18.0/)
     - [jna-platform](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna-platform/) **[5.17.0](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna-platform/5.17.0)** < [5.18.0](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna-platform/5.18.0/)
+ - [org.apache.commons](https://repo.maven.apache.org/maven2/org/apache/commons/)
+    - [commons-lang3](https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/) **[3.18.0](https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.18.0)** < [3.19.0](https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.19.0/)
  - [org.assertj](https://repo.maven.apache.org/maven2/org/assertj/)
     - [assertj-core](https://repo.maven.apache.org/maven2/org/assertj/assertj-core/) **[3.27.4](https://repo.maven.apache.org/maven2/org/assertj/assertj-core/3.27.4)** < [3.27.6](https://repo.maven.apache.org/maven2/org/assertj/assertj-core/3.27.6/)
  - [org.bouncycastle](https://repo.maven.apache.org/maven2/org/bouncycastle/)
