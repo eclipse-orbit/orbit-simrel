@@ -114,10 +114,10 @@
  - [com.networknt](https://repo.maven.apache.org/maven2/com/networknt/)
     - [json-schema-validator](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/) **[1.5.9](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/1.5.9)**
  - [com.sun.xml.bind](https://repo.maven.apache.org/maven2/com/sun/xml/bind/)
-    - [jaxb-core](https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-core/) **[4.0.5](https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-core/4.0.5)**
-    - [jaxb-impl](https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-impl/) **[4.0.5](https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-impl/4.0.5)**
+    - [jaxb-core](https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-core/) **[4.0.6](https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-core/4.0.6)**
+    - [jaxb-impl](https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-impl/) **[4.0.6](https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-impl/4.0.6)**
     - [jaxb-osgi](https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-osgi/) **[2.3.9](https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-osgi/2.3.9)**
-    - [jaxb-osgi](https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-osgi/) **[4.0.5](https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-osgi/4.0.5)**
+    - [jaxb-osgi](https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-osgi/) **[4.0.6](https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-osgi/4.0.6)**
  - [com.vegardit.no-npe](https://repo.maven.apache.org/maven2/com/vegardit/no-npe/)
     - [no-npe-eea-all](https://repo.maven.apache.org/maven2/com/vegardit/no-npe/no-npe-eea-all/) **[1.3.6](https://repo.maven.apache.org/maven2/com/vegardit/no-npe/no-npe-eea-all/1.3.6)**
  - [commons-beanutils](https://repo.maven.apache.org/maven2/commons-beanutils/)
