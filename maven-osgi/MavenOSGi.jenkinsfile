@@ -107,6 +107,7 @@ PROMOTE=${params.PROMOTE}
                   -Dbuild.type=$BUILD_TYPE \
                   -Ddash.projectId=tools.orbit \
                   -Ddash.fail=$DASH_STRICT \
+                  -Ddash.clearlyDefinedApi=skip \
                   -Dtycho.target.eager=true \
                   -Ddash.iplab.token=$GITLAB_API_TOKEN \
                   clean \
