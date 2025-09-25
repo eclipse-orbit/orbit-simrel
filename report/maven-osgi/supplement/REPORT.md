@@ -84,7 +84,7 @@
  - [com.google.inject.extensions](https://repo.maven.apache.org/maven2/com/google/inject/extensions/)
     - [guice-assistedinject](https://repo.maven.apache.org/maven2/com/google/inject/extensions/guice-assistedinject/) **[7.0.0](https://repo.maven.apache.org/maven2/com/google/inject/extensions/guice-assistedinject/7.0.0)**
  - [com.h2database](https://repo.maven.apache.org/maven2/com/h2database/)
-    - [h2](https://repo.maven.apache.org/maven2/com/h2database/h2/) **[2.3.232](https://repo.maven.apache.org/maven2/com/h2database/h2/2.3.232)**
+    - [h2](https://repo.maven.apache.org/maven2/com/h2database/h2/) **[2.4.240](https://repo.maven.apache.org/maven2/com/h2database/h2/2.4.240)**
  - [com.networknt](https://repo.maven.apache.org/maven2/com/networknt/)
     - [json-schema-validator](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/) **[1.5.9](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/1.5.9)**
  - [com.sun.xml.bind](https://repo.maven.apache.org/maven2/com/sun/xml/bind/)
