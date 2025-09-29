@@ -91,7 +91,7 @@
  - [org.codelibs](https://repo.maven.apache.org/maven2/org/codelibs/)
     - [nekohtml](https://repo.maven.apache.org/maven2/org/codelibs/nekohtml/) **[2.1.3](https://repo.maven.apache.org/maven2/org/codelibs/nekohtml/2.1.3)**
  - [org.cyclonedx](https://repo.maven.apache.org/maven2/org/cyclonedx/)
-    - [cyclonedx-core-java](https://repo.maven.apache.org/maven2/org/cyclonedx/cyclonedx-core-java/) **[10.2.1](https://repo.maven.apache.org/maven2/org/cyclonedx/cyclonedx-core-java/10.2.1)**
+    - [cyclonedx-core-java](https://repo.maven.apache.org/maven2/org/cyclonedx/cyclonedx-core-java/) **[11.0.0](https://repo.maven.apache.org/maven2/org/cyclonedx/cyclonedx-core-java/11.0.0)**
  - [org.dom4j](https://repo.maven.apache.org/maven2/org/dom4j/)
     - [dom4j](https://repo.maven.apache.org/maven2/org/dom4j/dom4j/) **[2.2.0](https://repo.maven.apache.org/maven2/org/dom4j/dom4j/2.2.0)**
  - [org.eclipse.orbit](https://repo.eclipse.org/content/repositories/orbit-approved-artifacts/org/eclipse/orbit/)
