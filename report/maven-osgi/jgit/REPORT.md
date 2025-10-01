@@ -1,11 +1,19 @@
 # Target Platform: [jgit](https://raw.githubusercontent.com/eclipse-jgit/jgit/master/org.eclipse.jgit.packaging/org.eclipse.jgit.target/maven/dependencies.tpd)
 
+## Minor Updates
+ - [net.java.dev.jna](https://repo.maven.apache.org/maven2/net/java/dev/jna/)
+    - [jna](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna/) **[5.18.0](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna/5.18.0)** < [5.18.1](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna/5.18.1/)
+    - [jna-platform](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna-platform/) **[5.18.0](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna-platform/5.18.0)** < [5.18.1](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna-platform/5.18.1/)
+
 ## Major Updates
  - [org.hamcrest](https://repo.maven.apache.org/maven2/org/hamcrest/)
     - [hamcrest](https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest/) **[2.2](https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest/2.2)** < [3.0](https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest/3.0/)
  - [org.slf4j](https://repo.maven.apache.org/maven2/org/slf4j/)
     - [slf4j-api](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/) **[1.7.36](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.36)** < [2.0.17](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/2.0.17/)
     - [slf4j-simple](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-simple/) **[1.7.36](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-simple/1.7.36)** < [2.0.17](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-simple/2.0.17/)
+
+## Updates Applied
+[updated.tpd](updated.tpd)
 
 ## Content
  - [args4j](https://repo.maven.apache.org/maven2/args4j/)

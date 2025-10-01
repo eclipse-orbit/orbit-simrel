@@ -8,8 +8,8 @@
  - [commons-io](https://repo.maven.apache.org/maven2/commons-io/)
     - [commons-io](https://repo.maven.apache.org/maven2/commons-io/commons-io/) **[2.16.1](https://repo.maven.apache.org/maven2/commons-io/commons-io/2.16.1)** < [2.20.0](https://repo.maven.apache.org/maven2/commons-io/commons-io/2.20.0/)
  - [net.java.dev.jna](https://repo.maven.apache.org/maven2/net/java/dev/jna/)
-    - [jna](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna/) **[5.14.0](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna/5.14.0)** < [5.18.0](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna/5.18.0/)
-    - [jna-platform](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna-platform/) **[5.14.0](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna-platform/5.14.0)** < [5.18.0](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna-platform/5.18.0/)
+    - [jna](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna/) **[5.14.0](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna/5.14.0)** < [5.18.1](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna/5.18.1/)
+    - [jna-platform](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna-platform/) **[5.14.0](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna-platform/5.14.0)** < [5.18.1](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna-platform/5.18.1/)
  - [org.apache.commons](https://repo.maven.apache.org/maven2/org/apache/commons/)
     - [commons-compress](https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/) **[1.27.1](https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.27.1)** < [1.28.0](https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.28.0/)
  - [org.assertj](https://repo.maven.apache.org/maven2/org/assertj/)
@@ -40,6 +40,9 @@
     - [jakarta.xml.bind-api](https://repo.maven.apache.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/) **[2.3.3](https://repo.maven.apache.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3)** < [4.0.4](https://repo.maven.apache.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/4.0.4/)
  - [org.hamcrest](https://repo.maven.apache.org/maven2/org/hamcrest/)
     - [hamcrest](https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest/) **[2.2](https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest/2.2)** < [3.0](https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest/3.0/)
+ - [org.junit.jupiter](https://repo.maven.apache.org/maven2/org/junit/jupiter/)
+    - [junit-jupiter-api](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/) **[5.11.0](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.11.0)** < [6.0.0](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/6.0.0/)
+    - [junit-jupiter-engine](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/) **[5.11.0](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.11.0)** < [6.0.0](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/6.0.0/)
 
 ## Updates Applied
 [updated.target](updated.target)
