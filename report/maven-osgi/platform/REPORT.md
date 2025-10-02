@@ -1,9 +1,5 @@
 # Target Platform: [platform](https://raw.githubusercontent.com/eclipse-platform/eclipse.platform.releng.aggregator/master/eclipse.platform.releng.prereqs.sdk/eclipse-sdk-prereqs.target)
 
-## Minor Updates
- - [net.java.dev.jna](https://repo.maven.apache.org/maven2/net/java/dev/jna/)
-    - [jna-platform](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna-platform/) **[5.18.0](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna-platform/5.18.0)** < [5.18.1](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna-platform/5.18.1/)
-
 ## Major Updates
  - [com.github.weisj](https://repo.maven.apache.org/maven2/com/github/weisj/)
     - [jsvg](https://repo.maven.apache.org/maven2/com/github/weisj/jsvg/) **[1.7.2](https://repo.maven.apache.org/maven2/com/github/weisj/jsvg/1.7.2)** < [2.0.0](https://repo.maven.apache.org/maven2/com/github/weisj/jsvg/2.0.0/)
@@ -13,8 +9,6 @@
     - [jakarta.servlet-api](https://repo.maven.apache.org/maven2/jakarta/servlet/jakarta.servlet-api/) **[4.0.4](https://repo.maven.apache.org/maven2/jakarta/servlet/jakarta.servlet-api/4.0.4)** < [6.1.0](https://repo.maven.apache.org/maven2/jakarta/servlet/jakarta.servlet-api/6.1.0/)
  - [org.glassfish](https://repo.maven.apache.org/maven2/org/glassfish/)
     - [jakarta.el](https://repo.maven.apache.org/maven2/org/glassfish/jakarta.el/) **[3.0.4](https://repo.maven.apache.org/maven2/org/glassfish/jakarta.el/3.0.4)** < [4.0.2](https://repo.maven.apache.org/maven2/org/glassfish/jakarta.el/4.0.2/)
- - [org.hamcrest](https://repo.maven.apache.org/maven2/org/hamcrest/)
-    - [hamcrest](https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest/) **[2.2](https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest/2.2)** < [3.0](https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest/3.0/)
  - [org.junit.jupiter](https://repo.maven.apache.org/maven2/org/junit/jupiter/)
     - [junit-jupiter-api](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/) **[5.14.0](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.14.0)** < [6.0.0](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/6.0.0/)
     - [junit-jupiter-engine](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/) **[5.14.0](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.14.0)** < [6.0.0](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/6.0.0/)
@@ -31,9 +25,6 @@
  - [org.mortbay.jasper](https://repo.maven.apache.org/maven2/org/mortbay/jasper/)
     - [mortbay-apache-el](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-el/) **[9.0.108.1](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-el/9.0.108.1)** < [11.0.10.1](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-el/11.0.10.1/)
     - [mortbay-apache-jsp](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-jsp/) **[9.0.108.1](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-jsp/9.0.108.1)** < [11.0.10.1](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-jsp/11.0.10.1/)
-
-## Updates Applied
-[updated.target](updated.target)
 
 ## Content
  - [biz.aQute.bnd](https://repo.maven.apache.org/maven2/biz/aQute/bnd/)
@@ -81,7 +72,7 @@
     - [byte-buddy](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/) **[1.17.7](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.17.7)**
     - [byte-buddy-agent](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/) **[1.17.7](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.17.7)**
  - [net.java.dev.jna](https://repo.maven.apache.org/maven2/net/java/dev/jna/)
-    - [jna-platform](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna-platform/) **[5.18.0](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna-platform/5.18.0)**
+    - [jna-platform](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna-platform/) **[5.18.1](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna-platform/5.18.1)**
  - [org.apache.aries.spifly](https://repo.maven.apache.org/maven2/org/apache/aries/spifly/)
     - [org.apache.aries.spifly.dynamic.bundle](https://repo.maven.apache.org/maven2/org/apache/aries/spifly/org.apache.aries.spifly.dynamic.bundle/) **[1.3.7](https://repo.maven.apache.org/maven2/org/apache/aries/spifly/org.apache.aries.spifly.dynamic.bundle/1.3.7)**
  - [org.apache.felix](https://repo.maven.apache.org/maven2/org/apache/felix/)
@@ -129,7 +120,7 @@
  - [org.glassfish](https://repo.maven.apache.org/maven2/org/glassfish/)
     - [jakarta.el](https://repo.maven.apache.org/maven2/org/glassfish/jakarta.el/) **[3.0.4](https://repo.maven.apache.org/maven2/org/glassfish/jakarta.el/3.0.4)**
  - [org.hamcrest](https://repo.maven.apache.org/maven2/org/hamcrest/)
-    - [hamcrest](https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest/) **[2.2](https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest/2.2)**
+    - [hamcrest](https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest/) **[3.0](https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest/3.0)**
  - [org.jsoup](https://repo.maven.apache.org/maven2/org/jsoup/)
     - [jsoup](https://repo.maven.apache.org/maven2/org/jsoup/jsoup/) **[1.21.2](https://repo.maven.apache.org/maven2/org/jsoup/jsoup/1.21.2)**
  - [org.junit.jupiter](https://repo.maven.apache.org/maven2/org/junit/jupiter/)
