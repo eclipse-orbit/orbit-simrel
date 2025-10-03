@@ -3,7 +3,7 @@
 <target name="Maven" sequenceNumber="1">
   <locations>
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="error" type="Maven">
-      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.38.0.v20251003-1700">
+      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.38.0.v20251003-1800">
         <description>This feature's dependencies are pulled directly from Maven central.</description>
         <copyright>
 Copyright (c) 2025 Eclipse contributors and others.
@@ -16,7 +16,7 @@ https://www.eclipse.org/legal/epl-2.0/
 SPDX-License-Identifier: EPL-2.0
         </copyright>
         <license url="https://www.eclipse.org/legal/epl-2.0/"/>
-        <!-- SHA1 628bfc9a51426f1688d8b36e6a551d53dc2b3d38 -->
+        <!-- SHA1 50501a5fc99f860f2c288a49dc2c7d299678447d -->
       </feature>
       <dependencies>
         <dependency>
@@ -258,6 +258,12 @@ SPDX-License-Identifier: EPL-2.0
           <groupId>com.github.weisj</groupId>
           <artifactId>jsvg</artifactId>
           <version>1.7.2</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>com.github.weisj</groupId>
+          <artifactId>jsvg</artifactId>
+          <version>2.0.0</version>
           <type>jar</type>
         </dependency>
         <dependency>
