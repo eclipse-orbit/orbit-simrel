@@ -250,6 +250,19 @@
     - [org.jacoco.report](https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.report/) **[0.8.13](https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.report/0.8.13)**
  - [org.json](https://repo.maven.apache.org/maven2/org/json/)
     - [json](https://repo.maven.apache.org/maven2/org/json/json/) **[20230227](https://repo.maven.apache.org/maven2/org/json/json/20230227)**
+ - [org.junit.jupiter](https://repo.maven.apache.org/maven2/org/junit/jupiter/)
+    - [junit-jupiter-api](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/) **[6.0.0](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/6.0.0)**
+    - [junit-jupiter-engine](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/) **[6.0.0](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/6.0.0)**
+    - [junit-jupiter-migrationsupport](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-migrationsupport/) **[6.0.0](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-migrationsupport/6.0.0)**
+    - [junit-jupiter-params](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-params/) **[6.0.0](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-params/6.0.0)**
+ - [org.junit.platform](https://repo.maven.apache.org/maven2/org/junit/platform/)
+    - [junit-platform-commons](https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/) **[6.0.0](https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/6.0.0)**
+    - [junit-platform-engine](https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/) **[6.0.0](https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/6.0.0)**
+    - [junit-platform-launcher](https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/) **[6.0.0](https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/6.0.0)**
+    - [junit-platform-suite-api](https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-suite-api/) **[6.0.0](https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-suite-api/6.0.0)**
+    - [junit-platform-suite-engine](https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-suite-engine/) **[6.0.0](https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-suite-engine/6.0.0)**
+ - [org.junit.vintage](https://repo.maven.apache.org/maven2/org/junit/vintage/)
+    - [junit-vintage-engine](https://repo.maven.apache.org/maven2/org/junit/vintage/junit-vintage-engine/) **[6.0.0](https://repo.maven.apache.org/maven2/org/junit/vintage/junit-vintage-engine/6.0.0)**
  - [org.mandas](https://repo.maven.apache.org/maven2/org/mandas/)
     - [docker-client](https://repo.maven.apache.org/maven2/org/mandas/docker-client/) **[8.0.3](https://repo.maven.apache.org/maven2/org/mandas/docker-client/8.0.3)**
  - [org.mockito](https://repo.maven.apache.org/maven2/org/mockito/)
