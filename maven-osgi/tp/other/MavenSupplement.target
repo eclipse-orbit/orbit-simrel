@@ -119,12 +119,6 @@
           <type>jar</type>
         </dependency>
         <dependency>
-          <groupId>com.github.weisj</groupId>
-          <artifactId>jsvg</artifactId>
-          <version>2.0.0</version>
-          <type>jar</type>
-        </dependency>
-        <dependency>
           <groupId>com.glazedlists</groupId>
           <artifactId>glazedlists</artifactId>
           <version>1.11.0</version>
@@ -229,7 +223,7 @@
         <dependency>
           <groupId>io.github.classgraph</groupId>
           <artifactId>classgraph</artifactId>
-          <version>4.8.180</version>
+          <version>4.8.184</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -787,19 +781,19 @@
         <dependency>
           <groupId>org.jacoco</groupId>
           <artifactId>org.jacoco.agent</artifactId>
-          <version>0.8.13</version>
+          <version>0.8.14</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.jacoco</groupId>
           <artifactId>org.jacoco.core</artifactId>
-          <version>0.8.13</version>
+          <version>0.8.14</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.jacoco</groupId>
           <artifactId>org.jacoco.report</artifactId>
-          <version>0.8.13</version>
+          <version>0.8.14</version>
           <type>jar</type>
         </dependency>
         <dependency>

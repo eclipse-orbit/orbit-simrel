@@ -1,9 +1,19 @@
 # Target Platform: [jgit](https://raw.githubusercontent.com/eclipse-jgit/jgit/master/org.eclipse.jgit.packaging/org.eclipse.jgit.target/maven/dependencies.tpd)
 
 ## Minor Updates
- - [net.java.dev.jna](https://repo.maven.apache.org/maven2/net/java/dev/jna/)
-    - [jna](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna/) **[5.18.0](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna/5.18.0)** < [5.18.1](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna/5.18.1/)
-    - [jna-platform](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna-platform/) **[5.18.0](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna-platform/5.18.0)** < [5.18.1](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna-platform/5.18.1/)
+ - [net.bytebuddy](https://repo.maven.apache.org/maven2/net/bytebuddy/)
+    - [byte-buddy](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/) **[1.17.7](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.17.7)** < [1.17.8](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.17.8/)
+    - [byte-buddy-agent](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/) **[1.17.7](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.17.7)** < [1.17.8](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.17.8/)
+ - [org.eclipse.jetty](https://repo.maven.apache.org/maven2/org/eclipse/jetty/)
+    - [jetty-http](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-http/) **[12.1.1](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-http/12.1.1)** < [12.1.2](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-http/12.1.2/)
+    - [jetty-io](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-io/) **[12.1.1](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-io/12.1.1)** < [12.1.2](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-io/12.1.2/)
+    - [jetty-security](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-security/) **[12.1.1](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-security/12.1.1)** < [12.1.2](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-security/12.1.2/)
+    - [jetty-server](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-server/) **[12.1.1](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-server/12.1.1)** < [12.1.2](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-server/12.1.2/)
+    - [jetty-session](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-session/) **[12.1.1](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-session/12.1.1)** < [12.1.2](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-session/12.1.2/)
+    - [jetty-util](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util/) **[12.1.1](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util/12.1.1)** < [12.1.2](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util/12.1.2/)
+    - [jetty-util-ajax](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util-ajax/) **[12.1.1](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util-ajax/12.1.1)** < [12.1.2](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util-ajax/12.1.2/)
+ - [org.eclipse.jetty.ee10](https://repo.maven.apache.org/maven2/org/eclipse/jetty/ee10/)
+    - [jetty-ee10-servlet](https://repo.maven.apache.org/maven2/org/eclipse/jetty/ee10/jetty-ee10-servlet/) **[12.1.1](https://repo.maven.apache.org/maven2/org/eclipse/jetty/ee10/jetty-ee10-servlet/12.1.1)** < [12.1.2](https://repo.maven.apache.org/maven2/org/eclipse/jetty/ee10/jetty-ee10-servlet/12.1.2/)
 
 ## Major Updates
  - [org.hamcrest](https://repo.maven.apache.org/maven2/org/hamcrest/)
@@ -34,8 +44,8 @@
     - [byte-buddy](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/) **[1.17.7](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.17.7)**
     - [byte-buddy-agent](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/) **[1.17.7](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.17.7)**
  - [net.java.dev.jna](https://repo.maven.apache.org/maven2/net/java/dev/jna/)
-    - [jna](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna/) **[5.18.0](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna/5.18.0)**
-    - [jna-platform](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna-platform/) **[5.18.0](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna-platform/5.18.0)**
+    - [jna](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna/) **[5.18.1](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna/5.18.1)**
+    - [jna-platform](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna-platform/) **[5.18.1](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna-platform/5.18.1)**
  - [org.apache.commons](https://repo.maven.apache.org/maven2/org/apache/commons/)
     - [commons-compress](https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/) **[1.28.0](https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.28.0)**
     - [commons-lang3](https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/) **[3.19.0](https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.19.0)**

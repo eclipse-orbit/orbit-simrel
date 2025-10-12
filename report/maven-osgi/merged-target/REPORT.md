@@ -86,7 +86,6 @@
  - [com.github.oshi](https://repo.maven.apache.org/maven2/com/github/oshi/)
     - [oshi-core](https://repo.maven.apache.org/maven2/com/github/oshi/oshi-core/) **[6.9.0](https://repo.maven.apache.org/maven2/com/github/oshi/oshi-core/6.9.0)**
  - [com.github.weisj](https://repo.maven.apache.org/maven2/com/github/weisj/)
-    - [jsvg](https://repo.maven.apache.org/maven2/com/github/weisj/jsvg/) **[1.7.2](https://repo.maven.apache.org/maven2/com/github/weisj/jsvg/1.7.2)**
     - [jsvg](https://repo.maven.apache.org/maven2/com/github/weisj/jsvg/) **[2.0.0](https://repo.maven.apache.org/maven2/com/github/weisj/jsvg/2.0.0)**
  - [com.glazedlists](https://repo.maven.apache.org/maven2/com/glazedlists/)
     - [glazedlists](https://repo.maven.apache.org/maven2/com/glazedlists/glazedlists/) **[1.11.0](https://repo.maven.apache.org/maven2/com/glazedlists/glazedlists/1.11.0)**
@@ -145,7 +144,7 @@
  - [dnsjava](https://repo.maven.apache.org/maven2/dnsjava/)
     - [dnsjava](https://repo.maven.apache.org/maven2/dnsjava/dnsjava/) **[3.6.3](https://repo.maven.apache.org/maven2/dnsjava/dnsjava/3.6.3)**
  - [io.github.classgraph](https://repo.maven.apache.org/maven2/io/github/classgraph/)
-    - [classgraph](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph/) **[4.8.180](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph/4.8.180)**
+    - [classgraph](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph/) **[4.8.184](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph/4.8.184)**
  - [io.github.toolfactory](https://repo.maven.apache.org/maven2/io/github/toolfactory/)
     - [jvm-driver](https://repo.maven.apache.org/maven2/io/github/toolfactory/jvm-driver/) **[9.9.10](https://repo.maven.apache.org/maven2/io/github/toolfactory/jvm-driver/9.9.10)**
     - [narcissus](https://repo.maven.apache.org/maven2/io/github/toolfactory/narcissus/) **[1.0.11](https://repo.maven.apache.org/maven2/io/github/toolfactory/narcissus/1.0.11)**
@@ -219,8 +218,8 @@
  - [lpg.runtime](https://repo.maven.apache.org/maven2/lpg/runtime/)
     - [java](https://repo.maven.apache.org/maven2/lpg/runtime/java/) **[2.0.17-v201004271640](https://repo.maven.apache.org/maven2/lpg/runtime/java/2.0.17-v201004271640)**
  - [net.bytebuddy](https://repo.maven.apache.org/maven2/net/bytebuddy/)
-    - [byte-buddy](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/) **[1.17.7](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.17.7)**
-    - [byte-buddy-agent](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/) **[1.17.7](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.17.7)**
+    - [byte-buddy](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/) **[1.17.8](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.17.8)**
+    - [byte-buddy-agent](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/) **[1.17.8](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.17.8)**
  - [net.i2p.crypto](https://repo.maven.apache.org/maven2/net/i2p/crypto/)
     - [eddsa](https://repo.maven.apache.org/maven2/net/i2p/crypto/eddsa/) **[0.3.0](https://repo.maven.apache.org/maven2/net/i2p/crypto/eddsa/0.3.0)**
  - [net.java.dev.jna](https://repo.maven.apache.org/maven2/net/java/dev/jna/)
@@ -345,9 +344,9 @@
     - [hamcrest](https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest/) **[2.2](https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest/2.2)**
     - [hamcrest](https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest/) **[3.0](https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest/3.0)**
  - [org.jacoco](https://repo.maven.apache.org/maven2/org/jacoco/)
-    - [org.jacoco.agent](https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.agent/) **[0.8.13](https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.agent/0.8.13)**
-    - [org.jacoco.core](https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.core/) **[0.8.13](https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.core/0.8.13)**
-    - [org.jacoco.report](https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.report/) **[0.8.13](https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.report/0.8.13)**
+    - [org.jacoco.agent](https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.agent/) **[0.8.14](https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.agent/0.8.14)**
+    - [org.jacoco.core](https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.core/) **[0.8.14](https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.core/0.8.14)**
+    - [org.jacoco.report](https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.report/) **[0.8.14](https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.report/0.8.14)**
  - [org.javassist](https://repo.maven.apache.org/maven2/org/javassist/)
     - [javassist](https://repo.maven.apache.org/maven2/org/javassist/javassist/) **[3.30.2-GA](https://repo.maven.apache.org/maven2/org/javassist/javassist/3.30.2-GA)**
  - [org.json](https://repo.maven.apache.org/maven2/org/json/)
@@ -449,11 +448,11 @@
     - [org.osgi.util.xml](https://repo.maven.apache.org/maven2/org/osgi/org.osgi.util.xml/) **[1.0.2](https://repo.maven.apache.org/maven2/org/osgi/org.osgi.util.xml/1.0.2)**
     - [osgi.annotation](https://repo.maven.apache.org/maven2/org/osgi/osgi.annotation/) **[8.1.0](https://repo.maven.apache.org/maven2/org/osgi/osgi.annotation/8.1.0)**
  - [org.ow2.asm](https://repo.maven.apache.org/maven2/org/ow2/asm/)
-    - [asm](https://repo.maven.apache.org/maven2/org/ow2/asm/asm/) **[9.8](https://repo.maven.apache.org/maven2/org/ow2/asm/asm/9.8)**
-    - [asm-analysis](https://repo.maven.apache.org/maven2/org/ow2/asm/asm-analysis/) **[9.8](https://repo.maven.apache.org/maven2/org/ow2/asm/asm-analysis/9.8)**
-    - [asm-commons](https://repo.maven.apache.org/maven2/org/ow2/asm/asm-commons/) **[9.8](https://repo.maven.apache.org/maven2/org/ow2/asm/asm-commons/9.8)**
-    - [asm-tree](https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/) **[9.8](https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/9.8)**
-    - [asm-util](https://repo.maven.apache.org/maven2/org/ow2/asm/asm-util/) **[9.8](https://repo.maven.apache.org/maven2/org/ow2/asm/asm-util/9.8)**
+    - [asm](https://repo.maven.apache.org/maven2/org/ow2/asm/asm/) **[9.9](https://repo.maven.apache.org/maven2/org/ow2/asm/asm/9.9)**
+    - [asm-analysis](https://repo.maven.apache.org/maven2/org/ow2/asm/asm-analysis/) **[9.9](https://repo.maven.apache.org/maven2/org/ow2/asm/asm-analysis/9.9)**
+    - [asm-commons](https://repo.maven.apache.org/maven2/org/ow2/asm/asm-commons/) **[9.9](https://repo.maven.apache.org/maven2/org/ow2/asm/asm-commons/9.9)**
+    - [asm-tree](https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/) **[9.9](https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/9.9)**
+    - [asm-util](https://repo.maven.apache.org/maven2/org/ow2/asm/asm-util/) **[9.9](https://repo.maven.apache.org/maven2/org/ow2/asm/asm-util/9.9)**
  - [org.ow2.sat4j](https://repo.maven.apache.org/maven2/org/ow2/sat4j/)
     - [org.ow2.sat4j.core](https://repo.maven.apache.org/maven2/org/ow2/sat4j/org.ow2.sat4j.core/) **[2.3.6](https://repo.maven.apache.org/maven2/org/ow2/sat4j/org.ow2.sat4j.core/2.3.6)**
     - [org.ow2.sat4j.pb](https://repo.maven.apache.org/maven2/org/ow2/sat4j/org.ow2.sat4j.pb/) **[2.3.6](https://repo.maven.apache.org/maven2/org/ow2/sat4j/org.ow2.sat4j.pb/2.3.6)**

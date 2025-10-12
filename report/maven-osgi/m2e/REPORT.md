@@ -10,9 +10,9 @@
  - [org.apache.commons](https://repo.maven.apache.org/maven2/org/apache/commons/)
     - [commons-lang3](https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/) **[3.18.0](https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.18.0)** < [3.19.0](https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.19.0/)
  - [org.apache.maven.archetype](https://repo.maven.apache.org/maven2/org/apache/maven/archetype/)
-    - [archetype-catalog](https://repo.maven.apache.org/maven2/org/apache/maven/archetype/archetype-catalog/) **[3.2.1](https://repo.maven.apache.org/maven2/org/apache/maven/archetype/archetype-catalog/3.2.1)** < [3.4.0](https://repo.maven.apache.org/maven2/org/apache/maven/archetype/archetype-catalog/3.4.0/)
-    - [archetype-common](https://repo.maven.apache.org/maven2/org/apache/maven/archetype/archetype-common/) **[3.2.1](https://repo.maven.apache.org/maven2/org/apache/maven/archetype/archetype-common/3.2.1)** < [3.4.0](https://repo.maven.apache.org/maven2/org/apache/maven/archetype/archetype-common/3.4.0/)
-    - [archetype-descriptor](https://repo.maven.apache.org/maven2/org/apache/maven/archetype/archetype-descriptor/) **[3.2.1](https://repo.maven.apache.org/maven2/org/apache/maven/archetype/archetype-descriptor/3.2.1)** < [3.4.0](https://repo.maven.apache.org/maven2/org/apache/maven/archetype/archetype-descriptor/3.4.0/)
+    - [archetype-catalog](https://repo.maven.apache.org/maven2/org/apache/maven/archetype/archetype-catalog/) **[3.2.1](https://repo.maven.apache.org/maven2/org/apache/maven/archetype/archetype-catalog/3.2.1)** < [3.4.1](https://repo.maven.apache.org/maven2/org/apache/maven/archetype/archetype-catalog/3.4.1/)
+    - [archetype-common](https://repo.maven.apache.org/maven2/org/apache/maven/archetype/archetype-common/) **[3.2.1](https://repo.maven.apache.org/maven2/org/apache/maven/archetype/archetype-common/3.2.1)** < [3.4.1](https://repo.maven.apache.org/maven2/org/apache/maven/archetype/archetype-common/3.4.1/)
+    - [archetype-descriptor](https://repo.maven.apache.org/maven2/org/apache/maven/archetype/archetype-descriptor/) **[3.2.1](https://repo.maven.apache.org/maven2/org/apache/maven/archetype/archetype-descriptor/3.2.1)** < [3.4.1](https://repo.maven.apache.org/maven2/org/apache/maven/archetype/archetype-descriptor/3.4.1/)
 
 ## Updates Applied
 [updated.target](updated.target)

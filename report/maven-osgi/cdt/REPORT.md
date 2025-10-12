@@ -15,6 +15,12 @@
     - [junit-jupiter-engine](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/) **[5.13.4](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.13.4)** < [5.14.0](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.14.0/)
  - [org.mockito](https://repo.maven.apache.org/maven2/org/mockito/)
     - [mockito-core](https://repo.maven.apache.org/maven2/org/mockito/mockito-core/) **[5.19.0](https://repo.maven.apache.org/maven2/org/mockito/mockito-core/5.19.0)** < [5.20.0](https://repo.maven.apache.org/maven2/org/mockito/mockito-core/5.20.0/)
+ - [org.ow2.asm](https://repo.maven.apache.org/maven2/org/ow2/asm/)
+    - [asm](https://repo.maven.apache.org/maven2/org/ow2/asm/asm/) **[9.8](https://repo.maven.apache.org/maven2/org/ow2/asm/asm/9.8)** < [9.9](https://repo.maven.apache.org/maven2/org/ow2/asm/asm/9.9/)
+    - [asm-analysis](https://repo.maven.apache.org/maven2/org/ow2/asm/asm-analysis/) **[9.8](https://repo.maven.apache.org/maven2/org/ow2/asm/asm-analysis/9.8)** < [9.9](https://repo.maven.apache.org/maven2/org/ow2/asm/asm-analysis/9.9/)
+    - [asm-commons](https://repo.maven.apache.org/maven2/org/ow2/asm/asm-commons/) **[9.8](https://repo.maven.apache.org/maven2/org/ow2/asm/asm-commons/9.8)** < [9.9](https://repo.maven.apache.org/maven2/org/ow2/asm/asm-commons/9.9/)
+    - [asm-tree](https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/) **[9.8](https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/9.8)** < [9.9](https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/9.9/)
+    - [asm-util](https://repo.maven.apache.org/maven2/org/ow2/asm/asm-util/) **[9.8](https://repo.maven.apache.org/maven2/org/ow2/asm/asm-util/9.8)** < [9.9](https://repo.maven.apache.org/maven2/org/ow2/asm/asm-util/9.9/)
  - [org.yaml](https://repo.maven.apache.org/maven2/org/yaml/)
     - [snakeyaml](https://repo.maven.apache.org/maven2/org/yaml/snakeyaml/) **[2.4](https://repo.maven.apache.org/maven2/org/yaml/snakeyaml/2.4)** < [2.5](https://repo.maven.apache.org/maven2/org/yaml/snakeyaml/2.5/)
 

@@ -144,7 +144,7 @@ Export-Package:         *;version="${version}";-noimport:=true
 <!-- _____________________________________________________ org.apache.lucene-10 ___________________________________________________________________________________________________-->
 
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
-      <feature id="org.eclipse.orbit.maven.lucene-10" label="Orbit Maven BND org.apache.lucene 10" provider-name="Eclipse Orbit" version="4.38.0.v20250914-0700">
+      <feature id="org.eclipse.orbit.maven.lucene-10" label="Orbit Maven BND org.apache.lucene 10" provider-name="Eclipse Orbit" version="4.38.0.v20251007-0700">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
 Copyright (c) 2025 Eclipse contributors and others.
@@ -162,59 +162,59 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>org.apache.lucene</groupId>
           <artifactId>lucene-analysis-common</artifactId>
-          <version>10.3.0</version>
+          <version>10.3.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.apache.lucene</groupId>
           <artifactId>lucene-analysis-smartcn</artifactId>
-          <version>10.3.0</version>
+          <version>10.3.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.apache.lucene</groupId>
           <artifactId>lucene-core</artifactId>
-          <version>10.3.0</version>
+          <version>10.3.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.apache.lucene</groupId>
           <artifactId>lucene-misc</artifactId>
-          <version>10.3.0</version>
+          <version>10.3.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.apache.lucene</groupId>
           <artifactId>lucene-queries</artifactId>
-          <version>10.3.0</version>
+          <version>10.3.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.apache.lucene</groupId>
           <artifactId>lucene-queryparser</artifactId>
-          <version>10.3.0</version>
+          <version>10.3.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.apache.lucene</groupId>
           <artifactId>lucene-sandbox</artifactId>
-          <version>10.3.0</version>
+          <version>10.3.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.apache.lucene</groupId>
           <artifactId>lucene-facet</artifactId>
-          <version>10.3.0</version>
+          <version>10.3.1</version>
           <type>jar</type>
         </dependency>
       </dependencies>
       <instructions>
-<!-- SHA1 0e5c86d742e3f359fec72926713171dcd0b335ad -->
+<!-- SHA1 6868d17cc29276d404e5e7c20b4514cc7004acc9 -->
 <![CDATA[
 Bundle-Name:            Bundle ${mvnGroupId} : ${mvnArtifactId}
 version:                ${versionmask;===;${version_cleanup;${mvnVersion}}}
 Bundle-SymbolicName:    ${mvnGroupId}.${replacestring;${mvnArtifactId};lucene-}
-Bundle-Version:         ${version}.v20250914-0700
+Bundle-Version:         ${version}.v20251007-0700
 Eclipse-Wrapped-Bundle: ${mvnGroupId}:${mvnArtifactId}:${mvnVersion}
 Import-Package:         org.apache.lucene.*;version="${range;[==,+);${version}}",\
                         jdk.incubator.*;resolution:=optional,\
@@ -2745,35 +2745,35 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>org.ow2.asm</groupId>
           <artifactId>asm</artifactId>
-          <version>9.8</version>
+          <version>9.9</version>
           <type>jar</type>
         </dependency>
 
         <dependency>
           <groupId>org.ow2.asm</groupId>
           <artifactId>asm-analysis</artifactId>
-          <version>9.8</version>
+          <version>9.9</version>
           <type>jar</type>
         </dependency>
 
         <dependency>
           <groupId>org.ow2.asm</groupId>
           <artifactId>asm-commons</artifactId>
-          <version>9.8</version>
+          <version>9.9</version>
           <type>jar</type>
         </dependency>
 
         <dependency>
           <groupId>org.ow2.asm</groupId>
           <artifactId>asm-tree</artifactId>
-          <version>9.8</version>
+          <version>9.9</version>
           <type>jar</type>
         </dependency>
 
         <dependency>
           <groupId>org.ow2.asm</groupId>
           <artifactId>asm-util</artifactId>
-          <version>9.8</version>
+          <version>9.9</version>
           <type>jar</type>
         </dependency>
 

@@ -75,8 +75,6 @@
     - [openpdf](https://repo.maven.apache.org/maven2/com/github/librepdf/openpdf/) **[3.0.0](https://repo.maven.apache.org/maven2/com/github/librepdf/openpdf/3.0.0)**
  - [com.github.oshi](https://repo.maven.apache.org/maven2/com/github/oshi/)
     - [oshi-core](https://repo.maven.apache.org/maven2/com/github/oshi/oshi-core/) **[6.9.0](https://repo.maven.apache.org/maven2/com/github/oshi/oshi-core/6.9.0)**
- - [com.github.weisj](https://repo.maven.apache.org/maven2/com/github/weisj/)
-    - [jsvg](https://repo.maven.apache.org/maven2/com/github/weisj/jsvg/) **[2.0.0](https://repo.maven.apache.org/maven2/com/github/weisj/jsvg/2.0.0)**
  - [com.glazedlists](https://repo.maven.apache.org/maven2/com/glazedlists/)
     - [glazedlists](https://repo.maven.apache.org/maven2/com/glazedlists/glazedlists/) **[1.11.0](https://repo.maven.apache.org/maven2/com/glazedlists/glazedlists/1.11.0)**
  - [com.google.errorprone](https://repo.maven.apache.org/maven2/com/google/errorprone/)
@@ -109,7 +107,7 @@
  - [dnsjava](https://repo.maven.apache.org/maven2/dnsjava/)
     - [dnsjava](https://repo.maven.apache.org/maven2/dnsjava/dnsjava/) **[3.6.3](https://repo.maven.apache.org/maven2/dnsjava/dnsjava/3.6.3)**
  - [io.github.classgraph](https://repo.maven.apache.org/maven2/io/github/classgraph/)
-    - [classgraph](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph/) **[4.8.180](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph/4.8.180)**
+    - [classgraph](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph/) **[4.8.184](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph/4.8.184)**
  - [jakarta.activation](https://repo.maven.apache.org/maven2/jakarta/activation/)
     - [jakarta.activation-api](https://repo.maven.apache.org/maven2/jakarta/activation/jakarta.activation-api/) **[1.2.2](https://repo.maven.apache.org/maven2/jakarta/activation/jakarta.activation-api/1.2.2)**
     - [jakarta.activation-api](https://repo.maven.apache.org/maven2/jakarta/activation/jakarta.activation-api/) **[2.1.4](https://repo.maven.apache.org/maven2/jakarta/activation/jakarta.activation-api/2.1.4)**
@@ -247,9 +245,9 @@
     - [hamcrest](https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest/) **[2.2](https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest/2.2)**
     - [hamcrest](https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest/) **[3.0](https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest/3.0)**
  - [org.jacoco](https://repo.maven.apache.org/maven2/org/jacoco/)
-    - [org.jacoco.agent](https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.agent/) **[0.8.13](https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.agent/0.8.13)**
-    - [org.jacoco.core](https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.core/) **[0.8.13](https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.core/0.8.13)**
-    - [org.jacoco.report](https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.report/) **[0.8.13](https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.report/0.8.13)**
+    - [org.jacoco.agent](https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.agent/) **[0.8.14](https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.agent/0.8.14)**
+    - [org.jacoco.core](https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.core/) **[0.8.14](https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.core/0.8.14)**
+    - [org.jacoco.report](https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.report/) **[0.8.14](https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.report/0.8.14)**
  - [org.json](https://repo.maven.apache.org/maven2/org/json/)
     - [json](https://repo.maven.apache.org/maven2/org/json/json/) **[20230227](https://repo.maven.apache.org/maven2/org/json/json/20230227)**
  - [org.junit.jupiter](https://repo.maven.apache.org/maven2/org/junit/jupiter/)
