@@ -49,7 +49,8 @@ org.mortbay.jasper:apache.* // These all moved to org.mortbay.jasper:mortbay-apa
 //
 -include-major
 com.google.guava:guava
-com.ibm.icu:icu4j 
+com.ibm.icu:icu4j
+org.json:json
 
 
 // These are update version to which we don't wish to update.

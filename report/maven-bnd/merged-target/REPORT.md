@@ -46,6 +46,7 @@
     - [lucene-analysis-smartcn](https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-analysis-smartcn/) **[10.3.1](https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-analysis-smartcn/10.3.1)**
     - [lucene-core](https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-core/) **[9.12.3](https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-core/9.12.3)**
     - [lucene-core](https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-core/) **[10.3.1](https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-core/10.3.1)**
+    - [lucene-expressions](https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-expressions/) **[10.3.1](https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-expressions/10.3.1)**
     - [lucene-facet](https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-facet/) **[9.12.3](https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-facet/9.12.3)**
     - [lucene-facet](https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-facet/) **[10.3.1](https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-facet/10.3.1)**
     - [lucene-misc](https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-misc/) **[9.12.3](https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-misc/9.12.3)**

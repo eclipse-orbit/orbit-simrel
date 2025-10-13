@@ -679,7 +679,7 @@ public class DependencyAnalyzer {
 			var availableVersions = getAvailableVersions(dependency);
 			for (var availableVersion : availableVersions) {
 				if (!isIgnored(dependency.create(availableVersion))) {
-					if (isIncludedQualifier(availableVersion)
+					if (isIncludedQualifier(availableVersion) || nextMajor.equals(Dependency.MAX_VERSION)
 							|| preReleaseQualifier && isPreReleaseQualifier(availableVersion)) {
 						if (availableVersion.compareTo(nextMajor) < 0
 								&& availableVersion.compareTo(nextAvailableVersion) > 0) {

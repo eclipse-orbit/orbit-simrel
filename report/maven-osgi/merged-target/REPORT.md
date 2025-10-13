@@ -117,7 +117,7 @@
     - [jaxb-osgi](https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-osgi/) **[2.3.9](https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-osgi/2.3.9)**
     - [jaxb-osgi](https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-osgi/) **[4.0.6](https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-osgi/4.0.6)**
  - [com.vegardit.no-npe](https://repo.maven.apache.org/maven2/com/vegardit/no-npe/)
-    - [no-npe-eea-all](https://repo.maven.apache.org/maven2/com/vegardit/no-npe/no-npe-eea-all/) **[1.3.6](https://repo.maven.apache.org/maven2/com/vegardit/no-npe/no-npe-eea-all/1.3.6)**
+    - [no-npe-eea-all](https://repo.maven.apache.org/maven2/com/vegardit/no-npe/no-npe-eea-all/) **[1.3.7](https://repo.maven.apache.org/maven2/com/vegardit/no-npe/no-npe-eea-all/1.3.7)**
  - [commons-beanutils](https://repo.maven.apache.org/maven2/commons-beanutils/)
     - [commons-beanutils](https://repo.maven.apache.org/maven2/commons-beanutils/commons-beanutils/) **[1.11.0](https://repo.maven.apache.org/maven2/commons-beanutils/commons-beanutils/1.11.0)**
  - [commons-cli](https://repo.maven.apache.org/maven2/commons-cli/)
@@ -350,7 +350,7 @@
  - [org.javassist](https://repo.maven.apache.org/maven2/org/javassist/)
     - [javassist](https://repo.maven.apache.org/maven2/org/javassist/javassist/) **[3.30.2-GA](https://repo.maven.apache.org/maven2/org/javassist/javassist/3.30.2-GA)**
  - [org.json](https://repo.maven.apache.org/maven2/org/json/)
-    - [json](https://repo.maven.apache.org/maven2/org/json/json/) **[20230227](https://repo.maven.apache.org/maven2/org/json/json/20230227)**
+    - [json](https://repo.maven.apache.org/maven2/org/json/json/) **[20250517](https://repo.maven.apache.org/maven2/org/json/json/20250517)**
  - [org.jsoup](https://repo.maven.apache.org/maven2/org/jsoup/)
     - [jsoup](https://repo.maven.apache.org/maven2/org/jsoup/jsoup/) **[1.21.2](https://repo.maven.apache.org/maven2/org/jsoup/jsoup/1.21.2)**
  - [org.junit.jupiter](https://repo.maven.apache.org/maven2/org/junit/jupiter/)
