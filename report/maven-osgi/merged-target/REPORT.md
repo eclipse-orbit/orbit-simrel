@@ -1,6 +1,10 @@
 # Target Platform: [merged-target](https://github.com/eclipse-orbit/orbit-simrel/blob/main/maven-osgi/tp/Maven.target)
 
 ## Major Updates
+ - [com.evolvedbinary.thirdparty.org.apache.xmlrpc](https://repo.maven.apache.org/maven2/com/evolvedbinary/thirdparty/org/apache/xmlrpc/)
+    - [xmlrpc-client](https://repo.maven.apache.org/maven2/com/evolvedbinary/thirdparty/org/apache/xmlrpc/xmlrpc-client/) **[5.0.0](https://repo.maven.apache.org/maven2/com/evolvedbinary/thirdparty/org/apache/xmlrpc/xmlrpc-client/5.0.0)** < [6.0.0](https://repo.maven.apache.org/maven2/com/evolvedbinary/thirdparty/org/apache/xmlrpc/xmlrpc-client/6.0.0/)
+    - [xmlrpc-common](https://repo.maven.apache.org/maven2/com/evolvedbinary/thirdparty/org/apache/xmlrpc/xmlrpc-common/) **[5.0.0](https://repo.maven.apache.org/maven2/com/evolvedbinary/thirdparty/org/apache/xmlrpc/xmlrpc-common/5.0.0)** < [6.0.0](https://repo.maven.apache.org/maven2/com/evolvedbinary/thirdparty/org/apache/xmlrpc/xmlrpc-common/6.0.0/)
+    - [xmlrpc-server](https://repo.maven.apache.org/maven2/com/evolvedbinary/thirdparty/org/apache/xmlrpc/xmlrpc-server/) **[5.0.0](https://repo.maven.apache.org/maven2/com/evolvedbinary/thirdparty/org/apache/xmlrpc/xmlrpc-server/5.0.0)** < [6.0.0](https://repo.maven.apache.org/maven2/com/evolvedbinary/thirdparty/org/apache/xmlrpc/xmlrpc-server/6.0.0/)
  - [com.fasterxml.woodstox](https://repo.maven.apache.org/maven2/com/fasterxml/woodstox/)
     - [woodstox-core](https://repo.maven.apache.org/maven2/com/fasterxml/woodstox/woodstox-core/) **[6.7.0](https://repo.maven.apache.org/maven2/com/fasterxml/woodstox/woodstox-core/6.7.0)** < [7.1.1](https://repo.maven.apache.org/maven2/com/fasterxml/woodstox/woodstox-core/7.1.1/)
  - [jakarta.ejb](https://repo.maven.apache.org/maven2/jakarta/ejb/)
@@ -84,7 +88,7 @@
     - [openpdf](https://repo.maven.apache.org/maven2/com/github/librepdf/openpdf/) **[2.4.0](https://repo.maven.apache.org/maven2/com/github/librepdf/openpdf/2.4.0)**
     - [openpdf](https://repo.maven.apache.org/maven2/com/github/librepdf/openpdf/) **[3.0.0](https://repo.maven.apache.org/maven2/com/github/librepdf/openpdf/3.0.0)**
  - [com.github.oshi](https://repo.maven.apache.org/maven2/com/github/oshi/)
-    - [oshi-core](https://repo.maven.apache.org/maven2/com/github/oshi/oshi-core/) **[6.9.0](https://repo.maven.apache.org/maven2/com/github/oshi/oshi-core/6.9.0)**
+    - [oshi-core](https://repo.maven.apache.org/maven2/com/github/oshi/oshi-core/) **[6.9.1](https://repo.maven.apache.org/maven2/com/github/oshi/oshi-core/6.9.1)**
  - [com.github.weisj](https://repo.maven.apache.org/maven2/com/github/weisj/)
     - [jsvg](https://repo.maven.apache.org/maven2/com/github/weisj/jsvg/) **[2.0.0](https://repo.maven.apache.org/maven2/com/github/weisj/jsvg/2.0.0)**
  - [com.glazedlists](https://repo.maven.apache.org/maven2/com/glazedlists/)

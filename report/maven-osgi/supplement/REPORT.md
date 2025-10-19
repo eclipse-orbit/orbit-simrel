@@ -5,6 +5,10 @@
     - [json](https://repo.maven.apache.org/maven2/org/json/json/) **[20230227](https://repo.maven.apache.org/maven2/org/json/json/20230227)** < [20250517](https://repo.maven.apache.org/maven2/org/json/json/20250517/)
 
 ## Major Updates
+ - [com.evolvedbinary.thirdparty.org.apache.xmlrpc](https://repo.maven.apache.org/maven2/com/evolvedbinary/thirdparty/org/apache/xmlrpc/)
+    - [xmlrpc-client](https://repo.maven.apache.org/maven2/com/evolvedbinary/thirdparty/org/apache/xmlrpc/xmlrpc-client/) **[5.0.0](https://repo.maven.apache.org/maven2/com/evolvedbinary/thirdparty/org/apache/xmlrpc/xmlrpc-client/5.0.0)** < [6.0.0](https://repo.maven.apache.org/maven2/com/evolvedbinary/thirdparty/org/apache/xmlrpc/xmlrpc-client/6.0.0/)
+    - [xmlrpc-common](https://repo.maven.apache.org/maven2/com/evolvedbinary/thirdparty/org/apache/xmlrpc/xmlrpc-common/) **[5.0.0](https://repo.maven.apache.org/maven2/com/evolvedbinary/thirdparty/org/apache/xmlrpc/xmlrpc-common/5.0.0)** < [6.0.0](https://repo.maven.apache.org/maven2/com/evolvedbinary/thirdparty/org/apache/xmlrpc/xmlrpc-common/6.0.0/)
+    - [xmlrpc-server](https://repo.maven.apache.org/maven2/com/evolvedbinary/thirdparty/org/apache/xmlrpc/xmlrpc-server/) **[5.0.0](https://repo.maven.apache.org/maven2/com/evolvedbinary/thirdparty/org/apache/xmlrpc/xmlrpc-server/5.0.0)** < [6.0.0](https://repo.maven.apache.org/maven2/com/evolvedbinary/thirdparty/org/apache/xmlrpc/xmlrpc-server/6.0.0/)
  - [com.fasterxml.woodstox](https://repo.maven.apache.org/maven2/com/fasterxml/woodstox/)
     - [woodstox-core](https://repo.maven.apache.org/maven2/com/fasterxml/woodstox/woodstox-core/) **[6.7.0](https://repo.maven.apache.org/maven2/com/fasterxml/woodstox/woodstox-core/6.7.0)** < [7.1.1](https://repo.maven.apache.org/maven2/com/fasterxml/woodstox/woodstox-core/7.1.1/)
  - [com.sun.xml.bind](https://repo.maven.apache.org/maven2/com/sun/xml/bind/)
@@ -81,7 +85,7 @@
     - [openpdf](https://repo.maven.apache.org/maven2/com/github/librepdf/openpdf/) **[2.4.0](https://repo.maven.apache.org/maven2/com/github/librepdf/openpdf/2.4.0)**
     - [openpdf](https://repo.maven.apache.org/maven2/com/github/librepdf/openpdf/) **[3.0.0](https://repo.maven.apache.org/maven2/com/github/librepdf/openpdf/3.0.0)**
  - [com.github.oshi](https://repo.maven.apache.org/maven2/com/github/oshi/)
-    - [oshi-core](https://repo.maven.apache.org/maven2/com/github/oshi/oshi-core/) **[6.9.0](https://repo.maven.apache.org/maven2/com/github/oshi/oshi-core/6.9.0)**
+    - [oshi-core](https://repo.maven.apache.org/maven2/com/github/oshi/oshi-core/) **[6.9.1](https://repo.maven.apache.org/maven2/com/github/oshi/oshi-core/6.9.1)**
  - [com.glazedlists](https://repo.maven.apache.org/maven2/com/glazedlists/)
     - [glazedlists](https://repo.maven.apache.org/maven2/com/glazedlists/glazedlists/) **[1.11.0](https://repo.maven.apache.org/maven2/com/glazedlists/glazedlists/1.11.0)**
  - [com.google.errorprone](https://repo.maven.apache.org/maven2/com/google/errorprone/)
