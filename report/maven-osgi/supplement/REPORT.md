@@ -206,6 +206,7 @@
     - [tika-core](https://repo.maven.apache.org/maven2/org/apache/tika/tika-core/) **[2.9.4](https://repo.maven.apache.org/maven2/org/apache/tika/tika-core/2.9.4)**
  - [org.apache.velocity](https://repo.maven.apache.org/maven2/org/apache/velocity/)
     - [velocity](https://repo.maven.apache.org/maven2/org/apache/velocity/velocity/) **[1.7](https://repo.maven.apache.org/maven2/org/apache/velocity/velocity/1.7)**
+    - [velocity-engine-core](https://repo.maven.apache.org/maven2/org/apache/velocity/velocity-engine-core/) **[2.4.1](https://repo.maven.apache.org/maven2/org/apache/velocity/velocity-engine-core/2.4.1)**
  - [org.codehaus.woodstox](https://repo.maven.apache.org/maven2/org/codehaus/woodstox/)
     - [stax2-api](https://repo.maven.apache.org/maven2/org/codehaus/woodstox/stax2-api/) **[4.2.2](https://repo.maven.apache.org/maven2/org/codehaus/woodstox/stax2-api/4.2.2)**
  - [org.commonmark](https://repo.maven.apache.org/maven2/org/commonmark/)
