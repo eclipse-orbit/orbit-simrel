@@ -2,7 +2,7 @@
 
 ## Minor Updates
  - [ch.qos.logback](https://repo.maven.apache.org/maven2/ch/qos/logback/)
-    - [logback-classic](https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/) **[1.5.18](https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/1.5.18)** < [1.5.19](https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/1.5.19/)
+    - [logback-classic](https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/) **[1.5.18](https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/1.5.18)** < [1.5.20](https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/1.5.20/)
  - [com.google.code.gson](https://repo.maven.apache.org/maven2/com/google/code/gson/)
     - [gson](https://repo.maven.apache.org/maven2/com/google/code/gson/gson/) **[2.13.1](https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.13.1)** < [2.13.2](https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.13.2/)
  - [com.google.guava](https://repo.maven.apache.org/maven2/com/google/guava/)
