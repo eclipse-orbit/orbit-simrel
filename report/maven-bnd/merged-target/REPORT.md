@@ -91,6 +91,7 @@
     - [xmlgraphics-commons](https://repo.maven.apache.org/maven2/org/apache/xmlgraphics/xmlgraphics-commons/) **[2.11](https://repo.maven.apache.org/maven2/org/apache/xmlgraphics/xmlgraphics-commons/2.11)**
  - [org.codelibs](https://repo.maven.apache.org/maven2/org/codelibs/)
     - [nekohtml](https://repo.maven.apache.org/maven2/org/codelibs/nekohtml/) **[2.1.3](https://repo.maven.apache.org/maven2/org/codelibs/nekohtml/2.1.3)**
+    - [nekohtml](https://repo.maven.apache.org/maven2/org/codelibs/nekohtml/) **[3.0.0](https://repo.maven.apache.org/maven2/org/codelibs/nekohtml/3.0.0)**
  - [org.cyclonedx](https://repo.maven.apache.org/maven2/org/cyclonedx/)
     - [cyclonedx-core-java](https://repo.maven.apache.org/maven2/org/cyclonedx/cyclonedx-core-java/) **[11.0.0](https://repo.maven.apache.org/maven2/org/cyclonedx/cyclonedx-core-java/11.0.0)**
  - [org.dom4j](https://repo.maven.apache.org/maven2/org/dom4j/)

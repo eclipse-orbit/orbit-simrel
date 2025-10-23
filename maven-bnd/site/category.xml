@@ -38,6 +38,7 @@
    <feature id="org.eclipse.orbit.maven.org.apache.xmlgraphics"/>
    <feature id="org.eclipse.orbit.maven.org.apache.xmlgraphics.fop"/>
    <feature id="org.eclipse.orbit.maven.org.codelibs.nekohtml"/>
+   <feature id="org.eclipse.orbit.maven.org.codelibs.nekohtml.3x"/>
    <feature id="org.eclipse.orbit.maven.org.cyclonedx"/>
    <feature id="org.eclipse.orbit.maven.org.dom4j"/>
    <feature id="org.eclipse.orbit.maven.org.jdom"/>

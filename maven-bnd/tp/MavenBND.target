@@ -679,7 +679,7 @@ Export-Package:         *;version="${version}";-noimport:=true
     </location>
 
 
-<!-- ______________________________________________________ nekohtml __________________________________________________________________________________________________-->
+<!-- ______________________________________________________ nekohtml 2.x __________________________________________________________________________________________________-->
 
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
       <feature id="org.eclipse.orbit.maven.org.codelibs.nekohtml" label="Orbit Maven BND org.codelibs.nekohtml" provider-name="Eclipse Orbit" version="4.38.0">
@@ -721,6 +721,47 @@ Export-Package:         *;version="${version}";-noimport:=true
       </instructions>
     </location>
 
+
+<!-- ______________________________________________________ nekohtml 3.x__________________________________________________________________________________________________-->
+
+    <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
+      <feature id="org.eclipse.orbit.maven.org.codelibs.nekohtml.3x" label="Orbit Maven BND org.codelibs.nekohtml 3.x" provider-name="Eclipse Orbit" version="4.38.0">
+        <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
+        <copyright>
+Copyright (c) 2025 Eclipse contributors and others.
+
+This program and the accompanying materials
+are made available under the terms of the Eclipse Public License 2.0
+which accompanies this distribution, and is available at
+https://www.eclipse.org/legal/epl-2.0/
+
+SPDX-License-Identifier: EPL-2.0
+        </copyright>
+        <license url="https://www.eclipse.org/legal/epl-2.0/"/>
+      </feature>
+      <dependencies>
+        <dependency>
+          <groupId>org.codelibs</groupId>
+          <artifactId>nekohtml</artifactId>
+          <version>3.0.0</version>
+          <type>jar</type>
+        </dependency>
+      </dependencies>
+      <instructions>
+<!-- SHA1 6159377dff7449b0b41036dbe2cf7f1cfe48b788 -->
+<![CDATA[
+Bundle-Name:            Bundle ${mvnGroupId} : ${mvnArtifactId}
+version:                ${versionmask;===;${version_cleanup;${mvnVersion}}}
+Bundle-SymbolicName:    ${mvnGroupId}.${mvnArtifactId}
+Bundle-Version:         ${version}.v20251023-1000
+Eclipse-Wrapped-Bundle: ${mvnGroupId}:${mvnArtifactId}:${mvnVersion}
+Import-Package:         *
+Export-Package:         *;version="${version}";-noimport:=true
+-noextraheaders:        true
+-removeheaders:         Private-Package
+]]>
+      </instructions>
+    </location>
 
 <!-- ______________________________________________________ org.apache.ws.commons.util __________________________________________________________________________________________________-->
 
