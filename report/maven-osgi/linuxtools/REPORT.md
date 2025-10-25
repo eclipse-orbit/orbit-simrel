@@ -1,10 +1,21 @@
 # Target Platform: [linuxtools](https://raw.githubusercontent.com/eclipse-linuxtools/org.eclipse.linuxtools/refs/heads/master/releng/org.eclipse.linuxtools.target/linuxtools-latest.target)
 
+## Minor Updates
+ - [com.github.jnr](https://repo.maven.apache.org/maven2/com/github/jnr/)
+    - [jffi](https://repo.maven.apache.org/maven2/com/github/jnr/jffi/) **[1.3.13](https://repo.maven.apache.org/maven2/com/github/jnr/jffi/1.3.13)** < [1.3.14](https://repo.maven.apache.org/maven2/com/github/jnr/jffi/1.3.14/)
+    - [jnr-enxio](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-enxio/) **[0.32.18](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-enxio/0.32.18)** < [0.32.19](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-enxio/0.32.19/)
+    - [jnr-ffi](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-ffi/) **[2.2.17](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-ffi/2.2.17)** < [2.2.18](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-ffi/2.2.18/)
+    - [jnr-posix](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-posix/) **[3.1.20](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-posix/3.1.20)** < [3.1.21](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-posix/3.1.21/)
+    - [jnr-unixsocket](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-unixsocket/) **[0.38.23](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-unixsocket/0.38.23)** < [0.38.24](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-unixsocket/0.38.24/)
+
 ## Major Updates
  - [jakarta.ws.rs](https://repo.maven.apache.org/maven2/jakarta/ws/rs/)
     - [jakarta.ws.rs-api](https://repo.maven.apache.org/maven2/jakarta/ws/rs/jakarta.ws.rs-api/) **[3.1.0](https://repo.maven.apache.org/maven2/jakarta/ws/rs/jakarta.ws.rs-api/3.1.0)** < [4.0.0](https://repo.maven.apache.org/maven2/jakarta/ws/rs/jakarta.ws.rs-api/4.0.0/)
  - [org.glassfish.hk2](https://repo.maven.apache.org/maven2/org/glassfish/hk2/)
     - [osgi-resource-locator](https://repo.maven.apache.org/maven2/org/glassfish/hk2/osgi-resource-locator/) **[1.0.4](https://repo.maven.apache.org/maven2/org/glassfish/hk2/osgi-resource-locator/1.0.4)** < [3.0.0](https://repo.maven.apache.org/maven2/org/glassfish/hk2/osgi-resource-locator/3.0.0/)
+
+## Updates Applied
+[updated.target](updated.target)
 
 ## Content
  - [com.fasterxml.jackson.core](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/)

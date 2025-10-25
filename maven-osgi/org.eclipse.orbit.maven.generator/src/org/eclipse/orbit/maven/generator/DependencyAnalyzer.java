@@ -296,7 +296,7 @@ public class DependencyAnalyzer {
 				var typePattern = "<type>" + Pattern.quote(type) + "</type>";
 				if ("jar".equals(type)) {
 					// jar is the default so in that case it's optional.
-					typePattern = "(?:" + type + ")?";
+					typePattern = "(?:" + typePattern + ")?";
 				}
 				Pattern pattern = //
 						Pattern.compile(isTPD ? //
