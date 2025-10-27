@@ -1044,6 +1044,12 @@
         </dependency>
         <dependency>
           <groupId>org.slf4j</groupId>
+          <artifactId>slf4j-api</artifactId>
+          <version>1.7.36</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>org.slf4j</groupId>
           <artifactId>slf4j-nop</artifactId>
           <version>1.7.36</version>
           <type>jar</type>
@@ -1058,6 +1064,12 @@
           <groupId>org.slf4j</groupId>
           <artifactId>slf4j-reload4j</artifactId>
           <version>2.0.17</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>org.slf4j</groupId>
+          <artifactId>slf4j-simple</artifactId>
+          <version>1.7.36</version>
           <type>jar</type>
         </dependency>
         <dependency>

@@ -53,6 +53,9 @@
     - [jersey-media-json-jackson](https://repo.maven.apache.org/maven2/org/glassfish/jersey/media/jersey-media-json-jackson/) **[2.47](https://repo.maven.apache.org/maven2/org/glassfish/jersey/media/jersey-media-json-jackson/2.47)** < [3.1.11](https://repo.maven.apache.org/maven2/org/glassfish/jersey/media/jersey-media-json-jackson/3.1.11/)
  - [org.mandas](https://repo.maven.apache.org/maven2/org/mandas/)
     - [docker-client](https://repo.maven.apache.org/maven2/org/mandas/docker-client/) **[8.0.3](https://repo.maven.apache.org/maven2/org/mandas/docker-client/8.0.3)** < [9.0.4](https://repo.maven.apache.org/maven2/org/mandas/docker-client/9.0.4/)
+ - [org.slf4j](https://repo.maven.apache.org/maven2/org/slf4j/)
+    - [slf4j-api](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/) **[1.7.36](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.36)** < [2.0.17](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/2.0.17/)
+    - [slf4j-simple](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-simple/) **[1.7.36](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-simple/1.7.36)** < [2.0.17](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-simple/2.0.17/)
 
 ## Updates Applied
 [updated.target](updated.target)
@@ -312,8 +315,10 @@
     - [org.osgi.util.tracker](https://repo.maven.apache.org/maven2/org/osgi/org.osgi.util.tracker/) **[1.5.4](https://repo.maven.apache.org/maven2/org/osgi/org.osgi.util.tracker/1.5.4)**
     - [osgi.annotation](https://repo.maven.apache.org/maven2/org/osgi/osgi.annotation/) **[8.1.0](https://repo.maven.apache.org/maven2/org/osgi/osgi.annotation/8.1.0)**
  - [org.slf4j](https://repo.maven.apache.org/maven2/org/slf4j/)
+    - [slf4j-api](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/) **[1.7.36](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.36)**
     - [slf4j-nop](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-nop/) **[1.7.36](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-nop/1.7.36)**
     - [slf4j-nop](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-nop/) **[2.0.17](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-nop/2.0.17)**
     - [slf4j-reload4j](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-reload4j/) **[2.0.17](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-reload4j/2.0.17)**
+    - [slf4j-simple](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-simple/) **[1.7.36](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-simple/1.7.36)**
  - [org.snakeyaml](https://repo.maven.apache.org/maven2/org/snakeyaml/)
     - [snakeyaml-engine](https://repo.maven.apache.org/maven2/org/snakeyaml/snakeyaml-engine/) **[2.10](https://repo.maven.apache.org/maven2/org/snakeyaml/snakeyaml-engine/2.10)**
