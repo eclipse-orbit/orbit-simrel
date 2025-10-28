@@ -77,7 +77,7 @@
  - [com.fasterxml.woodstox](https://repo.maven.apache.org/maven2/com/fasterxml/woodstox/)
     - [woodstox-core](https://repo.maven.apache.org/maven2/com/fasterxml/woodstox/woodstox-core/) **[6.7.0](https://repo.maven.apache.org/maven2/com/fasterxml/woodstox/woodstox-core/6.7.0)**
  - [com.github.ben-manes.caffeine](https://repo.maven.apache.org/maven2/com/github/ben-manes/caffeine/)
-    - [caffeine](https://repo.maven.apache.org/maven2/com/github/ben-manes/caffeine/caffeine/) **[3.2.2](https://repo.maven.apache.org/maven2/com/github/ben-manes/caffeine/caffeine/3.2.2)**
+    - [caffeine](https://repo.maven.apache.org/maven2/com/github/ben-manes/caffeine/caffeine/) **[3.2.3](https://repo.maven.apache.org/maven2/com/github/ben-manes/caffeine/caffeine/3.2.3)**
  - [com.github.jnr](https://repo.maven.apache.org/maven2/com/github/jnr/)
     - [jffi](https://repo.maven.apache.org/maven2/com/github/jnr/jffi/) **[1.3.14](https://repo.maven.apache.org/maven2/com/github/jnr/jffi/1.3.14)** - *complete*
     - [jnr-constants](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-constants/) **[0.10.4](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-constants/0.10.4)**

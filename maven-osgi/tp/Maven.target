@@ -3,7 +3,7 @@
 <target name="Maven" sequenceNumber="1">
   <locations>
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="error" type="Maven">
-      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.38.0.v20251025-0800">
+      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.38.0.v20251028-0600">
         <description>This feature's dependencies are pulled directly from Maven central.</description>
         <copyright>
 Copyright (c) 2025 Eclipse contributors and others.
@@ -16,7 +16,7 @@ https://www.eclipse.org/legal/epl-2.0/
 SPDX-License-Identifier: EPL-2.0
         </copyright>
         <license url="https://www.eclipse.org/legal/epl-2.0/"/>
-        <!-- SHA1 17151a0e7f3714825f565aea482121977e0f2cc4 -->
+        <!-- SHA1 742b6aeca47ad7857d4dfe51b4267a942d5049bd -->
       </feature>
       <dependencies>
         <dependency>
@@ -190,7 +190,7 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>com.github.ben-manes.caffeine</groupId>
           <artifactId>caffeine</artifactId>
-          <version>3.2.2</version>
+          <version>3.2.3</version>
           <type>jar</type>
         </dependency>
         <dependency>
