@@ -3,7 +3,7 @@
 <target name="Maven" sequenceNumber="1">
   <locations>
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="error" type="Maven">
-      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.38.0.v20251028-0600">
+      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.38.0.v20251030-0705">
         <description>This feature's dependencies are pulled directly from Maven central.</description>
         <copyright>
 Copyright (c) 2025 Eclipse contributors and others.
@@ -16,7 +16,7 @@ https://www.eclipse.org/legal/epl-2.0/
 SPDX-License-Identifier: EPL-2.0
         </copyright>
         <license url="https://www.eclipse.org/legal/epl-2.0/"/>
-        <!-- SHA1 742b6aeca47ad7857d4dfe51b4267a942d5049bd -->
+        <!-- SHA1 be4bb82a8457009f31889017d42c7bde06871d0f -->
       </feature>
       <dependencies>
         <dependency>
@@ -918,12 +918,6 @@ SPDX-License-Identifier: EPL-2.0
           <groupId>org.apache.tika</groupId>
           <artifactId>tika-core</artifactId>
           <version>2.9.4</version>
-          <type>jar</type>
-        </dependency>
-        <dependency>
-          <groupId>org.apache.velocity</groupId>
-          <artifactId>velocity</artifactId>
-          <version>1.7</version>
           <type>jar</type>
         </dependency>
         <dependency>
