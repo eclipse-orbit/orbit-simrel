@@ -564,12 +564,6 @@
         </dependency>
         <dependency>
           <groupId>org.apache.velocity</groupId>
-          <artifactId>velocity</artifactId>
-          <version>1.7</version>
-          <type>jar</type>
-        </dependency>
-        <dependency>
-          <groupId>org.apache.velocity</groupId>
           <artifactId>velocity-engine-core</artifactId>
           <version>2.4.1</version>
           <type>jar</type>
