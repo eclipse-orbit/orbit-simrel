@@ -17,8 +17,8 @@
  - [org.freemarker](https://repo.maven.apache.org/maven2/org/freemarker/)
     - [freemarker](https://repo.maven.apache.org/maven2/org/freemarker/freemarker/) **[2.3.33](https://repo.maven.apache.org/maven2/org/freemarker/freemarker/2.3.33)** < [2.3.34](https://repo.maven.apache.org/maven2/org/freemarker/freemarker/2.3.34/)
  - [org.junit.jupiter](https://repo.maven.apache.org/maven2/org/junit/jupiter/)
-    - [junit-jupiter-api](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/) **[5.11.0](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.11.0)** < [5.14.0](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.14.0/)
-    - [junit-jupiter-engine](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/) **[5.11.0](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.11.0)** < [5.14.0](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.14.0/)
+    - [junit-jupiter-api](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/) **[5.11.0](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.11.0)** < [5.14.1](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.14.1/)
+    - [junit-jupiter-engine](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/) **[5.11.0](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.11.0)** < [5.14.1](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.14.1/)
  - [org.mockito](https://repo.maven.apache.org/maven2/org/mockito/)
     - [mockito-core](https://repo.maven.apache.org/maven2/org/mockito/mockito-core/) **[5.13.0](https://repo.maven.apache.org/maven2/org/mockito/mockito-core/5.13.0)** < [5.20.0](https://repo.maven.apache.org/maven2/org/mockito/mockito-core/5.20.0/)
  - [org.ow2.asm](https://repo.maven.apache.org/maven2/org/ow2/asm/)
@@ -41,8 +41,8 @@
  - [org.hamcrest](https://repo.maven.apache.org/maven2/org/hamcrest/)
     - [hamcrest](https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest/) **[2.2](https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest/2.2)** < [3.0](https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest/3.0/)
  - [org.junit.jupiter](https://repo.maven.apache.org/maven2/org/junit/jupiter/)
-    - [junit-jupiter-api](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/) **[5.11.0](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.11.0)** < [6.0.0](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/6.0.0/)
-    - [junit-jupiter-engine](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/) **[5.11.0](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.11.0)** < [6.0.0](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/6.0.0/)
+    - [junit-jupiter-api](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/) **[5.11.0](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.11.0)** < [6.0.1](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/6.0.1/)
+    - [junit-jupiter-engine](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/) **[5.11.0](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.11.0)** < [6.0.1](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/6.0.1/)
 
 ## Updates Applied
 [updated.target](updated.target)
