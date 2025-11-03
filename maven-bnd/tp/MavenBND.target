@@ -682,7 +682,7 @@ Export-Package:         *;version="${version}";-noimport:=true
 <!-- ______________________________________________________ nekohtml 3.x__________________________________________________________________________________________________-->
 
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
-      <feature id="org.eclipse.orbit.maven.org.codelibs.nekohtml.3x" label="Orbit Maven BND org.codelibs.nekohtml 3.x" provider-name="Eclipse Orbit" version="4.38.0">
+      <feature id="org.eclipse.orbit.maven.org.codelibs.nekohtml.3x" label="Orbit Maven BND org.codelibs.nekohtml 3.x" provider-name="Eclipse Orbit" version="4.38.0.v20251103-0800">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
 Copyright (c) 2025 Eclipse contributors and others.
@@ -700,17 +700,17 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>org.codelibs</groupId>
           <artifactId>nekohtml</artifactId>
-          <version>3.0.0</version>
+          <version>3.0.1</version>
           <type>jar</type>
         </dependency>
       </dependencies>
       <instructions>
-<!-- SHA1 6159377dff7449b0b41036dbe2cf7f1cfe48b788 -->
+<!-- SHA1 9ae0c37492011be762d285fb1330094dff27df8a -->
 <![CDATA[
 Bundle-Name:            Bundle ${mvnGroupId} : ${mvnArtifactId}
 version:                ${versionmask;===;${version_cleanup;${mvnVersion}}}
 Bundle-SymbolicName:    ${mvnGroupId}.${mvnArtifactId}
-Bundle-Version:         ${version}.v20251023-1000
+Bundle-Version:         ${version}.v20251103-0800
 Eclipse-Wrapped-Bundle: ${mvnGroupId}:${mvnArtifactId}:${mvnVersion}
 Import-Package:         *
 Export-Package:         *;version="${version}";-noimport:=true
