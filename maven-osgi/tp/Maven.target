@@ -3,7 +3,7 @@
 <target name="Maven" sequenceNumber="1">
   <locations>
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="error" type="Maven">
-      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.38.0.v20251101-0825">
+      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.38.0.v20251103-1400">
         <description>This feature's dependencies are pulled directly from Maven central.</description>
         <copyright>
 Copyright (c) 2025 Eclipse contributors and others.
@@ -16,7 +16,7 @@ https://www.eclipse.org/legal/epl-2.0/
 SPDX-License-Identifier: EPL-2.0
         </copyright>
         <license url="https://www.eclipse.org/legal/epl-2.0/"/>
-        <!-- SHA1 1816ab94e2d0317f53ccfcddad8fd37f5bf2fdc1 -->
+        <!-- SHA1 5645c7effba4dae64bc44e799b538081296b38e9 -->
       </feature>
       <dependencies>
         <dependency>
@@ -1493,13 +1493,13 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>org.mortbay.jasper</groupId>
           <artifactId>mortbay-apache-el</artifactId>
-          <version>9.0.108.1</version>
+          <version>9.0.111</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.mortbay.jasper</groupId>
           <artifactId>mortbay-apache-el</artifactId>
-          <version>10.1.44.1</version>
+          <version>10.1.48</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -1511,13 +1511,13 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>org.mortbay.jasper</groupId>
           <artifactId>mortbay-apache-jsp</artifactId>
-          <version>9.0.108.1</version>
+          <version>9.0.111</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.mortbay.jasper</groupId>
           <artifactId>mortbay-apache-jsp</artifactId>
-          <version>10.1.44.1</version>
+          <version>10.1.48</version>
           <type>jar</type>
         </dependency>
         <dependency>
