@@ -6,7 +6,7 @@
  - [com.google.guava](https://repo.maven.apache.org/maven2/com/google/guava/)
     - [guava](https://repo.maven.apache.org/maven2/com/google/guava/guava/) **[33.3.0-jre](https://repo.maven.apache.org/maven2/com/google/guava/guava/33.3.0-jre)** < [33.5.0-jre](https://repo.maven.apache.org/maven2/com/google/guava/guava/33.5.0-jre/)
  - [commons-io](https://repo.maven.apache.org/maven2/commons-io/)
-    - [commons-io](https://repo.maven.apache.org/maven2/commons-io/commons-io/) **[2.16.1](https://repo.maven.apache.org/maven2/commons-io/commons-io/2.16.1)** < [2.20.0](https://repo.maven.apache.org/maven2/commons-io/commons-io/2.20.0/)
+    - [commons-io](https://repo.maven.apache.org/maven2/commons-io/commons-io/) **[2.16.1](https://repo.maven.apache.org/maven2/commons-io/commons-io/2.16.1)** < [2.21.0](https://repo.maven.apache.org/maven2/commons-io/commons-io/2.21.0/)
  - [net.java.dev.jna](https://repo.maven.apache.org/maven2/net/java/dev/jna/)
     - [jna](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna/) **[5.14.0](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna/5.14.0)** < [5.18.1](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna/5.18.1/)
     - [jna-platform](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna-platform/) **[5.14.0](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna-platform/5.14.0)** < [5.18.1](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna-platform/5.18.1/)
@@ -34,6 +34,8 @@
     - [snakeyaml](https://repo.maven.apache.org/maven2/org/yaml/snakeyaml/) **[2.2](https://repo.maven.apache.org/maven2/org/yaml/snakeyaml/2.2)** < [2.5](https://repo.maven.apache.org/maven2/org/yaml/snakeyaml/2.5/)
 
 ## Major Updates
+ - [commons-io](https://repo.maven.apache.org/maven2/commons-io/)
+    - [commons-io](https://repo.maven.apache.org/maven2/commons-io/commons-io/) **[2.16.1](https://repo.maven.apache.org/maven2/commons-io/commons-io/2.16.1)** < [20030203.550](https://repo.maven.apache.org/maven2/commons-io/commons-io/20030203.550/)
  - [jakarta.activation](https://repo.maven.apache.org/maven2/jakarta/activation/)
     - [jakarta.activation-api](https://repo.maven.apache.org/maven2/jakarta/activation/jakarta.activation-api/) **[1.2.2](https://repo.maven.apache.org/maven2/jakarta/activation/jakarta.activation-api/1.2.2)** < [2.1.4](https://repo.maven.apache.org/maven2/jakarta/activation/jakarta.activation-api/2.1.4/)
  - [jakarta.xml.bind](https://repo.maven.apache.org/maven2/jakarta/xml/bind/)
