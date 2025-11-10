@@ -2172,7 +2172,7 @@ Export-Package:         !*swing,\
 <!-- _____________________________________________________ org.cyclonedx for sbom ___________________________________________________________________________________________________-->
 
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
-      <feature id="org.eclipse.orbit.maven.org.cyclonedx" label="Orbit Maven BND org.cyclonedx" provider-name="Eclipse Orbit" version="4.38.0.v20250929-1600">
+      <feature id="org.eclipse.orbit.maven.org.cyclonedx" label="Orbit Maven BND org.cyclonedx" provider-name="Eclipse Orbit" version="4.38.0.v20251110-1500">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
 Copyright (c) 2025 Eclipse contributors and others.
@@ -2190,18 +2190,18 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>org.cyclonedx</groupId>
           <artifactId>cyclonedx-core-java</artifactId>
-          <version>11.0.0</version>
+          <version>11.0.1</version>
           <type>jar</type>
         </dependency>
       </dependencies>
       <instructions>
-<!-- SHA1 84159dbe00090752ba86be8b3ed5b489b9e54924 -->
+<!-- SHA1 b88f927be15091ca0bdc2651f37afdb42fdb7d5d -->
 <![CDATA[
 Bundle-Name:            Bundle ${mvnGroupId} : ${mvnArtifactId}
 version:                ${versionmask;===;${version_cleanup;${mvnVersion}}}
 bsn:                    ${mvnGroupId}.${replacestring;${mvnArtifactId};cyclonedx-}
 Bundle-SymbolicName:    ${bsn}
-Bundle-Version:         ${version}.v20250929-1600
+Bundle-Version:         ${version}.v20251110-1500
 Automatic-Module-Name:  ${bsn}
 Eclipse-Wrapped-Bundle: ${mvnGroupId}:${mvnArtifactId}:${mvnVersion}
 Import-Package:         *

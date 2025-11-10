@@ -1,8 +1,6 @@
 # Target Platform: [windowbuilder](https://raw.githubusercontent.com/eclipse/windowbuilder/master/target-platform/mvn/wb-mvn.target)
 
 ## Minor Updates
- - [com.sun.xml.bind](https://repo.maven.apache.org/maven2/com/sun/xml/bind/)
-    - [jaxb-osgi](https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-osgi/) **[4.0.5](https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-osgi/4.0.5)** < [4.0.6](https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-osgi/4.0.6/)
  - [commons-io](https://repo.maven.apache.org/maven2/commons-io/)
     - [commons-io](https://repo.maven.apache.org/maven2/commons-io/commons-io/) **[2.20.0](https://repo.maven.apache.org/maven2/commons-io/commons-io/2.20.0)** < [2.21.0](https://repo.maven.apache.org/maven2/commons-io/commons-io/2.21.0/)
 
@@ -18,7 +16,7 @@
     - [miglayout-core](https://repo.maven.apache.org/maven2/com/miglayout/miglayout-core/) **[11.4.2](https://repo.maven.apache.org/maven2/com/miglayout/miglayout-core/11.4.2)**
     - [miglayout-swing](https://repo.maven.apache.org/maven2/com/miglayout/miglayout-swing/) **[11.4.2](https://repo.maven.apache.org/maven2/com/miglayout/miglayout-swing/11.4.2)**
  - [com.sun.xml.bind](https://repo.maven.apache.org/maven2/com/sun/xml/bind/)
-    - [jaxb-osgi](https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-osgi/) **[4.0.5](https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-osgi/4.0.5)**
+    - [jaxb-osgi](https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-osgi/) **[4.0.6](https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-osgi/4.0.6)**
  - [commons-io](https://repo.maven.apache.org/maven2/commons-io/)
     - [commons-io](https://repo.maven.apache.org/maven2/commons-io/commons-io/) **[2.20.0](https://repo.maven.apache.org/maven2/commons-io/commons-io/2.20.0)**
  - [io.github.toolfactory](https://repo.maven.apache.org/maven2/io/github/toolfactory/)
