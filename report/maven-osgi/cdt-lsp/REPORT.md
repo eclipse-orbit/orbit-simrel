@@ -34,8 +34,6 @@
     - [snakeyaml](https://repo.maven.apache.org/maven2/org/yaml/snakeyaml/) **[2.2](https://repo.maven.apache.org/maven2/org/yaml/snakeyaml/2.2)** < [2.5](https://repo.maven.apache.org/maven2/org/yaml/snakeyaml/2.5/)
 
 ## Major Updates
- - [commons-io](https://repo.maven.apache.org/maven2/commons-io/)
-    - [commons-io](https://repo.maven.apache.org/maven2/commons-io/commons-io/) **[2.16.1](https://repo.maven.apache.org/maven2/commons-io/commons-io/2.16.1)** < [20030203.550](https://repo.maven.apache.org/maven2/commons-io/commons-io/20030203.550/)
  - [jakarta.activation](https://repo.maven.apache.org/maven2/jakarta/activation/)
     - [jakarta.activation-api](https://repo.maven.apache.org/maven2/jakarta/activation/jakarta.activation-api/) **[1.2.2](https://repo.maven.apache.org/maven2/jakarta/activation/jakarta.activation-api/1.2.2)** < [2.1.4](https://repo.maven.apache.org/maven2/jakarta/activation/jakarta.activation-api/2.1.4/)
  - [jakarta.xml.bind](https://repo.maven.apache.org/maven2/jakarta/xml/bind/)

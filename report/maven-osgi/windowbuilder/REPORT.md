@@ -4,10 +4,6 @@
  - [commons-io](https://repo.maven.apache.org/maven2/commons-io/)
     - [commons-io](https://repo.maven.apache.org/maven2/commons-io/commons-io/) **[2.20.0](https://repo.maven.apache.org/maven2/commons-io/commons-io/2.20.0)** < [2.21.0](https://repo.maven.apache.org/maven2/commons-io/commons-io/2.21.0/)
 
-## Major Updates
- - [commons-io](https://repo.maven.apache.org/maven2/commons-io/)
-    - [commons-io](https://repo.maven.apache.org/maven2/commons-io/commons-io/) **[2.20.0](https://repo.maven.apache.org/maven2/commons-io/commons-io/2.20.0)** < [20030203.550](https://repo.maven.apache.org/maven2/commons-io/commons-io/20030203.550/)
-
 ## Updates Applied
 [updated.target](updated.target)
 

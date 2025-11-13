@@ -9,8 +9,6 @@
     - [woodstox-core](https://repo.maven.apache.org/maven2/com/fasterxml/woodstox/woodstox-core/) **[6.7.0](https://repo.maven.apache.org/maven2/com/fasterxml/woodstox/woodstox-core/6.7.0)** < [7.1.1](https://repo.maven.apache.org/maven2/com/fasterxml/woodstox/woodstox-core/7.1.1/)
  - [com.networknt](https://repo.maven.apache.org/maven2/com/networknt/)
     - [json-schema-validator](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/) **[1.5.9](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/1.5.9)** < [2.0.0](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/2.0.0/)
- - [commons-io](https://repo.maven.apache.org/maven2/commons-io/)
-    - [commons-io](https://repo.maven.apache.org/maven2/commons-io/commons-io/) **[2.21.0](https://repo.maven.apache.org/maven2/commons-io/commons-io/2.21.0)** < [20030203.550](https://repo.maven.apache.org/maven2/commons-io/commons-io/20030203.550/)
  - [jakarta.ejb](https://repo.maven.apache.org/maven2/jakarta/ejb/)
     - [jakarta.ejb-api](https://repo.maven.apache.org/maven2/jakarta/ejb/jakarta.ejb-api/) **[3.2.6](https://repo.maven.apache.org/maven2/jakarta/ejb/jakarta.ejb-api/3.2.6)** < [4.0.1](https://repo.maven.apache.org/maven2/jakarta/ejb/jakarta.ejb-api/4.0.1/)
  - [jakarta.jws](https://repo.maven.apache.org/maven2/jakarta/jws/)
@@ -54,6 +52,8 @@
  - [org.glassfish.jersey.media](https://repo.maven.apache.org/maven2/org/glassfish/jersey/media/)
     - [jersey-media-json-jackson](https://repo.maven.apache.org/maven2/org/glassfish/jersey/media/jersey-media-json-jackson/) **[2.47](https://repo.maven.apache.org/maven2/org/glassfish/jersey/media/jersey-media-json-jackson/2.47)** < [4.0.0](https://repo.maven.apache.org/maven2/org/glassfish/jersey/media/jersey-media-json-jackson/4.0.0/)
     - [jersey-media-json-jackson](https://repo.maven.apache.org/maven2/org/glassfish/jersey/media/jersey-media-json-jackson/) **[3.1.11](https://repo.maven.apache.org/maven2/org/glassfish/jersey/media/jersey-media-json-jackson/3.1.11)** < [4.0.0](https://repo.maven.apache.org/maven2/org/glassfish/jersey/media/jersey-media-json-jackson/4.0.0/)
+ - [org.snakeyaml](https://repo.maven.apache.org/maven2/org/snakeyaml/)
+    - [snakeyaml-engine](https://repo.maven.apache.org/maven2/org/snakeyaml/snakeyaml-engine/) **[2.10](https://repo.maven.apache.org/maven2/org/snakeyaml/snakeyaml-engine/2.10)** < [3.0](https://repo.maven.apache.org/maven2/org/snakeyaml/snakeyaml-engine/3.0/)
 
 ## Content
  - [args4j](https://repo.maven.apache.org/maven2/args4j/)
@@ -147,7 +147,7 @@
  - [commons-beanutils](https://repo.maven.apache.org/maven2/commons-beanutils/)
     - [commons-beanutils](https://repo.maven.apache.org/maven2/commons-beanutils/commons-beanutils/) **[1.11.0](https://repo.maven.apache.org/maven2/commons-beanutils/commons-beanutils/1.11.0)**
  - [commons-cli](https://repo.maven.apache.org/maven2/commons-cli/)
-    - [commons-cli](https://repo.maven.apache.org/maven2/commons-cli/commons-cli/) **[1.10.0](https://repo.maven.apache.org/maven2/commons-cli/commons-cli/1.10.0)**
+    - [commons-cli](https://repo.maven.apache.org/maven2/commons-cli/commons-cli/) **[1.11.0](https://repo.maven.apache.org/maven2/commons-cli/commons-cli/1.11.0)**
  - [commons-codec](https://repo.maven.apache.org/maven2/commons-codec/)
     - [commons-codec](https://repo.maven.apache.org/maven2/commons-codec/commons-codec/) **[1.20.0](https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.20.0)**
  - [commons-collections](https://repo.maven.apache.org/maven2/commons-collections/)
@@ -244,8 +244,8 @@
  - [lpg.runtime](https://repo.maven.apache.org/maven2/lpg/runtime/)
     - [java](https://repo.maven.apache.org/maven2/lpg/runtime/java/) **[2.0.17-v201004271640](https://repo.maven.apache.org/maven2/lpg/runtime/java/2.0.17-v201004271640)**
  - [net.bytebuddy](https://repo.maven.apache.org/maven2/net/bytebuddy/)
-    - [byte-buddy](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/) **[1.18.0](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.18.0)**
-    - [byte-buddy-agent](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/) **[1.18.0](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.18.0)**
+    - [byte-buddy](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/) **[1.18.1](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.18.1)**
+    - [byte-buddy-agent](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/) **[1.18.1](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.18.1)**
  - [net.i2p.crypto](https://repo.maven.apache.org/maven2/net/i2p/crypto/)
     - [eddsa](https://repo.maven.apache.org/maven2/net/i2p/crypto/eddsa/) **[0.3.0](https://repo.maven.apache.org/maven2/net/i2p/crypto/eddsa/0.3.0)**
  - [net.java.dev.jna](https://repo.maven.apache.org/maven2/net/java/dev/jna/)

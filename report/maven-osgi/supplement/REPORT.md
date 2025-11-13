@@ -58,6 +58,8 @@
  - [org.slf4j](https://repo.maven.apache.org/maven2/org/slf4j/)
     - [slf4j-api](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/) **[1.7.36](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.36)** < [2.0.17](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/2.0.17/)
     - [slf4j-simple](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-simple/) **[1.7.36](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-simple/1.7.36)** < [2.0.17](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-simple/2.0.17/)
+ - [org.snakeyaml](https://repo.maven.apache.org/maven2/org/snakeyaml/)
+    - [snakeyaml-engine](https://repo.maven.apache.org/maven2/org/snakeyaml/snakeyaml-engine/) **[2.10](https://repo.maven.apache.org/maven2/org/snakeyaml/snakeyaml-engine/2.10)** < [3.0](https://repo.maven.apache.org/maven2/org/snakeyaml/snakeyaml-engine/3.0/)
 
 ## Updates Applied
 [updated.target](updated.target)
