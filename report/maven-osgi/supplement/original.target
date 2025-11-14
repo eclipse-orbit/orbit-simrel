@@ -449,12 +449,6 @@
           <type>jar</type>
         </dependency>
         <dependency>
-          <groupId>net.i2p.crypto</groupId>
-          <artifactId>eddsa</artifactId>
-          <version>0.3.0</version>
-          <type>jar</type>
-        </dependency>
-        <dependency>
           <groupId>org.antlr</groupId>
           <artifactId>antlr4-runtime</artifactId>
           <version>4.13.2</version>

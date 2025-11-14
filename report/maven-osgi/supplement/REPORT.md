@@ -59,7 +59,7 @@
     - [slf4j-api](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/) **[1.7.36](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.36)** < [2.0.17](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/2.0.17/)
     - [slf4j-simple](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-simple/) **[1.7.36](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-simple/1.7.36)** < [2.0.17](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-simple/2.0.17/)
  - [org.snakeyaml](https://repo.maven.apache.org/maven2/org/snakeyaml/)
-    - [snakeyaml-engine](https://repo.maven.apache.org/maven2/org/snakeyaml/snakeyaml-engine/) **[2.10](https://repo.maven.apache.org/maven2/org/snakeyaml/snakeyaml-engine/2.10)** < [3.0](https://repo.maven.apache.org/maven2/org/snakeyaml/snakeyaml-engine/3.0/)
+    - [snakeyaml-engine](https://repo.maven.apache.org/maven2/org/snakeyaml/snakeyaml-engine/) **[2.10](https://repo.maven.apache.org/maven2/org/snakeyaml/snakeyaml-engine/2.10)** < [3.0.1](https://repo.maven.apache.org/maven2/org/snakeyaml/snakeyaml-engine/3.0.1/)
 
 ## Updates Applied
 [updated.target](updated.target)
@@ -187,8 +187,6 @@
     - [jaxen](https://repo.maven.apache.org/maven2/jaxen/jaxen/) **[2.0.0](https://repo.maven.apache.org/maven2/jaxen/jaxen/2.0.0)**
  - [lpg.runtime](https://repo.maven.apache.org/maven2/lpg/runtime/)
     - [java](https://repo.maven.apache.org/maven2/lpg/runtime/java/) **[2.0.17-v201004271640](https://repo.maven.apache.org/maven2/lpg/runtime/java/2.0.17-v201004271640)**
- - [net.i2p.crypto](https://repo.maven.apache.org/maven2/net/i2p/crypto/)
-    - [eddsa](https://repo.maven.apache.org/maven2/net/i2p/crypto/eddsa/) **[0.3.0](https://repo.maven.apache.org/maven2/net/i2p/crypto/eddsa/0.3.0)**
  - [org.antlr](https://repo.maven.apache.org/maven2/org/antlr/)
     - [antlr4-runtime](https://repo.maven.apache.org/maven2/org/antlr/antlr4-runtime/) **[4.13.2](https://repo.maven.apache.org/maven2/org/antlr/antlr4-runtime/4.13.2)**
  - [org.apache.commons](https://repo.maven.apache.org/maven2/org/apache/commons/)
