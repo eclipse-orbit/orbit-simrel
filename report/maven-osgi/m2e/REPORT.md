@@ -7,6 +7,8 @@
     - [commons-cli](https://repo.maven.apache.org/maven2/commons-cli/commons-cli/) **[1.10.0](https://repo.maven.apache.org/maven2/commons-cli/commons-cli/1.10.0)** < [1.11.0](https://repo.maven.apache.org/maven2/commons-cli/commons-cli/1.11.0/)
  - [commons-codec](https://repo.maven.apache.org/maven2/commons-codec/)
     - [commons-codec](https://repo.maven.apache.org/maven2/commons-codec/commons-codec/) **[1.19.0](https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.19.0)** < [1.20.0](https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.20.0/)
+ - [org.apache.commons](https://repo.maven.apache.org/maven2/org/apache/commons/)
+    - [commons-lang3](https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/) **[3.19.0](https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.19.0)** < [3.20.0](https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.20.0/)
  - [org.apache.maven.archetype](https://repo.maven.apache.org/maven2/org/apache/maven/archetype/)
     - [archetype-catalog](https://repo.maven.apache.org/maven2/org/apache/maven/archetype/archetype-catalog/) **[3.2.1](https://repo.maven.apache.org/maven2/org/apache/maven/archetype/archetype-catalog/3.2.1)** < [3.4.1](https://repo.maven.apache.org/maven2/org/apache/maven/archetype/archetype-catalog/3.4.1/)
     - [archetype-common](https://repo.maven.apache.org/maven2/org/apache/maven/archetype/archetype-common/) **[3.2.1](https://repo.maven.apache.org/maven2/org/apache/maven/archetype/archetype-common/3.2.1)** < [3.4.1](https://repo.maven.apache.org/maven2/org/apache/maven/archetype/archetype-common/3.4.1/)

@@ -4,6 +4,8 @@
  - [net.bytebuddy](https://repo.maven.apache.org/maven2/net/bytebuddy/)
     - [byte-buddy](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/) **[1.17.8](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.17.8)** < [1.18.1](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.18.1/)
     - [byte-buddy-agent](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/) **[1.17.8](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.17.8)** < [1.18.1](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.18.1/)
+ - [org.apache.commons](https://repo.maven.apache.org/maven2/org/apache/commons/)
+    - [commons-lang3](https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/) **[3.19.0](https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.19.0)** < [3.20.0](https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.20.0/)
  - [org.eclipse.jetty](https://repo.maven.apache.org/maven2/org/eclipse/jetty/)
     - [jetty-http](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-http/) **[12.1.3](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-http/12.1.3)** < [12.1.4](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-http/12.1.4/)
     - [jetty-io](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-io/) **[12.1.3](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-io/12.1.3)** < [12.1.4](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-io/12.1.4/)
