@@ -160,8 +160,6 @@
     - [commons-io](https://repo.maven.apache.org/maven2/commons-io/commons-io/) **[2.21.0](https://repo.maven.apache.org/maven2/commons-io/commons-io/2.21.0)**
  - [commons-jxpath](https://repo.maven.apache.org/maven2/commons-jxpath/)
     - [commons-jxpath](https://repo.maven.apache.org/maven2/commons-jxpath/commons-jxpath/) **[1.4.0](https://repo.maven.apache.org/maven2/commons-jxpath/commons-jxpath/1.4.0)**
- - [commons-lang](https://repo.maven.apache.org/maven2/commons-lang/)
-    - [commons-lang](https://repo.maven.apache.org/maven2/commons-lang/commons-lang/) **[2.6](https://repo.maven.apache.org/maven2/commons-lang/commons-lang/2.6)**
  - [commons-logging](https://repo.maven.apache.org/maven2/commons-logging/)
     - [commons-logging](https://repo.maven.apache.org/maven2/commons-logging/commons-logging/) **[1.2](https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.2)**
     - [commons-logging](https://repo.maven.apache.org/maven2/commons-logging/commons-logging/) **[1.3.5](https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.3.5)**
