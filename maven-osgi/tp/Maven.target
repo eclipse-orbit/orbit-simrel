@@ -3,7 +3,7 @@
 <target name="Maven" sequenceNumber="1">
   <locations>
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="error" type="Maven">
-      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.38.0.v20251120-0800">
+      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.38.0.v20251120-1500">
         <description>This feature's dependencies are pulled directly from Maven central.</description>
         <copyright>
 Copyright (c) 2025 Eclipse contributors and others.
@@ -16,7 +16,7 @@ https://www.eclipse.org/legal/epl-2.0/
 SPDX-License-Identifier: EPL-2.0
         </copyright>
         <license url="https://www.eclipse.org/legal/epl-2.0/"/>
-        <!-- SHA1 14439e1b593fc3a275eb55bce80d5fc0d3be4182 -->
+        <!-- SHA1 4100d98792681ac29c150d3b7a819062becaca90 -->
       </feature>
       <dependencies>
         <dependency>
@@ -905,7 +905,7 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>org.apache.tika</groupId>
           <artifactId>tika-core</artifactId>
-          <version>2.9.4</version>
+          <version>3.2.3</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -1957,7 +1957,9 @@ SPDX-License-Identifier: EPL-2.0
       <unit id="org.apache.httpcomponents.client5.httpclient5" version="0.0.0"/>
       <unit id="org.apache.httpcomponents.core5.httpcore5" version="0.0.0"/>
       <unit id="org.apache.httpcomponents.core5.httpcore5-h2" version="0.0.0"/>
+      <unit id="org.apache.xml.resolver" version="0.0.0"/>
       <unit id="org.apache.ws.commons.util" version="0.0.0"/>
+      <unit id="org.apache.xerces" version="0.0.0"/>
     </location>
 
 <!-- ______________________________________________________ EXCLUDE __________________________________________________________________________________________________-->

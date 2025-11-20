@@ -31,8 +31,6 @@
     - [javax.servlet-api](https://repo.maven.apache.org/maven2/javax/servlet/javax.servlet-api/) **[3.1.0](https://repo.maven.apache.org/maven2/javax/servlet/javax.servlet-api/3.1.0)** < [4.0.1](https://repo.maven.apache.org/maven2/javax/servlet/javax.servlet-api/4.0.1/)
  - [org.apache.felix](https://repo.maven.apache.org/maven2/org/apache/felix/)
     - [org.apache.felix.http.servlet-api](https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.http.servlet-api/) **[1.2.0](https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.http.servlet-api/1.2.0)** < [6.1.0](https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.http.servlet-api/6.1.0/)
- - [org.apache.tika](https://repo.maven.apache.org/maven2/org/apache/tika/)
-    - [tika-core](https://repo.maven.apache.org/maven2/org/apache/tika/tika-core/) **[2.9.4](https://repo.maven.apache.org/maven2/org/apache/tika/tika-core/2.9.4)** < [3.2.3](https://repo.maven.apache.org/maven2/org/apache/tika/tika-core/3.2.3/)
  - [org.glassfish.hk2](https://repo.maven.apache.org/maven2/org/glassfish/hk2/)
     - [hk2-api](https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-api/) **[2.6.1](https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-api/2.6.1)** < [3.1.1](https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-api/3.1.1/)
     - [hk2-locator](https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-locator/) **[2.6.1](https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-locator/2.6.1)** < [3.1.1](https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-locator/3.1.1/)
@@ -210,7 +208,7 @@
     - [log4j-slf4j2-impl](https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-slf4j2-impl/) **[2.25.2](https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-slf4j2-impl/2.25.2)**
     - [log4j-to-slf4j](https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-to-slf4j/) **[2.25.2](https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-to-slf4j/2.25.2)**
  - [org.apache.tika](https://repo.maven.apache.org/maven2/org/apache/tika/)
-    - [tika-core](https://repo.maven.apache.org/maven2/org/apache/tika/tika-core/) **[2.9.4](https://repo.maven.apache.org/maven2/org/apache/tika/tika-core/2.9.4)**
+    - [tika-core](https://repo.maven.apache.org/maven2/org/apache/tika/tika-core/) **[3.2.3](https://repo.maven.apache.org/maven2/org/apache/tika/tika-core/3.2.3)**
  - [org.apache.velocity](https://repo.maven.apache.org/maven2/org/apache/velocity/)
     - [velocity-engine-core](https://repo.maven.apache.org/maven2/org/apache/velocity/velocity-engine-core/) **[2.4.1](https://repo.maven.apache.org/maven2/org/apache/velocity/velocity-engine-core/2.4.1)**
  - [org.codehaus.woodstox](https://repo.maven.apache.org/maven2/org/codehaus/woodstox/)
