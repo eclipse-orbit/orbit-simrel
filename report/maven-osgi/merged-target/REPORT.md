@@ -489,6 +489,6 @@
  - [org.snakeyaml](https://repo.maven.apache.org/maven2/org/snakeyaml/)
     - [snakeyaml-engine](https://repo.maven.apache.org/maven2/org/snakeyaml/snakeyaml-engine/) **[2.10](https://repo.maven.apache.org/maven2/org/snakeyaml/snakeyaml-engine/2.10)**
  - [org.tukaani](https://repo.maven.apache.org/maven2/org/tukaani/)
-    - [xz](https://repo.maven.apache.org/maven2/org/tukaani/xz/) **[1.10](https://repo.maven.apache.org/maven2/org/tukaani/xz/1.10)**
+    - [xz](https://repo.maven.apache.org/maven2/org/tukaani/xz/) **[1.11](https://repo.maven.apache.org/maven2/org/tukaani/xz/1.11)**
  - [org.yaml](https://repo.maven.apache.org/maven2/org/yaml/)
     - [snakeyaml](https://repo.maven.apache.org/maven2/org/yaml/snakeyaml/) **[2.5](https://repo.maven.apache.org/maven2/org/yaml/snakeyaml/2.5)**
