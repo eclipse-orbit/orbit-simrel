@@ -1,12 +1,5 @@
 # Target Platform: [egit](https://raw.githubusercontent.com/eclipse-egit/egit/master/org.eclipse.egit.target/maven/dependencies.tpd)
 
-## Minor Updates
- - [org.tukaani](https://repo.maven.apache.org/maven2/org/tukaani/)
-    - [xz](https://repo.maven.apache.org/maven2/org/tukaani/xz/) **[1.10](https://repo.maven.apache.org/maven2/org/tukaani/xz/1.10)** < [1.11](https://repo.maven.apache.org/maven2/org/tukaani/xz/1.11/)
-
-## Updates Applied
-[updated.tpd](updated.tpd)
-
 ## Content
  - [args4j](https://repo.maven.apache.org/maven2/args4j/)
     - [args4j](https://repo.maven.apache.org/maven2/args4j/args4j/) **[2.37](https://repo.maven.apache.org/maven2/args4j/args4j/2.37)**
@@ -62,4 +55,4 @@
     - [slf4j-api](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/) **[2.0.17](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/2.0.17)**
     - [slf4j-simple](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-simple/) **[2.0.17](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-simple/2.0.17)**
  - [org.tukaani](https://repo.maven.apache.org/maven2/org/tukaani/)
-    - [xz](https://repo.maven.apache.org/maven2/org/tukaani/xz/) **[1.10](https://repo.maven.apache.org/maven2/org/tukaani/xz/1.10)**
+    - [xz](https://repo.maven.apache.org/maven2/org/tukaani/xz/) **[1.11](https://repo.maven.apache.org/maven2/org/tukaani/xz/1.11)**
