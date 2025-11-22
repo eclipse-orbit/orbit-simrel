@@ -50,6 +50,9 @@
  - [org.glassfish.jersey.media](https://repo.maven.apache.org/maven2/org/glassfish/jersey/media/)
     - [jersey-media-json-jackson](https://repo.maven.apache.org/maven2/org/glassfish/jersey/media/jersey-media-json-jackson/) **[2.47](https://repo.maven.apache.org/maven2/org/glassfish/jersey/media/jersey-media-json-jackson/2.47)** < [4.0.0](https://repo.maven.apache.org/maven2/org/glassfish/jersey/media/jersey-media-json-jackson/4.0.0/)
     - [jersey-media-json-jackson](https://repo.maven.apache.org/maven2/org/glassfish/jersey/media/jersey-media-json-jackson/) **[3.1.11](https://repo.maven.apache.org/maven2/org/glassfish/jersey/media/jersey-media-json-jackson/3.1.11)** < [4.0.0](https://repo.maven.apache.org/maven2/org/glassfish/jersey/media/jersey-media-json-jackson/4.0.0/)
+ - [org.mandas](https://repo.maven.apache.org/maven2/org/mandas/)
+    - [docker-client](https://repo.maven.apache.org/maven2/org/mandas/docker-client/) **[8.0.3](https://repo.maven.apache.org/maven2/org/mandas/docker-client/8.0.3)** < [10.0.0](https://repo.maven.apache.org/maven2/org/mandas/docker-client/10.0.0/)
+    - [docker-client](https://repo.maven.apache.org/maven2/org/mandas/docker-client/) **[9.0.4](https://repo.maven.apache.org/maven2/org/mandas/docker-client/9.0.4)** < [10.0.0](https://repo.maven.apache.org/maven2/org/mandas/docker-client/10.0.0/)
  - [org.snakeyaml](https://repo.maven.apache.org/maven2/org/snakeyaml/)
     - [snakeyaml-engine](https://repo.maven.apache.org/maven2/org/snakeyaml/snakeyaml-engine/) **[2.10](https://repo.maven.apache.org/maven2/org/snakeyaml/snakeyaml-engine/2.10)** < [3.0.1](https://repo.maven.apache.org/maven2/org/snakeyaml/snakeyaml-engine/3.0.1/)
 

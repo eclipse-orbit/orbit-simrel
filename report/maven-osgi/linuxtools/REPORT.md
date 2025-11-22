@@ -15,6 +15,8 @@
     - [jersey-hk2](https://repo.maven.apache.org/maven2/org/glassfish/jersey/inject/jersey-hk2/) **[3.1.11](https://repo.maven.apache.org/maven2/org/glassfish/jersey/inject/jersey-hk2/3.1.11)** < [4.0.0](https://repo.maven.apache.org/maven2/org/glassfish/jersey/inject/jersey-hk2/4.0.0/)
  - [org.glassfish.jersey.media](https://repo.maven.apache.org/maven2/org/glassfish/jersey/media/)
     - [jersey-media-json-jackson](https://repo.maven.apache.org/maven2/org/glassfish/jersey/media/jersey-media-json-jackson/) **[3.1.11](https://repo.maven.apache.org/maven2/org/glassfish/jersey/media/jersey-media-json-jackson/3.1.11)** < [4.0.0](https://repo.maven.apache.org/maven2/org/glassfish/jersey/media/jersey-media-json-jackson/4.0.0/)
+ - [org.mandas](https://repo.maven.apache.org/maven2/org/mandas/)
+    - [docker-client](https://repo.maven.apache.org/maven2/org/mandas/docker-client/) **[9.0.4](https://repo.maven.apache.org/maven2/org/mandas/docker-client/9.0.4)** < [10.0.0](https://repo.maven.apache.org/maven2/org/mandas/docker-client/10.0.0/)
 
 ## Content
  - [com.fasterxml.jackson.core](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/)

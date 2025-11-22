@@ -52,7 +52,7 @@
  - [org.glassfish.jersey.media](https://repo.maven.apache.org/maven2/org/glassfish/jersey/media/)
     - [jersey-media-json-jackson](https://repo.maven.apache.org/maven2/org/glassfish/jersey/media/jersey-media-json-jackson/) **[2.47](https://repo.maven.apache.org/maven2/org/glassfish/jersey/media/jersey-media-json-jackson/2.47)** < [4.0.0](https://repo.maven.apache.org/maven2/org/glassfish/jersey/media/jersey-media-json-jackson/4.0.0/)
  - [org.mandas](https://repo.maven.apache.org/maven2/org/mandas/)
-    - [docker-client](https://repo.maven.apache.org/maven2/org/mandas/docker-client/) **[8.0.3](https://repo.maven.apache.org/maven2/org/mandas/docker-client/8.0.3)** < [9.0.4](https://repo.maven.apache.org/maven2/org/mandas/docker-client/9.0.4/)
+    - [docker-client](https://repo.maven.apache.org/maven2/org/mandas/docker-client/) **[8.0.3](https://repo.maven.apache.org/maven2/org/mandas/docker-client/8.0.3)** < [10.0.0](https://repo.maven.apache.org/maven2/org/mandas/docker-client/10.0.0/)
  - [org.slf4j](https://repo.maven.apache.org/maven2/org/slf4j/)
     - [slf4j-api](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/) **[1.7.36](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.36)** < [2.0.17](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/2.0.17/)
     - [slf4j-simple](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-simple/) **[1.7.36](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-simple/1.7.36)** < [2.0.17](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-simple/2.0.17/)
