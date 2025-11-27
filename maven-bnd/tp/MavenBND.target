@@ -6,7 +6,7 @@
 <!-- _____________________________________________________ org.apache.derby ___________________________________________________________________________________________________-->
 
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
-      <feature id="org.eclipse.orbit.maven.org.apache.derby" label="Orbit Maven BND org.apache.derby" provider-name="Eclipse Orbit" version="4.38.0">
+      <feature id="org.eclipse.orbit.maven.org.apache.derby" label="Orbit Maven BND org.apache.derby" provider-name="Eclipse Orbit" version="4.39.0">
         <description>This feature's dependencies are repackaged Derby downloads that are wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
 Copyright (c) 2025 Eclipse contributors and others.
@@ -59,7 +59,7 @@ Export-Package:         *;version="${version}";-noimport:=true
 <!-- _____________________________________________________ org.apache.lucene ___________________________________________________________________________________________________-->
 
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
-      <feature id="org.eclipse.orbit.maven.lucene" label="Orbit Maven BND org.apache.lucene" provider-name="Eclipse Orbit" version="4.38.0.v20250928-1600">
+      <feature id="org.eclipse.orbit.maven.lucene" label="Orbit Maven BND org.apache.lucene" provider-name="Eclipse Orbit" version="4.39.0">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
 Copyright (c) 2025 Eclipse contributors and others.
@@ -144,7 +144,7 @@ Export-Package:         *;version="${version}";-noimport:=true
 <!-- _____________________________________________________ org.apache.lucene-10 ___________________________________________________________________________________________________-->
 
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
-      <feature id="org.eclipse.orbit.maven.lucene-10" label="Orbit Maven BND org.apache.lucene 10" provider-name="Eclipse Orbit" version="4.38.0.v20251117-1800">
+      <feature id="org.eclipse.orbit.maven.lucene-10" label="Orbit Maven BND org.apache.lucene 10" provider-name="Eclipse Orbit" version="4.39.0">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
 Copyright (c) 2025 Eclipse contributors and others.
@@ -236,7 +236,7 @@ Export-Package:         *;version="${version}";-noimport:=true
 <!-- _______________________________________________________ org.jruby.joni _________________________________________________________________________________________________-->
 
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
-      <feature id="org.eclipse.orbit.maven.org.jruby.joni" label="Orbit Maven BND org.jruby.joni" provider-name="Eclipse Orbit" version="4.38.0">
+      <feature id="org.eclipse.orbit.maven.org.jruby.joni" label="Orbit Maven BND org.jruby.joni" provider-name="Eclipse Orbit" version="4.39.0">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
 Copyright (c) 2025 Eclipse contributors and others.
@@ -277,7 +277,7 @@ Export-Package:         *;version="${version}";-noimport:=true
 <!-- _______________________________________________________ org.jruby.jcodings _________________________________________________________________________________________________-->
 
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
-      <feature id="org.eclipse.orbit.maven.org.jruby.jcodings" label="Orbit Maven BND org.jruby.jcodings" provider-name="Eclipse Orbit" version="4.38.0">
+      <feature id="org.eclipse.orbit.maven.org.jruby.jcodings" label="Orbit Maven BND org.jruby.jcodings" provider-name="Eclipse Orbit" version="4.39.0">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
 Copyright (c) 2025 Eclipse contributors and others.
@@ -319,7 +319,7 @@ Export-Package:         *;version="${version}";-noimport:=true
 <!-- ______________________________________________________ com.github.jnr __________________________________________________________________________________________________-->
 
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
-      <feature id="org.eclipse.orbit.maven.jnr" label="Orbit Maven BND com.github.jnr" provider-name="Eclipse Orbit" version="4.38.0">
+      <feature id="org.eclipse.orbit.maven.jnr" label="Orbit Maven BND com.github.jnr" provider-name="Eclipse Orbit" version="4.39.0">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
 Copyright (c) 2025 Eclipse contributors and others.
@@ -366,7 +366,7 @@ Export-Package:         *;version="${version}";-noimport:=true
 <!-- ______________________________________________________ org.hamcrest.core __________________________________________________________________________________________________-->
 
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
-      <feature id="org.eclipse.orbit.maven.hamcrest.core" label="Orbit Maven BND org.hamcrest.core" provider-name="Eclipse Orbit" version="4.38.0">
+      <feature id="org.eclipse.orbit.maven.hamcrest.core" label="Orbit Maven BND org.hamcrest.core" provider-name="Eclipse Orbit" version="4.39.0">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
 Copyright (c) 2025 Eclipse contributors and others.
@@ -411,7 +411,7 @@ Export-Package:         org.hamcrest;${suffix}=split;version="${version}";mandat
 <!-- ______________________________________________________ org.hamcrest.library __________________________________________________________________________________________________-->
 
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
-      <feature id="org.eclipse.orbit.maven.hamcrest.library" label="Orbit Maven BND org.hamcrest.library" provider-name="Eclipse Orbit" version="4.38.0">
+      <feature id="org.eclipse.orbit.maven.hamcrest.library" label="Orbit Maven BND org.hamcrest.library" provider-name="Eclipse Orbit" version="4.39.0">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
 Copyright (c) 2025 Eclipse contributors and others.
@@ -458,7 +458,7 @@ Export-Package:         org.hamcrest;${suffix}=split;version="${version}";mandat
 <!-- ______________________________________________________ org.hamcrest.deprecated __________________________________________________________________________________________________-->
 
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
-      <feature id="org.eclipse.orbit.maven.hamcrest.deprecated" label="Orbit Maven BND org.hamcrest.deprecated" provider-name="Eclipse Orbit" version="4.38.0">
+      <feature id="org.eclipse.orbit.maven.hamcrest.deprecated" label="Orbit Maven BND org.hamcrest.deprecated" provider-name="Eclipse Orbit" version="4.39.0">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
 Copyright (c) 2025 Eclipse contributors and others.
@@ -511,7 +511,7 @@ Export-Package:         !org.hamcrest.core.deprecated,\
 <!-- ______________________________________________________ junit __________________________________________________________________________________________________-->
 
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
-      <feature id="org.eclipse.orbit.maven.junit" label="Orbit Maven BND junit" provider-name="Eclipse Orbit" version="4.38.0">
+      <feature id="org.eclipse.orbit.maven.junit" label="Orbit Maven BND junit" provider-name="Eclipse Orbit" version="4.39.0">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
 Copyright (c) 2025 Eclipse contributors and others.
@@ -555,7 +555,7 @@ Export-Package:         *.internal.*;x-internal:=true;version="${version}";-noim
 <!-- ______________________________________________________ aopalliance __________________________________________________________________________________________________-->
 
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
-      <feature id="org.eclipse.orbit.maven.aopalliance" label="Orbit Maven BND org.aopalliance" provider-name="Eclipse Orbit" version="4.38.0">
+      <feature id="org.eclipse.orbit.maven.aopalliance" label="Orbit Maven BND org.aopalliance" provider-name="Eclipse Orbit" version="4.39.0">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
 Copyright (c) 2025 Eclipse contributors and others.
@@ -597,7 +597,7 @@ Export-Package:         *;version="${version}";-noimport:=true
 <!-- ______________________________________________________ jdom __________________________________________________________________________________________________-->
 
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
-      <feature id="org.eclipse.orbit.maven.org.jdom" label="Orbit Maven BND org.jdom" provider-name="Eclipse Orbit" version="4.38.0">
+      <feature id="org.eclipse.orbit.maven.org.jdom" label="Orbit Maven BND org.jdom" provider-name="Eclipse Orbit" version="4.39.0">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
 Copyright (c) 2025 Eclipse contributors and others.
@@ -639,7 +639,7 @@ Export-Package:         *;version="${version}";-noimport:=true
 <!-- ______________________________________________________ jdom2 __________________________________________________________________________________________________-->
 
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
-      <feature id="org.eclipse.orbit.maven.jdom2" label="Orbit Maven BND org.jdom2" provider-name="Eclipse Orbit" version="4.38.0">
+      <feature id="org.eclipse.orbit.maven.jdom2" label="Orbit Maven BND org.jdom2" provider-name="Eclipse Orbit" version="4.39.0">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
 Copyright (c) 2025 Eclipse contributors and others.
@@ -682,7 +682,7 @@ Export-Package:         *;version="${version}";-noimport:=true
 <!-- ______________________________________________________ nekohtml 3.x__________________________________________________________________________________________________-->
 
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
-      <feature id="org.eclipse.orbit.maven.org.codelibs.nekohtml.3x" label="Orbit Maven BND org.codelibs.nekohtml 3.x" provider-name="Eclipse Orbit" version="4.38.0.v20251103-0800">
+      <feature id="org.eclipse.orbit.maven.org.codelibs.nekohtml.3x" label="Orbit Maven BND org.codelibs.nekohtml 3.x" provider-name="Eclipse Orbit" version="4.39.0">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
 Copyright (c) 2025 Eclipse contributors and others.
@@ -724,7 +724,7 @@ Export-Package:         *;version="${version}";-noimport:=true
 
 
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
-      <feature id="org.eclipse.orbit.maven.org.apache.ws.commons.util" label="Orbit Maven BND org.apache.ws.commons.util" provider-name="Eclipse Orbit" version="4.38.0">
+      <feature id="org.eclipse.orbit.maven.org.apache.ws.commons.util" label="Orbit Maven BND org.apache.ws.commons.util" provider-name="Eclipse Orbit" version="4.39.0">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
 Copyright (c) 2025 Eclipse contributors and others.
@@ -766,7 +766,7 @@ Export-Package:         *;version="${version}";-noimport:=true
 <!-- ______________________________________________________ javax.wsdl __________________________________________________________________________________________________-->
 
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
-      <feature id="org.eclipse.orbit.maven.javax.wsdl" label="Orbit Maven BND javax.wsdl" provider-name="Eclipse Orbit" version="4.38.0">
+      <feature id="org.eclipse.orbit.maven.javax.wsdl" label="Orbit Maven BND javax.wsdl" provider-name="Eclipse Orbit" version="4.39.0">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
 Copyright (c) 2025 Eclipse contributors and others.
@@ -807,7 +807,7 @@ Export-Package:         *;version="${version}";-noimport:=true
 <!-- ______________________________________________________ org.apache.axis __________________________________________________________________________________________________-->
 
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
-      <feature id="org.eclipse.orbit.maven.org.apache.axis" label="Orbit Maven BND org.apache.axis" provider-name="Eclipse Orbit" version="4.38.0">
+      <feature id="org.eclipse.orbit.maven.org.apache.axis" label="Orbit Maven BND org.apache.axis" provider-name="Eclipse Orbit" version="4.39.0">
         <description>This feature's dependencies are a rebuilt version of Axis with CVE fixes and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
 Copyright (c) 2025 Eclipse contributors and others.
@@ -866,7 +866,7 @@ Export-Package:         *;version="${version}";-noimport:=true
 <!-- ______________________________________________________ org.apache.axis.ant __________________________________________________________________________________________________-->
 
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
-      <feature id="org.eclipse.orbit.maven.org.apache.axis.ant" label="Orbit Maven BND org.apache.axis.ant" provider-name="Eclipse Orbit" version="4.38.0">
+      <feature id="org.eclipse.orbit.maven.org.apache.axis.ant" label="Orbit Maven BND org.apache.axis.ant" provider-name="Eclipse Orbit" version="4.39.0">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
 Copyright (c) 2025 Eclipse contributors and others.
@@ -920,7 +920,7 @@ Export-Package:         org.apache.axis;split=ant;mandatory:=split;version="${ve
 <!-- _____________________________________________________ org.apache.commons.httpclient ___________________________________________________________________________________________________-->
 
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
-      <feature id="org.eclipse.orbit.maven.org.apache.commons.httpclient" label="Orbit Maven BND org.apache.commons.httpclient" provider-name="Eclipse Orbit" version="4.38.0">
+      <feature id="org.eclipse.orbit.maven.org.apache.commons.httpclient" label="Orbit Maven BND org.apache.commons.httpclient" provider-name="Eclipse Orbit" version="4.39.0">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
 Copyright (c) 2025 Eclipse contributors and others.
@@ -963,7 +963,7 @@ Export-Package:         *;version="${version}";-noimport:=true
 <!-- ______________________________________________________ org.apache.httpcomponents.core5 __________________________________________________________________________________________________-->
 
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
-      <feature id="org.eclipse.orbit.maven.org.apache.httpcomponents.core5" label="Orbit Maven BND org.apache.httpcomponents.core5" provider-name="Eclipse Orbit" version="4.38.0.v20250921-0900">
+      <feature id="org.eclipse.orbit.maven.org.apache.httpcomponents.core5" label="Orbit Maven BND org.apache.httpcomponents.core5" provider-name="Eclipse Orbit" version="4.39.0">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
 Copyright (c) 2025 Eclipse contributors and others.
@@ -1014,7 +1014,7 @@ Export-Package:         *;version="${version}";-noimport:=true
 <!-- ______________________________________________________ org.apache.httpcomponents.client5.httpclient5 __________________________________________________________________________________________________-->
 
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
-      <feature id="org.eclipse.orbit.maven.org.apache.httpcomponents.client5.httpclient5" label="Orbit Maven BND org.apache.httpcomponents.client5.httpclient5" provider-name="Eclipse Orbit" version="4.38.0.v20250928-1639">
+      <feature id="org.eclipse.orbit.maven.org.apache.httpcomponents.client5.httpclient5" label="Orbit Maven BND org.apache.httpcomponents.client5.httpclient5" provider-name="Eclipse Orbit" version="4.39.0">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
 Copyright (c) 2025 Eclipse contributors and others.
@@ -1058,7 +1058,7 @@ Export-Package:         *;version="${version}";-noimport:=true
 <!-- ______________________________________________________ org.apache.httpcomponents.httpclient-win __________________________________________________________________________________________________-->
 
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
-      <feature id="org.eclipse.orbit.maven.org.apache.httpcomponents.httpclient-win" label="Orbit Maven BND org.apache.httpcomponents.httpclient-win" provider-name="Eclipse Orbit" version="4.38.0">
+      <feature id="org.eclipse.orbit.maven.org.apache.httpcomponents.httpclient-win" label="Orbit Maven BND org.apache.httpcomponents.httpclient-win" provider-name="Eclipse Orbit" version="4.39.0">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
 Copyright (c) 2025 Eclipse contributors and others.
@@ -1103,7 +1103,7 @@ Export-Package:         *;version="${version}";-noimport:=true
 <!-- ______________________________________________________ org.apache.httpcomponents.client5.httpclient5-win __________________________________________________________________________________________________-->
 
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
-      <feature id="org.eclipse.orbit.maven.org.apache.httpcomponents.client5.httpclient5-win" label="Orbit Maven BND org.apache.httpcomponents.client5.httpclient5-win" provider-name="Eclipse Orbit" version="4.38.0">
+      <feature id="org.eclipse.orbit.maven.org.apache.httpcomponents.client5.httpclient5-win" label="Orbit Maven BND org.apache.httpcomponents.client5.httpclient5-win" provider-name="Eclipse Orbit" version="4.39.0">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
 Copyright (c) 2025 Eclipse contributors and others.
@@ -1147,7 +1147,7 @@ Export-Package:         *;version="${version}";-noimport:=true
 <!-- ______________________________________________________ com.konghq __________________________________________________________________________________________________-->
 
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
-      <feature id="org.eclipse.orbit.maven.com.konghq" label="Orbit Maven BND com.konghq" provider-name="Eclipse Orbit" version="4.38.0">
+      <feature id="org.eclipse.orbit.maven.com.konghq" label="Orbit Maven BND com.konghq" provider-name="Eclipse Orbit" version="4.39.0">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
 Copyright (c) 2025 Eclipse contributors and others.
@@ -1190,7 +1190,7 @@ Export-Package:         *;version="${version}";-noimport:=true
 <!-- ______________________________________________________ com.jcraft.jsch __________________________________________________________________________________________________-->
 
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
-      <feature id="org.eclipse.orbit.maven.com.jcraft.jsch" label="Orbit Maven BND com.jcraft.jsch" provider-name="Eclipse Orbit" version="4.38.0">
+      <feature id="org.eclipse.orbit.maven.com.jcraft.jsch" label="Orbit Maven BND com.jcraft.jsch" provider-name="Eclipse Orbit" version="4.39.0">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
 Copyright (c) 2025 Eclipse contributors and others.
@@ -1232,7 +1232,7 @@ Export-Package:         *;version="${version}";-noimport:=true
 <!-- ______________________________________________________ com.jcraft.jzlib __________________________________________________________________________________________________-->
 
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
-      <feature id="org.eclipse.orbit.maven.com.jcraft.jzlib" label="Orbit Maven BND com.jcraft.jzlib" provider-name="Eclipse Orbit" version="4.38.0">
+      <feature id="org.eclipse.orbit.maven.com.jcraft.jzlib" label="Orbit Maven BND com.jcraft.jzlib" provider-name="Eclipse Orbit" version="4.39.0">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
 Copyright (c) 2025 Eclipse contributors and others.
@@ -1273,7 +1273,7 @@ Export-Package:         *;version="${version}";-noimport:=true
 <!-- ______________________________________________________ org.apache.xmlgraphics __________________________________________________________________________________________________-->
 
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
-      <feature id="org.eclipse.orbit.maven.org.apache.xmlgraphics" label="Orbit Maven BND org.apache.xmlgraphics" provider-name="Eclipse Orbit" version="4.38.0">
+      <feature id="org.eclipse.orbit.maven.org.apache.xmlgraphics" label="Orbit Maven BND org.apache.xmlgraphics" provider-name="Eclipse Orbit" version="4.39.0">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
 Copyright (c) 2025 Eclipse contributors and others.
@@ -1315,7 +1315,7 @@ Export-Package:         *;version="${version}"
 <!-- _____________________________________________________ org.apache.xmlgraphics.fop ___________________________________________________________________________________________________-->
 
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
-      <feature id="org.eclipse.orbit.maven.org.apache.xmlgraphics.fop" label="Orbit Maven BND org.apache.xmlgraphics.fop" provider-name="Eclipse Orbit" version="4.38.0">
+      <feature id="org.eclipse.orbit.maven.org.apache.xmlgraphics.fop" label="Orbit Maven BND org.apache.xmlgraphics.fop" provider-name="Eclipse Orbit" version="4.39.0">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
 Copyright (c) 2025 Eclipse contributors and others.
@@ -1371,7 +1371,7 @@ Export-Package:         *;version="${version}";-noimport:=true
 <!-- ______________________________________________________ org.apache.batik __________________________________________________________________________________________________-->
 
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
-      <feature id="org.eclipse.orbit.maven.org.apache.batik" label="Orbit Maven BND org.apache.batik" provider-name="Eclipse Orbit" version="4.38.0">
+      <feature id="org.eclipse.orbit.maven.org.apache.batik" label="Orbit Maven BND org.apache.batik" provider-name="Eclipse Orbit" version="4.39.0">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
 Copyright (c) 2025 Eclipse contributors and others.
@@ -1530,7 +1530,7 @@ Eclipse-RegisterBuddy:  org.apache.batik.awt.util,org.apache.batik.transcoder,or
 <!-- ______________________________________________________ org.apache.ant __________________________________________________________________________________________________-->
 
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
-      <feature id="org.eclipse.orbit.maven.org.apache.ant" label="Orbit Maven BND org.apache.ant" provider-name="Eclipse Orbit" version="4.38.0">
+      <feature id="org.eclipse.orbit.maven.org.apache.ant" label="Orbit Maven BND org.apache.ant" provider-name="Eclipse Orbit" version="4.39.0">
         <description>This feature's dependencies are repackaged Ant downloads that wre wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
 Copyright (c) 2025 Eclipse contributors and others.
@@ -1610,7 +1610,7 @@ Automatic-Module-Name:  org.apache.ant
 <!-- ______________________________________________________ com.github.virtuald __________________________________________________________________________________________________-->
 
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
-      <feature id="org.eclipse.orbit.maven.com.github.virtuald" label="Orbit Maven BND com.github.virtuald" provider-name="Eclipse Orbit" version="4.38.0">
+      <feature id="org.eclipse.orbit.maven.com.github.virtuald" label="Orbit Maven BND com.github.virtuald" provider-name="Eclipse Orbit" version="4.39.0">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
 Copyright (c) 2025 Eclipse contributors and others.
@@ -1655,7 +1655,7 @@ Export-Package:         *;version="${version}";-noimport:=true
 
 <!-- WTP can't compile with this version yet -->
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
-      <feature id="org.eclipse.orbit.maven.com.google.javascript" label="Orbit Maven BND com.google.javascript" provider-name="Eclipse Orbit" version="4.38.0">
+      <feature id="org.eclipse.orbit.maven.com.google.javascript" label="Orbit Maven BND com.google.javascript" provider-name="Eclipse Orbit" version="4.39.0">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
 Copyright (c) 2025 Eclipse contributors and others.
@@ -1701,7 +1701,7 @@ Export-Package:         *;version="${version}";-noimport:=true
 !-- _____________________________________________________ xml-resolver ___________________________________________________________________________________________________-->
 
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
-      <feature id="org.eclipse.orbit.maven.xml-resolver" label="Orbit Maven BND xml-resolver" provider-name="Eclipse Orbit" version="4.38.0">
+      <feature id="org.eclipse.orbit.maven.xml-resolver" label="Orbit Maven BND xml-resolver" provider-name="Eclipse Orbit" version="4.39.0">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
 Copyright (c) 2025 Eclipse contributors and others.
@@ -1745,7 +1745,7 @@ Export-Package:         *;version="${version}"
 !-- _____________________________________________________ xerces ___________________________________________________________________________________________________-->
 
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
-      <feature id="org.eclipse.orbit.maven.xerces" label="Orbit Maven BND xerces" provider-name="Eclipse Orbit" version="4.38.0">
+      <feature id="org.eclipse.orbit.maven.xerces" label="Orbit Maven BND xerces" provider-name="Eclipse Orbit" version="4.39.0">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
 Copyright (c) 2025 Eclipse contributors and others.
@@ -1791,7 +1791,7 @@ Export-Package:         *;version="${version}"
 <!-- ______________________________________________________ xalan __________________________________________________________________________________________________-->
 
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
-      <feature id="org.eclipse.orbit.maven.xalan" label="Orbit Maven BND xalan" provider-name="Eclipse Orbit" version="4.38.0">
+      <feature id="org.eclipse.orbit.maven.xalan" label="Orbit Maven BND xalan" provider-name="Eclipse Orbit" version="4.39.0">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
 Copyright (c) 2025 Eclipse contributors and others.
@@ -1843,7 +1843,7 @@ Export-Package:         *;version="${version}"
 <!-- _____________________________________________________ org.apache.poi ___________________________________________________________________________________________________-->
 
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
-      <feature id="org.eclipse.orbit.maven.org.apache.poi" label="Orbit Maven BND org.apache.poi" provider-name="Eclipse Orbit" version="4.38.0.v20251115-1200">
+      <feature id="org.eclipse.orbit.maven.org.apache.poi" label="Orbit Maven BND org.apache.poi" provider-name="Eclipse Orbit" version="4.39.0">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
 Copyright (c) 2025 Eclipse contributors and others.
@@ -1905,7 +1905,7 @@ Eclipse-RegisterBuddy:  org.apache.poi
 <!-- _____________________________________________________ com.zaxxer ___________________________________________________________________________________________________-->
 
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
-      <feature id="org.eclipse.orbit.maven.com.zaxxer" label="Orbit Maven BND com.zaxxer" provider-name="Eclipse Orbit" version="4.38.0">
+      <feature id="org.eclipse.orbit.maven.com.zaxxer" label="Orbit Maven BND com.zaxxer" provider-name="Eclipse Orbit" version="4.39.0">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
 Copyright (c) 2025 Eclipse contributors and others.
@@ -1948,7 +1948,7 @@ Export-Package:         *;version="${version}"
 <!-- _____________________________________________________ org.apache.xmlbeans ___________________________________________________________________________________________________-->
 
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
-      <feature id="org.eclipse.orbit.maven.org.apache.xmlbeans" label="Orbit Maven BND org.apache.xmlbeans" provider-name="Eclipse Orbit" version="4.38.0">
+      <feature id="org.eclipse.orbit.maven.org.apache.xmlbeans" label="Orbit Maven BND org.apache.xmlbeans" provider-name="Eclipse Orbit" version="4.39.0">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
 Copyright (c) 2025 Eclipse contributors and others.
@@ -1991,7 +1991,7 @@ Export-Package:         *;version="${version}"
 <!-- _____________________________________________________ org.antlr.3.2 ___________________________________________________________________________________________________-->
 
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
-      <feature id="org.eclipse.orbit.maven.org.antlr.3.2" label="Orbit Maven BND org.antlr.3.2" provider-name="Eclipse Orbit" version="4.38.0">
+      <feature id="org.eclipse.orbit.maven.org.antlr.3.2" label="Orbit Maven BND org.antlr.3.2" provider-name="Eclipse Orbit" version="4.39.0">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
 Copyright (c) 2025 Eclipse contributors and others.
@@ -2035,7 +2035,7 @@ Export-Package:         *;version="${version}";-noimport:=true
 <!-- _____________________________________________________ org.antlr.3.x ___________________________________________________________________________________________________-->
 
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
-      <feature id="org.eclipse.orbit.maven.org.antlr.3.x" label="Orbit Maven BND org.antlr.3.x" provider-name="Eclipse Orbit" version="4.38.0">
+      <feature id="org.eclipse.orbit.maven.org.antlr.3.x" label="Orbit Maven BND org.antlr.3.x" provider-name="Eclipse Orbit" version="4.39.0">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
 Copyright (c) 2025 Eclipse contributors and others.
@@ -2079,7 +2079,7 @@ Export-Package:         *;version="${version}";-noimport:=true
 <!-- _____________________________________________________ org.dom4j ___________________________________________________________________________________________________-->
 
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
-      <feature id="org.eclipse.orbit.maven.org.dom4j" label="Orbit Maven BND org.dom4j" provider-name="Eclipse Orbit" version="4.38.0">
+      <feature id="org.eclipse.orbit.maven.org.dom4j" label="Orbit Maven BND org.dom4j" provider-name="Eclipse Orbit" version="4.39.0">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
 Copyright (c) 2025 Eclipse contributors and others.
@@ -2124,7 +2124,7 @@ Export-Package:         *;version="${version}"
 <!-- _____________________________________________________ org.pushingpixels.trident ___________________________________________________________________________________________________-->
 
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
-      <feature id="org.eclipse.orbit.maven.org.pushingpixels.trident" label="Orbit Maven BND org.pushingpixels.trident" provider-name="Eclipse Orbit" version="4.38.0">
+      <feature id="org.eclipse.orbit.maven.org.pushingpixels.trident" label="Orbit Maven BND org.pushingpixels.trident" provider-name="Eclipse Orbit" version="4.39.0">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
 Copyright (c) 2025 Eclipse contributors and others.
@@ -2172,7 +2172,7 @@ Export-Package:         !*swing,\
 <!-- _____________________________________________________ org.cyclonedx for sbom ___________________________________________________________________________________________________-->
 
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
-      <feature id="org.eclipse.orbit.maven.org.cyclonedx" label="Orbit Maven BND org.cyclonedx" provider-name="Eclipse Orbit" version="4.38.0.v20251110-1500">
+      <feature id="org.eclipse.orbit.maven.org.cyclonedx" label="Orbit Maven BND org.cyclonedx" provider-name="Eclipse Orbit" version="4.39.0">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
 Copyright (c) 2025 Eclipse contributors and others.
@@ -2216,7 +2216,7 @@ Export-Package:         *;version="${version}";-noimport:=true
 <!-- _____________________________________________________ com.github.package-url for sbom ___________________________________________________________________________________________________-->
 
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
-      <feature id="org.eclipse.orbit.maven.com.github.package-url" label="Orbit Maven BND com.github.package-url" provider-name="Eclipse Orbit" version="4.38.0">
+      <feature id="org.eclipse.orbit.maven.com.github.package-url" label="Orbit Maven BND com.github.package-url" provider-name="Eclipse Orbit" version="4.39.0">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
 Copyright (c) 2025 Eclipse contributors and others.
@@ -2260,7 +2260,7 @@ Export-Package:         *;version="${version}"
 <!-- _____________________________________________________ com.jgoodies.common ___________________________________________________________________________________________________-->
 
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
-      <feature id="org.eclipse.orbit.maven.com.jgoodies.common" label="Orbit Maven BND com.jgoodies.common" provider-name="Eclipse Orbit" version="4.38.0">
+      <feature id="org.eclipse.orbit.maven.com.jgoodies.common" label="Orbit Maven BND com.jgoodies.common" provider-name="Eclipse Orbit" version="4.39.0">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
 Copyright (c) 2025 Eclipse contributors and others.
@@ -2305,7 +2305,7 @@ Export-Package:         *;version="${version}";-noimport:=true
 <!-- _____________________________________________________ com.jgoodies.forms ___________________________________________________________________________________________________-->
 
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
-      <feature id="org.eclipse.orbit.maven.com.jgoodies.forms" label="Orbit Maven BND com.jgoodies.forms" provider-name="Eclipse Orbit" version="4.38.0">
+      <feature id="org.eclipse.orbit.maven.com.jgoodies.forms" label="Orbit Maven BND com.jgoodies.forms" provider-name="Eclipse Orbit" version="4.39.0">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
 Copyright (c) 2025 Eclipse contributors and others.
@@ -2350,7 +2350,7 @@ Export-Package:         *;version="${version}";-noimport:=true
 <!-- _____________________________________________________ com.github.jtidy ___________________________________________________________________________________________________-->
 
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
-      <feature id="org.eclipse.orbit.maven.com.github.jtidy" label="Orbit Maven BND com.github.jtidy" provider-name="Eclipse Orbit" version="4.38.0">
+      <feature id="org.eclipse.orbit.maven.com.github.jtidy" label="Orbit Maven BND com.github.jtidy" provider-name="Eclipse Orbit" version="4.39.0">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
 Copyright (c) 2025 Eclipse contributors and others.
@@ -2394,7 +2394,7 @@ Export-Package:         *;version="${version}";-noimport:=true
 <!-- _____________________________________________________ org.mozilla.rhino ___________________________________________________________________________________________________-->
 
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
-      <feature id="org.eclipse.orbit.maven.org.mozilla.rhino" label="Orbit Maven BND org.mozilla.rhino" provider-name="Eclipse Orbit" version="4.38.0">
+      <feature id="org.eclipse.orbit.maven.org.mozilla.rhino" label="Orbit Maven BND org.mozilla.rhino" provider-name="Eclipse Orbit" version="4.39.0">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
 Copyright (c) 2025 Eclipse contributors and others.
@@ -2437,7 +2437,7 @@ Export-Package:         *;version="${version}";-noimport:=true
 <!-- ______________________________________________________ EXCLUDE __________________________________________________________________________________________________-->
 
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
-      <feature id="org.eclipse.orbit.maven.osgi.exclude" label="Orbit Maven OSGi (excluded because they are only for resolution validation)" provider-name="Eclipse Orbit" version="4.38.0">
+      <feature id="org.eclipse.orbit.maven.osgi.exclude" label="Orbit Maven OSGi (excluded because they are only for resolution validation)" provider-name="Eclipse Orbit" version="4.39.0">
         <description>This feature's dependencies are pulled directly from Maven central.</description>
         <copyright>
 Copyright (c) 2025 Eclipse contributors and others.
