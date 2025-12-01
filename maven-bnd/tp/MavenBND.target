@@ -1861,24 +1861,24 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>org.apache.poi</groupId>
           <artifactId>poi</artifactId>
-          <version>5.5.0</version>
+          <version>5.5.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.apache.poi</groupId>
           <artifactId>poi-ooxml</artifactId>
-          <version>5.5.0</version>
+          <version>5.5.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.apache.poi</groupId>
           <artifactId>poi-ooxml-lite</artifactId>
-          <version>5.5.0</version>
+          <version>5.5.1</version>
           <type>jar</type>
         </dependency>
       </dependencies>
       <instructions>
-<!-- SHA1 ac0715650504b0fc5a494a0ee6b4483f92d34db5 -->
+<!-- SHA1 ba1c5e7693f9a45525bb80787436c7114c9faa06 -->
 <![CDATA[
 Bundle-Name:            Bundle ${mvnGroupId} : ${mvnArtifactId}
 version:                ${versionmask;===;${version_cleanup;${mvnVersion}}}
@@ -1886,7 +1886,7 @@ base-suffix             ${replacestring;${mvnArtifactId};-;.}
 suffix                  ${replacestring;${base-suffix};lite;schemas}
 name:                   org.apache.${suffix}
 Bundle-SymbolicName:    ${name}
-Bundle-Version:         ${version}.v20251115-1200
+Bundle-Version:         ${version}.v20251201-1000
 Automatic-Module-Name:  ${name}
 Eclipse-Wrapped-Bundle: ${mvnGroupId}:${mvnArtifactId}:${mvnVersion}
 Import-Package:         de.rototor.pdfbox*|org.bouncycastle*|org.apache.pdfbox*|org.apache.xmlgraphics*|org.apache.jcp*|org.apache.xml.security*;resolution:=optional,\
