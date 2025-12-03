@@ -2412,17 +2412,17 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>org.mozilla</groupId>
           <artifactId>rhino</artifactId>
-          <version>1.8.0</version>
+          <version>1.8.1</version>
           <type>jar</type>
         </dependency>
       </dependencies>
       <instructions>
-<!-- SHA1 539ce250c64eee6e140ab85fcd07c86a0550318b -->
+<!-- SHA1 4202891a70af366395b33565170f365861229ca6 -->
 <![CDATA[
 Bundle-Name:            Bundle ${mvnGroupId} : ${mvnArtifactId}
 version:                ${versionmask;===;${version_cleanup;${mvnVersion}}}
 Bundle-SymbolicName:    ${mvnGroupId}.${mvnArtifactId}
-Bundle-Version:         ${version}.v20250113-1000
+Bundle-Version:         ${version}.v20251203-1000
 Automatic-Module-Name:  ${mvnGroupId}.${mvnArtifactId}
 Eclipse-Wrapped-Bundle: ${mvnGroupId}:${mvnArtifactId}:${mvnVersion}
 Import-Package:         *
