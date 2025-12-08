@@ -16,7 +16,7 @@ https://www.eclipse.org/legal/epl-2.0/
 SPDX-License-Identifier: EPL-2.0
         </copyright>
         <license url="https://www.eclipse.org/legal/epl-2.0/"/>
-        <!-- SHA1 aeaecefe9d9ae3621807a7c6a3cc70adf0085ad2 -->
+        <!-- SHA1 fe4c84212cadc02e4e427f6d757af68ad901d7d1 -->
       </feature>
       <dependencies>
         <dependency>
@@ -815,7 +815,7 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>org.apache.commons</groupId>
           <artifactId>commons-text</artifactId>
-          <version>1.14.0</version>
+          <version>1.15.0</version>
           <type>jar</type>
         </dependency>
         <dependency>
