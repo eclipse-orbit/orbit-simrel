@@ -11,7 +11,6 @@ as well as from the locally-defined [supplement](../maven-osgi/tp/other/MavenSup
 - [cdt](maven-osgi/cdt/REPORT.md)
 - [cdt-lsp](maven-osgi/cdt-lsp/REPORT.md)
 - [egit](maven-osgi/egit/REPORT.md)
-- [jdt-ls](maven-osgi/jdt-ls/REPORT.md)
 - [jgit](maven-osgi/jgit/REPORT.md)
 - [linuxtools](maven-osgi/linuxtools/REPORT.md)
 - [lsp4e](maven-osgi/lsp4e/REPORT.md)
