@@ -37,8 +37,8 @@
     - [httpclient5](https://repo.maven.apache.org/maven2/org/apache/httpcomponents/client5/httpclient5/) **[5.5.1](https://repo.maven.apache.org/maven2/org/apache/httpcomponents/client5/httpclient5/5.5.1)**
     - [httpclient5-win](https://repo.maven.apache.org/maven2/org/apache/httpcomponents/client5/httpclient5-win/) **[5.2.3](https://repo.maven.apache.org/maven2/org/apache/httpcomponents/client5/httpclient5-win/5.2.3)**
  - [org.apache.httpcomponents.core5](https://repo.maven.apache.org/maven2/org/apache/httpcomponents/core5/)
-    - [httpcore5](https://repo.maven.apache.org/maven2/org/apache/httpcomponents/core5/httpcore5/) **[5.3.6](https://repo.maven.apache.org/maven2/org/apache/httpcomponents/core5/httpcore5/5.3.6)**
-    - [httpcore5-h2](https://repo.maven.apache.org/maven2/org/apache/httpcomponents/core5/httpcore5-h2/) **[5.3.6](https://repo.maven.apache.org/maven2/org/apache/httpcomponents/core5/httpcore5-h2/5.3.6)**
+    - [httpcore5](https://repo.maven.apache.org/maven2/org/apache/httpcomponents/core5/httpcore5/) **[5.4](https://repo.maven.apache.org/maven2/org/apache/httpcomponents/core5/httpcore5/5.4)**
+    - [httpcore5-h2](https://repo.maven.apache.org/maven2/org/apache/httpcomponents/core5/httpcore5-h2/) **[5.4](https://repo.maven.apache.org/maven2/org/apache/httpcomponents/core5/httpcore5-h2/5.4)**
  - [org.apache.lucene](https://repo.maven.apache.org/maven2/org/apache/lucene/)
     - [lucene-analysis-common](https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-analysis-common/) **[9.12.3](https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-analysis-common/9.12.3)**
     - [lucene-analysis-common](https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-analysis-common/) **[10.3.2](https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-analysis-common/10.3.2)**
