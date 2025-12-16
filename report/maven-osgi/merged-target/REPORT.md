@@ -141,7 +141,7 @@
     - [jaxb-osgi](https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-osgi/) **[2.3.9](https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-osgi/2.3.9)**
     - [jaxb-osgi](https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-osgi/) **[4.0.6](https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-osgi/4.0.6)**
  - [com.vegardit.no-npe](https://repo.maven.apache.org/maven2/com/vegardit/no-npe/)
-    - [no-npe-eea-all](https://repo.maven.apache.org/maven2/com/vegardit/no-npe/no-npe-eea-all/) **[1.3.10](https://repo.maven.apache.org/maven2/com/vegardit/no-npe/no-npe-eea-all/1.3.10)**
+    - [no-npe-eea-all](https://repo.maven.apache.org/maven2/com/vegardit/no-npe/no-npe-eea-all/) **[1.3.11](https://repo.maven.apache.org/maven2/com/vegardit/no-npe/no-npe-eea-all/1.3.11)**
  - [commons-beanutils](https://repo.maven.apache.org/maven2/commons-beanutils/)
     - [commons-beanutils](https://repo.maven.apache.org/maven2/commons-beanutils/commons-beanutils/) **[1.11.0](https://repo.maven.apache.org/maven2/commons-beanutils/commons-beanutils/1.11.0)**
  - [commons-cli](https://repo.maven.apache.org/maven2/commons-cli/)
@@ -468,11 +468,11 @@
     - [org.osgi.util.xml](https://repo.maven.apache.org/maven2/org/osgi/org.osgi.util.xml/) **[1.0.2](https://repo.maven.apache.org/maven2/org/osgi/org.osgi.util.xml/1.0.2)**
     - [osgi.annotation](https://repo.maven.apache.org/maven2/org/osgi/osgi.annotation/) **[8.1.0](https://repo.maven.apache.org/maven2/org/osgi/osgi.annotation/8.1.0)**
  - [org.ow2.asm](https://repo.maven.apache.org/maven2/org/ow2/asm/)
-    - [asm](https://repo.maven.apache.org/maven2/org/ow2/asm/asm/) **[9.9](https://repo.maven.apache.org/maven2/org/ow2/asm/asm/9.9)**
-    - [asm-analysis](https://repo.maven.apache.org/maven2/org/ow2/asm/asm-analysis/) **[9.9](https://repo.maven.apache.org/maven2/org/ow2/asm/asm-analysis/9.9)**
-    - [asm-commons](https://repo.maven.apache.org/maven2/org/ow2/asm/asm-commons/) **[9.9](https://repo.maven.apache.org/maven2/org/ow2/asm/asm-commons/9.9)**
-    - [asm-tree](https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/) **[9.9](https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/9.9)**
-    - [asm-util](https://repo.maven.apache.org/maven2/org/ow2/asm/asm-util/) **[9.9](https://repo.maven.apache.org/maven2/org/ow2/asm/asm-util/9.9)**
+    - [asm](https://repo.maven.apache.org/maven2/org/ow2/asm/asm/) **[9.9.1](https://repo.maven.apache.org/maven2/org/ow2/asm/asm/9.9.1)**
+    - [asm-analysis](https://repo.maven.apache.org/maven2/org/ow2/asm/asm-analysis/) **[9.9.1](https://repo.maven.apache.org/maven2/org/ow2/asm/asm-analysis/9.9.1)**
+    - [asm-commons](https://repo.maven.apache.org/maven2/org/ow2/asm/asm-commons/) **[9.9.1](https://repo.maven.apache.org/maven2/org/ow2/asm/asm-commons/9.9.1)**
+    - [asm-tree](https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/) **[9.9.1](https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/9.9.1)**
+    - [asm-util](https://repo.maven.apache.org/maven2/org/ow2/asm/asm-util/) **[9.9.1](https://repo.maven.apache.org/maven2/org/ow2/asm/asm-util/9.9.1)**
  - [org.ow2.sat4j](https://repo.maven.apache.org/maven2/org/ow2/sat4j/)
     - [org.ow2.sat4j.core](https://repo.maven.apache.org/maven2/org/ow2/sat4j/org.ow2.sat4j.core/) **[2.3.6](https://repo.maven.apache.org/maven2/org/ow2/sat4j/org.ow2.sat4j.core/2.3.6)**
     - [org.ow2.sat4j.pb](https://repo.maven.apache.org/maven2/org/ow2/sat4j/org.ow2.sat4j.pb/) **[2.3.6](https://repo.maven.apache.org/maven2/org/ow2/sat4j/org.ow2.sat4j.pb/2.3.6)**

@@ -3,7 +3,7 @@
 <target name="Maven" sequenceNumber="1">
   <locations>
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="error" type="Maven">
-      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.39.0.v20251212-1200">
+      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.39.0.v20251216-1000">
         <description>This feature's dependencies are pulled directly from Maven central.</description>
         <copyright>
 Copyright (c) 2025 Eclipse contributors and others.
@@ -16,7 +16,7 @@ https://www.eclipse.org/legal/epl-2.0/
 SPDX-License-Identifier: EPL-2.0
         </copyright>
         <license url="https://www.eclipse.org/legal/epl-2.0/"/>
-        <!-- SHA1 3f0657318c3e3ffd5d3ddad21e09c0593e591660 -->
+        <!-- SHA1 84ea88c1d947f57a4461a68fce280f62e19b14ed -->
       </feature>
       <dependencies>
         <dependency>
@@ -365,7 +365,7 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>com.vegardit.no-npe</groupId>
           <artifactId>no-npe-eea-all</artifactId>
-          <version>1.3.10</version>
+          <version>1.3.11</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -1817,31 +1817,31 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>org.ow2.asm</groupId>
           <artifactId>asm</artifactId>
-          <version>9.9</version>
+          <version>9.9.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.ow2.asm</groupId>
           <artifactId>asm-analysis</artifactId>
-          <version>9.9</version>
+          <version>9.9.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.ow2.asm</groupId>
           <artifactId>asm-commons</artifactId>
-          <version>9.9</version>
+          <version>9.9.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.ow2.asm</groupId>
           <artifactId>asm-tree</artifactId>
-          <version>9.9</version>
+          <version>9.9.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.ow2.asm</groupId>
           <artifactId>asm-util</artifactId>
-          <version>9.9</version>
+          <version>9.9.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
