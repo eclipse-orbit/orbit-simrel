@@ -1,0 +1,156 @@
+pipeline {
+  agent any
+
+  options {
+    buildDiscarder(logRotator(numToKeepStr: '20'))
+    skipDefaultCheckout true
+    timeout(time: 20, unit: 'MINUTES')
+  }
+
+  tools {
+    jdk 'temurin-jdk21-latest'
+  }
+
+  environment {
+    MAIL_TO = 'ed.merks@gmail.com'
+  }
+
+  parameters {
+    choice(
+      name: 'UPDATE_SITE',
+      choices: [
+        'https://download.eclipse.org/tools/orbit/simrel/orbit-aggregation/milestone/latest',
+        'https://download.eclipse.org/tools/orbit/simrel/orbit-aggregation/release/latest',
+     ],
+      description: '''
+        Update site to analyze.
+      '''
+    )
+
+    booleanParam(
+      name: 'USE_CACHE',
+      defaultValue: true,
+      description: 'Whether to use the network cache <a href="lastSuccessfulBuild/artifact/cache.zip">lastSuccessfulBuild/artifact/cache.zip</a> from the most recent build.'
+    )
+
+    booleanParam(
+      name: 'PROMOTE',
+      defaultValue: false,
+      description: 'Whether to promote the SBOM to <a href="https://sbom.eclipse.org">htps://sbom.eclipse.org</a>.'
+    )
+  }
+
+  stages {
+    stage('SBOM Generator') {
+      steps {
+        script {
+          env.PROJECT_VERSION = sh (
+              script: '''curl -s ${UPDATE_SITE}/index.html | grep -o "<title>.*</title>" | sed "s/.*\\(4\\.[0-9]*\\).*/\\1/"''',
+              returnStdout: true
+          ).trim()
+          env.PROJECT_VERSION_SUFFIX = env.UPDATE_SITE.contains('release') ? '' : '-SNAPSHOT'
+          env.PROJECT_NAME = env.UPDATE_SITE.contains('release') ? 'orbit-release' : 'orbit-milestone'
+          def description = """
+UPDATE_SITE=${env.UPDATE_SITE}
+PROJECT_NAME=${env.PROJECT_NAME}
+PROJECT_VERSION=${env.PROJECT_VERSION}
+PROJECT_VERSION_SUFFIX=${env.PROJECT_VERSION_SUFFIX}
+USE_CACHE=${env.USE_CACHE}
+""".trim()
+          echo description
+          currentBuild.description = description.replace("\n", "<br/>")
+        }
+
+        sh '''
+          set -x
+          set -o pipefail
+
+          if [[ ${USE_CACHE} == 'true' ]]; then
+            curl --fail-with-body -O ${JOB_URL}lastSuccessfulBuild/artifact/cache.zip && unzip -q cache.zip
+          fi
+
+          curl -O https://download.eclipse.org/cbi/updates/p2-sbom/products/nightly/latest/org.eclipse.cbi.p2repo.sbom.cli.product-linux.gtk.x86_64.tar.gz
+          tar --warning=no-unknown-keyword -xf org.eclipse.cbi.p2repo.sbom.cli.product-linux.gtk.x86_64.tar.gz
+
+          cbi-sbom/cbi-sbom \
+            -application org.eclipse.cbi.p2repo.sbom.generator \
+            -consoleLog \
+            -noSplash \
+            -verbose \
+            -process-bundle-classpath \
+            -advisory \
+            -git-issues \
+            -central-search \
+            -input ${UPDATE_SITE} \
+            -classifier-exclusions feature \
+            -component-exclusions ".*[.]source" \
+            -dependency-input https://download.eclipse.org/eclipse/updates/latest \
+            -xml-output sbom.xml \
+            -json-output sbom.json \
+            -cache cache \
+            -index \
+            index.html \
+            -vmargs \
+            -Dfile.encoding=UTF-8 2>&1 | tee log
+
+          rm -f cache.zip
+          zip -q -r cache.zip cache -x "cache/https/download.eclipse.org/*" "cache/https/repo.maven.apache.org/*"
+        '''
+
+        withCredentials([
+            string(credentialsId: 'sbom.eclipse.org-api-token', variable: 'SBOM_API_TOKEN')
+          ]) {
+          sh '''
+            ls -sail
+            if [[ ${PROMOTE} == 'true' ]]; then
+              PREFIX=""
+            else
+              PREFIX="echo "
+            fi
+            ${PREFIX} curl -X POST https://sbom.eclipse.org/api/v1/bom \
+              -H Content-Type:multipart/form-data \
+              -H X-Api-Key:"${SBOM_API_TOKEN}" \
+              -F autoCreate=true \
+              -F projectName=${PROJECT_NAME} \
+              -F projectVersion=${PROJECT_VERSION}${PROJECT_VERSION_SUFFIX} \
+              -F parentName=orbit-aggregation \
+              -F bom=@sbom.xml
+          '''
+        }
+      }
+    }
+
+    stage('Archive Results') {
+      steps {
+        archiveArtifacts '*.xml,*.json, cache.zip'
+        script {
+          def description = """
+<a href="https://download.eclipse.org/cbi/sbom/?file=${env.BUILD_URL}artifact/sbom.xml"><img src="https://download.eclipse.org/cbi/sbom/favicon.ico"/> sbom.xml</a>
+<a href="https://download.eclipse.org/cbi/sbom/?file=${env.BUILD_URL}/artifact/sbom.json"><img src="https://download.eclipse.org/cbi/sbom/favicon.ico"/> sbom.json</a>
+""".trim()
+          currentBuild.description = description.replace("\n", "<br/>") + "<br/>" + currentBuild.description
+        }
+      }
+    }
+  }
+
+  post {
+    failure {
+      mail to: env.MAIL_TO,
+      subject: "[SBOM Generator] Build Failure ${currentBuild.fullDisplayName}",
+      mimeType: 'text/html',
+      body: "Project: ${env.JOB_NAME}<br/>Build Number: ${env.BUILD_NUMBER}<br/>Build URL: <a href='${env.BUILD_URL}'>${env.BUILD_URL}</a>"
+    }
+
+    fixed {
+      mail to: env.MAIL_TO,
+      subject: "[SBOM Generator] Back to normal ${currentBuild.fullDisplayName}",
+      mimeType: 'text/html',
+      body: "Project: ${env.JOB_NAME}<br/>Build Number: ${env.BUILD_NUMBER}<br/>Build URL: <a href='${env.BUILD_URL}'>${env.BUILD_URL}</a>"
+    }
+  }
+}
+
+def pretty(string) {
+  return string.replaceAll("^\r?\n", "").replaceAll("\r?\n\$", "").replace("\r", "").stripIndent()
+}
