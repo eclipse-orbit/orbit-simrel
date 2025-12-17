@@ -203,10 +203,10 @@
     - [httpclient-osgi](https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpclient-osgi/) **[4.5.14](https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpclient-osgi/4.5.14)**
     - [httpcore-osgi](https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcore-osgi/) **[4.4.16](https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcore-osgi/4.4.16)**
  - [org.apache.logging.log4j](https://repo.maven.apache.org/maven2/org/apache/logging/log4j/)
-    - [log4j-api](https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-api/) **[2.25.2](https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-api/2.25.2)**
-    - [log4j-core](https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-core/) **[2.25.2](https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-core/2.25.2)**
-    - [log4j-slf4j2-impl](https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-slf4j2-impl/) **[2.25.2](https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-slf4j2-impl/2.25.2)**
-    - [log4j-to-slf4j](https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-to-slf4j/) **[2.25.2](https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-to-slf4j/2.25.2)**
+    - [log4j-api](https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-api/) **[2.25.3](https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-api/2.25.3)**
+    - [log4j-core](https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-core/) **[2.25.3](https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-core/2.25.3)**
+    - [log4j-slf4j2-impl](https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-slf4j2-impl/) **[2.25.3](https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-slf4j2-impl/2.25.3)**
+    - [log4j-to-slf4j](https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-to-slf4j/) **[2.25.3](https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-to-slf4j/2.25.3)**
  - [org.apache.tika](https://repo.maven.apache.org/maven2/org/apache/tika/)
     - [tika-core](https://repo.maven.apache.org/maven2/org/apache/tika/tika-core/) **[3.2.3](https://repo.maven.apache.org/maven2/org/apache/tika/tika-core/3.2.3)**
  - [org.apache.velocity](https://repo.maven.apache.org/maven2/org/apache/velocity/)
