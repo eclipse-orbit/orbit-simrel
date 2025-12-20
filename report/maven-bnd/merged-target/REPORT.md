@@ -34,7 +34,7 @@
  - [org.apache.httpcomponents](https://repo.maven.apache.org/maven2/org/apache/httpcomponents/)
     - [httpclient-win](https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpclient-win/) **[4.5.14](https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpclient-win/4.5.14)**
  - [org.apache.httpcomponents.client5](https://repo.maven.apache.org/maven2/org/apache/httpcomponents/client5/)
-    - [httpclient5](https://repo.maven.apache.org/maven2/org/apache/httpcomponents/client5/httpclient5/) **[5.5.1](https://repo.maven.apache.org/maven2/org/apache/httpcomponents/client5/httpclient5/5.5.1)**
+    - [httpclient5](https://repo.maven.apache.org/maven2/org/apache/httpcomponents/client5/httpclient5/) **[5.6](https://repo.maven.apache.org/maven2/org/apache/httpcomponents/client5/httpclient5/5.6)**
     - [httpclient5-win](https://repo.maven.apache.org/maven2/org/apache/httpcomponents/client5/httpclient5-win/) **[5.2.3](https://repo.maven.apache.org/maven2/org/apache/httpcomponents/client5/httpclient5-win/5.2.3)**
  - [org.apache.httpcomponents.core5](https://repo.maven.apache.org/maven2/org/apache/httpcomponents/core5/)
     - [httpcore5](https://repo.maven.apache.org/maven2/org/apache/httpcomponents/core5/httpcore5/) **[5.4](https://repo.maven.apache.org/maven2/org/apache/httpcomponents/core5/httpcore5/5.4)**
@@ -90,7 +90,7 @@
     - [fop-util](https://repo.maven.apache.org/maven2/org/apache/xmlgraphics/fop-util/) **[2.11](https://repo.maven.apache.org/maven2/org/apache/xmlgraphics/fop-util/2.11)**
     - [xmlgraphics-commons](https://repo.maven.apache.org/maven2/org/apache/xmlgraphics/xmlgraphics-commons/) **[2.11](https://repo.maven.apache.org/maven2/org/apache/xmlgraphics/xmlgraphics-commons/2.11)**
  - [org.codelibs](https://repo.maven.apache.org/maven2/org/codelibs/)
-    - [nekohtml](https://repo.maven.apache.org/maven2/org/codelibs/nekohtml/) **[3.0.1](https://repo.maven.apache.org/maven2/org/codelibs/nekohtml/3.0.1)**
+    - [nekohtml](https://repo.maven.apache.org/maven2/org/codelibs/nekohtml/) **[3.0.2](https://repo.maven.apache.org/maven2/org/codelibs/nekohtml/3.0.2)**
  - [org.cyclonedx](https://repo.maven.apache.org/maven2/org/cyclonedx/)
     - [cyclonedx-core-java](https://repo.maven.apache.org/maven2/org/cyclonedx/cyclonedx-core-java/) **[11.0.1](https://repo.maven.apache.org/maven2/org/cyclonedx/cyclonedx-core-java/11.0.1)**
  - [org.dom4j](https://repo.maven.apache.org/maven2/org/dom4j/)
