@@ -1014,7 +1014,7 @@ Export-Package:         *;version="${version}";-noimport:=true
 <!-- ______________________________________________________ org.apache.httpcomponents.client5.httpclient5 __________________________________________________________________________________________________-->
 
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
-      <feature id="org.eclipse.orbit.maven.org.apache.httpcomponents.client5.httpclient5" label="Orbit Maven BND org.apache.httpcomponents.client5.httpclient5" provider-name="Eclipse Orbit" version="4.39.0.v20251220-1000">
+      <feature id="org.eclipse.orbit.maven.org.apache.httpcomponents.client5.httpclient5" label="Orbit Maven BND org.apache.httpcomponents.client5.httpclient5" provider-name="Eclipse Orbit" version="4.39.0.v20251221-1000">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
 Copyright (c) 2025 Eclipse contributors and others.
@@ -1037,14 +1037,14 @@ SPDX-License-Identifier: EPL-2.0
         </dependency>
       </dependencies>
       <instructions>
-<!-- SHA1 30a48ed2e89a384b2fb6f48f6c9e04784b231f9f -->
+<!-- SHA1 4df81db1aeff5e5c16135eacf4d32dbc46f11d5b -->
 <![CDATA[
 Bundle-Name:            Bundle ${mvnGroupId} : ${mvnArtifactId}
 version:                ${versionmask;===;${version_cleanup;${mvnVersion}}}
 Bundle-SymbolicName:    ${mvnGroupId}.${mvnArtifactId}
-Bundle-Version:         ${version}.v20251220-1000
+Bundle-Version:         ${version}.v20251221-1000
 Eclipse-Wrapped-Bundle: ${mvnGroupId}:${mvnArtifactId}:${mvnVersion}
-Import-Package:         org.brotli.*|com.aayushatharva.brotli4j.*|com.github.luben.*|org.conscrypt|org.newsclub.net.unix;resolution:=optional,\
+Import-Package:         org.brotli.*|com.aayushatharva.brotli4j.*|com.github.luben.*|org.conscrypt|org.newsclub.net.unix|org.apache.commons.compress.*;resolution:=optional,\
                         org.slf4j.*;version=!,\
                         *
 Export-Package:         *;version="${version}";-noimport:=true
