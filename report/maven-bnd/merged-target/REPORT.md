@@ -113,7 +113,7 @@
  - [org.jruby.joni](https://repo.maven.apache.org/maven2/org/jruby/joni/)
     - [joni](https://repo.maven.apache.org/maven2/org/jruby/joni/joni/) **[2.2.6](https://repo.maven.apache.org/maven2/org/jruby/joni/joni/2.2.6)**
  - [org.mozilla](https://repo.maven.apache.org/maven2/org/mozilla/)
-    - [rhino](https://repo.maven.apache.org/maven2/org/mozilla/rhino/) **[1.8.1](https://repo.maven.apache.org/maven2/org/mozilla/rhino/1.8.1)**
+    - [rhino](https://repo.maven.apache.org/maven2/org/mozilla/rhino/) **[1.9.0](https://repo.maven.apache.org/maven2/org/mozilla/rhino/1.9.0)**
  - [org.pushingpixels](https://repo.maven.apache.org/maven2/org/pushingpixels/)
     - [trident](https://repo.maven.apache.org/maven2/org/pushingpixels/trident/) **[1.3](https://repo.maven.apache.org/maven2/org/pushingpixels/trident/1.3)**
  - [wsdl4j](https://repo.maven.apache.org/maven2/wsdl4j/)
