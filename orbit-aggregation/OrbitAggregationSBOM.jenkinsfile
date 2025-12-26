@@ -81,6 +81,7 @@ USE_CACHE=${env.USE_CACHE}
             -advisory \
             -git-issues \
             -central-search \
+            -dependency-track \
             -input ${UPDATE_SITE} \
             -classifier-exclusions feature \
             -component-exclusions ".*[.]source" \
