@@ -68,6 +68,8 @@ org.mozilla:rhino:1\.8\.0 // This version is not an OSGI bundle https://github.c
 com.ethlo.time:itu:1\.11\.0 // Not an OSGi bundle
 com.github.oshi:oshi-core:6\.7\.0 // Bad new dependencies
 io.github.classgraph:classgraph:4\.8\.181 // Not a bundle
+biz.aQute.bnd:biz.aQute.tester.junit-platform:7.2.0 // Too restricted junit dependency https://github.com/eclipse-platform/eclipse.platform.releng.aggregator/pull/3579#issuecomment-3693797403
+org.bndtools:org.bndtools.templating:7.2.0 // Bad guava dependency https://github.com/eclipse-platform/eclipse.platform.releng.aggregator/pull/3579#issuecomment-3693797403
 
 -keep
 commons-logging:commons-logging:1.2

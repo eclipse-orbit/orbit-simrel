@@ -1,5 +1,26 @@
 # Target Platform: [platform](https://raw.githubusercontent.com/eclipse-platform/eclipse.platform.releng.aggregator/master/eclipse.platform.releng.prereqs.sdk/eclipse-sdk-prereqs.target)
 
+## Minor Updates
+ - [biz.aQute.bnd](https://repo.maven.apache.org/maven2/biz/aQute/bnd/)
+    - [aQute.libg](https://repo.maven.apache.org/maven2/biz/aQute/bnd/aQute.libg/) **[7.1.0](https://repo.maven.apache.org/maven2/biz/aQute/bnd/aQute.libg/7.1.0)** < [7.2.0](https://repo.maven.apache.org/maven2/biz/aQute/bnd/aQute.libg/7.2.0/)
+    - [biz.aQute.bnd.annotation](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.bnd.annotation/) **[7.1.0](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.bnd.annotation/7.1.0)** < [7.2.0](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.bnd.annotation/7.2.0/)
+    - [biz.aQute.bnd.embedded-repo](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.bnd.embedded-repo/) **[7.1.0](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.bnd.embedded-repo/7.1.0)** < [7.2.0](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.bnd.embedded-repo/7.2.0/)
+    - [biz.aQute.bnd.util](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.bnd.util/) **[7.1.0](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.bnd.util/7.1.0)** < [7.2.0](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.bnd.util/7.2.0/)
+    - [biz.aQute.bndlib](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.bndlib/) **[7.1.0](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.bndlib/7.1.0)** < [7.2.0](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.bndlib/7.2.0/)
+    - [biz.aQute.repository](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.repository/) **[7.1.0](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.repository/7.1.0)** < [7.2.0](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.repository/7.2.0/)
+    - [biz.aQute.resolve](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.resolve/) **[7.1.0](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.resolve/7.1.0)** < [7.2.0](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.resolve/7.2.0/)
+    - [biz.aQute.tester](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.tester/) **[7.1.0](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.tester/7.1.0)** < [7.2.0](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.tester/7.2.0/)
+ - [org.bndtools](https://repo.maven.apache.org/maven2/org/bndtools/)
+    - [bndtools.api](https://repo.maven.apache.org/maven2/org/bndtools/bndtools.api/) **[7.1.0](https://repo.maven.apache.org/maven2/org/bndtools/bndtools.api/7.1.0)** < [7.2.0](https://repo.maven.apache.org/maven2/org/bndtools/bndtools.api/7.2.0/)
+    - [bndtools.jareditor](https://repo.maven.apache.org/maven2/org/bndtools/bndtools.jareditor/) **[7.1.0](https://repo.maven.apache.org/maven2/org/bndtools/bndtools.jareditor/7.1.0)** < [7.2.0](https://repo.maven.apache.org/maven2/org/bndtools/bndtools.jareditor/7.2.0/)
+    - [org.bndtools.headless.build.manager](https://repo.maven.apache.org/maven2/org/bndtools/org.bndtools.headless.build.manager/) **[7.1.0](https://repo.maven.apache.org/maven2/org/bndtools/org.bndtools.headless.build.manager/7.1.0)** < [7.2.0](https://repo.maven.apache.org/maven2/org/bndtools/org.bndtools.headless.build.manager/7.2.0/)
+    - [org.bndtools.headless.build.plugin.gradle](https://repo.maven.apache.org/maven2/org/bndtools/org.bndtools.headless.build.plugin.gradle/) **[7.1.0](https://repo.maven.apache.org/maven2/org/bndtools/org.bndtools.headless.build.plugin.gradle/7.1.0)** < [7.2.0](https://repo.maven.apache.org/maven2/org/bndtools/org.bndtools.headless.build.plugin.gradle/7.2.0/)
+    - [org.bndtools.templates.template](https://repo.maven.apache.org/maven2/org/bndtools/org.bndtools.templates.template/) **[7.1.0](https://repo.maven.apache.org/maven2/org/bndtools/org.bndtools.templates.template/7.1.0)** < [7.2.0](https://repo.maven.apache.org/maven2/org/bndtools/org.bndtools.templates.template/7.2.0/)
+    - [org.bndtools.versioncontrol.ignores.manager](https://repo.maven.apache.org/maven2/org/bndtools/org.bndtools.versioncontrol.ignores.manager/) **[7.1.0](https://repo.maven.apache.org/maven2/org/bndtools/org.bndtools.versioncontrol.ignores.manager/7.1.0)** < [7.2.0](https://repo.maven.apache.org/maven2/org/bndtools/org.bndtools.versioncontrol.ignores.manager/7.2.0/)
+    - [org.bndtools.versioncontrol.ignores.plugin.git](https://repo.maven.apache.org/maven2/org/bndtools/org.bndtools.versioncontrol.ignores.plugin.git/) **[7.1.0](https://repo.maven.apache.org/maven2/org/bndtools/org.bndtools.versioncontrol.ignores.plugin.git/7.1.0)** < [7.2.0](https://repo.maven.apache.org/maven2/org/bndtools/org.bndtools.versioncontrol.ignores.plugin.git/7.2.0/)
+ - [org.jsoup](https://repo.maven.apache.org/maven2/org/jsoup/)
+    - [jsoup](https://repo.maven.apache.org/maven2/org/jsoup/jsoup/) **[1.21.2](https://repo.maven.apache.org/maven2/org/jsoup/jsoup/1.21.2)** < [1.22.1](https://repo.maven.apache.org/maven2/org/jsoup/jsoup/1.22.1/)
+
 ## Major Updates
  - [jakarta.el](https://repo.maven.apache.org/maven2/jakarta/el/)
     - [jakarta.el-api](https://repo.maven.apache.org/maven2/jakarta/el/jakarta.el-api/) **[3.0.3](https://repo.maven.apache.org/maven2/jakarta/el/jakarta.el-api/3.0.3)** < [6.0.1](https://repo.maven.apache.org/maven2/jakarta/el/jakarta.el-api/6.0.1/)
@@ -10,6 +31,9 @@
  - [org.mortbay.jasper](https://repo.maven.apache.org/maven2/org/mortbay/jasper/)
     - [mortbay-apache-el](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-el/) **[9.0.111](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-el/9.0.111)** < [11.0.10.1](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-el/11.0.10.1/)
     - [mortbay-apache-jsp](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-jsp/) **[9.0.111](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-jsp/9.0.111)** < [11.0.10.1](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-jsp/11.0.10.1/)
+
+## Updates Applied
+[updated.target](updated.target)
 
 ## Content
  - [biz.aQute.bnd](https://repo.maven.apache.org/maven2/biz/aQute/bnd/)

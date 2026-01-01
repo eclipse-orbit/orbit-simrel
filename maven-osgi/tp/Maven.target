@@ -3,10 +3,10 @@
 <target name="Maven" sequenceNumber="1">
   <locations>
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="error" type="Maven">
-      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.39.0.v20251225-1000">
+      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.39.0.v20260101-1000">
         <description>This feature's dependencies are pulled directly from Maven central.</description>
         <copyright>
-Copyright (c) 2025 Eclipse contributors and others.
+Copyright (c) 2026 Eclipse contributors and others.
 
 This program and the accompanying materials
 are made available under the terms of the Eclipse Public License 2.0
@@ -16,7 +16,7 @@ https://www.eclipse.org/legal/epl-2.0/
 SPDX-License-Identifier: EPL-2.0
         </copyright>
         <license url="https://www.eclipse.org/legal/epl-2.0/"/>
-        <!-- SHA1 44d30071e3db5bdb5659382cf3caa7f983891ff3 -->
+        <!-- SHA1 54b3e3126376c9ff3d03a61e1e2a4981a53a1214 -->
       </feature>
       <dependencies>
         <dependency>
@@ -28,49 +28,49 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>biz.aQute.bnd</groupId>
           <artifactId>aQute.libg</artifactId>
-          <version>7.1.0</version>
+          <version>7.2.0</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>biz.aQute.bnd</groupId>
           <artifactId>biz.aQute.bnd.annotation</artifactId>
-          <version>7.1.0</version>
+          <version>7.2.0</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>biz.aQute.bnd</groupId>
           <artifactId>biz.aQute.bnd.embedded-repo</artifactId>
-          <version>7.1.0</version>
+          <version>7.2.0</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>biz.aQute.bnd</groupId>
           <artifactId>biz.aQute.bnd.util</artifactId>
-          <version>7.1.0</version>
+          <version>7.2.0</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>biz.aQute.bnd</groupId>
           <artifactId>biz.aQute.bndlib</artifactId>
-          <version>7.1.0</version>
+          <version>7.2.0</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>biz.aQute.bnd</groupId>
           <artifactId>biz.aQute.repository</artifactId>
-          <version>7.1.0</version>
+          <version>7.2.0</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>biz.aQute.bnd</groupId>
           <artifactId>biz.aQute.resolve</artifactId>
-          <version>7.1.0</version>
+          <version>7.2.0</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>biz.aQute.bnd</groupId>
           <artifactId>biz.aQute.tester</artifactId>
-          <version>7.1.0</version>
+          <version>7.2.0</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -929,25 +929,25 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>org.bndtools</groupId>
           <artifactId>bndtools.api</artifactId>
-          <version>7.1.0</version>
+          <version>7.2.0</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.bndtools</groupId>
           <artifactId>org.bndtools.headless.build.manager</artifactId>
-          <version>7.1.0</version>
+          <version>7.2.0</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.bndtools</groupId>
           <artifactId>org.bndtools.headless.build.plugin.gradle</artifactId>
-          <version>7.1.0</version>
+          <version>7.2.0</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.bndtools</groupId>
           <artifactId>org.bndtools.templates.template</artifactId>
-          <version>7.1.0</version>
+          <version>7.2.0</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -959,13 +959,13 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>org.bndtools</groupId>
           <artifactId>org.bndtools.versioncontrol.ignores.manager</artifactId>
-          <version>7.1.0</version>
+          <version>7.2.0</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.bndtools</groupId>
           <artifactId>org.bndtools.versioncontrol.ignores.plugin.git</artifactId>
-          <version>7.1.0</version>
+          <version>7.2.0</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -1313,7 +1313,7 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>org.jsoup</groupId>
           <artifactId>jsoup</artifactId>
-          <version>1.21.2</version>
+          <version>1.22.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -1969,7 +1969,7 @@ SPDX-License-Identifier: EPL-2.0
       <feature id="org.eclipse.orbit.maven.osgi.exclude" label="Orbit Maven OSGi (excluded because they are only for resolution validation)" provider-name="Eclipse Orbit" version="4.39.0">
         <description>This feature's dependencies are pulled directly from Maven central.</description>
         <copyright>
-Copyright (c) 2025 Eclipse contributors and others.
+Copyright (c) 2026 Eclipse contributors and others.
 
 This program and the accompanying materials
 are made available under the terms of the Eclipse Public License 2.0
