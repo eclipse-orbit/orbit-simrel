@@ -1,6 +1,9 @@
 # Target Platform: [cdt-lsp](https://raw.githubusercontent.com/eclipse-cdt/cdt-lsp/master/releng/org.eclipse.cdt.lsp.target/org.eclipse.cdt.lsp.target.target)
 
 ## Minor Updates
+ - [org.junit.jupiter](https://repo.maven.apache.org/maven2/org/junit/jupiter/)
+    - [junit-jupiter-api](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/) **[5.14.1](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.14.1)** < [5.14.2](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.14.2/)
+    - [junit-jupiter-engine](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/) **[5.14.1](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.14.1)** < [5.14.2](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.14.2/)
  - [org.mockito](https://repo.maven.apache.org/maven2/org/mockito/)
     - [mockito-core](https://repo.maven.apache.org/maven2/org/mockito/mockito-core/) **[5.20.0](https://repo.maven.apache.org/maven2/org/mockito/mockito-core/5.20.0)** < [5.21.0](https://repo.maven.apache.org/maven2/org/mockito/mockito-core/5.21.0/)
  - [org.ow2.asm](https://repo.maven.apache.org/maven2/org/ow2/asm/)

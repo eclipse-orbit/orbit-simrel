@@ -3,7 +3,7 @@
 <target name="Maven" sequenceNumber="1">
   <locations>
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="error" type="Maven">
-      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.39.0.v20260101-1000">
+      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.39.0.v20260106-1000">
         <description>This feature's dependencies are pulled directly from Maven central.</description>
         <copyright>
 Copyright (c) 2026 Eclipse contributors and others.
@@ -16,7 +16,7 @@ https://www.eclipse.org/legal/epl-2.0/
 SPDX-License-Identifier: EPL-2.0
         </copyright>
         <license url="https://www.eclipse.org/legal/epl-2.0/"/>
-        <!-- SHA1 54b3e3126376c9ff3d03a61e1e2a4981a53a1214 -->
+        <!-- SHA1 1cb584cbf92c5f73f266f9a1980aabd6c6244cd3 -->
       </feature>
       <dependencies>
         <dependency>
@@ -1319,7 +1319,7 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>org.junit.jupiter</groupId>
           <artifactId>junit-jupiter-api</artifactId>
-          <version>5.14.1</version>
+          <version>5.14.2</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -1331,7 +1331,7 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>org.junit.jupiter</groupId>
           <artifactId>junit-jupiter-engine</artifactId>
-          <version>5.14.1</version>
+          <version>5.14.2</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -1343,7 +1343,7 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>org.junit.jupiter</groupId>
           <artifactId>junit-jupiter-migrationsupport</artifactId>
-          <version>5.14.1</version>
+          <version>5.14.2</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -1355,7 +1355,7 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>org.junit.jupiter</groupId>
           <artifactId>junit-jupiter-params</artifactId>
-          <version>5.14.1</version>
+          <version>5.14.2</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -1367,7 +1367,7 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>org.junit.platform</groupId>
           <artifactId>junit-platform-commons</artifactId>
-          <version>1.14.1</version>
+          <version>1.14.2</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -1379,7 +1379,7 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>org.junit.platform</groupId>
           <artifactId>junit-platform-engine</artifactId>
-          <version>1.14.1</version>
+          <version>1.14.2</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -1391,7 +1391,7 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>org.junit.platform</groupId>
           <artifactId>junit-platform-launcher</artifactId>
-          <version>1.14.1</version>
+          <version>1.14.2</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -1403,13 +1403,13 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>org.junit.platform</groupId>
           <artifactId>junit-platform-runner</artifactId>
-          <version>1.14.1</version>
+          <version>1.14.2</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.junit.platform</groupId>
           <artifactId>junit-platform-suite-api</artifactId>
-          <version>1.14.1</version>
+          <version>1.14.2</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -1421,13 +1421,13 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>org.junit.platform</groupId>
           <artifactId>junit-platform-suite-commons</artifactId>
-          <version>1.14.1</version>
+          <version>1.14.2</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.junit.platform</groupId>
           <artifactId>junit-platform-suite-engine</artifactId>
-          <version>1.14.1</version>
+          <version>1.14.2</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -1439,7 +1439,7 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>org.junit.vintage</groupId>
           <artifactId>junit-vintage-engine</artifactId>
-          <version>5.14.1</version>
+          <version>5.14.2</version>
           <type>jar</type>
         </dependency>
         <dependency>

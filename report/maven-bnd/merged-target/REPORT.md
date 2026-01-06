@@ -119,8 +119,8 @@
  - [wsdl4j](https://repo.maven.apache.org/maven2/wsdl4j/)
     - [wsdl4j](https://repo.maven.apache.org/maven2/wsdl4j/wsdl4j/) **[1.6.3](https://repo.maven.apache.org/maven2/wsdl4j/wsdl4j/1.6.3)**
  - [xalan](https://repo.maven.apache.org/maven2/xalan/)
-    - [serializer](https://repo.maven.apache.org/maven2/xalan/serializer/) **[2.7.2](https://repo.maven.apache.org/maven2/xalan/serializer/2.7.2)**
-    - [xalan](https://repo.maven.apache.org/maven2/xalan/xalan/) **[2.7.2](https://repo.maven.apache.org/maven2/xalan/xalan/2.7.2)**
+    - [serializer](https://repo.maven.apache.org/maven2/xalan/serializer/) **[2.7.3](https://repo.maven.apache.org/maven2/xalan/serializer/2.7.3)**
+    - [xalan](https://repo.maven.apache.org/maven2/xalan/xalan/) **[2.7.3](https://repo.maven.apache.org/maven2/xalan/xalan/2.7.3)**
  - [xerces](https://repo.maven.apache.org/maven2/xerces/)
     - [xercesImpl](https://repo.maven.apache.org/maven2/xerces/xercesImpl/) **[2.12.2](https://repo.maven.apache.org/maven2/xerces/xercesImpl/2.12.2)**
  - [xml-resolver](https://repo.maven.apache.org/maven2/xml-resolver/)
