@@ -2,7 +2,7 @@
 
 ## Minor Updates
  - [ch.qos.logback](https://repo.maven.apache.org/maven2/ch/qos/logback/)
-    - [logback-classic](https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/) **[1.5.21](https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/1.5.21)** < [1.5.23](https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/1.5.23/)
+    - [logback-classic](https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/) **[1.5.21](https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/1.5.21)** < [1.5.24](https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/1.5.24/)
  - [org.apache.maven.archetype](https://repo.maven.apache.org/maven2/org/apache/maven/archetype/)
     - [archetype-catalog](https://repo.maven.apache.org/maven2/org/apache/maven/archetype/archetype-catalog/) **[3.2.1](https://repo.maven.apache.org/maven2/org/apache/maven/archetype/archetype-catalog/3.2.1)** < [3.4.1](https://repo.maven.apache.org/maven2/org/apache/maven/archetype/archetype-catalog/3.4.1/)
     - [archetype-common](https://repo.maven.apache.org/maven2/org/apache/maven/archetype/archetype-common/) **[3.2.1](https://repo.maven.apache.org/maven2/org/apache/maven/archetype/archetype-common/3.2.1)** < [3.4.1](https://repo.maven.apache.org/maven2/org/apache/maven/archetype/archetype-common/3.4.1/)

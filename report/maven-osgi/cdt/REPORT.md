@@ -19,8 +19,8 @@
  - [jakarta.xml.bind](https://repo.maven.apache.org/maven2/jakarta/xml/bind/)
     - [jakarta.xml.bind-api](https://repo.maven.apache.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/) **[2.3.3](https://repo.maven.apache.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3)** < [4.0.4](https://repo.maven.apache.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/4.0.4/)
  - [org.junit.jupiter](https://repo.maven.apache.org/maven2/org/junit/jupiter/)
-    - [junit-jupiter-api](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/) **[5.14.1](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.14.1)** < [6.0.1](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/6.0.1/)
-    - [junit-jupiter-engine](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/) **[5.14.1](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.14.1)** < [6.0.1](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/6.0.1/)
+    - [junit-jupiter-api](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/) **[5.14.1](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.14.1)** < [6.0.2](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/6.0.2/)
+    - [junit-jupiter-engine](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/) **[5.14.1](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.14.1)** < [6.0.2](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/6.0.2/)
 
 ## Updates Applied
 [updated.target](updated.target)
