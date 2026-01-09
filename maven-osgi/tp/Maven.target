@@ -3,7 +3,7 @@
 <target name="Maven" sequenceNumber="1">
   <locations>
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="error" type="Maven">
-      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.39.0.v20260107-1000">
+      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.39.0.v20260109-1000">
         <description>This feature's dependencies are pulled directly from Maven central.</description>
         <copyright>
 Copyright (c) 2026 Eclipse contributors and others.
@@ -16,7 +16,7 @@ https://www.eclipse.org/legal/epl-2.0/
 SPDX-License-Identifier: EPL-2.0
         </copyright>
         <license url="https://www.eclipse.org/legal/epl-2.0/"/>
-        <!-- SHA1 21b691af04de60a098ad44b2e7c987e3a727d759 -->
+        <!-- SHA1 a34dd96f7bba2bbf3c1543e7615b7ddb4eafc92e -->
       </feature>
       <dependencies>
         <dependency>
@@ -275,7 +275,7 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>com.google.errorprone</groupId>
           <artifactId>error_prone_annotations</artifactId>
-          <version>2.45.0</version>
+          <version>2.46.0</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -317,7 +317,7 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>com.ibm.icu</groupId>
           <artifactId>icu4j</artifactId>
-          <version>78.1</version>
+          <version>78.2</version>
           <type>jar</type>
         </dependency>
         <dependency>

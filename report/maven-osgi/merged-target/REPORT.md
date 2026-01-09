@@ -116,7 +116,7 @@
  - [com.google.code.gson](https://repo.maven.apache.org/maven2/com/google/code/gson/)
     - [gson](https://repo.maven.apache.org/maven2/com/google/code/gson/gson/) **[2.13.2](https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.13.2)**
  - [com.google.errorprone](https://repo.maven.apache.org/maven2/com/google/errorprone/)
-    - [error_prone_annotations](https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/) **[2.45.0](https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.45.0)**
+    - [error_prone_annotations](https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/) **[2.46.0](https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.46.0)**
  - [com.google.guava](https://repo.maven.apache.org/maven2/com/google/guava/)
     - [failureaccess](https://repo.maven.apache.org/maven2/com/google/guava/failureaccess/) **[1.0.3](https://repo.maven.apache.org/maven2/com/google/guava/failureaccess/1.0.3)**
     - [guava](https://repo.maven.apache.org/maven2/com/google/guava/guava/) **[33.5.0-jre](https://repo.maven.apache.org/maven2/com/google/guava/guava/33.5.0-jre)**
@@ -129,7 +129,7 @@
  - [com.h2database](https://repo.maven.apache.org/maven2/com/h2database/)
     - [h2](https://repo.maven.apache.org/maven2/com/h2database/h2/) **[2.4.240](https://repo.maven.apache.org/maven2/com/h2database/h2/2.4.240)**
  - [com.ibm.icu](https://repo.maven.apache.org/maven2/com/ibm/icu/)
-    - [icu4j](https://repo.maven.apache.org/maven2/com/ibm/icu/icu4j/) **[78.1](https://repo.maven.apache.org/maven2/com/ibm/icu/icu4j/78.1)**
+    - [icu4j](https://repo.maven.apache.org/maven2/com/ibm/icu/icu4j/) **[78.2](https://repo.maven.apache.org/maven2/com/ibm/icu/icu4j/78.2)**
  - [com.miglayout](https://repo.maven.apache.org/maven2/com/miglayout/)
     - [miglayout-core](https://repo.maven.apache.org/maven2/com/miglayout/miglayout-core/) **[11.4.2](https://repo.maven.apache.org/maven2/com/miglayout/miglayout-core/11.4.2)**
     - [miglayout-swing](https://repo.maven.apache.org/maven2/com/miglayout/miglayout-swing/) **[11.4.2](https://repo.maven.apache.org/maven2/com/miglayout/miglayout-swing/11.4.2)**
