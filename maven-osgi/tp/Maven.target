@@ -3,7 +3,7 @@
 <target name="Maven" sequenceNumber="1">
   <locations>
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="error" type="Maven">
-      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.39.0.v20260109-1000">
+      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.39.0.v20260113-0737">
         <description>This feature's dependencies are pulled directly from Maven central.</description>
         <copyright>
 Copyright (c) 2026 Eclipse contributors and others.
@@ -16,7 +16,7 @@ https://www.eclipse.org/legal/epl-2.0/
 SPDX-License-Identifier: EPL-2.0
         </copyright>
         <license url="https://www.eclipse.org/legal/epl-2.0/"/>
-        <!-- SHA1 a34dd96f7bba2bbf3c1543e7615b7ddb4eafc92e -->
+        <!-- SHA1 79b0f815876a4bd1b271bf2af0dbf7f5d9cc251d -->
       </feature>
       <dependencies>
         <dependency>
@@ -28,55 +28,55 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>biz.aQute.bnd</groupId>
           <artifactId>aQute.libg</artifactId>
-          <version>7.2.0</version>
+          <version>7.2.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>biz.aQute.bnd</groupId>
           <artifactId>biz.aQute.bnd.annotation</artifactId>
-          <version>7.2.0</version>
+          <version>7.2.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>biz.aQute.bnd</groupId>
           <artifactId>biz.aQute.bnd.embedded-repo</artifactId>
-          <version>7.2.0</version>
+          <version>7.2.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>biz.aQute.bnd</groupId>
           <artifactId>biz.aQute.bnd.util</artifactId>
-          <version>7.2.0</version>
+          <version>7.2.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>biz.aQute.bnd</groupId>
           <artifactId>biz.aQute.bndlib</artifactId>
-          <version>7.2.0</version>
+          <version>7.2.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>biz.aQute.bnd</groupId>
           <artifactId>biz.aQute.repository</artifactId>
-          <version>7.2.0</version>
+          <version>7.2.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>biz.aQute.bnd</groupId>
           <artifactId>biz.aQute.resolve</artifactId>
-          <version>7.2.0</version>
+          <version>7.2.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>biz.aQute.bnd</groupId>
           <artifactId>biz.aQute.tester</artifactId>
-          <version>7.2.0</version>
+          <version>7.2.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>biz.aQute.bnd</groupId>
           <artifactId>biz.aQute.tester.junit-platform</artifactId>
-          <version>7.1.0</version>
+          <version>7.2.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -929,43 +929,43 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>org.bndtools</groupId>
           <artifactId>bndtools.api</artifactId>
-          <version>7.2.0</version>
+          <version>7.2.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.bndtools</groupId>
           <artifactId>org.bndtools.headless.build.manager</artifactId>
-          <version>7.2.0</version>
+          <version>7.2.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.bndtools</groupId>
           <artifactId>org.bndtools.headless.build.plugin.gradle</artifactId>
-          <version>7.2.0</version>
+          <version>7.2.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.bndtools</groupId>
           <artifactId>org.bndtools.templates.template</artifactId>
-          <version>7.2.0</version>
+          <version>7.2.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.bndtools</groupId>
           <artifactId>org.bndtools.templating</artifactId>
-          <version>7.1.0</version>
+          <version>7.2.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.bndtools</groupId>
           <artifactId>org.bndtools.versioncontrol.ignores.manager</artifactId>
-          <version>7.2.0</version>
+          <version>7.2.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.bndtools</groupId>
           <artifactId>org.bndtools.versioncontrol.ignores.plugin.git</artifactId>
-          <version>7.2.0</version>
+          <version>7.2.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
