@@ -1655,7 +1655,7 @@ Export-Package:         *;version="${version}";-noimport:=true
 
 <!-- WTP can't compile with this version yet -->
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
-      <feature id="org.eclipse.orbit.maven.com.google.javascript" label="Orbit Maven BND com.google.javascript" provider-name="Eclipse Orbit" version="4.39.0.v20260109-1000">
+      <feature id="org.eclipse.orbit.maven.com.google.javascript" label="Orbit Maven BND com.google.javascript" provider-name="Eclipse Orbit" version="4.39.0.v20260114-1000">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
 Copyright (c) 2026 Eclipse contributors and others.
@@ -1673,18 +1673,18 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>com.google.javascript</groupId>
           <artifactId>closure-compiler</artifactId>
-          <version>v20260107</version>
+          <version>v20260112</version>
           <type>jar</type>
         </dependency>
       </dependencies>
       <instructions>
-<!-- SHA1 66d80cf6fc74b057c3b1f161427d0e7c270d64a7 -->
+<!-- SHA1 4639be1b00cf722e2311a409721099b017255eb0 -->
 <![CDATA[
 Bundle-Name:            Bundle ${mvnGroupId} : ${mvnArtifactId
 # The version is purely qualifier, so we promote the value after the v to the micro version as has been historically the case.
 version:                ${replacestring;${mvnVersion};^v;0.0.}
 Bundle-SymbolicName:    ${mvnGroupId}
-Bundle-Version:         ${version}.v20260109-1000
+Bundle-Version:         ${version}.v20260114-1000
 Automatic-Module-Name:  ${mvnGroupId}
 Eclipse-Wrapped-Bundle: ${mvnGroupId}:${mvnArtifactId}:${mvnVersion}
 Import-Package:         java.*,org.w3c.dom,org.xml.sax.*,\
