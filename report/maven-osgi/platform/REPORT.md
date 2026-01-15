@@ -20,6 +20,11 @@
     - [org.bndtools.templating](https://repo.maven.apache.org/maven2/org/bndtools/org.bndtools.templating/) **[7.1.0](https://repo.maven.apache.org/maven2/org/bndtools/org.bndtools.templating/7.1.0)** < [7.2.1](https://repo.maven.apache.org/maven2/org/bndtools/org.bndtools.templating/7.2.1/)
     - [org.bndtools.versioncontrol.ignores.manager](https://repo.maven.apache.org/maven2/org/bndtools/org.bndtools.versioncontrol.ignores.manager/) **[7.2.0](https://repo.maven.apache.org/maven2/org/bndtools/org.bndtools.versioncontrol.ignores.manager/7.2.0)** < [7.2.1](https://repo.maven.apache.org/maven2/org/bndtools/org.bndtools.versioncontrol.ignores.manager/7.2.1/)
     - [org.bndtools.versioncontrol.ignores.plugin.git](https://repo.maven.apache.org/maven2/org/bndtools/org.bndtools.versioncontrol.ignores.plugin.git/) **[7.2.0](https://repo.maven.apache.org/maven2/org/bndtools/org.bndtools.versioncontrol.ignores.plugin.git/7.2.0)** < [7.2.1](https://repo.maven.apache.org/maven2/org/bndtools/org.bndtools.versioncontrol.ignores.plugin.git/7.2.1/)
+ - [org.commonmark](https://repo.maven.apache.org/maven2/org/commonmark/)
+    - [commonmark](https://repo.maven.apache.org/maven2/org/commonmark/commonmark/) **[0.27.0](https://repo.maven.apache.org/maven2/org/commonmark/commonmark/0.27.0)** < [0.27.1](https://repo.maven.apache.org/maven2/org/commonmark/commonmark/0.27.1/)
+    - [commonmark-ext-gfm-tables](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-gfm-tables/) **[0.27.0](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-gfm-tables/0.27.0)** < [0.27.1](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-gfm-tables/0.27.1/)
+ - [org.eclipse.jetty.toolchain](https://repo.maven.apache.org/maven2/org/eclipse/jetty/toolchain/)
+    - [jetty-servlet-api](https://repo.maven.apache.org/maven2/org/eclipse/jetty/toolchain/jetty-servlet-api/) **[4.0.6](https://repo.maven.apache.org/maven2/org/eclipse/jetty/toolchain/jetty-servlet-api/4.0.6)** < [4.0.8](https://repo.maven.apache.org/maven2/org/eclipse/jetty/toolchain/jetty-servlet-api/4.0.8/)
 
 ## Major Updates
  - [jakarta.el](https://repo.maven.apache.org/maven2/jakarta/el/)

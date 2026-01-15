@@ -253,7 +253,7 @@
 			  <dependency>
 				  <groupId>org.eclipse.jetty.toolchain</groupId>
 				  <artifactId>jetty-servlet-api</artifactId>
-				  <version>4.0.6</version>
+				  <version>4.0.8</version>
 				  <type>jar</type>
 			  </dependency>
 			  <dependency>
@@ -947,13 +947,13 @@
 			  <dependency>
 				  <groupId>org.commonmark</groupId>
 				  <artifactId>commonmark-ext-gfm-tables</artifactId>
-				  <version>0.27.0</version>
+				  <version>0.27.1</version>
 				  <type>jar</type>
 			  </dependency>
 			  <dependency>
 				  <groupId>org.commonmark</groupId>
 				  <artifactId>commonmark</artifactId>
-				  <version>0.27.0</version>
+				  <version>0.27.1</version>
 				  <type>jar</type>
 			  </dependency>
 		  </dependencies>
