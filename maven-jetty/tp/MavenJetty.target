@@ -1266,7 +1266,7 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>org.eclipse.jetty.toolchain</groupId>
           <artifactId>jetty-servlet-api</artifactId>
-          <version>4.0.6</version>
+          <version>4.0.8</version>
           <type>jar</type>
         </dependency>
         <dependency>

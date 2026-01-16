@@ -2,8 +2,8 @@
 
 ## Minor Updates
  - [net.bytebuddy](https://repo.maven.apache.org/maven2/net/bytebuddy/)
-    - [byte-buddy](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/) **[1.18.2](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.18.2)** < [1.18.3](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.18.3/)
-    - [byte-buddy-agent](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/) **[1.18.2](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.18.2)** < [1.18.3](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.18.3/)
+    - [byte-buddy](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/) **[1.18.2](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.18.2)** < [1.18.4](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.18.4/)
+    - [byte-buddy-agent](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/) **[1.18.2](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.18.2)** < [1.18.4](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.18.4/)
 
 ## Updates Applied
 [updated.tpd](updated.tpd)
