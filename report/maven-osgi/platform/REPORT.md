@@ -1,31 +1,6 @@
 # Target Platform: [platform](https://raw.githubusercontent.com/eclipse-platform/eclipse.platform.releng.aggregator/master/eclipse.platform.releng.prereqs.sdk/eclipse-sdk-prereqs.target)
 
 ## Minor Updates
- - [biz.aQute.bnd](https://repo.maven.apache.org/maven2/biz/aQute/bnd/)
-    - [aQute.libg](https://repo.maven.apache.org/maven2/biz/aQute/bnd/aQute.libg/) **[7.2.0](https://repo.maven.apache.org/maven2/biz/aQute/bnd/aQute.libg/7.2.0)** < [7.2.1](https://repo.maven.apache.org/maven2/biz/aQute/bnd/aQute.libg/7.2.1/)
-    - [biz.aQute.bnd.annotation](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.bnd.annotation/) **[7.2.0](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.bnd.annotation/7.2.0)** < [7.2.1](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.bnd.annotation/7.2.1/)
-    - [biz.aQute.bnd.embedded-repo](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.bnd.embedded-repo/) **[7.2.0](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.bnd.embedded-repo/7.2.0)** < [7.2.1](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.bnd.embedded-repo/7.2.1/)
-    - [biz.aQute.bnd.util](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.bnd.util/) **[7.2.0](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.bnd.util/7.2.0)** < [7.2.1](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.bnd.util/7.2.1/)
-    - [biz.aQute.bndlib](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.bndlib/) **[7.2.0](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.bndlib/7.2.0)** < [7.2.1](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.bndlib/7.2.1/)
-    - [biz.aQute.repository](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.repository/) **[7.2.0](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.repository/7.2.0)** < [7.2.1](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.repository/7.2.1/)
-    - [biz.aQute.resolve](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.resolve/) **[7.2.0](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.resolve/7.2.0)** < [7.2.1](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.resolve/7.2.1/)
-    - [biz.aQute.tester](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.tester/) **[7.2.0](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.tester/7.2.0)** < [7.2.1](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.tester/7.2.1/)
-    - [biz.aQute.tester.junit-platform](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.tester.junit-platform/) **[7.1.0](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.tester.junit-platform/7.1.0)** < [7.2.1](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.tester.junit-platform/7.2.1/)
- - [net.bytebuddy](https://repo.maven.apache.org/maven2/net/bytebuddy/)
-    - [byte-buddy](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/) **[1.18.3](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.18.3)** < [1.18.4](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.18.4/)
-    - [byte-buddy-agent](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/) **[1.18.3](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.18.3)** < [1.18.4](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.18.4/)
- - [org.bndtools](https://repo.maven.apache.org/maven2/org/bndtools/)
-    - [bndtools.api](https://repo.maven.apache.org/maven2/org/bndtools/bndtools.api/) **[7.2.0](https://repo.maven.apache.org/maven2/org/bndtools/bndtools.api/7.2.0)** < [7.2.1](https://repo.maven.apache.org/maven2/org/bndtools/bndtools.api/7.2.1/)
-    - [bndtools.jareditor](https://repo.maven.apache.org/maven2/org/bndtools/bndtools.jareditor/) **[7.2.0](https://repo.maven.apache.org/maven2/org/bndtools/bndtools.jareditor/7.2.0)** < [7.2.1](https://repo.maven.apache.org/maven2/org/bndtools/bndtools.jareditor/7.2.1/)
-    - [org.bndtools.headless.build.manager](https://repo.maven.apache.org/maven2/org/bndtools/org.bndtools.headless.build.manager/) **[7.2.0](https://repo.maven.apache.org/maven2/org/bndtools/org.bndtools.headless.build.manager/7.2.0)** < [7.2.1](https://repo.maven.apache.org/maven2/org/bndtools/org.bndtools.headless.build.manager/7.2.1/)
-    - [org.bndtools.headless.build.plugin.gradle](https://repo.maven.apache.org/maven2/org/bndtools/org.bndtools.headless.build.plugin.gradle/) **[7.2.0](https://repo.maven.apache.org/maven2/org/bndtools/org.bndtools.headless.build.plugin.gradle/7.2.0)** < [7.2.1](https://repo.maven.apache.org/maven2/org/bndtools/org.bndtools.headless.build.plugin.gradle/7.2.1/)
-    - [org.bndtools.templates.template](https://repo.maven.apache.org/maven2/org/bndtools/org.bndtools.templates.template/) **[7.2.0](https://repo.maven.apache.org/maven2/org/bndtools/org.bndtools.templates.template/7.2.0)** < [7.2.1](https://repo.maven.apache.org/maven2/org/bndtools/org.bndtools.templates.template/7.2.1/)
-    - [org.bndtools.templating](https://repo.maven.apache.org/maven2/org/bndtools/org.bndtools.templating/) **[7.1.0](https://repo.maven.apache.org/maven2/org/bndtools/org.bndtools.templating/7.1.0)** < [7.2.1](https://repo.maven.apache.org/maven2/org/bndtools/org.bndtools.templating/7.2.1/)
-    - [org.bndtools.versioncontrol.ignores.manager](https://repo.maven.apache.org/maven2/org/bndtools/org.bndtools.versioncontrol.ignores.manager/) **[7.2.0](https://repo.maven.apache.org/maven2/org/bndtools/org.bndtools.versioncontrol.ignores.manager/7.2.0)** < [7.2.1](https://repo.maven.apache.org/maven2/org/bndtools/org.bndtools.versioncontrol.ignores.manager/7.2.1/)
-    - [org.bndtools.versioncontrol.ignores.plugin.git](https://repo.maven.apache.org/maven2/org/bndtools/org.bndtools.versioncontrol.ignores.plugin.git/) **[7.2.0](https://repo.maven.apache.org/maven2/org/bndtools/org.bndtools.versioncontrol.ignores.plugin.git/7.2.0)** < [7.2.1](https://repo.maven.apache.org/maven2/org/bndtools/org.bndtools.versioncontrol.ignores.plugin.git/7.2.1/)
- - [org.commonmark](https://repo.maven.apache.org/maven2/org/commonmark/)
-    - [commonmark](https://repo.maven.apache.org/maven2/org/commonmark/commonmark/) **[0.27.0](https://repo.maven.apache.org/maven2/org/commonmark/commonmark/0.27.0)** < [0.27.1](https://repo.maven.apache.org/maven2/org/commonmark/commonmark/0.27.1/)
-    - [commonmark-ext-gfm-tables](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-gfm-tables/) **[0.27.0](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-gfm-tables/0.27.0)** < [0.27.1](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-gfm-tables/0.27.1/)
  - [org.eclipse.jetty.toolchain](https://repo.maven.apache.org/maven2/org/eclipse/jetty/toolchain/)
     - [jetty-servlet-api](https://repo.maven.apache.org/maven2/org/eclipse/jetty/toolchain/jetty-servlet-api/) **[4.0.6](https://repo.maven.apache.org/maven2/org/eclipse/jetty/toolchain/jetty-servlet-api/4.0.6)** < [4.0.8](https://repo.maven.apache.org/maven2/org/eclipse/jetty/toolchain/jetty-servlet-api/4.0.8/)
 
@@ -45,15 +20,15 @@
 
 ## Content
  - [biz.aQute.bnd](https://repo.maven.apache.org/maven2/biz/aQute/bnd/)
-    - [aQute.libg](https://repo.maven.apache.org/maven2/biz/aQute/bnd/aQute.libg/) **[7.2.0](https://repo.maven.apache.org/maven2/biz/aQute/bnd/aQute.libg/7.2.0)**
-    - [biz.aQute.bnd.annotation](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.bnd.annotation/) **[7.2.0](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.bnd.annotation/7.2.0)**
-    - [biz.aQute.bnd.embedded-repo](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.bnd.embedded-repo/) **[7.2.0](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.bnd.embedded-repo/7.2.0)**
-    - [biz.aQute.bnd.util](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.bnd.util/) **[7.2.0](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.bnd.util/7.2.0)**
-    - [biz.aQute.bndlib](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.bndlib/) **[7.2.0](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.bndlib/7.2.0)**
-    - [biz.aQute.repository](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.repository/) **[7.2.0](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.repository/7.2.0)**
-    - [biz.aQute.resolve](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.resolve/) **[7.2.0](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.resolve/7.2.0)**
-    - [biz.aQute.tester](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.tester/) **[7.2.0](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.tester/7.2.0)**
-    - [biz.aQute.tester.junit-platform](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.tester.junit-platform/) **[7.1.0](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.tester.junit-platform/7.1.0)**
+    - [aQute.libg](https://repo.maven.apache.org/maven2/biz/aQute/bnd/aQute.libg/) **[7.2.1](https://repo.maven.apache.org/maven2/biz/aQute/bnd/aQute.libg/7.2.1)**
+    - [biz.aQute.bnd.annotation](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.bnd.annotation/) **[7.2.1](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.bnd.annotation/7.2.1)**
+    - [biz.aQute.bnd.embedded-repo](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.bnd.embedded-repo/) **[7.2.1](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.bnd.embedded-repo/7.2.1)**
+    - [biz.aQute.bnd.util](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.bnd.util/) **[7.2.1](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.bnd.util/7.2.1)**
+    - [biz.aQute.bndlib](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.bndlib/) **[7.2.1](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.bndlib/7.2.1)**
+    - [biz.aQute.repository](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.repository/) **[7.2.1](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.repository/7.2.1)**
+    - [biz.aQute.resolve](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.resolve/) **[7.2.1](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.resolve/7.2.1)**
+    - [biz.aQute.tester](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.tester/) **[7.2.1](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.tester/7.2.1)**
+    - [biz.aQute.tester.junit-platform](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.tester.junit-platform/) **[7.2.1](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.tester.junit-platform/7.2.1)**
  - [com.github.weisj](https://repo.maven.apache.org/maven2/com/github/weisj/)
     - [jsvg](https://repo.maven.apache.org/maven2/com/github/weisj/jsvg/) **[2.0.0](https://repo.maven.apache.org/maven2/com/github/weisj/jsvg/2.0.0)**
  - [com.google.code.gson](https://repo.maven.apache.org/maven2/com/google/code/gson/)
@@ -84,8 +59,8 @@
  - [javax.servlet.jsp](https://repo.maven.apache.org/maven2/javax/servlet/jsp/)
     - [javax.servlet.jsp-api](https://repo.maven.apache.org/maven2/javax/servlet/jsp/javax.servlet.jsp-api/) **[2.3.3](https://repo.maven.apache.org/maven2/javax/servlet/jsp/javax.servlet.jsp-api/2.3.3)**
  - [net.bytebuddy](https://repo.maven.apache.org/maven2/net/bytebuddy/)
-    - [byte-buddy](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/) **[1.18.3](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.18.3)**
-    - [byte-buddy-agent](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/) **[1.18.3](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.18.3)**
+    - [byte-buddy](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/) **[1.18.4](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.18.4)**
+    - [byte-buddy-agent](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/) **[1.18.4](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.18.4)**
  - [net.java.dev.jna](https://repo.maven.apache.org/maven2/net/java/dev/jna/)
     - [jna-platform](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna-platform/) **[5.18.1](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna-platform/5.18.1)**
  - [org.apache.aries.spifly](https://repo.maven.apache.org/maven2/org/apache/aries/spifly/)
@@ -102,21 +77,21 @@
  - [org.assertj](https://repo.maven.apache.org/maven2/org/assertj/)
     - [assertj-core](https://repo.maven.apache.org/maven2/org/assertj/assertj-core/) **[3.27.6](https://repo.maven.apache.org/maven2/org/assertj/assertj-core/3.27.6)**
  - [org.bndtools](https://repo.maven.apache.org/maven2/org/bndtools/)
-    - [bndtools.api](https://repo.maven.apache.org/maven2/org/bndtools/bndtools.api/) **[7.2.0](https://repo.maven.apache.org/maven2/org/bndtools/bndtools.api/7.2.0)**
-    - [bndtools.jareditor](https://repo.maven.apache.org/maven2/org/bndtools/bndtools.jareditor/) **[7.2.0](https://repo.maven.apache.org/maven2/org/bndtools/bndtools.jareditor/7.2.0)**
-    - [org.bndtools.headless.build.manager](https://repo.maven.apache.org/maven2/org/bndtools/org.bndtools.headless.build.manager/) **[7.2.0](https://repo.maven.apache.org/maven2/org/bndtools/org.bndtools.headless.build.manager/7.2.0)**
-    - [org.bndtools.headless.build.plugin.gradle](https://repo.maven.apache.org/maven2/org/bndtools/org.bndtools.headless.build.plugin.gradle/) **[7.2.0](https://repo.maven.apache.org/maven2/org/bndtools/org.bndtools.headless.build.plugin.gradle/7.2.0)**
-    - [org.bndtools.templates.template](https://repo.maven.apache.org/maven2/org/bndtools/org.bndtools.templates.template/) **[7.2.0](https://repo.maven.apache.org/maven2/org/bndtools/org.bndtools.templates.template/7.2.0)**
-    - [org.bndtools.templating](https://repo.maven.apache.org/maven2/org/bndtools/org.bndtools.templating/) **[7.1.0](https://repo.maven.apache.org/maven2/org/bndtools/org.bndtools.templating/7.1.0)**
-    - [org.bndtools.versioncontrol.ignores.manager](https://repo.maven.apache.org/maven2/org/bndtools/org.bndtools.versioncontrol.ignores.manager/) **[7.2.0](https://repo.maven.apache.org/maven2/org/bndtools/org.bndtools.versioncontrol.ignores.manager/7.2.0)**
-    - [org.bndtools.versioncontrol.ignores.plugin.git](https://repo.maven.apache.org/maven2/org/bndtools/org.bndtools.versioncontrol.ignores.plugin.git/) **[7.2.0](https://repo.maven.apache.org/maven2/org/bndtools/org.bndtools.versioncontrol.ignores.plugin.git/7.2.0)**
+    - [bndtools.api](https://repo.maven.apache.org/maven2/org/bndtools/bndtools.api/) **[7.2.1](https://repo.maven.apache.org/maven2/org/bndtools/bndtools.api/7.2.1)**
+    - [bndtools.jareditor](https://repo.maven.apache.org/maven2/org/bndtools/bndtools.jareditor/) **[7.2.1](https://repo.maven.apache.org/maven2/org/bndtools/bndtools.jareditor/7.2.1)**
+    - [org.bndtools.headless.build.manager](https://repo.maven.apache.org/maven2/org/bndtools/org.bndtools.headless.build.manager/) **[7.2.1](https://repo.maven.apache.org/maven2/org/bndtools/org.bndtools.headless.build.manager/7.2.1)**
+    - [org.bndtools.headless.build.plugin.gradle](https://repo.maven.apache.org/maven2/org/bndtools/org.bndtools.headless.build.plugin.gradle/) **[7.2.1](https://repo.maven.apache.org/maven2/org/bndtools/org.bndtools.headless.build.plugin.gradle/7.2.1)**
+    - [org.bndtools.templates.template](https://repo.maven.apache.org/maven2/org/bndtools/org.bndtools.templates.template/) **[7.2.1](https://repo.maven.apache.org/maven2/org/bndtools/org.bndtools.templates.template/7.2.1)**
+    - [org.bndtools.templating](https://repo.maven.apache.org/maven2/org/bndtools/org.bndtools.templating/) **[7.2.1](https://repo.maven.apache.org/maven2/org/bndtools/org.bndtools.templating/7.2.1)**
+    - [org.bndtools.versioncontrol.ignores.manager](https://repo.maven.apache.org/maven2/org/bndtools/org.bndtools.versioncontrol.ignores.manager/) **[7.2.1](https://repo.maven.apache.org/maven2/org/bndtools/org.bndtools.versioncontrol.ignores.manager/7.2.1)**
+    - [org.bndtools.versioncontrol.ignores.plugin.git](https://repo.maven.apache.org/maven2/org/bndtools/org.bndtools.versioncontrol.ignores.plugin.git/) **[7.2.1](https://repo.maven.apache.org/maven2/org/bndtools/org.bndtools.versioncontrol.ignores.plugin.git/7.2.1)**
  - [org.bouncycastle](https://repo.maven.apache.org/maven2/org/bouncycastle/)
     - [bcpg-jdk18on](https://repo.maven.apache.org/maven2/org/bouncycastle/bcpg-jdk18on/) **[1.83](https://repo.maven.apache.org/maven2/org/bouncycastle/bcpg-jdk18on/1.83)**
     - [bcprov-jdk18on](https://repo.maven.apache.org/maven2/org/bouncycastle/bcprov-jdk18on/) **[1.83](https://repo.maven.apache.org/maven2/org/bouncycastle/bcprov-jdk18on/1.83)**
     - [bcutil-jdk18on](https://repo.maven.apache.org/maven2/org/bouncycastle/bcutil-jdk18on/) **[1.83](https://repo.maven.apache.org/maven2/org/bouncycastle/bcutil-jdk18on/1.83)**
  - [org.commonmark](https://repo.maven.apache.org/maven2/org/commonmark/)
-    - [commonmark](https://repo.maven.apache.org/maven2/org/commonmark/commonmark/) **[0.27.0](https://repo.maven.apache.org/maven2/org/commonmark/commonmark/0.27.0)**
-    - [commonmark-ext-gfm-tables](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-gfm-tables/) **[0.27.0](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-gfm-tables/0.27.0)**
+    - [commonmark](https://repo.maven.apache.org/maven2/org/commonmark/commonmark/) **[0.27.1](https://repo.maven.apache.org/maven2/org/commonmark/commonmark/0.27.1)**
+    - [commonmark-ext-gfm-tables](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-gfm-tables/) **[0.27.1](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-gfm-tables/0.27.1)**
  - [org.eclipse.jetty](https://repo.maven.apache.org/maven2/org/eclipse/jetty/)
     - [jetty-http](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-http/) **[12.1.5](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-http/12.1.5)**
     - [jetty-io](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-io/) **[12.1.5](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-io/12.1.5)**

@@ -3,7 +3,7 @@
 <target name="Maven" sequenceNumber="1">
   <locations>
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="error" type="Maven">
-      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.39.0.v20260116-1000">
+      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.39.0.v20260118-1000">
         <description>This feature's dependencies are pulled directly from Maven central.</description>
         <copyright>
 Copyright (c) 2026 Eclipse contributors and others.
@@ -16,7 +16,7 @@ https://www.eclipse.org/legal/epl-2.0/
 SPDX-License-Identifier: EPL-2.0
         </copyright>
         <license url="https://www.eclipse.org/legal/epl-2.0/"/>
-        <!-- SHA1 fb33b696578d3ddd6faa7e25bb1d94fe48a0227b -->
+        <!-- SHA1 f408923ebba0a909b8afadd8c9b74da52331d939 -->
       </feature>
       <dependencies>
         <dependency>
@@ -82,13 +82,13 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>ch.qos.logback</groupId>
           <artifactId>logback-classic</artifactId>
-          <version>1.5.24</version>
+          <version>1.5.25</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>ch.qos.logback</groupId>
           <artifactId>logback-core</artifactId>
-          <version>1.5.24</version>
+          <version>1.5.25</version>
           <type>jar</type>
         </dependency>
         <dependency>
