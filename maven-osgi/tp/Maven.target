@@ -3,7 +3,7 @@
 <target name="Maven" sequenceNumber="1">
   <locations>
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="error" type="Maven">
-      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.39.0.v20260119-1000">
+      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.39.0.v20260120-1000">
         <description>This feature's dependencies are pulled directly from Maven central.</description>
         <copyright>
 Copyright (c) 2026 Eclipse contributors and others.
@@ -16,7 +16,7 @@ https://www.eclipse.org/legal/epl-2.0/
 SPDX-License-Identifier: EPL-2.0
         </copyright>
         <license url="https://www.eclipse.org/legal/epl-2.0/"/>
-        <!-- SHA1 e7d4cdf376c92094da6e7021843766fc7b0b8339 -->
+        <!-- SHA1 31cd07cb1d0de67be3eb355951fa453496582564 -->
       </feature>
       <dependencies>
         <dependency>
@@ -1109,7 +1109,7 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>org.eclipse.jetty.toolchain</groupId>
           <artifactId>jetty-servlet-api</artifactId>
-          <version>4.0.8</version>
+          <version>4.0.9</version>
           <type>jar</type>
         </dependency>
         <dependency>

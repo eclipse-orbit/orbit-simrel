@@ -326,7 +326,7 @@
     - [eclipse-collections-forkjoin](https://repo.maven.apache.org/maven2/org/eclipse/collections/eclipse-collections-forkjoin/) **[12.0.0](https://repo.maven.apache.org/maven2/org/eclipse/collections/eclipse-collections-forkjoin/12.0.0)**
     - [eclipse-collections-forkjoin](https://repo.maven.apache.org/maven2/org/eclipse/collections/eclipse-collections-forkjoin/) **[13.0.0](https://repo.maven.apache.org/maven2/org/eclipse/collections/eclipse-collections-forkjoin/13.0.0)**
  - [org.eclipse.jetty.toolchain](https://repo.maven.apache.org/maven2/org/eclipse/jetty/toolchain/)
-    - [jetty-servlet-api](https://repo.maven.apache.org/maven2/org/eclipse/jetty/toolchain/jetty-servlet-api/) **[4.0.8](https://repo.maven.apache.org/maven2/org/eclipse/jetty/toolchain/jetty-servlet-api/4.0.8)**
+    - [jetty-servlet-api](https://repo.maven.apache.org/maven2/org/eclipse/jetty/toolchain/jetty-servlet-api/) **[4.0.9](https://repo.maven.apache.org/maven2/org/eclipse/jetty/toolchain/jetty-servlet-api/4.0.9)**
  - [org.freemarker](https://repo.maven.apache.org/maven2/org/freemarker/)
     - [freemarker](https://repo.maven.apache.org/maven2/org/freemarker/freemarker/) **[2.3.34](https://repo.maven.apache.org/maven2/org/freemarker/freemarker/2.3.34)**
  - [org.glassfish](https://repo.maven.apache.org/maven2/org/glassfish/)
