@@ -1,9 +1,5 @@
 # Target Platform: [platform](https://raw.githubusercontent.com/eclipse-platform/eclipse.platform.releng.aggregator/master/eclipse.platform.releng.prereqs.sdk/eclipse-sdk-prereqs.target)
 
-## Minor Updates
- - [org.eclipse.jetty.toolchain](https://repo.maven.apache.org/maven2/org/eclipse/jetty/toolchain/)
-    - [jetty-servlet-api](https://repo.maven.apache.org/maven2/org/eclipse/jetty/toolchain/jetty-servlet-api/) **[4.0.6](https://repo.maven.apache.org/maven2/org/eclipse/jetty/toolchain/jetty-servlet-api/4.0.6)** < [4.0.9](https://repo.maven.apache.org/maven2/org/eclipse/jetty/toolchain/jetty-servlet-api/4.0.9/)
-
 ## Major Updates
  - [jakarta.el](https://repo.maven.apache.org/maven2/jakarta/el/)
     - [jakarta.el-api](https://repo.maven.apache.org/maven2/jakarta/el/jakarta.el-api/) **[3.0.3](https://repo.maven.apache.org/maven2/jakarta/el/jakarta.el-api/3.0.3)** < [6.0.1](https://repo.maven.apache.org/maven2/jakarta/el/jakarta.el-api/6.0.1/)
@@ -14,9 +10,6 @@
  - [org.mortbay.jasper](https://repo.maven.apache.org/maven2/org/mortbay/jasper/)
     - [mortbay-apache-el](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-el/) **[9.0.111](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-el/9.0.111)** < [11.0.10.1](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-el/11.0.10.1/)
     - [mortbay-apache-jsp](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-jsp/) **[9.0.111](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-jsp/9.0.111)** < [11.0.10.1](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-jsp/11.0.10.1/)
-
-## Updates Applied
-[updated.target](updated.target)
 
 ## Content
  - [biz.aQute.bnd](https://repo.maven.apache.org/maven2/biz/aQute/bnd/)
@@ -106,7 +99,7 @@
     - [jetty-ee8-security](https://repo.maven.apache.org/maven2/org/eclipse/jetty/ee8/jetty-ee8-security/) **[12.1.5](https://repo.maven.apache.org/maven2/org/eclipse/jetty/ee8/jetty-ee8-security/12.1.5)**
     - [jetty-ee8-servlet](https://repo.maven.apache.org/maven2/org/eclipse/jetty/ee8/jetty-ee8-servlet/) **[12.1.5](https://repo.maven.apache.org/maven2/org/eclipse/jetty/ee8/jetty-ee8-servlet/12.1.5)**
  - [org.eclipse.jetty.toolchain](https://repo.maven.apache.org/maven2/org/eclipse/jetty/toolchain/)
-    - [jetty-servlet-api](https://repo.maven.apache.org/maven2/org/eclipse/jetty/toolchain/jetty-servlet-api/) **[4.0.6](https://repo.maven.apache.org/maven2/org/eclipse/jetty/toolchain/jetty-servlet-api/4.0.6)**
+    - [jetty-servlet-api](https://repo.maven.apache.org/maven2/org/eclipse/jetty/toolchain/jetty-servlet-api/) **[4.0.9](https://repo.maven.apache.org/maven2/org/eclipse/jetty/toolchain/jetty-servlet-api/4.0.9)**
  - [org.glassfish](https://repo.maven.apache.org/maven2/org/glassfish/)
     - [jakarta.el](https://repo.maven.apache.org/maven2/org/glassfish/jakarta.el/) **[3.0.4](https://repo.maven.apache.org/maven2/org/glassfish/jakarta.el/3.0.4)**
  - [org.hamcrest](https://repo.maven.apache.org/maven2/org/hamcrest/)
