@@ -4,6 +4,8 @@
  - [net.bytebuddy](https://repo.maven.apache.org/maven2/net/bytebuddy/)
     - [byte-buddy](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/) **[1.18.2](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.18.2)** < [1.18.4](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.18.4/)
     - [byte-buddy-agent](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/) **[1.18.2](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.18.2)** < [1.18.4](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.18.4/)
+ - [org.assertj](https://repo.maven.apache.org/maven2/org/assertj/)
+    - [assertj-core](https://repo.maven.apache.org/maven2/org/assertj/assertj-core/) **[3.27.6](https://repo.maven.apache.org/maven2/org/assertj/assertj-core/3.27.6)** < [3.27.7](https://repo.maven.apache.org/maven2/org/assertj/assertj-core/3.27.7/)
 
 ## Updates Applied
 [updated.tpd](updated.tpd)

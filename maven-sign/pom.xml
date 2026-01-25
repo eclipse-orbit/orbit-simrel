@@ -9,7 +9,7 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <tycho-version>5.0.1</tycho-version>
+    <tycho-version>5.0.2</tycho-version>
     <jarsigner-version>1.5.3</jarsigner-version>
     <gpg-keyname>C1F58CF8</gpg-keyname>
     <eclipse.repo>https://download.eclipse.org/releases/latest</eclipse.repo>
