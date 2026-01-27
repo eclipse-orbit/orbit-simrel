@@ -3,6 +3,8 @@
 ## Minor Updates
  - [org.assertj](https://repo.maven.apache.org/maven2/org/assertj/)
     - [assertj-core](https://repo.maven.apache.org/maven2/org/assertj/assertj-core/) **[3.27.6](https://repo.maven.apache.org/maven2/org/assertj/assertj-core/3.27.6)** < [3.27.7](https://repo.maven.apache.org/maven2/org/assertj/assertj-core/3.27.7/)
+ - [org.objenesis](https://repo.maven.apache.org/maven2/org/objenesis/)
+    - [objenesis](https://repo.maven.apache.org/maven2/org/objenesis/objenesis/) **[3.4](https://repo.maven.apache.org/maven2/org/objenesis/objenesis/3.4)** < [3.5](https://repo.maven.apache.org/maven2/org/objenesis/objenesis/3.5/)
 
 ## Major Updates
  - [jakarta.el](https://repo.maven.apache.org/maven2/jakarta/el/)

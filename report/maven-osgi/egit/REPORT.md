@@ -1,15 +1,5 @@
 # Target Platform: [egit](https://raw.githubusercontent.com/eclipse-egit/egit/master/org.eclipse.egit.target/maven/dependencies.tpd)
 
-## Minor Updates
- - [net.bytebuddy](https://repo.maven.apache.org/maven2/net/bytebuddy/)
-    - [byte-buddy](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/) **[1.18.2](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.18.2)** < [1.18.4](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.18.4/)
-    - [byte-buddy-agent](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/) **[1.18.2](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.18.2)** < [1.18.4](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.18.4/)
- - [org.assertj](https://repo.maven.apache.org/maven2/org/assertj/)
-    - [assertj-core](https://repo.maven.apache.org/maven2/org/assertj/assertj-core/) **[3.27.6](https://repo.maven.apache.org/maven2/org/assertj/assertj-core/3.27.6)** < [3.27.7](https://repo.maven.apache.org/maven2/org/assertj/assertj-core/3.27.7/)
-
-## Updates Applied
-[updated.tpd](updated.tpd)
-
 ## Content
  - [args4j](https://repo.maven.apache.org/maven2/args4j/)
     - [args4j](https://repo.maven.apache.org/maven2/args4j/args4j/) **[2.37](https://repo.maven.apache.org/maven2/args4j/args4j/2.37)**
@@ -26,8 +16,8 @@
  - [jakarta.servlet](https://repo.maven.apache.org/maven2/jakarta/servlet/)
     - [jakarta.servlet-api](https://repo.maven.apache.org/maven2/jakarta/servlet/jakarta.servlet-api/) **[6.1.0](https://repo.maven.apache.org/maven2/jakarta/servlet/jakarta.servlet-api/6.1.0)**
  - [net.bytebuddy](https://repo.maven.apache.org/maven2/net/bytebuddy/)
-    - [byte-buddy](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/) **[1.18.2](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.18.2)**
-    - [byte-buddy-agent](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/) **[1.18.2](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.18.2)**
+    - [byte-buddy](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/) **[1.18.4](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.18.4)**
+    - [byte-buddy-agent](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/) **[1.18.4](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.18.4)**
  - [net.java.dev.jna](https://repo.maven.apache.org/maven2/net/java/dev/jna/)
     - [jna](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna/) **[5.18.1](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna/5.18.1)**
     - [jna-platform](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna-platform/) **[5.18.1](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna-platform/5.18.1)**
@@ -38,7 +28,7 @@
     - [sshd-osgi](https://repo.maven.apache.org/maven2/org/apache/sshd/sshd-osgi/) **[2.16.0](https://repo.maven.apache.org/maven2/org/apache/sshd/sshd-osgi/2.16.0)**
     - [sshd-sftp](https://repo.maven.apache.org/maven2/org/apache/sshd/sshd-sftp/) **[2.16.0](https://repo.maven.apache.org/maven2/org/apache/sshd/sshd-sftp/2.16.0)**
  - [org.assertj](https://repo.maven.apache.org/maven2/org/assertj/)
-    - [assertj-core](https://repo.maven.apache.org/maven2/org/assertj/assertj-core/) **[3.27.6](https://repo.maven.apache.org/maven2/org/assertj/assertj-core/3.27.6)**
+    - [assertj-core](https://repo.maven.apache.org/maven2/org/assertj/assertj-core/) **[3.27.7](https://repo.maven.apache.org/maven2/org/assertj/assertj-core/3.27.7)**
  - [org.bouncycastle](https://repo.maven.apache.org/maven2/org/bouncycastle/)
     - [bcpg-jdk18on](https://repo.maven.apache.org/maven2/org/bouncycastle/bcpg-jdk18on/) **[1.83](https://repo.maven.apache.org/maven2/org/bouncycastle/bcpg-jdk18on/1.83)**
     - [bcpkix-jdk18on](https://repo.maven.apache.org/maven2/org/bouncycastle/bcpkix-jdk18on/) **[1.83](https://repo.maven.apache.org/maven2/org/bouncycastle/bcpkix-jdk18on/1.83)**

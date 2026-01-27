@@ -422,7 +422,7 @@
  - [org.mvel](https://repo.maven.apache.org/maven2/org/mvel/)
     - [mvel2](https://repo.maven.apache.org/maven2/org/mvel/mvel2/) **[2.5.2.Final](https://repo.maven.apache.org/maven2/org/mvel/mvel2/2.5.2.Final)**
  - [org.objenesis](https://repo.maven.apache.org/maven2/org/objenesis/)
-    - [objenesis](https://repo.maven.apache.org/maven2/org/objenesis/objenesis/) **[3.4](https://repo.maven.apache.org/maven2/org/objenesis/objenesis/3.4)**
+    - [objenesis](https://repo.maven.apache.org/maven2/org/objenesis/objenesis/) **[3.5](https://repo.maven.apache.org/maven2/org/objenesis/objenesis/3.5)**
  - [org.opentest4j](https://repo.maven.apache.org/maven2/org/opentest4j/)
     - [opentest4j](https://repo.maven.apache.org/maven2/org/opentest4j/opentest4j/) **[1.3.0](https://repo.maven.apache.org/maven2/org/opentest4j/opentest4j/1.3.0)**
  - [org.osgi](https://repo.maven.apache.org/maven2/org/osgi/)
