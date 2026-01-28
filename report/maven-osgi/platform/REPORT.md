@@ -1,11 +1,5 @@
 # Target Platform: [platform](https://raw.githubusercontent.com/eclipse-platform/eclipse.platform.releng.aggregator/master/eclipse.platform.releng.prereqs.sdk/eclipse-sdk-prereqs.target)
 
-## Minor Updates
- - [org.assertj](https://repo.maven.apache.org/maven2/org/assertj/)
-    - [assertj-core](https://repo.maven.apache.org/maven2/org/assertj/assertj-core/) **[3.27.6](https://repo.maven.apache.org/maven2/org/assertj/assertj-core/3.27.6)** < [3.27.7](https://repo.maven.apache.org/maven2/org/assertj/assertj-core/3.27.7/)
- - [org.objenesis](https://repo.maven.apache.org/maven2/org/objenesis/)
-    - [objenesis](https://repo.maven.apache.org/maven2/org/objenesis/objenesis/) **[3.4](https://repo.maven.apache.org/maven2/org/objenesis/objenesis/3.4)** < [3.5](https://repo.maven.apache.org/maven2/org/objenesis/objenesis/3.5/)
-
 ## Major Updates
  - [jakarta.el](https://repo.maven.apache.org/maven2/jakarta/el/)
     - [jakarta.el-api](https://repo.maven.apache.org/maven2/jakarta/el/jakarta.el-api/) **[3.0.3](https://repo.maven.apache.org/maven2/jakarta/el/jakarta.el-api/3.0.3)** < [6.0.1](https://repo.maven.apache.org/maven2/jakarta/el/jakarta.el-api/6.0.1/)
@@ -16,9 +10,6 @@
  - [org.mortbay.jasper](https://repo.maven.apache.org/maven2/org/mortbay/jasper/)
     - [mortbay-apache-el](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-el/) **[9.0.111](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-el/9.0.111)** < [11.0.10.1](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-el/11.0.10.1/)
     - [mortbay-apache-jsp](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-jsp/) **[9.0.111](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-jsp/9.0.111)** < [11.0.10.1](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-jsp/11.0.10.1/)
-
-## Updates Applied
-[updated.target](updated.target)
 
 ## Content
  - [biz.aQute.bnd](https://repo.maven.apache.org/maven2/biz/aQute/bnd/)
@@ -73,11 +64,11 @@
     - [org.apache.felix.gogo.shell](https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.gogo.shell/) **[1.1.4](https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.gogo.shell/1.1.4)**
     - [org.apache.felix.scr](https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.scr/) **[2.2.14](https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.scr/2.2.14)**
  - [org.apache.sshd](https://repo.maven.apache.org/maven2/org/apache/sshd/)
-    - [sshd-osgi](https://repo.maven.apache.org/maven2/org/apache/sshd/sshd-osgi/) **[2.16.0](https://repo.maven.apache.org/maven2/org/apache/sshd/sshd-osgi/2.16.0)**
+    - [sshd-osgi](https://repo.maven.apache.org/maven2/org/apache/sshd/sshd-osgi/) **[2.17.1](https://repo.maven.apache.org/maven2/org/apache/sshd/sshd-osgi/2.17.1)**
  - [org.apiguardian](https://repo.maven.apache.org/maven2/org/apiguardian/)
     - [apiguardian-api](https://repo.maven.apache.org/maven2/org/apiguardian/apiguardian-api/) **[1.1.2](https://repo.maven.apache.org/maven2/org/apiguardian/apiguardian-api/1.1.2)**
  - [org.assertj](https://repo.maven.apache.org/maven2/org/assertj/)
-    - [assertj-core](https://repo.maven.apache.org/maven2/org/assertj/assertj-core/) **[3.27.6](https://repo.maven.apache.org/maven2/org/assertj/assertj-core/3.27.6)**
+    - [assertj-core](https://repo.maven.apache.org/maven2/org/assertj/assertj-core/) **[3.27.7](https://repo.maven.apache.org/maven2/org/assertj/assertj-core/3.27.7)**
  - [org.bndtools](https://repo.maven.apache.org/maven2/org/bndtools/)
     - [bndtools.api](https://repo.maven.apache.org/maven2/org/bndtools/bndtools.api/) **[7.2.1](https://repo.maven.apache.org/maven2/org/bndtools/bndtools.api/7.2.1)**
     - [bndtools.jareditor](https://repo.maven.apache.org/maven2/org/bndtools/bndtools.jareditor/) **[7.2.1](https://repo.maven.apache.org/maven2/org/bndtools/bndtools.jareditor/7.2.1)**
@@ -146,7 +137,7 @@
     - [mortbay-apache-el](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-el/) **[9.0.111](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-el/9.0.111)**
     - [mortbay-apache-jsp](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-jsp/) **[9.0.111](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-jsp/9.0.111)**
  - [org.objenesis](https://repo.maven.apache.org/maven2/org/objenesis/)
-    - [objenesis](https://repo.maven.apache.org/maven2/org/objenesis/objenesis/) **[3.4](https://repo.maven.apache.org/maven2/org/objenesis/objenesis/3.4)**
+    - [objenesis](https://repo.maven.apache.org/maven2/org/objenesis/objenesis/) **[3.5](https://repo.maven.apache.org/maven2/org/objenesis/objenesis/3.5)**
  - [org.opentest4j](https://repo.maven.apache.org/maven2/org/opentest4j/)
     - [opentest4j](https://repo.maven.apache.org/maven2/org/opentest4j/opentest4j/) **[1.3.0](https://repo.maven.apache.org/maven2/org/opentest4j/opentest4j/1.3.0)**
  - [org.osgi](https://repo.maven.apache.org/maven2/org/osgi/)

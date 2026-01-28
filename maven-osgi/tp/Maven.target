@@ -3,7 +3,7 @@
 <target name="Maven" sequenceNumber="1">
   <locations>
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="error" type="Maven">
-      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.39.0.v20260127-1000">
+      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.39.0.v20260128-1000">
         <description>This feature's dependencies are pulled directly from Maven central.</description>
         <copyright>
 Copyright (c) 2026 Eclipse contributors and others.
@@ -16,7 +16,7 @@ https://www.eclipse.org/legal/epl-2.0/
 SPDX-License-Identifier: EPL-2.0
         </copyright>
         <license url="https://www.eclipse.org/legal/epl-2.0/"/>
-        <!-- SHA1 dd9facb43efdae84fc76adc99c55cfee48e5b97f -->
+        <!-- SHA1 5b9b4d32c4c5432a67b46e132c481f3510c1b7ff -->
       </feature>
       <dependencies>
         <dependency>
@@ -893,13 +893,13 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>org.apache.sshd</groupId>
           <artifactId>sshd-osgi</artifactId>
-          <version>2.16.0</version>
+          <version>2.17.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.apache.sshd</groupId>
           <artifactId>sshd-sftp</artifactId>
-          <version>2.16.0</version>
+          <version>2.17.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
