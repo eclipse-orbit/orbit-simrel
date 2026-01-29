@@ -1,13 +1,5 @@
 # Target Platform: [jgit](https://raw.githubusercontent.com/eclipse-jgit/jgit/master/org.eclipse.jgit.packaging/org.eclipse.jgit.target/maven/dependencies.tpd)
 
-## Minor Updates
- - [org.apache.sshd](https://repo.maven.apache.org/maven2/org/apache/sshd/)
-    - [sshd-osgi](https://repo.maven.apache.org/maven2/org/apache/sshd/sshd-osgi/) **[2.16.0](https://repo.maven.apache.org/maven2/org/apache/sshd/sshd-osgi/2.16.0)** < [2.17.1](https://repo.maven.apache.org/maven2/org/apache/sshd/sshd-osgi/2.17.1/)
-    - [sshd-sftp](https://repo.maven.apache.org/maven2/org/apache/sshd/sshd-sftp/) **[2.16.0](https://repo.maven.apache.org/maven2/org/apache/sshd/sshd-sftp/2.16.0)** < [2.17.1](https://repo.maven.apache.org/maven2/org/apache/sshd/sshd-sftp/2.17.1/)
-
-## Updates Applied
-[updated.tpd](updated.tpd)
-
 ## Content
  - [args4j](https://repo.maven.apache.org/maven2/args4j/)
     - [args4j](https://repo.maven.apache.org/maven2/args4j/args4j/) **[2.37](https://repo.maven.apache.org/maven2/args4j/args4j/2.37)**
@@ -33,8 +25,8 @@
     - [commons-compress](https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/) **[1.28.0](https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.28.0)**
     - [commons-lang3](https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/) **[3.20.0](https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.20.0)**
  - [org.apache.sshd](https://repo.maven.apache.org/maven2/org/apache/sshd/)
-    - [sshd-osgi](https://repo.maven.apache.org/maven2/org/apache/sshd/sshd-osgi/) **[2.16.0](https://repo.maven.apache.org/maven2/org/apache/sshd/sshd-osgi/2.16.0)**
-    - [sshd-sftp](https://repo.maven.apache.org/maven2/org/apache/sshd/sshd-sftp/) **[2.16.0](https://repo.maven.apache.org/maven2/org/apache/sshd/sshd-sftp/2.16.0)**
+    - [sshd-osgi](https://repo.maven.apache.org/maven2/org/apache/sshd/sshd-osgi/) **[2.17.1](https://repo.maven.apache.org/maven2/org/apache/sshd/sshd-osgi/2.17.1)**
+    - [sshd-sftp](https://repo.maven.apache.org/maven2/org/apache/sshd/sshd-sftp/) **[2.17.1](https://repo.maven.apache.org/maven2/org/apache/sshd/sshd-sftp/2.17.1)**
  - [org.assertj](https://repo.maven.apache.org/maven2/org/assertj/)
     - [assertj-core](https://repo.maven.apache.org/maven2/org/assertj/assertj-core/) **[3.27.7](https://repo.maven.apache.org/maven2/org/assertj/assertj-core/3.27.7)**
  - [org.bouncycastle](https://repo.maven.apache.org/maven2/org/bouncycastle/)

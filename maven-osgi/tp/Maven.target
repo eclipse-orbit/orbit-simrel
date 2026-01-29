@@ -3,7 +3,7 @@
 <target name="Maven" sequenceNumber="1">
   <locations>
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="error" type="Maven">
-      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.39.0.v20260128-1000">
+      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.39.0.v20260129-1000">
         <description>This feature's dependencies are pulled directly from Maven central.</description>
         <copyright>
 Copyright (c) 2026 Eclipse contributors and others.
@@ -16,7 +16,7 @@ https://www.eclipse.org/legal/epl-2.0/
 SPDX-License-Identifier: EPL-2.0
         </copyright>
         <license url="https://www.eclipse.org/legal/epl-2.0/"/>
-        <!-- SHA1 5b9b4d32c4c5432a67b46e132c481f3510c1b7ff -->
+        <!-- SHA1 e5c345d9feb9106ab9eecfcbab1f78004a72c841 -->
       </feature>
       <dependencies>
         <dependency>
@@ -251,7 +251,7 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>com.github.oshi</groupId>
           <artifactId>oshi-core</artifactId>
-          <version>6.9.2</version>
+          <version>6.9.3</version>
           <type>jar</type>
         </dependency>
         <dependency>
