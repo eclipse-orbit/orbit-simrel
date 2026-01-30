@@ -1,5 +1,12 @@
 # Target Platform: [jgit](https://raw.githubusercontent.com/eclipse-jgit/jgit/master/org.eclipse.jgit.packaging/org.eclipse.jgit.target/maven/dependencies.tpd)
 
+## Minor Updates
+ - [commons-codec](https://repo.maven.apache.org/maven2/commons-codec/)
+    - [commons-codec](https://repo.maven.apache.org/maven2/commons-codec/commons-codec/) **[1.20.0](https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.20.0)** < [1.21.0](https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.21.0/)
+
+## Updates Applied
+[updated.tpd](updated.tpd)
+
 ## Content
  - [args4j](https://repo.maven.apache.org/maven2/args4j/)
     - [args4j](https://repo.maven.apache.org/maven2/args4j/args4j/) **[2.37](https://repo.maven.apache.org/maven2/args4j/args4j/2.37)**

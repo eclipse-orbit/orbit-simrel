@@ -128,6 +128,8 @@
     - [guice-assistedinject](https://repo.maven.apache.org/maven2/com/google/inject/extensions/guice-assistedinject/) **[7.0.0](https://repo.maven.apache.org/maven2/com/google/inject/extensions/guice-assistedinject/7.0.0)**
  - [com.googlecode.javaewah](https://repo.maven.apache.org/maven2/com/googlecode/javaewah/)
     - [JavaEWAH](https://repo.maven.apache.org/maven2/com/googlecode/javaewah/JavaEWAH/) **[1.2.3](https://repo.maven.apache.org/maven2/com/googlecode/javaewah/JavaEWAH/1.2.3)**
+ - [com.googlecode.json-simple](https://repo.maven.apache.org/maven2/com/googlecode/json-simple/)
+    - [json-simple](https://repo.maven.apache.org/maven2/com/googlecode/json-simple/json-simple/) **[1.1.1](https://repo.maven.apache.org/maven2/com/googlecode/json-simple/json-simple/1.1.1)**
  - [com.h2database](https://repo.maven.apache.org/maven2/com/h2database/)
     - [h2](https://repo.maven.apache.org/maven2/com/h2database/h2/) **[2.4.240](https://repo.maven.apache.org/maven2/com/h2database/h2/2.4.240)**
  - [com.ibm.icu](https://repo.maven.apache.org/maven2/com/ibm/icu/)
@@ -143,13 +145,13 @@
     - [jaxb-osgi](https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-osgi/) **[2.3.9](https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-osgi/2.3.9)**
     - [jaxb-osgi](https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-osgi/) **[4.0.6](https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-osgi/4.0.6)**
  - [com.vegardit.no-npe](https://repo.maven.apache.org/maven2/com/vegardit/no-npe/)
-    - [no-npe-eea-all](https://repo.maven.apache.org/maven2/com/vegardit/no-npe/no-npe-eea-all/) **[1.3.11](https://repo.maven.apache.org/maven2/com/vegardit/no-npe/no-npe-eea-all/1.3.11)**
+    - [no-npe-eea-all](https://repo.maven.apache.org/maven2/com/vegardit/no-npe/no-npe-eea-all/) **[1.3.12](https://repo.maven.apache.org/maven2/com/vegardit/no-npe/no-npe-eea-all/1.3.12)**
  - [commons-beanutils](https://repo.maven.apache.org/maven2/commons-beanutils/)
     - [commons-beanutils](https://repo.maven.apache.org/maven2/commons-beanutils/commons-beanutils/) **[1.11.0](https://repo.maven.apache.org/maven2/commons-beanutils/commons-beanutils/1.11.0)**
  - [commons-cli](https://repo.maven.apache.org/maven2/commons-cli/)
     - [commons-cli](https://repo.maven.apache.org/maven2/commons-cli/commons-cli/) **[1.11.0](https://repo.maven.apache.org/maven2/commons-cli/commons-cli/1.11.0)**
  - [commons-codec](https://repo.maven.apache.org/maven2/commons-codec/)
-    - [commons-codec](https://repo.maven.apache.org/maven2/commons-codec/commons-codec/) **[1.20.0](https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.20.0)**
+    - [commons-codec](https://repo.maven.apache.org/maven2/commons-codec/commons-codec/) **[1.21.0](https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.21.0)**
  - [commons-collections](https://repo.maven.apache.org/maven2/commons-collections/)
     - [commons-collections](https://repo.maven.apache.org/maven2/commons-collections/commons-collections/) **[3.2.2](https://repo.maven.apache.org/maven2/commons-collections/commons-collections/3.2.2)**
  - [commons-discovery](https://repo.maven.apache.org/maven2/commons-discovery/)

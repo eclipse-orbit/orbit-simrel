@@ -1,6 +1,8 @@
 # Target Platform: [egit](https://raw.githubusercontent.com/eclipse-egit/egit/master/org.eclipse.egit.target/maven/dependencies.tpd)
 
 ## Minor Updates
+ - [commons-codec](https://repo.maven.apache.org/maven2/commons-codec/)
+    - [commons-codec](https://repo.maven.apache.org/maven2/commons-codec/commons-codec/) **[1.20.0](https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.20.0)** < [1.21.0](https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.21.0/)
  - [org.apache.sshd](https://repo.maven.apache.org/maven2/org/apache/sshd/)
     - [sshd-osgi](https://repo.maven.apache.org/maven2/org/apache/sshd/sshd-osgi/) **[2.16.0](https://repo.maven.apache.org/maven2/org/apache/sshd/sshd-osgi/2.16.0)** < [2.17.1](https://repo.maven.apache.org/maven2/org/apache/sshd/sshd-osgi/2.17.1/)
     - [sshd-sftp](https://repo.maven.apache.org/maven2/org/apache/sshd/sshd-sftp/) **[2.16.0](https://repo.maven.apache.org/maven2/org/apache/sshd/sshd-sftp/2.16.0)** < [2.17.1](https://repo.maven.apache.org/maven2/org/apache/sshd/sshd-sftp/2.17.1/)

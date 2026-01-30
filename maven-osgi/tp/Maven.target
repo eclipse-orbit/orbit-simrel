@@ -3,7 +3,7 @@
 <target name="Maven" sequenceNumber="1">
   <locations>
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="error" type="Maven">
-      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.39.0.v20260129-1000">
+      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.39.0.v20260130-1000">
         <description>This feature's dependencies are pulled directly from Maven central.</description>
         <copyright>
 Copyright (c) 2026 Eclipse contributors and others.
@@ -16,7 +16,7 @@ https://www.eclipse.org/legal/epl-2.0/
 SPDX-License-Identifier: EPL-2.0
         </copyright>
         <license url="https://www.eclipse.org/legal/epl-2.0/"/>
-        <!-- SHA1 e5c345d9feb9106ab9eecfcbab1f78004a72c841 -->
+        <!-- SHA1 4a50d40e166bac091b94af40c8d92599025b351e -->
       </feature>
       <dependencies>
         <dependency>
@@ -309,6 +309,12 @@ SPDX-License-Identifier: EPL-2.0
           <type>jar</type>
         </dependency>
         <dependency>
+          <groupId>com.googlecode.json-simple</groupId>
+          <artifactId>json-simple</artifactId>
+          <version>1.1.1</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
           <groupId>com.h2database</groupId>
           <artifactId>h2</artifactId>
           <version>2.4.240</version>
@@ -365,7 +371,7 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>com.vegardit.no-npe</groupId>
           <artifactId>no-npe-eea-all</artifactId>
-          <version>1.3.11</version>
+          <version>1.3.12</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -383,7 +389,7 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>commons-codec</groupId>
           <artifactId>commons-codec</artifactId>
-          <version>1.20.0</version>
+          <version>1.21.0</version>
           <type>jar</type>
         </dependency>
         <dependency>
