@@ -7,79 +7,79 @@
         <dependency>
           <groupId>org.eclipse.jetty</groupId>
           <artifactId>jetty-annotations</artifactId>
-          <version>12.1.5</version>
+          <version>12.1.6</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.eclipse.jetty</groupId>
           <artifactId>jetty-bom</artifactId>
-          <version>12.1.5</version>
+          <version>12.1.6</version>
           <type>pom</type>
         </dependency>
         <dependency>
           <groupId>org.eclipse.jetty.ee10</groupId>
           <artifactId>jetty-ee10-bom</artifactId>
-          <version>12.1.5</version>
+          <version>12.1.6</version>
           <type>pom</type>
         </dependency>
         <dependency>
           <groupId>org.eclipse.jetty.ee10</groupId>
           <artifactId>jetty-ee10-webapp</artifactId>
-          <version>12.1.5</version>
+          <version>12.1.6</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.eclipse.jetty.ee11</groupId>
           <artifactId>jetty-ee11-bom</artifactId>
-          <version>12.1.5</version>
+          <version>12.1.6</version>
           <type>pom</type>
         </dependency>
         <dependency>
           <groupId>org.eclipse.jetty.ee11</groupId>
           <artifactId>jetty-ee11-webapp</artifactId>
-          <version>12.1.5</version>
+          <version>12.1.6</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.eclipse.jetty.ee8</groupId>
           <artifactId>jetty-ee8-bom</artifactId>
-          <version>12.1.5</version>
+          <version>12.1.6</version>
           <type>pom</type>
         </dependency>
         <dependency>
           <groupId>org.eclipse.jetty.ee8.osgi</groupId>
           <artifactId>jetty-ee8-osgi-boot</artifactId>
-          <version>12.1.5</version>
+          <version>12.1.6</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.eclipse.jetty.ee8.osgi</groupId>
           <artifactId>jetty-ee8-osgi-boot-jsp</artifactId>
-          <version>12.1.5</version>
+          <version>12.1.6</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.eclipse.jetty.ee9</groupId>
           <artifactId>jetty-ee9-bom</artifactId>
-          <version>12.1.5</version>
+          <version>12.1.6</version>
           <type>pom</type>
         </dependency>
         <dependency>
           <groupId>org.eclipse.jetty.quic</groupId>
           <artifactId>jetty-quic-api</artifactId>
-          <version>12.1.5</version>
+          <version>12.1.6</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.eclipse.jetty.quic</groupId>
           <artifactId>jetty-quic-client</artifactId>
-          <version>12.1.5</version>
+          <version>12.1.6</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.eclipse.jetty.quic</groupId>
           <artifactId>jetty-quic-util</artifactId>
-          <version>12.1.5</version>
+          <version>12.1.6</version>
           <type>jar</type>
         </dependency>
       </dependencies>
