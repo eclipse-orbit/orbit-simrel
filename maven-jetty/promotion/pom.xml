@@ -72,6 +72,7 @@ SPDX-License-Identifier: EPL-2.0
                 -nosplash
                 ${org.eclipse.justj.p2.manager.args}
                 -retain 5
+                -summary 4
                 -label "Maven Jetty"
                 -build-url ${org.eclipse.justj.p2.manager.build.url}
                 -root ${project.build.directory}/maven-jetty-sync
