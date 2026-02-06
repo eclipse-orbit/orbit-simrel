@@ -3,6 +3,8 @@
 ## Minor Updates
  - [commons-io](https://repo.maven.apache.org/maven2/commons-io/)
     - [commons-io](https://repo.maven.apache.org/maven2/commons-io/commons-io/) **[2.20.0](https://repo.maven.apache.org/maven2/commons-io/commons-io/2.20.0)** < [2.21.0](https://repo.maven.apache.org/maven2/commons-io/commons-io/2.21.0/)
+ - [jakarta.xml.bind](https://repo.maven.apache.org/maven2/jakarta/xml/bind/)
+    - [jakarta.xml.bind-api](https://repo.maven.apache.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/) **[4.0.4](https://repo.maven.apache.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/4.0.4)** < [4.0.5](https://repo.maven.apache.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/4.0.5/)
  - [org.apache.commons](https://repo.maven.apache.org/maven2/org/apache/commons/)
     - [commons-text](https://repo.maven.apache.org/maven2/org/apache/commons/commons-text/) **[1.14.0](https://repo.maven.apache.org/maven2/org/apache/commons/commons-text/1.14.0)** < [1.15.0](https://repo.maven.apache.org/maven2/org/apache/commons/commons-text/1.15.0/)
  - [org.objenesis](https://repo.maven.apache.org/maven2/org/objenesis/)

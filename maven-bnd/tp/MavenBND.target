@@ -2925,7 +2925,7 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>jakarta.xml.bind</groupId>
           <artifactId>jakarta.xml.bind-api</artifactId>
-          <version>4.0.4</version>
+          <version>4.0.5</version>
           <type>jar</type>
         </dependency>
 
