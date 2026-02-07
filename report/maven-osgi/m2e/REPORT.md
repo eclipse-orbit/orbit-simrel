@@ -2,7 +2,7 @@
 
 ## Minor Updates
  - [ch.qos.logback](https://repo.maven.apache.org/maven2/ch/qos/logback/)
-    - [logback-classic](https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/) **[1.5.24](https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/1.5.24)** < [1.5.27](https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/1.5.27/)
+    - [logback-classic](https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/) **[1.5.24](https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/1.5.24)** < [1.5.28](https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/1.5.28/)
  - [commons-codec](https://repo.maven.apache.org/maven2/commons-codec/)
     - [commons-codec](https://repo.maven.apache.org/maven2/commons-codec/commons-codec/) **[1.20.0](https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.20.0)** < [1.21.0](https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.21.0/)
  - [org.apache.maven.archetype](https://repo.maven.apache.org/maven2/org/apache/maven/archetype/)
