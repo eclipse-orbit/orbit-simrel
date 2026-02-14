@@ -246,8 +246,8 @@
  - [lpg.runtime](https://repo.maven.apache.org/maven2/lpg/runtime/)
     - [java](https://repo.maven.apache.org/maven2/lpg/runtime/java/) **[2.0.17-v201004271640](https://repo.maven.apache.org/maven2/lpg/runtime/java/2.0.17-v201004271640)**
  - [net.bytebuddy](https://repo.maven.apache.org/maven2/net/bytebuddy/)
-    - [byte-buddy](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/) **[1.18.4](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.18.4)**
-    - [byte-buddy-agent](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/) **[1.18.4](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.18.4)**
+    - [byte-buddy](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/) **[1.18.5](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.18.5)**
+    - [byte-buddy-agent](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/) **[1.18.5](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.18.5)**
  - [net.java.dev.jna](https://repo.maven.apache.org/maven2/net/java/dev/jna/)
     - [jna-platform](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna-platform/) **[5.18.1](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna-platform/5.18.1)**
  - [org.antlr](https://repo.maven.apache.org/maven2/org/antlr/)

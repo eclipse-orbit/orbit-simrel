@@ -3,7 +3,7 @@
 <target name="Maven" sequenceNumber="1">
   <locations>
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="error" type="Maven">
-      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.39.0.v20260210-1000">
+      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.39.0.v20260214-1000">
         <description>This feature's dependencies are pulled directly from Maven central.</description>
         <copyright>
 Copyright (c) 2026 Eclipse contributors and others.
@@ -16,7 +16,7 @@ https://www.eclipse.org/legal/epl-2.0/
 SPDX-License-Identifier: EPL-2.0
         </copyright>
         <license url="https://www.eclipse.org/legal/epl-2.0/"/>
-        <!-- SHA1 718f91f4a0d673e3c08701d09ef67d6c4b4a5464 -->
+        <!-- SHA1 e7be7886950057ce8284f26fd30e8ee579c7ecb2 -->
       </feature>
       <dependencies>
         <dependency>
@@ -743,13 +743,13 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>net.bytebuddy</groupId>
           <artifactId>byte-buddy</artifactId>
-          <version>1.18.4</version>
+          <version>1.18.5</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>net.bytebuddy</groupId>
           <artifactId>byte-buddy-agent</artifactId>
-          <version>1.18.4</version>
+          <version>1.18.5</version>
           <type>jar</type>
         </dependency>
         <dependency>

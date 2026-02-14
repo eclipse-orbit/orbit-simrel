@@ -3,6 +3,9 @@
 ## Minor Updates
  - [commons-codec](https://repo.maven.apache.org/maven2/commons-codec/)
     - [commons-codec](https://repo.maven.apache.org/maven2/commons-codec/commons-codec/) **[1.20.0](https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.20.0)** < [1.21.0](https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.21.0/)
+ - [net.bytebuddy](https://repo.maven.apache.org/maven2/net/bytebuddy/)
+    - [byte-buddy](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/) **[1.18.4](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.18.4)** < [1.18.5](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.18.5/)
+    - [byte-buddy-agent](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/) **[1.18.4](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.18.4)** < [1.18.5](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.18.5/)
  - [org.eclipse.jetty](https://repo.maven.apache.org/maven2/org/eclipse/jetty/)
     - [jetty-http](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-http/) **[12.1.5](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-http/12.1.5)** < [12.1.6](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-http/12.1.6/)
     - [jetty-io](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-io/) **[12.1.5](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-io/12.1.5)** < [12.1.6](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-io/12.1.6/)
