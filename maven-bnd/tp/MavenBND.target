@@ -2394,7 +2394,7 @@ Export-Package:         *;version="${version}";-noimport:=true
 <!-- _____________________________________________________ org.mozilla.rhino ___________________________________________________________________________________________________-->
 
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
-      <feature id="org.eclipse.orbit.maven.org.mozilla.rhino" label="Orbit Maven BND org.mozilla.rhino" provider-name="Eclipse Orbit" version="4.39.0.v20251223-1000">
+      <feature id="org.eclipse.orbit.maven.org.mozilla.rhino" label="Orbit Maven BND org.mozilla.rhino" provider-name="Eclipse Orbit" version="4.39.0.v20260216-1000">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
 Copyright (c) 2026 Eclipse contributors and others.
@@ -2412,17 +2412,17 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>org.mozilla</groupId>
           <artifactId>rhino</artifactId>
-          <version>1.9.0</version>
+          <version>1.9.1</version>
           <type>jar</type>
         </dependency>
       </dependencies>
       <instructions>
-<!-- SHA1 4a05005b45098fd4b278ffa3ce1c3162af27b411 -->
+<!-- SHA1 c66002b94ef70749516f61dcc37c5ed1d7f12110 -->
 <![CDATA[
 Bundle-Name:            Bundle ${mvnGroupId} : ${mvnArtifactId}
 version:                ${versionmask;===;${version_cleanup;${mvnVersion}}}
 Bundle-SymbolicName:    ${mvnGroupId}.${mvnArtifactId}
-Bundle-Version:         ${version}.v20251223-1000
+Bundle-Version:         ${version}.v20260216-1000
 Automatic-Module-Name:  ${mvnGroupId}.${mvnArtifactId}
 Eclipse-Wrapped-Bundle: ${mvnGroupId}:${mvnArtifactId}:${mvnVersion}
 Import-Package:         android.os.*;resolution:=optional,\
