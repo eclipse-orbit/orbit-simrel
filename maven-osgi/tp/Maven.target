@@ -3,7 +3,7 @@
 <target name="Maven" sequenceNumber="1">
   <locations>
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="error" type="Maven">
-      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.39.0.v20260215-1500">
+      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.39.0.v20260218-1000">
         <description>This feature's dependencies are pulled directly from Maven central.</description>
         <copyright>
 Copyright (c) 2026 Eclipse contributors and others.
@@ -16,7 +16,7 @@ https://www.eclipse.org/legal/epl-2.0/
 SPDX-License-Identifier: EPL-2.0
         </copyright>
         <license url="https://www.eclipse.org/legal/epl-2.0/"/>
-        <!-- SHA1 0dc2352c954b6b21871a1483ca8a00228ac67d1b -->
+        <!-- SHA1 0e2aa473a1f6bab9bd2930da7e2677bc0c0caed9 -->
       </feature>
       <dependencies>
         <dependency>
@@ -82,13 +82,13 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>ch.qos.logback</groupId>
           <artifactId>logback-classic</artifactId>
-          <version>1.5.31</version>
+          <version>1.5.32</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>ch.qos.logback</groupId>
           <artifactId>logback-core</artifactId>
-          <version>1.5.31</version>
+          <version>1.5.32</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -791,25 +791,25 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>org.apache.commons</groupId>
           <artifactId>commons-fileupload2-core</artifactId>
-          <version>2.0.0-M4</version>
+          <version>2.0.0-M5</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.apache.commons</groupId>
           <artifactId>commons-fileupload2-jakarta-servlet5</artifactId>
-          <version>2.0.0-M4</version>
+          <version>2.0.0-M5</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.apache.commons</groupId>
           <artifactId>commons-fileupload2-jakarta-servlet6</artifactId>
-          <version>2.0.0-M4</version>
+          <version>2.0.0-M5</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.apache.commons</groupId>
           <artifactId>commons-fileupload2-javax</artifactId>
-          <version>2.0.0-M4</version>
+          <version>2.0.0-M5</version>
           <type>jar</type>
         </dependency>
         <dependency>
