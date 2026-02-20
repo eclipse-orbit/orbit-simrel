@@ -13,7 +13,7 @@
  - [com.github.virtuald](https://repo.maven.apache.org/maven2/com/github/virtuald/)
     - [curvesapi](https://repo.maven.apache.org/maven2/com/github/virtuald/curvesapi/) **[1.8](https://repo.maven.apache.org/maven2/com/github/virtuald/curvesapi/1.8)**
  - [com.google.javascript](https://repo.maven.apache.org/maven2/com/google/javascript/)
-    - [closure-compiler](https://repo.maven.apache.org/maven2/com/google/javascript/closure-compiler/) **[v20260216](https://repo.maven.apache.org/maven2/com/google/javascript/closure-compiler/v20260216)**
+    - [closure-compiler](https://repo.maven.apache.org/maven2/com/google/javascript/closure-compiler/) **[v20260218](https://repo.maven.apache.org/maven2/com/google/javascript/closure-compiler/v20260218)**
  - [com.jcraft](https://repo.maven.apache.org/maven2/com/jcraft/)
     - [jsch](https://repo.maven.apache.org/maven2/com/jcraft/jsch/) **[0.1.55](https://repo.maven.apache.org/maven2/com/jcraft/jsch/0.1.55)**
     - [jzlib](https://repo.maven.apache.org/maven2/com/jcraft/jzlib/) **[1.1.3](https://repo.maven.apache.org/maven2/com/jcraft/jzlib/1.1.3)**
@@ -109,7 +109,7 @@
     - [jdom](https://repo.maven.apache.org/maven2/org/jdom/jdom/) **[1.1.3](https://repo.maven.apache.org/maven2/org/jdom/jdom/1.1.3)**
     - [jdom2](https://repo.maven.apache.org/maven2/org/jdom/jdom2/) **[2.0.6.1](https://repo.maven.apache.org/maven2/org/jdom/jdom2/2.0.6.1)**
  - [org.jruby.jcodings](https://repo.maven.apache.org/maven2/org/jruby/jcodings/)
-    - [jcodings](https://repo.maven.apache.org/maven2/org/jruby/jcodings/jcodings/) **[1.0.63](https://repo.maven.apache.org/maven2/org/jruby/jcodings/jcodings/1.0.63)**
+    - [jcodings](https://repo.maven.apache.org/maven2/org/jruby/jcodings/jcodings/) **[1.0.64](https://repo.maven.apache.org/maven2/org/jruby/jcodings/jcodings/1.0.64)**
  - [org.jruby.joni](https://repo.maven.apache.org/maven2/org/jruby/joni/)
     - [joni](https://repo.maven.apache.org/maven2/org/jruby/joni/joni/) **[2.2.6](https://repo.maven.apache.org/maven2/org/jruby/joni/joni/2.2.6)**
  - [org.mozilla](https://repo.maven.apache.org/maven2/org/mozilla/)

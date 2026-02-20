@@ -108,7 +108,7 @@
  - [com.github.librepdf](https://repo.maven.apache.org/maven2/com/github/librepdf/)
     - [openpdf](https://repo.maven.apache.org/maven2/com/github/librepdf/openpdf/) **[1.4.2](https://repo.maven.apache.org/maven2/com/github/librepdf/openpdf/1.4.2)**
     - [openpdf](https://repo.maven.apache.org/maven2/com/github/librepdf/openpdf/) **[2.4.0](https://repo.maven.apache.org/maven2/com/github/librepdf/openpdf/2.4.0)**
-    - [openpdf](https://repo.maven.apache.org/maven2/com/github/librepdf/openpdf/) **[3.0.0](https://repo.maven.apache.org/maven2/com/github/librepdf/openpdf/3.0.0)**
+    - [openpdf](https://repo.maven.apache.org/maven2/com/github/librepdf/openpdf/) **[3.0.1](https://repo.maven.apache.org/maven2/com/github/librepdf/openpdf/3.0.1)**
  - [com.github.oshi](https://repo.maven.apache.org/maven2/com/github/oshi/)
     - [oshi-core](https://repo.maven.apache.org/maven2/com/github/oshi/oshi-core/) **[6.9.3](https://repo.maven.apache.org/maven2/com/github/oshi/oshi-core/6.9.3)**
  - [com.github.weisj](https://repo.maven.apache.org/maven2/com/github/weisj/)
