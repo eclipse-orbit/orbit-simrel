@@ -20,7 +20,7 @@
  - [jakarta.xml.soap](https://repo.maven.apache.org/maven2/jakarta/xml/soap/)
     - [jakarta.xml.soap-api](https://repo.maven.apache.org/maven2/jakarta/xml/soap/jakarta.xml.soap-api/) **[1.4.2](https://repo.maven.apache.org/maven2/jakarta/xml/soap/jakarta.xml.soap-api/1.4.2)** < [3.0.2](https://repo.maven.apache.org/maven2/jakarta/xml/soap/jakarta.xml.soap-api/3.0.2/)
  - [jakarta.xml.ws](https://repo.maven.apache.org/maven2/jakarta/xml/ws/)
-    - [jakarta.xml.ws-api](https://repo.maven.apache.org/maven2/jakarta/xml/ws/jakarta.xml.ws-api/) **[2.3.3](https://repo.maven.apache.org/maven2/jakarta/xml/ws/jakarta.xml.ws-api/2.3.3)** < [4.0.2](https://repo.maven.apache.org/maven2/jakarta/xml/ws/jakarta.xml.ws-api/4.0.2/)
+    - [jakarta.xml.ws-api](https://repo.maven.apache.org/maven2/jakarta/xml/ws/jakarta.xml.ws-api/) **[2.3.3](https://repo.maven.apache.org/maven2/jakarta/xml/ws/jakarta.xml.ws-api/2.3.3)** < [4.0.3](https://repo.maven.apache.org/maven2/jakarta/xml/ws/jakarta.xml.ws-api/4.0.3/)
  - [javax.servlet](https://repo.maven.apache.org/maven2/javax/servlet/)
     - [javax.servlet-api](https://repo.maven.apache.org/maven2/javax/servlet/javax.servlet-api/) **[3.1.0](https://repo.maven.apache.org/maven2/javax/servlet/javax.servlet-api/3.1.0)** < [4.0.1](https://repo.maven.apache.org/maven2/javax/servlet/javax.servlet-api/4.0.1/)
  - [org.apache.felix](https://repo.maven.apache.org/maven2/org/apache/felix/)
