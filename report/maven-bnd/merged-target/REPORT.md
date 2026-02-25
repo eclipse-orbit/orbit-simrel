@@ -13,7 +13,7 @@
  - [com.github.virtuald](https://repo.maven.apache.org/maven2/com/github/virtuald/)
     - [curvesapi](https://repo.maven.apache.org/maven2/com/github/virtuald/curvesapi/) **[1.8](https://repo.maven.apache.org/maven2/com/github/virtuald/curvesapi/1.8)**
  - [com.google.javascript](https://repo.maven.apache.org/maven2/com/google/javascript/)
-    - [closure-compiler](https://repo.maven.apache.org/maven2/com/google/javascript/closure-compiler/) **[v20260218](https://repo.maven.apache.org/maven2/com/google/javascript/closure-compiler/v20260218)**
+    - [closure-compiler](https://repo.maven.apache.org/maven2/com/google/javascript/closure-compiler/) **[v20260223](https://repo.maven.apache.org/maven2/com/google/javascript/closure-compiler/v20260223)**
  - [com.jcraft](https://repo.maven.apache.org/maven2/com/jcraft/)
     - [jsch](https://repo.maven.apache.org/maven2/com/jcraft/jsch/) **[0.1.55](https://repo.maven.apache.org/maven2/com/jcraft/jsch/0.1.55)**
     - [jzlib](https://repo.maven.apache.org/maven2/com/jcraft/jzlib/) **[1.1.3](https://repo.maven.apache.org/maven2/com/jcraft/jzlib/1.1.3)**
@@ -111,7 +111,7 @@
  - [org.jruby.jcodings](https://repo.maven.apache.org/maven2/org/jruby/jcodings/)
     - [jcodings](https://repo.maven.apache.org/maven2/org/jruby/jcodings/jcodings/) **[1.0.64](https://repo.maven.apache.org/maven2/org/jruby/jcodings/jcodings/1.0.64)**
  - [org.jruby.joni](https://repo.maven.apache.org/maven2/org/jruby/joni/)
-    - [joni](https://repo.maven.apache.org/maven2/org/jruby/joni/joni/) **[2.2.6](https://repo.maven.apache.org/maven2/org/jruby/joni/joni/2.2.6)**
+    - [joni](https://repo.maven.apache.org/maven2/org/jruby/joni/joni/) **[2.2.7](https://repo.maven.apache.org/maven2/org/jruby/joni/joni/2.2.7)**
  - [org.mozilla](https://repo.maven.apache.org/maven2/org/mozilla/)
     - [rhino](https://repo.maven.apache.org/maven2/org/mozilla/rhino/) **[1.9.1](https://repo.maven.apache.org/maven2/org/mozilla/rhino/1.9.1)**
  - [org.pushingpixels](https://repo.maven.apache.org/maven2/org/pushingpixels/)
