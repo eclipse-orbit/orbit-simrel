@@ -6,3 +6,4 @@ updates/
 */tp/extras/**
 dependency-analyzer-arg-extra.txt
 maven-ant/repository
+maven-dash/org.eclipse.orbit.dash.generator/**

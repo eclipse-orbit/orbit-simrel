@@ -10,12 +10,12 @@
 	</natures>
 	<filteredResources>
 		<filter>
-			<id>1713700221487</id>
+			<id>1772112008003</id>
 			<name></name>
 			<type>30</type>
 			<matcher>
 				<id>org.eclipse.ui.ide.multiFilter</id>
-				<arguments>1.0-projectRelativePath-matches-true-true-simrel-extras/(features|releng)/.*/.*|maven-osgi/org.eclipse.orbit.maven.generator/.*|maven-bnd/org.eclipse.orbit.maven.bnd.generator/.*|maven-ant/org.eclipse.orbit.ant.generator/.*|maven-derby/org.eclipse.orbit.derby.generator/.*|maven-sign/org.eclipse.orbit.maven.signer/.*</arguments>
+				<arguments>1.0-projectRelativePath-matches-true-true-simrel-extras/(features|releng)/.*/.*|maven-osgi/org.eclipse.orbit.maven.generator/.*|maven-bnd/org.eclipse.orbit.maven.bnd.generator/.*|maven-ant/org.eclipse.orbit.ant.generator/.*|maven-derby/org.eclipse.orbit.derby.generator/.*|maven-sign/org.eclipse.orbit.maven.signer/.*|maven-dash/org.eclipse.orbit.dash.generator/.*|org.eclipse.orbit.updater/.*</arguments>
 			</matcher>
 		</filter>
 	</filteredResources>

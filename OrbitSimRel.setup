@@ -335,6 +335,84 @@
     </content>
   </setupTask>
   <setupTask
+      xsi:type="setup:CompoundTask"
+      disabled="true"
+      name="IPLab Prototype">
+    <setupTask
+        xsi:type="git:GitCloneTask"
+        id="gitlab.clone.iplab"
+        remoteURI="eclipsefdn/emo-team/iplab"
+        checkoutBranch="master">
+      <annotation
+          source="http://www.eclipse.org/oomph/setup/InducedChoices">
+        <detail
+            key="inherit">
+          <value>gitlab.remoteURIs</value>
+        </detail>
+        <detail
+            key="label">
+          <value>GitLab IPLab Repository</value>
+        </detail>
+        <detail
+            key="target">
+          <value>remoteURI</value>
+        </detail>
+      </annotation>
+      <description>iplab</description>
+    </setupTask>
+    <setupTask
+        xsi:type="setup:ResourceCreationTask"
+        excludedTriggers="BOOTSTRAP"
+        targetURL="${gitlab.clone.iplab.location|uri}/.gitignore">
+      <content>
+        .project
+        .gitignore
+        /.settings/
+      </content>
+    </setupTask>
+    <setupTask
+        xsi:type="setup:ResourceCreationTask"
+        excludedTriggers="BOOTSTRAP"
+        targetURL="${gitlab.clone.iplab.location|uri}/.project">
+      <content>
+        &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>
+        &lt;projectDescription>
+        	&lt;name>org.eclipse.eclipsefdn.iplab&lt;/name>
+        	&lt;comment>GitLab IP Lab&lt;/comment>
+        	&lt;projects>
+        	&lt;/projects>
+        	&lt;buildSpec>
+        	&lt;/buildSpec>
+        	&lt;natures>
+        	&lt;/natures>
+        &lt;/projectDescription>
+
+      </content>
+    </setupTask>
+    <setupTask
+        xsi:type="setup:ResourceCreationTask"
+        excludedTriggers="BOOTSTRAP"
+        targetURL="${gitlab.clone.iplab.location|uri}/.settings/org.eclipse.core.resources.prefs">
+      <content>
+        eclipse.preferences.version=1
+        encoding/&lt;project>=UTF-8
+
+      </content>
+    </setupTask>
+    <setupTask
+        xsi:type="setup.targlets:TargletTask">
+      <targlet
+          name="GitLab IP Lab"
+          includeAllPlatforms="true">
+        <requirement
+            name="*"/>
+        <sourceLocator
+            rootFolder="${gitlab.clone.iplab.location}"
+            locateNestedProjects="true"/>
+      </targlet>
+    </setupTask>
+  </setupTask>
+  <setupTask
       xsi:type="setup:VariableTask"
       name="eclipse.target.platform"
       value="${eclipse.target.platform.latest}"
@@ -393,7 +471,7 @@
             project="org.eclipse.orbit.simrel"/>
         <operand
             xsi:type="workingsets:ExclusionPredicate"
-            excludedWorkingSet="//'workingsets.orbit.simrel.incubator'/@workingSets[name='Orbit%20Maven%20Generators%20%26%20Analayzers']"/>
+            excludedWorkingSet="//'workingsets.orbit.simrel.incubator'/@workingSets[name='Orbit%20Maven%20Generators%20%26%20Analayzers'] //'workingsets.orbit.simrel.incubator'/@workingSets[name='Orbit%20SimRel%20Releng']"/>
       </predicate>
     </workingSet>
     <workingSet
@@ -403,7 +481,7 @@
         <operand
             xsi:type="predicates:RepositoryPredicate"
             project="org.eclipse.orbit.simrel"
-            relativePathPattern="maven(-bnd|-osgi|-ant|-sign|-derby)?/.*"/>
+            relativePathPattern="maven(-bnd|-osgi|-ant|-sign|-derby|-dash)?/.*"/>
       </predicate>
     </workingSet>
     <workingSet
@@ -443,6 +521,16 @@
         <operand
             xsi:type="predicates:RepositoryPredicate"
             project="org.eclipse.orbit.github"/>
+      </predicate>
+    </workingSet>
+    <workingSet
+        name="Orbit SimRel Releng">
+      <predicate
+          xsi:type="predicates:AndPredicate">
+        <operand
+            xsi:type="predicates:RepositoryPredicate"
+            project="org.eclipse.orbit.simrel"
+            relativePathPattern="org.eclipse.orbit.updater"/>
       </predicate>
     </workingSet>
   </setupTask>
