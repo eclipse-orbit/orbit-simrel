@@ -3,7 +3,7 @@
 <target name="Maven" sequenceNumber="1">
   <locations>
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="error" type="Maven">
-      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.39.0.v20260223-1000">
+      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.40.0">
         <description>This feature's dependencies are pulled directly from Maven central.</description>
         <copyright>
 Copyright (c) 2026 Eclipse contributors and others.
@@ -16,7 +16,7 @@ https://www.eclipse.org/legal/epl-2.0/
 SPDX-License-Identifier: EPL-2.0
         </copyright>
         <license url="https://www.eclipse.org/legal/epl-2.0/"/>
-        <!-- SHA1 34486bbd432280bbc149af14f699e19061383b7a -->
+        <!-- SHA1 48b4a1842678119748f0130b593117c709e09680 -->
       </feature>
       <dependencies>
         <dependency>
@@ -329,13 +329,13 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>com.miglayout</groupId>
           <artifactId>miglayout-core</artifactId>
-          <version>11.4.2</version>
+          <version>11.4.3</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>com.miglayout</groupId>
           <artifactId>miglayout-swing</artifactId>
-          <version>11.4.2</version>
+          <version>11.4.3</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -1990,7 +1990,7 @@ SPDX-License-Identifier: EPL-2.0
 
 <!--
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
-      <feature id="org.eclipse.orbit.maven.osgi.exclude" label="Orbit Maven OSGi (excluded because they are only for resolution validation)" provider-name="Eclipse Orbit" version="4.39.0">
+      <feature id="org.eclipse.orbit.maven.osgi.exclude" label="Orbit Maven OSGi (excluded because they are only for resolution validation)" provider-name="Eclipse Orbit" version="4.40.0">
         <description>This feature's dependencies are pulled directly from Maven central.</description>
         <copyright>
 Copyright (c) 2026 Eclipse contributors and others.
