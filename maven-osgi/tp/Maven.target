@@ -16,7 +16,7 @@ https://www.eclipse.org/legal/epl-2.0/
 SPDX-License-Identifier: EPL-2.0
         </copyright>
         <license url="https://www.eclipse.org/legal/epl-2.0/"/>
-        <!-- SHA1 8506ceb750e137df51a8cc5042c7cd07b090e1ee -->
+        <!-- SHA1 7aa0bfd1557bf99815109999330aeb2f82cfac3a -->
       </feature>
       <dependencies>
         <dependency>
@@ -1487,13 +1487,13 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>org.mockito</groupId>
           <artifactId>mockito-core</artifactId>
-          <version>5.21.0</version>
+          <version>5.22.0</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.mockito</groupId>
           <artifactId>mockito-junit-jupiter</artifactId>
-          <version>5.21.0</version>
+          <version>5.22.0</version>
           <type>jar</type>
         </dependency>
         <dependency>
