@@ -1673,18 +1673,18 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>com.google.javascript</groupId>
           <artifactId>closure-compiler</artifactId>
-          <version>v20260223</version>
+          <version>v20260225</version>
           <type>jar</type>
         </dependency>
       </dependencies>
       <instructions>
-<!-- SHA1 969af4202c50a116588f7ee728e77e1c6966eaf8 -->
+<!-- SHA1 0bc33f655b5526b395ce57bb12b44d1acd710efc -->
 <![CDATA[
 Bundle-Name:            Bundle ${mvnGroupId} : ${mvnArtifactId
 # The version is purely qualifier, so we promote the value after the v to the micro version as has been historically the case.
 version:                ${replacestring;${mvnVersion};^v;0.0.}
 Bundle-SymbolicName:    ${mvnGroupId}
-Bundle-Version:         ${version}.v20260225-1000
+Bundle-Version:         ${version}.v20260227-1000
 Automatic-Module-Name:  ${mvnGroupId}
 Eclipse-Wrapped-Bundle: ${mvnGroupId}:${mvnArtifactId}:${mvnVersion}
 Import-Package:         java.*,org.w3c.dom,org.xml.sax.*,\
@@ -2981,7 +2981,7 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>org.yaml</groupId>
           <artifactId>snakeyaml</artifactId>
-          <version>2.5</version>
+          <version>2.6</version>
           <type>jar</type>
         </dependency>
       </dependencies>

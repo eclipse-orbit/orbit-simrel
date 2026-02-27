@@ -499,4 +499,4 @@
  - [org.tukaani](https://repo.maven.apache.org/maven2/org/tukaani/)
     - [xz](https://repo.maven.apache.org/maven2/org/tukaani/xz/) **[1.11](https://repo.maven.apache.org/maven2/org/tukaani/xz/1.11)**
  - [org.yaml](https://repo.maven.apache.org/maven2/org/yaml/)
-    - [snakeyaml](https://repo.maven.apache.org/maven2/org/yaml/snakeyaml/) **[2.5](https://repo.maven.apache.org/maven2/org/yaml/snakeyaml/2.5)**
+    - [snakeyaml](https://repo.maven.apache.org/maven2/org/yaml/snakeyaml/) **[2.6](https://repo.maven.apache.org/maven2/org/yaml/snakeyaml/2.6)**
