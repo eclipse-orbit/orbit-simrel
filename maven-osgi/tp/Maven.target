@@ -16,7 +16,7 @@ https://www.eclipse.org/legal/epl-2.0/
 SPDX-License-Identifier: EPL-2.0
         </copyright>
         <license url="https://www.eclipse.org/legal/epl-2.0/"/>
-        <!-- SHA1 7aa0bfd1557bf99815109999330aeb2f82cfac3a -->
+        <!-- SHA1 faad5976c7458ff111086df86e02edf0839489e9 -->
       </feature>
       <dependencies>
         <dependency>
@@ -275,7 +275,7 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>com.google.errorprone</groupId>
           <artifactId>error_prone_annotations</artifactId>
-          <version>2.47.0</version>
+          <version>2.48.0</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -1878,6 +1878,12 @@ SPDX-License-Identifier: EPL-2.0
           <groupId>org.ow2.sat4j</groupId>
           <artifactId>org.ow2.sat4j.pb</artifactId>
           <version>2.3.6</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>org.slf4j</groupId>
+          <artifactId>jcl-over-slf4j</artifactId>
+          <version>2.0.17</version>
           <type>jar</type>
         </dependency>
         <dependency>
