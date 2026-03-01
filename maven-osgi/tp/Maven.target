@@ -16,7 +16,7 @@ https://www.eclipse.org/legal/epl-2.0/
 SPDX-License-Identifier: EPL-2.0
         </copyright>
         <license url="https://www.eclipse.org/legal/epl-2.0/"/>
-        <!-- SHA1 faad5976c7458ff111086df86e02edf0839489e9 -->
+        <!-- SHA1 5c627a451b3bfab8fbc4ea9c8dfe01996f88fbfa -->
       </feature>
       <dependencies>
         <dependency>
@@ -245,7 +245,7 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>com.github.librepdf</groupId>
           <artifactId>openpdf</artifactId>
-          <version>3.0.1</version>
+          <version>3.0.2</version>
           <type>jar</type>
         </dependency>
         <dependency>

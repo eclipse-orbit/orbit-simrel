@@ -29,6 +29,10 @@ public class Updater {
 
 	private static final String TYCHO_VERSION_MATCHER = "([0-9]+\\.[0-9]+\\.[0-9]+)(?:-SNAPSHOT)?";
 
+	private static final String CBI_VERSION = "1.5.4";
+
+	private static final String CBI_VERSION_MATCHER = "([0-9]+\\.[0-9]+\\.[0-9]+)(?:-SNAPSHOT)?";
+
 	private Path root;
 
 	public static void main(String[] args) throws IOException {
@@ -76,6 +80,7 @@ public class Updater {
 		var fileName = file.getFileName().toString();
 		if (fileName.equals("pom.xml")) {
 			apply(file, "<tycho-version>" + TYCHO_VERSION_MATCHER + "</tycho-version>", TYCHO_VERSION);
+			apply(file, "<jarsigner-version>" + CBI_VERSION_MATCHER + "</jarsigner-version>", CBI_VERSION);
 		}
 		if (relativePathName.endsWith("org.eclipse.orbit.legacy-feature/feature.xml")) {
 			apply(file, "version=\"" + PLATFORM_VERSION_MATCHER + "\\.qualifier\"", PLATFORM_VERSION);
