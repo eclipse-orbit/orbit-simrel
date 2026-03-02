@@ -16,7 +16,7 @@ https://www.eclipse.org/legal/epl-2.0/
 SPDX-License-Identifier: EPL-2.0
         </copyright>
         <license url="https://www.eclipse.org/legal/epl-2.0/"/>
-        <!-- SHA1 327e0a7fb4974c0df14847f626a0d5bd21f016c9 -->
+        <!-- SHA1 7c00b5afb979d0e24da5e41b3f93e87b4ba8cc4f -->
       </feature>
       <dependencies>
         <dependency>
@@ -743,13 +743,13 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>net.bytebuddy</groupId>
           <artifactId>byte-buddy</artifactId>
-          <version>1.18.5</version>
+          <version>1.18.7</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>net.bytebuddy</groupId>
           <artifactId>byte-buddy-agent</artifactId>
-          <version>1.18.5</version>
+          <version>1.18.7</version>
           <type>jar</type>
         </dependency>
         <dependency>
