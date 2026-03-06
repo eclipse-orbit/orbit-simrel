@@ -16,7 +16,7 @@ https://www.eclipse.org/legal/epl-2.0/
 SPDX-License-Identifier: EPL-2.0
         </copyright>
         <license url="https://www.eclipse.org/legal/epl-2.0/"/>
-        <!-- SHA1 7c00b5afb979d0e24da5e41b3f93e87b4ba8cc4f -->
+        <!-- SHA1 9973d172973888dfe0da87a3d7b7554ce0f7989a -->
       </feature>
       <dependencies>
         <dependency>
@@ -1481,7 +1481,7 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>org.mandas</groupId>
           <artifactId>docker-client</artifactId>
-          <version>10.0.0</version>
+          <version>10.0.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
