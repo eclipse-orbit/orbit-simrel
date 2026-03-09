@@ -1,21 +1,8 @@
 # Target Platform: [cdt](https://raw.githubusercontent.com/eclipse-cdt/cdt/main/releng/org.eclipse.cdt.target/cdt.target)
 
 ## Minor Updates
- - [org.assertj](https://repo.maven.apache.org/maven2/org/assertj/)
-    - [assertj-core](https://repo.maven.apache.org/maven2/org/assertj/assertj-core/) **[3.27.6](https://repo.maven.apache.org/maven2/org/assertj/assertj-core/3.27.6)** < [3.27.7](https://repo.maven.apache.org/maven2/org/assertj/assertj-core/3.27.7/)
- - [org.junit.jupiter](https://repo.maven.apache.org/maven2/org/junit/jupiter/)
-    - [junit-jupiter-api](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/) **[5.14.1](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.14.1)** < [5.14.3](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.14.3/)
-    - [junit-jupiter-engine](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/) **[5.14.1](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.14.1)** < [5.14.3](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.14.3/)
  - [org.mockito](https://repo.maven.apache.org/maven2/org/mockito/)
-    - [mockito-core](https://repo.maven.apache.org/maven2/org/mockito/mockito-core/) **[5.20.0](https://repo.maven.apache.org/maven2/org/mockito/mockito-core/5.20.0)** < [5.21.0](https://repo.maven.apache.org/maven2/org/mockito/mockito-core/5.21.0/)
- - [org.ow2.asm](https://repo.maven.apache.org/maven2/org/ow2/asm/)
-    - [asm](https://repo.maven.apache.org/maven2/org/ow2/asm/asm/) **[9.9](https://repo.maven.apache.org/maven2/org/ow2/asm/asm/9.9)** < [9.9.1](https://repo.maven.apache.org/maven2/org/ow2/asm/asm/9.9.1/)
-    - [asm-analysis](https://repo.maven.apache.org/maven2/org/ow2/asm/asm-analysis/) **[9.9](https://repo.maven.apache.org/maven2/org/ow2/asm/asm-analysis/9.9)** < [9.9.1](https://repo.maven.apache.org/maven2/org/ow2/asm/asm-analysis/9.9.1/)
-    - [asm-commons](https://repo.maven.apache.org/maven2/org/ow2/asm/asm-commons/) **[9.9](https://repo.maven.apache.org/maven2/org/ow2/asm/asm-commons/9.9)** < [9.9.1](https://repo.maven.apache.org/maven2/org/ow2/asm/asm-commons/9.9.1/)
-    - [asm-tree](https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/) **[9.9](https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/9.9)** < [9.9.1](https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/9.9.1/)
-    - [asm-util](https://repo.maven.apache.org/maven2/org/ow2/asm/asm-util/) **[9.9](https://repo.maven.apache.org/maven2/org/ow2/asm/asm-util/9.9)** < [9.9.1](https://repo.maven.apache.org/maven2/org/ow2/asm/asm-util/9.9.1/)
- - [org.yaml](https://repo.maven.apache.org/maven2/org/yaml/)
-    - [snakeyaml](https://repo.maven.apache.org/maven2/org/yaml/snakeyaml/) **[2.5](https://repo.maven.apache.org/maven2/org/yaml/snakeyaml/2.5)** < [2.6](https://repo.maven.apache.org/maven2/org/yaml/snakeyaml/2.6/)
+    - [mockito-core](https://repo.maven.apache.org/maven2/org/mockito/mockito-core/) **[5.21.0](https://repo.maven.apache.org/maven2/org/mockito/mockito-core/5.21.0)** < [5.22.0](https://repo.maven.apache.org/maven2/org/mockito/mockito-core/5.22.0/)
 
 ## Major Updates
  - [jakarta.activation](https://repo.maven.apache.org/maven2/jakarta/activation/)
@@ -23,8 +10,8 @@
  - [jakarta.xml.bind](https://repo.maven.apache.org/maven2/jakarta/xml/bind/)
     - [jakarta.xml.bind-api](https://repo.maven.apache.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/) **[2.3.3](https://repo.maven.apache.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3)** < [4.0.5](https://repo.maven.apache.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/4.0.5/)
  - [org.junit.jupiter](https://repo.maven.apache.org/maven2/org/junit/jupiter/)
-    - [junit-jupiter-api](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/) **[5.14.1](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.14.1)** < [6.0.3](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/6.0.3/)
-    - [junit-jupiter-engine](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/) **[5.14.1](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.14.1)** < [6.0.3](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/6.0.3/)
+    - [junit-jupiter-api](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/) **[5.14.3](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.14.3)** < [6.0.3](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/6.0.3/)
+    - [junit-jupiter-engine](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/) **[5.14.3](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.14.3)** < [6.0.3](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/6.0.3/)
 
 ## Updates Applied
 [updated.target](updated.target)
@@ -48,24 +35,24 @@
  - [org.apache.commons](https://repo.maven.apache.org/maven2/org/apache/commons/)
     - [commons-compress](https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/) **[1.28.0](https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.28.0)**
  - [org.assertj](https://repo.maven.apache.org/maven2/org/assertj/)
-    - [assertj-core](https://repo.maven.apache.org/maven2/org/assertj/assertj-core/) **[3.27.6](https://repo.maven.apache.org/maven2/org/assertj/assertj-core/3.27.6)**
+    - [assertj-core](https://repo.maven.apache.org/maven2/org/assertj/assertj-core/) **[3.27.7](https://repo.maven.apache.org/maven2/org/assertj/assertj-core/3.27.7)**
  - [org.freemarker](https://repo.maven.apache.org/maven2/org/freemarker/)
     - [freemarker](https://repo.maven.apache.org/maven2/org/freemarker/freemarker/) **[2.3.34](https://repo.maven.apache.org/maven2/org/freemarker/freemarker/2.3.34)**
  - [org.hamcrest](https://repo.maven.apache.org/maven2/org/hamcrest/)
     - [hamcrest](https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest/) **[3.0](https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest/3.0)**
  - [org.junit.jupiter](https://repo.maven.apache.org/maven2/org/junit/jupiter/)
-    - [junit-jupiter-api](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/) **[5.14.1](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.14.1)**
-    - [junit-jupiter-engine](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/) **[5.14.1](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.14.1)**
+    - [junit-jupiter-api](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/) **[5.14.3](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.14.3)**
+    - [junit-jupiter-engine](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/) **[5.14.3](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.14.3)**
  - [org.mockito](https://repo.maven.apache.org/maven2/org/mockito/)
-    - [mockito-core](https://repo.maven.apache.org/maven2/org/mockito/mockito-core/) **[5.20.0](https://repo.maven.apache.org/maven2/org/mockito/mockito-core/5.20.0)**
+    - [mockito-core](https://repo.maven.apache.org/maven2/org/mockito/mockito-core/) **[5.21.0](https://repo.maven.apache.org/maven2/org/mockito/mockito-core/5.21.0)**
  - [org.ow2.asm](https://repo.maven.apache.org/maven2/org/ow2/asm/)
-    - [asm](https://repo.maven.apache.org/maven2/org/ow2/asm/asm/) **[9.9](https://repo.maven.apache.org/maven2/org/ow2/asm/asm/9.9)**
-    - [asm-analysis](https://repo.maven.apache.org/maven2/org/ow2/asm/asm-analysis/) **[9.9](https://repo.maven.apache.org/maven2/org/ow2/asm/asm-analysis/9.9)**
-    - [asm-commons](https://repo.maven.apache.org/maven2/org/ow2/asm/asm-commons/) **[9.9](https://repo.maven.apache.org/maven2/org/ow2/asm/asm-commons/9.9)**
-    - [asm-tree](https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/) **[9.9](https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/9.9)**
-    - [asm-util](https://repo.maven.apache.org/maven2/org/ow2/asm/asm-util/) **[9.9](https://repo.maven.apache.org/maven2/org/ow2/asm/asm-util/9.9)**
+    - [asm](https://repo.maven.apache.org/maven2/org/ow2/asm/asm/) **[9.9.1](https://repo.maven.apache.org/maven2/org/ow2/asm/asm/9.9.1)**
+    - [asm-analysis](https://repo.maven.apache.org/maven2/org/ow2/asm/asm-analysis/) **[9.9.1](https://repo.maven.apache.org/maven2/org/ow2/asm/asm-analysis/9.9.1)**
+    - [asm-commons](https://repo.maven.apache.org/maven2/org/ow2/asm/asm-commons/) **[9.9.1](https://repo.maven.apache.org/maven2/org/ow2/asm/asm-commons/9.9.1)**
+    - [asm-tree](https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/) **[9.9.1](https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/9.9.1)**
+    - [asm-util](https://repo.maven.apache.org/maven2/org/ow2/asm/asm-util/) **[9.9.1](https://repo.maven.apache.org/maven2/org/ow2/asm/asm-util/9.9.1)**
  - [org.slf4j](https://repo.maven.apache.org/maven2/org/slf4j/)
     - [slf4j-api](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/) **[2.0.17](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/2.0.17)**
     - [slf4j-simple](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-simple/) **[2.0.17](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-simple/2.0.17)**
  - [org.yaml](https://repo.maven.apache.org/maven2/org/yaml/)
-    - [snakeyaml](https://repo.maven.apache.org/maven2/org/yaml/snakeyaml/) **[2.5](https://repo.maven.apache.org/maven2/org/yaml/snakeyaml/2.5)**
+    - [snakeyaml](https://repo.maven.apache.org/maven2/org/yaml/snakeyaml/) **[2.6](https://repo.maven.apache.org/maven2/org/yaml/snakeyaml/2.6)**
