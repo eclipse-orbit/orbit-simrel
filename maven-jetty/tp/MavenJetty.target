@@ -1278,7 +1278,7 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>org.eclipse.jdt</groupId>
           <artifactId>ecj</artifactId>
-          <version>3.44.0</version>
+          <version>3.45.0</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -1290,7 +1290,7 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>org.eclipse.platform</groupId>
           <artifactId>org.eclipse.osgi</artifactId>
-          <version>3.24.0</version>
+          <version>3.24.100</version>
           <type>jar</type>
         </dependency>
         <dependency>
