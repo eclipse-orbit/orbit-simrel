@@ -2,7 +2,7 @@
 
 ## Minor Updates
  - [org.mockito](https://repo.maven.apache.org/maven2/org/mockito/)
-    - [mockito-core](https://repo.maven.apache.org/maven2/org/mockito/mockito-core/) **[5.21.0](https://repo.maven.apache.org/maven2/org/mockito/mockito-core/5.21.0)** < [5.22.0](https://repo.maven.apache.org/maven2/org/mockito/mockito-core/5.22.0/)
+    - [mockito-core](https://repo.maven.apache.org/maven2/org/mockito/mockito-core/) **[5.21.0](https://repo.maven.apache.org/maven2/org/mockito/mockito-core/5.21.0)** < [5.23.0](https://repo.maven.apache.org/maven2/org/mockito/mockito-core/5.23.0/)
 
 ## Major Updates
  - [jakarta.activation](https://repo.maven.apache.org/maven2/jakarta/activation/)

@@ -17,7 +17,7 @@
  - [org.eclipse.jetty.ee10](https://repo.maven.apache.org/maven2/org/eclipse/jetty/ee10/)
     - [jetty-ee10-servlet](https://repo.maven.apache.org/maven2/org/eclipse/jetty/ee10/jetty-ee10-servlet/) **[12.1.6](https://repo.maven.apache.org/maven2/org/eclipse/jetty/ee10/jetty-ee10-servlet/12.1.6)** < [12.1.7](https://repo.maven.apache.org/maven2/org/eclipse/jetty/ee10/jetty-ee10-servlet/12.1.7/)
  - [org.mockito](https://repo.maven.apache.org/maven2/org/mockito/)
-    - [mockito-core](https://repo.maven.apache.org/maven2/org/mockito/mockito-core/) **[5.21.0](https://repo.maven.apache.org/maven2/org/mockito/mockito-core/5.21.0)** < [5.22.0](https://repo.maven.apache.org/maven2/org/mockito/mockito-core/5.22.0/)
+    - [mockito-core](https://repo.maven.apache.org/maven2/org/mockito/mockito-core/) **[5.21.0](https://repo.maven.apache.org/maven2/org/mockito/mockito-core/5.21.0)** < [5.23.0](https://repo.maven.apache.org/maven2/org/mockito/mockito-core/5.23.0/)
  - [org.tukaani](https://repo.maven.apache.org/maven2/org/tukaani/)
     - [xz](https://repo.maven.apache.org/maven2/org/tukaani/xz/) **[1.11](https://repo.maven.apache.org/maven2/org/tukaani/xz/1.11)** < [1.12](https://repo.maven.apache.org/maven2/org/tukaani/xz/1.12/)
 
