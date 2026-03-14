@@ -14,7 +14,7 @@
  - [com.networknt](https://repo.maven.apache.org/maven2/com/networknt/)
     - [json-schema-validator](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/) **[1.5.9](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/1.5.9)** < [3.0.1](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/3.0.1/)
  - [com.sun.xml.bind](https://repo.maven.apache.org/maven2/com/sun/xml/bind/)
-    - [jaxb-osgi](https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-osgi/) **[2.3.9](https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-osgi/2.3.9)** < [4.0.6](https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-osgi/4.0.6/)
+    - [jaxb-osgi](https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-osgi/) **[2.3.9](https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-osgi/2.3.9)** < [4.0.7](https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-osgi/4.0.7/)
  - [jakarta.ejb](https://repo.maven.apache.org/maven2/jakarta/ejb/)
     - [jakarta.ejb-api](https://repo.maven.apache.org/maven2/jakarta/ejb/jakarta.ejb-api/) **[3.2.6](https://repo.maven.apache.org/maven2/jakarta/ejb/jakarta.ejb-api/3.2.6)** < [4.0.1](https://repo.maven.apache.org/maven2/jakarta/ejb/jakarta.ejb-api/4.0.1/)
  - [jakarta.jws](https://repo.maven.apache.org/maven2/jakarta/jws/)
@@ -108,8 +108,8 @@
  - [com.networknt](https://repo.maven.apache.org/maven2/com/networknt/)
     - [json-schema-validator](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/) **[1.5.9](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/1.5.9)**
  - [com.sun.xml.bind](https://repo.maven.apache.org/maven2/com/sun/xml/bind/)
-    - [jaxb-core](https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-core/) **[4.0.6](https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-core/4.0.6)**
-    - [jaxb-impl](https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-impl/) **[4.0.6](https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-impl/4.0.6)**
+    - [jaxb-core](https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-core/) **[4.0.7](https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-core/4.0.7)**
+    - [jaxb-impl](https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-impl/) **[4.0.7](https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-impl/4.0.7)**
     - [jaxb-osgi](https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-osgi/) **[2.3.9](https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-osgi/2.3.9)**
  - [commons-beanutils](https://repo.maven.apache.org/maven2/commons-beanutils/)
     - [commons-beanutils](https://repo.maven.apache.org/maven2/commons-beanutils/commons-beanutils/) **[1.11.0](https://repo.maven.apache.org/maven2/commons-beanutils/commons-beanutils/1.11.0)**
@@ -247,7 +247,7 @@
     - [hk2-utils](https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-utils/) **[2.6.1](https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-utils/2.6.1)**
     - [osgi-resource-locator](https://repo.maven.apache.org/maven2/org/glassfish/hk2/osgi-resource-locator/) **[1.0.4](https://repo.maven.apache.org/maven2/org/glassfish/hk2/osgi-resource-locator/1.0.4)**
  - [org.glassfish.jaxb](https://repo.maven.apache.org/maven2/org/glassfish/jaxb/)
-    - [jaxb-runtime](https://repo.maven.apache.org/maven2/org/glassfish/jaxb/jaxb-runtime/) **[4.0.6](https://repo.maven.apache.org/maven2/org/glassfish/jaxb/jaxb-runtime/4.0.6)**
+    - [jaxb-runtime](https://repo.maven.apache.org/maven2/org/glassfish/jaxb/jaxb-runtime/) **[4.0.7](https://repo.maven.apache.org/maven2/org/glassfish/jaxb/jaxb-runtime/4.0.7)**
  - [org.glassfish.jersey.connectors](https://repo.maven.apache.org/maven2/org/glassfish/jersey/connectors/)
     - [jersey-apache-connector](https://repo.maven.apache.org/maven2/org/glassfish/jersey/connectors/jersey-apache-connector/) **[2.47](https://repo.maven.apache.org/maven2/org/glassfish/jersey/connectors/jersey-apache-connector/2.47)**
     - [jersey-apache-connector](https://repo.maven.apache.org/maven2/org/glassfish/jersey/connectors/jersey-apache-connector/) **[3.1.11](https://repo.maven.apache.org/maven2/org/glassfish/jersey/connectors/jersey-apache-connector/3.1.11)**

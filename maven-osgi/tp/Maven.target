@@ -3,7 +3,7 @@
 <target name="Maven" sequenceNumber="1">
   <locations>
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="error" type="Maven">
-      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.40.0.v20260312-1000">
+      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.40.0.v20260314-1000">
         <description>This feature's dependencies are pulled directly from Maven central.</description>
         <copyright>
 Copyright (c) 2026 Eclipse contributors and others.
@@ -16,7 +16,7 @@ https://www.eclipse.org/legal/epl-2.0/
 SPDX-License-Identifier: EPL-2.0
         </copyright>
         <license url="https://www.eclipse.org/legal/epl-2.0/"/>
-        <!-- SHA1 26eb7bbeba813a55d90a96ae19cb04dc3e299b05 -->
+        <!-- SHA1 16e02dfae8d4b336d7335cb3a6d88d2985edf7f4 -->
       </feature>
       <dependencies>
         <dependency>
@@ -347,13 +347,13 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>com.sun.xml.bind</groupId>
           <artifactId>jaxb-core</artifactId>
-          <version>4.0.6</version>
+          <version>4.0.7</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>com.sun.xml.bind</groupId>
           <artifactId>jaxb-impl</artifactId>
-          <version>4.0.6</version>
+          <version>4.0.7</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -365,7 +365,7 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>com.sun.xml.bind</groupId>
           <artifactId>jaxb-osgi</artifactId>
-          <version>4.0.6</version>
+          <version>4.0.7</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -1187,7 +1187,7 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>org.glassfish.jaxb</groupId>
           <artifactId>jaxb-runtime</artifactId>
-          <version>4.0.6</version>
+          <version>4.0.7</version>
           <type>jar</type>
         </dependency>
         <dependency>
