@@ -13,7 +13,7 @@
  - [com.github.virtuald](https://repo.maven.apache.org/maven2/com/github/virtuald/)
     - [curvesapi](https://repo.maven.apache.org/maven2/com/github/virtuald/curvesapi/) **[1.8](https://repo.maven.apache.org/maven2/com/github/virtuald/curvesapi/1.8)**
  - [com.google.javascript](https://repo.maven.apache.org/maven2/com/google/javascript/)
-    - [closure-compiler](https://repo.maven.apache.org/maven2/com/google/javascript/closure-compiler/) **[v20260311](https://repo.maven.apache.org/maven2/com/google/javascript/closure-compiler/v20260311)**
+    - [closure-compiler](https://repo.maven.apache.org/maven2/com/google/javascript/closure-compiler/) **[v20260316](https://repo.maven.apache.org/maven2/com/google/javascript/closure-compiler/v20260316)**
  - [com.jcraft](https://repo.maven.apache.org/maven2/com/jcraft/)
     - [jsch](https://repo.maven.apache.org/maven2/com/jcraft/jsch/) **[0.1.55](https://repo.maven.apache.org/maven2/com/jcraft/jsch/0.1.55)**
     - [jzlib](https://repo.maven.apache.org/maven2/com/jcraft/jzlib/) **[1.1.3](https://repo.maven.apache.org/maven2/com/jcraft/jzlib/1.1.3)**
@@ -90,7 +90,7 @@
     - [fop-util](https://repo.maven.apache.org/maven2/org/apache/xmlgraphics/fop-util/) **[2.11](https://repo.maven.apache.org/maven2/org/apache/xmlgraphics/fop-util/2.11)**
     - [xmlgraphics-commons](https://repo.maven.apache.org/maven2/org/apache/xmlgraphics/xmlgraphics-commons/) **[2.11](https://repo.maven.apache.org/maven2/org/apache/xmlgraphics/xmlgraphics-commons/2.11)**
  - [org.codelibs](https://repo.maven.apache.org/maven2/org/codelibs/)
-    - [nekohtml](https://repo.maven.apache.org/maven2/org/codelibs/nekohtml/) **[3.0.2](https://repo.maven.apache.org/maven2/org/codelibs/nekohtml/3.0.2)**
+    - [nekohtml](https://repo.maven.apache.org/maven2/org/codelibs/nekohtml/) **[3.0.3](https://repo.maven.apache.org/maven2/org/codelibs/nekohtml/3.0.3)**
  - [org.cyclonedx](https://repo.maven.apache.org/maven2/org/cyclonedx/)
     - [cyclonedx-core-java](https://repo.maven.apache.org/maven2/org/cyclonedx/cyclonedx-core-java/) **[12.1.0](https://repo.maven.apache.org/maven2/org/cyclonedx/cyclonedx-core-java/12.1.0)**
  - [org.dom4j](https://repo.maven.apache.org/maven2/org/dom4j/)
