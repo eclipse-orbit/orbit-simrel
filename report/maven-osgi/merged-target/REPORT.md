@@ -81,19 +81,19 @@
     - [xmlrpc-server](https://repo.maven.apache.org/maven2/com/evolvedbinary/thirdparty/org/apache/xmlrpc/xmlrpc-server/) **[5.0.0](https://repo.maven.apache.org/maven2/com/evolvedbinary/thirdparty/org/apache/xmlrpc/xmlrpc-server/5.0.0)**
  - [com.fasterxml.jackson.core](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/)
     - [jackson-annotations](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/) **[2.21](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.21)**
-    - [jackson-core](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/) **[2.21.1](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.21.1)**
-    - [jackson-databind](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/) **[2.21.1](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.21.1)**
+    - [jackson-core](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/) **[2.21.2](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.21.2)**
+    - [jackson-databind](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/) **[2.21.2](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.21.2)**
  - [com.fasterxml.jackson.dataformat](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/)
-    - [jackson-dataformat-xml](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-xml/) **[2.21.1](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-xml/2.21.1)**
-    - [jackson-dataformat-yaml](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/) **[2.21.1](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.21.1)**
+    - [jackson-dataformat-xml](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-xml/) **[2.21.2](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-xml/2.21.2)**
+    - [jackson-dataformat-yaml](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/) **[2.21.2](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.21.2)**
  - [com.fasterxml.jackson.datatype](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/)
-    - [jackson-datatype-guava](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-guava/) **[2.21.1](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-guava/2.21.1)**
+    - [jackson-datatype-guava](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-guava/) **[2.21.2](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-guava/2.21.2)**
  - [com.fasterxml.jackson.jaxrs](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jaxrs/)
-    - [jackson-jaxrs-base](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jaxrs/jackson-jaxrs-base/) **[2.21.1](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jaxrs/jackson-jaxrs-base/2.21.1)**
-    - [jackson-jaxrs-json-provider](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jaxrs/jackson-jaxrs-json-provider/) **[2.21.1](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jaxrs/jackson-jaxrs-json-provider/2.21.1)**
+    - [jackson-jaxrs-base](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jaxrs/jackson-jaxrs-base/) **[2.21.2](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jaxrs/jackson-jaxrs-base/2.21.2)**
+    - [jackson-jaxrs-json-provider](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jaxrs/jackson-jaxrs-json-provider/) **[2.21.2](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jaxrs/jackson-jaxrs-json-provider/2.21.2)**
  - [com.fasterxml.jackson.module](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/)
-    - [jackson-module-jakarta-xmlbind-annotations](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-jakarta-xmlbind-annotations/) **[2.21.1](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-jakarta-xmlbind-annotations/2.21.1)**
-    - [jackson-module-jaxb-annotations](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/) **[2.21.1](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.21.1)**
+    - [jackson-module-jakarta-xmlbind-annotations](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-jakarta-xmlbind-annotations/) **[2.21.2](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-jakarta-xmlbind-annotations/2.21.2)**
+    - [jackson-module-jaxb-annotations](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/) **[2.21.2](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.21.2)**
  - [com.fasterxml.woodstox](https://repo.maven.apache.org/maven2/com/fasterxml/woodstox/)
     - [woodstox-core](https://repo.maven.apache.org/maven2/com/fasterxml/woodstox/woodstox-core/) **[6.7.0](https://repo.maven.apache.org/maven2/com/fasterxml/woodstox/woodstox-core/6.7.0)**
  - [com.github.ben-manes.caffeine](https://repo.maven.apache.org/maven2/com/github/ben-manes/caffeine/)
