@@ -212,7 +212,7 @@
     - [log4j-slf4j2-impl](https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-slf4j2-impl/) **[2.25.3](https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-slf4j2-impl/2.25.3)**
     - [log4j-to-slf4j](https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-to-slf4j/) **[2.25.3](https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-to-slf4j/2.25.3)**
  - [org.apache.tika](https://repo.maven.apache.org/maven2/org/apache/tika/)
-    - [tika-core](https://repo.maven.apache.org/maven2/org/apache/tika/tika-core/) **[3.2.3](https://repo.maven.apache.org/maven2/org/apache/tika/tika-core/3.2.3)**
+    - [tika-core](https://repo.maven.apache.org/maven2/org/apache/tika/tika-core/) **[3.3.0](https://repo.maven.apache.org/maven2/org/apache/tika/tika-core/3.3.0)**
  - [org.apache.velocity](https://repo.maven.apache.org/maven2/org/apache/velocity/)
     - [velocity-engine-core](https://repo.maven.apache.org/maven2/org/apache/velocity/velocity-engine-core/) **[2.4.1](https://repo.maven.apache.org/maven2/org/apache/velocity/velocity-engine-core/2.4.1)**
  - [org.codehaus.woodstox](https://repo.maven.apache.org/maven2/org/codehaus/woodstox/)
