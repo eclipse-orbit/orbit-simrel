@@ -30,6 +30,12 @@
  - [org.glassfish.expressly](https://repo.maven.apache.org/maven2/org/glassfish/expressly/)
     - [expressly](https://repo.maven.apache.org/maven2/org/glassfish/expressly/expressly/) **[5.0.0](https://repo.maven.apache.org/maven2/org/glassfish/expressly/expressly/5.0.0)** < [6.0.0](https://repo.maven.apache.org/maven2/org/glassfish/expressly/expressly/6.0.0/)
  - [org.glassfish.hk2](https://repo.maven.apache.org/maven2/org/glassfish/hk2/)
+    - [hk2-api](https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-api/) **[2.6.1](https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-api/2.6.1)** < [4.0.0](https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-api/4.0.0/)
+    - [hk2-api](https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-api/) **[3.1.1](https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-api/3.1.1)** < [4.0.0](https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-api/4.0.0/)
+    - [hk2-locator](https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-locator/) **[2.6.1](https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-locator/2.6.1)** < [4.0.0](https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-locator/4.0.0/)
+    - [hk2-locator](https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-locator/) **[3.1.1](https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-locator/3.1.1)** < [4.0.0](https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-locator/4.0.0/)
+    - [hk2-utils](https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-utils/) **[2.6.1](https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-utils/2.6.1)** < [4.0.0](https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-utils/4.0.0/)
+    - [hk2-utils](https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-utils/) **[3.1.1](https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-utils/3.1.1)** < [4.0.0](https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-utils/4.0.0/)
     - [osgi-resource-locator](https://repo.maven.apache.org/maven2/org/glassfish/hk2/osgi-resource-locator/) **[1.0.4](https://repo.maven.apache.org/maven2/org/glassfish/hk2/osgi-resource-locator/1.0.4)** < [3.0.0](https://repo.maven.apache.org/maven2/org/glassfish/hk2/osgi-resource-locator/3.0.0/)
  - [org.glassfish.jersey.connectors](https://repo.maven.apache.org/maven2/org/glassfish/jersey/connectors/)
     - [jersey-apache5-connector](https://repo.maven.apache.org/maven2/org/glassfish/jersey/connectors/jersey-apache5-connector/) **[3.1.11](https://repo.maven.apache.org/maven2/org/glassfish/jersey/connectors/jersey-apache5-connector/3.1.11)** < [4.0.2](https://repo.maven.apache.org/maven2/org/glassfish/jersey/connectors/jersey-apache5-connector/4.0.2/)
@@ -59,15 +65,15 @@
  - [args4j](https://repo.maven.apache.org/maven2/args4j/)
     - [args4j](https://repo.maven.apache.org/maven2/args4j/args4j/) **[2.37](https://repo.maven.apache.org/maven2/args4j/args4j/2.37)**
  - [biz.aQute.bnd](https://repo.maven.apache.org/maven2/biz/aQute/bnd/)
-    - [aQute.libg](https://repo.maven.apache.org/maven2/biz/aQute/bnd/aQute.libg/) **[7.2.1](https://repo.maven.apache.org/maven2/biz/aQute/bnd/aQute.libg/7.2.1)**
-    - [biz.aQute.bnd.annotation](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.bnd.annotation/) **[7.2.1](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.bnd.annotation/7.2.1)**
-    - [biz.aQute.bnd.embedded-repo](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.bnd.embedded-repo/) **[7.2.1](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.bnd.embedded-repo/7.2.1)**
-    - [biz.aQute.bnd.util](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.bnd.util/) **[7.2.1](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.bnd.util/7.2.1)**
-    - [biz.aQute.bndlib](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.bndlib/) **[7.2.1](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.bndlib/7.2.1)**
-    - [biz.aQute.repository](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.repository/) **[7.2.1](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.repository/7.2.1)**
-    - [biz.aQute.resolve](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.resolve/) **[7.2.1](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.resolve/7.2.1)**
-    - [biz.aQute.tester](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.tester/) **[7.2.1](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.tester/7.2.1)**
-    - [biz.aQute.tester.junit-platform](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.tester.junit-platform/) **[7.2.1](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.tester.junit-platform/7.2.1)**
+    - [aQute.libg](https://repo.maven.apache.org/maven2/biz/aQute/bnd/aQute.libg/) **[7.2.3](https://repo.maven.apache.org/maven2/biz/aQute/bnd/aQute.libg/7.2.3)**
+    - [biz.aQute.bnd.annotation](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.bnd.annotation/) **[7.2.3](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.bnd.annotation/7.2.3)**
+    - [biz.aQute.bnd.embedded-repo](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.bnd.embedded-repo/) **[7.2.3](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.bnd.embedded-repo/7.2.3)**
+    - [biz.aQute.bnd.util](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.bnd.util/) **[7.2.3](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.bnd.util/7.2.3)**
+    - [biz.aQute.bndlib](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.bndlib/) **[7.2.3](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.bndlib/7.2.3)**
+    - [biz.aQute.repository](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.repository/) **[7.2.3](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.repository/7.2.3)**
+    - [biz.aQute.resolve](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.resolve/) **[7.2.3](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.resolve/7.2.3)**
+    - [biz.aQute.tester](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.tester/) **[7.2.3](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.tester/7.2.3)**
+    - [biz.aQute.tester.junit-platform](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.tester.junit-platform/) **[7.2.3](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.tester.junit-platform/7.2.3)**
  - [ch.qos.logback](https://repo.maven.apache.org/maven2/ch/qos/logback/)
     - [logback-classic](https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/) **[1.5.32](https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/1.5.32)**
     - [logback-core](https://repo.maven.apache.org/maven2/ch/qos/logback/logback-core/) **[1.5.32](https://repo.maven.apache.org/maven2/ch/qos/logback/logback-core/1.5.32)**
@@ -292,13 +298,13 @@
  - [org.assertj](https://repo.maven.apache.org/maven2/org/assertj/)
     - [assertj-core](https://repo.maven.apache.org/maven2/org/assertj/assertj-core/) **[3.27.7](https://repo.maven.apache.org/maven2/org/assertj/assertj-core/3.27.7)**
  - [org.bndtools](https://repo.maven.apache.org/maven2/org/bndtools/)
-    - [bndtools.api](https://repo.maven.apache.org/maven2/org/bndtools/bndtools.api/) **[7.2.1](https://repo.maven.apache.org/maven2/org/bndtools/bndtools.api/7.2.1)**
-    - [org.bndtools.headless.build.manager](https://repo.maven.apache.org/maven2/org/bndtools/org.bndtools.headless.build.manager/) **[7.2.1](https://repo.maven.apache.org/maven2/org/bndtools/org.bndtools.headless.build.manager/7.2.1)**
-    - [org.bndtools.headless.build.plugin.gradle](https://repo.maven.apache.org/maven2/org/bndtools/org.bndtools.headless.build.plugin.gradle/) **[7.2.1](https://repo.maven.apache.org/maven2/org/bndtools/org.bndtools.headless.build.plugin.gradle/7.2.1)**
-    - [org.bndtools.templates.template](https://repo.maven.apache.org/maven2/org/bndtools/org.bndtools.templates.template/) **[7.2.1](https://repo.maven.apache.org/maven2/org/bndtools/org.bndtools.templates.template/7.2.1)**
-    - [org.bndtools.templating](https://repo.maven.apache.org/maven2/org/bndtools/org.bndtools.templating/) **[7.2.1](https://repo.maven.apache.org/maven2/org/bndtools/org.bndtools.templating/7.2.1)**
-    - [org.bndtools.versioncontrol.ignores.manager](https://repo.maven.apache.org/maven2/org/bndtools/org.bndtools.versioncontrol.ignores.manager/) **[7.2.1](https://repo.maven.apache.org/maven2/org/bndtools/org.bndtools.versioncontrol.ignores.manager/7.2.1)**
-    - [org.bndtools.versioncontrol.ignores.plugin.git](https://repo.maven.apache.org/maven2/org/bndtools/org.bndtools.versioncontrol.ignores.plugin.git/) **[7.2.1](https://repo.maven.apache.org/maven2/org/bndtools/org.bndtools.versioncontrol.ignores.plugin.git/7.2.1)**
+    - [bndtools.api](https://repo.maven.apache.org/maven2/org/bndtools/bndtools.api/) **[7.2.3](https://repo.maven.apache.org/maven2/org/bndtools/bndtools.api/7.2.3)**
+    - [org.bndtools.headless.build.manager](https://repo.maven.apache.org/maven2/org/bndtools/org.bndtools.headless.build.manager/) **[7.2.3](https://repo.maven.apache.org/maven2/org/bndtools/org.bndtools.headless.build.manager/7.2.3)**
+    - [org.bndtools.headless.build.plugin.gradle](https://repo.maven.apache.org/maven2/org/bndtools/org.bndtools.headless.build.plugin.gradle/) **[7.2.3](https://repo.maven.apache.org/maven2/org/bndtools/org.bndtools.headless.build.plugin.gradle/7.2.3)**
+    - [org.bndtools.templates.template](https://repo.maven.apache.org/maven2/org/bndtools/org.bndtools.templates.template/) **[7.2.3](https://repo.maven.apache.org/maven2/org/bndtools/org.bndtools.templates.template/7.2.3)**
+    - [org.bndtools.templating](https://repo.maven.apache.org/maven2/org/bndtools/org.bndtools.templating/) **[7.2.3](https://repo.maven.apache.org/maven2/org/bndtools/org.bndtools.templating/7.2.3)**
+    - [org.bndtools.versioncontrol.ignores.manager](https://repo.maven.apache.org/maven2/org/bndtools/org.bndtools.versioncontrol.ignores.manager/) **[7.2.3](https://repo.maven.apache.org/maven2/org/bndtools/org.bndtools.versioncontrol.ignores.manager/7.2.3)**
+    - [org.bndtools.versioncontrol.ignores.plugin.git](https://repo.maven.apache.org/maven2/org/bndtools/org.bndtools.versioncontrol.ignores.plugin.git/) **[7.2.3](https://repo.maven.apache.org/maven2/org/bndtools/org.bndtools.versioncontrol.ignores.plugin.git/7.2.3)**
  - [org.bouncycastle](https://repo.maven.apache.org/maven2/org/bouncycastle/)
     - [bcpg-jdk18on](https://repo.maven.apache.org/maven2/org/bouncycastle/bcpg-jdk18on/) **[1.83](https://repo.maven.apache.org/maven2/org/bouncycastle/bcpg-jdk18on/1.83)**
     - [bcpkix-jdk18on](https://repo.maven.apache.org/maven2/org/bouncycastle/bcpkix-jdk18on/) **[1.83](https://repo.maven.apache.org/maven2/org/bouncycastle/bcpkix-jdk18on/1.83)**
