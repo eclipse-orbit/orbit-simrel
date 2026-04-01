@@ -9,6 +9,12 @@
  - [com.fasterxml.jackson.module](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/)
     - [jackson-module-jakarta-xmlbind-annotations](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-jakarta-xmlbind-annotations/) **[2.21.1](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-jakarta-xmlbind-annotations/2.21.1)** < [2.21.2](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-jakarta-xmlbind-annotations/2.21.2/)
     - [jackson-module-jaxb-annotations](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/) **[2.21.1](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.21.1)** < [2.21.2](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.21.2/)
+ - [com.github.jnr](https://repo.maven.apache.org/maven2/com/github/jnr/)
+    - [jffi](https://repo.maven.apache.org/maven2/com/github/jnr/jffi/) **[1.3.14](https://repo.maven.apache.org/maven2/com/github/jnr/jffi/1.3.14)** < [1.3.15](https://repo.maven.apache.org/maven2/com/github/jnr/jffi/1.3.15/)
+    - [jnr-enxio](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-enxio/) **[0.32.19](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-enxio/0.32.19)** < [0.32.20](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-enxio/0.32.20/)
+    - [jnr-ffi](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-ffi/) **[2.2.18](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-ffi/2.2.18)** < [2.2.19](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-ffi/2.2.19/)
+    - [jnr-posix](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-posix/) **[3.1.21](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-posix/3.1.21)** < [3.1.22](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-posix/3.1.22/)
+    - [jnr-unixsocket](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-unixsocket/) **[0.38.24](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-unixsocket/0.38.24)** < [0.38.25](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-unixsocket/0.38.25/)
 
 ## Major Updates
  - [jakarta.ws.rs](https://repo.maven.apache.org/maven2/jakarta/ws/rs/)
