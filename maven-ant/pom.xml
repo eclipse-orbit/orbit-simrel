@@ -14,7 +14,7 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <tycho-version>5.0.2</tycho-version>
     <gpg-keyname>C1F58CF8</gpg-keyname>
-    <ant.version>1.10.15</ant.version>
+    <ant.version>1.10.16</ant.version>
   </properties>
 
   <pluginRepositories>
