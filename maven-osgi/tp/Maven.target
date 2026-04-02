@@ -3,7 +3,7 @@
 <target name="Maven" sequenceNumber="1">
   <locations>
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="error" type="Maven">
-      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.40.0.v20260401-1000">
+      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.40.0.v20260402-1000">
         <description>This feature's dependencies are pulled directly from Maven central.</description>
         <copyright>
 Copyright (c) 2026 Eclipse contributors and others.
@@ -16,7 +16,7 @@ https://www.eclipse.org/legal/epl-2.0/
 SPDX-License-Identifier: EPL-2.0
         </copyright>
         <license url="https://www.eclipse.org/legal/epl-2.0/"/>
-        <!-- SHA1 b3facfd222a8dc95c10e7b64d1c126eee24d5fcb -->
+        <!-- SHA1 aa9e8a99ddfbded42f7cd73fc6cc155978b003a0 -->
       </feature>
       <dependencies>
         <dependency>
@@ -455,7 +455,7 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>io.github.toolfactory</groupId>
           <artifactId>jvm-driver</artifactId>
-          <version>9.9.10</version>
+          <version>9.10.0</version>
           <type>jar</type>
         </dependency>
         <dependency>

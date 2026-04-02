@@ -3,6 +3,8 @@
 ## Minor Updates
  - [com.sun.xml.bind](https://repo.maven.apache.org/maven2/com/sun/xml/bind/)
     - [jaxb-osgi](https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-osgi/) **[4.0.6](https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-osgi/4.0.6)** < [4.0.7](https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-osgi/4.0.7/)
+ - [io.github.toolfactory](https://repo.maven.apache.org/maven2/io/github/toolfactory/)
+    - [jvm-driver](https://repo.maven.apache.org/maven2/io/github/toolfactory/jvm-driver/) **[9.9.10](https://repo.maven.apache.org/maven2/io/github/toolfactory/jvm-driver/9.9.10)** < [9.10.0](https://repo.maven.apache.org/maven2/io/github/toolfactory/jvm-driver/9.10.0/)
 
 ## Updates Applied
 [updated.target](updated.target)

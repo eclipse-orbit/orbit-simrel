@@ -178,7 +178,7 @@
  - [io.github.classgraph](https://repo.maven.apache.org/maven2/io/github/classgraph/)
     - [classgraph](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph/) **[4.8.184](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph/4.8.184)**
  - [io.github.toolfactory](https://repo.maven.apache.org/maven2/io/github/toolfactory/)
-    - [jvm-driver](https://repo.maven.apache.org/maven2/io/github/toolfactory/jvm-driver/) **[9.9.10](https://repo.maven.apache.org/maven2/io/github/toolfactory/jvm-driver/9.9.10)**
+    - [jvm-driver](https://repo.maven.apache.org/maven2/io/github/toolfactory/jvm-driver/) **[9.10.0](https://repo.maven.apache.org/maven2/io/github/toolfactory/jvm-driver/9.10.0)**
     - [narcissus](https://repo.maven.apache.org/maven2/io/github/toolfactory/narcissus/) **[1.0.11](https://repo.maven.apache.org/maven2/io/github/toolfactory/narcissus/1.0.11)**
  - [jakarta.activation](https://repo.maven.apache.org/maven2/jakarta/activation/)
     - [jakarta.activation-api](https://repo.maven.apache.org/maven2/jakarta/activation/jakarta.activation-api/) **[1.2.2](https://repo.maven.apache.org/maven2/jakarta/activation/jakarta.activation-api/1.2.2)**
