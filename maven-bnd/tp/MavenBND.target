@@ -1489,7 +1489,7 @@ Eclipse-RegisterBuddy:  org.apache.batik.awt.util,org.apache.batik.transcoder,or
 <!-- ______________________________________________________ org.apache.ant __________________________________________________________________________________________________-->
 
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
-      <feature id="org.eclipse.orbit.maven.org.apache.ant" label="Orbit Maven BND org.apache.ant" provider-name="Eclipse Orbit" version="4.40.0.v20260402-1000">
+      <feature id="org.eclipse.orbit.maven.org.apache.ant" label="Orbit Maven BND org.apache.ant" provider-name="Eclipse Orbit" version="4.40.0.v20260410-1000">
         <description>This feature's dependencies are repackaged Ant downloads that wre wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
 Copyright (c) 2026 Eclipse contributors and others.
@@ -1507,7 +1507,7 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>org.eclipse.orbit</groupId>
           <artifactId>ant</artifactId>
-          <version>1.10.16</version>
+          <version>1.10.17</version>
           <type>jar</type>
         </dependency>
       </dependencies>
@@ -1522,7 +1522,7 @@ SPDX-License-Identifier: EPL-2.0
         </repository>
       </repositories>
       <instructions>
-<!-- SHA1 9a9903b7da53ba366d812cfd5c544e26fe156377 -->
+<!-- SHA1 f3616ab82e5fe28b9eb8afe758bff033b18b5d72 -->
 <![CDATA[
 Bundle-Name:            Apache Ant
 version:                ${versionmask;===;${version_cleanup;${mvnVersion}}}
@@ -1552,7 +1552,7 @@ Bundle-ClassPath:       lib/ant-antlr.jar,\
                         lib/ant-xz.jar,\
                         lib/ant.jar
 Bundle-SymbolicName:    org.apache.ant
-Bundle-Version:         ${version}.v20260402-1000
+Bundle-Version:         ${version}.v20260410-1000
 Eclipse-Wrapped-Bundle: org.apache.ant:ant:${mvnVersion}
 Import-Package:         *;resolution:=optional
 Export-Package:         !images,\

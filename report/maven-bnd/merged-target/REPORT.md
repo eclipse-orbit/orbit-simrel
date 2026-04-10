@@ -94,7 +94,7 @@
  - [org.dom4j](https://repo.maven.apache.org/maven2/org/dom4j/)
     - [dom4j](https://repo.maven.apache.org/maven2/org/dom4j/dom4j/) **[2.2.0](https://repo.maven.apache.org/maven2/org/dom4j/dom4j/2.2.0)**
  - [org.eclipse.orbit](https://repo.eclipse.org/content/repositories/orbit-approved-artifacts/org/eclipse/orbit/)
-    - [ant](https://repo.eclipse.org/content/repositories/orbit-approved-artifacts/org/eclipse/orbit/ant/) **[1.10.16](https://repo.eclipse.org/content/repositories/orbit-approved-artifacts/org/eclipse/orbit/ant/1.10.16)**
+    - [ant](https://repo.eclipse.org/content/repositories/orbit-approved-artifacts/org/eclipse/orbit/ant/) **[1.10.17](https://repo.eclipse.org/content/repositories/orbit-approved-artifacts/org/eclipse/orbit/ant/1.10.17)**
     - [derby](https://repo.eclipse.org/content/repositories/orbit-approved-artifacts/org/eclipse/orbit/derby/) **[10.16.1.1](https://repo.eclipse.org/content/repositories/orbit-approved-artifacts/org/eclipse/orbit/derby/10.16.1.1)**
     - [org.apache.axis](https://repo.eclipse.org/content/repositories/orbit-approved-artifacts/org/eclipse/orbit/org.apache.axis/) **[1.4.1.20231107-0755](https://repo.eclipse.org/content/repositories/orbit-approved-artifacts/org/eclipse/orbit/org.apache.axis/1.4.1.20231107-0755)**
     - [org.apache.axis-ant](https://repo.eclipse.org/content/repositories/orbit-approved-artifacts/org/eclipse/orbit/org.apache.axis-ant/) **[1.4.1.20231107-0755](https://repo.eclipse.org/content/repositories/orbit-approved-artifacts/org/eclipse/orbit/org.apache.axis-ant/1.4.1.20231107-0755)**
