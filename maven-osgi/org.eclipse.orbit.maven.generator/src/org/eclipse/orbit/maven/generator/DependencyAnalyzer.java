@@ -10,6 +10,9 @@
  */
 package org.eclipse.orbit.maven.generator;
 
+import java.awt.Toolkit;
+import java.awt.datatransfer.DataFlavor;
+import java.awt.datatransfer.StringSelection;
 import java.io.IOException;
 import java.io.PrintStream;
 import java.io.StringReader;
@@ -99,6 +102,7 @@ public class DependencyAnalyzer {
 
 		var analyzer = new Analyzer(contentHandler, ignorePatterns, majorInclusionPatterns);
 
+		boolean commitSummary = getBooleanArgument(arguments, "-commit-summary");
 		boolean update = getBooleanArgument(arguments, "-update");
 		var bomUpdate = getBooleanArgument(arguments, "-bom-update");
 		var dependencies = new TreeSet<Dependency>();
@@ -191,11 +195,16 @@ public class DependencyAnalyzer {
 			});
 			dependencyUpdates.putAll(allUpdateVersions);
 
+			var before = analyzer.getTargetDependencies(mavenTarget.toUri());
 			var reducedMavenTarget = update ? mavenTargetContent
 					: mavenTargetContent.replaceFirst("(?s)(<dependencies>).*?(\r?\n[\t ]+</dependencies>)", "$1$2");
 			var newMavenContent = replace(reducedMavenTarget, dependencyUpdates, true, !update, false,
 					majorInclusionPatterns);
 			writeString(mavenTarget, newMavenContent);
+
+			if (commitSummary) {
+				createClipbardSummary(before, analyzer.getTargetDependencies(mavenTarget.toUri()));
+			}
 
 			reporter.generateReport(contentHandler, analyzer, MERGED_TARGET_NAME,
 					mergeURI == null ? mavenTarget.toUri() : createURI(mergeURI), null, majorInclusionPatterns);
@@ -424,6 +433,44 @@ public class DependencyAnalyzer {
 		return uri.toString().endsWith(".tpd");
 	}
 
+	private static final Pattern VERSION_UPDATES_PATTERN = Pattern.compile("Version updates\n\n(.*)", Pattern.DOTALL);
+
+	private static final Pattern DEPENDENCY_SUMMARY_PATTERN = Pattern.compile(
+			"(?<groupId>[^-: \n]+):(?<artifactId>[^:]+):(?<version>[^:\n]+)(:(?<type>[^:]+))?(:(?<classifier>[^:\n]+))?");
+
+	private static void createClipbardSummary(List<Dependency> before, List<Dependency> after) {
+		var delta = new TreeSet<>(after);
+		delta.removeAll(before);
+		var clipboardSummary = copyFromClipboard();
+		if (clipboardSummary != null) {
+			var matcher = VERSION_UPDATES_PATTERN.matcher(clipboardSummary);
+			if (matcher.matches()) {
+				var body = matcher.group(1);
+				for (Matcher dependencyMatcher = DEPENDENCY_SUMMARY_PATTERN.matcher(body); dependencyMatcher.find();) {
+					delta.add(new Dependency(dependencyMatcher.group("groupId"), dependencyMatcher.group("artifactId"),
+							dependencyMatcher.group("type"), Version.create(dependencyMatcher.group("version")),
+							dependencyMatcher.group("classifier")));
+				}
+			}
+		}
+		var summary = delta.stream().map(it -> "- " + it.toString().replaceAll(":jar$", "") + "\n")
+				.collect(Collectors.joining());
+		var fullSummary = "Version updates\n\n" + summary;
+		copyToClipboard(fullSummary);
+	}
+
+	private static void copyToClipboard(String string) {
+		Toolkit.getDefaultToolkit().getSystemClipboard().setContents(new StringSelection(string), null);
+	}
+
+	private static String copyFromClipboard() {
+		try {
+			return (String) Toolkit.getDefaultToolkit().getSystemClipboard().getData(DataFlavor.stringFlavor);
+		} catch (Exception ex) {
+			return null;
+		}
+	}
+
 	private static class Reporter {
 
 		private Path reportRoot;
@@ -599,8 +646,7 @@ public class DependencyAnalyzer {
 					var actualVersion = new Version(version);
 					String classifier = matcher.group(4);
 					String type = matcher.group(5);
-					dependencies.add(new Dependency(groupId, artifactId, type == null ? "jar" : type, actualVersion,
-							classifier));
+					dependencies.add(new Dependency(groupId, artifactId, type, actualVersion, classifier));
 				}
 			} else {
 				var targetPlatform = contentHandler.getXMLContent(location);
@@ -621,8 +667,7 @@ public class DependencyAnalyzer {
 					var actualVersion = new Version(version);
 					var type = getText(mavenDependency, "type");
 					var classifier = getText(mavenDependency, "classifier");
-					dependencies.add(new Dependency(groupId, artifactId, type == null ? "jar" : type, actualVersion,
-							classifier));
+					dependencies.add(new Dependency(groupId, artifactId, type, actualVersion, classifier));
 				}
 			}
 
@@ -885,7 +930,7 @@ public class DependencyAnalyzer {
 			super();
 			this.groupId = groupId;
 			this.artifactId = artifactId;
-			this.type = type;
+			this.type = type == null ? "jar" : type;
 			this.version = version;
 			this.classifier = classifier;
 		}
