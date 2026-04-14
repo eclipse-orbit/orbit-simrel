@@ -3,7 +3,7 @@
 <target name="Maven" sequenceNumber="1">
   <locations>
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="error" type="Maven">
-      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.40.0.v20260409-1000">
+      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.40.0.v20260414-1000">
         <description>This feature's dependencies are pulled directly from Maven central.</description>
         <copyright>
 Copyright (c) 2026 Eclipse contributors and others.
@@ -16,7 +16,7 @@ https://www.eclipse.org/legal/epl-2.0/
 SPDX-License-Identifier: EPL-2.0
         </copyright>
         <license url="https://www.eclipse.org/legal/epl-2.0/"/>
-        <!-- SHA1 e33ae3027100d5d55e0829a06461d8ac92a092df -->
+        <!-- SHA1 38be77e13c2f24d7b44b454c55e1722bb910b54a -->
       </feature>
       <dependencies>
         <dependency>
@@ -857,7 +857,7 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>org.apache.felix</groupId>
           <artifactId>org.apache.felix.scr</artifactId>
-          <version>2.2.14</version>
+          <version>2.2.18</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -983,25 +983,25 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>org.bouncycastle</groupId>
           <artifactId>bcpg-jdk18on</artifactId>
-          <version>1.83</version>
+          <version>1.84</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.bouncycastle</groupId>
           <artifactId>bcpkix-jdk18on</artifactId>
-          <version>1.83</version>
+          <version>1.84</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.bouncycastle</groupId>
           <artifactId>bcprov-jdk18on</artifactId>
-          <version>1.83</version>
+          <version>1.84</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.bouncycastle</groupId>
           <artifactId>bcutil-jdk18on</artifactId>
-          <version>1.83</version>
+          <version>1.84</version>
           <type>jar</type>
         </dependency>
         <dependency>
