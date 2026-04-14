@@ -255,7 +255,8 @@ public class Analyzer {
 			// Replace the feature's qualifier with the new current qualifier.
 			var featureVersionQualifierMatcher = FEATURE_VERSION_QUALIFIER_PATTERN.matcher(location);
 			featureVersionQualifierMatcher.find();
-			location = replace(location, featureVersionQualifierMatcher, "qualifier", "." + qualifier);
+			location = replace(location, featureVersionQualifierMatcher, "qualifier",
+					getNiceQualifier(featureVersionQualifierMatcher));
 		}
 
 		return location;
@@ -282,7 +283,8 @@ public class Analyzer {
 			//
 			var bundleVersionMatcherInLocation = BND_BUNDLE_VERSION_PATTERN.matcher(location);
 			bundleVersionMatcherInLocation.find(instructionsMatcher.start("instructions"));
-			location = replace(location, bundleVersionMatcherInLocation, "qualifier", "." + qualifier);
+			location = replace(location, bundleVersionMatcherInLocation, "qualifier",
+					getNiceQualifier(bundleVersionMatcherInLocation));
 
 			// Replace the SHA1 digest with the new digest.
 			//
@@ -291,7 +293,8 @@ public class Analyzer {
 			// Replace the feature's qualifier with the new current qualifier.
 			var featureVersionQualifierMatcher = FEATURE_VERSION_QUALIFIER_PATTERN.matcher(location);
 			featureVersionQualifierMatcher.find();
-			location = replace(location, featureVersionQualifierMatcher, "qualifier", "." + qualifier);
+			location = replace(location, featureVersionQualifierMatcher, "qualifier",
+					getNiceQualifier(featureVersionQualifierMatcher));
 		}
 
 		return location;
@@ -307,6 +310,18 @@ public class Analyzer {
 			dependencies.append(maven).append("\n");
 		}
 		return dependencies.toString();
+	}
+
+	private String getNiceQualifier(Matcher versionQualifierMatcher) {
+		var currentQualifier = versionQualifierMatcher.group("qualifier");
+		for (var time : List.of("1000", "1200", "1400", "1600", "1800", "2000", "2200")) {
+			var niceQualifier = qualifier.replaceAll("-.*", '-' + time);
+			if (!currentQualifier.equals(niceQualifier)) {
+				return '.' + niceQualifier;
+			}
+		}
+		throw new IllegalStateException(
+				"We need to be careful that the qualifier is actually a higher value than the current one, but we're highly unlikely to get here.");
 	}
 
 	private static String replace(String string, Matcher matcher, String group, String replacement) {
