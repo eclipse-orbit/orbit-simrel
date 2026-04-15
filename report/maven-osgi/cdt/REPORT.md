@@ -1,6 +1,8 @@
 # Target Platform: [cdt](https://raw.githubusercontent.com/eclipse-cdt/cdt/main/releng/org.eclipse.cdt.target/cdt.target)
 
 ## Minor Updates
+ - [com.google.guava](https://repo.maven.apache.org/maven2/com/google/guava/)
+    - [guava](https://repo.maven.apache.org/maven2/com/google/guava/guava/) **[33.5.0-jre](https://repo.maven.apache.org/maven2/com/google/guava/guava/33.5.0-jre)** < [33.6.0-jre](https://repo.maven.apache.org/maven2/com/google/guava/guava/33.6.0-jre/)
  - [org.mockito](https://repo.maven.apache.org/maven2/org/mockito/)
     - [mockito-core](https://repo.maven.apache.org/maven2/org/mockito/mockito-core/) **[5.21.0](https://repo.maven.apache.org/maven2/org/mockito/mockito-core/5.21.0)** < [5.23.0](https://repo.maven.apache.org/maven2/org/mockito/mockito-core/5.23.0/)
 

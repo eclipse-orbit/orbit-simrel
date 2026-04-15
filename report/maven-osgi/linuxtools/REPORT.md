@@ -1,6 +1,8 @@
 # Target Platform: [linuxtools](https://raw.githubusercontent.com/eclipse-linuxtools/org.eclipse.linuxtools/refs/heads/master/releng/org.eclipse.linuxtools.target/linuxtools-latest.target)
 
 ## Minor Updates
+ - [com.google.guava](https://repo.maven.apache.org/maven2/com/google/guava/)
+    - [guava](https://repo.maven.apache.org/maven2/com/google/guava/guava/) **[33.5.0-jre](https://repo.maven.apache.org/maven2/com/google/guava/guava/33.5.0-jre)** < [33.6.0-jre](https://repo.maven.apache.org/maven2/com/google/guava/guava/33.6.0-jre/)
  - [org.bouncycastle](https://repo.maven.apache.org/maven2/org/bouncycastle/)
     - [bcpkix-jdk18on](https://repo.maven.apache.org/maven2/org/bouncycastle/bcpkix-jdk18on/) **[1.83](https://repo.maven.apache.org/maven2/org/bouncycastle/bcpkix-jdk18on/1.83)** < [1.84](https://repo.maven.apache.org/maven2/org/bouncycastle/bcpkix-jdk18on/1.84/)
 
@@ -22,6 +24,8 @@
     - [jersey-hk2](https://repo.maven.apache.org/maven2/org/glassfish/jersey/inject/jersey-hk2/) **[3.1.11](https://repo.maven.apache.org/maven2/org/glassfish/jersey/inject/jersey-hk2/3.1.11)** < [4.0.2](https://repo.maven.apache.org/maven2/org/glassfish/jersey/inject/jersey-hk2/4.0.2/)
  - [org.glassfish.jersey.media](https://repo.maven.apache.org/maven2/org/glassfish/jersey/media/)
     - [jersey-media-json-jackson](https://repo.maven.apache.org/maven2/org/glassfish/jersey/media/jersey-media-json-jackson/) **[3.1.11](https://repo.maven.apache.org/maven2/org/glassfish/jersey/media/jersey-media-json-jackson/3.1.11)** < [4.0.2](https://repo.maven.apache.org/maven2/org/glassfish/jersey/media/jersey-media-json-jackson/4.0.2/)
+ - [org.mandas](https://repo.maven.apache.org/maven2/org/mandas/)
+    - [docker-client](https://repo.maven.apache.org/maven2/org/mandas/docker-client/) **[10.0.1](https://repo.maven.apache.org/maven2/org/mandas/docker-client/10.0.1)** < [11.0.0](https://repo.maven.apache.org/maven2/org/mandas/docker-client/11.0.0/)
 
 ## Updates Applied
 [updated.target](updated.target)
