@@ -29,6 +29,7 @@
     <org.eclipse.cbi.p2repo.maven-bnd></org.eclipse.cbi.p2repo.maven-bnd>
     <org.eclipse.cbi.p2repo.maven-osgi></org.eclipse.cbi.p2repo.maven-osgi>
     <org.eclipse.cbi.p2repo.orbit-legacy></org.eclipse.cbi.p2repo.orbit-legacy>
+    <org.eclipse.cbi.p2repo.maven-sign></org.eclipse.cbi.p2repo.maven-sign>
   </properties>
 
   <pluginRepositories>
@@ -77,6 +78,7 @@
                 <jvmArg>-Dorg.eclipse.cbi.p2repo.maven-bnd=${org.eclipse.cbi.p2repo.maven-bnd}</jvmArg>
                 <jvmArg>-Dorg.eclipse.cbi.p2repo.maven-osgi=${org.eclipse.cbi.p2repo.maven-osgi}</jvmArg>
                 <jvmArg>-Dorg.eclipse.cbi.p2repo.orbit-legacy=${org.eclipse.cbi.p2repo.orbit-legacy}</jvmArg>
+                <jvmArg>-Dorg.eclipse.cbi.p2repo.maven-sign=${org.eclipse.cbi.p2repo.maven-sign}</jvmArg>
               </jvmArgs>
               <repositories>
                 <repository>

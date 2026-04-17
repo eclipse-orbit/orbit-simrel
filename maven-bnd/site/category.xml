@@ -14,6 +14,8 @@
    <feature id="org.eclipse.orbit.maven.hamcrest.core"/>
    <feature id="org.eclipse.orbit.maven.hamcrest.deprecated"/>
    <feature id="org.eclipse.orbit.maven.hamcrest.library"/>
+   <feature id="org.eclipse.orbit.maven.io.github.humbleui.skija-shared"/>
+   <feature id="org.eclipse.orbit.maven.io.github.humbleui.types"/>
    <feature id="org.eclipse.orbit.maven.javax.wsdl"/>
    <feature id="org.eclipse.orbit.maven.jdom2"/>
    <feature id="org.eclipse.orbit.maven.jnr"/>

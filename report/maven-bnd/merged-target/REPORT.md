@@ -13,7 +13,7 @@
  - [com.github.virtuald](https://repo.maven.apache.org/maven2/com/github/virtuald/)
     - [curvesapi](https://repo.maven.apache.org/maven2/com/github/virtuald/curvesapi/) **[1.8](https://repo.maven.apache.org/maven2/com/github/virtuald/curvesapi/1.8)**
  - [com.google.javascript](https://repo.maven.apache.org/maven2/com/google/javascript/)
-    - [closure-compiler](https://repo.maven.apache.org/maven2/com/google/javascript/closure-compiler/) **[v20260414](https://repo.maven.apache.org/maven2/com/google/javascript/closure-compiler/v20260414)**
+    - [closure-compiler](https://repo.maven.apache.org/maven2/com/google/javascript/closure-compiler/) **[v20260415](https://repo.maven.apache.org/maven2/com/google/javascript/closure-compiler/v20260415)**
  - [com.jcraft](https://repo.maven.apache.org/maven2/com/jcraft/)
     - [jsch](https://repo.maven.apache.org/maven2/com/jcraft/jsch/) **[0.1.55](https://repo.maven.apache.org/maven2/com/jcraft/jsch/0.1.55)**
     - [jzlib](https://repo.maven.apache.org/maven2/com/jcraft/jzlib/) **[1.1.3](https://repo.maven.apache.org/maven2/com/jcraft/jzlib/1.1.3)**
@@ -26,6 +26,9 @@
     - [SparseBitSet](https://repo.maven.apache.org/maven2/com/zaxxer/SparseBitSet/) **[1.3](https://repo.maven.apache.org/maven2/com/zaxxer/SparseBitSet/1.3)**
  - [commons-httpclient](https://repo.maven.apache.org/maven2/commons-httpclient/)
     - [commons-httpclient](https://repo.maven.apache.org/maven2/commons-httpclient/commons-httpclient/) **[3.1](https://repo.maven.apache.org/maven2/commons-httpclient/commons-httpclient/3.1)**
+ - [io.github.humbleui](https://repo.maven.apache.org/maven2/io/github/humbleui/)
+    - [skija-shared](https://repo.maven.apache.org/maven2/io/github/humbleui/skija-shared/) **[0.143.13](https://repo.maven.apache.org/maven2/io/github/humbleui/skija-shared/0.143.13)**
+    - [types](https://repo.maven.apache.org/maven2/io/github/humbleui/types/) **[0.2.0](https://repo.maven.apache.org/maven2/io/github/humbleui/types/0.2.0)**
  - [junit](https://repo.maven.apache.org/maven2/junit/)
     - [junit](https://repo.maven.apache.org/maven2/junit/junit/) **[4.13.2](https://repo.maven.apache.org/maven2/junit/junit/4.13.2)**
  - [org.antlr](https://repo.maven.apache.org/maven2/org/antlr/)

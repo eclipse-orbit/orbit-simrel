@@ -176,19 +176,25 @@ public class Signer {
 							var bundleSymbolicName = mainAttributes.get(BUNDLE_SYMBOLIC_NAME).toString();
 							var eclipseSourceBundle = mainAttributes.get(ECLIPSE_SOURCE_BUNDLE);
 
-							var qualifier = getQualifier(bundleSymbolicName);
-							String qualifiedBundleVersion = bundleVersion + "." + qualifier;
-							mainAttributes.put(BUNDLE_VERSION, qualifiedBundleVersion);
-
 							System.out.println(targetRoot.getFileName() + "/" + relativePathInJar);
-							System.out.println(BUNDLE_SYMBOLIC_NAME + ": " + bundleSymbolicName);
-							System.out.println(BUNDLE_VERSION + ": " + qualifiedBundleVersion);
 
-							if (eclipseSourceBundle != null) {
-								String qualifiedEclipseSourceBundle = VERSION_PREFIX_PATTERN
-										.matcher(eclipseSourceBundle.toString()).replaceAll("$1." + qualifier);
-								mainAttributes.put(ECLIPSE_SOURCE_BUNDLE, qualifiedEclipseSourceBundle);
-								System.out.println(ECLIPSE_SOURCE_BUNDLE + ": " + qualifiedEclipseSourceBundle);
+							if (bundleVersion.toString().contains(".v")) {
+								System.out.println(BUNDLE_SYMBOLIC_NAME + ": " + bundleSymbolicName);
+								System.out.println(BUNDLE_VERSION + ": " + bundleVersion);
+							} else {
+								var qualifier = getQualifier(bundleSymbolicName);
+								String qualifiedBundleVersion = bundleVersion + "." + qualifier;
+								mainAttributes.put(BUNDLE_VERSION, qualifiedBundleVersion);
+
+								System.out.println(BUNDLE_SYMBOLIC_NAME + ": " + bundleSymbolicName);
+								System.out.println(BUNDLE_VERSION + ": " + qualifiedBundleVersion);
+
+								if (eclipseSourceBundle != null) {
+									String qualifiedEclipseSourceBundle = VERSION_PREFIX_PATTERN
+											.matcher(eclipseSourceBundle.toString()).replaceAll("$1." + qualifier);
+									mainAttributes.put(ECLIPSE_SOURCE_BUNDLE, qualifiedEclipseSourceBundle);
+									System.out.println(ECLIPSE_SOURCE_BUNDLE + ": " + qualifiedEclipseSourceBundle);
+								}
 							}
 
 							manifest.write(output);
@@ -216,9 +222,14 @@ public class Signer {
 					} else if ("feature.xml".equals(relativePathInJar)) {
 						var featureXMLContent = Files.readString(file);
 						for (var entry : qualifiers.entrySet()) {
-							featureXMLContent = Pattern
-									.compile("(<plugin.*id=\"" + entry.getKey() + "(?:\\.source)?\".*version=\"[^\"]+)")
-									.matcher(featureXMLContent).replaceAll("$1." + entry.getValue());
+							var pluginPattern = Pattern.compile("(<plugin.*id=\"" + entry.getKey()
+									+ "(?:\\.source)?\".*version=\"(?<version>[^\"]+))");
+							var matcher = pluginPattern.matcher(featureXMLContent);
+							if (matcher.find()) {
+								if (!matcher.group("version").contains(".v")) {
+									featureXMLContent = matcher.replaceAll("$1." + entry.getValue());
+								}
+							}
 						}
 
 						System.out.println(targetRoot.getFileName() + "/" + relativePathInJar);
