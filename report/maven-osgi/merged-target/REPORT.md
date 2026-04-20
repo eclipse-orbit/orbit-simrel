@@ -389,7 +389,7 @@
     - [org.jacoco.core](https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.core/) **[0.8.14](https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.core/0.8.14)**
     - [org.jacoco.report](https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.report/) **[0.8.14](https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.report/0.8.14)**
  - [org.javassist](https://repo.maven.apache.org/maven2/org/javassist/)
-    - [javassist](https://repo.maven.apache.org/maven2/org/javassist/javassist/) **[3.30.2-GA](https://repo.maven.apache.org/maven2/org/javassist/javassist/3.30.2-GA)**
+    - [javassist](https://repo.maven.apache.org/maven2/org/javassist/javassist/) **[3.31.0-GA](https://repo.maven.apache.org/maven2/org/javassist/javassist/3.31.0-GA)**
  - [org.json](https://repo.maven.apache.org/maven2/org/json/)
     - [json](https://repo.maven.apache.org/maven2/org/json/json/) **[20251224](https://repo.maven.apache.org/maven2/org/json/json/20251224)**
  - [org.jsoup](https://repo.maven.apache.org/maven2/org/jsoup/)
