@@ -1,13 +1,5 @@
 # Target Platform: [platform](https://raw.githubusercontent.com/eclipse-platform/eclipse.platform.releng.aggregator/master/eclipse.platform.releng.prereqs.sdk/eclipse-sdk-prereqs.target)
 
-## Minor Updates
- - [org.apache.felix](https://repo.maven.apache.org/maven2/org/apache/felix/)
-    - [org.apache.felix.scr](https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.scr/) **[2.2.14](https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.scr/2.2.14)** < [2.2.18](https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.scr/2.2.18/)
- - [org.bouncycastle](https://repo.maven.apache.org/maven2/org/bouncycastle/)
-    - [bcpg-jdk18on](https://repo.maven.apache.org/maven2/org/bouncycastle/bcpg-jdk18on/) **[1.83](https://repo.maven.apache.org/maven2/org/bouncycastle/bcpg-jdk18on/1.83)** < [1.84](https://repo.maven.apache.org/maven2/org/bouncycastle/bcpg-jdk18on/1.84/)
-    - [bcprov-jdk18on](https://repo.maven.apache.org/maven2/org/bouncycastle/bcprov-jdk18on/) **[1.83](https://repo.maven.apache.org/maven2/org/bouncycastle/bcprov-jdk18on/1.83)** < [1.84](https://repo.maven.apache.org/maven2/org/bouncycastle/bcprov-jdk18on/1.84/)
-    - [bcutil-jdk18on](https://repo.maven.apache.org/maven2/org/bouncycastle/bcutil-jdk18on/) **[1.83](https://repo.maven.apache.org/maven2/org/bouncycastle/bcutil-jdk18on/1.83)** < [1.84](https://repo.maven.apache.org/maven2/org/bouncycastle/bcutil-jdk18on/1.84/)
-
 ## Major Updates
  - [jakarta.el](https://repo.maven.apache.org/maven2/jakarta/el/)
     - [jakarta.el-api](https://repo.maven.apache.org/maven2/jakarta/el/jakarta.el-api/) **[3.0.3](https://repo.maven.apache.org/maven2/jakarta/el/jakarta.el-api/3.0.3)** < [6.0.1](https://repo.maven.apache.org/maven2/jakarta/el/jakarta.el-api/6.0.1/)
@@ -18,9 +10,6 @@
  - [org.mortbay.jasper](https://repo.maven.apache.org/maven2/org/mortbay/jasper/)
     - [mortbay-apache-el](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-el/) **[9.0.111](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-el/9.0.111)** < [11.0.10.1](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-el/11.0.10.1/)
     - [mortbay-apache-jsp](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-jsp/) **[9.0.111](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-jsp/9.0.111)** < [11.0.10.1](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-jsp/11.0.10.1/)
-
-## Updates Applied
-[updated.target](updated.target)
 
 ## Content
  - [biz.aQute.bnd](https://repo.maven.apache.org/maven2/biz/aQute/bnd/)
@@ -73,7 +62,7 @@
     - [org.apache.felix.gogo.command](https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.gogo.command/) **[1.1.2](https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.gogo.command/1.1.2)**
     - [org.apache.felix.gogo.runtime](https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.gogo.runtime/) **[1.1.6](https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.gogo.runtime/1.1.6)**
     - [org.apache.felix.gogo.shell](https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.gogo.shell/) **[1.1.4](https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.gogo.shell/1.1.4)**
-    - [org.apache.felix.scr](https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.scr/) **[2.2.14](https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.scr/2.2.14)**
+    - [org.apache.felix.scr](https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.scr/) **[2.2.18](https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.scr/2.2.18)**
  - [org.apache.sshd](https://repo.maven.apache.org/maven2/org/apache/sshd/)
     - [sshd-osgi](https://repo.maven.apache.org/maven2/org/apache/sshd/sshd-osgi/) **[2.17.1](https://repo.maven.apache.org/maven2/org/apache/sshd/sshd-osgi/2.17.1)**
  - [org.apiguardian](https://repo.maven.apache.org/maven2/org/apiguardian/)
@@ -90,9 +79,9 @@
     - [org.bndtools.versioncontrol.ignores.manager](https://repo.maven.apache.org/maven2/org/bndtools/org.bndtools.versioncontrol.ignores.manager/) **[7.2.3](https://repo.maven.apache.org/maven2/org/bndtools/org.bndtools.versioncontrol.ignores.manager/7.2.3)**
     - [org.bndtools.versioncontrol.ignores.plugin.git](https://repo.maven.apache.org/maven2/org/bndtools/org.bndtools.versioncontrol.ignores.plugin.git/) **[7.2.3](https://repo.maven.apache.org/maven2/org/bndtools/org.bndtools.versioncontrol.ignores.plugin.git/7.2.3)**
  - [org.bouncycastle](https://repo.maven.apache.org/maven2/org/bouncycastle/)
-    - [bcpg-jdk18on](https://repo.maven.apache.org/maven2/org/bouncycastle/bcpg-jdk18on/) **[1.83](https://repo.maven.apache.org/maven2/org/bouncycastle/bcpg-jdk18on/1.83)**
-    - [bcprov-jdk18on](https://repo.maven.apache.org/maven2/org/bouncycastle/bcprov-jdk18on/) **[1.83](https://repo.maven.apache.org/maven2/org/bouncycastle/bcprov-jdk18on/1.83)**
-    - [bcutil-jdk18on](https://repo.maven.apache.org/maven2/org/bouncycastle/bcutil-jdk18on/) **[1.83](https://repo.maven.apache.org/maven2/org/bouncycastle/bcutil-jdk18on/1.83)**
+    - [bcpg-jdk18on](https://repo.maven.apache.org/maven2/org/bouncycastle/bcpg-jdk18on/) **[1.84](https://repo.maven.apache.org/maven2/org/bouncycastle/bcpg-jdk18on/1.84)**
+    - [bcprov-jdk18on](https://repo.maven.apache.org/maven2/org/bouncycastle/bcprov-jdk18on/) **[1.84](https://repo.maven.apache.org/maven2/org/bouncycastle/bcprov-jdk18on/1.84)**
+    - [bcutil-jdk18on](https://repo.maven.apache.org/maven2/org/bouncycastle/bcutil-jdk18on/) **[1.84](https://repo.maven.apache.org/maven2/org/bouncycastle/bcutil-jdk18on/1.84)**
  - [org.commonmark](https://repo.maven.apache.org/maven2/org/commonmark/)
     - [commonmark](https://repo.maven.apache.org/maven2/org/commonmark/commonmark/) **[0.28.0](https://repo.maven.apache.org/maven2/org/commonmark/commonmark/0.28.0)**
     - [commonmark-ext-gfm-tables](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-gfm-tables/) **[0.28.0](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-gfm-tables/0.28.0)**
@@ -116,7 +105,7 @@
  - [org.hamcrest](https://repo.maven.apache.org/maven2/org/hamcrest/)
     - [hamcrest](https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest/) **[3.0](https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest/3.0)**
  - [org.jsoup](https://repo.maven.apache.org/maven2/org/jsoup/)
-    - [jsoup](https://repo.maven.apache.org/maven2/org/jsoup/jsoup/) **[1.22.1](https://repo.maven.apache.org/maven2/org/jsoup/jsoup/1.22.1)**
+    - [jsoup](https://repo.maven.apache.org/maven2/org/jsoup/jsoup/) **[1.22.2](https://repo.maven.apache.org/maven2/org/jsoup/jsoup/1.22.2)**
  - [org.junit.jupiter](https://repo.maven.apache.org/maven2/org/junit/jupiter/)
     - [junit-jupiter-api](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/) **[5.14.3](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.14.3)**
     - [junit-jupiter-api](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/) **[6.0.3](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/6.0.3)**

@@ -16,7 +16,7 @@ https://www.eclipse.org/legal/epl-2.0/
 SPDX-License-Identifier: EPL-2.0
         </copyright>
         <license url="https://www.eclipse.org/legal/epl-2.0/"/>
-        <!-- SHA1 d9c519cf3d8b2c78801f4da61342d2bac74fb791 -->
+        <!-- SHA1 c86e50d7fa57ff14556bbffacad4b048c68a8a05 -->
       </feature>
       <dependencies>
         <dependency>
@@ -1343,7 +1343,7 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>org.jsoup</groupId>
           <artifactId>jsoup</artifactId>
-          <version>1.22.1</version>
+          <version>1.22.2</version>
           <type>jar</type>
         </dependency>
         <dependency>
