@@ -1,5 +1,11 @@
 # Target Platform: [platform](https://raw.githubusercontent.com/eclipse-platform/eclipse.platform.releng.aggregator/master/eclipse.platform.releng.prereqs.sdk/eclipse-sdk-prereqs.target)
 
+## Minor Updates
+ - [com.google.code.gson](https://repo.maven.apache.org/maven2/com/google/code/gson/)
+    - [gson](https://repo.maven.apache.org/maven2/com/google/code/gson/gson/) **[2.13.2](https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.13.2)** < [2.14.0](https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.14.0/)
+ - [commons-io](https://repo.maven.apache.org/maven2/commons-io/)
+    - [commons-io](https://repo.maven.apache.org/maven2/commons-io/commons-io/) **[2.21.0](https://repo.maven.apache.org/maven2/commons-io/commons-io/2.21.0)** < [2.22.0](https://repo.maven.apache.org/maven2/commons-io/commons-io/2.22.0/)
+
 ## Major Updates
  - [jakarta.el](https://repo.maven.apache.org/maven2/jakarta/el/)
     - [jakarta.el-api](https://repo.maven.apache.org/maven2/jakarta/el/jakarta.el-api/) **[3.0.3](https://repo.maven.apache.org/maven2/jakarta/el/jakarta.el-api/3.0.3)** < [6.0.1](https://repo.maven.apache.org/maven2/jakarta/el/jakarta.el-api/6.0.1/)
@@ -10,6 +16,9 @@
  - [org.mortbay.jasper](https://repo.maven.apache.org/maven2/org/mortbay/jasper/)
     - [mortbay-apache-el](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-el/) **[9.0.111](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-el/9.0.111)** < [11.0.10.1](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-el/11.0.10.1/)
     - [mortbay-apache-jsp](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-jsp/) **[9.0.111](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-jsp/9.0.111)** < [11.0.10.1](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-jsp/11.0.10.1/)
+
+## Updates Applied
+[updated.target](updated.target)
 
 ## Content
  - [biz.aQute.bnd](https://repo.maven.apache.org/maven2/biz/aQute/bnd/)

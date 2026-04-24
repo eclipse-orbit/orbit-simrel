@@ -3,7 +3,7 @@
 <target name="Maven" sequenceNumber="1">
   <locations>
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="error" type="Maven">
-      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.40.0.v20260422-1000">
+      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.40.0.v20260424-1000">
         <description>This feature's dependencies are pulled directly from Maven central.</description>
         <copyright>
 Copyright (c) 2026 Eclipse contributors and others.
@@ -16,7 +16,7 @@ https://www.eclipse.org/legal/epl-2.0/
 SPDX-License-Identifier: EPL-2.0
         </copyright>
         <license url="https://www.eclipse.org/legal/epl-2.0/"/>
-        <!-- SHA1 298f3b6f640b96ad529d65242b4002a3f513daa9 -->
+        <!-- SHA1 cf1944c69b011c890b3574d72504bf03cef544d5 -->
       </feature>
       <dependencies>
         <dependency>
@@ -269,7 +269,7 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>com.google.code.gson</groupId>
           <artifactId>gson</artifactId>
-          <version>2.13.2</version>
+          <version>2.14.0</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -413,7 +413,7 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>commons-io</groupId>
           <artifactId>commons-io</artifactId>
-          <version>2.21.0</version>
+          <version>2.22.0</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -1157,7 +1157,7 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>org.glassfish.hk2</groupId>
           <artifactId>hk2-api</artifactId>
-          <version>3.1.1</version>
+          <version>4.0.0</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -1169,7 +1169,7 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>org.glassfish.hk2</groupId>
           <artifactId>hk2-locator</artifactId>
-          <version>3.1.1</version>
+          <version>4.0.0</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -1181,13 +1181,19 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>org.glassfish.hk2</groupId>
           <artifactId>hk2-utils</artifactId>
-          <version>3.1.1</version>
+          <version>4.0.0</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.glassfish.hk2</groupId>
           <artifactId>osgi-resource-locator</artifactId>
           <version>1.0.4</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>org.glassfish.hk2</groupId>
+          <artifactId>osgi-resource-locator</artifactId>
+          <version>3.0.0</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -1215,9 +1221,21 @@ SPDX-License-Identifier: EPL-2.0
           <type>jar</type>
         </dependency>
         <dependency>
+          <groupId>org.glassfish.jersey.connectors</groupId>
+          <artifactId>jersey-apache5-connector</artifactId>
+          <version>4.0.2</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
           <groupId>org.glassfish.jersey.containers</groupId>
           <artifactId>jersey-container-servlet</artifactId>
           <version>2.48</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>org.glassfish.jersey.containers</groupId>
+          <artifactId>jersey-container-servlet</artifactId>
+          <version>3.1.11</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -1227,6 +1245,12 @@ SPDX-License-Identifier: EPL-2.0
           <type>jar</type>
         </dependency>
         <dependency>
+          <groupId>org.glassfish.jersey.containers</groupId>
+          <artifactId>jersey-container-servlet-core</artifactId>
+          <version>3.1.11</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
           <groupId>org.glassfish.jersey.core</groupId>
           <artifactId>jersey-client</artifactId>
           <version>2.48</version>
@@ -1236,6 +1260,12 @@ SPDX-License-Identifier: EPL-2.0
           <groupId>org.glassfish.jersey.core</groupId>
           <artifactId>jersey-client</artifactId>
           <version>3.1.11</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>org.glassfish.jersey.core</groupId>
+          <artifactId>jersey-client</artifactId>
+          <version>4.0.2</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -1252,6 +1282,12 @@ SPDX-License-Identifier: EPL-2.0
         </dependency>
         <dependency>
           <groupId>org.glassfish.jersey.core</groupId>
+          <artifactId>jersey-common</artifactId>
+          <version>4.0.2</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>org.glassfish.jersey.core</groupId>
           <artifactId>jersey-server</artifactId>
           <version>2.48</version>
           <type>jar</type>
@@ -1263,6 +1299,12 @@ SPDX-License-Identifier: EPL-2.0
           <type>jar</type>
         </dependency>
         <dependency>
+          <groupId>org.glassfish.jersey.core</groupId>
+          <artifactId>jersey-server</artifactId>
+          <version>4.0.2</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
           <groupId>org.glassfish.jersey.ext</groupId>
           <artifactId>jersey-entity-filtering</artifactId>
           <version>2.48</version>
@@ -1275,6 +1317,12 @@ SPDX-License-Identifier: EPL-2.0
           <type>jar</type>
         </dependency>
         <dependency>
+          <groupId>org.glassfish.jersey.ext</groupId>
+          <artifactId>jersey-entity-filtering</artifactId>
+          <version>4.0.2</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
           <groupId>org.glassfish.jersey.inject</groupId>
           <artifactId>jersey-hk2</artifactId>
           <version>2.48</version>
@@ -1283,7 +1331,7 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>org.glassfish.jersey.inject</groupId>
           <artifactId>jersey-hk2</artifactId>
-          <version>3.1.11</version>
+          <version>4.0.2</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -1296,6 +1344,12 @@ SPDX-License-Identifier: EPL-2.0
           <groupId>org.glassfish.jersey.media</groupId>
           <artifactId>jersey-media-json-jackson</artifactId>
           <version>3.1.11</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>org.glassfish.jersey.media</groupId>
+          <artifactId>jersey-media-json-jackson</artifactId>
+          <version>4.0.2</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -1487,7 +1541,7 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>org.mandas</groupId>
           <artifactId>docker-client</artifactId>
-          <version>10.0.1</version>
+          <version>11.0.0</version>
           <type>jar</type>
         </dependency>
         <dependency>

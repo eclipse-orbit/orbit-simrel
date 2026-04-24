@@ -1,8 +1,12 @@
 # Target Platform: [cdt-lsp](https://raw.githubusercontent.com/eclipse-cdt/cdt-lsp/master/releng/org.eclipse.cdt.lsp.target/org.eclipse.cdt.lsp.target.target)
 
 ## Minor Updates
+ - [com.google.code.gson](https://repo.maven.apache.org/maven2/com/google/code/gson/)
+    - [gson](https://repo.maven.apache.org/maven2/com/google/code/gson/gson/) **[2.13.2](https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.13.2)** < [2.14.0](https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.14.0/)
  - [com.google.guava](https://repo.maven.apache.org/maven2/com/google/guava/)
     - [guava](https://repo.maven.apache.org/maven2/com/google/guava/guava/) **[33.5.0-jre](https://repo.maven.apache.org/maven2/com/google/guava/guava/33.5.0-jre)** < [33.6.0-jre](https://repo.maven.apache.org/maven2/com/google/guava/guava/33.6.0-jre/)
+ - [commons-io](https://repo.maven.apache.org/maven2/commons-io/)
+    - [commons-io](https://repo.maven.apache.org/maven2/commons-io/commons-io/) **[2.21.0](https://repo.maven.apache.org/maven2/commons-io/commons-io/2.21.0)** < [2.22.0](https://repo.maven.apache.org/maven2/commons-io/commons-io/2.22.0/)
  - [org.mockito](https://repo.maven.apache.org/maven2/org/mockito/)
     - [mockito-core](https://repo.maven.apache.org/maven2/org/mockito/mockito-core/) **[5.21.0](https://repo.maven.apache.org/maven2/org/mockito/mockito-core/5.21.0)** < [5.23.0](https://repo.maven.apache.org/maven2/org/mockito/mockito-core/5.23.0/)
 

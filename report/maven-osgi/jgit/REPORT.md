@@ -1,5 +1,14 @@
 # Target Platform: [jgit](https://raw.githubusercontent.com/eclipse-jgit/jgit/master/org.eclipse.jgit.packaging/org.eclipse.jgit.target/maven/dependencies.tpd)
 
+## Minor Updates
+ - [com.google.code.gson](https://repo.maven.apache.org/maven2/com/google/code/gson/)
+    - [gson](https://repo.maven.apache.org/maven2/com/google/code/gson/gson/) **[2.13.2](https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.13.2)** < [2.14.0](https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.14.0/)
+ - [commons-io](https://repo.maven.apache.org/maven2/commons-io/)
+    - [commons-io](https://repo.maven.apache.org/maven2/commons-io/commons-io/) **[2.21.0](https://repo.maven.apache.org/maven2/commons-io/commons-io/2.21.0)** < [2.22.0](https://repo.maven.apache.org/maven2/commons-io/commons-io/2.22.0/)
+
+## Updates Applied
+[updated.tpd](updated.tpd)
+
 ## Content
  - [args4j](https://repo.maven.apache.org/maven2/args4j/)
     - [args4j](https://repo.maven.apache.org/maven2/args4j/args4j/) **[2.37](https://repo.maven.apache.org/maven2/args4j/args4j/2.37)**
