@@ -3,6 +3,8 @@
 ## Minor Updates
  - [com.google.code.gson](https://repo.maven.apache.org/maven2/com/google/code/gson/)
     - [gson](https://repo.maven.apache.org/maven2/com/google/code/gson/gson/) **[2.13.2](https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.13.2)** < [2.14.0](https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.14.0/)
+ - [commons-codec](https://repo.maven.apache.org/maven2/commons-codec/)
+    - [commons-codec](https://repo.maven.apache.org/maven2/commons-codec/commons-codec/) **[1.21.0](https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.21.0)** < [1.22.0](https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.22.0/)
  - [commons-io](https://repo.maven.apache.org/maven2/commons-io/)
     - [commons-io](https://repo.maven.apache.org/maven2/commons-io/commons-io/) **[2.21.0](https://repo.maven.apache.org/maven2/commons-io/commons-io/2.21.0)** < [2.22.0](https://repo.maven.apache.org/maven2/commons-io/commons-io/2.22.0/)
 
