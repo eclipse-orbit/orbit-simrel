@@ -2,8 +2,8 @@
 
 ## Minor Updates
  - [com.fasterxml.jackson.core](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/)
-    - [jackson-core](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/) **[2.21.0](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.21.0)** < [2.21.2](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.21.2/)
-    - [jackson-databind](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/) **[2.21.0](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.21.0)** < [2.21.2](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.21.2/)
+    - [jackson-core](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/) **[2.21.0](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.21.0)** < [2.21.3](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.21.3/)
+    - [jackson-databind](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/) **[2.21.0](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.21.0)** < [2.21.3](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.21.3/)
  - [org.jsoup](https://repo.maven.apache.org/maven2/org/jsoup/)
     - [jsoup](https://repo.maven.apache.org/maven2/org/jsoup/jsoup/) **[1.22.1](https://repo.maven.apache.org/maven2/org/jsoup/jsoup/1.22.1)** < [1.22.2](https://repo.maven.apache.org/maven2/org/jsoup/jsoup/1.22.2/)
 
