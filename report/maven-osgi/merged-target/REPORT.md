@@ -321,11 +321,11 @@
     - [expressly](https://repo.maven.apache.org/maven2/org/glassfish/expressly/expressly/) **[5.0.0](https://repo.maven.apache.org/maven2/org/glassfish/expressly/expressly/5.0.0)**
  - [org.glassfish.hk2](https://repo.maven.apache.org/maven2/org/glassfish/hk2/)
     - [hk2-api](https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-api/) **[2.6.1](https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-api/2.6.1)**
-    - [hk2-api](https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-api/) **[4.0.0](https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-api/4.0.0)**
+    - [hk2-api](https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-api/) **[4.0.1](https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-api/4.0.1)**
     - [hk2-locator](https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-locator/) **[2.6.1](https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-locator/2.6.1)**
-    - [hk2-locator](https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-locator/) **[4.0.0](https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-locator/4.0.0)**
+    - [hk2-locator](https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-locator/) **[4.0.1](https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-locator/4.0.1)**
     - [hk2-utils](https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-utils/) **[2.6.1](https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-utils/2.6.1)**
-    - [hk2-utils](https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-utils/) **[4.0.0](https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-utils/4.0.0)**
+    - [hk2-utils](https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-utils/) **[4.0.1](https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-utils/4.0.1)**
     - [osgi-resource-locator](https://repo.maven.apache.org/maven2/org/glassfish/hk2/osgi-resource-locator/) **[1.0.4](https://repo.maven.apache.org/maven2/org/glassfish/hk2/osgi-resource-locator/1.0.4)**
     - [osgi-resource-locator](https://repo.maven.apache.org/maven2/org/glassfish/hk2/osgi-resource-locator/) **[3.0.0](https://repo.maven.apache.org/maven2/org/glassfish/hk2/osgi-resource-locator/3.0.0)**
  - [org.glassfish.jaxb](https://repo.maven.apache.org/maven2/org/glassfish/jaxb/)
