@@ -3,7 +3,7 @@
 <target name="Maven" sequenceNumber="1">
   <locations>
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="error" type="Maven">
-      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.40.0.v20260429-1000">
+      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.40.0.v20260501-1000">
         <description>This feature's dependencies are pulled directly from Maven central.</description>
         <copyright>
 Copyright (c) 2026 Eclipse contributors and others.
@@ -16,7 +16,7 @@ https://www.eclipse.org/legal/epl-2.0/
 SPDX-License-Identifier: EPL-2.0
         </copyright>
         <license url="https://www.eclipse.org/legal/epl-2.0/"/>
-        <!-- SHA1 f2adb7dc76a6b4acf7ab84edef6bd3399bd5df12 -->
+        <!-- SHA1 39b1ccb63245b6ee36ea49679107a8ab6dd98510 -->
       </feature>
       <dependencies>
         <dependency>
@@ -245,7 +245,7 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>com.github.librepdf</groupId>
           <artifactId>openpdf</artifactId>
-          <version>3.0.3</version>
+          <version>3.0.4</version>
           <type>jar</type>
         </dependency>
         <dependency>
