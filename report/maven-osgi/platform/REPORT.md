@@ -38,7 +38,6 @@
     - [jakarta.activation-api](https://repo.maven.apache.org/maven2/jakarta/activation/jakarta.activation-api/) **[2.1.4](https://repo.maven.apache.org/maven2/jakarta/activation/jakarta.activation-api/2.1.4)**
  - [jakarta.annotation](https://repo.maven.apache.org/maven2/jakarta/annotation/)
     - [jakarta.annotation-api](https://repo.maven.apache.org/maven2/jakarta/annotation/jakarta.annotation-api/) **[1.3.5](https://repo.maven.apache.org/maven2/jakarta/annotation/jakarta.annotation-api/1.3.5)**
-    - [jakarta.annotation-api](https://repo.maven.apache.org/maven2/jakarta/annotation/jakarta.annotation-api/) **[2.1.1](https://repo.maven.apache.org/maven2/jakarta/annotation/jakarta.annotation-api/2.1.1)**
     - [jakarta.annotation-api](https://repo.maven.apache.org/maven2/jakarta/annotation/jakarta.annotation-api/) **[3.0.0](https://repo.maven.apache.org/maven2/jakarta/annotation/jakarta.annotation-api/3.0.0)**
  - [jakarta.el](https://repo.maven.apache.org/maven2/jakarta/el/)
     - [jakarta.el-api](https://repo.maven.apache.org/maven2/jakarta/el/jakarta.el-api/) **[3.0.3](https://repo.maven.apache.org/maven2/jakarta/el/jakarta.el-api/3.0.3)**

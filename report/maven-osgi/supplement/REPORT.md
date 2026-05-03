@@ -12,7 +12,7 @@
  - [com.fasterxml.woodstox](https://repo.maven.apache.org/maven2/com/fasterxml/woodstox/)
     - [woodstox-core](https://repo.maven.apache.org/maven2/com/fasterxml/woodstox/woodstox-core/) **[6.7.0](https://repo.maven.apache.org/maven2/com/fasterxml/woodstox/woodstox-core/6.7.0)** < [7.1.1](https://repo.maven.apache.org/maven2/com/fasterxml/woodstox/woodstox-core/7.1.1/)
  - [com.github.oshi](https://repo.maven.apache.org/maven2/com/github/oshi/)
-    - [oshi-core](https://repo.maven.apache.org/maven2/com/github/oshi/oshi-core/) **[6.12.0](https://repo.maven.apache.org/maven2/com/github/oshi/oshi-core/6.12.0)** < [7.0.0](https://repo.maven.apache.org/maven2/com/github/oshi/oshi-core/7.0.0/)
+    - [oshi-core](https://repo.maven.apache.org/maven2/com/github/oshi/oshi-core/) **[6.12.0](https://repo.maven.apache.org/maven2/com/github/oshi/oshi-core/6.12.0)** < [7.0.1](https://repo.maven.apache.org/maven2/com/github/oshi/oshi-core/7.0.1/)
  - [com.networknt](https://repo.maven.apache.org/maven2/com/networknt/)
     - [json-schema-validator](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/) **[1.5.9](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/1.5.9)** < [3.0.2](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/3.0.2/)
  - [com.sun.xml.bind](https://repo.maven.apache.org/maven2/com/sun/xml/bind/)
@@ -95,7 +95,7 @@
  - [com.fasterxml.woodstox](https://repo.maven.apache.org/maven2/com/fasterxml/woodstox/)
     - [woodstox-core](https://repo.maven.apache.org/maven2/com/fasterxml/woodstox/woodstox-core/) **[6.7.0](https://repo.maven.apache.org/maven2/com/fasterxml/woodstox/woodstox-core/6.7.0)**
  - [com.github.ben-manes.caffeine](https://repo.maven.apache.org/maven2/com/github/ben-manes/caffeine/)
-    - [caffeine](https://repo.maven.apache.org/maven2/com/github/ben-manes/caffeine/caffeine/) **[3.2.3](https://repo.maven.apache.org/maven2/com/github/ben-manes/caffeine/caffeine/3.2.3)**
+    - [caffeine](https://repo.maven.apache.org/maven2/com/github/ben-manes/caffeine/caffeine/) **[3.2.4](https://repo.maven.apache.org/maven2/com/github/ben-manes/caffeine/caffeine/3.2.4)**
  - [com.github.librepdf](https://repo.maven.apache.org/maven2/com/github/librepdf/)
     - [openpdf](https://repo.maven.apache.org/maven2/com/github/librepdf/openpdf/) **[1.4.2](https://repo.maven.apache.org/maven2/com/github/librepdf/openpdf/1.4.2)**
     - [openpdf](https://repo.maven.apache.org/maven2/com/github/librepdf/openpdf/) **[2.4.0](https://repo.maven.apache.org/maven2/com/github/librepdf/openpdf/2.4.0)**
@@ -139,6 +139,7 @@
     - [jakarta.activation-api](https://repo.maven.apache.org/maven2/jakarta/activation/jakarta.activation-api/) **[1.2.2](https://repo.maven.apache.org/maven2/jakarta/activation/jakarta.activation-api/1.2.2)**
     - [jakarta.activation-api](https://repo.maven.apache.org/maven2/jakarta/activation/jakarta.activation-api/) **[2.1.4](https://repo.maven.apache.org/maven2/jakarta/activation/jakarta.activation-api/2.1.4)**
  - [jakarta.annotation](https://repo.maven.apache.org/maven2/jakarta/annotation/)
+    - [jakarta.annotation-api](https://repo.maven.apache.org/maven2/jakarta/annotation/jakarta.annotation-api/) **[2.1.1](https://repo.maven.apache.org/maven2/jakarta/annotation/jakarta.annotation-api/2.1.1)**
     - [jakarta.annotation-api](https://repo.maven.apache.org/maven2/jakarta/annotation/jakarta.annotation-api/) **[3.0.0](https://repo.maven.apache.org/maven2/jakarta/annotation/jakarta.annotation-api/3.0.0)**
  - [jakarta.authentication](https://repo.maven.apache.org/maven2/jakarta/authentication/)
     - [jakarta.authentication-api](https://repo.maven.apache.org/maven2/jakarta/authentication/jakarta.authentication-api/) **[2.0.0](https://repo.maven.apache.org/maven2/jakarta/authentication/jakarta.authentication-api/2.0.0)**

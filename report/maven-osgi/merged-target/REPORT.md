@@ -8,7 +8,7 @@
  - [com.fasterxml.woodstox](https://repo.maven.apache.org/maven2/com/fasterxml/woodstox/)
     - [woodstox-core](https://repo.maven.apache.org/maven2/com/fasterxml/woodstox/woodstox-core/) **[6.7.0](https://repo.maven.apache.org/maven2/com/fasterxml/woodstox/woodstox-core/6.7.0)** < [7.1.1](https://repo.maven.apache.org/maven2/com/fasterxml/woodstox/woodstox-core/7.1.1/)
  - [com.github.oshi](https://repo.maven.apache.org/maven2/com/github/oshi/)
-    - [oshi-core](https://repo.maven.apache.org/maven2/com/github/oshi/oshi-core/) **[6.12.0](https://repo.maven.apache.org/maven2/com/github/oshi/oshi-core/6.12.0)** < [7.0.0](https://repo.maven.apache.org/maven2/com/github/oshi/oshi-core/7.0.0/)
+    - [oshi-core](https://repo.maven.apache.org/maven2/com/github/oshi/oshi-core/) **[6.12.0](https://repo.maven.apache.org/maven2/com/github/oshi/oshi-core/6.12.0)** < [7.0.1](https://repo.maven.apache.org/maven2/com/github/oshi/oshi-core/7.0.1/)
  - [com.networknt](https://repo.maven.apache.org/maven2/com/networknt/)
     - [json-schema-validator](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/) **[1.5.9](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/1.5.9)** < [3.0.2](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/3.0.2/)
  - [jakarta.ejb](https://repo.maven.apache.org/maven2/jakarta/ejb/)
@@ -79,7 +79,7 @@
  - [com.fasterxml.woodstox](https://repo.maven.apache.org/maven2/com/fasterxml/woodstox/)
     - [woodstox-core](https://repo.maven.apache.org/maven2/com/fasterxml/woodstox/woodstox-core/) **[6.7.0](https://repo.maven.apache.org/maven2/com/fasterxml/woodstox/woodstox-core/6.7.0)**
  - [com.github.ben-manes.caffeine](https://repo.maven.apache.org/maven2/com/github/ben-manes/caffeine/)
-    - [caffeine](https://repo.maven.apache.org/maven2/com/github/ben-manes/caffeine/caffeine/) **[3.2.3](https://repo.maven.apache.org/maven2/com/github/ben-manes/caffeine/caffeine/3.2.3)**
+    - [caffeine](https://repo.maven.apache.org/maven2/com/github/ben-manes/caffeine/caffeine/) **[3.2.4](https://repo.maven.apache.org/maven2/com/github/ben-manes/caffeine/caffeine/3.2.4)**
  - [com.github.jnr](https://repo.maven.apache.org/maven2/com/github/jnr/)
     - [jffi](https://repo.maven.apache.org/maven2/com/github/jnr/jffi/) **[1.3.15](https://repo.maven.apache.org/maven2/com/github/jnr/jffi/1.3.15)** - *complete*
     - [jnr-constants](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-constants/) **[0.10.4](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-constants/0.10.4)**

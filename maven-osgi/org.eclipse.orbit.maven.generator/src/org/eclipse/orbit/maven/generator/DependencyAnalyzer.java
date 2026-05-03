@@ -436,7 +436,7 @@ public class DependencyAnalyzer {
 	private static final Pattern VERSION_UPDATES_PATTERN = Pattern.compile("Version updates\n\n(.*)", Pattern.DOTALL);
 
 	private static final Pattern DEPENDENCY_SUMMARY_PATTERN = Pattern.compile(
-			"(?<groupId>[^-: \n]+):(?<artifactId>[^:]+):(?<version>[^:\n]+)(:(?<type>[^:]+))?(:(?<classifier>[^:\n]+))?");
+			"- (?<groupId>[^:\n]+):(?<artifactId>[^:\n]+):(?<version>[^:\n]+)(:(?<type>[^:\n]+))?(:(?<classifier>[^:\n]+))?");
 
 	private static void createClipbardSummary(List<Dependency> before, List<Dependency> after) {
 		var delta = new TreeSet<>(after);
