@@ -11,6 +11,7 @@
     - [oshi-core](https://repo.maven.apache.org/maven2/com/github/oshi/oshi-core/) **[6.12.0](https://repo.maven.apache.org/maven2/com/github/oshi/oshi-core/6.12.0)** < [7.1.0](https://repo.maven.apache.org/maven2/com/github/oshi/oshi-core/7.1.0/)
  - [com.networknt](https://repo.maven.apache.org/maven2/com/networknt/)
     - [json-schema-validator](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/) **[1.5.9](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/1.5.9)** < [3.0.2](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/3.0.2/)
+    - [json-schema-validator](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/) **[2.0.1](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/2.0.1)** < [3.0.2](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/3.0.2/)
  - [jakarta.ejb](https://repo.maven.apache.org/maven2/jakarta/ejb/)
     - [jakarta.ejb-api](https://repo.maven.apache.org/maven2/jakarta/ejb/jakarta.ejb-api/) **[3.2.6](https://repo.maven.apache.org/maven2/jakarta/ejb/jakarta.ejb-api/3.2.6)** < [4.0.1](https://repo.maven.apache.org/maven2/jakarta/ejb/jakarta.ejb-api/4.0.1/)
  - [jakarta.jws](https://repo.maven.apache.org/maven2/jakarta/jws/)
@@ -123,6 +124,7 @@
     - [miglayout-swing](https://repo.maven.apache.org/maven2/com/miglayout/miglayout-swing/) **[11.4.3](https://repo.maven.apache.org/maven2/com/miglayout/miglayout-swing/11.4.3)**
  - [com.networknt](https://repo.maven.apache.org/maven2/com/networknt/)
     - [json-schema-validator](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/) **[1.5.9](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/1.5.9)**
+    - [json-schema-validator](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/) **[2.0.1](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/2.0.1)**
  - [com.sun.xml.bind](https://repo.maven.apache.org/maven2/com/sun/xml/bind/)
     - [jaxb-core](https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-core/) **[4.0.8](https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-core/4.0.8)**
     - [jaxb-impl](https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-impl/) **[4.0.8](https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-impl/4.0.8)**

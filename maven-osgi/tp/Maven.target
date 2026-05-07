@@ -3,7 +3,7 @@
 <target name="Maven" sequenceNumber="1">
   <locations>
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="error" type="Maven">
-      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.40.0.v20260505-1000">
+      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.40.0.v20260507-1000">
         <description>This feature's dependencies are pulled directly from Maven central.</description>
         <copyright>
 Copyright (c) 2026 Eclipse contributors and others.
@@ -16,7 +16,7 @@ https://www.eclipse.org/legal/epl-2.0/
 SPDX-License-Identifier: EPL-2.0
         </copyright>
         <license url="https://www.eclipse.org/legal/epl-2.0/"/>
-        <!-- SHA1 9cd017b89aae5f51b58672d9bc4bb8f5c64d4261 -->
+        <!-- SHA1 ca323b7eb8f3c95fa3421b5923925dffa8f084dd -->
       </feature>
       <dependencies>
         <dependency>
@@ -354,6 +354,12 @@ SPDX-License-Identifier: EPL-2.0
           <groupId>com.networknt</groupId>
           <artifactId>json-schema-validator</artifactId>
           <version>1.5.9</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>com.networknt</groupId>
+          <artifactId>json-schema-validator</artifactId>
+          <version>2.0.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
