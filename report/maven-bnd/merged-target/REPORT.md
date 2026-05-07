@@ -93,7 +93,7 @@
     - [fop-util](https://repo.maven.apache.org/maven2/org/apache/xmlgraphics/fop-util/) **[2.11](https://repo.maven.apache.org/maven2/org/apache/xmlgraphics/fop-util/2.11)**
     - [xmlgraphics-commons](https://repo.maven.apache.org/maven2/org/apache/xmlgraphics/xmlgraphics-commons/) **[2.11](https://repo.maven.apache.org/maven2/org/apache/xmlgraphics/xmlgraphics-commons/2.11)**
  - [org.cyclonedx](https://repo.maven.apache.org/maven2/org/cyclonedx/)
-    - [cyclonedx-core-java](https://repo.maven.apache.org/maven2/org/cyclonedx/cyclonedx-core-java/) **[12.1.0](https://repo.maven.apache.org/maven2/org/cyclonedx/cyclonedx-core-java/12.1.0)**
+    - [cyclonedx-core-java](https://repo.maven.apache.org/maven2/org/cyclonedx/cyclonedx-core-java/) **[12.2.0](https://repo.maven.apache.org/maven2/org/cyclonedx/cyclonedx-core-java/12.2.0)**
  - [org.dom4j](https://repo.maven.apache.org/maven2/org/dom4j/)
     - [dom4j](https://repo.maven.apache.org/maven2/org/dom4j/dom4j/) **[2.2.0](https://repo.maven.apache.org/maven2/org/dom4j/dom4j/2.2.0)**
  - [org.eclipse.orbit](https://repo.eclipse.org/content/repositories/orbit-approved-artifacts/org/eclipse/orbit/)
