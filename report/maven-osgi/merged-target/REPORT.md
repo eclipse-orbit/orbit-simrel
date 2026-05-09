@@ -407,7 +407,7 @@
     - [junit-vintage-engine](https://repo.maven.apache.org/maven2/org/junit/vintage/junit-vintage-engine/) **[6.0.3](https://repo.maven.apache.org/maven2/org/junit/vintage/junit-vintage-engine/6.0.3)**
  - [org.mandas](https://repo.maven.apache.org/maven2/org/mandas/)
     - [docker-client](https://repo.maven.apache.org/maven2/org/mandas/docker-client/) **[9.0.4](https://repo.maven.apache.org/maven2/org/mandas/docker-client/9.0.4)**
-    - [docker-client](https://repo.maven.apache.org/maven2/org/mandas/docker-client/) **[11.0.0](https://repo.maven.apache.org/maven2/org/mandas/docker-client/11.0.0)**
+    - [docker-client](https://repo.maven.apache.org/maven2/org/mandas/docker-client/) **[11.0.1](https://repo.maven.apache.org/maven2/org/mandas/docker-client/11.0.1)**
  - [org.mockito](https://repo.maven.apache.org/maven2/org/mockito/)
     - [mockito-core](https://repo.maven.apache.org/maven2/org/mockito/mockito-core/) **[5.23.0](https://repo.maven.apache.org/maven2/org/mockito/mockito-core/5.23.0)**
     - [mockito-junit-jupiter](https://repo.maven.apache.org/maven2/org/mockito/mockito-junit-jupiter/) **[5.23.0](https://repo.maven.apache.org/maven2/org/mockito/mockito-junit-jupiter/5.23.0)**
