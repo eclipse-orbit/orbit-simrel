@@ -228,7 +228,7 @@
  - [javax.servlet.jsp](https://repo.maven.apache.org/maven2/javax/servlet/jsp/)
     - [javax.servlet.jsp-api](https://repo.maven.apache.org/maven2/javax/servlet/jsp/javax.servlet.jsp-api/) **[2.3.3](https://repo.maven.apache.org/maven2/javax/servlet/jsp/javax.servlet.jsp-api/2.3.3)**
  - [jaxen](https://repo.maven.apache.org/maven2/jaxen/)
-    - [jaxen](https://repo.maven.apache.org/maven2/jaxen/jaxen/) **[2.0.1](https://repo.maven.apache.org/maven2/jaxen/jaxen/2.0.1)**
+    - [jaxen](https://repo.maven.apache.org/maven2/jaxen/jaxen/) **[2.0.2](https://repo.maven.apache.org/maven2/jaxen/jaxen/2.0.2)**
  - [lpg.runtime](https://repo.maven.apache.org/maven2/lpg/runtime/)
     - [java](https://repo.maven.apache.org/maven2/lpg/runtime/java/) **[2.0.17-v201004271640](https://repo.maven.apache.org/maven2/lpg/runtime/java/2.0.17-v201004271640)**
  - [net.bytebuddy](https://repo.maven.apache.org/maven2/net/bytebuddy/)
