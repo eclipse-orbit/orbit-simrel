@@ -1,12 +1,5 @@
 # Target Platform: [linuxtools](https://raw.githubusercontent.com/eclipse-linuxtools/org.eclipse.linuxtools/refs/heads/master/releng/org.eclipse.linuxtools.target/linuxtools-latest.target)
 
-## Minor Updates
- - [org.mandas](https://repo.maven.apache.org/maven2/org/mandas/)
-    - [docker-client](https://repo.maven.apache.org/maven2/org/mandas/docker-client/) **[11.0.0](https://repo.maven.apache.org/maven2/org/mandas/docker-client/11.0.0)** < [11.0.1](https://repo.maven.apache.org/maven2/org/mandas/docker-client/11.0.1/)
-
-## Updates Applied
-[updated.target](updated.target)
-
 ## Content
  - [com.fasterxml.jackson.core](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/)
     - [jackson-annotations](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/) **[2.21](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.21)**
@@ -62,4 +55,4 @@
  - [org.javassist](https://repo.maven.apache.org/maven2/org/javassist/)
     - [javassist](https://repo.maven.apache.org/maven2/org/javassist/javassist/) **[3.31.0-GA](https://repo.maven.apache.org/maven2/org/javassist/javassist/3.31.0-GA)**
  - [org.mandas](https://repo.maven.apache.org/maven2/org/mandas/)
-    - [docker-client](https://repo.maven.apache.org/maven2/org/mandas/docker-client/) **[11.0.0](https://repo.maven.apache.org/maven2/org/mandas/docker-client/11.0.0)**
+    - [docker-client](https://repo.maven.apache.org/maven2/org/mandas/docker-client/) **[11.0.1](https://repo.maven.apache.org/maven2/org/mandas/docker-client/11.0.1)**
