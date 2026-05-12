@@ -3,7 +3,7 @@
 <target name="Maven" sequenceNumber="1">
   <locations>
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="error" type="Maven">
-      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.40.0.v20260511-1000">
+      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.40.0.v20260512-1000">
         <description>This feature's dependencies are pulled directly from Maven central.</description>
         <copyright>
 Copyright (c) 2026 Eclipse contributors and others.
@@ -16,7 +16,7 @@ https://www.eclipse.org/legal/epl-2.0/
 SPDX-License-Identifier: EPL-2.0
         </copyright>
         <license url="https://www.eclipse.org/legal/epl-2.0/"/>
-        <!-- SHA1 d5f042d841dc7b5e5f1985b11872490b8a924a91 -->
+        <!-- SHA1 d055c165f9e1abe1abb4e68ef92d705ad4ce0fb9 -->
       </feature>
       <dependencies>
         <dependency>
@@ -918,6 +918,36 @@ SPDX-License-Identifier: EPL-2.0
           <groupId>org.apache.logging.log4j</groupId>
           <artifactId>log4j-to-slf4j</artifactId>
           <version>2.26.0</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>org.apache.pdfbox</groupId>
+          <artifactId>fontbox</artifactId>
+          <version>3.0.7</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>org.apache.pdfbox</groupId>
+          <artifactId>pdfbox</artifactId>
+          <version>3.0.7</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>org.apache.pdfbox</groupId>
+          <artifactId>pdfbox-io</artifactId>
+          <version>3.0.7</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>org.apache.pdfbox</groupId>
+          <artifactId>preflight</artifactId>
+          <version>3.0.7</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>org.apache.pdfbox</groupId>
+          <artifactId>xmpbox</artifactId>
+          <version>3.0.7</version>
           <type>jar</type>
         </dependency>
         <dependency>

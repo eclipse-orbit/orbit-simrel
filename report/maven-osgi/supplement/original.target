@@ -587,6 +587,36 @@
           <type>jar</type>
         </dependency>
         <dependency>
+          <groupId>org.apache.pdfbox</groupId>
+          <artifactId>fontbox</artifactId>
+          <version>3.0.7</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>org.apache.pdfbox</groupId>
+          <artifactId>pdfbox</artifactId>
+          <version>3.0.7</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>org.apache.pdfbox</groupId>
+          <artifactId>pdfbox-io</artifactId>
+          <version>3.0.7</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>org.apache.pdfbox</groupId>
+          <artifactId>preflight</artifactId>
+          <version>3.0.7</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>org.apache.pdfbox</groupId>
+          <artifactId>xmpbox</artifactId>
+          <version>3.0.7</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
           <groupId>org.apache.tika</groupId>
           <artifactId>tika-core</artifactId>
           <version>3.3.0</version>
