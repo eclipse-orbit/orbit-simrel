@@ -17,6 +17,10 @@
     - [jetty-util-ajax](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util-ajax/) **[12.1.8](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util-ajax/12.1.8)** < [12.1.9](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util-ajax/12.1.9/)
  - [org.eclipse.jetty.ee10](https://repo.maven.apache.org/maven2/org/eclipse/jetty/ee10/)
     - [jetty-ee10-servlet](https://repo.maven.apache.org/maven2/org/eclipse/jetty/ee10/jetty-ee10-servlet/) **[12.1.8](https://repo.maven.apache.org/maven2/org/eclipse/jetty/ee10/jetty-ee10-servlet/12.1.8)** < [12.1.9](https://repo.maven.apache.org/maven2/org/eclipse/jetty/ee10/jetty-ee10-servlet/12.1.9/)
+ - [org.slf4j](https://repo.maven.apache.org/maven2/org/slf4j/)
+    - [jcl-over-slf4j](https://repo.maven.apache.org/maven2/org/slf4j/jcl-over-slf4j/) **[2.0.17](https://repo.maven.apache.org/maven2/org/slf4j/jcl-over-slf4j/2.0.17)** < [2.0.18](https://repo.maven.apache.org/maven2/org/slf4j/jcl-over-slf4j/2.0.18/)
+    - [slf4j-api](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/) **[2.0.17](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/2.0.17)** < [2.0.18](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/2.0.18/)
+    - [slf4j-simple](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-simple/) **[2.0.17](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-simple/2.0.17)** < [2.0.18](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-simple/2.0.18/)
 
 ## Updates Applied
 [updated.tpd](updated.tpd)

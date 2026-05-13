@@ -186,7 +186,7 @@
     - [org.ow2.sat4j.core](https://repo.maven.apache.org/maven2/org/ow2/sat4j/org.ow2.sat4j.core/) **[2.3.6](https://repo.maven.apache.org/maven2/org/ow2/sat4j/org.ow2.sat4j.core/2.3.6)**
     - [org.ow2.sat4j.pb](https://repo.maven.apache.org/maven2/org/ow2/sat4j/org.ow2.sat4j.pb/) **[2.3.6](https://repo.maven.apache.org/maven2/org/ow2/sat4j/org.ow2.sat4j.pb/2.3.6)**
  - [org.slf4j](https://repo.maven.apache.org/maven2/org/slf4j/)
-    - [slf4j-api](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/) **[2.0.17](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/2.0.17)**
-    - [slf4j-simple](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-simple/) **[2.0.17](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-simple/2.0.17)**
+    - [slf4j-api](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/) **[2.0.18](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/2.0.18)**
+    - [slf4j-simple](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-simple/) **[2.0.18](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-simple/2.0.18)**
  - [org.tukaani](https://repo.maven.apache.org/maven2/org/tukaani/)
     - [xz](https://repo.maven.apache.org/maven2/org/tukaani/xz/) **[1.12](https://repo.maven.apache.org/maven2/org/tukaani/xz/1.12)**

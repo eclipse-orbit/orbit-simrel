@@ -12,6 +12,9 @@
     - [junit-jupiter-engine](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/) **[5.14.3](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.14.3)** < [5.14.4](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.14.4/)
  - [org.mockito](https://repo.maven.apache.org/maven2/org/mockito/)
     - [mockito-core](https://repo.maven.apache.org/maven2/org/mockito/mockito-core/) **[5.21.0](https://repo.maven.apache.org/maven2/org/mockito/mockito-core/5.21.0)** < [5.23.0](https://repo.maven.apache.org/maven2/org/mockito/mockito-core/5.23.0/)
+ - [org.slf4j](https://repo.maven.apache.org/maven2/org/slf4j/)
+    - [slf4j-api](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/) **[2.0.17](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/2.0.17)** < [2.0.18](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/2.0.18/)
+    - [slf4j-simple](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-simple/) **[2.0.17](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-simple/2.0.17)** < [2.0.18](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-simple/2.0.18/)
 
 ## Major Updates
  - [jakarta.activation](https://repo.maven.apache.org/maven2/jakarta/activation/)
