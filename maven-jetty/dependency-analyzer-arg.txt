@@ -25,3 +25,4 @@ org.eclipse.jetty.compression:(jetty-compression-brotli|jetty-compression-zstand
 //
 -ignore
 org\.slf4j:slf4j-.*:2\.0\.14 // Broken exported package versions
+org.ow2.asm:asm.*:9.10 // Ignore until jacoco updates
