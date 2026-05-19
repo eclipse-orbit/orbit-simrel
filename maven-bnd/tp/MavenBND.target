@@ -1714,12 +1714,12 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>com.google.javascript</groupId>
           <artifactId>closure-compiler</artifactId>
-          <version>v20260517</version>
+          <version>v20260518</version>
           <type>jar</type>
         </dependency>
       </dependencies>
       <instructions>
-<!-- SHA1 9ea7eaff5816b4dccc076d09616e40b9610d63ff -->
+<!-- SHA1 f7a322af55fe966ee8e001b1d3dcbfbc0577e86a -->
 <![CDATA[
 Bundle-Name:            Bundle ${mvnGroupId} : ${mvnArtifactId
 # The version is purely qualifier, so we promote the value after the v to the micro version as has been historically the case.
