@@ -235,7 +235,7 @@ Export-Package:         *;version="${version}";-noimport:=true
 <!-- _______________________________________________________ io.github.humbleui.skija-shared _________________________________________________________________________________________________-->
 
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
-      <feature id="org.eclipse.orbit.maven.io.github.humbleui.skija-shared" label="Orbit Maven BND io.github.humbleui.skija-shared" provider-name="Eclipse Orbit" version="4.40.0.v20260519-1000">
+      <feature id="org.eclipse.orbit.maven.io.github.humbleui.skija-shared" label="Orbit Maven BND io.github.humbleui.skija-shared" provider-name="Eclipse Orbit" version="4.40.0.v20260519-1800">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
 Copyright (c) 2026 Eclipse contributors and others.
@@ -263,8 +263,9 @@ SPDX-License-Identifier: EPL-2.0
 Bundle-Name:            Bundle ${mvnGroupId} : ${mvnArtifactId}
 version:                ${versionmask;===;${version_cleanup;${mvnVersion}}}
 Bundle-SymbolicName:    ${mvnGroupId}.${mvnArtifactId}
-Bundle-Version:         ${version}.v20260519-1000
+Bundle-Version:         ${version}.v20260519-1800
 Eclipse-Wrapped-Bundle: ${mvnGroupId}:${mvnArtifactId}:${mvnVersion}
+Require-Capability:     ${mvnGroupId}.skija;filter:="(library=native)"
 Import-Package:         *
 Export-Package:         *;version="${version}";-noimport:=true
 -noextraheaders:        true

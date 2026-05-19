@@ -84,7 +84,7 @@ Bundle-Version:         ${version}.v20251001-0800
 <!-- _______________________________________________________ io.github.humbleui.skija-native _________________________________________________________________________________________________-->
 
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
-      <feature id="org.eclipse.orbit.maven.io.github.humbleui.skija-native" label="Orbit Maven BND io.github.humbleui.skija-native" provider-name="Eclipse Orbit" version="4.40.0.v20260519-1000">
+      <feature id="org.eclipse.orbit.maven.io.github.humbleui.skija-native" label="Orbit Maven BND io.github.humbleui.skija-native" provider-name="Eclipse Orbit" version="4.40.0.v20260519-1800">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
 Copyright (c) 2026 Eclipse contributors and others.
@@ -137,10 +137,11 @@ SPDX-License-Identifier: EPL-2.0
 version:                ${versionmask;===;${version_cleanup;${mvnVersion}}}
 # Bundles that match this pattern will be updated to use this qualifier.
 # bundle-pattern:       io.github.humbleui.skija-(linux|macos|windows)-(x64|arm64)(.source)?
-Bundle-Version:         ${version}.v20260519-1000
+Bundle-Version:         ${version}.v20260519-1800
 Bundle-Name:            Bundle ${mvnGroupId} : ${mvnArtifactId}
 Bundle-SymbolicName:    ${mvnGroupId}.${mvnArtifactId}
 Eclipse-Wrapped-Bundle: ${mvnGroupId}:${mvnArtifactId}:${mvnVersion}
+Provide-Capability:     ${mvnGroupId}.skija;library="native";version:Version="1.0"
 Fragment-Host: io.github.humbleui.skija-shared;bundle-version="${range;[==,+);${version}}"
 os:                     ${replacestring;${replacestring;${replacestring;${mvnArtifactId};.*-macos-.*;macosx};.*-linux-.*;linux};.*-windows-.*;win32}
 arch:                   ${replacestring;${replacestring;${mvnArtifactId};.*-arm64.*;aarch64};.*-x64.*;x86_64}
