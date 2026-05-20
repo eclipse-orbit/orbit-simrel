@@ -3056,12 +3056,13 @@ SPDX-License-Identifier: EPL-2.0
         </dependency>
       </dependencies>
       <instructions>
-<!-- SHA1 23a49f9bbc1fdbd4d91e347f38139732529c1b3b -->
+<!-- SHA1 c1c45ea7f18078f852f948719f103e3ce59cdde3 -->
 <![CDATA[
 # These instructions are used only to produce a provided capability to satisfy the following capability required by the skija-shared host.
 # Require-Capability:     ${mvnGroupId}.skija;filter:="(library=native)"
 version:                ${versionmask;===;${version_cleanup;${mvnVersion}}}
-Bundle-Version:         ${version}.v20260520-1000
+Bundle-SymbolicName:    ignore-me
+Bundle-Version:         0.0.0
 Provide-Capability:     ${mvnGroupId}.skija;library="native";version:Version="1.0"
 ]]>
       </instructions>
