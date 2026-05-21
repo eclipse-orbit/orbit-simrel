@@ -180,6 +180,10 @@
                       <type>eclipse-plugin</type>
                     </dependency>
                     <dependency>
+                      <artifactId>org.eclipse.ecf.provider.filetransfer.httpclient5</artifactId>
+                      <type>eclipse-plugin</type>
+                    </dependency>
+                    <dependency>
                       <artifactId>org.apache.felix.scr</artifactId>
                       <type>eclipse-plugin</type>
                     </dependency>
