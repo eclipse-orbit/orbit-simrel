@@ -84,7 +84,7 @@ Bundle-Version:         ${version}.v20251001-0800
 <!-- _______________________________________________________ io.github.humbleui.skija-native _________________________________________________________________________________________________-->
 
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
-      <feature id="org.eclipse.orbit.maven.io.github.humbleui.skija-native" label="Orbit Maven BND io.github.humbleui.skija-native" provider-name="Eclipse Orbit" version="4.40.0.v20260520-1000">
+      <feature id="org.eclipse.orbit.maven.io.github.humbleui.skija-native" label="Orbit Maven BND io.github.humbleui.skija-native" provider-name="Eclipse Orbit" version="4.40.0.v20260524-1000">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
 Copyright (c) 2026 Eclipse contributors and others.
@@ -102,42 +102,42 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>io.github.humbleui</groupId>
           <artifactId>skija-linux-x64</artifactId>
-          <version>0.143.15</version>
+          <version>0.143.16</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>io.github.humbleui</groupId>
           <artifactId>skija-linux-arm64</artifactId>
-          <version>0.143.15</version>
+          <version>0.143.16</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>io.github.humbleui</groupId>
           <artifactId>skija-macos-x64</artifactId>
-          <version>0.143.15</version>
+          <version>0.143.16</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>io.github.humbleui</groupId>
           <artifactId>skija-macos-arm64</artifactId>
-          <version>0.143.15</version>
+          <version>0.143.16</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>io.github.humbleui</groupId>
           <artifactId>skija-windows-x64</artifactId>
-          <version>0.143.15</version>
+          <version>0.143.16</version>
           <type>jar</type>
         </dependency>
       </dependencies>
       <instructions>
-<!-- SHA1 561c2c9fa562e7f1d88c8d7ed53177d94ccc36f1 -->
+<!-- SHA1 f9894112a8782b08bb44469cceea3fb6da40fe27 -->
 <![CDATA[
 # These instructions are actually used.
 version:                ${versionmask;===;${version_cleanup;${mvnVersion}}}
 # Bundles that match this pattern will be updated to use this qualifier.
 # bundle-pattern:       io.github.humbleui.skija-(linux|macos|windows)-(x64|arm64)(.source)?
-Bundle-Version:         ${version}.v20260520-1000
+Bundle-Version:         ${version}.v20260524-1000
 Bundle-Name:            Bundle ${mvnGroupId} : ${mvnArtifactId}
 Bundle-SymbolicName:    ${mvnGroupId}.${mvnArtifactId}
 Eclipse-Wrapped-Bundle: ${mvnGroupId}:${mvnArtifactId}:${mvnVersion}
@@ -196,7 +196,7 @@ Export-Package:         *;version="${version}";-noimport:=true
     </location>
  
      <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
-      <feature id="org.eclipse.orbit.maven.io.github.humbleui.skija-shared.exclude" label="Orbit Maven BND io.github.humbleui.skija-shared-exclude" provider-name="Eclipse Orbit" version="4.40.0.v20260519-1000">
+      <feature id="org.eclipse.orbit.maven.io.github.humbleui.skija-shared.exclude" label="Orbit Maven BND io.github.humbleui.skija-shared-exclude" provider-name="Eclipse Orbit" version="4.40.0.v20260524-1000">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
 Copyright (c) 2026 Eclipse contributors and others.
@@ -214,17 +214,17 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>io.github.humbleui</groupId>
           <artifactId>skija-shared</artifactId>
-          <version>0.143.15</version>
+          <version>0.143.16</version>
           <type>jar</type>
         </dependency>
       </dependencies>
       <instructions>
-<!-- SHA1 fc2a8743f85bcf1744f6493811741f1bb0fbee0b -->
+<!-- SHA1 fd08a826e2c83a528c7bd7d8a1af84bf017214d0 -->
 <![CDATA[
 Bundle-Name:            Bundle ${mvnGroupId} : ${mvnArtifactId}
 version:                ${versionmask;===;${version_cleanup;${mvnVersion}}}
 Bundle-SymbolicName:    ${mvnGroupId}.${mvnArtifactId}
-Bundle-Version:         ${version}.v20260519-1000
+Bundle-Version:         ${version}.v20260524-1000
 Eclipse-Wrapped-Bundle: ${mvnGroupId}:${mvnArtifactId}:${mvnVersion}
 Import-Package:         *
 Export-Package:         *;version="${version}";-noimport:=true

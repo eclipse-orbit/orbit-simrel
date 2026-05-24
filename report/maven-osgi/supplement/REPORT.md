@@ -2,7 +2,7 @@
 
 ## Minor Updates
  - [org.json](https://repo.maven.apache.org/maven2/org/json/)
-    - [json](https://repo.maven.apache.org/maven2/org/json/json/) **[20230227](https://repo.maven.apache.org/maven2/org/json/json/20230227)** < [20251224](https://repo.maven.apache.org/maven2/org/json/json/20251224/)
+    - [json](https://repo.maven.apache.org/maven2/org/json/json/) **[20230227](https://repo.maven.apache.org/maven2/org/json/json/20230227)** < [20260522](https://repo.maven.apache.org/maven2/org/json/json/20260522/)
 
 ## Major Updates
  - [com.evolvedbinary.thirdparty.org.apache.xmlrpc](https://repo.maven.apache.org/maven2/com/evolvedbinary/thirdparty/org/apache/xmlrpc/)
@@ -137,7 +137,7 @@
  - [commons-net](https://repo.maven.apache.org/maven2/commons-net/)
     - [commons-net](https://repo.maven.apache.org/maven2/commons-net/commons-net/) **[3.13.0](https://repo.maven.apache.org/maven2/commons-net/commons-net/3.13.0)**
  - [dnsjava](https://repo.maven.apache.org/maven2/dnsjava/)
-    - [dnsjava](https://repo.maven.apache.org/maven2/dnsjava/dnsjava/) **[3.6.4](https://repo.maven.apache.org/maven2/dnsjava/dnsjava/3.6.4)**
+    - [dnsjava](https://repo.maven.apache.org/maven2/dnsjava/dnsjava/) **[3.6.5](https://repo.maven.apache.org/maven2/dnsjava/dnsjava/3.6.5)**
  - [io.github.classgraph](https://repo.maven.apache.org/maven2/io/github/classgraph/)
     - [classgraph](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph/) **[4.8.184](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph/4.8.184)**
  - [jakarta.activation](https://repo.maven.apache.org/maven2/jakarta/activation/)

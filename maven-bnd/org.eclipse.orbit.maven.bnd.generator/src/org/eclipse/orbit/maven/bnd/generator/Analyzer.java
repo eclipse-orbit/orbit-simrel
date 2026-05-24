@@ -272,29 +272,31 @@ public class Analyzer {
 			throw new IllegalStateException("Each BND instruction must have a Bundle-Version: header");
 		}
 
-		var dependencies = getDependenciesForDigest(location);
+		if (!bndBundleVersionMatcher.group().contains("0.0.0")) {
+			var dependencies = getDependenciesForDigest(location);
 
-		// Compute the SHA1 from the dependency coordinates and the instructions without
-		// the qualifier and compare it with the current value.
-		//
-		var digest = getDigest(dependencies + replace(instructions, bndBundleVersionMatcher, "qualifier", ""));
-		if (!digest.equals(sha1)) {
-			// Replace the qualifier with the new current qualifier.
+			// Compute the SHA1 from the dependency coordinates and the instructions without
+			// the qualifier and compare it with the current value.
 			//
-			var bundleVersionMatcherInLocation = BND_BUNDLE_VERSION_PATTERN.matcher(location);
-			bundleVersionMatcherInLocation.find(instructionsMatcher.start("instructions"));
-			location = replace(location, bundleVersionMatcherInLocation, "qualifier",
-					getNiceQualifier(bundleVersionMatcherInLocation));
+			var digest = getDigest(dependencies + replace(instructions, bndBundleVersionMatcher, "qualifier", ""));
+			if (!digest.equals(sha1)) {
+				// Replace the qualifier with the new current qualifier.
+				//
+				var bundleVersionMatcherInLocation = BND_BUNDLE_VERSION_PATTERN.matcher(location);
+				bundleVersionMatcherInLocation.find(instructionsMatcher.start("instructions"));
+				location = replace(location, bundleVersionMatcherInLocation, "qualifier",
+						getNiceQualifier(bundleVersionMatcherInLocation));
 
-			// Replace the SHA1 digest with the new digest.
-			//
-			location = replace(location, instructionsMatcher, "sha", digest);
+				// Replace the SHA1 digest with the new digest.
+				//
+				location = replace(location, instructionsMatcher, "sha", digest);
 
-			// Replace the feature's qualifier with the new current qualifier.
-			var featureVersionQualifierMatcher = FEATURE_VERSION_QUALIFIER_PATTERN.matcher(location);
-			featureVersionQualifierMatcher.find();
-			location = replace(location, featureVersionQualifierMatcher, "qualifier",
-					getNiceQualifier(featureVersionQualifierMatcher));
+				// Replace the feature's qualifier with the new current qualifier.
+				var featureVersionQualifierMatcher = FEATURE_VERSION_QUALIFIER_PATTERN.matcher(location);
+				featureVersionQualifierMatcher.find();
+				location = replace(location, featureVersionQualifierMatcher, "qualifier",
+						getNiceQualifier(featureVersionQualifierMatcher));
+			}
 		}
 
 		return location;
