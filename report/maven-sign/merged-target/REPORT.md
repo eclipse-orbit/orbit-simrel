@@ -8,6 +8,7 @@
     - [skija-linux-x64](https://repo.maven.apache.org/maven2/io/github/humbleui/skija-linux-x64/) **[0.143.16](https://repo.maven.apache.org/maven2/io/github/humbleui/skija-linux-x64/0.143.16)**
     - [skija-macos-arm64](https://repo.maven.apache.org/maven2/io/github/humbleui/skija-macos-arm64/) **[0.143.16](https://repo.maven.apache.org/maven2/io/github/humbleui/skija-macos-arm64/0.143.16)**
     - [skija-macos-x64](https://repo.maven.apache.org/maven2/io/github/humbleui/skija-macos-x64/) **[0.143.16](https://repo.maven.apache.org/maven2/io/github/humbleui/skija-macos-x64/0.143.16)**
+    - [skija-windows-arm64](https://repo.maven.apache.org/maven2/io/github/humbleui/skija-windows-arm64/) **[0.143.16](https://repo.maven.apache.org/maven2/io/github/humbleui/skija-windows-arm64/0.143.16)**
     - [skija-windows-x64](https://repo.maven.apache.org/maven2/io/github/humbleui/skija-windows-x64/) **[0.143.16](https://repo.maven.apache.org/maven2/io/github/humbleui/skija-windows-x64/0.143.16)**
  - [net.java.dev.jna](https://repo.maven.apache.org/maven2/net/java/dev/jna/)
     - [jna](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna/) **[5.18.1](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna/5.18.1)**

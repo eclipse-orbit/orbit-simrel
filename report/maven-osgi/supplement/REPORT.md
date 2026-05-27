@@ -232,7 +232,7 @@
     - [preflight](https://repo.maven.apache.org/maven2/org/apache/pdfbox/preflight/) **[3.0.7](https://repo.maven.apache.org/maven2/org/apache/pdfbox/preflight/3.0.7)**
     - [xmpbox](https://repo.maven.apache.org/maven2/org/apache/pdfbox/xmpbox/) **[3.0.7](https://repo.maven.apache.org/maven2/org/apache/pdfbox/xmpbox/3.0.7)**
  - [org.apache.tika](https://repo.maven.apache.org/maven2/org/apache/tika/)
-    - [tika-core](https://repo.maven.apache.org/maven2/org/apache/tika/tika-core/) **[3.3.0](https://repo.maven.apache.org/maven2/org/apache/tika/tika-core/3.3.0)**
+    - [tika-core](https://repo.maven.apache.org/maven2/org/apache/tika/tika-core/) **[3.3.1](https://repo.maven.apache.org/maven2/org/apache/tika/tika-core/3.3.1)**
  - [org.apache.velocity](https://repo.maven.apache.org/maven2/org/apache/velocity/)
     - [velocity-engine-core](https://repo.maven.apache.org/maven2/org/apache/velocity/velocity-engine-core/) **[2.4.1](https://repo.maven.apache.org/maven2/org/apache/velocity/velocity-engine-core/2.4.1)**
  - [org.codehaus.woodstox](https://repo.maven.apache.org/maven2/org/codehaus/woodstox/)

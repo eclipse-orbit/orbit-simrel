@@ -84,7 +84,7 @@ Bundle-Version:         ${version}.v20251001-0800
 <!-- _______________________________________________________ io.github.humbleui.skija-native _________________________________________________________________________________________________-->
 
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
-      <feature id="org.eclipse.orbit.maven.io.github.humbleui.skija-native" label="Orbit Maven BND io.github.humbleui.skija-native" provider-name="Eclipse Orbit" version="4.40.0.v20260524-1000">
+      <feature id="org.eclipse.orbit.maven.io.github.humbleui.skija-native" label="Orbit Maven BND io.github.humbleui.skija-native" provider-name="Eclipse Orbit" version="4.40.0.v20260527-1000">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
 Copyright (c) 2026 Eclipse contributors and others.
@@ -125,24 +125,30 @@ SPDX-License-Identifier: EPL-2.0
         </dependency>
         <dependency>
           <groupId>io.github.humbleui</groupId>
+          <artifactId>skija-windows-arm64</artifactId>
+          <version>0.143.16</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>io.github.humbleui</groupId>
           <artifactId>skija-windows-x64</artifactId>
           <version>0.143.16</version>
           <type>jar</type>
         </dependency>
       </dependencies>
       <instructions>
-<!-- SHA1 f9894112a8782b08bb44469cceea3fb6da40fe27 -->
+<!-- SHA1 062eab6323e114ae5e4fbbaa5c2868c7394e1b95 -->
 <![CDATA[
 # These instructions are actually used.
 version:                ${versionmask;===;${version_cleanup;${mvnVersion}}}
 # Bundles that match this pattern will be updated to use this qualifier.
 # bundle-pattern:       io.github.humbleui.skija-(linux|macos|windows)-(x64|arm64)(.source)?
-Bundle-Version:         ${version}.v20260524-1000
+Bundle-Version:         ${version}.v20260527-1000
 Bundle-Name:            Bundle ${mvnGroupId} : ${mvnArtifactId}
 Bundle-SymbolicName:    ${mvnGroupId}.${mvnArtifactId}
 Eclipse-Wrapped-Bundle: ${mvnGroupId}:${mvnArtifactId}:${mvnVersion}
 Provide-Capability:     ${mvnGroupId}.skija;library="native";version:Version="1.0"
-Fragment-Host: io.github.humbleui.skija-shared;bundle-version="${range;[==,+);${version}}"
+Fragment-Host:          io.github.humbleui.skija-shared;bundle-version="${range;[==,+);${version}}"
 os:                     ${replacestring;${replacestring;${replacestring;${mvnArtifactId};.*-macos-.*;macosx};.*-linux-.*;linux};.*-windows-.*;win32}
 arch:                   ${replacestring;${replacestring;${mvnArtifactId};.*-arm64.*;aarch64};.*-x64.*;x86_64}
 Eclipse-PlatformFilter: (|(&(osgi.os=${os})(osgi.arch=${arch}))(org.eclipse.orbit.maven.bnd.buildtime=true))
