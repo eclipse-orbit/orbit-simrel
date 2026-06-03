@@ -25,7 +25,7 @@ public class Updater {
 
 	private static final String PLATFORM_VERSION_MATCHER = "(4\\.[3-9][0-9]\\.[0-9])";
 
-	private static final String TYCHO_VERSION = "5.0.2";
+	private static final String TYCHO_VERSION = "5.0.3";
 
 	private static final String TYCHO_VERSION_MATCHER = "([0-9]+\\.[0-9]+\\.[0-9]+)(?:-SNAPSHOT)?";
 

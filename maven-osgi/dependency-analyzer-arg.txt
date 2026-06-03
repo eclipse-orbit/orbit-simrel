@@ -44,7 +44,9 @@ org.bndtools:bndtools.jareditor:.* // Drags in the entire Eclipse IDE via requir
 org.eclipse.lemminx:.* // Eclipse project content not in maven central.
 org.mortbay.jasper:apache.* // These all moved to org.mortbay.jasper:mortbay-apache.*
 org.eclipse.swtchart:.* // These are not needed because there is a p2 repository for them.
-
+org.codehaus.mojo.versions:.* // m2e is wrapping these themselves and assigning an m2e BSN
+org.ow2.asm:asm.*:9.10(.1)? // Ignore until jacoco updates
+com.fasterxml.jackson(.dataformat|.core|.datatype|.jaxrs|.module):(jackson-dataformat-xml|jackson-dataformat-yaml|jackson-annotations|jackson-databind|jackson-datatype-guava|jackson-jaxrs-base|jackson-jaxrs-json-provider|jackson-module-jakarta-xmlbind-annotations|jackson-module-jaxb-annotations):2.22(.0)? // missing jackson-core 2.22.0
 
 // There are dependencies for which we want to update to major versions automatically because these provides mostly only increment to major versions.
 //
@@ -72,7 +74,8 @@ io.github.classgraph:classgraph:4\.8\.181 // Not a bundle
 biz.aQute.bnd:biz.aQute.tester.junit-platform:7.2.0 // Too restricted junit dependency https://github.com/eclipse-platform/eclipse.platform.releng.aggregator/pull/3579#issuecomment-3693797403
 org.bndtools:org.bndtools.templating:7.2.0 // Bad guava dependency https://github.com/eclipse-platform/eclipse.platform.releng.aggregator/pull/3579#issuecomment-3693797403
 org.ow2.asm:asm.*:9.10(.1)? // Ignore until jacoco updates
-com.github.librepdf:openpdf:3.0.5 // Bad transitive dependencies
+com.github.librepdf:openpdf:x3.0.5 // Bad transitive dependencies
+com.fasterxml.jackson(.dataformat|.core|.datatype|.jaxrs|.module):(jackson-dataformat-xml|jackson-dataformat-yaml|jackson-annotations|jackson-databind|jackson-datatype-guava|jackson-jaxrs-base|jackson-jaxrs-json-provider|jackson-module-jakarta-xmlbind-annotations|jackson-module-jaxb-annotations):2.22(.0)? // missing jackson-core 2.22.0
 
 -keep
 commons-logging:commons-logging:1.2

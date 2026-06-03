@@ -19,7 +19,7 @@
 				<dependency>
 					<groupId>com.sun.xml.bind</groupId>
 					<artifactId>jaxb-osgi</artifactId>
-					<version>4.0.8</version>
+					<version>4.0.9</version>
 					<type>jar</type>
 				</dependency>
 				<dependency>
@@ -55,13 +55,13 @@
 				<dependency>
 					<groupId>net.bytebuddy</groupId>
 					<artifactId>byte-buddy-agent</artifactId>
-					<version>1.18.8</version>
+					<version>1.18.9</version>
 					<type>jar</type>
 				</dependency>
 				<dependency>
 					<groupId>net.bytebuddy</groupId>
 					<artifactId>byte-buddy</artifactId>
-					<version>1.18.8</version>
+					<version>1.18.9</version>
 					<type>jar</type>
 				</dependency>
 				<dependency>

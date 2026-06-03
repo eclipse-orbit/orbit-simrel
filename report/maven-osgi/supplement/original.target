@@ -7,7 +7,7 @@
         <dependency>
           <groupId>ch.qos.logback</groupId>
           <artifactId>logback-core</artifactId>
-          <version>1.5.32</version>
+          <version>1.5.34</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -49,37 +49,37 @@
         <dependency>
           <groupId>com.fasterxml.jackson.core</groupId>
           <artifactId>jackson-core</artifactId>
-          <version>2.21.3</version>
+          <version>2.21.4</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>com.fasterxml.jackson.core</groupId>
           <artifactId>jackson-databind</artifactId>
-          <version>2.21.3</version>
+          <version>2.21.4</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>com.fasterxml.jackson.dataformat</groupId>
           <artifactId>jackson-dataformat-xml</artifactId>
-          <version>2.21.3</version>
+          <version>2.21.4</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>com.fasterxml.jackson.dataformat</groupId>
           <artifactId>jackson-dataformat-yaml</artifactId>
-          <version>2.21.3</version>
+          <version>2.21.4</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>com.fasterxml.jackson.jaxrs</groupId>
           <artifactId>jackson-jaxrs-base</artifactId>
-          <version>2.21.3</version>
+          <version>2.21.4</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>com.fasterxml.jackson.jaxrs</groupId>
           <artifactId>jackson-jaxrs-json-provider</artifactId>
-          <version>2.21.3</version>
+          <version>2.21.4</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -109,7 +109,7 @@
         <dependency>
           <groupId>com.github.librepdf</groupId>
           <artifactId>openpdf</artifactId>
-          <version>3.0.4</version>
+          <version>3.0.5</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -175,13 +175,13 @@
         <dependency>
           <groupId>com.sun.xml.bind</groupId>
           <artifactId>jaxb-core</artifactId>
-          <version>4.0.8</version>
+          <version>4.0.9</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>com.sun.xml.bind</groupId>
           <artifactId>jaxb-impl</artifactId>
-          <version>4.0.8</version>
+          <version>4.0.9</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -475,7 +475,7 @@
         <dependency>
           <groupId>jaxen</groupId>
           <artifactId>jaxen</artifactId>
-          <version>2.0.3</version>
+          <version>2.0.5</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -769,7 +769,7 @@
         <dependency>
           <groupId>org.glassfish.jaxb</groupId>
           <artifactId>jaxb-runtime</artifactId>
-          <version>4.0.8</version>
+          <version>4.0.9</version>
           <type>jar</type>
         </dependency>
         <dependency>
