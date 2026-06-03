@@ -13,8 +13,6 @@ pipeline {
 
   environment {
     MAIL_TO = 'ed.merks@gmail.com'
-    SBOM_API_DOMAIN = 'pia-staging.eclipse.org'
-
   }
 
   parameters {
@@ -101,7 +99,7 @@ USE_CACHE=${env.USE_CACHE}
         '''
 
         withCredentials([
-            string(credentialsId: 'id-token', variable: 'SBOM_ID_TOKEN')
+            string(credentialsId: 'sbom.eclipse.org-api-token', variable: 'SBOM_API_TOKEN')
           ]) {
           sh '''
             ls -sail
@@ -110,20 +108,14 @@ USE_CACHE=${env.USE_CACHE}
             else
               PREFIX="echo "
             fi
-            base64 -w0 sbom.json > bom.b64
-            jq -n \
-              --arg name "${PROJECT_NAME}" \
-              --arg version "${PROJECT_VERSION}${PROJECT_VERSION_SUFFIX}" \
-              --rawfile bom bom.b64 \
-              '{
-                product_name: $name,
-                product_version: $version,
-                bom: $bom
-              }' | \
-            curl -sS --fail-with-body \
-              https://${SBOM_API_DOMAIN}/v1/upload/sbom \
-              -H "Authorization: Bearer ${SBOM_ID_TOKEN}" \
-              --json @-
+            ${PREFIX} curl -X POST https://sbom.eclipse.org/api/v1/bom \
+              -H Content-Type:multipart/form-data \
+              -H X-Api-Key:"${SBOM_API_TOKEN}" \
+              -F autoCreate=true \
+              -F projectName=${PROJECT_NAME} \
+              -F projectVersion=${PROJECT_VERSION}${PROJECT_VERSION_SUFFIX} \
+              -F parentName=orbit-aggregation \
+              -F bom=@sbom.xml
           '''
         }
       }
