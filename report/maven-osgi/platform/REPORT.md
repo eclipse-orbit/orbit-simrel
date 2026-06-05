@@ -11,11 +11,6 @@
     - [biz.aQute.resolve](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.resolve/) **[7.2.3](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.resolve/7.2.3)** < [7.3.0](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.resolve/7.3.0/)
     - [biz.aQute.tester](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.tester/) **[7.2.3](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.tester/7.2.3)** < [7.3.0](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.tester/7.3.0/)
     - [biz.aQute.tester.junit-platform](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.tester.junit-platform/) **[7.2.3](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.tester.junit-platform/7.2.3)** < [7.3.0](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.tester.junit-platform/7.3.0/)
- - [net.bytebuddy](https://repo.maven.apache.org/maven2/net/bytebuddy/)
-    - [byte-buddy](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/) **[1.18.9](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.18.9)** < [1.18.10](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.18.10/)
-    - [byte-buddy-agent](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/) **[1.18.9](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.18.9)** < [1.18.10](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.18.10/)
- - [net.java.dev.jna](https://repo.maven.apache.org/maven2/net/java/dev/jna/)
-    - [jna-platform](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna-platform/) **[5.18.1](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna-platform/5.18.1)** < [5.19.0](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna-platform/5.19.0/)
  - [org.bndtools](https://repo.maven.apache.org/maven2/org/bndtools/)
     - [bndtools.api](https://repo.maven.apache.org/maven2/org/bndtools/bndtools.api/) **[7.2.3](https://repo.maven.apache.org/maven2/org/bndtools/bndtools.api/7.2.3)** < [7.3.0](https://repo.maven.apache.org/maven2/org/bndtools/bndtools.api/7.3.0/)
     - [bndtools.jareditor](https://repo.maven.apache.org/maven2/org/bndtools/bndtools.jareditor/) **[7.2.3](https://repo.maven.apache.org/maven2/org/bndtools/bndtools.jareditor/7.2.3)** < [7.3.0](https://repo.maven.apache.org/maven2/org/bndtools/bndtools.jareditor/7.3.0/)
@@ -80,10 +75,10 @@
  - [javax.servlet.jsp](https://repo.maven.apache.org/maven2/javax/servlet/jsp/)
     - [javax.servlet.jsp-api](https://repo.maven.apache.org/maven2/javax/servlet/jsp/javax.servlet.jsp-api/) **[2.3.3](https://repo.maven.apache.org/maven2/javax/servlet/jsp/javax.servlet.jsp-api/2.3.3)**
  - [net.bytebuddy](https://repo.maven.apache.org/maven2/net/bytebuddy/)
-    - [byte-buddy](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/) **[1.18.9](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.18.9)**
-    - [byte-buddy-agent](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/) **[1.18.9](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.18.9)**
+    - [byte-buddy](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/) **[1.18.10](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.18.10)**
+    - [byte-buddy-agent](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/) **[1.18.10](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.18.10)**
  - [net.java.dev.jna](https://repo.maven.apache.org/maven2/net/java/dev/jna/)
-    - [jna-platform](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna-platform/) **[5.18.1](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna-platform/5.18.1)**
+    - [jna-platform](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna-platform/) **[5.19.0](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna-platform/5.19.0)**
  - [org.apache.aries.spifly](https://repo.maven.apache.org/maven2/org/apache/aries/spifly/)
     - [org.apache.aries.spifly.dynamic.bundle](https://repo.maven.apache.org/maven2/org/apache/aries/spifly/org.apache.aries.spifly.dynamic.bundle/) **[1.3.7](https://repo.maven.apache.org/maven2/org/apache/aries/spifly/org.apache.aries.spifly.dynamic.bundle/1.3.7)**
  - [org.apache.felix](https://repo.maven.apache.org/maven2/org/apache/felix/)
