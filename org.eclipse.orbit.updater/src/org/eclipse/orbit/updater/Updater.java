@@ -21,7 +21,7 @@ import java.util.Map;
 import java.util.regex.Pattern;
 
 public class Updater {
-	private static final String PLATFORM_VERSION = "4.40.0";
+	private static final String PLATFORM_VERSION = "4.41.0";
 
 	private static final String PLATFORM_VERSION_MATCHER = "(4\\.[3-9][0-9]\\.[0-9])";
 
