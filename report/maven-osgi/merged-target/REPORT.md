@@ -377,9 +377,9 @@
     - [hamcrest](https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest/) **[2.2](https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest/2.2)**
     - [hamcrest](https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest/) **[3.0](https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest/3.0)**
  - [org.jacoco](https://repo.maven.apache.org/maven2/org/jacoco/)
-    - [org.jacoco.agent](https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.agent/) **[0.8.14](https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.agent/0.8.14)**
-    - [org.jacoco.core](https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.core/) **[0.8.14](https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.core/0.8.14)**
-    - [org.jacoco.report](https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.report/) **[0.8.14](https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.report/0.8.14)**
+    - [org.jacoco.agent](https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.agent/) **[0.8.15](https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.agent/0.8.15)**
+    - [org.jacoco.core](https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.core/) **[0.8.15](https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.core/0.8.15)**
+    - [org.jacoco.report](https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.report/) **[0.8.15](https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.report/0.8.15)**
  - [org.javassist](https://repo.maven.apache.org/maven2/org/javassist/)
     - [javassist](https://repo.maven.apache.org/maven2/org/javassist/javassist/) **[3.31.0-GA](https://repo.maven.apache.org/maven2/org/javassist/javassist/3.31.0-GA)**
  - [org.json](https://repo.maven.apache.org/maven2/org/json/)
@@ -481,11 +481,11 @@
     - [org.osgi.util.xml](https://repo.maven.apache.org/maven2/org/osgi/org.osgi.util.xml/) **[1.0.2](https://repo.maven.apache.org/maven2/org/osgi/org.osgi.util.xml/1.0.2)**
     - [osgi.annotation](https://repo.maven.apache.org/maven2/org/osgi/osgi.annotation/) **[8.1.0](https://repo.maven.apache.org/maven2/org/osgi/osgi.annotation/8.1.0)**
  - [org.ow2.asm](https://repo.maven.apache.org/maven2/org/ow2/asm/)
-    - [asm](https://repo.maven.apache.org/maven2/org/ow2/asm/asm/) **[9.9.1](https://repo.maven.apache.org/maven2/org/ow2/asm/asm/9.9.1)**
-    - [asm-analysis](https://repo.maven.apache.org/maven2/org/ow2/asm/asm-analysis/) **[9.9.1](https://repo.maven.apache.org/maven2/org/ow2/asm/asm-analysis/9.9.1)**
-    - [asm-commons](https://repo.maven.apache.org/maven2/org/ow2/asm/asm-commons/) **[9.9.1](https://repo.maven.apache.org/maven2/org/ow2/asm/asm-commons/9.9.1)**
-    - [asm-tree](https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/) **[9.9.1](https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/9.9.1)**
-    - [asm-util](https://repo.maven.apache.org/maven2/org/ow2/asm/asm-util/) **[9.9.1](https://repo.maven.apache.org/maven2/org/ow2/asm/asm-util/9.9.1)**
+    - [asm](https://repo.maven.apache.org/maven2/org/ow2/asm/asm/) **[9.10.1](https://repo.maven.apache.org/maven2/org/ow2/asm/asm/9.10.1)**
+    - [asm-analysis](https://repo.maven.apache.org/maven2/org/ow2/asm/asm-analysis/) **[9.10.1](https://repo.maven.apache.org/maven2/org/ow2/asm/asm-analysis/9.10.1)**
+    - [asm-commons](https://repo.maven.apache.org/maven2/org/ow2/asm/asm-commons/) **[9.10.1](https://repo.maven.apache.org/maven2/org/ow2/asm/asm-commons/9.10.1)**
+    - [asm-tree](https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/) **[9.10.1](https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/9.10.1)**
+    - [asm-util](https://repo.maven.apache.org/maven2/org/ow2/asm/asm-util/) **[9.10.1](https://repo.maven.apache.org/maven2/org/ow2/asm/asm-util/9.10.1)**
  - [org.ow2.sat4j](https://repo.maven.apache.org/maven2/org/ow2/sat4j/)
     - [org.ow2.sat4j.core](https://repo.maven.apache.org/maven2/org/ow2/sat4j/org.ow2.sat4j.core/) **[2.3.6](https://repo.maven.apache.org/maven2/org/ow2/sat4j/org.ow2.sat4j.core/2.3.6)**
     - [org.ow2.sat4j.pb](https://repo.maven.apache.org/maven2/org/ow2/sat4j/org.ow2.sat4j.pb/) **[2.3.6](https://repo.maven.apache.org/maven2/org/ow2/sat4j/org.ow2.sat4j.pb/2.3.6)**
