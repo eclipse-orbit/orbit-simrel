@@ -3,7 +3,7 @@
 <target name="Maven" sequenceNumber="1">
   <locations>
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="error" type="Maven">
-      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.41.0.v20260605-1000">
+      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.41.0.v20260606-1000">
         <description>This feature's dependencies are pulled directly from Maven central.</description>
         <copyright>
 Copyright (c) 2026 Eclipse contributors and others.
@@ -16,7 +16,7 @@ https://www.eclipse.org/legal/epl-2.0/
 SPDX-License-Identifier: EPL-2.0
         </copyright>
         <license url="https://www.eclipse.org/legal/epl-2.0/"/>
-        <!-- SHA1 f71c72cd651efd70b4d058f4f00ae5eb8d463f11 -->
+        <!-- SHA1 829f70b42b78c4296cf77cf0ffd4aef4560bfc4a -->
       </feature>
       <dependencies>
         <dependency>
@@ -1415,19 +1415,19 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>org.jacoco</groupId>
           <artifactId>org.jacoco.agent</artifactId>
-          <version>0.8.14</version>
+          <version>0.8.15</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.jacoco</groupId>
           <artifactId>org.jacoco.core</artifactId>
-          <version>0.8.14</version>
+          <version>0.8.15</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.jacoco</groupId>
           <artifactId>org.jacoco.report</artifactId>
-          <version>0.8.14</version>
+          <version>0.8.15</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -1949,31 +1949,31 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>org.ow2.asm</groupId>
           <artifactId>asm</artifactId>
-          <version>9.9.1</version>
+          <version>9.10.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.ow2.asm</groupId>
           <artifactId>asm-analysis</artifactId>
-          <version>9.9.1</version>
+          <version>9.10.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.ow2.asm</groupId>
           <artifactId>asm-commons</artifactId>
-          <version>9.9.1</version>
+          <version>9.10.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.ow2.asm</groupId>
           <artifactId>asm-tree</artifactId>
-          <version>9.9.1</version>
+          <version>9.10.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.ow2.asm</groupId>
           <artifactId>asm-util</artifactId>
-          <version>9.9.1</version>
+          <version>9.10.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
