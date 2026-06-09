@@ -1,17 +1,10 @@
 # Target Platform: [egit](https://raw.githubusercontent.com/eclipse-egit/egit/master/org.eclipse.egit.target/maven/dependencies.tpd)
 
-## Minor Updates
- - [com.google.code.gson](https://repo.maven.apache.org/maven2/com/google/code/gson/)
-    - [gson](https://repo.maven.apache.org/maven2/com/google/code/gson/gson/) **[2.13.2](https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.13.2)** < [2.14.0](https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.14.0/)
-
-## Updates Applied
-[updated.tpd](updated.tpd)
-
 ## Content
  - [args4j](https://repo.maven.apache.org/maven2/args4j/)
     - [args4j](https://repo.maven.apache.org/maven2/args4j/args4j/) **[2.37](https://repo.maven.apache.org/maven2/args4j/args4j/2.37)**
  - [com.google.code.gson](https://repo.maven.apache.org/maven2/com/google/code/gson/)
-    - [gson](https://repo.maven.apache.org/maven2/com/google/code/gson/gson/) **[2.13.2](https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.13.2)**
+    - [gson](https://repo.maven.apache.org/maven2/com/google/code/gson/gson/) **[2.14.0](https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.14.0)**
  - [com.googlecode.javaewah](https://repo.maven.apache.org/maven2/com/googlecode/javaewah/)
     - [JavaEWAH](https://repo.maven.apache.org/maven2/com/googlecode/javaewah/JavaEWAH/) **[1.2.3](https://repo.maven.apache.org/maven2/com/googlecode/javaewah/JavaEWAH/1.2.3)**
  - [commons-codec](https://repo.maven.apache.org/maven2/commons-codec/)
