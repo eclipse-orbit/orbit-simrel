@@ -318,7 +318,7 @@ Export-Package:         *;version="${version}";-noimport:=true
 <!-- _______________________________________________________ com.aayushatharva.brotli4j _________________________________________________________________________________________________-->
 
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
-      <feature id="com.aayushatharva.brotli4j" label="Orbit Maven BND com.aayushatharva.brotli4j" provider-name="Eclipse Orbit" version="4.41.0">
+      <feature id="com.aayushatharva.brotli4j" label="Orbit Maven BND com.aayushatharva.brotli4j" provider-name="Eclipse Orbit" version="4.41.0.v20260610-1000">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
 Copyright (c) 2026 Eclipse contributors and others.
@@ -347,14 +347,14 @@ SPDX-License-Identifier: EPL-2.0
         </dependency>
       </dependencies>
       <instructions>
-<!-- SHA1 d2df7dcd9994b93260b4637223c61870e0dc3b24 -->
+<!-- SHA1 6d256e7d19281a2f468781951fb2e790d2a7d36f -->
 <![CDATA[
 Bundle-Name:            Bundle ${mvnGroupId} : ${mvnArtifactId}
 version:                ${versionmask;===;${version_cleanup;${mvnVersion}}}
 Bundle-SymbolicName:    ${mvnGroupId}.${mvnArtifactId}
-Bundle-Version:         ${version}.v20260526-1000
+Bundle-Version:         ${version}.v20260610-1000
 Eclipse-Wrapped-Bundle: ${mvnGroupId}:${mvnArtifactId}:${mvnVersion}
-Require-Capability:     ${mvnGroupId};filter:="(library=native)"
+Require-Capability:     ${mvnGroupId};resolution:=optional;filter:="(library=native)"
 Import-Package:         io.netty.*;resolution:=optional,\
                         *
 Export-Package:         *;version="${version}"
