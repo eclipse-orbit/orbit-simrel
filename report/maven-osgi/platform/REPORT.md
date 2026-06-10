@@ -26,8 +26,6 @@
     - [jsvg](https://repo.maven.apache.org/maven2/com/github/weisj/jsvg/) **[2.1.0](https://repo.maven.apache.org/maven2/com/github/weisj/jsvg/2.1.0)**
  - [com.google.code.gson](https://repo.maven.apache.org/maven2/com/google/code/gson/)
     - [gson](https://repo.maven.apache.org/maven2/com/google/code/gson/gson/) **[2.14.0](https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.14.0)**
- - [com.ibm.icu](https://repo.maven.apache.org/maven2/com/ibm/icu/)
-    - [icu4j](https://repo.maven.apache.org/maven2/com/ibm/icu/icu4j/) **[78.3](https://repo.maven.apache.org/maven2/com/ibm/icu/icu4j/78.3)**
  - [commons-fileupload](https://repo.maven.apache.org/maven2/commons-fileupload/)
     - [commons-fileupload](https://repo.maven.apache.org/maven2/commons-fileupload/commons-fileupload/) **[1.6.0](https://repo.maven.apache.org/maven2/commons-fileupload/commons-fileupload/1.6.0)**
  - [commons-io](https://repo.maven.apache.org/maven2/commons-io/)
