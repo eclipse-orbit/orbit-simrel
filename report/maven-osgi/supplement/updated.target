@@ -781,13 +781,13 @@
         <dependency>
           <groupId>org.glassfish.jersey.connectors</groupId>
           <artifactId>jersey-apache-connector</artifactId>
-          <version>3.1.11</version>
+          <version>3.1.12</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.glassfish.jersey.connectors</groupId>
           <artifactId>jersey-apache5-connector</artifactId>
-          <version>3.1.11</version>
+          <version>3.1.12</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -799,7 +799,7 @@
         <dependency>
           <groupId>org.glassfish.jersey.containers</groupId>
           <artifactId>jersey-container-servlet</artifactId>
-          <version>3.1.11</version>
+          <version>3.1.12</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -811,7 +811,7 @@
         <dependency>
           <groupId>org.glassfish.jersey.containers</groupId>
           <artifactId>jersey-container-servlet-core</artifactId>
-          <version>3.1.11</version>
+          <version>3.1.12</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -823,7 +823,7 @@
         <dependency>
           <groupId>org.glassfish.jersey.core</groupId>
           <artifactId>jersey-client</artifactId>
-          <version>3.1.11</version>
+          <version>3.1.12</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -835,7 +835,7 @@
         <dependency>
           <groupId>org.glassfish.jersey.core</groupId>
           <artifactId>jersey-common</artifactId>
-          <version>3.1.11</version>
+          <version>3.1.12</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -847,7 +847,7 @@
         <dependency>
           <groupId>org.glassfish.jersey.core</groupId>
           <artifactId>jersey-server</artifactId>
-          <version>3.1.11</version>
+          <version>3.1.12</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -859,7 +859,7 @@
         <dependency>
           <groupId>org.glassfish.jersey.ext</groupId>
           <artifactId>jersey-entity-filtering</artifactId>
-          <version>3.1.11</version>
+          <version>3.1.12</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -877,7 +877,7 @@
         <dependency>
           <groupId>org.glassfish.jersey.media</groupId>
           <artifactId>jersey-media-json-jackson</artifactId>
-          <version>3.1.11</version>
+          <version>3.1.12</version>
           <type>jar</type>
         </dependency>
         <dependency>
