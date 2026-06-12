@@ -1,5 +1,10 @@
 # Target Platform: [cdt-lsp](https://raw.githubusercontent.com/eclipse-cdt/cdt-lsp/master/releng/org.eclipse.cdt.lsp.target/org.eclipse.cdt.lsp.target.target)
 
+## Minor Updates
+ - [net.java.dev.jna](https://repo.maven.apache.org/maven2/net/java/dev/jna/)
+    - [jna](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna/) **[5.19.0](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna/5.19.0)** < [5.19.1](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna/5.19.1/)
+    - [jna-platform](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna-platform/) **[5.19.0](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna-platform/5.19.0)** < [5.19.1](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna-platform/5.19.1/)
+
 ## Major Updates
  - [jakarta.activation](https://repo.maven.apache.org/maven2/jakarta/activation/)
     - [jakarta.activation-api](https://repo.maven.apache.org/maven2/jakarta/activation/jakarta.activation-api/) **[1.2.2](https://repo.maven.apache.org/maven2/jakarta/activation/jakarta.activation-api/1.2.2)** < [2.1.4](https://repo.maven.apache.org/maven2/jakarta/activation/jakarta.activation-api/2.1.4/)
@@ -8,6 +13,9 @@
  - [org.junit.jupiter](https://repo.maven.apache.org/maven2/org/junit/jupiter/)
     - [junit-jupiter-api](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/) **[5.14.4](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.14.4)** < [6.1.0](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/6.1.0/)
     - [junit-jupiter-engine](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/) **[5.14.4](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.14.4)** < [6.1.0](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/6.1.0/)
+
+## Updates Applied
+[updated.target](updated.target)
 
 ## Content
  - [com.google.code.gson](https://repo.maven.apache.org/maven2/com/google/code/gson/)

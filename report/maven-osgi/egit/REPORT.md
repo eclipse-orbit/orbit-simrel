@@ -1,5 +1,13 @@
 # Target Platform: [egit](https://raw.githubusercontent.com/eclipse-egit/egit/master/org.eclipse.egit.target/maven/dependencies.tpd)
 
+## Minor Updates
+ - [net.java.dev.jna](https://repo.maven.apache.org/maven2/net/java/dev/jna/)
+    - [jna](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna/) **[5.19.0](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna/5.19.0)** < [5.19.1](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna/5.19.1/)
+    - [jna-platform](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna-platform/) **[5.19.0](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna-platform/5.19.0)** < [5.19.1](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna-platform/5.19.1/)
+
+## Updates Applied
+[updated.tpd](updated.tpd)
+
 ## Content
  - [args4j](https://repo.maven.apache.org/maven2/args4j/)
     - [args4j](https://repo.maven.apache.org/maven2/args4j/args4j/) **[2.37](https://repo.maven.apache.org/maven2/args4j/args4j/2.37)**

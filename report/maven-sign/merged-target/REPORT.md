@@ -21,4 +21,4 @@
     - [skija-windows-arm64](https://repo.maven.apache.org/maven2/io/github/humbleui/skija-windows-arm64/) **[0.143.16](https://repo.maven.apache.org/maven2/io/github/humbleui/skija-windows-arm64/0.143.16)**
     - [skija-windows-x64](https://repo.maven.apache.org/maven2/io/github/humbleui/skija-windows-x64/) **[0.143.16](https://repo.maven.apache.org/maven2/io/github/humbleui/skija-windows-x64/0.143.16)**
  - [net.java.dev.jna](https://repo.maven.apache.org/maven2/net/java/dev/jna/)
-    - [jna](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna/) **[5.19.0](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna/5.19.0)**
+    - [jna](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna/) **[5.19.1](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna/5.19.1)**

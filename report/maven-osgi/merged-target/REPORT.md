@@ -233,7 +233,7 @@
     - [byte-buddy](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/) **[1.18.10](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.18.10)**
     - [byte-buddy-agent](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/) **[1.18.10](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.18.10)**
  - [net.java.dev.jna](https://repo.maven.apache.org/maven2/net/java/dev/jna/)
-    - [jna-platform](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna-platform/) **[5.19.0](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna-platform/5.19.0)**
+    - [jna-platform](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna-platform/) **[5.19.1](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna-platform/5.19.1)**
  - [org.antlr](https://repo.maven.apache.org/maven2/org/antlr/)
     - [antlr4-runtime](https://repo.maven.apache.org/maven2/org/antlr/antlr4-runtime/) **[4.13.2](https://repo.maven.apache.org/maven2/org/antlr/antlr4-runtime/4.13.2)**
  - [org.apache.aries.spifly](https://repo.maven.apache.org/maven2/org/apache/aries/spifly/)
