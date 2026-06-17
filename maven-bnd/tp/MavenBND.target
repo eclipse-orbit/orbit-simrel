@@ -235,7 +235,7 @@ Export-Package:         *;version="${version}";-noimport:=true
 <!-- _______________________________________________________ io.github.humbleui.skija-shared _________________________________________________________________________________________________-->
 
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
-      <feature id="org.eclipse.orbit.maven.io.github.humbleui.skija-shared" label="Orbit Maven BND io.github.humbleui.skija-shared" provider-name="Eclipse Orbit" version="4.41.0">
+      <feature id="org.eclipse.orbit.maven.io.github.humbleui.skija-shared" label="Orbit Maven BND io.github.humbleui.skija-shared" provider-name="Eclipse Orbit" version="4.41.0.v20260617-1000">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
 Copyright (c) 2026 Eclipse contributors and others.
@@ -253,17 +253,17 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>io.github.humbleui</groupId>
           <artifactId>skija-shared</artifactId>
-          <version>0.143.16</version>
+          <version>0.143.17</version>
           <type>jar</type>
         </dependency>
       </dependencies>
       <instructions>
-<!-- SHA1 ed08d4b65436b9504739a789675f31d4c54a99d5 -->
+<!-- SHA1 5b7e314289a0354bc9b292ba0f25142d60d2c065 -->
 <![CDATA[
 Bundle-Name:            Bundle ${mvnGroupId} : ${mvnArtifactId}
 version:                ${versionmask;===;${version_cleanup;${mvnVersion}}}
 Bundle-SymbolicName:    ${mvnGroupId}.${mvnArtifactId}
-Bundle-Version:         ${version}.v20260524-1000
+Bundle-Version:         ${version}.v20260617-1000
 Eclipse-Wrapped-Bundle: ${mvnGroupId}:${mvnArtifactId}:${mvnVersion}
 Require-Capability:     ${mvnGroupId}.skija;filter:="(library=native)"
 Import-Package:         *
@@ -1745,7 +1745,7 @@ Export-Package:         *;version="${version}";-noimport:=true
 
 <!-- WTP can't compile with this version yet -->
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
-      <feature id="org.eclipse.orbit.maven.com.google.javascript" label="Orbit Maven BND com.google.javascript" provider-name="Eclipse Orbit" version="4.41.0.v20260616-1000">
+      <feature id="org.eclipse.orbit.maven.com.google.javascript" label="Orbit Maven BND com.google.javascript" provider-name="Eclipse Orbit" version="4.41.0.v20260617-1000">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
 Copyright (c) 2026 Eclipse contributors and others.
@@ -1763,18 +1763,18 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>com.google.javascript</groupId>
           <artifactId>closure-compiler</artifactId>
-          <version>v20260614</version>
+          <version>v20260615</version>
           <type>jar</type>
         </dependency>
       </dependencies>
       <instructions>
-<!-- SHA1 46973b2e170dc75578209846a833379b218d45e2 -->
+<!-- SHA1 b8a667698f6fe6893809ae16d0c693f558c6d161 -->
 <![CDATA[
 Bundle-Name:            Bundle ${mvnGroupId} : ${mvnArtifactId
 # The version is purely qualifier, so we promote the value after the v to the micro version as has been historically the case.
 version:                ${replacestring;${mvnVersion};^v;0.0.}
 Bundle-SymbolicName:    ${mvnGroupId}
-Bundle-Version:         ${version}.v20260616-1000
+Bundle-Version:         ${version}.v20260617-1000
 Automatic-Module-Name:  ${mvnGroupId}
 Eclipse-Wrapped-Bundle: ${mvnGroupId}:${mvnArtifactId}:${mvnVersion}
 Import-Package:         java.*,org.w3c.dom,org.xml.sax.*,\
@@ -3099,7 +3099,7 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>io.github.humbleui</groupId>
           <artifactId>skija-linux-x64</artifactId>
-          <version>0.143.16</version>
+          <version>0.143.17</version>
           <type>jar</type>
         </dependency>
       </dependencies>
