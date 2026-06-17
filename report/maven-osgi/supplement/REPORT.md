@@ -132,8 +132,8 @@
  - [commons-jxpath](https://repo.maven.apache.org/maven2/commons-jxpath/)
     - [commons-jxpath](https://repo.maven.apache.org/maven2/commons-jxpath/commons-jxpath/) **[1.4.0](https://repo.maven.apache.org/maven2/commons-jxpath/commons-jxpath/1.4.0)**
  - [commons-logging](https://repo.maven.apache.org/maven2/commons-logging/)
-    - [commons-logging](https://repo.maven.apache.org/maven2/commons-logging/commons-logging/) **[1.2](https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.2)**
-    - [commons-logging](https://repo.maven.apache.org/maven2/commons-logging/commons-logging/) **[1.3.6](https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.3.6)**
+    - [commons-logging](https://repo.maven.apache.org/maven2/commons-logging/commons-logging/) **[1.4.0](https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.4.0)**
+    - [commons-logging](https://repo.maven.apache.org/maven2/commons-logging/commons-logging/) **[1.4.0](https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.4.0)**
  - [commons-net](https://repo.maven.apache.org/maven2/commons-net/)
     - [commons-net](https://repo.maven.apache.org/maven2/commons-net/commons-net/) **[3.13.0](https://repo.maven.apache.org/maven2/commons-net/commons-net/3.13.0)**
  - [dnsjava](https://repo.maven.apache.org/maven2/dnsjava/)

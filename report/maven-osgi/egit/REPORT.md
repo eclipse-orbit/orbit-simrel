@@ -1,5 +1,12 @@
 # Target Platform: [egit](https://raw.githubusercontent.com/eclipse-egit/egit/master/org.eclipse.egit.target/maven/dependencies.tpd)
 
+## Minor Updates
+ - [commons-logging](https://repo.maven.apache.org/maven2/commons-logging/)
+    - [commons-logging](https://repo.maven.apache.org/maven2/commons-logging/commons-logging/) **[1.3.6](https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.3.6)** < [1.4.0](https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.4.0/)
+
+## Updates Applied
+[updated.tpd](updated.tpd)
+
 ## Content
  - [args4j](https://repo.maven.apache.org/maven2/args4j/)
     - [args4j](https://repo.maven.apache.org/maven2/args4j/args4j/) **[2.37](https://repo.maven.apache.org/maven2/args4j/args4j/2.37)**
