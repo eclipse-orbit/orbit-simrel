@@ -99,11 +99,11 @@
     - [cyclonedx-core-java](https://repo.maven.apache.org/maven2/org/cyclonedx/cyclonedx-core-java/) **[12.2.0](https://repo.maven.apache.org/maven2/org/cyclonedx/cyclonedx-core-java/12.2.0)**
  - [org.dom4j](https://repo.maven.apache.org/maven2/org/dom4j/)
     - [dom4j](https://repo.maven.apache.org/maven2/org/dom4j/dom4j/) **[2.2.0](https://repo.maven.apache.org/maven2/org/dom4j/dom4j/2.2.0)**
- - [org.eclipse.orbit](https://repo.eclipse.org/content/repositories/orbit-approved-artifacts/org/eclipse/orbit/)
-    - [ant](https://repo.eclipse.org/content/repositories/orbit-approved-artifacts/org/eclipse/orbit/ant/) **[1.10.17](https://repo.eclipse.org/content/repositories/orbit-approved-artifacts/org/eclipse/orbit/ant/1.10.17)**
-    - [derby](https://repo.eclipse.org/content/repositories/orbit-approved-artifacts/org/eclipse/orbit/derby/) **[10.16.1.1](https://repo.eclipse.org/content/repositories/orbit-approved-artifacts/org/eclipse/orbit/derby/10.16.1.1)**
-    - [org.apache.axis](https://repo.eclipse.org/content/repositories/orbit-approved-artifacts/org/eclipse/orbit/org.apache.axis/) **[1.4.1.20231107-0755](https://repo.eclipse.org/content/repositories/orbit-approved-artifacts/org/eclipse/orbit/org.apache.axis/1.4.1.20231107-0755)**
-    - [org.apache.axis-ant](https://repo.eclipse.org/content/repositories/orbit-approved-artifacts/org/eclipse/orbit/org.apache.axis-ant/) **[1.4.1.20231107-0755](https://repo.eclipse.org/content/repositories/orbit-approved-artifacts/org/eclipse/orbit/org.apache.axis-ant/1.4.1.20231107-0755)**
+ - [org.eclipse.orbit](https://repo.eclipse.org/service/rest/repository/browse/orbit-maven2-approved-artifacts/org/eclipse/orbit/)
+    - [ant](https://repo.eclipse.org/service/rest/repository/browse/orbit-maven2-approved-artifacts/org/eclipse/orbit/ant/) **[1.10.17](https://repo.eclipse.org/service/rest/repository/browse/orbit-maven2-approved-artifacts/org/eclipse/orbit/ant/1.10.17)**
+    - [derby](https://repo.eclipse.org/service/rest/repository/browse/orbit-maven2-approved-artifacts/org/eclipse/orbit/derby/) **[10.16.1.1](https://repo.eclipse.org/service/rest/repository/browse/orbit-maven2-approved-artifacts/org/eclipse/orbit/derby/10.16.1.1)**
+    - [org.apache.axis](https://repo.eclipse.org/service/rest/repository/browse/orbit-maven2-approved-artifacts/org/eclipse/orbit/org.apache.axis/) **[1.4.1.20231107-0755](https://repo.eclipse.org/service/rest/repository/browse/orbit-maven2-approved-artifacts/org/eclipse/orbit/org.apache.axis/1.4.1.20231107-0755)**
+    - [org.apache.axis-ant](https://repo.eclipse.org/service/rest/repository/browse/orbit-maven2-approved-artifacts/org/eclipse/orbit/org.apache.axis-ant/) **[1.4.1.20231107-0755](https://repo.eclipse.org/service/rest/repository/browse/orbit-maven2-approved-artifacts/org/eclipse/orbit/org.apache.axis-ant/1.4.1.20231107-0755)**
  - [org.hamcrest](https://repo.maven.apache.org/maven2/org/hamcrest/)
     - [hamcrest-core](https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-core/) **[1.3](https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-core/1.3)**
     - [hamcrest-core](https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-core/) **[2.2](https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-core/2.2)**

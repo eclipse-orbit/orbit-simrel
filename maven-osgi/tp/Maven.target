@@ -3,7 +3,7 @@
 <target name="Maven" sequenceNumber="1">
   <locations>
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="error" type="Maven">
-      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.41.0.v20260617-1000">
+      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.41.0.v20260621-1000">
         <description>This feature's dependencies are pulled directly from Maven central.</description>
         <copyright>
 Copyright (c) 2026 Eclipse contributors and others.
@@ -16,7 +16,7 @@ https://www.eclipse.org/legal/epl-2.0/
 SPDX-License-Identifier: EPL-2.0
         </copyright>
         <license url="https://www.eclipse.org/legal/epl-2.0/"/>
-        <!-- SHA1 25a0f68b2db14ef8469d7c2f8759a60db8b50c0d -->
+        <!-- SHA1 d14e65378be66075ad2f1b7ac57e4349ab4ff7a6 -->
       </feature>
       <dependencies>
         <dependency>
@@ -1067,49 +1067,49 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>org.commonmark</groupId>
           <artifactId>commonmark</artifactId>
-          <version>0.28.0</version>
+          <version>0.29.0</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.commonmark</groupId>
           <artifactId>commonmark-ext-gfm-strikethrough</artifactId>
-          <version>0.28.0</version>
+          <version>0.29.0</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.commonmark</groupId>
           <artifactId>commonmark-ext-gfm-tables</artifactId>
-          <version>0.28.0</version>
+          <version>0.29.0</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.commonmark</groupId>
           <artifactId>commonmark-ext-heading-anchor</artifactId>
-          <version>0.28.0</version>
+          <version>0.29.0</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.commonmark</groupId>
           <artifactId>commonmark-ext-image-attributes</artifactId>
-          <version>0.28.0</version>
+          <version>0.29.0</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.commonmark</groupId>
           <artifactId>commonmark-ext-ins</artifactId>
-          <version>0.28.0</version>
+          <version>0.29.0</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.commonmark</groupId>
           <artifactId>commonmark-ext-task-list-items</artifactId>
-          <version>0.28.0</version>
+          <version>0.29.0</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.commonmark</groupId>
           <artifactId>commonmark-ext-yaml-front-matter</artifactId>
-          <version>0.28.0</version>
+          <version>0.29.0</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -2043,6 +2043,41 @@ SPDX-License-Identifier: EPL-2.0
           <type>jar</type>
         </dependency>
       </dependencies>
+    </location>
+
+<!-- ______________________________________________________ LemMinX __________________________________________________________________________________________________-->
+
+    <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="error" type="Maven">
+      <feature id="org.eclipse.orbit.maven.lemminx" label="Orbit Maven LemMinX" provider-name="Eclipse Orbit" version="4.41.0">
+        <description>This feature's dependencies are pulled directly from https://repo.eclipse.org/content/repositories/lemminx-releases.</description>
+        <copyright>
+Copyright (c) 2026 Eclipse contributors and others.
+
+This program and the accompanying materials
+are made available under the terms of the Eclipse Public License 2.0
+which accompanies this distribution, and is available at
+https://www.eclipse.org/legal/epl-2.0/
+
+SPDX-License-Identifier: EPL-2.0
+        </copyright>
+        <license url="https://www.eclipse.org/legal/epl-2.0/"/>
+        <!-- SHA1 469fdbbfe6311ba49886aa24debd0d842c763d76 -->
+      </feature>
+      <dependencies>
+        <dependency>
+          <groupId>org.eclipse.lemminx</groupId>
+          <artifactId>org.eclipse.lemminx</artifactId>
+          <version>0.31.2</version>
+          <type>jar</type>
+          <classifier>uber</classifier>
+        </dependency>
+      </dependencies>
+      <repositories>
+        <repository>
+          <id>lemminx-releases</id>
+          <url>https://repo.eclipse.org/content/repositories/lemminx-releases/</url>
+        </repository>
+      </repositories>
     </location>
 
     <location includeAllPlatforms="true" includeConfigurePhase="true" includeMode="slicer" includeSource="true" type="InstallableUnit">

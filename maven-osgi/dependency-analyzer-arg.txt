@@ -41,7 +41,6 @@ org.yaml:snakeyaml:1.33 // Ignore old version
 com.github.jnr:jffi:.*:native // Needs signing
 net.java.dev.jna:jna:.* // Needs signing
 org.bndtools:bndtools.jareditor:.* // Drags in the entire Eclipse IDE via requirements.
-org.eclipse.lemminx:.* // Eclipse project content not in maven central.
 org.mortbay.jasper:apache.* // These all moved to org.mortbay.jasper:mortbay-apache.*
 org.eclipse.swtchart:.* // These are not needed because there is a p2 repository for them.
 org.codehaus.mojo.versions:.* // m2e is wrapping these themselves and assigning an m2e BSN

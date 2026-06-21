@@ -151,7 +151,6 @@ public class DependencyAnalyzer {
 		}
 
 		var exclusions = getArguments(arguments, "-exclude");
-		// exclusions.add("org.ow2.asm:.*:9.9");
 		var exclusionPatterns = exclusions.stream().map(Pattern::compile).collect(Collectors.toList());
 		dependencies.removeIf(it -> {
 			return exclusionPatterns.stream().anyMatch(pattern -> it.matches(pattern));
@@ -164,6 +163,10 @@ public class DependencyAnalyzer {
 		// Except the ones specified to keep.
 		dependencies.removeIf(it -> {
 			if (keepPatterns.stream().anyMatch(it::matches)) {
+				return false;
+			}
+
+			if (!update && !it.repositoryURL.equals(Dependency.DEFAULT_REPOSITORY_LOCATION)) {
 				return false;
 			}
 
@@ -198,8 +201,30 @@ public class DependencyAnalyzer {
 			var before = analyzer.getTargetDependencies(mavenTarget.toUri());
 			var reducedMavenTarget = update ? mavenTargetContent
 					: mavenTargetContent.replaceFirst("(?s)(<dependencies>).*?(\r?\n[\t ]+</dependencies>)", "$1$2");
+
+			var otherDependencyUpdates = new TreeMap<Dependency, List<Version>>();
+			if (!update) {
+				dependencyUpdates.entrySet().removeIf(it -> {
+					if (!it.getKey().repositoryURL.equals(Dependency.DEFAULT_REPOSITORY_LOCATION)) {
+						try {
+							otherDependencyUpdates.putAll(analyzer.getAllUpdateVersions(List.of(it.getKey())));
+						} catch (IOException e) {
+							throw new RuntimeException(e);
+						}
+						return true;
+					}
+					return false;
+				});
+			}
+
 			var newMavenContent = replace(reducedMavenTarget, dependencyUpdates, true, !update, false,
 					majorInclusionPatterns);
+
+			if (!otherDependencyUpdates.isEmpty()) {
+				newMavenContent = replace(newMavenContent, otherDependencyUpdates, true, update, false,
+						majorInclusionPatterns);
+			}
+
 			writeString(mavenTarget, newMavenContent);
 
 			if (commitSummary) {
@@ -375,8 +400,13 @@ public class DependencyAnalyzer {
 		return content;
 	}
 
+	private static String toBrowseURL(String value) {
+		return value.replaceAll("https://repo.eclipse.org/content/repositories/([^-]+)-([^/]+)/(.*)",
+				"https://repo.eclipse.org/service/rest/repository/browse/$1-maven2-$2/$3");
+	}
+
 	private static String getReportVersion(Dependency dependency, Version version) {
-		return "[" + version + "](https://repo.maven.apache.org/maven2/" + dependency.groupId.replace('.', '/') + "/"
+		return "[" + version + "](" + toBrowseURL(dependency.repositoryURL) + dependency.groupId.replace('.', '/') + "/"
 				+ dependency.artifactId + "/" + version + "/)";
 	}
 
@@ -598,7 +628,7 @@ public class DependencyAnalyzer {
 		}
 
 		private static String getMDLink(Object label, Object uri) {
-			return "[" + label + "](" + uri + ")";
+			return "[" + label + "](" + toBrowseURL(uri.toString()) + ")";
 		}
 
 	}
@@ -667,7 +697,16 @@ public class DependencyAnalyzer {
 					var actualVersion = new Version(version);
 					var type = getText(mavenDependency, "type");
 					var classifier = getText(mavenDependency, "classifier");
-					dependencies.add(new Dependency(groupId, artifactId, type, actualVersion, classifier));
+					var repositoryURL = "https://repo.maven.apache.org/maven2/";
+					var repositories = evaluate(mavenDependency, "../../repositories/repository/url");
+					if (!repositories.isEmpty()) {
+						repositoryURL = repositories.get(0).getTextContent();
+						if (!repositoryURL.endsWith("/")) {
+							repositoryURL += "/";
+						}
+					}
+					dependencies
+							.add(new Dependency(groupId, artifactId, type, actualVersion, classifier, repositoryURL));
 				}
 			}
 
@@ -918,6 +957,8 @@ public class DependencyAnalyzer {
 	}
 
 	private static final class Dependency implements Comparable<Dependency> {
+		public static final String DEFAULT_REPOSITORY_LOCATION = "https://repo.maven.apache.org/maven2/";
+
 		private static final Version MAX_VERSION = new Version(Short.MAX_VALUE, 0, -1, null, null);
 
 		private final String groupId;
@@ -925,11 +966,18 @@ public class DependencyAnalyzer {
 		private final String type;
 		private final Version version;
 		private final String classifier;
+		private final String repositoryURL;
 
 		public Dependency(String groupId, String artifactId, String type, Version version, String classifier) {
+			this(groupId, artifactId, type, version, classifier, DEFAULT_REPOSITORY_LOCATION);
+		}
+
+		public Dependency(String groupId, String artifactId, String type, Version version, String classifier,
+				String repositoryURL) {
 			super();
 			this.groupId = groupId;
 			this.artifactId = artifactId;
+			this.repositoryURL = repositoryURL;
 			this.type = type == null ? "jar" : type;
 			this.version = version;
 			this.classifier = classifier;
@@ -943,12 +991,7 @@ public class DependencyAnalyzer {
 		}
 
 		public URI getGroupURI() {
-			var baseURI = "org.eclipse.lemminx".equals(groupId)
-					? "https://repo.eclipse.org/content/repositories/lemminx-releases/"
-					: "org.eclipse.orbit".equals(groupId)
-							? "https://repo.eclipse.org/content/repositories/orbit-approved-artifacts/"
-							: "https://repo.maven.apache.org/maven2/";
-			return URI.create(baseURI + groupId.replace('.', '/') + "/");
+			return URI.create(repositoryURL + groupId.replace('.', '/') + "/");
 		}
 
 		public URI getArtifactFolderURI() {
@@ -972,7 +1015,7 @@ public class DependencyAnalyzer {
 				return this;
 			}
 
-			return new Dependency(groupId, artifactId, type, version, classifier);
+			return new Dependency(groupId, artifactId, type, version, classifier, repositoryURL);
 		}
 
 		public boolean isSameArtfiact(Dependency other) {

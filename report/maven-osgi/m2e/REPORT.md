@@ -5,8 +5,8 @@
     - [archetype-catalog](https://repo.maven.apache.org/maven2/org/apache/maven/archetype/archetype-catalog/) **[3.2.1](https://repo.maven.apache.org/maven2/org/apache/maven/archetype/archetype-catalog/3.2.1)** < [3.4.1](https://repo.maven.apache.org/maven2/org/apache/maven/archetype/archetype-catalog/3.4.1/)
     - [archetype-common](https://repo.maven.apache.org/maven2/org/apache/maven/archetype/archetype-common/) **[3.2.1](https://repo.maven.apache.org/maven2/org/apache/maven/archetype/archetype-common/3.2.1)** < [3.4.1](https://repo.maven.apache.org/maven2/org/apache/maven/archetype/archetype-common/3.4.1/)
     - [archetype-descriptor](https://repo.maven.apache.org/maven2/org/apache/maven/archetype/archetype-descriptor/) **[3.2.1](https://repo.maven.apache.org/maven2/org/apache/maven/archetype/archetype-descriptor/3.2.1)** < [3.4.1](https://repo.maven.apache.org/maven2/org/apache/maven/archetype/archetype-descriptor/3.4.1/)
- - [org.eclipse.lemminx](https://repo.eclipse.org/content/repositories/lemminx-releases/org/eclipse/lemminx/)
-    - [org.eclipse.lemminx](https://repo.eclipse.org/content/repositories/lemminx-releases/org/eclipse/lemminx/org.eclipse.lemminx/) **[0.31.0](https://repo.eclipse.org/content/repositories/lemminx-releases/org/eclipse/lemminx/org.eclipse.lemminx/0.31.0)** < [0.31.2](https://repo.maven.apache.org/maven2/org/eclipse/lemminx/org.eclipse.lemminx/0.31.2/)
+ - [org.eclipse.lemminx](https://repo.eclipse.org/service/rest/repository/browse/lemminx-maven2-releases/org/eclipse/lemminx/)
+    - [org.eclipse.lemminx](https://repo.eclipse.org/service/rest/repository/browse/lemminx-maven2-releases/org/eclipse/lemminx/org.eclipse.lemminx/) **[0.31.0](https://repo.eclipse.org/service/rest/repository/browse/lemminx-maven2-releases/org/eclipse/lemminx/org.eclipse.lemminx/0.31.0)** < [0.31.2](https://repo.eclipse.org/service/rest/repository/browse/lemminx-maven2-releases/org/eclipse/lemminx/org.eclipse.lemminx/0.31.2/)
 
 ## Updates Applied
 [updated.target](updated.target)
@@ -42,5 +42,5 @@
     - [versions-model](https://repo.maven.apache.org/maven2/org/codehaus/mojo/versions/versions-model/) **[2.21.0](https://repo.maven.apache.org/maven2/org/codehaus/mojo/versions/versions-model/2.21.0)**
  - [org.codehaus.woodstox](https://repo.maven.apache.org/maven2/org/codehaus/woodstox/)
     - [stax2-api](https://repo.maven.apache.org/maven2/org/codehaus/woodstox/stax2-api/) **[4.3.0](https://repo.maven.apache.org/maven2/org/codehaus/woodstox/stax2-api/4.3.0)**
- - [org.eclipse.lemminx](https://repo.eclipse.org/content/repositories/lemminx-releases/org/eclipse/lemminx/)
-    - [org.eclipse.lemminx](https://repo.eclipse.org/content/repositories/lemminx-releases/org/eclipse/lemminx/org.eclipse.lemminx/) **[0.31.0](https://repo.eclipse.org/content/repositories/lemminx-releases/org/eclipse/lemminx/org.eclipse.lemminx/0.31.0)** - *uber*
+ - [org.eclipse.lemminx](https://repo.eclipse.org/service/rest/repository/browse/lemminx-maven2-releases/org/eclipse/lemminx/)
+    - [org.eclipse.lemminx](https://repo.eclipse.org/service/rest/repository/browse/lemminx-maven2-releases/org/eclipse/lemminx/org.eclipse.lemminx/) **[0.31.0](https://repo.eclipse.org/service/rest/repository/browse/lemminx-maven2-releases/org/eclipse/lemminx/org.eclipse.lemminx/0.31.0)** - *uber*
