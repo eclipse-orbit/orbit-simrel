@@ -117,6 +117,8 @@
     - [json-simple](https://repo.maven.apache.org/maven2/com/googlecode/json-simple/json-simple/) **[1.1.1](https://repo.maven.apache.org/maven2/com/googlecode/json-simple/json-simple/1.1.1)**
  - [com.h2database](https://repo.maven.apache.org/maven2/com/h2database/)
     - [h2](https://repo.maven.apache.org/maven2/com/h2database/h2/) **[2.4.240](https://repo.maven.apache.org/maven2/com/h2database/h2/2.4.240)**
+ - [com.ibm.icu](https://repo.maven.apache.org/maven2/com/ibm/icu/)
+    - [icu4j](https://repo.maven.apache.org/maven2/com/ibm/icu/icu4j/) **[78.3](https://repo.maven.apache.org/maven2/com/ibm/icu/icu4j/78.3)**
  - [com.miglayout](https://repo.maven.apache.org/maven2/com/miglayout/)
     - [miglayout-core](https://repo.maven.apache.org/maven2/com/miglayout/miglayout-core/) **[11.4.3](https://repo.maven.apache.org/maven2/com/miglayout/miglayout-core/11.4.3)**
     - [miglayout-swing](https://repo.maven.apache.org/maven2/com/miglayout/miglayout-swing/) **[11.4.3](https://repo.maven.apache.org/maven2/com/miglayout/miglayout-swing/11.4.3)**

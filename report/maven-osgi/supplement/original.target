@@ -161,6 +161,12 @@
           <type>jar</type>
         </dependency>
         <dependency>
+          <groupId>com.ibm.icu</groupId>
+          <artifactId>icu4j</artifactId>
+          <version>78.3</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
           <groupId>com.networknt</groupId>
           <artifactId>json-schema-validator</artifactId>
           <version>1.5.9</version>

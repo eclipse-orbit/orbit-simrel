@@ -3,7 +3,7 @@
 <target name="Maven" sequenceNumber="1">
   <locations>
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="error" type="Maven">
-      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.41.0.v20260621-1000">
+      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.41.0.v20260622-1000">
         <description>This feature's dependencies are pulled directly from Maven central.</description>
         <copyright>
 Copyright (c) 2026 Eclipse contributors and others.
@@ -16,7 +16,7 @@ https://www.eclipse.org/legal/epl-2.0/
 SPDX-License-Identifier: EPL-2.0
         </copyright>
         <license url="https://www.eclipse.org/legal/epl-2.0/"/>
-        <!-- SHA1 d14e65378be66075ad2f1b7ac57e4349ab4ff7a6 -->
+        <!-- SHA1 3d6ce01bca067a673f9d4dfa31ab443b047ab088 -->
       </feature>
       <dependencies>
         <dependency>
@@ -330,6 +330,12 @@ SPDX-License-Identifier: EPL-2.0
           <groupId>com.h2database</groupId>
           <artifactId>h2</artifactId>
           <version>2.4.240</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>com.ibm.icu</groupId>
+          <artifactId>icu4j</artifactId>
+          <version>78.3</version>
           <type>jar</type>
         </dependency>
         <dependency>
