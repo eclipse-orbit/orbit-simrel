@@ -119,6 +119,7 @@ BASELINE=${params.BASELINE}
                   -Ddash.iplab.token=$GITLAB_API_TOKEN \
                   -Dosgi.platform=gtk.linux.x86_64 \
                   -DexcludeArtifactIds=ignore-me \
+                  -DexcludeGroupIds=p2.eclipse.feature \
                   -Dorg.eclipse.justj.p2.manager.extra.args="$extra_arguments" \
                   clean \
                   verify
