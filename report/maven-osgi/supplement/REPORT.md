@@ -14,8 +14,8 @@
  - [com.github.oshi](https://repo.maven.apache.org/maven2/com/github/oshi/)
     - [oshi-core](https://repo.maven.apache.org/maven2/com/github/oshi/oshi-core/) **[6.12.0](https://repo.maven.apache.org/maven2/com/github/oshi/oshi-core/6.12.0)** < [7.3.1](https://repo.maven.apache.org/maven2/com/github/oshi/oshi-core/7.3.1/)
  - [com.networknt](https://repo.maven.apache.org/maven2/com/networknt/)
-    - [json-schema-validator](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/) **[1.5.9](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/1.5.9)** < [3.0.4](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/3.0.4/)
-    - [json-schema-validator](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/) **[2.0.1](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/2.0.1)** < [3.0.4](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/3.0.4/)
+    - [json-schema-validator](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/) **[1.5.9](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/1.5.9)** < [3.0.5](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/3.0.5/)
+    - [json-schema-validator](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/) **[2.0.2](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/2.0.2)** < [3.0.5](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/3.0.5/)
  - [com.sun.xml.bind](https://repo.maven.apache.org/maven2/com/sun/xml/bind/)
     - [jaxb-osgi](https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-osgi/) **[2.3.9](https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-osgi/2.3.9)** < [4.0.9](https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-osgi/4.0.9/)
  - [jakarta.ejb](https://repo.maven.apache.org/maven2/jakarta/ejb/)
@@ -118,7 +118,7 @@
     - [h2](https://repo.maven.apache.org/maven2/com/h2database/h2/) **[2.4.240](https://repo.maven.apache.org/maven2/com/h2database/h2/2.4.240)**
  - [com.networknt](https://repo.maven.apache.org/maven2/com/networknt/)
     - [json-schema-validator](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/) **[1.5.9](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/1.5.9)**
-    - [json-schema-validator](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/) **[2.0.1](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/2.0.1)**
+    - [json-schema-validator](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/) **[2.0.2](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/2.0.2)**
  - [com.sun.xml.bind](https://repo.maven.apache.org/maven2/com/sun/xml/bind/)
     - [jaxb-core](https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-core/) **[4.0.9](https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-core/4.0.9)**
     - [jaxb-impl](https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-impl/) **[4.0.9](https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-impl/4.0.9)**
@@ -132,6 +132,7 @@
  - [commons-jxpath](https://repo.maven.apache.org/maven2/commons-jxpath/)
     - [commons-jxpath](https://repo.maven.apache.org/maven2/commons-jxpath/commons-jxpath/) **[1.4.0](https://repo.maven.apache.org/maven2/commons-jxpath/commons-jxpath/1.4.0)**
  - [commons-logging](https://repo.maven.apache.org/maven2/commons-logging/)
+    - [commons-logging](https://repo.maven.apache.org/maven2/commons-logging/commons-logging/) **[1.2](https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.2)**
     - [commons-logging](https://repo.maven.apache.org/maven2/commons-logging/commons-logging/) **[1.4.0](https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.4.0)**
  - [commons-net](https://repo.maven.apache.org/maven2/commons-net/)
     - [commons-net](https://repo.maven.apache.org/maven2/commons-net/commons-net/) **[3.13.0](https://repo.maven.apache.org/maven2/commons-net/commons-net/3.13.0)**

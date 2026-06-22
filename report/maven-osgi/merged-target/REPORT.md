@@ -10,8 +10,8 @@
  - [com.github.oshi](https://repo.maven.apache.org/maven2/com/github/oshi/)
     - [oshi-core](https://repo.maven.apache.org/maven2/com/github/oshi/oshi-core/) **[6.12.0](https://repo.maven.apache.org/maven2/com/github/oshi/oshi-core/6.12.0)** < [7.3.1](https://repo.maven.apache.org/maven2/com/github/oshi/oshi-core/7.3.1/)
  - [com.networknt](https://repo.maven.apache.org/maven2/com/networknt/)
-    - [json-schema-validator](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/) **[1.5.9](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/1.5.9)** < [3.0.4](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/3.0.4/)
-    - [json-schema-validator](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/) **[2.0.1](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/2.0.1)** < [3.0.4](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/3.0.4/)
+    - [json-schema-validator](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/) **[1.5.9](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/1.5.9)** < [3.0.5](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/3.0.5/)
+    - [json-schema-validator](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/) **[2.0.2](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/2.0.2)** < [3.0.5](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/3.0.5/)
  - [jakarta.ejb](https://repo.maven.apache.org/maven2/jakarta/ejb/)
     - [jakarta.ejb-api](https://repo.maven.apache.org/maven2/jakarta/ejb/jakarta.ejb-api/) **[3.2.6](https://repo.maven.apache.org/maven2/jakarta/ejb/jakarta.ejb-api/3.2.6)** < [4.0.1](https://repo.maven.apache.org/maven2/jakarta/ejb/jakarta.ejb-api/4.0.1/)
  - [jakarta.jws](https://repo.maven.apache.org/maven2/jakarta/jws/)
@@ -122,7 +122,7 @@
     - [miglayout-swing](https://repo.maven.apache.org/maven2/com/miglayout/miglayout-swing/) **[11.4.3](https://repo.maven.apache.org/maven2/com/miglayout/miglayout-swing/11.4.3)**
  - [com.networknt](https://repo.maven.apache.org/maven2/com/networknt/)
     - [json-schema-validator](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/) **[1.5.9](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/1.5.9)**
-    - [json-schema-validator](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/) **[2.0.1](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/2.0.1)**
+    - [json-schema-validator](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/) **[2.0.2](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/2.0.2)**
  - [com.sun.xml.bind](https://repo.maven.apache.org/maven2/com/sun/xml/bind/)
     - [jaxb-core](https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-core/) **[4.0.9](https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-core/4.0.9)**
     - [jaxb-impl](https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-impl/) **[4.0.9](https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-impl/4.0.9)**
@@ -147,6 +147,7 @@
  - [commons-jxpath](https://repo.maven.apache.org/maven2/commons-jxpath/)
     - [commons-jxpath](https://repo.maven.apache.org/maven2/commons-jxpath/commons-jxpath/) **[1.4.0](https://repo.maven.apache.org/maven2/commons-jxpath/commons-jxpath/1.4.0)**
  - [commons-logging](https://repo.maven.apache.org/maven2/commons-logging/)
+    - [commons-logging](https://repo.maven.apache.org/maven2/commons-logging/commons-logging/) **[1.2](https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.2)**
     - [commons-logging](https://repo.maven.apache.org/maven2/commons-logging/commons-logging/) **[1.4.0](https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.4.0)**
  - [commons-net](https://repo.maven.apache.org/maven2/commons-net/)
     - [commons-net](https://repo.maven.apache.org/maven2/commons-net/commons-net/) **[3.13.0](https://repo.maven.apache.org/maven2/commons-net/commons-net/3.13.0)**
@@ -380,7 +381,7 @@
     - [org.jacoco.core](https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.core/) **[0.8.15](https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.core/0.8.15)**
     - [org.jacoco.report](https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.report/) **[0.8.15](https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.report/0.8.15)**
  - [org.javassist](https://repo.maven.apache.org/maven2/org/javassist/)
-    - [javassist](https://repo.maven.apache.org/maven2/org/javassist/javassist/) **[3.31.0-GA](https://repo.maven.apache.org/maven2/org/javassist/javassist/3.31.0-GA)**
+    - [javassist](https://repo.maven.apache.org/maven2/org/javassist/javassist/) **[3.32.0-GA](https://repo.maven.apache.org/maven2/org/javassist/javassist/3.32.0-GA)**
  - [org.json](https://repo.maven.apache.org/maven2/org/json/)
     - [json](https://repo.maven.apache.org/maven2/org/json/json/) **[20260522](https://repo.maven.apache.org/maven2/org/json/json/20260522)**
  - [org.jsoup](https://repo.maven.apache.org/maven2/org/jsoup/)
