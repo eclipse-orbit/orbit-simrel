@@ -1053,7 +1053,7 @@ Export-Package:         *;version="${version}";-noimport:=true
 <!-- ______________________________________________________ org.apache.httpcomponents.core5 __________________________________________________________________________________________________-->
 
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
-      <feature id="org.eclipse.orbit.maven.org.apache.httpcomponents.core5" label="Orbit Maven BND org.apache.httpcomponents.core5" provider-name="Eclipse Orbit" version="4.41.0">
+      <feature id="org.eclipse.orbit.maven.org.apache.httpcomponents.core5" label="Orbit Maven BND org.apache.httpcomponents.core5" provider-name="Eclipse Orbit" version="4.41.0.v20260625-1000">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
 Copyright (c) 2026 Eclipse contributors and others.
@@ -1071,24 +1071,24 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>org.apache.httpcomponents.core5</groupId>
           <artifactId>httpcore5</artifactId>
-          <version>5.4.2</version>
+          <version>5.4.3</version>
           <type>jar</type>
         </dependency>
 
         <dependency>
           <groupId>org.apache.httpcomponents.core5</groupId>
           <artifactId>httpcore5-h2</artifactId>
-          <version>5.4.2</version>
+          <version>5.4.3</version>
           <type>jar</type>
         </dependency>
       </dependencies>
       <instructions>
-<!-- SHA1 3ad34591ac21b9a6200254db534d941d64da1d00 -->
+<!-- SHA1 39309e847bba8cb61972b75e53bb59f756854e9d -->
 <![CDATA[
 Bundle-Name:            Bundle ${mvnGroupId} : ${mvnArtifactId}
 version:                ${versionmask;===;${version_cleanup;${mvnVersion}}}
 Bundle-SymbolicName:    ${mvnGroupId}.${mvnArtifactId}
-Bundle-Version:         ${version}.v20260306-1000
+Bundle-Version:         ${version}.v20260625-1000
 Eclipse-Wrapped-Bundle: ${mvnGroupId}:${mvnArtifactId}:${mvnVersion}
 Import-Package:         org.conscrypt;resolution:=optional,\
                         *
