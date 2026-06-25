@@ -2,7 +2,7 @@
 
 ## Minor Updates
  - [ch.qos.logback](https://repo.maven.apache.org/maven2/ch/qos/logback/)
-    - [logback-classic](https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/) **[1.5.34](https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/1.5.34)** < [1.5.35](https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/1.5.35/)
+    - [logback-classic](https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/) **[1.5.35](https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/1.5.35)** < [1.5.36](https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/1.5.36/)
  - [org.apache.maven.archetype](https://repo.maven.apache.org/maven2/org/apache/maven/archetype/)
     - [archetype-catalog](https://repo.maven.apache.org/maven2/org/apache/maven/archetype/archetype-catalog/) **[3.2.1](https://repo.maven.apache.org/maven2/org/apache/maven/archetype/archetype-catalog/3.2.1)** < [3.4.1](https://repo.maven.apache.org/maven2/org/apache/maven/archetype/archetype-catalog/3.4.1/)
     - [archetype-common](https://repo.maven.apache.org/maven2/org/apache/maven/archetype/archetype-common/) **[3.2.1](https://repo.maven.apache.org/maven2/org/apache/maven/archetype/archetype-common/3.2.1)** < [3.4.1](https://repo.maven.apache.org/maven2/org/apache/maven/archetype/archetype-common/3.4.1/)
@@ -15,7 +15,7 @@
 
 ## Content
  - [ch.qos.logback](https://repo.maven.apache.org/maven2/ch/qos/logback/)
-    - [logback-classic](https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/) **[1.5.34](https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/1.5.34)**
+    - [logback-classic](https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/) **[1.5.35](https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/1.5.35)**
  - [com.google.code.gson](https://repo.maven.apache.org/maven2/com/google/code/gson/)
     - [gson](https://repo.maven.apache.org/maven2/com/google/code/gson/gson/) **[2.14.0](https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.14.0)**
  - [com.google.guava](https://repo.maven.apache.org/maven2/com/google/guava/)
