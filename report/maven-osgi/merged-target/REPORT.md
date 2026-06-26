@@ -8,7 +8,7 @@
  - [com.fasterxml.woodstox](https://repo.maven.apache.org/maven2/com/fasterxml/woodstox/)
     - [woodstox-core](https://repo.maven.apache.org/maven2/com/fasterxml/woodstox/woodstox-core/) **[6.7.0](https://repo.maven.apache.org/maven2/com/fasterxml/woodstox/woodstox-core/6.7.0)** < [7.2.1](https://repo.maven.apache.org/maven2/com/fasterxml/woodstox/woodstox-core/7.2.1/)
  - [com.github.oshi](https://repo.maven.apache.org/maven2/com/github/oshi/)
-    - [oshi-core](https://repo.maven.apache.org/maven2/com/github/oshi/oshi-core/) **[6.12.0](https://repo.maven.apache.org/maven2/com/github/oshi/oshi-core/6.12.0)** < [7.3.1](https://repo.maven.apache.org/maven2/com/github/oshi/oshi-core/7.3.1/)
+    - [oshi-core](https://repo.maven.apache.org/maven2/com/github/oshi/oshi-core/) **[6.12.0](https://repo.maven.apache.org/maven2/com/github/oshi/oshi-core/6.12.0)** < [7.3.2](https://repo.maven.apache.org/maven2/com/github/oshi/oshi-core/7.3.2/)
  - [com.networknt](https://repo.maven.apache.org/maven2/com/networknt/)
     - [json-schema-validator](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/) **[1.5.9](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/1.5.9)** < [3.0.5](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/3.0.5/)
     - [json-schema-validator](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/) **[2.0.3](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/2.0.3)** < [3.0.5](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/3.0.5/)
