@@ -6,8 +6,8 @@
     - [jnr-constants](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-constants/) **[0.10.4](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-constants/0.10.4)** < [0.11.0](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-constants/0.11.0/)
     - [jnr-enxio](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-enxio/) **[0.32.20](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-enxio/0.32.20)** < [0.33.0](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-enxio/0.33.0/)
     - [jnr-ffi](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-ffi/) **[2.2.19](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-ffi/2.2.19)** < [2.3.0](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-ffi/2.3.0/)
-    - [jnr-posix](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-posix/) **[3.1.22](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-posix/3.1.22)** < [3.2.0](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-posix/3.2.0/)
-    - [jnr-unixsocket](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-unixsocket/) **[0.38.25](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-unixsocket/0.38.25)** < [0.39.0](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-unixsocket/0.39.0/)
+    - [jnr-posix](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-posix/) **[3.1.22](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-posix/3.1.22)** < [3.2.1](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-posix/3.2.1/)
+    - [jnr-unixsocket](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-unixsocket/) **[0.38.25](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-unixsocket/0.38.25)** < [0.39.1](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-unixsocket/0.39.1/)
 
 ## Updates Applied
 [updated.target](updated.target)

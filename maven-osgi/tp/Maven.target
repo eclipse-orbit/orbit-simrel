@@ -3,7 +3,7 @@
 <target name="Maven" sequenceNumber="1">
   <locations>
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="error" type="Maven">
-      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.41.0.v20260626-1000">
+      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.41.0.v20260627-1000">
         <description>This feature's dependencies are pulled directly from Maven central.</description>
         <copyright>
 Copyright (c) 2026 Eclipse contributors and others.
@@ -16,7 +16,7 @@ https://www.eclipse.org/legal/epl-2.0/
 SPDX-License-Identifier: EPL-2.0
         </copyright>
         <license url="https://www.eclipse.org/legal/epl-2.0/"/>
-        <!-- SHA1 26a7d102dc6fc2165d698db98a3b4a293d6a9a94 -->
+        <!-- SHA1 59f0754d2a908a66425dc4ab7cb6a829bf87c1aa -->
       </feature>
       <dependencies>
         <dependency>
@@ -221,13 +221,13 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>com.github.jnr</groupId>
           <artifactId>jnr-posix</artifactId>
-          <version>3.1.22</version>
+          <version>3.2.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>com.github.jnr</groupId>
           <artifactId>jnr-unixsocket</artifactId>
-          <version>0.38.25</version>
+          <version>0.39.1</version>
           <type>jar</type>
         </dependency>
         <dependency>

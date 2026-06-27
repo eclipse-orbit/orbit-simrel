@@ -86,8 +86,8 @@
     - [jnr-constants](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-constants/) **[0.11.0](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-constants/0.11.0)**
     - [jnr-enxio](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-enxio/) **[0.33.0](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-enxio/0.33.0)**
     - [jnr-ffi](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-ffi/) **[2.3.0](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-ffi/2.3.0)**
-    - [jnr-posix](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-posix/) **[3.2.0](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-posix/3.2.0)**
-    - [jnr-unixsocket](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-unixsocket/) **[0.39.0](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-unixsocket/0.39.0)**
+    - [jnr-posix](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-posix/) **[3.2.1](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-posix/3.2.1)**
+    - [jnr-unixsocket](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-unixsocket/) **[0.39.1](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-unixsocket/0.39.1)**
  - [com.github.librepdf](https://repo.maven.apache.org/maven2/com/github/librepdf/)
     - [openpdf](https://repo.maven.apache.org/maven2/com/github/librepdf/openpdf/) **[1.4.2](https://repo.maven.apache.org/maven2/com/github/librepdf/openpdf/1.4.2)**
     - [openpdf](https://repo.maven.apache.org/maven2/com/github/librepdf/openpdf/) **[2.4.0](https://repo.maven.apache.org/maven2/com/github/librepdf/openpdf/2.4.0)**
