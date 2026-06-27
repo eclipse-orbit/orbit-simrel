@@ -12,7 +12,7 @@
     - [native-windows-aarch64](https://repo.maven.apache.org/maven2/com/aayushatharva/brotli4j/native-windows-aarch64/) **[1.23.0](https://repo.maven.apache.org/maven2/com/aayushatharva/brotli4j/native-windows-aarch64/1.23.0)**
     - [native-windows-x86_64](https://repo.maven.apache.org/maven2/com/aayushatharva/brotli4j/native-windows-x86_64/) **[1.23.0](https://repo.maven.apache.org/maven2/com/aayushatharva/brotli4j/native-windows-x86_64/1.23.0)**
  - [com.github.jnr](https://repo.maven.apache.org/maven2/com/github/jnr/)
-    - [jffi](https://repo.maven.apache.org/maven2/com/github/jnr/jffi/) **[1.3.15](https://repo.maven.apache.org/maven2/com/github/jnr/jffi/1.3.15)** - *native*
+    - [jffi](https://repo.maven.apache.org/maven2/com/github/jnr/jffi/) **[1.4.0](https://repo.maven.apache.org/maven2/com/github/jnr/jffi/1.4.0)** - *native*
  - [io.github.humbleui](https://repo.maven.apache.org/maven2/io/github/humbleui/)
     - [skija-linux-arm64](https://repo.maven.apache.org/maven2/io/github/humbleui/skija-linux-arm64/) **[0.143.17](https://repo.maven.apache.org/maven2/io/github/humbleui/skija-linux-arm64/0.143.17)**
     - [skija-linux-x64](https://repo.maven.apache.org/maven2/io/github/humbleui/skija-linux-x64/) **[0.143.17](https://repo.maven.apache.org/maven2/io/github/humbleui/skija-linux-x64/0.143.17)**
