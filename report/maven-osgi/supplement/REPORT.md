@@ -223,10 +223,10 @@
     - [httpclient-osgi](https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpclient-osgi/) **[4.5.14](https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpclient-osgi/4.5.14)**
     - [httpcore-osgi](https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcore-osgi/) **[4.4.16](https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcore-osgi/4.4.16)**
  - [org.apache.logging.log4j](https://repo.maven.apache.org/maven2/org/apache/logging/log4j/)
-    - [log4j-api](https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-api/) **[2.26.0](https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-api/2.26.0)**
-    - [log4j-core](https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-core/) **[2.26.0](https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-core/2.26.0)**
-    - [log4j-slf4j2-impl](https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-slf4j2-impl/) **[2.26.0](https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-slf4j2-impl/2.26.0)**
-    - [log4j-to-slf4j](https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-to-slf4j/) **[2.26.0](https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-to-slf4j/2.26.0)**
+    - [log4j-api](https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-api/) **[2.26.1](https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-api/2.26.1)**
+    - [log4j-core](https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-core/) **[2.26.1](https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-core/2.26.1)**
+    - [log4j-slf4j2-impl](https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-slf4j2-impl/) **[2.26.1](https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-slf4j2-impl/2.26.1)**
+    - [log4j-to-slf4j](https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-to-slf4j/) **[2.26.1](https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-to-slf4j/2.26.1)**
  - [org.apache.pdfbox](https://repo.maven.apache.org/maven2/org/apache/pdfbox/)
     - [fontbox](https://repo.maven.apache.org/maven2/org/apache/pdfbox/fontbox/) **[3.0.7](https://repo.maven.apache.org/maven2/org/apache/pdfbox/fontbox/3.0.7)**
     - [pdfbox](https://repo.maven.apache.org/maven2/org/apache/pdfbox/pdfbox/) **[3.0.7](https://repo.maven.apache.org/maven2/org/apache/pdfbox/pdfbox/3.0.7)**
