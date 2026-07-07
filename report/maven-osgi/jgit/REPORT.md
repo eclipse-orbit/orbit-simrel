@@ -50,8 +50,8 @@
     - [jetty-session](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-session/) **[12.1.10](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-session/12.1.10)**
     - [jetty-util](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util/) **[12.1.10](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util/12.1.10)**
     - [jetty-util-ajax](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util-ajax/) **[12.1.10](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util-ajax/12.1.10)**
- - [org.eclipse.jetty.ee10](https://repo.maven.apache.org/maven2/org/eclipse/jetty/ee10/)
-    - [jetty-ee10-servlet](https://repo.maven.apache.org/maven2/org/eclipse/jetty/ee10/jetty-ee10-servlet/) **[12.1.10](https://repo.maven.apache.org/maven2/org/eclipse/jetty/ee10/jetty-ee10-servlet/12.1.10)**
+ - [org.eclipse.jetty.ee11](https://repo.maven.apache.org/maven2/org/eclipse/jetty/ee11/)
+    - [jetty-ee11-servlet](https://repo.maven.apache.org/maven2/org/eclipse/jetty/ee11/jetty-ee11-servlet/) **[12.1.10](https://repo.maven.apache.org/maven2/org/eclipse/jetty/ee11/jetty-ee11-servlet/12.1.10)**
  - [org.hamcrest](https://repo.maven.apache.org/maven2/org/hamcrest/)
     - [hamcrest](https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest/) **[3.0](https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest/3.0)**
  - [org.mockito](https://repo.maven.apache.org/maven2/org/mockito/)
