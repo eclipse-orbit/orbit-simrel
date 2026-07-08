@@ -10,8 +10,8 @@
  - [com.github.oshi](https://repo.maven.apache.org/maven2/com/github/oshi/)
     - [oshi-core](https://repo.maven.apache.org/maven2/com/github/oshi/oshi-core/) **[6.12.0](https://repo.maven.apache.org/maven2/com/github/oshi/oshi-core/6.12.0)** < [7.3.2](https://repo.maven.apache.org/maven2/com/github/oshi/oshi-core/7.3.2/)
  - [com.networknt](https://repo.maven.apache.org/maven2/com/networknt/)
-    - [json-schema-validator](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/) **[1.5.9](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/1.5.9)** < [3.0.5](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/3.0.5/)
-    - [json-schema-validator](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/) **[2.0.3](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/2.0.3)** < [3.0.5](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/3.0.5/)
+    - [json-schema-validator](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/) **[1.5.9](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/1.5.9)** < [3.0.6](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/3.0.6/)
+    - [json-schema-validator](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/) **[2.0.4](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/2.0.4)** < [3.0.6](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/3.0.6/)
  - [jakarta.ejb](https://repo.maven.apache.org/maven2/jakarta/ejb/)
     - [jakarta.ejb-api](https://repo.maven.apache.org/maven2/jakarta/ejb/jakarta.ejb-api/) **[3.2.6](https://repo.maven.apache.org/maven2/jakarta/ejb/jakarta.ejb-api/3.2.6)** < [4.0.1](https://repo.maven.apache.org/maven2/jakarta/ejb/jakarta.ejb-api/4.0.1/)
  - [jakarta.jws](https://repo.maven.apache.org/maven2/jakarta/jws/)
@@ -64,19 +64,19 @@
     - [xmlrpc-server](https://repo.maven.apache.org/maven2/com/evolvedbinary/thirdparty/org/apache/xmlrpc/xmlrpc-server/) **[5.0.0](https://repo.maven.apache.org/maven2/com/evolvedbinary/thirdparty/org/apache/xmlrpc/xmlrpc-server/5.0.0)**
  - [com.fasterxml.jackson.core](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/)
     - [jackson-annotations](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/) **[2.22](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.22)**
-    - [jackson-core](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/) **[2.22.0](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.22.0)**
-    - [jackson-databind](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/) **[2.22.0](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.22.0)**
+    - [jackson-core](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/) **[2.22.1](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.22.1)**
+    - [jackson-databind](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/) **[2.22.1](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.22.1)**
  - [com.fasterxml.jackson.dataformat](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/)
-    - [jackson-dataformat-xml](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-xml/) **[2.22.0](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-xml/2.22.0)**
-    - [jackson-dataformat-yaml](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/) **[2.22.0](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.22.0)**
+    - [jackson-dataformat-xml](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-xml/) **[2.22.1](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-xml/2.22.1)**
+    - [jackson-dataformat-yaml](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/) **[2.22.1](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.22.1)**
  - [com.fasterxml.jackson.datatype](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/)
-    - [jackson-datatype-guava](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-guava/) **[2.22.0](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-guava/2.22.0)**
+    - [jackson-datatype-guava](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-guava/) **[2.22.1](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-guava/2.22.1)**
  - [com.fasterxml.jackson.jaxrs](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jaxrs/)
-    - [jackson-jaxrs-base](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jaxrs/jackson-jaxrs-base/) **[2.22.0](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jaxrs/jackson-jaxrs-base/2.22.0)**
-    - [jackson-jaxrs-json-provider](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jaxrs/jackson-jaxrs-json-provider/) **[2.22.0](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jaxrs/jackson-jaxrs-json-provider/2.22.0)**
+    - [jackson-jaxrs-base](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jaxrs/jackson-jaxrs-base/) **[2.22.1](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jaxrs/jackson-jaxrs-base/2.22.1)**
+    - [jackson-jaxrs-json-provider](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jaxrs/jackson-jaxrs-json-provider/) **[2.22.1](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jaxrs/jackson-jaxrs-json-provider/2.22.1)**
  - [com.fasterxml.jackson.module](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/)
-    - [jackson-module-jakarta-xmlbind-annotations](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-jakarta-xmlbind-annotations/) **[2.22.0](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-jakarta-xmlbind-annotations/2.22.0)**
-    - [jackson-module-jaxb-annotations](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/) **[2.22.0](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.22.0)**
+    - [jackson-module-jakarta-xmlbind-annotations](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-jakarta-xmlbind-annotations/) **[2.22.1](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-jakarta-xmlbind-annotations/2.22.1)**
+    - [jackson-module-jaxb-annotations](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/) **[2.22.1](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.22.1)**
  - [com.fasterxml.woodstox](https://repo.maven.apache.org/maven2/com/fasterxml/woodstox/)
     - [woodstox-core](https://repo.maven.apache.org/maven2/com/fasterxml/woodstox/woodstox-core/) **[6.7.0](https://repo.maven.apache.org/maven2/com/fasterxml/woodstox/woodstox-core/6.7.0)**
  - [com.github.ben-manes.caffeine](https://repo.maven.apache.org/maven2/com/github/ben-manes/caffeine/)
@@ -124,7 +124,7 @@
     - [miglayout-swing](https://repo.maven.apache.org/maven2/com/miglayout/miglayout-swing/) **[11.4.3](https://repo.maven.apache.org/maven2/com/miglayout/miglayout-swing/11.4.3)**
  - [com.networknt](https://repo.maven.apache.org/maven2/com/networknt/)
     - [json-schema-validator](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/) **[1.5.9](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/1.5.9)**
-    - [json-schema-validator](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/) **[2.0.3](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/2.0.3)**
+    - [json-schema-validator](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/) **[2.0.4](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/2.0.4)**
  - [com.sun.xml.bind](https://repo.maven.apache.org/maven2/com/sun/xml/bind/)
     - [jaxb-core](https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-core/) **[4.0.9](https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-core/4.0.9)**
     - [jaxb-impl](https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-impl/) **[4.0.9](https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-impl/4.0.9)**
@@ -422,12 +422,12 @@
  - [org.mongodb](https://repo.maven.apache.org/maven2/org/mongodb/)
     - [mongo-java-driver](https://repo.maven.apache.org/maven2/org/mongodb/mongo-java-driver/) **[3.12.14](https://repo.maven.apache.org/maven2/org/mongodb/mongo-java-driver/3.12.14)**
  - [org.mortbay.jasper](https://repo.maven.apache.org/maven2/org/mortbay/jasper/)
-    - [mortbay-apache-el](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-el/) **[9.0.118](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-el/9.0.118)**
-    - [mortbay-apache-el](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-el/) **[10.1.55](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-el/10.1.55)**
-    - [mortbay-apache-el](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-el/) **[11.0.22](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-el/11.0.22)**
-    - [mortbay-apache-jsp](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-jsp/) **[9.0.118](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-jsp/9.0.118)**
-    - [mortbay-apache-jsp](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-jsp/) **[10.1.55](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-jsp/10.1.55)**
-    - [mortbay-apache-jsp](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-jsp/) **[11.0.22](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-jsp/11.0.22)**
+    - [mortbay-apache-el](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-el/) **[9.0.119](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-el/9.0.119)**
+    - [mortbay-apache-el](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-el/) **[10.1.56](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-el/10.1.56)**
+    - [mortbay-apache-el](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-el/) **[11.0.23](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-el/11.0.23)**
+    - [mortbay-apache-jsp](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-jsp/) **[9.0.119](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-jsp/9.0.119)**
+    - [mortbay-apache-jsp](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-jsp/) **[10.1.56](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-jsp/10.1.56)**
+    - [mortbay-apache-jsp](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-jsp/) **[11.0.23](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-jsp/11.0.23)**
  - [org.mvel](https://repo.maven.apache.org/maven2/org/mvel/)
     - [mvel2](https://repo.maven.apache.org/maven2/org/mvel/mvel2/) **[2.5.2.Final](https://repo.maven.apache.org/maven2/org/mvel/mvel2/2.5.2.Final)**
  - [org.objenesis](https://repo.maven.apache.org/maven2/org/objenesis/)

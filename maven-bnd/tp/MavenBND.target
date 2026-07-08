@@ -3023,21 +3023,21 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>com.fasterxml.jackson.dataformat</groupId>
           <artifactId>jackson-dataformat-xml</artifactId>
-          <version>2.22.0</version>
+          <version>2.22.1</version>
           <type>jar</type>
         </dependency>
 
         <dependency>
           <groupId>com.fasterxml.jackson.dataformat</groupId>
           <artifactId>jackson-dataformat-yaml</artifactId>
-          <version>2.22.0</version>
+          <version>2.22.1</version>
           <type>jar</type>
         </dependency>
 
         <dependency>
           <groupId>com.fasterxml.jackson.core</groupId>
           <artifactId>jackson-core</artifactId>
-          <version>2.22.0</version>
+          <version>2.22.1</version>
           <type>jar</type>
         </dependency>
 
@@ -3051,7 +3051,7 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>com.fasterxml.jackson.core</groupId>
           <artifactId>jackson-databind</artifactId>
-          <version>2.22.0</version>
+          <version>2.22.1</version>
           <type>jar</type>
         </dependency>
 
@@ -3065,7 +3065,7 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>com.networknt</groupId>
           <artifactId>json-schema-validator</artifactId>
-          <version>2.0.3</version>
+          <version>2.0.4</version>
           <type>jar</type>
         </dependency>
 

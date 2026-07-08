@@ -1,6 +1,14 @@
 # Target Platform: [linuxtools](https://raw.githubusercontent.com/eclipse-linuxtools/org.eclipse.linuxtools/refs/heads/master/releng/org.eclipse.linuxtools.target/linuxtools-latest.target)
 
 ## Minor Updates
+ - [com.fasterxml.jackson.core](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/)
+    - [jackson-core](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/) **[2.22.0](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.22.0)** < [2.22.1](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.22.1/)
+    - [jackson-databind](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/) **[2.22.0](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.22.0)** < [2.22.1](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.22.1/)
+ - [com.fasterxml.jackson.datatype](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/)
+    - [jackson-datatype-guava](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-guava/) **[2.22.0](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-guava/2.22.0)** < [2.22.1](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-guava/2.22.1/)
+ - [com.fasterxml.jackson.module](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/)
+    - [jackson-module-jakarta-xmlbind-annotations](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-jakarta-xmlbind-annotations/) **[2.22.0](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-jakarta-xmlbind-annotations/2.22.0)** < [2.22.1](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-jakarta-xmlbind-annotations/2.22.1/)
+    - [jackson-module-jaxb-annotations](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/) **[2.22.0](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.22.0)** < [2.22.1](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.22.1/)
  - [com.github.jnr](https://repo.maven.apache.org/maven2/com/github/jnr/)
     - [jffi](https://repo.maven.apache.org/maven2/com/github/jnr/jffi/) **[1.3.15](https://repo.maven.apache.org/maven2/com/github/jnr/jffi/1.3.15)** < [1.4.0](https://repo.maven.apache.org/maven2/com/github/jnr/jffi/1.4.0/)
     - [jnr-constants](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-constants/) **[0.10.4](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-constants/0.10.4)** < [0.11.0](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-constants/0.11.0/)
