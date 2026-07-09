@@ -45,6 +45,7 @@ org.mortbay.jasper:apache.* // These all moved to org.mortbay.jasper:mortbay-apa
 org.eclipse.swtchart:.* // These are not needed because there is a p2 repository for them.
 org.codehaus.mojo.versions:.* // m2e is wrapping these themselves and assigning an m2e BSN
 org.ow2.asm:asm.*:999.10(.1)? // Ignore until jacoco updates
+org.conscrypt:conscrypt-openjdk-uber:2\.6\.0 // Bad android dependency
 
 // There are dependencies for which we want to update to major versions automatically because these provides mostly only increment to major versions.
 //
@@ -73,6 +74,7 @@ biz.aQute.bnd:biz.aQute.tester.junit-platform:7.2.0 // Too restricted junit depe
 org.bndtools:org.bndtools.templating:7.2.0 // Bad guava dependency https://github.com/eclipse-platform/eclipse.platform.releng.aggregator/pull/3579#issuecomment-3693797403
 org.ow2.asm:asm.*:999.10(.1)? // Ignore until jacoco updates
 com.github.librepdf:openpdf:x3.0.5 // Bad transitive dependencies
+org.conscrypt:conscrypt-openjdk-uber:2\.6\.0 // Bad android dependency
 
 -keep
 commons-logging:commons-logging:1.2

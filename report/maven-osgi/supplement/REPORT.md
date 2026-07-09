@@ -12,7 +12,7 @@
  - [com.fasterxml.woodstox](https://repo.maven.apache.org/maven2/com/fasterxml/woodstox/)
     - [woodstox-core](https://repo.maven.apache.org/maven2/com/fasterxml/woodstox/woodstox-core/) **[6.7.0](https://repo.maven.apache.org/maven2/com/fasterxml/woodstox/woodstox-core/6.7.0)** < [7.2.1](https://repo.maven.apache.org/maven2/com/fasterxml/woodstox/woodstox-core/7.2.1/)
  - [com.github.oshi](https://repo.maven.apache.org/maven2/com/github/oshi/)
-    - [oshi-core](https://repo.maven.apache.org/maven2/com/github/oshi/oshi-core/) **[6.12.0](https://repo.maven.apache.org/maven2/com/github/oshi/oshi-core/6.12.0)** < [7.3.2](https://repo.maven.apache.org/maven2/com/github/oshi/oshi-core/7.3.2/)
+    - [oshi-core](https://repo.maven.apache.org/maven2/com/github/oshi/oshi-core/) **[6.12.0](https://repo.maven.apache.org/maven2/com/github/oshi/oshi-core/6.12.0)** < [7.4.0](https://repo.maven.apache.org/maven2/com/github/oshi/oshi-core/7.4.0/)
  - [com.networknt](https://repo.maven.apache.org/maven2/com/networknt/)
     - [json-schema-validator](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/) **[1.5.9](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/1.5.9)** < [3.0.6](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/3.0.6/)
     - [json-schema-validator](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/) **[2.0.4](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/2.0.4)** < [3.0.6](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/3.0.6/)
@@ -74,7 +74,7 @@
 
 ## Content
  - [ch.qos.logback](https://repo.maven.apache.org/maven2/ch/qos/logback/)
-    - [logback-core](https://repo.maven.apache.org/maven2/ch/qos/logback/logback-core/) **[1.5.37](https://repo.maven.apache.org/maven2/ch/qos/logback/logback-core/1.5.37)**
+    - [logback-core](https://repo.maven.apache.org/maven2/ch/qos/logback/logback-core/) **[1.5.38](https://repo.maven.apache.org/maven2/ch/qos/logback/logback-core/1.5.38)**
  - [ch.qos.reload4j](https://repo.maven.apache.org/maven2/ch/qos/reload4j/)
     - [reload4j](https://repo.maven.apache.org/maven2/ch/qos/reload4j/reload4j/) **[1.2.26](https://repo.maven.apache.org/maven2/ch/qos/reload4j/reload4j/1.2.26)**
  - [com.ethlo.time](https://repo.maven.apache.org/maven2/com/ethlo/time/)

@@ -8,7 +8,7 @@
  - [com.fasterxml.woodstox](https://repo.maven.apache.org/maven2/com/fasterxml/woodstox/)
     - [woodstox-core](https://repo.maven.apache.org/maven2/com/fasterxml/woodstox/woodstox-core/) **[6.7.0](https://repo.maven.apache.org/maven2/com/fasterxml/woodstox/woodstox-core/6.7.0)** < [7.2.1](https://repo.maven.apache.org/maven2/com/fasterxml/woodstox/woodstox-core/7.2.1/)
  - [com.github.oshi](https://repo.maven.apache.org/maven2/com/github/oshi/)
-    - [oshi-core](https://repo.maven.apache.org/maven2/com/github/oshi/oshi-core/) **[6.12.0](https://repo.maven.apache.org/maven2/com/github/oshi/oshi-core/6.12.0)** < [7.3.2](https://repo.maven.apache.org/maven2/com/github/oshi/oshi-core/7.3.2/)
+    - [oshi-core](https://repo.maven.apache.org/maven2/com/github/oshi/oshi-core/) **[6.12.0](https://repo.maven.apache.org/maven2/com/github/oshi/oshi-core/6.12.0)** < [7.4.0](https://repo.maven.apache.org/maven2/com/github/oshi/oshi-core/7.4.0/)
  - [com.networknt](https://repo.maven.apache.org/maven2/com/networknt/)
     - [json-schema-validator](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/) **[1.5.9](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/1.5.9)** < [3.0.6](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/3.0.6/)
     - [json-schema-validator](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/) **[2.0.4](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/2.0.4)** < [3.0.6](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/3.0.6/)
@@ -52,8 +52,8 @@
     - [biz.aQute.tester](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.tester/) **[7.3.0](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.tester/7.3.0)**
     - [biz.aQute.tester.junit-platform](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.tester.junit-platform/) **[7.3.0](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.tester.junit-platform/7.3.0)**
  - [ch.qos.logback](https://repo.maven.apache.org/maven2/ch/qos/logback/)
-    - [logback-classic](https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/) **[1.5.37](https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/1.5.37)**
-    - [logback-core](https://repo.maven.apache.org/maven2/ch/qos/logback/logback-core/) **[1.5.37](https://repo.maven.apache.org/maven2/ch/qos/logback/logback-core/1.5.37)**
+    - [logback-classic](https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/) **[1.5.38](https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/1.5.38)**
+    - [logback-core](https://repo.maven.apache.org/maven2/ch/qos/logback/logback-core/) **[1.5.38](https://repo.maven.apache.org/maven2/ch/qos/logback/logback-core/1.5.38)**
  - [ch.qos.reload4j](https://repo.maven.apache.org/maven2/ch/qos/reload4j/)
     - [reload4j](https://repo.maven.apache.org/maven2/ch/qos/reload4j/reload4j/) **[1.2.26](https://repo.maven.apache.org/maven2/ch/qos/reload4j/reload4j/1.2.26)**
  - [com.ethlo.time](https://repo.maven.apache.org/maven2/com/ethlo/time/)
@@ -273,8 +273,8 @@
     - [preflight](https://repo.maven.apache.org/maven2/org/apache/pdfbox/preflight/) **[3.0.7](https://repo.maven.apache.org/maven2/org/apache/pdfbox/preflight/3.0.7)**
     - [xmpbox](https://repo.maven.apache.org/maven2/org/apache/pdfbox/xmpbox/) **[3.0.7](https://repo.maven.apache.org/maven2/org/apache/pdfbox/xmpbox/3.0.7)**
  - [org.apache.sshd](https://repo.maven.apache.org/maven2/org/apache/sshd/)
-    - [sshd-osgi](https://repo.maven.apache.org/maven2/org/apache/sshd/sshd-osgi/) **[2.18.0](https://repo.maven.apache.org/maven2/org/apache/sshd/sshd-osgi/2.18.0)**
-    - [sshd-sftp](https://repo.maven.apache.org/maven2/org/apache/sshd/sshd-sftp/) **[2.18.0](https://repo.maven.apache.org/maven2/org/apache/sshd/sshd-sftp/2.18.0)**
+    - [sshd-osgi](https://repo.maven.apache.org/maven2/org/apache/sshd/sshd-osgi/) **[2.19.0](https://repo.maven.apache.org/maven2/org/apache/sshd/sshd-osgi/2.19.0)**
+    - [sshd-sftp](https://repo.maven.apache.org/maven2/org/apache/sshd/sshd-sftp/) **[2.19.0](https://repo.maven.apache.org/maven2/org/apache/sshd/sshd-sftp/2.19.0)**
  - [org.apache.tika](https://repo.maven.apache.org/maven2/org/apache/tika/)
     - [tika-core](https://repo.maven.apache.org/maven2/org/apache/tika/tika-core/) **[3.3.1](https://repo.maven.apache.org/maven2/org/apache/tika/tika-core/3.3.1)**
  - [org.apache.velocity](https://repo.maven.apache.org/maven2/org/apache/velocity/)

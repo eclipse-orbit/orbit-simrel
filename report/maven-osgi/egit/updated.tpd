@@ -138,8 +138,8 @@ maven jetty
 	includeSources
 {
 	dependency {
-		groupId = "org.eclipse.jetty.ee10"
-		artifactId = "jetty-ee10-servlet"
+		groupId = "org.eclipse.jetty.ee11"
+		artifactId = "jetty-ee11-servlet"
 		version = "12.1.11"
 	}
 	dependency {
@@ -224,12 +224,12 @@ maven sshd
 	dependency {
 		groupId = "org.apache.sshd"
 		artifactId = "sshd-osgi"
-		version = "2.18.0"
+		version = "2.19.0"
 	}
 	dependency {
 		groupId = "org.apache.sshd"
 		artifactId = "sshd-sftp"
-		version = "2.18.0"
+		version = "2.19.0"
 	}
 }
 
