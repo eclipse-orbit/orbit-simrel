@@ -267,11 +267,11 @@
     - [log4j-slf4j2-impl](https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-slf4j2-impl/) **[2.26.1](https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-slf4j2-impl/2.26.1)**
     - [log4j-to-slf4j](https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-to-slf4j/) **[2.26.1](https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-to-slf4j/2.26.1)**
  - [org.apache.pdfbox](https://repo.maven.apache.org/maven2/org/apache/pdfbox/)
-    - [fontbox](https://repo.maven.apache.org/maven2/org/apache/pdfbox/fontbox/) **[3.0.7](https://repo.maven.apache.org/maven2/org/apache/pdfbox/fontbox/3.0.7)**
-    - [pdfbox](https://repo.maven.apache.org/maven2/org/apache/pdfbox/pdfbox/) **[3.0.7](https://repo.maven.apache.org/maven2/org/apache/pdfbox/pdfbox/3.0.7)**
-    - [pdfbox-io](https://repo.maven.apache.org/maven2/org/apache/pdfbox/pdfbox-io/) **[3.0.7](https://repo.maven.apache.org/maven2/org/apache/pdfbox/pdfbox-io/3.0.7)**
-    - [preflight](https://repo.maven.apache.org/maven2/org/apache/pdfbox/preflight/) **[3.0.7](https://repo.maven.apache.org/maven2/org/apache/pdfbox/preflight/3.0.7)**
-    - [xmpbox](https://repo.maven.apache.org/maven2/org/apache/pdfbox/xmpbox/) **[3.0.7](https://repo.maven.apache.org/maven2/org/apache/pdfbox/xmpbox/3.0.7)**
+    - [fontbox](https://repo.maven.apache.org/maven2/org/apache/pdfbox/fontbox/) **[3.0.8](https://repo.maven.apache.org/maven2/org/apache/pdfbox/fontbox/3.0.8)**
+    - [pdfbox](https://repo.maven.apache.org/maven2/org/apache/pdfbox/pdfbox/) **[3.0.8](https://repo.maven.apache.org/maven2/org/apache/pdfbox/pdfbox/3.0.8)**
+    - [pdfbox-io](https://repo.maven.apache.org/maven2/org/apache/pdfbox/pdfbox-io/) **[3.0.8](https://repo.maven.apache.org/maven2/org/apache/pdfbox/pdfbox-io/3.0.8)**
+    - [preflight](https://repo.maven.apache.org/maven2/org/apache/pdfbox/preflight/) **[3.0.8](https://repo.maven.apache.org/maven2/org/apache/pdfbox/preflight/3.0.8)**
+    - [xmpbox](https://repo.maven.apache.org/maven2/org/apache/pdfbox/xmpbox/) **[3.0.8](https://repo.maven.apache.org/maven2/org/apache/pdfbox/xmpbox/3.0.8)**
  - [org.apache.sshd](https://repo.maven.apache.org/maven2/org/apache/sshd/)
     - [sshd-osgi](https://repo.maven.apache.org/maven2/org/apache/sshd/sshd-osgi/) **[2.19.0](https://repo.maven.apache.org/maven2/org/apache/sshd/sshd-osgi/2.19.0)**
     - [sshd-sftp](https://repo.maven.apache.org/maven2/org/apache/sshd/sshd-sftp/) **[2.19.0](https://repo.maven.apache.org/maven2/org/apache/sshd/sshd-sftp/2.19.0)**
