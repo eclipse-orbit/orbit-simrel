@@ -16,6 +16,8 @@
     - [jnr-ffi](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-ffi/) **[2.2.19](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-ffi/2.2.19)** < [2.3.0](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-ffi/2.3.0/)
     - [jnr-posix](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-posix/) **[3.1.22](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-posix/3.1.22)** < [3.2.1](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-posix/3.2.1/)
     - [jnr-unixsocket](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-unixsocket/) **[0.38.25](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-unixsocket/0.38.25)** < [0.39.2](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-unixsocket/0.39.2/)
+ - [org.bouncycastle](https://repo.maven.apache.org/maven2/org/bouncycastle/)
+    - [bcpkix-jdk18on](https://repo.maven.apache.org/maven2/org/bouncycastle/bcpkix-jdk18on/) **[1.84](https://repo.maven.apache.org/maven2/org/bouncycastle/bcpkix-jdk18on/1.84)** < [1.85](https://repo.maven.apache.org/maven2/org/bouncycastle/bcpkix-jdk18on/1.85/)
 
 ## Updates Applied
 [updated.target](updated.target)

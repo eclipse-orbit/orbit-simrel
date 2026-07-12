@@ -1,5 +1,15 @@
 # Target Platform: [egit](https://raw.githubusercontent.com/eclipse-egit/egit/master/org.eclipse.egit.target/maven/dependencies.tpd)
 
+## Minor Updates
+ - [org.bouncycastle](https://repo.maven.apache.org/maven2/org/bouncycastle/)
+    - [bcpg-jdk18on](https://repo.maven.apache.org/maven2/org/bouncycastle/bcpg-jdk18on/) **[1.84](https://repo.maven.apache.org/maven2/org/bouncycastle/bcpg-jdk18on/1.84)** < [1.85](https://repo.maven.apache.org/maven2/org/bouncycastle/bcpg-jdk18on/1.85/)
+    - [bcpkix-jdk18on](https://repo.maven.apache.org/maven2/org/bouncycastle/bcpkix-jdk18on/) **[1.84](https://repo.maven.apache.org/maven2/org/bouncycastle/bcpkix-jdk18on/1.84)** < [1.85](https://repo.maven.apache.org/maven2/org/bouncycastle/bcpkix-jdk18on/1.85/)
+    - [bcprov-jdk18on](https://repo.maven.apache.org/maven2/org/bouncycastle/bcprov-jdk18on/) **[1.84](https://repo.maven.apache.org/maven2/org/bouncycastle/bcprov-jdk18on/1.84)** < [1.85](https://repo.maven.apache.org/maven2/org/bouncycastle/bcprov-jdk18on/1.85/)
+    - [bcutil-jdk18on](https://repo.maven.apache.org/maven2/org/bouncycastle/bcutil-jdk18on/) **[1.84](https://repo.maven.apache.org/maven2/org/bouncycastle/bcutil-jdk18on/1.84)** < [1.85](https://repo.maven.apache.org/maven2/org/bouncycastle/bcutil-jdk18on/1.85/)
+
+## Updates Applied
+[updated.tpd](updated.tpd)
+
 ## Content
  - [args4j](https://repo.maven.apache.org/maven2/args4j/)
     - [args4j](https://repo.maven.apache.org/maven2/args4j/args4j/) **[2.37](https://repo.maven.apache.org/maven2/args4j/args4j/2.37)**

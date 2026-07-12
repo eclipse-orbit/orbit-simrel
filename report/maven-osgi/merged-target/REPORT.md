@@ -292,10 +292,10 @@
     - [org.bndtools.versioncontrol.ignores.manager](https://repo.maven.apache.org/maven2/org/bndtools/org.bndtools.versioncontrol.ignores.manager/) **[7.3.0](https://repo.maven.apache.org/maven2/org/bndtools/org.bndtools.versioncontrol.ignores.manager/7.3.0)**
     - [org.bndtools.versioncontrol.ignores.plugin.git](https://repo.maven.apache.org/maven2/org/bndtools/org.bndtools.versioncontrol.ignores.plugin.git/) **[7.3.0](https://repo.maven.apache.org/maven2/org/bndtools/org.bndtools.versioncontrol.ignores.plugin.git/7.3.0)**
  - [org.bouncycastle](https://repo.maven.apache.org/maven2/org/bouncycastle/)
-    - [bcpg-jdk18on](https://repo.maven.apache.org/maven2/org/bouncycastle/bcpg-jdk18on/) **[1.84](https://repo.maven.apache.org/maven2/org/bouncycastle/bcpg-jdk18on/1.84)**
-    - [bcpkix-jdk18on](https://repo.maven.apache.org/maven2/org/bouncycastle/bcpkix-jdk18on/) **[1.84](https://repo.maven.apache.org/maven2/org/bouncycastle/bcpkix-jdk18on/1.84)**
-    - [bcprov-jdk18on](https://repo.maven.apache.org/maven2/org/bouncycastle/bcprov-jdk18on/) **[1.84](https://repo.maven.apache.org/maven2/org/bouncycastle/bcprov-jdk18on/1.84)**
-    - [bcutil-jdk18on](https://repo.maven.apache.org/maven2/org/bouncycastle/bcutil-jdk18on/) **[1.84](https://repo.maven.apache.org/maven2/org/bouncycastle/bcutil-jdk18on/1.84)**
+    - [bcpg-jdk18on](https://repo.maven.apache.org/maven2/org/bouncycastle/bcpg-jdk18on/) **[1.85](https://repo.maven.apache.org/maven2/org/bouncycastle/bcpg-jdk18on/1.85)**
+    - [bcpkix-jdk18on](https://repo.maven.apache.org/maven2/org/bouncycastle/bcpkix-jdk18on/) **[1.85](https://repo.maven.apache.org/maven2/org/bouncycastle/bcpkix-jdk18on/1.85)**
+    - [bcprov-jdk18on](https://repo.maven.apache.org/maven2/org/bouncycastle/bcprov-jdk18on/) **[1.85](https://repo.maven.apache.org/maven2/org/bouncycastle/bcprov-jdk18on/1.85)**
+    - [bcutil-jdk18on](https://repo.maven.apache.org/maven2/org/bouncycastle/bcutil-jdk18on/) **[1.85](https://repo.maven.apache.org/maven2/org/bouncycastle/bcutil-jdk18on/1.85)**
  - [org.burningwave](https://repo.maven.apache.org/maven2/org/burningwave/)
     - [core](https://repo.maven.apache.org/maven2/org/burningwave/core/) **[12.66.2](https://repo.maven.apache.org/maven2/org/burningwave/core/12.66.2)**
     - [jvm-driver](https://repo.maven.apache.org/maven2/org/burningwave/jvm-driver/) **[8.19.1](https://repo.maven.apache.org/maven2/org/burningwave/jvm-driver/8.19.1)**
