@@ -1,11 +1,5 @@
 # Target Platform: [platform](https://raw.githubusercontent.com/eclipse-platform/eclipse.platform.releng.aggregator/master/eclipse.platform.releng.prereqs.sdk/eclipse-sdk-prereqs.target)
 
-## Minor Updates
- - [org.bouncycastle](https://repo.maven.apache.org/maven2/org/bouncycastle/)
-    - [bcpg-jdk18on](https://repo.maven.apache.org/maven2/org/bouncycastle/bcpg-jdk18on/) **[1.84](https://repo.maven.apache.org/maven2/org/bouncycastle/bcpg-jdk18on/1.84)** < [1.85](https://repo.maven.apache.org/maven2/org/bouncycastle/bcpg-jdk18on/1.85/)
-    - [bcprov-jdk18on](https://repo.maven.apache.org/maven2/org/bouncycastle/bcprov-jdk18on/) **[1.84](https://repo.maven.apache.org/maven2/org/bouncycastle/bcprov-jdk18on/1.84)** < [1.85](https://repo.maven.apache.org/maven2/org/bouncycastle/bcprov-jdk18on/1.85/)
-    - [bcutil-jdk18on](https://repo.maven.apache.org/maven2/org/bouncycastle/bcutil-jdk18on/) **[1.84](https://repo.maven.apache.org/maven2/org/bouncycastle/bcutil-jdk18on/1.84)** < [1.85](https://repo.maven.apache.org/maven2/org/bouncycastle/bcutil-jdk18on/1.85/)
-
 ## Major Updates
  - [jakarta.el](https://repo.maven.apache.org/maven2/jakarta/el/)
     - [jakarta.el-api](https://repo.maven.apache.org/maven2/jakarta/el/jakarta.el-api/) **[3.0.3](https://repo.maven.apache.org/maven2/jakarta/el/jakarta.el-api/3.0.3)** < [6.0.1](https://repo.maven.apache.org/maven2/jakarta/el/jakarta.el-api/6.0.1/)
@@ -16,9 +10,6 @@
  - [org.mortbay.jasper](https://repo.maven.apache.org/maven2/org/mortbay/jasper/)
     - [mortbay-apache-el](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-el/) **[9.0.119](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-el/9.0.119)** < [11.0.23](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-el/11.0.23/)
     - [mortbay-apache-jsp](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-jsp/) **[9.0.119](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-jsp/9.0.119)** < [11.0.23](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-jsp/11.0.23/)
-
-## Updates Applied
-[updated.target](updated.target)
 
 ## Content
  - [biz.aQute.bnd](https://repo.maven.apache.org/maven2/biz/aQute/bnd/)
@@ -85,9 +76,9 @@
     - [org.bndtools.versioncontrol.ignores.manager](https://repo.maven.apache.org/maven2/org/bndtools/org.bndtools.versioncontrol.ignores.manager/) **[7.3.0](https://repo.maven.apache.org/maven2/org/bndtools/org.bndtools.versioncontrol.ignores.manager/7.3.0)**
     - [org.bndtools.versioncontrol.ignores.plugin.git](https://repo.maven.apache.org/maven2/org/bndtools/org.bndtools.versioncontrol.ignores.plugin.git/) **[7.3.0](https://repo.maven.apache.org/maven2/org/bndtools/org.bndtools.versioncontrol.ignores.plugin.git/7.3.0)**
  - [org.bouncycastle](https://repo.maven.apache.org/maven2/org/bouncycastle/)
-    - [bcpg-jdk18on](https://repo.maven.apache.org/maven2/org/bouncycastle/bcpg-jdk18on/) **[1.84](https://repo.maven.apache.org/maven2/org/bouncycastle/bcpg-jdk18on/1.84)**
-    - [bcprov-jdk18on](https://repo.maven.apache.org/maven2/org/bouncycastle/bcprov-jdk18on/) **[1.84](https://repo.maven.apache.org/maven2/org/bouncycastle/bcprov-jdk18on/1.84)**
-    - [bcutil-jdk18on](https://repo.maven.apache.org/maven2/org/bouncycastle/bcutil-jdk18on/) **[1.84](https://repo.maven.apache.org/maven2/org/bouncycastle/bcutil-jdk18on/1.84)**
+    - [bcpg-jdk18on](https://repo.maven.apache.org/maven2/org/bouncycastle/bcpg-jdk18on/) **[1.85](https://repo.maven.apache.org/maven2/org/bouncycastle/bcpg-jdk18on/1.85)**
+    - [bcprov-jdk18on](https://repo.maven.apache.org/maven2/org/bouncycastle/bcprov-jdk18on/) **[1.85](https://repo.maven.apache.org/maven2/org/bouncycastle/bcprov-jdk18on/1.85)**
+    - [bcutil-jdk18on](https://repo.maven.apache.org/maven2/org/bouncycastle/bcutil-jdk18on/) **[1.85](https://repo.maven.apache.org/maven2/org/bouncycastle/bcutil-jdk18on/1.85)**
  - [org.commonmark](https://repo.maven.apache.org/maven2/org/commonmark/)
     - [commonmark](https://repo.maven.apache.org/maven2/org/commonmark/commonmark/) **[0.29.0](https://repo.maven.apache.org/maven2/org/commonmark/commonmark/0.29.0)**
     - [commonmark-ext-gfm-tables](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-gfm-tables/) **[0.29.0](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-gfm-tables/0.29.0)**
@@ -114,29 +105,29 @@
     - [jsoup](https://repo.maven.apache.org/maven2/org/jsoup/jsoup/) **[1.22.2](https://repo.maven.apache.org/maven2/org/jsoup/jsoup/1.22.2)**
  - [org.junit.jupiter](https://repo.maven.apache.org/maven2/org/junit/jupiter/)
     - [junit-jupiter-api](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/) **[5.14.4](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.14.4)**
-    - [junit-jupiter-api](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/) **[6.1.1](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/6.1.1)**
+    - [junit-jupiter-api](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/) **[6.1.2](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/6.1.2)**
     - [junit-jupiter-engine](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/) **[5.14.4](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.14.4)**
-    - [junit-jupiter-engine](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/) **[6.1.1](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/6.1.1)**
+    - [junit-jupiter-engine](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/) **[6.1.2](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/6.1.2)**
     - [junit-jupiter-migrationsupport](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-migrationsupport/) **[5.14.4](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-migrationsupport/5.14.4)**
-    - [junit-jupiter-migrationsupport](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-migrationsupport/) **[6.1.1](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-migrationsupport/6.1.1)**
+    - [junit-jupiter-migrationsupport](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-migrationsupport/) **[6.1.2](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-migrationsupport/6.1.2)**
     - [junit-jupiter-params](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-params/) **[5.14.4](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-params/5.14.4)**
-    - [junit-jupiter-params](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-params/) **[6.1.1](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-params/6.1.1)**
+    - [junit-jupiter-params](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-params/) **[6.1.2](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-params/6.1.2)**
  - [org.junit.platform](https://repo.maven.apache.org/maven2/org/junit/platform/)
     - [junit-platform-commons](https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/) **[1.14.4](https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.14.4)**
-    - [junit-platform-commons](https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/) **[6.1.1](https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/6.1.1)**
+    - [junit-platform-commons](https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/) **[6.1.2](https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/6.1.2)**
     - [junit-platform-engine](https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/) **[1.14.4](https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.14.4)**
-    - [junit-platform-engine](https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/) **[6.1.1](https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/6.1.1)**
+    - [junit-platform-engine](https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/) **[6.1.2](https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/6.1.2)**
     - [junit-platform-launcher](https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/) **[1.14.4](https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.14.4)**
-    - [junit-platform-launcher](https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/) **[6.1.1](https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/6.1.1)**
+    - [junit-platform-launcher](https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/) **[6.1.2](https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/6.1.2)**
     - [junit-platform-runner](https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-runner/) **[1.14.4](https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-runner/1.14.4)**
     - [junit-platform-suite-api](https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-suite-api/) **[1.14.4](https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-suite-api/1.14.4)**
-    - [junit-platform-suite-api](https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-suite-api/) **[6.1.1](https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-suite-api/6.1.1)**
+    - [junit-platform-suite-api](https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-suite-api/) **[6.1.2](https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-suite-api/6.1.2)**
     - [junit-platform-suite-commons](https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-suite-commons/) **[1.14.4](https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-suite-commons/1.14.4)**
     - [junit-platform-suite-engine](https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-suite-engine/) **[1.14.4](https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-suite-engine/1.14.4)**
-    - [junit-platform-suite-engine](https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-suite-engine/) **[6.1.1](https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-suite-engine/6.1.1)**
+    - [junit-platform-suite-engine](https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-suite-engine/) **[6.1.2](https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-suite-engine/6.1.2)**
  - [org.junit.vintage](https://repo.maven.apache.org/maven2/org/junit/vintage/)
     - [junit-vintage-engine](https://repo.maven.apache.org/maven2/org/junit/vintage/junit-vintage-engine/) **[5.14.4](https://repo.maven.apache.org/maven2/org/junit/vintage/junit-vintage-engine/5.14.4)**
-    - [junit-vintage-engine](https://repo.maven.apache.org/maven2/org/junit/vintage/junit-vintage-engine/) **[6.1.1](https://repo.maven.apache.org/maven2/org/junit/vintage/junit-vintage-engine/6.1.1)**
+    - [junit-vintage-engine](https://repo.maven.apache.org/maven2/org/junit/vintage/junit-vintage-engine/) **[6.1.2](https://repo.maven.apache.org/maven2/org/junit/vintage/junit-vintage-engine/6.1.2)**
  - [org.mockito](https://repo.maven.apache.org/maven2/org/mockito/)
     - [mockito-core](https://repo.maven.apache.org/maven2/org/mockito/mockito-core/) **[5.23.0](https://repo.maven.apache.org/maven2/org/mockito/mockito-core/5.23.0)**
  - [org.mortbay.jasper](https://repo.maven.apache.org/maven2/org/mortbay/jasper/)
