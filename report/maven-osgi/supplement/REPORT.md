@@ -249,7 +249,7 @@
     - [commonmark-ext-task-list-items](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-task-list-items/) **[0.29.0](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-task-list-items/0.29.0)**
     - [commonmark-ext-yaml-front-matter](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-yaml-front-matter/) **[0.29.0](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-yaml-front-matter/0.29.0)**
  - [org.conscrypt](https://repo.maven.apache.org/maven2/org/conscrypt/)
-    - [conscrypt-openjdk-uber](https://repo.maven.apache.org/maven2/org/conscrypt/conscrypt-openjdk-uber/) **[2.5.2](https://repo.maven.apache.org/maven2/org/conscrypt/conscrypt-openjdk-uber/2.5.2)**
+    - [conscrypt-openjdk-uber](https://repo.maven.apache.org/maven2/org/conscrypt/conscrypt-openjdk-uber/) **[2.6.1](https://repo.maven.apache.org/maven2/org/conscrypt/conscrypt-openjdk-uber/2.6.1)**
  - [org.easymock](https://repo.maven.apache.org/maven2/org/easymock/)
     - [easymock](https://repo.maven.apache.org/maven2/org/easymock/easymock/) **[5.6.0](https://repo.maven.apache.org/maven2/org/easymock/easymock/5.6.0)**
  - [org.eclipse.collections](https://repo.maven.apache.org/maven2/org/eclipse/collections/)
