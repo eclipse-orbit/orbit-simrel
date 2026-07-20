@@ -7,7 +7,7 @@
         <dependency>
           <groupId>ch.qos.logback</groupId>
           <artifactId>logback-core</artifactId>
-          <version>1.5.32</version>
+          <version>1.5.38</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -43,43 +43,43 @@
         <dependency>
           <groupId>com.fasterxml.jackson.core</groupId>
           <artifactId>jackson-annotations</artifactId>
-          <version>2.21</version>
+          <version>2.22</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>com.fasterxml.jackson.core</groupId>
           <artifactId>jackson-core</artifactId>
-          <version>2.21.3</version>
+          <version>2.22.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>com.fasterxml.jackson.core</groupId>
           <artifactId>jackson-databind</artifactId>
-          <version>2.21.3</version>
+          <version>2.22.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>com.fasterxml.jackson.dataformat</groupId>
           <artifactId>jackson-dataformat-xml</artifactId>
-          <version>2.21.3</version>
+          <version>2.22.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>com.fasterxml.jackson.dataformat</groupId>
           <artifactId>jackson-dataformat-yaml</artifactId>
-          <version>2.21.3</version>
+          <version>2.22.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>com.fasterxml.jackson.jaxrs</groupId>
           <artifactId>jackson-jaxrs-base</artifactId>
-          <version>2.21.3</version>
+          <version>2.22.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>com.fasterxml.jackson.jaxrs</groupId>
           <artifactId>jackson-jaxrs-json-provider</artifactId>
-          <version>2.21.3</version>
+          <version>2.22.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -109,7 +109,7 @@
         <dependency>
           <groupId>com.github.librepdf</groupId>
           <artifactId>openpdf</artifactId>
-          <version>3.0.4</version>
+          <version>3.0.5</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -139,7 +139,7 @@
         <dependency>
           <groupId>com.google.errorprone</groupId>
           <artifactId>error_prone_annotations</artifactId>
-          <version>2.49.0</version>
+          <version>2.50.0</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -161,6 +161,12 @@
           <type>jar</type>
         </dependency>
         <dependency>
+          <groupId>com.ibm.icu</groupId>
+          <artifactId>icu4j</artifactId>
+          <version>78.3</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
           <groupId>com.networknt</groupId>
           <artifactId>json-schema-validator</artifactId>
           <version>1.5.9</version>
@@ -169,19 +175,19 @@
         <dependency>
           <groupId>com.networknt</groupId>
           <artifactId>json-schema-validator</artifactId>
-          <version>2.0.1</version>
+          <version>2.0.4</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>com.sun.xml.bind</groupId>
           <artifactId>jaxb-core</artifactId>
-          <version>4.0.8</version>
+          <version>4.0.9</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>com.sun.xml.bind</groupId>
           <artifactId>jaxb-impl</artifactId>
-          <version>4.0.8</version>
+          <version>4.0.9</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -223,7 +229,7 @@
         <dependency>
           <groupId>commons-logging</groupId>
           <artifactId>commons-logging</artifactId>
-          <version>1.3.6</version>
+          <version>1.4.0</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -475,7 +481,7 @@
         <dependency>
           <groupId>jaxen</groupId>
           <artifactId>jaxen</artifactId>
-          <version>2.0.3</version>
+          <version>2.0.6</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -565,61 +571,61 @@
         <dependency>
           <groupId>org.apache.logging.log4j</groupId>
           <artifactId>log4j-api</artifactId>
-          <version>2.26.0</version>
+          <version>2.26.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.apache.logging.log4j</groupId>
           <artifactId>log4j-core</artifactId>
-          <version>2.26.0</version>
+          <version>2.26.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.apache.logging.log4j</groupId>
           <artifactId>log4j-slf4j2-impl</artifactId>
-          <version>2.26.0</version>
+          <version>2.26.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.apache.logging.log4j</groupId>
           <artifactId>log4j-to-slf4j</artifactId>
-          <version>2.26.0</version>
+          <version>2.26.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.apache.pdfbox</groupId>
           <artifactId>fontbox</artifactId>
-          <version>3.0.7</version>
+          <version>3.0.8</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.apache.pdfbox</groupId>
           <artifactId>pdfbox</artifactId>
-          <version>3.0.7</version>
+          <version>3.0.8</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.apache.pdfbox</groupId>
           <artifactId>pdfbox-io</artifactId>
-          <version>3.0.7</version>
+          <version>3.0.8</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.apache.pdfbox</groupId>
           <artifactId>preflight</artifactId>
-          <version>3.0.7</version>
+          <version>3.0.8</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.apache.pdfbox</groupId>
           <artifactId>xmpbox</artifactId>
-          <version>3.0.7</version>
+          <version>3.0.8</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.apache.tika</groupId>
           <artifactId>tika-core</artifactId>
-          <version>3.3.0</version>
+          <version>3.3.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -637,55 +643,55 @@
         <dependency>
           <groupId>org.commonmark</groupId>
           <artifactId>commonmark</artifactId>
-          <version>0.28.0</version>
+          <version>0.29.0</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.commonmark</groupId>
           <artifactId>commonmark-ext-gfm-strikethrough</artifactId>
-          <version>0.28.0</version>
+          <version>0.29.0</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.commonmark</groupId>
           <artifactId>commonmark-ext-gfm-tables</artifactId>
-          <version>0.28.0</version>
+          <version>0.29.0</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.commonmark</groupId>
           <artifactId>commonmark-ext-heading-anchor</artifactId>
-          <version>0.28.0</version>
+          <version>0.29.0</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.commonmark</groupId>
           <artifactId>commonmark-ext-image-attributes</artifactId>
-          <version>0.28.0</version>
+          <version>0.29.0</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.commonmark</groupId>
           <artifactId>commonmark-ext-ins</artifactId>
-          <version>0.28.0</version>
+          <version>0.29.0</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.commonmark</groupId>
           <artifactId>commonmark-ext-task-list-items</artifactId>
-          <version>0.28.0</version>
+          <version>0.29.0</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.commonmark</groupId>
           <artifactId>commonmark-ext-yaml-front-matter</artifactId>
-          <version>0.28.0</version>
+          <version>0.29.0</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.conscrypt</groupId>
           <artifactId>conscrypt-openjdk-uber</artifactId>
-          <version>2.5.2</version>
+          <version>2.6.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -769,7 +775,7 @@
         <dependency>
           <groupId>org.glassfish.jaxb</groupId>
           <artifactId>jaxb-runtime</artifactId>
-          <version>4.0.8</version>
+          <version>4.0.9</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -781,13 +787,13 @@
         <dependency>
           <groupId>org.glassfish.jersey.connectors</groupId>
           <artifactId>jersey-apache-connector</artifactId>
-          <version>3.1.11</version>
+          <version>3.1.12</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.glassfish.jersey.connectors</groupId>
           <artifactId>jersey-apache5-connector</artifactId>
-          <version>3.1.11</version>
+          <version>3.1.12</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -799,7 +805,7 @@
         <dependency>
           <groupId>org.glassfish.jersey.containers</groupId>
           <artifactId>jersey-container-servlet</artifactId>
-          <version>3.1.11</version>
+          <version>3.1.12</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -811,7 +817,7 @@
         <dependency>
           <groupId>org.glassfish.jersey.containers</groupId>
           <artifactId>jersey-container-servlet-core</artifactId>
-          <version>3.1.11</version>
+          <version>3.1.12</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -823,7 +829,7 @@
         <dependency>
           <groupId>org.glassfish.jersey.core</groupId>
           <artifactId>jersey-client</artifactId>
-          <version>3.1.11</version>
+          <version>3.1.12</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -835,7 +841,7 @@
         <dependency>
           <groupId>org.glassfish.jersey.core</groupId>
           <artifactId>jersey-common</artifactId>
-          <version>3.1.11</version>
+          <version>3.1.12</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -847,7 +853,7 @@
         <dependency>
           <groupId>org.glassfish.jersey.core</groupId>
           <artifactId>jersey-server</artifactId>
-          <version>3.1.11</version>
+          <version>3.1.12</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -859,7 +865,7 @@
         <dependency>
           <groupId>org.glassfish.jersey.ext</groupId>
           <artifactId>jersey-entity-filtering</artifactId>
-          <version>3.1.11</version>
+          <version>3.1.12</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -877,7 +883,7 @@
         <dependency>
           <groupId>org.glassfish.jersey.media</groupId>
           <artifactId>jersey-media-json-jackson</artifactId>
-          <version>3.1.11</version>
+          <version>3.1.12</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -895,19 +901,19 @@
         <dependency>
           <groupId>org.jacoco</groupId>
           <artifactId>org.jacoco.agent</artifactId>
-          <version>0.8.14</version>
+          <version>0.8.15</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.jacoco</groupId>
           <artifactId>org.jacoco.core</artifactId>
-          <version>0.8.14</version>
+          <version>0.8.15</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.jacoco</groupId>
           <artifactId>org.jacoco.report</artifactId>
-          <version>0.8.14</version>
+          <version>0.8.15</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -937,37 +943,37 @@
         <dependency>
           <groupId>org.mortbay.jasper</groupId>
           <artifactId>mortbay-apache-el</artifactId>
-          <version>9.0.118</version>
+          <version>9.0.119</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.mortbay.jasper</groupId>
           <artifactId>mortbay-apache-el</artifactId>
-          <version>10.1.55</version>
+          <version>10.1.56</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.mortbay.jasper</groupId>
           <artifactId>mortbay-apache-el</artifactId>
-          <version>11.0.22</version>
+          <version>11.0.23</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.mortbay.jasper</groupId>
           <artifactId>mortbay-apache-jsp</artifactId>
-          <version>9.0.118</version>
+          <version>9.0.119</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.mortbay.jasper</groupId>
           <artifactId>mortbay-apache-jsp</artifactId>
-          <version>10.1.55</version>
+          <version>10.1.56</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.mortbay.jasper</groupId>
           <artifactId>mortbay-apache-jsp</artifactId>
-          <version>11.0.22</version>
+          <version>11.0.23</version>
           <type>jar</type>
         </dependency>
         <dependency>
