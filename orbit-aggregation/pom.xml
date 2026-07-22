@@ -75,6 +75,7 @@
                 <jvmArg>-Xms256M</jvmArg>
                 <jvmArg>-Xmx2048M</jvmArg>
                 <jvmArg>-Duser.home=${project.build.directory}</jvmArg>
+                <jvmArg>-Dorg.eclipse.ecf.provider.filetransfer.excludeContributors=org.eclipse.ecf.provider.filetransfer.httpclientjava</jvmArg>
                 <jvmArg>-Dorg.eclipse.cbi.p2repo.maven-bnd=${org.eclipse.cbi.p2repo.maven-bnd}</jvmArg>
                 <jvmArg>-Dorg.eclipse.cbi.p2repo.maven-osgi=${org.eclipse.cbi.p2repo.maven-osgi}</jvmArg>
                 <jvmArg>-Dorg.eclipse.cbi.p2repo.orbit-legacy=${org.eclipse.cbi.p2repo.orbit-legacy}</jvmArg>
