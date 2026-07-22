@@ -46,6 +46,7 @@
    <feature id="org.eclipse.orbit.maven.org.jdom"/>
    <feature id="org.eclipse.orbit.maven.org.jruby.jcodings"/>
    <feature id="org.eclipse.orbit.maven.org.jruby.joni"/>
+   <feature id="org.eclipse.orbit.maven.org.kohsuke.github-api"/>
    <feature id="org.eclipse.orbit.maven.org.mozilla.rhino"/>
    <feature id="org.eclipse.orbit.maven.org.pushingpixels.trident"/>
    <feature id="org.eclipse.orbit.maven.osgi.exclude"/>

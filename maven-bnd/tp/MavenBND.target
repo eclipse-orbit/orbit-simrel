@@ -31,7 +31,7 @@ SPDX-License-Identifier: EPL-2.0
       <repositories>
         <repository>
           <id>maven-derby-repository</id>
-<!-- 
+<!--
           <url>file:/D:/Users/merks/orbit-simrel/git/orbit-simrel/maven-derby/repository</url>
 -->
           <url>https://repo.eclipse.org/content/repositories/orbit-approved-artifacts</url>
@@ -922,7 +922,7 @@ SPDX-License-Identifier: EPL-2.0
       <repositories>
         <repository>
           <id>maven-axis-repository</id>
-          <!-- 
+          <!--
           <url>https://ci.eclipse.org/orbit/job/orbit-simrel-maven-axis/lastSuccessfulBuild/artifact/orbit-simrel/maven-deploy/repository/</url>
           -->
           <url>https://repo.eclipse.org/content/repositories/orbit-approved-artifacts</url>
@@ -981,7 +981,7 @@ SPDX-License-Identifier: EPL-2.0
       <repositories>
         <repository>
           <id>maven-axis-repository</id>
-          <!-- 
+          <!--
           <url>https://ci.eclipse.org/orbit/job/orbit-simrel-maven-axis/lastSuccessfulBuild/artifact/orbit-simrel/maven-deploy/repository/</url>
           -->
           <url>https://repo.eclipse.org/content/repositories/orbit-approved-artifacts</url>
@@ -1645,7 +1645,7 @@ SPDX-License-Identifier: EPL-2.0
       <repositories>
         <repository>
           <id>maven-ant-repository</id>
-<!-- 
+<!--
           <url>file:/D:/Users/merks/orbit-simrel/git/orbit-simrel/maven-ant/repository</url>
           <url>https://ci.eclipse.org/orbit/job/orbit-simrel-maven-ant/lastSuccessfulBuild/artifact/maven-ant/publish/repository</url>
 -->
@@ -1745,7 +1745,7 @@ Export-Package:         *;version="${version}";-noimport:=true
 
 <!-- WTP can't compile with this version yet -->
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
-      <feature id="org.eclipse.orbit.maven.com.google.javascript" label="Orbit Maven BND com.google.javascript" provider-name="Eclipse Orbit" version="4.41.0.v20260721-1000">
+      <feature id="org.eclipse.orbit.maven.com.google.javascript" label="Orbit Maven BND com.google.javascript" provider-name="Eclipse Orbit" version="4.41.0.v20260722-1000">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
 Copyright (c) 2026 Eclipse contributors and others.
@@ -1763,18 +1763,18 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>com.google.javascript</groupId>
           <artifactId>closure-compiler</artifactId>
-          <version>v20260719</version>
+          <version>v20260720</version>
           <type>jar</type>
         </dependency>
       </dependencies>
       <instructions>
-<!-- SHA1 ef8a580fcd0e3a98711d3cdaac3b9344198cf8bc -->
+<!-- SHA1 42417bb6f5776586bca63ac04a6911b088301101 -->
 <![CDATA[
 Bundle-Name:            Bundle ${mvnGroupId} : ${mvnArtifactId
 # The version is purely qualifier, so we promote the value after the v to the micro version as has been historically the case.
 version:                ${replacestring;${mvnVersion};^v;0.0.}
 Bundle-SymbolicName:    ${mvnGroupId}
-Bundle-Version:         ${version}.v20260721-1000
+Bundle-Version:         ${version}.v20260722-1000
 Automatic-Module-Name:  ${mvnGroupId}
 Eclipse-Wrapped-Bundle: ${mvnGroupId}:${mvnArtifactId}:${mvnVersion}
 Import-Package:         java.*,org.w3c.dom,org.xml.sax.*,\
@@ -2100,7 +2100,7 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>org.antlr</groupId>
           <artifactId>antlr-runtime</artifactId>
-          <version>3.2</version> <!-- DO NOT CHANGE THIS VERSION --> 
+          <version>3.2</version> <!-- DO NOT CHANGE THIS VERSION -->
           <type>jar</type>
         </dependency>
       </dependencies>
@@ -2517,6 +2517,50 @@ Bundle-Version:         ${version}.v20260216-1000
 Automatic-Module-Name:  ${mvnGroupId}.${mvnArtifactId}
 Eclipse-Wrapped-Bundle: ${mvnGroupId}:${mvnArtifactId}:${mvnVersion}
 Import-Package:         android.os.*;resolution:=optional,\
+                        *
+Export-Package:         *;version="${version}";-noimport:=true
+-noextraheaders:        true
+-removeheaders:         Private-Package
+]]>
+      </instructions>
+    </location>
+
+
+<!-- _____________________________________________________ org.kohsuke.github-api ___________________________________________________________________________________________________-->
+
+    <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
+      <feature id="org.eclipse.orbit.maven.org.kohsuke.github-api" label="Orbit Maven BND org.kohsuke.github-api" provider-name="Eclipse Orbit" version="4.41.0">
+        <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
+        <copyright>
+Copyright (c) 2026 Eclipse contributors and others.
+
+This program and the accompanying materials
+are made available under the terms of the Eclipse Public License 2.0
+which accompanies this distribution, and is available at
+https://www.eclipse.org/legal/epl-2.0/
+
+SPDX-License-Identifier: EPL-2.0
+        </copyright>
+        <license url="https://www.eclipse.org/legal/epl-2.0/"/>
+      </feature>
+      <dependencies>
+        <dependency>
+          <groupId>org.kohsuke</groupId>
+          <artifactId>github-api</artifactId>
+          <version>1.330</version>
+          <type>jar</type>
+        </dependency>
+      </dependencies>
+      <instructions>
+<!-- SHA1 bb6cf8548653183758caccc6ab2b0527b274989a -->
+<![CDATA[
+Bundle-Name:            Bundle ${mvnGroupId} : ${mvnArtifactId}
+version:                ${versionmask;===;${version_cleanup;${mvnVersion}}}
+Bundle-SymbolicName:    ${mvnGroupId}.${mvnArtifactId}
+Bundle-Version:         ${version}.v20260722-1000
+Automatic-Module-Name:  ${mvnGroupId}.${mvnArtifactId}
+Eclipse-Wrapped-Bundle: ${mvnGroupId}:${mvnArtifactId}:${mvnVersion}
+Import-Package:         com.squareup.*|io.jsonwebtoken*|javax.annotation|okhttp3|okio;resolution:=optional,\
                         *
 Export-Package:         *;version="${version}";-noimport:=true
 -noextraheaders:        true
@@ -3118,7 +3162,7 @@ Provide-Capability:     ${mvnGroupId}.skija;library="native";version:Version="1.
 ]]>
       </instructions>
     </location>
- 
+
     <location includeAllPlatforms="true" includeConfigurePhase="true" includeMode="slicer" includeSource="true" type="InstallableUnit">
       <repository location="https://download.eclipse.org/tools/orbit/simrel/orbit-legacy/nightly/latest"/>
       <unit id="org.eclipse.orbit.xml-apis-ext" version="0.0.0"/>
