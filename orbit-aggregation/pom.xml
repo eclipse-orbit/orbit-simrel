@@ -200,9 +200,10 @@
                       <url>${justj.tools.repo}</url>
                     </repository>
                   </repositories>
-                  <work>
-                    ${project.build.directory}/eclipserun-work-promote</work>
-                  <argLine></argLine>
+                  <work>${project.build.directory}/eclipserun-work-promote</work>
+                  <jvmArgs>
+                    <jvmArg>-Dorg.eclipse.ecf.provider.filetransfer.excludeContributors=org.eclipse.ecf.provider.filetransfer.httpclientjava</jvmArg>
+                  </jvmArgs>
                   <appArgLine>
                     -consoleLog
                     -application
