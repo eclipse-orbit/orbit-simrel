@@ -2526,50 +2526,6 @@ Export-Package:         *;version="${version}";-noimport:=true
     </location>
 
 
-<!-- _____________________________________________________ org.kohsuke.github-api ___________________________________________________________________________________________________-->
-
-    <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
-      <feature id="org.eclipse.orbit.maven.org.kohsuke.github-api" label="Orbit Maven BND org.kohsuke.github-api" provider-name="Eclipse Orbit" version="4.41.0">
-        <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
-        <copyright>
-Copyright (c) 2026 Eclipse contributors and others.
-
-This program and the accompanying materials
-are made available under the terms of the Eclipse Public License 2.0
-which accompanies this distribution, and is available at
-https://www.eclipse.org/legal/epl-2.0/
-
-SPDX-License-Identifier: EPL-2.0
-        </copyright>
-        <license url="https://www.eclipse.org/legal/epl-2.0/"/>
-      </feature>
-      <dependencies>
-        <dependency>
-          <groupId>org.kohsuke</groupId>
-          <artifactId>github-api</artifactId>
-          <version>1.330</version>
-          <type>jar</type>
-        </dependency>
-      </dependencies>
-      <instructions>
-<!-- SHA1 bb6cf8548653183758caccc6ab2b0527b274989a -->
-<![CDATA[
-Bundle-Name:            Bundle ${mvnGroupId} : ${mvnArtifactId}
-version:                ${versionmask;===;${version_cleanup;${mvnVersion}}}
-Bundle-SymbolicName:    ${mvnGroupId}.${mvnArtifactId}
-Bundle-Version:         ${version}.v20260722-1000
-Automatic-Module-Name:  ${mvnGroupId}.${mvnArtifactId}
-Eclipse-Wrapped-Bundle: ${mvnGroupId}:${mvnArtifactId}:${mvnVersion}
-Import-Package:         com.squareup.*|io.jsonwebtoken*|javax.annotation|okhttp3|okio;resolution:=optional,\
-                        *
-Export-Package:         *;version="${version}";-noimport:=true
--noextraheaders:        true
--removeheaders:         Private-Package
-]]>
-      </instructions>
-    </location>
-
-
 <!-- ______________________________________________________ EXCLUDE __________________________________________________________________________________________________-->
 
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
