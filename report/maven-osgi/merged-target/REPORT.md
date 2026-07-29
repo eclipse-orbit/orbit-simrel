@@ -52,8 +52,8 @@
     - [biz.aQute.tester](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.tester/) **[7.3.0](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.tester/7.3.0)**
     - [biz.aQute.tester.junit-platform](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.tester.junit-platform/) **[7.3.0](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.tester.junit-platform/7.3.0)**
  - [ch.qos.logback](https://repo.maven.apache.org/maven2/ch/qos/logback/)
-    - [logback-classic](https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/) **[1.6.0](https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/1.6.0)**
-    - [logback-core](https://repo.maven.apache.org/maven2/ch/qos/logback/logback-core/) **[1.6.0](https://repo.maven.apache.org/maven2/ch/qos/logback/logback-core/1.6.0)**
+    - [logback-classic](https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/) **[1.6.1](https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/1.6.1)**
+    - [logback-core](https://repo.maven.apache.org/maven2/ch/qos/logback/logback-core/) **[1.6.1](https://repo.maven.apache.org/maven2/ch/qos/logback/logback-core/1.6.1)**
  - [ch.qos.reload4j](https://repo.maven.apache.org/maven2/ch/qos/reload4j/)
     - [reload4j](https://repo.maven.apache.org/maven2/ch/qos/reload4j/reload4j/) **[1.2.26](https://repo.maven.apache.org/maven2/ch/qos/reload4j/reload4j/1.2.26)**
  - [com.ethlo.time](https://repo.maven.apache.org/maven2/com/ethlo/time/)
@@ -415,7 +415,7 @@
     - [junit-vintage-engine](https://repo.maven.apache.org/maven2/org/junit/vintage/junit-vintage-engine/) **[6.1.2](https://repo.maven.apache.org/maven2/org/junit/vintage/junit-vintage-engine/6.1.2)**
  - [org.mandas](https://repo.maven.apache.org/maven2/org/mandas/)
     - [docker-client](https://repo.maven.apache.org/maven2/org/mandas/docker-client/) **[9.0.4](https://repo.maven.apache.org/maven2/org/mandas/docker-client/9.0.4)**
-    - [docker-client](https://repo.maven.apache.org/maven2/org/mandas/docker-client/) **[11.0.1](https://repo.maven.apache.org/maven2/org/mandas/docker-client/11.0.1)**
+    - [docker-client](https://repo.maven.apache.org/maven2/org/mandas/docker-client/) **[11.0.2](https://repo.maven.apache.org/maven2/org/mandas/docker-client/11.0.2)**
  - [org.mockito](https://repo.maven.apache.org/maven2/org/mockito/)
     - [mockito-core](https://repo.maven.apache.org/maven2/org/mockito/mockito-core/) **[5.23.0](https://repo.maven.apache.org/maven2/org/mockito/mockito-core/5.23.0)**
     - [mockito-junit-jupiter](https://repo.maven.apache.org/maven2/org/mockito/mockito-junit-jupiter/) **[5.23.0](https://repo.maven.apache.org/maven2/org/mockito/mockito-junit-jupiter/5.23.0)**
