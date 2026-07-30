@@ -3,7 +3,7 @@
 <target name="Maven" sequenceNumber="1">
   <locations>
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="error" type="Maven">
-      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.41.0.v20260729-1000">
+      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.41.0.v20260730-1000">
         <description>This feature's dependencies are pulled directly from Maven central.</description>
         <copyright>
 Copyright (c) 2026 Eclipse contributors and others.
@@ -16,7 +16,7 @@ https://www.eclipse.org/legal/epl-2.0/
 SPDX-License-Identifier: EPL-2.0
         </copyright>
         <license url="https://www.eclipse.org/legal/epl-2.0/"/>
-        <!-- SHA1 0fa10d32d9983e4bca0f7a349c00fd97970e798a -->
+        <!-- SHA1 2f4ec3b1e5f5dc234d46ec2e30ab595a8bd794fa -->
       </feature>
       <dependencies>
         <dependency>
@@ -1445,7 +1445,7 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>org.jsoup</groupId>
           <artifactId>jsoup</artifactId>
-          <version>1.22.2</version>
+          <version>1.23.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
