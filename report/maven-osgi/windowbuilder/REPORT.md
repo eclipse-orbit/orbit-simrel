@@ -6,6 +6,8 @@
  - [net.bytebuddy](https://repo.maven.apache.org/maven2/net/bytebuddy/)
     - [byte-buddy](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/) **[1.18.8](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.18.8)** < [1.18.11](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.18.11/)
     - [byte-buddy-agent](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/) **[1.18.8](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.18.8)** < [1.18.11](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.18.11/)
+ - [org.objenesis](https://repo.maven.apache.org/maven2/org/objenesis/)
+    - [objenesis](https://repo.maven.apache.org/maven2/org/objenesis/objenesis/) **[3.5](https://repo.maven.apache.org/maven2/org/objenesis/objenesis/3.5)** < [3.6](https://repo.maven.apache.org/maven2/org/objenesis/objenesis/3.6/)
 
 ## Updates Applied
 [updated.target](updated.target)
