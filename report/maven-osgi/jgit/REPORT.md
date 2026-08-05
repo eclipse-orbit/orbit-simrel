@@ -1,8 +1,16 @@
 # Target Platform: [jgit](https://raw.githubusercontent.com/eclipse-jgit/jgit/master/org.eclipse.jgit.packaging/org.eclipse.jgit.target/maven/dependencies.tpd)
 
 ## Minor Updates
- - [commons-codec](https://repo.maven.apache.org/maven2/commons-codec/)
-    - [commons-codec](https://repo.maven.apache.org/maven2/commons-codec/commons-codec/) **[1.22.0](https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.22.0)** < [1.22.1](https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.22.1/)
+ - [org.eclipse.jetty](https://repo.maven.apache.org/maven2/org/eclipse/jetty/)
+    - [jetty-http](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-http/) **[12.1.11](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-http/12.1.11)** < [12.1.12](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-http/12.1.12/)
+    - [jetty-io](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-io/) **[12.1.11](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-io/12.1.11)** < [12.1.12](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-io/12.1.12/)
+    - [jetty-security](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-security/) **[12.1.11](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-security/12.1.11)** < [12.1.12](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-security/12.1.12/)
+    - [jetty-server](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-server/) **[12.1.11](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-server/12.1.11)** < [12.1.12](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-server/12.1.12/)
+    - [jetty-session](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-session/) **[12.1.11](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-session/12.1.11)** < [12.1.12](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-session/12.1.12/)
+    - [jetty-util](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util/) **[12.1.11](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util/12.1.11)** < [12.1.12](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util/12.1.12/)
+    - [jetty-util-ajax](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util-ajax/) **[12.1.11](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util-ajax/12.1.11)** < [12.1.12](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util-ajax/12.1.12/)
+ - [org.eclipse.jetty.ee11](https://repo.maven.apache.org/maven2/org/eclipse/jetty/ee11/)
+    - [jetty-ee11-servlet](https://repo.maven.apache.org/maven2/org/eclipse/jetty/ee11/jetty-ee11-servlet/) **[12.1.11](https://repo.maven.apache.org/maven2/org/eclipse/jetty/ee11/jetty-ee11-servlet/12.1.11)** < [12.1.12](https://repo.maven.apache.org/maven2/org/eclipse/jetty/ee11/jetty-ee11-servlet/12.1.12/)
 
 ## Updates Applied
 [updated.tpd](updated.tpd)
@@ -15,7 +23,7 @@
  - [com.googlecode.javaewah](https://repo.maven.apache.org/maven2/com/googlecode/javaewah/)
     - [JavaEWAH](https://repo.maven.apache.org/maven2/com/googlecode/javaewah/JavaEWAH/) **[1.2.3](https://repo.maven.apache.org/maven2/com/googlecode/javaewah/JavaEWAH/1.2.3)**
  - [commons-codec](https://repo.maven.apache.org/maven2/commons-codec/)
-    - [commons-codec](https://repo.maven.apache.org/maven2/commons-codec/commons-codec/) **[1.22.0](https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.22.0)**
+    - [commons-codec](https://repo.maven.apache.org/maven2/commons-codec/commons-codec/) **[1.22.1](https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.22.1)**
  - [commons-io](https://repo.maven.apache.org/maven2/commons-io/)
     - [commons-io](https://repo.maven.apache.org/maven2/commons-io/commons-io/) **[2.22.0](https://repo.maven.apache.org/maven2/commons-io/commons-io/2.22.0)**
  - [commons-logging](https://repo.maven.apache.org/maven2/commons-logging/)
