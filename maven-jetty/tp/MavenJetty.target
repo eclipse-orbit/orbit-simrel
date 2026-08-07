@@ -1272,7 +1272,7 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>org.bouncycastle</groupId>
           <artifactId>bcprov-jdk18on</artifactId>
-          <version>1.85</version>
+          <version>1.85.2</version>
           <type>jar</type>
         </dependency>
         <dependency>
