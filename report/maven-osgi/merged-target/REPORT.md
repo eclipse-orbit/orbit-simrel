@@ -36,7 +36,7 @@
     - [jersey-container-servlet](https://repo.maven.apache.org/maven2/org/glassfish/jersey/containers/jersey-container-servlet/) **[2.48](https://repo.maven.apache.org/maven2/org/glassfish/jersey/containers/jersey-container-servlet/2.48)** < [4.0.2](https://repo.maven.apache.org/maven2/org/glassfish/jersey/containers/jersey-container-servlet/4.0.2/)
     - [jersey-container-servlet](https://repo.maven.apache.org/maven2/org/glassfish/jersey/containers/jersey-container-servlet/) **[3.1.12](https://repo.maven.apache.org/maven2/org/glassfish/jersey/containers/jersey-container-servlet/3.1.12)** < [4.0.2](https://repo.maven.apache.org/maven2/org/glassfish/jersey/containers/jersey-container-servlet/4.0.2/)
  - [org.snakeyaml](https://repo.maven.apache.org/maven2/org/snakeyaml/)
-    - [snakeyaml-engine](https://repo.maven.apache.org/maven2/org/snakeyaml/snakeyaml-engine/) **[2.10](https://repo.maven.apache.org/maven2/org/snakeyaml/snakeyaml-engine/2.10)** < [3.1](https://repo.maven.apache.org/maven2/org/snakeyaml/snakeyaml-engine/3.1/)
+    - [snakeyaml-engine](https://repo.maven.apache.org/maven2/org/snakeyaml/snakeyaml-engine/) **[2.10](https://repo.maven.apache.org/maven2/org/snakeyaml/snakeyaml-engine/2.10)** < [3.1.1](https://repo.maven.apache.org/maven2/org/snakeyaml/snakeyaml-engine/3.1.1/)
 
 ## Content
  - [args4j](https://repo.maven.apache.org/maven2/args4j/)
