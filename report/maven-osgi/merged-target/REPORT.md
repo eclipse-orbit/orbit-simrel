@@ -156,7 +156,7 @@
  - [dnsjava](https://repo.maven.apache.org/maven2/dnsjava/)
     - [dnsjava](https://repo.maven.apache.org/maven2/dnsjava/dnsjava/) **[3.6.5](https://repo.maven.apache.org/maven2/dnsjava/dnsjava/3.6.5)**
  - [io.github.classgraph](https://repo.maven.apache.org/maven2/io/github/classgraph/)
-    - [classgraph](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph/) **[4.8.187](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph/4.8.187)**
+    - [classgraph](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph/) **[4.8.189](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph/4.8.189)**
  - [io.github.toolfactory](https://repo.maven.apache.org/maven2/io/github/toolfactory/)
     - [jvm-driver](https://repo.maven.apache.org/maven2/io/github/toolfactory/jvm-driver/) **[9.10.0](https://repo.maven.apache.org/maven2/io/github/toolfactory/jvm-driver/9.10.0)**
     - [narcissus](https://repo.maven.apache.org/maven2/io/github/toolfactory/narcissus/) **[1.0.11](https://repo.maven.apache.org/maven2/io/github/toolfactory/narcissus/1.0.11)**
