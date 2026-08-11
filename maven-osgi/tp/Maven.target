@@ -3,7 +3,7 @@
 <target name="Maven" sequenceNumber="1">
   <locations>
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="error" type="Maven">
-      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.41.0.v20260810-1000">
+      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.41.0.v20260811-1000">
         <description>This feature's dependencies are pulled directly from Maven central.</description>
         <copyright>
 Copyright (c) 2026 Eclipse contributors and others.
@@ -16,7 +16,7 @@ https://www.eclipse.org/legal/epl-2.0/
 SPDX-License-Identifier: EPL-2.0
         </copyright>
         <license url="https://www.eclipse.org/legal/epl-2.0/"/>
-        <!-- SHA1 d90abaf378c53052f2a4bcb178fbef3b17b45551 -->
+        <!-- SHA1 81b31a55559cf92044ebf7d8ba846c1f0fca0b1b -->
       </feature>
       <dependencies>
         <dependency>
@@ -1073,7 +1073,7 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>org.codelibs</groupId>
           <artifactId>nekohtml</artifactId>
-          <version>3.0.3</version>
+          <version>3.0.4</version>
           <type>jar</type>
         </dependency>
         <dependency>

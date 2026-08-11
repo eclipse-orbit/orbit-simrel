@@ -302,7 +302,7 @@
  - [org.codehaus.woodstox](https://repo.maven.apache.org/maven2/org/codehaus/woodstox/)
     - [stax2-api](https://repo.maven.apache.org/maven2/org/codehaus/woodstox/stax2-api/) **[4.3.0](https://repo.maven.apache.org/maven2/org/codehaus/woodstox/stax2-api/4.3.0)**
  - [org.codelibs](https://repo.maven.apache.org/maven2/org/codelibs/)
-    - [nekohtml](https://repo.maven.apache.org/maven2/org/codelibs/nekohtml/) **[3.0.3](https://repo.maven.apache.org/maven2/org/codelibs/nekohtml/3.0.3)**
+    - [nekohtml](https://repo.maven.apache.org/maven2/org/codelibs/nekohtml/) **[3.0.4](https://repo.maven.apache.org/maven2/org/codelibs/nekohtml/3.0.4)**
  - [org.commonmark](https://repo.maven.apache.org/maven2/org/commonmark/)
     - [commonmark](https://repo.maven.apache.org/maven2/org/commonmark/commonmark/) **[0.30.0](https://repo.maven.apache.org/maven2/org/commonmark/commonmark/0.30.0)**
     - [commonmark-ext-gfm-strikethrough](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-gfm-strikethrough/) **[0.30.0](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-gfm-strikethrough/0.30.0)**
