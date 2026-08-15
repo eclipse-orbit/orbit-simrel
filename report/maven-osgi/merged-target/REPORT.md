@@ -385,7 +385,7 @@
  - [org.javassist](https://repo.maven.apache.org/maven2/org/javassist/)
     - [javassist](https://repo.maven.apache.org/maven2/org/javassist/javassist/) **[3.32.0-GA](https://repo.maven.apache.org/maven2/org/javassist/javassist/3.32.0-GA)**
  - [org.json](https://repo.maven.apache.org/maven2/org/json/)
-    - [json](https://repo.maven.apache.org/maven2/org/json/json/) **[20260719](https://repo.maven.apache.org/maven2/org/json/json/20260719)**
+    - [json](https://repo.maven.apache.org/maven2/org/json/json/) **[20260814](https://repo.maven.apache.org/maven2/org/json/json/20260814)**
  - [org.jsoup](https://repo.maven.apache.org/maven2/org/jsoup/)
     - [jsoup](https://repo.maven.apache.org/maven2/org/jsoup/jsoup/) **[1.23.1](https://repo.maven.apache.org/maven2/org/jsoup/jsoup/1.23.1)**
  - [org.junit.jupiter](https://repo.maven.apache.org/maven2/org/junit/jupiter/)

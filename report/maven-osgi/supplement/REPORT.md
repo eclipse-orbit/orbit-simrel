@@ -2,7 +2,7 @@
 
 ## Minor Updates
  - [org.json](https://repo.maven.apache.org/maven2/org/json/)
-    - [json](https://repo.maven.apache.org/maven2/org/json/json/) **[20230227](https://repo.maven.apache.org/maven2/org/json/json/20230227)** < [20260719](https://repo.maven.apache.org/maven2/org/json/json/20260719/)
+    - [json](https://repo.maven.apache.org/maven2/org/json/json/) **[20230227](https://repo.maven.apache.org/maven2/org/json/json/20230227)** < [20260814](https://repo.maven.apache.org/maven2/org/json/json/20260814/)
 
 ## Major Updates
  - [com.evolvedbinary.thirdparty.org.apache.xmlrpc](https://repo.maven.apache.org/maven2/com/evolvedbinary/thirdparty/org/apache/xmlrpc/)
