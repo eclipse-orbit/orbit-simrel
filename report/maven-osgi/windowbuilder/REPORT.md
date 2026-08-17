@@ -4,8 +4,8 @@
  - [com.sun.xml.bind](https://repo.maven.apache.org/maven2/com/sun/xml/bind/)
     - [jaxb-osgi](https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-osgi/) **[4.0.8](https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-osgi/4.0.8)** < [4.0.9](https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-osgi/4.0.9/)
  - [net.bytebuddy](https://repo.maven.apache.org/maven2/net/bytebuddy/)
-    - [byte-buddy](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/) **[1.18.8](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.18.8)** < [1.18.11](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.18.11/)
-    - [byte-buddy-agent](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/) **[1.18.8](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.18.8)** < [1.18.11](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.18.11/)
+    - [byte-buddy](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/) **[1.18.8](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.18.8)** < [1.18.12](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.18.12/)
+    - [byte-buddy-agent](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/) **[1.18.8](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.18.8)** < [1.18.12](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.18.12/)
  - [org.objenesis](https://repo.maven.apache.org/maven2/org/objenesis/)
     - [objenesis](https://repo.maven.apache.org/maven2/org/objenesis/objenesis/) **[3.5](https://repo.maven.apache.org/maven2/org/objenesis/objenesis/3.5)** < [3.6](https://repo.maven.apache.org/maven2/org/objenesis/objenesis/3.6/)
 
