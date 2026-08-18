@@ -3,7 +3,7 @@
 <target name="Maven" sequenceNumber="1">
   <locations>
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="error" type="Maven">
-      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.41.0.v20260817-1000">
+      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.41.0.v20260818-1000">
         <description>This feature's dependencies are pulled directly from Maven central.</description>
         <copyright>
 Copyright (c) 2026 Eclipse contributors and others.
@@ -16,7 +16,7 @@ https://www.eclipse.org/legal/epl-2.0/
 SPDX-License-Identifier: EPL-2.0
         </copyright>
         <license url="https://www.eclipse.org/legal/epl-2.0/"/>
-        <!-- SHA1 244e7e3530e0b1e772005b8d0483d1d1a824ee4b -->
+        <!-- SHA1 6d438eeb48ffe3c9a267fc7d472fc3f1af636a04 -->
       </feature>
       <dependencies>
         <dependency>
@@ -299,7 +299,7 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>com.google.guava</groupId>
           <artifactId>guava</artifactId>
-          <version>33.6.0-jre</version>
+          <version>33.7.1-jre</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -1205,7 +1205,7 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>org.glassfish.hk2</groupId>
           <artifactId>hk2-api</artifactId>
-          <version>4.0.1</version>
+          <version>4.0.2</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -1217,7 +1217,7 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>org.glassfish.hk2</groupId>
           <artifactId>hk2-locator</artifactId>
-          <version>4.0.1</version>
+          <version>4.0.2</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -1229,7 +1229,7 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>org.glassfish.hk2</groupId>
           <artifactId>hk2-utils</artifactId>
-          <version>4.0.1</version>
+          <version>4.0.2</version>
           <type>jar</type>
         </dependency>
         <dependency>

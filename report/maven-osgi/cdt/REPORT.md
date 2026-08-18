@@ -1,6 +1,8 @@
 # Target Platform: [cdt](https://raw.githubusercontent.com/eclipse-cdt/cdt/main/releng/org.eclipse.cdt.target/cdt.target)
 
 ## Minor Updates
+ - [com.google.guava](https://repo.maven.apache.org/maven2/com/google/guava/)
+    - [guava](https://repo.maven.apache.org/maven2/com/google/guava/guava/) **[33.6.0-jre](https://repo.maven.apache.org/maven2/com/google/guava/guava/33.6.0-jre)** < [33.7.1-jre](https://repo.maven.apache.org/maven2/com/google/guava/guava/33.7.1-jre/)
  - [net.java.dev.jna](https://repo.maven.apache.org/maven2/net/java/dev/jna/)
     - [jna](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna/) **[5.19.0](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna/5.19.0)** < [5.19.1](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna/5.19.1/)
     - [jna-platform](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna-platform/) **[5.19.0](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna-platform/5.19.0)** < [5.19.1](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna-platform/5.19.1/)
