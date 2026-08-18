@@ -1,16 +1,5 @@
 # Target Platform: [linuxtools](https://raw.githubusercontent.com/eclipse-linuxtools/org.eclipse.linuxtools/refs/heads/master/releng/org.eclipse.linuxtools.target/linuxtools-latest.target)
 
-## Minor Updates
- - [com.google.guava](https://repo.maven.apache.org/maven2/com/google/guava/)
-    - [guava](https://repo.maven.apache.org/maven2/com/google/guava/guava/) **[33.6.0-jre](https://repo.maven.apache.org/maven2/com/google/guava/guava/33.6.0-jre)** < [33.7.1-jre](https://repo.maven.apache.org/maven2/com/google/guava/guava/33.7.1-jre/)
- - [org.glassfish.hk2](https://repo.maven.apache.org/maven2/org/glassfish/hk2/)
-    - [hk2-api](https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-api/) **[4.0.1](https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-api/4.0.1)** < [4.0.2](https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-api/4.0.2/)
-    - [hk2-locator](https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-locator/) **[4.0.1](https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-locator/4.0.1)** < [4.0.2](https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-locator/4.0.2/)
-    - [hk2-utils](https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-utils/) **[4.0.1](https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-utils/4.0.1)** < [4.0.2](https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-utils/4.0.2/)
-
-## Updates Applied
-[updated.target](updated.target)
-
 ## Content
  - [com.fasterxml.jackson.core](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/)
     - [jackson-annotations](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/) **[2.22](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.22)**
@@ -30,7 +19,7 @@
     - [jnr-unixsocket](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-unixsocket/) **[0.39.2](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-unixsocket/0.39.2)**
  - [com.google.guava](https://repo.maven.apache.org/maven2/com/google/guava/)
     - [failureaccess](https://repo.maven.apache.org/maven2/com/google/guava/failureaccess/) **[1.0.3](https://repo.maven.apache.org/maven2/com/google/guava/failureaccess/1.0.3)**
-    - [guava](https://repo.maven.apache.org/maven2/com/google/guava/guava/) **[33.6.0-jre](https://repo.maven.apache.org/maven2/com/google/guava/guava/33.6.0-jre)**
+    - [guava](https://repo.maven.apache.org/maven2/com/google/guava/guava/) **[33.7.1-jre](https://repo.maven.apache.org/maven2/com/google/guava/guava/33.7.1-jre)**
  - [jakarta.annotation](https://repo.maven.apache.org/maven2/jakarta/annotation/)
     - [jakarta.annotation-api](https://repo.maven.apache.org/maven2/jakarta/annotation/jakarta.annotation-api/) **[3.0.0](https://repo.maven.apache.org/maven2/jakarta/annotation/jakarta.annotation-api/3.0.0)**
  - [jakarta.ws.rs](https://repo.maven.apache.org/maven2/jakarta/ws/rs/)
@@ -47,9 +36,9 @@
     - [org.eclipse.swtchart](https://repo.maven.apache.org/maven2/org/eclipse/swtchart/org.eclipse.swtchart/) **[1.1.0](https://repo.maven.apache.org/maven2/org/eclipse/swtchart/org.eclipse.swtchart/1.1.0)**
     - [org.eclipse.swtchart.extensions](https://repo.maven.apache.org/maven2/org/eclipse/swtchart/org.eclipse.swtchart.extensions/) **[1.1.0](https://repo.maven.apache.org/maven2/org/eclipse/swtchart/org.eclipse.swtchart.extensions/1.1.0)**
  - [org.glassfish.hk2](https://repo.maven.apache.org/maven2/org/glassfish/hk2/)
-    - [hk2-api](https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-api/) **[4.0.1](https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-api/4.0.1)**
-    - [hk2-locator](https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-locator/) **[4.0.1](https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-locator/4.0.1)**
-    - [hk2-utils](https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-utils/) **[4.0.1](https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-utils/4.0.1)**
+    - [hk2-api](https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-api/) **[4.0.2](https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-api/4.0.2)**
+    - [hk2-locator](https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-locator/) **[4.0.2](https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-locator/4.0.2)**
+    - [hk2-utils](https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-utils/) **[4.0.2](https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-utils/4.0.2)**
     - [osgi-resource-locator](https://repo.maven.apache.org/maven2/org/glassfish/hk2/osgi-resource-locator/) **[3.0.0](https://repo.maven.apache.org/maven2/org/glassfish/hk2/osgi-resource-locator/3.0.0)**
  - [org.glassfish.jersey.connectors](https://repo.maven.apache.org/maven2/org/glassfish/jersey/connectors/)
     - [jersey-apache5-connector](https://repo.maven.apache.org/maven2/org/glassfish/jersey/connectors/jersey-apache5-connector/) **[4.0.2](https://repo.maven.apache.org/maven2/org/glassfish/jersey/connectors/jersey-apache5-connector/4.0.2)**
