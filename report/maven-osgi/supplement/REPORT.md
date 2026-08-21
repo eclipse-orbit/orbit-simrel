@@ -14,8 +14,8 @@
  - [com.github.oshi](https://repo.maven.apache.org/maven2/com/github/oshi/)
     - [oshi-core](https://repo.maven.apache.org/maven2/com/github/oshi/oshi-core/) **[6.12.0](https://repo.maven.apache.org/maven2/com/github/oshi/oshi-core/6.12.0)** < [7.5.0](https://repo.maven.apache.org/maven2/com/github/oshi/oshi-core/7.5.0/)
  - [com.networknt](https://repo.maven.apache.org/maven2/com/networknt/)
-    - [json-schema-validator](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/) **[1.5.9](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/1.5.9)** < [3.0.6](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/3.0.6/)
-    - [json-schema-validator](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/) **[2.0.4](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/2.0.4)** < [3.0.6](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/3.0.6/)
+    - [json-schema-validator](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/) **[1.5.9](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/1.5.9)** < [3.0.7](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/3.0.7/)
+    - [json-schema-validator](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/) **[2.0.7](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/2.0.7)** < [3.0.7](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/3.0.7/)
  - [com.sun.xml.bind](https://repo.maven.apache.org/maven2/com/sun/xml/bind/)
     - [jaxb-osgi](https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-osgi/) **[2.3.9](https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-osgi/2.3.9)** < [4.0.9](https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-osgi/4.0.9/)
  - [jakarta.ejb](https://repo.maven.apache.org/maven2/jakarta/ejb/)
@@ -120,7 +120,7 @@
     - [icu4j](https://repo.maven.apache.org/maven2/com/ibm/icu/icu4j/) **[78.3](https://repo.maven.apache.org/maven2/com/ibm/icu/icu4j/78.3)**
  - [com.networknt](https://repo.maven.apache.org/maven2/com/networknt/)
     - [json-schema-validator](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/) **[1.5.9](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/1.5.9)**
-    - [json-schema-validator](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/) **[2.0.4](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/2.0.4)**
+    - [json-schema-validator](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/) **[2.0.7](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/2.0.7)**
  - [com.sun.xml.bind](https://repo.maven.apache.org/maven2/com/sun/xml/bind/)
     - [jaxb-core](https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-core/) **[4.0.9](https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-core/4.0.9)**
     - [jaxb-impl](https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-impl/) **[4.0.9](https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-impl/4.0.9)**
@@ -141,7 +141,7 @@
  - [dnsjava](https://repo.maven.apache.org/maven2/dnsjava/)
     - [dnsjava](https://repo.maven.apache.org/maven2/dnsjava/dnsjava/) **[3.6.5](https://repo.maven.apache.org/maven2/dnsjava/dnsjava/3.6.5)**
  - [io.github.classgraph](https://repo.maven.apache.org/maven2/io/github/classgraph/)
-    - [classgraph](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph/) **[4.8.192](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph/4.8.192)**
+    - [classgraph](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph/) **[4.8.193](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph/4.8.193)**
  - [jakarta.activation](https://repo.maven.apache.org/maven2/jakarta/activation/)
     - [jakarta.activation-api](https://repo.maven.apache.org/maven2/jakarta/activation/jakarta.activation-api/) **[1.2.2](https://repo.maven.apache.org/maven2/jakarta/activation/jakarta.activation-api/1.2.2)**
     - [jakarta.activation-api](https://repo.maven.apache.org/maven2/jakarta/activation/jakarta.activation-api/) **[2.1.4](https://repo.maven.apache.org/maven2/jakarta/activation/jakarta.activation-api/2.1.4)**
@@ -249,7 +249,7 @@
     - [commonmark-ext-task-list-items](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-task-list-items/) **[0.30.0](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-task-list-items/0.30.0)**
     - [commonmark-ext-yaml-front-matter](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-yaml-front-matter/) **[0.30.0](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-yaml-front-matter/0.30.0)**
  - [org.conscrypt](https://repo.maven.apache.org/maven2/org/conscrypt/)
-    - [conscrypt-openjdk-uber](https://repo.maven.apache.org/maven2/org/conscrypt/conscrypt-openjdk-uber/) **[2.6.2](https://repo.maven.apache.org/maven2/org/conscrypt/conscrypt-openjdk-uber/2.6.2)**
+    - [conscrypt-openjdk-uber](https://repo.maven.apache.org/maven2/org/conscrypt/conscrypt-openjdk-uber/) **[2.6.3](https://repo.maven.apache.org/maven2/org/conscrypt/conscrypt-openjdk-uber/2.6.3)**
  - [org.easymock](https://repo.maven.apache.org/maven2/org/easymock/)
     - [easymock](https://repo.maven.apache.org/maven2/org/easymock/easymock/) **[5.6.0](https://repo.maven.apache.org/maven2/org/easymock/easymock/5.6.0)**
  - [org.eclipse.collections](https://repo.maven.apache.org/maven2/org/eclipse/collections/)

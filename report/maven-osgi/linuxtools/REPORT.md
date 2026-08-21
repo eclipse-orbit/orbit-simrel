@@ -1,5 +1,15 @@
 # Target Platform: [linuxtools](https://raw.githubusercontent.com/eclipse-linuxtools/org.eclipse.linuxtools/refs/heads/master/releng/org.eclipse.linuxtools.target/linuxtools-latest.target)
 
+## Minor Updates
+ - [com.github.jnr](https://repo.maven.apache.org/maven2/com/github/jnr/)
+    - [jnr-enxio](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-enxio/) **[0.33.0](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-enxio/0.33.0)** < [0.33.1](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-enxio/0.33.1/)
+    - [jnr-ffi](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-ffi/) **[2.3.0](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-ffi/2.3.0)** < [2.3.1](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-ffi/2.3.1/)
+    - [jnr-posix](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-posix/) **[3.2.1](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-posix/3.2.1)** < [3.2.2](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-posix/3.2.2/)
+    - [jnr-unixsocket](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-unixsocket/) **[0.39.2](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-unixsocket/0.39.2)** < [0.39.3](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-unixsocket/0.39.3/)
+
+## Updates Applied
+[updated.target](updated.target)
+
 ## Content
  - [com.fasterxml.jackson.core](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/)
     - [jackson-annotations](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/) **[2.22](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.22)**

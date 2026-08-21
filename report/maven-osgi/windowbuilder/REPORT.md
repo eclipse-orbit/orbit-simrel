@@ -3,6 +3,8 @@
 ## Minor Updates
  - [com.sun.xml.bind](https://repo.maven.apache.org/maven2/com/sun/xml/bind/)
     - [jaxb-osgi](https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-osgi/) **[4.0.8](https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-osgi/4.0.8)** < [4.0.9](https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-osgi/4.0.9/)
+ - [io.github.toolfactory](https://repo.maven.apache.org/maven2/io/github/toolfactory/)
+    - [narcissus](https://repo.maven.apache.org/maven2/io/github/toolfactory/narcissus/) **[1.0.11](https://repo.maven.apache.org/maven2/io/github/toolfactory/narcissus/1.0.11)** < [1.0.13](https://repo.maven.apache.org/maven2/io/github/toolfactory/narcissus/1.0.13/)
  - [net.bytebuddy](https://repo.maven.apache.org/maven2/net/bytebuddy/)
     - [byte-buddy](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/) **[1.18.8](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.18.8)** < [1.18.12](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.18.12/)
     - [byte-buddy-agent](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/) **[1.18.8](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.18.8)** < [1.18.12](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.18.12/)
