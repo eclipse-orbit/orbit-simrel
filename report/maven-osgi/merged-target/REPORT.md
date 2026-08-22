@@ -28,6 +28,8 @@
     - [javax.servlet-api](https://repo.maven.apache.org/maven2/javax/servlet/javax.servlet-api/) **[3.1.0](https://repo.maven.apache.org/maven2/javax/servlet/javax.servlet-api/3.1.0)** < [4.0.1](https://repo.maven.apache.org/maven2/javax/servlet/javax.servlet-api/4.0.1/)
  - [org.apache.felix](https://repo.maven.apache.org/maven2/org/apache/felix/)
     - [org.apache.felix.http.servlet-api](https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.http.servlet-api/) **[1.2.0](https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.http.servlet-api/1.2.0)** < [6.1.0](https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.http.servlet-api/6.1.0/)
+ - [org.apache.tika](https://repo.maven.apache.org/maven2/org/apache/tika/)
+    - [tika-core](https://repo.maven.apache.org/maven2/org/apache/tika/tika-core/) **[3.3.2](https://repo.maven.apache.org/maven2/org/apache/tika/tika-core/3.3.2)** < [4.0.0](https://repo.maven.apache.org/maven2/org/apache/tika/tika-core/4.0.0/)
  - [org.glassfish](https://repo.maven.apache.org/maven2/org/glassfish/)
     - [jakarta.el](https://repo.maven.apache.org/maven2/org/glassfish/jakarta.el/) **[3.0.4](https://repo.maven.apache.org/maven2/org/glassfish/jakarta.el/3.0.4)** < [4.0.2](https://repo.maven.apache.org/maven2/org/glassfish/jakarta.el/4.0.2/)
  - [org.glassfish.expressly](https://repo.maven.apache.org/maven2/org/glassfish/expressly/)
@@ -297,7 +299,7 @@
     - [bcprov-jdk18on](https://repo.maven.apache.org/maven2/org/bouncycastle/bcprov-jdk18on/) **[1.85.2](https://repo.maven.apache.org/maven2/org/bouncycastle/bcprov-jdk18on/1.85.2)**
     - [bcutil-jdk18on](https://repo.maven.apache.org/maven2/org/bouncycastle/bcutil-jdk18on/) **[1.85](https://repo.maven.apache.org/maven2/org/bouncycastle/bcutil-jdk18on/1.85)**
  - [org.burningwave](https://repo.maven.apache.org/maven2/org/burningwave/)
-    - [core](https://repo.maven.apache.org/maven2/org/burningwave/core/) **[12.66.2](https://repo.maven.apache.org/maven2/org/burningwave/core/12.66.2)**
+    - [core](https://repo.maven.apache.org/maven2/org/burningwave/core/) **[12.67.0](https://repo.maven.apache.org/maven2/org/burningwave/core/12.67.0)**
     - [jvm-driver](https://repo.maven.apache.org/maven2/org/burningwave/jvm-driver/) **[8.20.1](https://repo.maven.apache.org/maven2/org/burningwave/jvm-driver/8.20.1)**
  - [org.codehaus.woodstox](https://repo.maven.apache.org/maven2/org/codehaus/woodstox/)
     - [stax2-api](https://repo.maven.apache.org/maven2/org/codehaus/woodstox/stax2-api/) **[4.3.0](https://repo.maven.apache.org/maven2/org/codehaus/woodstox/stax2-api/4.3.0)**
@@ -315,7 +317,7 @@
  - [org.conscrypt](https://repo.maven.apache.org/maven2/org/conscrypt/)
     - [conscrypt-openjdk-uber](https://repo.maven.apache.org/maven2/org/conscrypt/conscrypt-openjdk-uber/) **[2.6.3](https://repo.maven.apache.org/maven2/org/conscrypt/conscrypt-openjdk-uber/2.6.3)**
  - [org.easymock](https://repo.maven.apache.org/maven2/org/easymock/)
-    - [easymock](https://repo.maven.apache.org/maven2/org/easymock/easymock/) **[5.6.0](https://repo.maven.apache.org/maven2/org/easymock/easymock/5.6.0)**
+    - [easymock](https://repo.maven.apache.org/maven2/org/easymock/easymock/) **[5.7.0](https://repo.maven.apache.org/maven2/org/easymock/easymock/5.7.0)**
  - [org.eclipse.collections](https://repo.maven.apache.org/maven2/org/eclipse/collections/)
     - [eclipse-collections](https://repo.maven.apache.org/maven2/org/eclipse/collections/eclipse-collections/) **[12.0.0](https://repo.maven.apache.org/maven2/org/eclipse/collections/eclipse-collections/12.0.0)**
     - [eclipse-collections](https://repo.maven.apache.org/maven2/org/eclipse/collections/eclipse-collections/) **[13.0.0](https://repo.maven.apache.org/maven2/org/eclipse/collections/eclipse-collections/13.0.0)**

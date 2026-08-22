@@ -34,6 +34,8 @@
     - [javax.servlet-api](https://repo.maven.apache.org/maven2/javax/servlet/javax.servlet-api/) **[3.1.0](https://repo.maven.apache.org/maven2/javax/servlet/javax.servlet-api/3.1.0)** < [4.0.1](https://repo.maven.apache.org/maven2/javax/servlet/javax.servlet-api/4.0.1/)
  - [org.apache.felix](https://repo.maven.apache.org/maven2/org/apache/felix/)
     - [org.apache.felix.http.servlet-api](https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.http.servlet-api/) **[1.2.0](https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.http.servlet-api/1.2.0)** < [6.1.0](https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.http.servlet-api/6.1.0/)
+ - [org.apache.tika](https://repo.maven.apache.org/maven2/org/apache/tika/)
+    - [tika-core](https://repo.maven.apache.org/maven2/org/apache/tika/tika-core/) **[3.3.2](https://repo.maven.apache.org/maven2/org/apache/tika/tika-core/3.3.2)** < [4.0.0](https://repo.maven.apache.org/maven2/org/apache/tika/tika-core/4.0.0/)
  - [org.glassfish.expressly](https://repo.maven.apache.org/maven2/org/glassfish/expressly/)
     - [expressly](https://repo.maven.apache.org/maven2/org/glassfish/expressly/expressly/) **[5.0.0](https://repo.maven.apache.org/maven2/org/glassfish/expressly/expressly/5.0.0)** < [6.0.0](https://repo.maven.apache.org/maven2/org/glassfish/expressly/expressly/6.0.0/)
  - [org.glassfish.hk2](https://repo.maven.apache.org/maven2/org/glassfish/hk2/)
@@ -251,7 +253,7 @@
  - [org.conscrypt](https://repo.maven.apache.org/maven2/org/conscrypt/)
     - [conscrypt-openjdk-uber](https://repo.maven.apache.org/maven2/org/conscrypt/conscrypt-openjdk-uber/) **[2.6.3](https://repo.maven.apache.org/maven2/org/conscrypt/conscrypt-openjdk-uber/2.6.3)**
  - [org.easymock](https://repo.maven.apache.org/maven2/org/easymock/)
-    - [easymock](https://repo.maven.apache.org/maven2/org/easymock/easymock/) **[5.6.0](https://repo.maven.apache.org/maven2/org/easymock/easymock/5.6.0)**
+    - [easymock](https://repo.maven.apache.org/maven2/org/easymock/easymock/) **[5.7.0](https://repo.maven.apache.org/maven2/org/easymock/easymock/5.7.0)**
  - [org.eclipse.collections](https://repo.maven.apache.org/maven2/org/eclipse/collections/)
     - [eclipse-collections](https://repo.maven.apache.org/maven2/org/eclipse/collections/eclipse-collections/) **[12.0.0](https://repo.maven.apache.org/maven2/org/eclipse/collections/eclipse-collections/12.0.0)**
     - [eclipse-collections](https://repo.maven.apache.org/maven2/org/eclipse/collections/eclipse-collections/) **[13.0.0](https://repo.maven.apache.org/maven2/org/eclipse/collections/eclipse-collections/13.0.0)**

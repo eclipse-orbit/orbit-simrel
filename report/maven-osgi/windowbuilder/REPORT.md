@@ -1,18 +1,8 @@
 # Target Platform: [windowbuilder](https://raw.githubusercontent.com/eclipse/windowbuilder/master/target-platform/mvn/wb-mvn.target)
 
 ## Minor Updates
- - [com.sun.xml.bind](https://repo.maven.apache.org/maven2/com/sun/xml/bind/)
-    - [jaxb-osgi](https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-osgi/) **[4.0.8](https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-osgi/4.0.8)** < [4.0.9](https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-osgi/4.0.9/)
- - [io.github.toolfactory](https://repo.maven.apache.org/maven2/io/github/toolfactory/)
-    - [jvm-driver](https://repo.maven.apache.org/maven2/io/github/toolfactory/jvm-driver/) **[9.10.0](https://repo.maven.apache.org/maven2/io/github/toolfactory/jvm-driver/9.10.0)** < [9.10.1](https://repo.maven.apache.org/maven2/io/github/toolfactory/jvm-driver/9.10.1/)
-    - [narcissus](https://repo.maven.apache.org/maven2/io/github/toolfactory/narcissus/) **[1.0.11](https://repo.maven.apache.org/maven2/io/github/toolfactory/narcissus/1.0.11)** < [1.0.13](https://repo.maven.apache.org/maven2/io/github/toolfactory/narcissus/1.0.13/)
- - [net.bytebuddy](https://repo.maven.apache.org/maven2/net/bytebuddy/)
-    - [byte-buddy](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/) **[1.18.8](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.18.8)** < [1.18.12](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.18.12/)
-    - [byte-buddy-agent](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/) **[1.18.8](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.18.8)** < [1.18.12](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.18.12/)
  - [org.burningwave](https://repo.maven.apache.org/maven2/org/burningwave/)
-    - [jvm-driver](https://repo.maven.apache.org/maven2/org/burningwave/jvm-driver/) **[8.19.1](https://repo.maven.apache.org/maven2/org/burningwave/jvm-driver/8.19.1)** < [8.20.1](https://repo.maven.apache.org/maven2/org/burningwave/jvm-driver/8.20.1/)
- - [org.objenesis](https://repo.maven.apache.org/maven2/org/objenesis/)
-    - [objenesis](https://repo.maven.apache.org/maven2/org/objenesis/objenesis/) **[3.5](https://repo.maven.apache.org/maven2/org/objenesis/objenesis/3.5)** < [3.6](https://repo.maven.apache.org/maven2/org/objenesis/objenesis/3.6/)
+    - [core](https://repo.maven.apache.org/maven2/org/burningwave/core/) **[12.66.2](https://repo.maven.apache.org/maven2/org/burningwave/core/12.66.2)** < [12.67.0](https://repo.maven.apache.org/maven2/org/burningwave/core/12.67.0/)
 
 ## Updates Applied
 [updated.target](updated.target)
@@ -22,26 +12,26 @@
     - [miglayout-core](https://repo.maven.apache.org/maven2/com/miglayout/miglayout-core/) **[11.4.3](https://repo.maven.apache.org/maven2/com/miglayout/miglayout-core/11.4.3)**
     - [miglayout-swing](https://repo.maven.apache.org/maven2/com/miglayout/miglayout-swing/) **[11.4.3](https://repo.maven.apache.org/maven2/com/miglayout/miglayout-swing/11.4.3)**
  - [com.sun.xml.bind](https://repo.maven.apache.org/maven2/com/sun/xml/bind/)
-    - [jaxb-osgi](https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-osgi/) **[4.0.8](https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-osgi/4.0.8)**
+    - [jaxb-osgi](https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-osgi/) **[4.0.9](https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-osgi/4.0.9)**
  - [commons-io](https://repo.maven.apache.org/maven2/commons-io/)
     - [commons-io](https://repo.maven.apache.org/maven2/commons-io/commons-io/) **[2.22.0](https://repo.maven.apache.org/maven2/commons-io/commons-io/2.22.0)**
  - [io.github.toolfactory](https://repo.maven.apache.org/maven2/io/github/toolfactory/)
-    - [jvm-driver](https://repo.maven.apache.org/maven2/io/github/toolfactory/jvm-driver/) **[9.10.0](https://repo.maven.apache.org/maven2/io/github/toolfactory/jvm-driver/9.10.0)**
-    - [narcissus](https://repo.maven.apache.org/maven2/io/github/toolfactory/narcissus/) **[1.0.11](https://repo.maven.apache.org/maven2/io/github/toolfactory/narcissus/1.0.11)**
+    - [jvm-driver](https://repo.maven.apache.org/maven2/io/github/toolfactory/jvm-driver/) **[9.10.1](https://repo.maven.apache.org/maven2/io/github/toolfactory/jvm-driver/9.10.1)**
+    - [narcissus](https://repo.maven.apache.org/maven2/io/github/toolfactory/narcissus/) **[1.0.13](https://repo.maven.apache.org/maven2/io/github/toolfactory/narcissus/1.0.13)**
  - [jakarta.activation](https://repo.maven.apache.org/maven2/jakarta/activation/)
     - [jakarta.activation-api](https://repo.maven.apache.org/maven2/jakarta/activation/jakarta.activation-api/) **[2.1.4](https://repo.maven.apache.org/maven2/jakarta/activation/jakarta.activation-api/2.1.4)**
  - [jakarta.xml.bind](https://repo.maven.apache.org/maven2/jakarta/xml/bind/)
     - [jakarta.xml.bind-api](https://repo.maven.apache.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/) **[4.0.5](https://repo.maven.apache.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/4.0.5)**
  - [net.bytebuddy](https://repo.maven.apache.org/maven2/net/bytebuddy/)
-    - [byte-buddy](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/) **[1.18.8](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.18.8)**
-    - [byte-buddy-agent](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/) **[1.18.8](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.18.8)**
+    - [byte-buddy](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/) **[1.18.12](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.18.12)**
+    - [byte-buddy-agent](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/) **[1.18.12](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.18.12)**
  - [org.apache.commons](https://repo.maven.apache.org/maven2/org/apache/commons/)
     - [commons-lang3](https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/) **[3.20.0](https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.20.0)**
     - [commons-text](https://repo.maven.apache.org/maven2/org/apache/commons/commons-text/) **[1.15.0](https://repo.maven.apache.org/maven2/org/apache/commons/commons-text/1.15.0)**
  - [org.burningwave](https://repo.maven.apache.org/maven2/org/burningwave/)
     - [core](https://repo.maven.apache.org/maven2/org/burningwave/core/) **[12.66.2](https://repo.maven.apache.org/maven2/org/burningwave/core/12.66.2)**
-    - [jvm-driver](https://repo.maven.apache.org/maven2/org/burningwave/jvm-driver/) **[8.19.1](https://repo.maven.apache.org/maven2/org/burningwave/jvm-driver/8.19.1)**
+    - [jvm-driver](https://repo.maven.apache.org/maven2/org/burningwave/jvm-driver/) **[8.20.1](https://repo.maven.apache.org/maven2/org/burningwave/jvm-driver/8.20.1)**
  - [org.mvel](https://repo.maven.apache.org/maven2/org/mvel/)
     - [mvel2](https://repo.maven.apache.org/maven2/org/mvel/mvel2/) **[2.5.2.Final](https://repo.maven.apache.org/maven2/org/mvel/mvel2/2.5.2.Final)**
  - [org.objenesis](https://repo.maven.apache.org/maven2/org/objenesis/)
-    - [objenesis](https://repo.maven.apache.org/maven2/org/objenesis/objenesis/) **[3.5](https://repo.maven.apache.org/maven2/org/objenesis/objenesis/3.5)**
+    - [objenesis](https://repo.maven.apache.org/maven2/org/objenesis/objenesis/) **[3.6](https://repo.maven.apache.org/maven2/org/objenesis/objenesis/3.6)**
