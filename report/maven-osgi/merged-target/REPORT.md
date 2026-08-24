@@ -8,7 +8,7 @@
  - [com.fasterxml.woodstox](https://repo.maven.apache.org/maven2/com/fasterxml/woodstox/)
     - [woodstox-core](https://repo.maven.apache.org/maven2/com/fasterxml/woodstox/woodstox-core/) **[6.7.0](https://repo.maven.apache.org/maven2/com/fasterxml/woodstox/woodstox-core/6.7.0)** < [7.2.2](https://repo.maven.apache.org/maven2/com/fasterxml/woodstox/woodstox-core/7.2.2/)
  - [com.github.oshi](https://repo.maven.apache.org/maven2/com/github/oshi/)
-    - [oshi-core](https://repo.maven.apache.org/maven2/com/github/oshi/oshi-core/) **[6.12.0](https://repo.maven.apache.org/maven2/com/github/oshi/oshi-core/6.12.0)** < [7.5.0](https://repo.maven.apache.org/maven2/com/github/oshi/oshi-core/7.5.0/)
+    - [oshi-core](https://repo.maven.apache.org/maven2/com/github/oshi/oshi-core/) **[6.12.0](https://repo.maven.apache.org/maven2/com/github/oshi/oshi-core/6.12.0)** < [7.6.0](https://repo.maven.apache.org/maven2/com/github/oshi/oshi-core/7.6.0/)
  - [com.networknt](https://repo.maven.apache.org/maven2/com/networknt/)
     - [json-schema-validator](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/) **[1.5.9](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/1.5.9)** < [3.0.7](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/3.0.7/)
     - [json-schema-validator](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/) **[2.0.7](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/2.0.7)** < [3.0.7](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/3.0.7/)
@@ -385,7 +385,7 @@
     - [org.jacoco.core](https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.core/) **[0.8.15](https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.core/0.8.15)**
     - [org.jacoco.report](https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.report/) **[0.8.15](https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.report/0.8.15)**
  - [org.javassist](https://repo.maven.apache.org/maven2/org/javassist/)
-    - [javassist](https://repo.maven.apache.org/maven2/org/javassist/javassist/) **[3.32.0-GA](https://repo.maven.apache.org/maven2/org/javassist/javassist/3.32.0-GA)**
+    - [javassist](https://repo.maven.apache.org/maven2/org/javassist/javassist/) **[3.33.0-GA](https://repo.maven.apache.org/maven2/org/javassist/javassist/3.33.0-GA)**
  - [org.json](https://repo.maven.apache.org/maven2/org/json/)
     - [json](https://repo.maven.apache.org/maven2/org/json/json/) **[20260814](https://repo.maven.apache.org/maven2/org/json/json/20260814)**
  - [org.jsoup](https://repo.maven.apache.org/maven2/org/jsoup/)

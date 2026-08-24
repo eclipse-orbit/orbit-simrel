@@ -3,7 +3,7 @@
 <target name="Maven" sequenceNumber="1">
   <locations>
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="error" type="Maven">
-      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.41.0.v20260822-1000">
+      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.41.0.v20260824-1000">
         <description>This feature's dependencies are pulled directly from Maven central.</description>
         <copyright>
 Copyright (c) 2026 Eclipse contributors and others.
@@ -16,7 +16,7 @@ https://www.eclipse.org/legal/epl-2.0/
 SPDX-License-Identifier: EPL-2.0
         </copyright>
         <license url="https://www.eclipse.org/legal/epl-2.0/"/>
-        <!-- SHA1 f6810369a95810602096a85e6d916725161c8de8 -->
+        <!-- SHA1 06188d2a8313d9c27803c2cd206eaa25063bad32 -->
       </feature>
       <dependencies>
         <dependency>
@@ -1433,7 +1433,7 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>org.javassist</groupId>
           <artifactId>javassist</artifactId>
-          <version>3.32.0-GA</version>
+          <version>3.33.0-GA</version>
           <type>jar</type>
         </dependency>
         <dependency>
