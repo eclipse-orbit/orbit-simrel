@@ -70,7 +70,7 @@
  - [org.apache.ws.commons.util](https://repo.maven.apache.org/maven2/org/apache/ws/commons/util/)
     - [ws-commons-util](https://repo.maven.apache.org/maven2/org/apache/ws/commons/util/ws-commons-util/) **[1.0.2](https://repo.maven.apache.org/maven2/org/apache/ws/commons/util/ws-commons-util/1.0.2)**
  - [org.apache.xmlbeans](https://repo.maven.apache.org/maven2/org/apache/xmlbeans/)
-    - [xmlbeans](https://repo.maven.apache.org/maven2/org/apache/xmlbeans/xmlbeans/) **[5.3.0](https://repo.maven.apache.org/maven2/org/apache/xmlbeans/xmlbeans/5.3.0)**
+    - [xmlbeans](https://repo.maven.apache.org/maven2/org/apache/xmlbeans/xmlbeans/) **[5.4.0](https://repo.maven.apache.org/maven2/org/apache/xmlbeans/xmlbeans/5.4.0)**
  - [org.apache.xmlgraphics](https://repo.maven.apache.org/maven2/org/apache/xmlgraphics/)
     - [batik-anim](https://repo.maven.apache.org/maven2/org/apache/xmlgraphics/batik-anim/) **[1.19](https://repo.maven.apache.org/maven2/org/apache/xmlgraphics/batik-anim/1.19)**
     - [batik-awt-util](https://repo.maven.apache.org/maven2/org/apache/xmlgraphics/batik-awt-util/) **[1.19](https://repo.maven.apache.org/maven2/org/apache/xmlgraphics/batik-awt-util/1.19)**
@@ -96,7 +96,7 @@
     - [fop-util](https://repo.maven.apache.org/maven2/org/apache/xmlgraphics/fop-util/) **[2.11](https://repo.maven.apache.org/maven2/org/apache/xmlgraphics/fop-util/2.11)**
     - [xmlgraphics-commons](https://repo.maven.apache.org/maven2/org/apache/xmlgraphics/xmlgraphics-commons/) **[2.11](https://repo.maven.apache.org/maven2/org/apache/xmlgraphics/xmlgraphics-commons/2.11)**
  - [org.cyclonedx](https://repo.maven.apache.org/maven2/org/cyclonedx/)
-    - [cyclonedx-core-java](https://repo.maven.apache.org/maven2/org/cyclonedx/cyclonedx-core-java/) **[13.1.0](https://repo.maven.apache.org/maven2/org/cyclonedx/cyclonedx-core-java/13.1.0)**
+    - [cyclonedx-core-java](https://repo.maven.apache.org/maven2/org/cyclonedx/cyclonedx-core-java/) **[13.2.0](https://repo.maven.apache.org/maven2/org/cyclonedx/cyclonedx-core-java/13.2.0)**
  - [org.dom4j](https://repo.maven.apache.org/maven2/org/dom4j/)
     - [dom4j](https://repo.maven.apache.org/maven2/org/dom4j/dom4j/) **[2.2.0](https://repo.maven.apache.org/maven2/org/dom4j/dom4j/2.2.0)**
  - [org.eclipse.orbit](https://repo.eclipse.org/service/rest/repository/browse/orbit-maven2-approved-artifacts/org/eclipse/orbit/)
