@@ -109,6 +109,7 @@ PROMOTE=${params.PROMOTE}
                   -Ddash.fail=$DASH_STRICT \
                   -Ddash.clearlyDefinedApi=skip \
                   -Dtycho.target.eager=true \
+                  -DexcludeGroupIds=p2.eclipse.feature \
                   -Ddash.iplab.token=$GITLAB_API_TOKEN \
                   clean \
                   verify

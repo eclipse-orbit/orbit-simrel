@@ -13,5 +13,6 @@
   <contribution
       contribution="orbit.aggr#//@validationSets[label='orbit']/@contributions[label='orbit-legacy']"/>
   <contribution
+      enabled="false"
       contribution="orbit.aggr#//@validationSets[label='orbit']/@contributions[label='platform']"/>
 </analyzer:Analysis>
