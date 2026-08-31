@@ -3,7 +3,7 @@
 <target name="Maven" sequenceNumber="1">
   <locations>
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="error" type="Maven">
-      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.41.0.v20260825-1000">
+      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.41.0.v20260831-1000">
         <description>This feature's dependencies are pulled directly from Maven central.</description>
         <copyright>
 Copyright (c) 2026 Eclipse contributors and others.
@@ -16,7 +16,7 @@ https://www.eclipse.org/legal/epl-2.0/
 SPDX-License-Identifier: EPL-2.0
         </copyright>
         <license url="https://www.eclipse.org/legal/epl-2.0/"/>
-        <!-- SHA1 bf84db7220787ec6f9d0afbb0527b658417bdc28 -->
+        <!-- SHA1 87842d1a22ad8b83d64b605282b73172eca752eb -->
       </feature>
       <dependencies>
         <dependency>
@@ -1181,7 +1181,7 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>org.freemarker</groupId>
           <artifactId>freemarker</artifactId>
-          <version>2.3.34</version>
+          <version>2.3.35</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -1445,7 +1445,7 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>org.jsoup</groupId>
           <artifactId>jsoup</artifactId>
-          <version>1.23.1</version>
+          <version>1.23.2</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -1649,7 +1649,7 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>org.mvel</groupId>
           <artifactId>mvel2</artifactId>
-          <version>2.5.2.Final</version>
+          <version>2.5.3.Final</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -2051,7 +2051,7 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>org.yaml</groupId>
           <artifactId>snakeyaml</artifactId>
-          <version>2.6</version>
+          <version>2.7</version>
           <type>jar</type>
         </dependency>
       </dependencies>
