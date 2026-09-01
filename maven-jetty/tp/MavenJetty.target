@@ -1029,11 +1029,6 @@ SPDX-License-Identifier: EPL-2.0
       </dependencies>
     </location>
 
-    <location includeAllPlatforms="true" includeConfigurePhase="true" includeMode="slicer" includeSource="true" type="InstallableUnit">
-      <repository location="https://download.eclipse.org/tools/orbit/simrel/orbit-legacy/nightly/latest"/>
-      <unit id="org.eclipse.orbit.sun.security" version="0.0.0"/>
-    </location>
-
 
 <!-- _______________________________________________________ Jetty Dependencies - EXCLUDE _________________________________________________________________________________________________-->
 
@@ -1284,7 +1279,7 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>org.conscrypt</groupId>
           <artifactId>conscrypt-openjdk-uber</artifactId>
-          <version>2.6.3</version>
+          <version>2.7.0</version>
           <type>jar</type>
         </dependency>
         <dependency>
