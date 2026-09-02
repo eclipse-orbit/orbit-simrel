@@ -29,7 +29,7 @@ public class Updater {
 
 	private static final String TYCHO_VERSION_MATCHER = "([0-9]+\\.[0-9]+\\.[0-9]+)(?:-SNAPSHOT)?";
 
-	private static final String CBI_VERSION = "1.5.4";
+	private static final String CBI_VERSION = "1.5.7";
 
 	private static final String CBI_VERSION_MATCHER = "([0-9]+\\.[0-9]+\\.[0-9]+)(?:-SNAPSHOT)?";
 
