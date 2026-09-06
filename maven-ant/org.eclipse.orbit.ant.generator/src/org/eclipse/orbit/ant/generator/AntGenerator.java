@@ -57,7 +57,7 @@ public class AntGenerator {
 		var bndBundleClasspathInstruction = target.resolve("Bundle-ClassPath.properties");
 		var bndBundleClasspathInstructions = new ArrayList<String>();
 		bndBundleClasspathInstructions
-				.add("# These contents are generated and if they change should be copied to MavenBDN.target");
+				.add("# These contents are generated and if they change should be copied to MavenBND.target");
 		bndBundleClasspathInstructions.add("#");
 		for (int i = 0, last = jars.size() - 1; i <= last; ++i) {
 			bndBundleClasspathInstructions.add((i == 0 ? "Bundle-ClassPath:       " : "                        ")

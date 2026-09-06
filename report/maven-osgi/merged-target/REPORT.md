@@ -8,7 +8,7 @@
  - [com.fasterxml.woodstox](https://repo.maven.apache.org/maven2/com/fasterxml/woodstox/)
     - [woodstox-core](https://repo.maven.apache.org/maven2/com/fasterxml/woodstox/woodstox-core/) **[6.7.0](https://repo.maven.apache.org/maven2/com/fasterxml/woodstox/woodstox-core/6.7.0)** < [7.2.2](https://repo.maven.apache.org/maven2/com/fasterxml/woodstox/woodstox-core/7.2.2/)
  - [com.github.oshi](https://repo.maven.apache.org/maven2/com/github/oshi/)
-    - [oshi-core](https://repo.maven.apache.org/maven2/com/github/oshi/oshi-core/) **[6.12.0](https://repo.maven.apache.org/maven2/com/github/oshi/oshi-core/6.12.0)** < [7.6.0](https://repo.maven.apache.org/maven2/com/github/oshi/oshi-core/7.6.0/)
+    - [oshi-core](https://repo.maven.apache.org/maven2/com/github/oshi/oshi-core/) **[6.12.0](https://repo.maven.apache.org/maven2/com/github/oshi/oshi-core/6.12.0)** < [7.6.1](https://repo.maven.apache.org/maven2/com/github/oshi/oshi-core/7.6.1/)
  - [com.networknt](https://repo.maven.apache.org/maven2/com/networknt/)
     - [json-schema-validator](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/) **[1.5.9](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/1.5.9)** < [3.0.7](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/3.0.7/)
     - [json-schema-validator](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/) **[2.0.7](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/2.0.7)** < [3.0.7](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/3.0.7/)
@@ -94,6 +94,8 @@
     - [openpdf](https://repo.maven.apache.org/maven2/com/github/librepdf/openpdf/) **[1.4.2](https://repo.maven.apache.org/maven2/com/github/librepdf/openpdf/1.4.2)**
     - [openpdf](https://repo.maven.apache.org/maven2/com/github/librepdf/openpdf/) **[2.4.0](https://repo.maven.apache.org/maven2/com/github/librepdf/openpdf/2.4.0)**
     - [openpdf](https://repo.maven.apache.org/maven2/com/github/librepdf/openpdf/) **[3.0.5](https://repo.maven.apache.org/maven2/com/github/librepdf/openpdf/3.0.5)**
+ - [com.github.mwiede](https://repo.maven.apache.org/maven2/com/github/mwiede/)
+    - [jsch](https://repo.maven.apache.org/maven2/com/github/mwiede/jsch/) **[2.28.7](https://repo.maven.apache.org/maven2/com/github/mwiede/jsch/2.28.7)**
  - [com.github.oshi](https://repo.maven.apache.org/maven2/com/github/oshi/)
     - [oshi-core](https://repo.maven.apache.org/maven2/com/github/oshi/oshi-core/) **[6.12.0](https://repo.maven.apache.org/maven2/com/github/oshi/oshi-core/6.12.0)**
  - [com.github.weisj](https://repo.maven.apache.org/maven2/com/github/weisj/)
@@ -118,7 +120,7 @@
  - [com.googlecode.json-simple](https://repo.maven.apache.org/maven2/com/googlecode/json-simple/)
     - [json-simple](https://repo.maven.apache.org/maven2/com/googlecode/json-simple/json-simple/) **[1.1.1](https://repo.maven.apache.org/maven2/com/googlecode/json-simple/json-simple/1.1.1)**
  - [com.h2database](https://repo.maven.apache.org/maven2/com/h2database/)
-    - [h2](https://repo.maven.apache.org/maven2/com/h2database/h2/) **[2.4.240](https://repo.maven.apache.org/maven2/com/h2database/h2/2.4.240)**
+    - [h2](https://repo.maven.apache.org/maven2/com/h2database/h2/) **[2.5.250](https://repo.maven.apache.org/maven2/com/h2database/h2/2.5.250)**
  - [com.ibm.icu](https://repo.maven.apache.org/maven2/com/ibm/icu/)
     - [icu4j](https://repo.maven.apache.org/maven2/com/ibm/icu/icu4j/) **[78.3](https://repo.maven.apache.org/maven2/com/ibm/icu/icu4j/78.3)**
  - [com.miglayout](https://repo.maven.apache.org/maven2/com/miglayout/)
@@ -234,8 +236,8 @@
  - [lpg.runtime](https://repo.maven.apache.org/maven2/lpg/runtime/)
     - [java](https://repo.maven.apache.org/maven2/lpg/runtime/java/) **[2.0.17-v201004271640](https://repo.maven.apache.org/maven2/lpg/runtime/java/2.0.17-v201004271640)**
  - [net.bytebuddy](https://repo.maven.apache.org/maven2/net/bytebuddy/)
-    - [byte-buddy](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/) **[1.18.12](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.18.12)**
-    - [byte-buddy-agent](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/) **[1.18.12](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.18.12)**
+    - [byte-buddy](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/) **[1.18.13](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.18.13)**
+    - [byte-buddy-agent](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/) **[1.18.13](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.18.13)**
  - [net.java.dev.jna](https://repo.maven.apache.org/maven2/net/java/dev/jna/)
     - [jna-platform](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna-platform/) **[5.19.1](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna-platform/5.19.1)**
  - [org.antlr](https://repo.maven.apache.org/maven2/org/antlr/)
@@ -315,7 +317,7 @@
     - [commonmark-ext-task-list-items](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-task-list-items/) **[0.30.0](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-task-list-items/0.30.0)**
     - [commonmark-ext-yaml-front-matter](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-yaml-front-matter/) **[0.30.0](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-yaml-front-matter/0.30.0)**
  - [org.conscrypt](https://repo.maven.apache.org/maven2/org/conscrypt/)
-    - [conscrypt-openjdk-uber](https://repo.maven.apache.org/maven2/org/conscrypt/conscrypt-openjdk-uber/) **[2.6.3](https://repo.maven.apache.org/maven2/org/conscrypt/conscrypt-openjdk-uber/2.6.3)**
+    - [conscrypt-openjdk-uber](https://repo.maven.apache.org/maven2/org/conscrypt/conscrypt-openjdk-uber/) **[2.7.0](https://repo.maven.apache.org/maven2/org/conscrypt/conscrypt-openjdk-uber/2.7.0)**
  - [org.easymock](https://repo.maven.apache.org/maven2/org/easymock/)
     - [easymock](https://repo.maven.apache.org/maven2/org/easymock/easymock/) **[5.7.0](https://repo.maven.apache.org/maven2/org/easymock/easymock/5.7.0)**
  - [org.eclipse.collections](https://repo.maven.apache.org/maven2/org/eclipse/collections/)
@@ -330,7 +332,7 @@
  - [org.eclipse.lemminx](https://repo.eclipse.org/service/rest/repository/browse/lemminx-maven2-releases/org/eclipse/lemminx/)
     - [org.eclipse.lemminx](https://repo.eclipse.org/service/rest/repository/browse/lemminx-maven2-releases/org/eclipse/lemminx/org.eclipse.lemminx/) **[0.31.2](https://repo.eclipse.org/service/rest/repository/browse/lemminx-maven2-releases/org/eclipse/lemminx/org.eclipse.lemminx/0.31.2)** - *uber*
  - [org.freemarker](https://repo.maven.apache.org/maven2/org/freemarker/)
-    - [freemarker](https://repo.maven.apache.org/maven2/org/freemarker/freemarker/) **[2.3.34](https://repo.maven.apache.org/maven2/org/freemarker/freemarker/2.3.34)**
+    - [freemarker](https://repo.maven.apache.org/maven2/org/freemarker/freemarker/) **[2.3.35](https://repo.maven.apache.org/maven2/org/freemarker/freemarker/2.3.35)**
  - [org.glassfish](https://repo.maven.apache.org/maven2/org/glassfish/)
     - [jakarta.el](https://repo.maven.apache.org/maven2/org/glassfish/jakarta.el/) **[3.0.4](https://repo.maven.apache.org/maven2/org/glassfish/jakarta.el/3.0.4)**
  - [org.glassfish.expressly](https://repo.maven.apache.org/maven2/org/glassfish/expressly/)
@@ -389,7 +391,7 @@
  - [org.json](https://repo.maven.apache.org/maven2/org/json/)
     - [json](https://repo.maven.apache.org/maven2/org/json/json/) **[20260814](https://repo.maven.apache.org/maven2/org/json/json/20260814)**
  - [org.jsoup](https://repo.maven.apache.org/maven2/org/jsoup/)
-    - [jsoup](https://repo.maven.apache.org/maven2/org/jsoup/jsoup/) **[1.23.1](https://repo.maven.apache.org/maven2/org/jsoup/jsoup/1.23.1)**
+    - [jsoup](https://repo.maven.apache.org/maven2/org/jsoup/jsoup/) **[1.23.2](https://repo.maven.apache.org/maven2/org/jsoup/jsoup/1.23.2)**
  - [org.junit.jupiter](https://repo.maven.apache.org/maven2/org/junit/jupiter/)
     - [junit-jupiter-api](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/) **[5.14.4](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.14.4)**
     - [junit-jupiter-api](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/) **[6.1.3](https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/6.1.3)**
@@ -431,7 +433,7 @@
     - [mortbay-apache-jsp](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-jsp/) **[10.1.56](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-jsp/10.1.56)**
     - [mortbay-apache-jsp](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-jsp/) **[11.0.23](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-jsp/11.0.23)**
  - [org.mvel](https://repo.maven.apache.org/maven2/org/mvel/)
-    - [mvel2](https://repo.maven.apache.org/maven2/org/mvel/mvel2/) **[2.5.2.Final](https://repo.maven.apache.org/maven2/org/mvel/mvel2/2.5.2.Final)**
+    - [mvel2](https://repo.maven.apache.org/maven2/org/mvel/mvel2/) **[2.5.4.Final](https://repo.maven.apache.org/maven2/org/mvel/mvel2/2.5.4.Final)**
  - [org.objenesis](https://repo.maven.apache.org/maven2/org/objenesis/)
     - [objenesis](https://repo.maven.apache.org/maven2/org/objenesis/objenesis/) **[3.6](https://repo.maven.apache.org/maven2/org/objenesis/objenesis/3.6)**
  - [org.opentest4j](https://repo.maven.apache.org/maven2/org/opentest4j/)
@@ -494,17 +496,17 @@
     - [org.ow2.sat4j.core](https://repo.maven.apache.org/maven2/org/ow2/sat4j/org.ow2.sat4j.core/) **[2.3.6](https://repo.maven.apache.org/maven2/org/ow2/sat4j/org.ow2.sat4j.core/2.3.6)**
     - [org.ow2.sat4j.pb](https://repo.maven.apache.org/maven2/org/ow2/sat4j/org.ow2.sat4j.pb/) **[2.3.6](https://repo.maven.apache.org/maven2/org/ow2/sat4j/org.ow2.sat4j.pb/2.3.6)**
  - [org.slf4j](https://repo.maven.apache.org/maven2/org/slf4j/)
-    - [jcl-over-slf4j](https://repo.maven.apache.org/maven2/org/slf4j/jcl-over-slf4j/) **[2.0.18](https://repo.maven.apache.org/maven2/org/slf4j/jcl-over-slf4j/2.0.18)**
+    - [jcl-over-slf4j](https://repo.maven.apache.org/maven2/org/slf4j/jcl-over-slf4j/) **[2.0.19](https://repo.maven.apache.org/maven2/org/slf4j/jcl-over-slf4j/2.0.19)**
     - [slf4j-api](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/) **[1.7.36](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.36)**
-    - [slf4j-api](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/) **[2.0.18](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/2.0.18)**
+    - [slf4j-api](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/) **[2.0.19](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/2.0.19)**
     - [slf4j-nop](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-nop/) **[1.7.36](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-nop/1.7.36)**
-    - [slf4j-nop](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-nop/) **[2.0.18](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-nop/2.0.18)**
-    - [slf4j-reload4j](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-reload4j/) **[2.0.18](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-reload4j/2.0.18)**
+    - [slf4j-nop](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-nop/) **[2.0.19](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-nop/2.0.19)**
+    - [slf4j-reload4j](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-reload4j/) **[2.0.19](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-reload4j/2.0.19)**
     - [slf4j-simple](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-simple/) **[1.7.36](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-simple/1.7.36)**
-    - [slf4j-simple](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-simple/) **[2.0.18](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-simple/2.0.18)**
+    - [slf4j-simple](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-simple/) **[2.0.19](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-simple/2.0.19)**
  - [org.snakeyaml](https://repo.maven.apache.org/maven2/org/snakeyaml/)
     - [snakeyaml-engine](https://repo.maven.apache.org/maven2/org/snakeyaml/snakeyaml-engine/) **[2.10](https://repo.maven.apache.org/maven2/org/snakeyaml/snakeyaml-engine/2.10)**
  - [org.tukaani](https://repo.maven.apache.org/maven2/org/tukaani/)
     - [xz](https://repo.maven.apache.org/maven2/org/tukaani/xz/) **[1.12](https://repo.maven.apache.org/maven2/org/tukaani/xz/1.12)**
  - [org.yaml](https://repo.maven.apache.org/maven2/org/yaml/)
-    - [snakeyaml](https://repo.maven.apache.org/maven2/org/yaml/snakeyaml/) **[2.6](https://repo.maven.apache.org/maven2/org/yaml/snakeyaml/2.6)**
+    - [snakeyaml](https://repo.maven.apache.org/maven2/org/yaml/snakeyaml/) **[2.7](https://repo.maven.apache.org/maven2/org/yaml/snakeyaml/2.7)**

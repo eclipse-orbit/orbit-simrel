@@ -1,5 +1,15 @@
 # Target Platform: [windowbuilder](https://raw.githubusercontent.com/eclipse/windowbuilder/master/target-platform/mvn/wb-mvn.target)
 
+## Minor Updates
+ - [net.bytebuddy](https://repo.maven.apache.org/maven2/net/bytebuddy/)
+    - [byte-buddy](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/) **[1.18.12](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.18.12)** < [1.18.13](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.18.13/)
+    - [byte-buddy-agent](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/) **[1.18.12](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.18.12)** < [1.18.13](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.18.13/)
+ - [org.mvel](https://repo.maven.apache.org/maven2/org/mvel/)
+    - [mvel2](https://repo.maven.apache.org/maven2/org/mvel/mvel2/) **[2.5.2.Final](https://repo.maven.apache.org/maven2/org/mvel/mvel2/2.5.2.Final)** < [2.5.4.Final](https://repo.maven.apache.org/maven2/org/mvel/mvel2/2.5.4.Final/)
+
+## Updates Applied
+[updated.target](updated.target)
+
 ## Content
  - [com.miglayout](https://repo.maven.apache.org/maven2/com/miglayout/)
     - [miglayout-core](https://repo.maven.apache.org/maven2/com/miglayout/miglayout-core/) **[11.4.3](https://repo.maven.apache.org/maven2/com/miglayout/miglayout-core/11.4.3)**

@@ -96,12 +96,12 @@ maven bytebuddy
 	dependency {
 		groupId = "net.bytebuddy"
 		artifactId = "byte-buddy"
-		version = "1.18.12"
+		version = "1.18.13"
 	}
 	dependency {
 		groupId = "net.bytebuddy"
 		artifactId = "byte-buddy-agent"
-		version = "1.18.12"
+		version = "1.18.13"
 	}
 }
 
@@ -242,17 +242,17 @@ maven slf4j
 	dependency {
 		groupId = "org.slf4j"
 		artifactId = "slf4j-api"
-		version = "2.0.18"
+		version = "2.0.19"
 	}
 	dependency {
 		groupId = "org.slf4j"
 		artifactId = "slf4j-simple"
-		version = "2.0.18"
+		version = "2.0.19"
 	}
 	dependency {
 		groupId = "org.slf4j"
 		artifactId = "jcl-over-slf4j"
-		version = "2.0.18"
+		version = "2.0.19"
 	}
 }
 

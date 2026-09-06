@@ -6,6 +6,13 @@
  - [net.java.dev.jna](https://repo.maven.apache.org/maven2/net/java/dev/jna/)
     - [jna](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna/) **[5.19.0](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna/5.19.0)** < [5.19.1](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna/5.19.1/)
     - [jna-platform](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna-platform/) **[5.19.0](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna-platform/5.19.0)** < [5.19.1](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna-platform/5.19.1/)
+ - [org.freemarker](https://repo.maven.apache.org/maven2/org/freemarker/)
+    - [freemarker](https://repo.maven.apache.org/maven2/org/freemarker/freemarker/) **[2.3.34](https://repo.maven.apache.org/maven2/org/freemarker/freemarker/2.3.34)** < [2.3.35](https://repo.maven.apache.org/maven2/org/freemarker/freemarker/2.3.35/)
+ - [org.slf4j](https://repo.maven.apache.org/maven2/org/slf4j/)
+    - [slf4j-api](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/) **[2.0.18](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/2.0.18)** < [2.0.19](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/2.0.19/)
+    - [slf4j-simple](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-simple/) **[2.0.18](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-simple/2.0.18)** < [2.0.19](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-simple/2.0.19/)
+ - [org.yaml](https://repo.maven.apache.org/maven2/org/yaml/)
+    - [snakeyaml](https://repo.maven.apache.org/maven2/org/yaml/snakeyaml/) **[2.6](https://repo.maven.apache.org/maven2/org/yaml/snakeyaml/2.6)** < [2.7](https://repo.maven.apache.org/maven2/org/yaml/snakeyaml/2.7/)
 
 ## Major Updates
  - [jakarta.activation](https://repo.maven.apache.org/maven2/jakarta/activation/)
