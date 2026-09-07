@@ -1,5 +1,20 @@
 # Target Platform: [platform](https://raw.githubusercontent.com/eclipse-platform/eclipse.platform.releng.aggregator/master/eclipse.platform.releng.prereqs.sdk/eclipse-sdk-prereqs.target)
 
+## Minor Updates
+ - [org.eclipse.jetty](https://repo.maven.apache.org/maven2/org/eclipse/jetty/)
+    - [jetty-http](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-http/) **[12.1.12](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-http/12.1.12)** < [12.1.13](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-http/12.1.13/)
+    - [jetty-io](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-io/) **[12.1.12](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-io/12.1.12)** < [12.1.13](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-io/12.1.13/)
+    - [jetty-security](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-security/) **[12.1.12](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-security/12.1.12)** < [12.1.13](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-security/12.1.13/)
+    - [jetty-server](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-server/) **[12.1.12](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-server/12.1.12)** < [12.1.13](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-server/12.1.13/)
+    - [jetty-session](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-session/) **[12.1.12](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-session/12.1.12)** < [12.1.13](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-session/12.1.13/)
+    - [jetty-util](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util/) **[12.1.12](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util/12.1.12)** < [12.1.13](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util/12.1.13/)
+    - [jetty-util-ajax](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util-ajax/) **[12.1.12](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util-ajax/12.1.12)** < [12.1.13](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util-ajax/12.1.13/)
+ - [org.eclipse.jetty.ee8](https://repo.maven.apache.org/maven2/org/eclipse/jetty/ee8/)
+    - [jetty-ee8-apache-jsp](https://repo.maven.apache.org/maven2/org/eclipse/jetty/ee8/jetty-ee8-apache-jsp/) **[12.1.12](https://repo.maven.apache.org/maven2/org/eclipse/jetty/ee8/jetty-ee8-apache-jsp/12.1.12)** < [12.1.13](https://repo.maven.apache.org/maven2/org/eclipse/jetty/ee8/jetty-ee8-apache-jsp/12.1.13/)
+    - [jetty-ee8-nested](https://repo.maven.apache.org/maven2/org/eclipse/jetty/ee8/jetty-ee8-nested/) **[12.1.12](https://repo.maven.apache.org/maven2/org/eclipse/jetty/ee8/jetty-ee8-nested/12.1.12)** < [12.1.13](https://repo.maven.apache.org/maven2/org/eclipse/jetty/ee8/jetty-ee8-nested/12.1.13/)
+    - [jetty-ee8-security](https://repo.maven.apache.org/maven2/org/eclipse/jetty/ee8/jetty-ee8-security/) **[12.1.12](https://repo.maven.apache.org/maven2/org/eclipse/jetty/ee8/jetty-ee8-security/12.1.12)** < [12.1.13](https://repo.maven.apache.org/maven2/org/eclipse/jetty/ee8/jetty-ee8-security/12.1.13/)
+    - [jetty-ee8-servlet](https://repo.maven.apache.org/maven2/org/eclipse/jetty/ee8/jetty-ee8-servlet/) **[12.1.12](https://repo.maven.apache.org/maven2/org/eclipse/jetty/ee8/jetty-ee8-servlet/12.1.12)** < [12.1.13](https://repo.maven.apache.org/maven2/org/eclipse/jetty/ee8/jetty-ee8-servlet/12.1.13/)
+
 ## Major Updates
  - [jakarta.el](https://repo.maven.apache.org/maven2/jakarta/el/)
     - [jakarta.el-api](https://repo.maven.apache.org/maven2/jakarta/el/jakarta.el-api/) **[3.0.3](https://repo.maven.apache.org/maven2/jakarta/el/jakarta.el-api/3.0.3)** < [6.0.1](https://repo.maven.apache.org/maven2/jakarta/el/jakarta.el-api/6.0.1/)
@@ -10,6 +25,9 @@
  - [org.mortbay.jasper](https://repo.maven.apache.org/maven2/org/mortbay/jasper/)
     - [mortbay-apache-el](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-el/) **[9.0.119](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-el/9.0.119)** < [11.0.23](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-el/11.0.23/)
     - [mortbay-apache-jsp](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-jsp/) **[9.0.119](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-jsp/9.0.119)** < [11.0.23](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-jsp/11.0.23/)
+
+## Updates Applied
+[updated.target](updated.target)
 
 ## Content
  - [biz.aQute.bnd](https://repo.maven.apache.org/maven2/biz/aQute/bnd/)
