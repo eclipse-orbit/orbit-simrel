@@ -99,9 +99,9 @@
  - [com.github.oshi](https://repo.maven.apache.org/maven2/com/github/oshi/)
     - [oshi-core](https://repo.maven.apache.org/maven2/com/github/oshi/oshi-core/) **[6.12.0](https://repo.maven.apache.org/maven2/com/github/oshi/oshi-core/6.12.0)**
  - [com.github.weisj](https://repo.maven.apache.org/maven2/com/github/weisj/)
-    - [jsvg](https://repo.maven.apache.org/maven2/com/github/weisj/jsvg/) **[2.1.0](https://repo.maven.apache.org/maven2/com/github/weisj/jsvg/2.1.0)**
-    - [jsvg-slf4j](https://repo.maven.apache.org/maven2/com/github/weisj/jsvg-slf4j/) **[2.1.0](https://repo.maven.apache.org/maven2/com/github/weisj/jsvg-slf4j/2.1.0)**
-    - [jsvg-systemlogger](https://repo.maven.apache.org/maven2/com/github/weisj/jsvg-systemlogger/) **[2.1.0](https://repo.maven.apache.org/maven2/com/github/weisj/jsvg-systemlogger/2.1.0)**
+    - [jsvg](https://repo.maven.apache.org/maven2/com/github/weisj/jsvg/) **[2.2.0](https://repo.maven.apache.org/maven2/com/github/weisj/jsvg/2.2.0)**
+    - [jsvg-slf4j](https://repo.maven.apache.org/maven2/com/github/weisj/jsvg-slf4j/) **[2.2.0](https://repo.maven.apache.org/maven2/com/github/weisj/jsvg-slf4j/2.2.0)**
+    - [jsvg-systemlogger](https://repo.maven.apache.org/maven2/com/github/weisj/jsvg-systemlogger/) **[2.2.0](https://repo.maven.apache.org/maven2/com/github/weisj/jsvg-systemlogger/2.2.0)**
  - [com.glazedlists](https://repo.maven.apache.org/maven2/com/glazedlists/)
     - [glazedlists](https://repo.maven.apache.org/maven2/com/glazedlists/glazedlists/) **[1.11.0](https://repo.maven.apache.org/maven2/com/glazedlists/glazedlists/1.11.0)**
  - [com.google.code.gson](https://repo.maven.apache.org/maven2/com/google/code/gson/)
@@ -296,10 +296,10 @@
     - [org.bndtools.versioncontrol.ignores.manager](https://repo.maven.apache.org/maven2/org/bndtools/org.bndtools.versioncontrol.ignores.manager/) **[7.4.0](https://repo.maven.apache.org/maven2/org/bndtools/org.bndtools.versioncontrol.ignores.manager/7.4.0)**
     - [org.bndtools.versioncontrol.ignores.plugin.git](https://repo.maven.apache.org/maven2/org/bndtools/org.bndtools.versioncontrol.ignores.plugin.git/) **[7.4.0](https://repo.maven.apache.org/maven2/org/bndtools/org.bndtools.versioncontrol.ignores.plugin.git/7.4.0)**
  - [org.bouncycastle](https://repo.maven.apache.org/maven2/org/bouncycastle/)
-    - [bcpg-jdk18on](https://repo.maven.apache.org/maven2/org/bouncycastle/bcpg-jdk18on/) **[1.85](https://repo.maven.apache.org/maven2/org/bouncycastle/bcpg-jdk18on/1.85)**
-    - [bcpkix-jdk18on](https://repo.maven.apache.org/maven2/org/bouncycastle/bcpkix-jdk18on/) **[1.85](https://repo.maven.apache.org/maven2/org/bouncycastle/bcpkix-jdk18on/1.85)**
-    - [bcprov-jdk18on](https://repo.maven.apache.org/maven2/org/bouncycastle/bcprov-jdk18on/) **[1.85.2](https://repo.maven.apache.org/maven2/org/bouncycastle/bcprov-jdk18on/1.85.2)**
-    - [bcutil-jdk18on](https://repo.maven.apache.org/maven2/org/bouncycastle/bcutil-jdk18on/) **[1.85](https://repo.maven.apache.org/maven2/org/bouncycastle/bcutil-jdk18on/1.85)**
+    - [bcpg-jdk18on](https://repo.maven.apache.org/maven2/org/bouncycastle/bcpg-jdk18on/) **[1.86](https://repo.maven.apache.org/maven2/org/bouncycastle/bcpg-jdk18on/1.86)**
+    - [bcpkix-jdk18on](https://repo.maven.apache.org/maven2/org/bouncycastle/bcpkix-jdk18on/) **[1.86](https://repo.maven.apache.org/maven2/org/bouncycastle/bcpkix-jdk18on/1.86)**
+    - [bcprov-jdk18on](https://repo.maven.apache.org/maven2/org/bouncycastle/bcprov-jdk18on/) **[1.86](https://repo.maven.apache.org/maven2/org/bouncycastle/bcprov-jdk18on/1.86)**
+    - [bcutil-jdk18on](https://repo.maven.apache.org/maven2/org/bouncycastle/bcutil-jdk18on/) **[1.86](https://repo.maven.apache.org/maven2/org/bouncycastle/bcutil-jdk18on/1.86)**
  - [org.burningwave](https://repo.maven.apache.org/maven2/org/burningwave/)
     - [core](https://repo.maven.apache.org/maven2/org/burningwave/core/) **[12.67.0](https://repo.maven.apache.org/maven2/org/burningwave/core/12.67.0)**
     - [jvm-driver](https://repo.maven.apache.org/maven2/org/burningwave/jvm-driver/) **[8.20.1](https://repo.maven.apache.org/maven2/org/burningwave/jvm-driver/8.20.1)**

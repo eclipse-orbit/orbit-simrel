@@ -108,8 +108,8 @@
  - [com.github.oshi](https://repo.maven.apache.org/maven2/com/github/oshi/)
     - [oshi-core](https://repo.maven.apache.org/maven2/com/github/oshi/oshi-core/) **[6.12.0](https://repo.maven.apache.org/maven2/com/github/oshi/oshi-core/6.12.0)**
  - [com.github.weisj](https://repo.maven.apache.org/maven2/com/github/weisj/)
-    - [jsvg-slf4j](https://repo.maven.apache.org/maven2/com/github/weisj/jsvg-slf4j/) **[2.1.0](https://repo.maven.apache.org/maven2/com/github/weisj/jsvg-slf4j/2.1.0)**
-    - [jsvg-systemlogger](https://repo.maven.apache.org/maven2/com/github/weisj/jsvg-systemlogger/) **[2.1.0](https://repo.maven.apache.org/maven2/com/github/weisj/jsvg-systemlogger/2.1.0)**
+    - [jsvg-slf4j](https://repo.maven.apache.org/maven2/com/github/weisj/jsvg-slf4j/) **[2.2.0](https://repo.maven.apache.org/maven2/com/github/weisj/jsvg-slf4j/2.2.0)**
+    - [jsvg-systemlogger](https://repo.maven.apache.org/maven2/com/github/weisj/jsvg-systemlogger/) **[2.2.0](https://repo.maven.apache.org/maven2/com/github/weisj/jsvg-systemlogger/2.2.0)**
  - [com.glazedlists](https://repo.maven.apache.org/maven2/com/glazedlists/)
     - [glazedlists](https://repo.maven.apache.org/maven2/com/glazedlists/glazedlists/) **[1.11.0](https://repo.maven.apache.org/maven2/com/glazedlists/glazedlists/1.11.0)**
  - [com.google.errorprone](https://repo.maven.apache.org/maven2/com/google/errorprone/)
