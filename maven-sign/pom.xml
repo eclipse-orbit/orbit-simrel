@@ -91,7 +91,7 @@
               <classifier>MavenSign</classifier>
             </artifact>
           </target>
-          <executionEnvironment>JavaSE-21</executionEnvironment>
+          <executionEnvironment>JavaSE-25</executionEnvironment>
           <environments>
             <environment>
               <os>win32</os>

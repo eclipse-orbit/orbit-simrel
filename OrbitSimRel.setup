@@ -137,8 +137,8 @@
   </setupTask>
   <setupTask
       xsi:type="jdt:JRETask"
-      version="JavaSE-21"
-      location="${jre.location-21}"/>
+      version="JavaSE-25"
+      location="${jre.location-25}"/>
   <setupTask
       xsi:type="setup:EclipseIniTask"
       option="-Doomph.redirection.orbit.simrel.setup"
@@ -527,7 +527,7 @@
   <setupTask
       xsi:type="setup:StringSubstitutionTask"
       name="maven.build.java.home"
-      value="${jre.location-21}">
+      value="${jre.location-25}">
     <description>The location used to specify JAVA_HOME in the External Tools Configurations.</description>
   </setupTask>
   <setupTask

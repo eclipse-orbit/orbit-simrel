@@ -3,6 +3,9 @@
 ## Minor Updates
  - [com.github.weisj](https://repo.maven.apache.org/maven2/com/github/weisj/)
     - [jsvg](https://repo.maven.apache.org/maven2/com/github/weisj/jsvg/) **[2.1.0](https://repo.maven.apache.org/maven2/com/github/weisj/jsvg/2.1.0)** < [2.2.0](https://repo.maven.apache.org/maven2/com/github/weisj/jsvg/2.2.0/)
+ - [net.bytebuddy](https://repo.maven.apache.org/maven2/net/bytebuddy/)
+    - [byte-buddy](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/) **[1.18.13](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.18.13)** < [1.18.14](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.18.14/)
+    - [byte-buddy-agent](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/) **[1.18.13](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.18.13)** < [1.18.14](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.18.14/)
  - [org.bouncycastle](https://repo.maven.apache.org/maven2/org/bouncycastle/)
     - [bcpg-jdk18on](https://repo.maven.apache.org/maven2/org/bouncycastle/bcpg-jdk18on/) **[1.85](https://repo.maven.apache.org/maven2/org/bouncycastle/bcpg-jdk18on/1.85)** < [1.86](https://repo.maven.apache.org/maven2/org/bouncycastle/bcpg-jdk18on/1.86/)
     - [bcprov-jdk18on](https://repo.maven.apache.org/maven2/org/bouncycastle/bcprov-jdk18on/) **[1.85.2](https://repo.maven.apache.org/maven2/org/bouncycastle/bcprov-jdk18on/1.85.2)** < [1.86](https://repo.maven.apache.org/maven2/org/bouncycastle/bcprov-jdk18on/1.86/)

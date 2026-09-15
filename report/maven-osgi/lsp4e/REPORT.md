@@ -6,7 +6,7 @@
 
 ## Major Updates
  - [com.vegardit.no-npe](https://repo.maven.apache.org/maven2/com/vegardit/no-npe/)
-    - [no-npe-eea-all](https://repo.maven.apache.org/maven2/com/vegardit/no-npe/no-npe-eea-all/) **[1.3.9](https://repo.maven.apache.org/maven2/com/vegardit/no-npe/no-npe-eea-all/1.3.9)** < [2.0.0](https://repo.maven.apache.org/maven2/com/vegardit/no-npe/no-npe-eea-all/2.0.0/)
+    - [no-npe-eea-all](https://repo.maven.apache.org/maven2/com/vegardit/no-npe/no-npe-eea-all/) **[1.3.9](https://repo.maven.apache.org/maven2/com/vegardit/no-npe/no-npe-eea-all/1.3.9)** < [2.0.1](https://repo.maven.apache.org/maven2/com/vegardit/no-npe/no-npe-eea-all/2.0.1/)
 
 ## Content
  - [com.vegardit.no-npe](https://repo.maven.apache.org/maven2/com/vegardit/no-npe/)
