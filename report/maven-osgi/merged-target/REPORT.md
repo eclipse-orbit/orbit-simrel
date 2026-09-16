@@ -16,6 +16,11 @@
     - [no-npe-eea-all](https://repo.maven.apache.org/maven2/com/vegardit/no-npe/no-npe-eea-all/) **[1.3.14](https://repo.maven.apache.org/maven2/com/vegardit/no-npe/no-npe-eea-all/1.3.14)** < [2.0.1](https://repo.maven.apache.org/maven2/com/vegardit/no-npe/no-npe-eea-all/2.0.1/)
  - [jakarta.ejb](https://repo.maven.apache.org/maven2/jakarta/ejb/)
     - [jakarta.ejb-api](https://repo.maven.apache.org/maven2/jakarta/ejb/jakarta.ejb-api/) **[3.2.6](https://repo.maven.apache.org/maven2/jakarta/ejb/jakarta.ejb-api/3.2.6)** < [4.0.1](https://repo.maven.apache.org/maven2/jakarta/ejb/jakarta.ejb-api/4.0.1/)
+ - [jakarta.enterprise](https://repo.maven.apache.org/maven2/jakarta/enterprise/)
+    - [jakarta.enterprise.cdi-api](https://repo.maven.apache.org/maven2/jakarta/enterprise/jakarta.enterprise.cdi-api/) **[2.0.2](https://repo.maven.apache.org/maven2/jakarta/enterprise/jakarta.enterprise.cdi-api/2.0.2)** < [5.0.0](https://repo.maven.apache.org/maven2/jakarta/enterprise/jakarta.enterprise.cdi-api/5.0.0/)
+    - [jakarta.enterprise.cdi-api](https://repo.maven.apache.org/maven2/jakarta/enterprise/jakarta.enterprise.cdi-api/) **[3.0.1](https://repo.maven.apache.org/maven2/jakarta/enterprise/jakarta.enterprise.cdi-api/3.0.1)** < [5.0.0](https://repo.maven.apache.org/maven2/jakarta/enterprise/jakarta.enterprise.cdi-api/5.0.0/)
+    - [jakarta.enterprise.cdi-api](https://repo.maven.apache.org/maven2/jakarta/enterprise/jakarta.enterprise.cdi-api/) **[4.1.0](https://repo.maven.apache.org/maven2/jakarta/enterprise/jakarta.enterprise.cdi-api/4.1.0)** < [5.0.0](https://repo.maven.apache.org/maven2/jakarta/enterprise/jakarta.enterprise.cdi-api/5.0.0/)
+    - [jakarta.enterprise.lang-model](https://repo.maven.apache.org/maven2/jakarta/enterprise/jakarta.enterprise.lang-model/) **[4.1.0](https://repo.maven.apache.org/maven2/jakarta/enterprise/jakarta.enterprise.lang-model/4.1.0)** < [5.0.0](https://repo.maven.apache.org/maven2/jakarta/enterprise/jakarta.enterprise.lang-model/5.0.0/)
  - [jakarta.jws](https://repo.maven.apache.org/maven2/jakarta/jws/)
     - [jakarta.jws-api](https://repo.maven.apache.org/maven2/jakarta/jws/jakarta.jws-api/) **[2.1.0](https://repo.maven.apache.org/maven2/jakarta/jws/jakarta.jws-api/2.1.0)** < [3.0.0](https://repo.maven.apache.org/maven2/jakarta/jws/jakarta.jws-api/3.0.0/)
  - [jakarta.mail](https://repo.maven.apache.org/maven2/jakarta/mail/)
@@ -86,12 +91,12 @@
  - [com.github.ben-manes.caffeine](https://repo.maven.apache.org/maven2/com/github/ben-manes/caffeine/)
     - [caffeine](https://repo.maven.apache.org/maven2/com/github/ben-manes/caffeine/caffeine/) **[3.2.4](https://repo.maven.apache.org/maven2/com/github/ben-manes/caffeine/caffeine/3.2.4)**
  - [com.github.jnr](https://repo.maven.apache.org/maven2/com/github/jnr/)
-    - [jffi](https://repo.maven.apache.org/maven2/com/github/jnr/jffi/) **[1.4.1](https://repo.maven.apache.org/maven2/com/github/jnr/jffi/1.4.1)** - *complete*
-    - [jnr-constants](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-constants/) **[0.11.0](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-constants/0.11.0)**
-    - [jnr-enxio](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-enxio/) **[0.33.1](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-enxio/0.33.1)**
-    - [jnr-ffi](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-ffi/) **[2.3.1](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-ffi/2.3.1)**
-    - [jnr-posix](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-posix/) **[3.2.2](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-posix/3.2.2)**
-    - [jnr-unixsocket](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-unixsocket/) **[0.39.3](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-unixsocket/0.39.3)**
+    - [jffi](https://repo.maven.apache.org/maven2/com/github/jnr/jffi/) **[1.4.3](https://repo.maven.apache.org/maven2/com/github/jnr/jffi/1.4.3)** - *complete*
+    - [jnr-constants](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-constants/) **[0.11.2](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-constants/0.11.2)**
+    - [jnr-enxio](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-enxio/) **[0.33.3](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-enxio/0.33.3)**
+    - [jnr-ffi](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-ffi/) **[2.3.3](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-ffi/2.3.3)**
+    - [jnr-posix](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-posix/) **[3.2.4](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-posix/3.2.4)**
+    - [jnr-unixsocket](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-unixsocket/) **[0.39.5](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-unixsocket/0.39.5)**
  - [com.github.librepdf](https://repo.maven.apache.org/maven2/com/github/librepdf/)
     - [openpdf](https://repo.maven.apache.org/maven2/com/github/librepdf/openpdf/) **[1.4.2](https://repo.maven.apache.org/maven2/com/github/librepdf/openpdf/1.4.2)**
     - [openpdf](https://repo.maven.apache.org/maven2/com/github/librepdf/openpdf/) **[2.4.0](https://repo.maven.apache.org/maven2/com/github/librepdf/openpdf/2.4.0)**

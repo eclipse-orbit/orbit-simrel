@@ -3,7 +3,7 @@
 <target name="Maven" sequenceNumber="1">
   <locations>
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="error" type="Maven">
-      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.42.0.v20260915-1000">
+      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.42.0.v20260916-1000">
         <description>This feature's dependencies are pulled directly from Maven central.</description>
         <copyright>
 Copyright (c) 2026 Eclipse contributors and others.
@@ -16,7 +16,7 @@ https://www.eclipse.org/legal/epl-2.0/
 SPDX-License-Identifier: EPL-2.0
         </copyright>
         <license url="https://www.eclipse.org/legal/epl-2.0/"/>
-        <!-- SHA1 bd28ef478c75597d28492c771adb3ed7f455bbb8 -->
+        <!-- SHA1 5c0acf56f40e604873688eab8ef2dae183103a78 -->
       </feature>
       <dependencies>
         <dependency>
@@ -196,38 +196,38 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>com.github.jnr</groupId>
           <artifactId>jffi</artifactId>
-          <version>1.4.1</version>
+          <version>1.4.3</version>
           <type>jar</type>
           <classifier>complete</classifier>
         </dependency>
         <dependency>
           <groupId>com.github.jnr</groupId>
           <artifactId>jnr-constants</artifactId>
-          <version>0.11.0</version>
+          <version>0.11.2</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>com.github.jnr</groupId>
           <artifactId>jnr-enxio</artifactId>
-          <version>0.33.1</version>
+          <version>0.33.3</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>com.github.jnr</groupId>
           <artifactId>jnr-ffi</artifactId>
-          <version>2.3.1</version>
+          <version>2.3.3</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>com.github.jnr</groupId>
           <artifactId>jnr-posix</artifactId>
-          <version>3.2.2</version>
+          <version>3.2.4</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>com.github.jnr</groupId>
           <artifactId>jnr-unixsocket</artifactId>
-          <version>0.39.3</version>
+          <version>0.39.5</version>
           <type>jar</type>
         </dependency>
         <dependency>
