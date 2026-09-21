@@ -134,6 +134,15 @@
     - [jaxb-core](https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-core/) **[4.0.9](https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-core/4.0.9)**
     - [jaxb-impl](https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-impl/) **[4.0.9](https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-impl/4.0.9)**
     - [jaxb-osgi](https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-osgi/) **[2.3.9](https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-osgi/2.3.9)**
+ - [com.twelvemonkeys.common](https://repo.maven.apache.org/maven2/com/twelvemonkeys/common/)
+    - [common-image](https://repo.maven.apache.org/maven2/com/twelvemonkeys/common/common-image/) **[3.15.2](https://repo.maven.apache.org/maven2/com/twelvemonkeys/common/common-image/3.15.2)**
+    - [common-io](https://repo.maven.apache.org/maven2/com/twelvemonkeys/common/common-io/) **[3.15.2](https://repo.maven.apache.org/maven2/com/twelvemonkeys/common/common-io/3.15.2)**
+    - [common-lang](https://repo.maven.apache.org/maven2/com/twelvemonkeys/common/common-lang/) **[3.15.2](https://repo.maven.apache.org/maven2/com/twelvemonkeys/common/common-lang/3.15.2)**
+ - [com.twelvemonkeys.imageio](https://repo.maven.apache.org/maven2/com/twelvemonkeys/imageio/)
+    - [imageio-core](https://repo.maven.apache.org/maven2/com/twelvemonkeys/imageio/imageio-core/) **[3.15.2](https://repo.maven.apache.org/maven2/com/twelvemonkeys/imageio/imageio-core/3.15.2)**
+    - [imageio-metadata](https://repo.maven.apache.org/maven2/com/twelvemonkeys/imageio/imageio-metadata/) **[3.15.2](https://repo.maven.apache.org/maven2/com/twelvemonkeys/imageio/imageio-metadata/3.15.2)**
+    - [imageio-psd](https://repo.maven.apache.org/maven2/com/twelvemonkeys/imageio/imageio-psd/) **[3.15.2](https://repo.maven.apache.org/maven2/com/twelvemonkeys/imageio/imageio-psd/3.15.2)**
+    - [imageio-webp](https://repo.maven.apache.org/maven2/com/twelvemonkeys/imageio/imageio-webp/) **[3.15.2](https://repo.maven.apache.org/maven2/com/twelvemonkeys/imageio/imageio-webp/3.15.2)**
  - [commons-beanutils](https://repo.maven.apache.org/maven2/commons-beanutils/)
     - [commons-beanutils](https://repo.maven.apache.org/maven2/commons-beanutils/commons-beanutils/) **[1.11.0](https://repo.maven.apache.org/maven2/commons-beanutils/commons-beanutils/1.11.0)**
  - [commons-collections](https://repo.maven.apache.org/maven2/commons-collections/)
