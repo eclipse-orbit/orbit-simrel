@@ -85,7 +85,7 @@
  - [ch.qos.reload4j](https://repo.maven.apache.org/maven2/ch/qos/reload4j/)
     - [reload4j](https://repo.maven.apache.org/maven2/ch/qos/reload4j/reload4j/) **[1.2.26](https://repo.maven.apache.org/maven2/ch/qos/reload4j/reload4j/1.2.26)**
  - [com.ethlo.time](https://repo.maven.apache.org/maven2/com/ethlo/time/)
-    - [itu](https://repo.maven.apache.org/maven2/com/ethlo/time/itu/) **[1.15.0](https://repo.maven.apache.org/maven2/com/ethlo/time/itu/1.15.0)**
+    - [itu](https://repo.maven.apache.org/maven2/com/ethlo/time/itu/) **[1.16.0](https://repo.maven.apache.org/maven2/com/ethlo/time/itu/1.16.0)**
  - [com.evolvedbinary.thirdparty.org.apache.xmlrpc](https://repo.maven.apache.org/maven2/com/evolvedbinary/thirdparty/org/apache/xmlrpc/)
     - [xmlrpc-client](https://repo.maven.apache.org/maven2/com/evolvedbinary/thirdparty/org/apache/xmlrpc/xmlrpc-client/) **[5.0.0](https://repo.maven.apache.org/maven2/com/evolvedbinary/thirdparty/org/apache/xmlrpc/xmlrpc-client/5.0.0)**
     - [xmlrpc-common](https://repo.maven.apache.org/maven2/com/evolvedbinary/thirdparty/org/apache/xmlrpc/xmlrpc-common/) **[5.0.0](https://repo.maven.apache.org/maven2/com/evolvedbinary/thirdparty/org/apache/xmlrpc/xmlrpc-common/5.0.0)**
@@ -103,7 +103,7 @@
  - [com.fasterxml.woodstox](https://repo.maven.apache.org/maven2/com/fasterxml/woodstox/)
     - [woodstox-core](https://repo.maven.apache.org/maven2/com/fasterxml/woodstox/woodstox-core/) **[6.7.0](https://repo.maven.apache.org/maven2/com/fasterxml/woodstox/woodstox-core/6.7.0)**
  - [com.github.ben-manes.caffeine](https://repo.maven.apache.org/maven2/com/github/ben-manes/caffeine/)
-    - [caffeine](https://repo.maven.apache.org/maven2/com/github/ben-manes/caffeine/caffeine/) **[3.2.4](https://repo.maven.apache.org/maven2/com/github/ben-manes/caffeine/caffeine/3.2.4)**
+    - [caffeine](https://repo.maven.apache.org/maven2/com/github/ben-manes/caffeine/caffeine/) **[3.3.0](https://repo.maven.apache.org/maven2/com/github/ben-manes/caffeine/caffeine/3.3.0)**
  - [com.github.librepdf](https://repo.maven.apache.org/maven2/com/github/librepdf/)
     - [openpdf](https://repo.maven.apache.org/maven2/com/github/librepdf/openpdf/) **[1.4.2](https://repo.maven.apache.org/maven2/com/github/librepdf/openpdf/1.4.2)**
     - [openpdf](https://repo.maven.apache.org/maven2/com/github/librepdf/openpdf/) **[2.4.0](https://repo.maven.apache.org/maven2/com/github/librepdf/openpdf/2.4.0)**
