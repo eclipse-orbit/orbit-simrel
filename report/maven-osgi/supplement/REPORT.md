@@ -71,8 +71,8 @@
  - [org.mandas](https://repo.maven.apache.org/maven2/org/mandas/)
     - [docker-client](https://repo.maven.apache.org/maven2/org/mandas/docker-client/) **[9.0.4](https://repo.maven.apache.org/maven2/org/mandas/docker-client/9.0.4)** < [11.0.2](https://repo.maven.apache.org/maven2/org/mandas/docker-client/11.0.2/)
  - [org.slf4j](https://repo.maven.apache.org/maven2/org/slf4j/)
-    - [slf4j-api](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/) **[1.7.36](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.36)** < [2.0.19](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/2.0.19/)
-    - [slf4j-simple](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-simple/) **[1.7.36](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-simple/1.7.36)** < [2.0.19](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-simple/2.0.19/)
+    - [slf4j-api](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/) **[1.7.36](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.36)** < [2.0.20](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/2.0.20/)
+    - [slf4j-simple](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-simple/) **[1.7.36](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-simple/1.7.36)** < [2.0.20](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-simple/2.0.20/)
  - [org.snakeyaml](https://repo.maven.apache.org/maven2/org/snakeyaml/)
     - [snakeyaml-engine](https://repo.maven.apache.org/maven2/org/snakeyaml/snakeyaml-engine/) **[2.10](https://repo.maven.apache.org/maven2/org/snakeyaml/snakeyaml-engine/2.10)** < [3.1.1](https://repo.maven.apache.org/maven2/org/snakeyaml/snakeyaml-engine/3.1.1/)
 
@@ -358,8 +358,8 @@
  - [org.slf4j](https://repo.maven.apache.org/maven2/org/slf4j/)
     - [slf4j-api](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/) **[1.7.36](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.36)**
     - [slf4j-nop](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-nop/) **[1.7.36](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-nop/1.7.36)**
-    - [slf4j-nop](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-nop/) **[2.0.19](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-nop/2.0.19)**
-    - [slf4j-reload4j](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-reload4j/) **[2.0.19](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-reload4j/2.0.19)**
+    - [slf4j-nop](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-nop/) **[2.0.20](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-nop/2.0.20)**
+    - [slf4j-reload4j](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-reload4j/) **[2.0.20](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-reload4j/2.0.20)**
     - [slf4j-simple](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-simple/) **[1.7.36](https://repo.maven.apache.org/maven2/org/slf4j/slf4j-simple/1.7.36)**
  - [org.snakeyaml](https://repo.maven.apache.org/maven2/org/snakeyaml/)
     - [snakeyaml-engine](https://repo.maven.apache.org/maven2/org/snakeyaml/snakeyaml-engine/) **[2.10](https://repo.maven.apache.org/maven2/org/snakeyaml/snakeyaml-engine/2.10)**
