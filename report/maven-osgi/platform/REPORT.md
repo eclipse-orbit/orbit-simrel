@@ -1,9 +1,5 @@
 # Target Platform: [platform](https://raw.githubusercontent.com/eclipse-platform/eclipse.platform.releng.aggregator/master/eclipse.platform.releng.prereqs.sdk/eclipse-sdk-prereqs.target)
 
-## Minor Updates
- - [org.mockito](https://repo.maven.apache.org/maven2/org/mockito/)
-    - [mockito-core](https://repo.maven.apache.org/maven2/org/mockito/mockito-core/) **[5.23.0](https://repo.maven.apache.org/maven2/org/mockito/mockito-core/5.23.0)** < [5.24.0](https://repo.maven.apache.org/maven2/org/mockito/mockito-core/5.24.0/)
-
 ## Major Updates
  - [jakarta.el](https://repo.maven.apache.org/maven2/jakarta/el/)
     - [jakarta.el-api](https://repo.maven.apache.org/maven2/jakarta/el/jakarta.el-api/) **[3.0.3](https://repo.maven.apache.org/maven2/jakarta/el/jakarta.el-api/3.0.3)** < [6.0.1](https://repo.maven.apache.org/maven2/jakarta/el/jakarta.el-api/6.0.1/)
@@ -14,9 +10,6 @@
  - [org.mortbay.jasper](https://repo.maven.apache.org/maven2/org/mortbay/jasper/)
     - [mortbay-apache-el](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-el/) **[9.0.119](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-el/9.0.119)** < [11.0.23](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-el/11.0.23/)
     - [mortbay-apache-jsp](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-jsp/) **[9.0.119](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-jsp/9.0.119)** < [11.0.23](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-jsp/11.0.23/)
-
-## Updates Applied
-[updated.target](updated.target)
 
 ## Content
  - [biz.aQute.bnd](https://repo.maven.apache.org/maven2/biz/aQute/bnd/)
@@ -136,7 +129,7 @@
     - [junit-vintage-engine](https://repo.maven.apache.org/maven2/org/junit/vintage/junit-vintage-engine/) **[5.14.4](https://repo.maven.apache.org/maven2/org/junit/vintage/junit-vintage-engine/5.14.4)**
     - [junit-vintage-engine](https://repo.maven.apache.org/maven2/org/junit/vintage/junit-vintage-engine/) **[6.1.3](https://repo.maven.apache.org/maven2/org/junit/vintage/junit-vintage-engine/6.1.3)**
  - [org.mockito](https://repo.maven.apache.org/maven2/org/mockito/)
-    - [mockito-core](https://repo.maven.apache.org/maven2/org/mockito/mockito-core/) **[5.23.0](https://repo.maven.apache.org/maven2/org/mockito/mockito-core/5.23.0)**
+    - [mockito-core](https://repo.maven.apache.org/maven2/org/mockito/mockito-core/) **[5.24.0](https://repo.maven.apache.org/maven2/org/mockito/mockito-core/5.24.0)**
  - [org.mortbay.jasper](https://repo.maven.apache.org/maven2/org/mortbay/jasper/)
     - [mortbay-apache-el](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-el/) **[9.0.119](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-el/9.0.119)**
     - [mortbay-apache-jsp](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-jsp/) **[9.0.119](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-jsp/9.0.119)**
