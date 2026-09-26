@@ -124,7 +124,7 @@
  - [com.google.inject.extensions](https://repo.maven.apache.org/maven2/com/google/inject/extensions/)
     - [guice-assistedinject](https://repo.maven.apache.org/maven2/com/google/inject/extensions/guice-assistedinject/) **[7.0.0](https://repo.maven.apache.org/maven2/com/google/inject/extensions/guice-assistedinject/7.0.0)**
  - [com.h2database](https://repo.maven.apache.org/maven2/com/h2database/)
-    - [h2](https://repo.maven.apache.org/maven2/com/h2database/h2/) **[2.5.250](https://repo.maven.apache.org/maven2/com/h2database/h2/2.5.250)**
+    - [h2](https://repo.maven.apache.org/maven2/com/h2database/h2/) **[2.5.252](https://repo.maven.apache.org/maven2/com/h2database/h2/2.5.252)**
  - [com.ibm.icu](https://repo.maven.apache.org/maven2/com/ibm/icu/)
     - [icu4j](https://repo.maven.apache.org/maven2/com/ibm/icu/icu4j/) **[78.3](https://repo.maven.apache.org/maven2/com/ibm/icu/icu4j/78.3)**
  - [com.networknt](https://repo.maven.apache.org/maven2/com/networknt/)
