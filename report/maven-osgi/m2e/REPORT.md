@@ -13,6 +13,8 @@
     - [versions-api](https://repo.maven.apache.org/maven2/org/codehaus/mojo/versions/versions-api/) **[2.21.0](https://repo.maven.apache.org/maven2/org/codehaus/mojo/versions/versions-api/2.21.0)** < [2.22.0](https://repo.maven.apache.org/maven2/org/codehaus/mojo/versions/versions-api/2.22.0/)
     - [versions-common](https://repo.maven.apache.org/maven2/org/codehaus/mojo/versions/versions-common/) **[2.21.0](https://repo.maven.apache.org/maven2/org/codehaus/mojo/versions/versions-common/2.21.0)** < [2.22.0](https://repo.maven.apache.org/maven2/org/codehaus/mojo/versions/versions-common/2.22.0/)
     - [versions-model](https://repo.maven.apache.org/maven2/org/codehaus/mojo/versions/versions-model/) **[2.21.0](https://repo.maven.apache.org/maven2/org/codehaus/mojo/versions/versions-model/2.21.0)** < [2.22.0](https://repo.maven.apache.org/maven2/org/codehaus/mojo/versions/versions-model/2.22.0/)
+ - [org.codehaus.woodstox](https://repo.maven.apache.org/maven2/org/codehaus/woodstox/)
+    - [stax2-api](https://repo.maven.apache.org/maven2/org/codehaus/woodstox/stax2-api/) **[4.3.0](https://repo.maven.apache.org/maven2/org/codehaus/woodstox/stax2-api/4.3.0)** < [4.3.1](https://repo.maven.apache.org/maven2/org/codehaus/woodstox/stax2-api/4.3.1/)
 
 ## Updates Applied
 [updated.target](updated.target)

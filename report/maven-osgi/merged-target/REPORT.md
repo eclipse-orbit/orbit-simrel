@@ -320,7 +320,7 @@
     - [core](https://repo.maven.apache.org/maven2/org/burningwave/core/) **[12.67.0](https://repo.maven.apache.org/maven2/org/burningwave/core/12.67.0)**
     - [jvm-driver](https://repo.maven.apache.org/maven2/org/burningwave/jvm-driver/) **[8.20.1](https://repo.maven.apache.org/maven2/org/burningwave/jvm-driver/8.20.1)**
  - [org.codehaus.woodstox](https://repo.maven.apache.org/maven2/org/codehaus/woodstox/)
-    - [stax2-api](https://repo.maven.apache.org/maven2/org/codehaus/woodstox/stax2-api/) **[4.3.0](https://repo.maven.apache.org/maven2/org/codehaus/woodstox/stax2-api/4.3.0)**
+    - [stax2-api](https://repo.maven.apache.org/maven2/org/codehaus/woodstox/stax2-api/) **[4.3.1](https://repo.maven.apache.org/maven2/org/codehaus/woodstox/stax2-api/4.3.1)**
  - [org.codelibs](https://repo.maven.apache.org/maven2/org/codelibs/)
     - [nekohtml](https://repo.maven.apache.org/maven2/org/codelibs/nekohtml/) **[3.0.4](https://repo.maven.apache.org/maven2/org/codelibs/nekohtml/3.0.4)**
  - [org.commonmark](https://repo.maven.apache.org/maven2/org/commonmark/)
