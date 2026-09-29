@@ -1,5 +1,14 @@
 # Target Platform: [linuxtools](https://raw.githubusercontent.com/eclipse-linuxtools/org.eclipse.linuxtools/refs/heads/master/releng/org.eclipse.linuxtools.target/linuxtools-latest.target)
 
+## Minor Updates
+ - [org.glassfish.hk2](https://repo.maven.apache.org/maven2/org/glassfish/hk2/)
+    - [hk2-api](https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-api/) **[4.0.2](https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-api/4.0.2)** < [4.0.3](https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-api/4.0.3/)
+    - [hk2-locator](https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-locator/) **[4.0.2](https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-locator/4.0.2)** < [4.0.3](https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-locator/4.0.3/)
+    - [hk2-utils](https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-utils/) **[4.0.2](https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-utils/4.0.2)** < [4.0.3](https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-utils/4.0.3/)
+
+## Updates Applied
+[updated.target](updated.target)
+
 ## Content
  - [com.fasterxml.jackson.core](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/)
     - [jackson-annotations](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/) **[2.22](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.22)**
