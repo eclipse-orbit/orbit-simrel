@@ -6,7 +6,7 @@
     - [xmlrpc-common](https://repo.maven.apache.org/maven2/com/evolvedbinary/thirdparty/org/apache/xmlrpc/xmlrpc-common/) **[5.0.0](https://repo.maven.apache.org/maven2/com/evolvedbinary/thirdparty/org/apache/xmlrpc/xmlrpc-common/5.0.0)** < [6.1.0](https://repo.maven.apache.org/maven2/com/evolvedbinary/thirdparty/org/apache/xmlrpc/xmlrpc-common/6.1.0/)
     - [xmlrpc-server](https://repo.maven.apache.org/maven2/com/evolvedbinary/thirdparty/org/apache/xmlrpc/xmlrpc-server/) **[5.0.0](https://repo.maven.apache.org/maven2/com/evolvedbinary/thirdparty/org/apache/xmlrpc/xmlrpc-server/5.0.0)** < [6.1.0](https://repo.maven.apache.org/maven2/com/evolvedbinary/thirdparty/org/apache/xmlrpc/xmlrpc-server/6.1.0/)
  - [com.fasterxml.woodstox](https://repo.maven.apache.org/maven2/com/fasterxml/woodstox/)
-    - [woodstox-core](https://repo.maven.apache.org/maven2/com/fasterxml/woodstox/woodstox-core/) **[6.7.0](https://repo.maven.apache.org/maven2/com/fasterxml/woodstox/woodstox-core/6.7.0)** < [7.2.2](https://repo.maven.apache.org/maven2/com/fasterxml/woodstox/woodstox-core/7.2.2/)
+    - [woodstox-core](https://repo.maven.apache.org/maven2/com/fasterxml/woodstox/woodstox-core/) **[6.7.0](https://repo.maven.apache.org/maven2/com/fasterxml/woodstox/woodstox-core/6.7.0)** < [7.3.0](https://repo.maven.apache.org/maven2/com/fasterxml/woodstox/woodstox-core/7.3.0/)
  - [com.github.oshi](https://repo.maven.apache.org/maven2/com/github/oshi/)
     - [oshi-core](https://repo.maven.apache.org/maven2/com/github/oshi/oshi-core/) **[6.12.0](https://repo.maven.apache.org/maven2/com/github/oshi/oshi-core/6.12.0)** < [7.6.1](https://repo.maven.apache.org/maven2/com/github/oshi/oshi-core/7.6.1/)
  - [com.networknt](https://repo.maven.apache.org/maven2/com/networknt/)
@@ -293,8 +293,8 @@
     - [preflight](https://repo.maven.apache.org/maven2/org/apache/pdfbox/preflight/) **[3.0.8](https://repo.maven.apache.org/maven2/org/apache/pdfbox/preflight/3.0.8)**
     - [xmpbox](https://repo.maven.apache.org/maven2/org/apache/pdfbox/xmpbox/) **[3.0.8](https://repo.maven.apache.org/maven2/org/apache/pdfbox/xmpbox/3.0.8)**
  - [org.apache.sshd](https://repo.maven.apache.org/maven2/org/apache/sshd/)
-    - [sshd-osgi](https://repo.maven.apache.org/maven2/org/apache/sshd/sshd-osgi/) **[2.19.0](https://repo.maven.apache.org/maven2/org/apache/sshd/sshd-osgi/2.19.0)**
-    - [sshd-sftp](https://repo.maven.apache.org/maven2/org/apache/sshd/sshd-sftp/) **[2.19.0](https://repo.maven.apache.org/maven2/org/apache/sshd/sshd-sftp/2.19.0)**
+    - [sshd-osgi](https://repo.maven.apache.org/maven2/org/apache/sshd/sshd-osgi/) **[2.20.0](https://repo.maven.apache.org/maven2/org/apache/sshd/sshd-osgi/2.20.0)**
+    - [sshd-sftp](https://repo.maven.apache.org/maven2/org/apache/sshd/sshd-sftp/) **[2.20.0](https://repo.maven.apache.org/maven2/org/apache/sshd/sshd-sftp/2.20.0)**
  - [org.apache.tika](https://repo.maven.apache.org/maven2/org/apache/tika/)
     - [tika-core](https://repo.maven.apache.org/maven2/org/apache/tika/tika-core/) **[3.3.2](https://repo.maven.apache.org/maven2/org/apache/tika/tika-core/3.3.2)**
  - [org.apache.velocity](https://repo.maven.apache.org/maven2/org/apache/velocity/)
