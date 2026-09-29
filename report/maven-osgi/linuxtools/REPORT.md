@@ -1,6 +1,8 @@
 # Target Platform: [linuxtools](https://raw.githubusercontent.com/eclipse-linuxtools/org.eclipse.linuxtools/refs/heads/master/releng/org.eclipse.linuxtools.target/linuxtools-latest.target)
 
 ## Minor Updates
+ - [com.google.guava](https://repo.maven.apache.org/maven2/com/google/guava/)
+    - [guava](https://repo.maven.apache.org/maven2/com/google/guava/guava/) **[33.7.1-jre](https://repo.maven.apache.org/maven2/com/google/guava/guava/33.7.1-jre)** < [33.7.2-jre](https://repo.maven.apache.org/maven2/com/google/guava/guava/33.7.2-jre/)
  - [org.glassfish.hk2](https://repo.maven.apache.org/maven2/org/glassfish/hk2/)
     - [hk2-api](https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-api/) **[4.0.2](https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-api/4.0.2)** < [4.0.3](https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-api/4.0.3/)
     - [hk2-locator](https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-locator/) **[4.0.2](https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-locator/4.0.2)** < [4.0.3](https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-locator/4.0.3/)
