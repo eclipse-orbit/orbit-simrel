@@ -8,7 +8,7 @@
  - [com.fasterxml.woodstox](https://repo.maven.apache.org/maven2/com/fasterxml/woodstox/)
     - [woodstox-core](https://repo.maven.apache.org/maven2/com/fasterxml/woodstox/woodstox-core/) **[6.7.0](https://repo.maven.apache.org/maven2/com/fasterxml/woodstox/woodstox-core/6.7.0)** < [7.3.0](https://repo.maven.apache.org/maven2/com/fasterxml/woodstox/woodstox-core/7.3.0/)
  - [com.github.oshi](https://repo.maven.apache.org/maven2/com/github/oshi/)
-    - [oshi-core](https://repo.maven.apache.org/maven2/com/github/oshi/oshi-core/) **[6.12.0](https://repo.maven.apache.org/maven2/com/github/oshi/oshi-core/6.12.0)** < [7.6.1](https://repo.maven.apache.org/maven2/com/github/oshi/oshi-core/7.6.1/)
+    - [oshi-core](https://repo.maven.apache.org/maven2/com/github/oshi/oshi-core/) **[6.12.0](https://repo.maven.apache.org/maven2/com/github/oshi/oshi-core/6.12.0)** < [7.7.0](https://repo.maven.apache.org/maven2/com/github/oshi/oshi-core/7.7.0/)
  - [com.networknt](https://repo.maven.apache.org/maven2/com/networknt/)
     - [json-schema-validator](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/) **[1.5.9](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/1.5.9)** < [3.0.7](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/3.0.7/)
     - [json-schema-validator](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/) **[2.0.7](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/2.0.7)** < [3.0.7](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/3.0.7/)
@@ -36,7 +36,7 @@
  - [org.apache.felix](https://repo.maven.apache.org/maven2/org/apache/felix/)
     - [org.apache.felix.http.servlet-api](https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.http.servlet-api/) **[1.2.0](https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.http.servlet-api/1.2.0)** < [6.1.0](https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.http.servlet-api/6.1.0/)
  - [org.apache.tika](https://repo.maven.apache.org/maven2/org/apache/tika/)
-    - [tika-core](https://repo.maven.apache.org/maven2/org/apache/tika/tika-core/) **[3.3.2](https://repo.maven.apache.org/maven2/org/apache/tika/tika-core/3.3.2)** < [4.0.0](https://repo.maven.apache.org/maven2/org/apache/tika/tika-core/4.0.0/)
+    - [tika-core](https://repo.maven.apache.org/maven2/org/apache/tika/tika-core/) **[3.3.2](https://repo.maven.apache.org/maven2/org/apache/tika/tika-core/3.3.2)** < [4.1.0](https://repo.maven.apache.org/maven2/org/apache/tika/tika-core/4.1.0/)
  - [org.glassfish](https://repo.maven.apache.org/maven2/org/glassfish/)
     - [jakarta.el](https://repo.maven.apache.org/maven2/org/glassfish/jakarta.el/) **[3.0.4](https://repo.maven.apache.org/maven2/org/glassfish/jakarta.el/3.0.4)** < [4.0.2](https://repo.maven.apache.org/maven2/org/glassfish/jakarta.el/4.0.2/)
  - [org.glassfish.expressly](https://repo.maven.apache.org/maven2/org/glassfish/expressly/)
@@ -268,7 +268,7 @@
     - [commons-fileupload2-jakarta-servlet5](https://repo.maven.apache.org/maven2/org/apache/commons/commons-fileupload2-jakarta-servlet5/) **[2.0.0-M5](https://repo.maven.apache.org/maven2/org/apache/commons/commons-fileupload2-jakarta-servlet5/2.0.0-M5)**
     - [commons-fileupload2-jakarta-servlet6](https://repo.maven.apache.org/maven2/org/apache/commons/commons-fileupload2-jakarta-servlet6/) **[2.0.0-M5](https://repo.maven.apache.org/maven2/org/apache/commons/commons-fileupload2-jakarta-servlet6/2.0.0-M5)**
     - [commons-fileupload2-javax](https://repo.maven.apache.org/maven2/org/apache/commons/commons-fileupload2-javax/) **[2.0.0-M5](https://repo.maven.apache.org/maven2/org/apache/commons/commons-fileupload2-javax/2.0.0-M5)**
-    - [commons-lang3](https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/) **[3.20.0](https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.20.0)**
+    - [commons-lang3](https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/) **[3.21.0](https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.21.0)**
     - [commons-math3](https://repo.maven.apache.org/maven2/org/apache/commons/commons-math3/) **[3.6.1](https://repo.maven.apache.org/maven2/org/apache/commons/commons-math3/3.6.1)**
     - [commons-text](https://repo.maven.apache.org/maven2/org/apache/commons/commons-text/) **[1.15.0](https://repo.maven.apache.org/maven2/org/apache/commons/commons-text/1.15.0)**
  - [org.apache.felix](https://repo.maven.apache.org/maven2/org/apache/felix/)
