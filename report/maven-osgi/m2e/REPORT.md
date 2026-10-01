@@ -2,7 +2,7 @@
 
 ## Minor Updates
  - [ch.qos.logback](https://repo.maven.apache.org/maven2/ch/qos/logback/)
-    - [logback-classic](https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/) **[1.6.3](https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/1.6.3)** < [1.6.4](https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/1.6.4/)
+    - [logback-classic](https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/) **[1.6.3](https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/1.6.3)** < [1.6.5](https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/1.6.5/)
  - [com.google.guava](https://repo.maven.apache.org/maven2/com/google/guava/)
     - [guava](https://repo.maven.apache.org/maven2/com/google/guava/guava/) **[33.7.1-jre](https://repo.maven.apache.org/maven2/com/google/guava/guava/33.7.1-jre)** < [33.7.2-jre](https://repo.maven.apache.org/maven2/com/google/guava/guava/33.7.2-jre/)
  - [org.apache.aries.spifly](https://repo.maven.apache.org/maven2/org/apache/aries/spifly/)

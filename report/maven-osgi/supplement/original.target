@@ -7,7 +7,7 @@
         <dependency>
           <groupId>ch.qos.logback</groupId>
           <artifactId>logback-core</artifactId>
-          <version>1.6.4</version>
+          <version>1.6.5</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -967,7 +967,7 @@
         <dependency>
           <groupId>org.json</groupId>
           <artifactId>json</artifactId>
-          <version>20230227</version>
+          <version>20260814</version>
           <type>jar</type>
         </dependency>
         <dependency>
