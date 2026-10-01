@@ -30,14 +30,32 @@
         </dependency>
         <dependency>
           <groupId>com.evolvedbinary.thirdparty.org.apache.xmlrpc</groupId>
+          <artifactId>xmlrpc-client</artifactId>
+          <version>6.1.0</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>com.evolvedbinary.thirdparty.org.apache.xmlrpc</groupId>
           <artifactId>xmlrpc-common</artifactId>
           <version>5.0.0</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>com.evolvedbinary.thirdparty.org.apache.xmlrpc</groupId>
+          <artifactId>xmlrpc-common</artifactId>
+          <version>6.1.0</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>com.evolvedbinary.thirdparty.org.apache.xmlrpc</groupId>
           <artifactId>xmlrpc-server</artifactId>
           <version>5.0.0</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>com.evolvedbinary.thirdparty.org.apache.xmlrpc</groupId>
+          <artifactId>xmlrpc-server</artifactId>
+          <version>6.1.0</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -89,6 +107,12 @@
           <type>jar</type>
         </dependency>
         <dependency>
+          <groupId>com.fasterxml.woodstox</groupId>
+          <artifactId>woodstox-core</artifactId>
+          <version>7.3.0</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
           <groupId>com.github.ben-manes.caffeine</groupId>
           <artifactId>caffeine</artifactId>
           <version>3.3.0</version>
@@ -120,8 +144,20 @@
         </dependency>
         <dependency>
           <groupId>com.github.oshi</groupId>
+          <artifactId>oshi-common</artifactId>
+          <version>7.7.0</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>com.github.oshi</groupId>
           <artifactId>oshi-core</artifactId>
           <version>6.12.0</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>com.github.oshi</groupId>
+          <artifactId>oshi-core</artifactId>
+          <version>7.7.0</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -245,6 +281,12 @@
           <type>jar</type>
         </dependency>
         <dependency>
+          <groupId>com.vegardit.no-npe</groupId>
+          <artifactId>no-npe-eea-all</artifactId>
+          <version>2.0.1</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
           <groupId>commons-beanutils</groupId>
           <artifactId>commons-beanutils</artifactId>
           <version>1.11.0</version>
@@ -341,6 +383,12 @@
           <type>jar</type>
         </dependency>
         <dependency>
+          <groupId>jakarta.ejb</groupId>
+          <artifactId>jakarta.ejb-api</artifactId>
+          <version>4.0.1</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
           <groupId>jakarta.el</groupId>
           <artifactId>jakarta.el-api</artifactId>
           <version>4.0.0</version>
@@ -378,8 +426,20 @@
         </dependency>
         <dependency>
           <groupId>jakarta.enterprise</groupId>
+          <artifactId>jakarta.enterprise.cdi-api</artifactId>
+          <version>5.0.0</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>jakarta.enterprise</groupId>
           <artifactId>jakarta.enterprise.lang-model</artifactId>
           <version>4.1.0</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>jakarta.enterprise</groupId>
+          <artifactId>jakarta.enterprise.lang-model</artifactId>
+          <version>5.0.0</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -407,15 +467,33 @@
           <type>jar</type>
         </dependency>
         <dependency>
+          <groupId>jakarta.jws</groupId>
+          <artifactId>jakarta.jws-api</artifactId>
+          <version>3.0.0</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
           <groupId>jakarta.mail</groupId>
           <artifactId>jakarta.mail-api</artifactId>
           <version>1.6.8</version>
           <type>jar</type>
         </dependency>
         <dependency>
+          <groupId>jakarta.mail</groupId>
+          <artifactId>jakarta.mail-api</artifactId>
+          <version>2.1.5</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
           <groupId>jakarta.persistence</groupId>
           <artifactId>jakarta.persistence-api</artifactId>
           <version>2.2.3</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>jakarta.persistence</groupId>
+          <artifactId>jakarta.persistence-api</artifactId>
+          <version>3.2.0</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -503,6 +581,12 @@
           <type>jar</type>
         </dependency>
         <dependency>
+          <groupId>jakarta.xml.bind</groupId>
+          <artifactId>jakarta.xml.bind-api</artifactId>
+          <version>3.0.1</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
           <groupId>jakarta.xml.rpc</groupId>
           <artifactId>jakarta.xml.rpc-api</artifactId>
           <version>1.1.4</version>
@@ -515,15 +599,45 @@
           <type>jar</type>
         </dependency>
         <dependency>
+          <groupId>jakarta.xml.soap</groupId>
+          <artifactId>jakarta.xml.soap-api</artifactId>
+          <version>2.0.1</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>jakarta.xml.soap</groupId>
+          <artifactId>jakarta.xml.soap-api</artifactId>
+          <version>3.0.2</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
           <groupId>jakarta.xml.ws</groupId>
           <artifactId>jakarta.xml.ws-api</artifactId>
           <version>2.3.3</version>
           <type>jar</type>
         </dependency>
         <dependency>
+          <groupId>jakarta.xml.ws</groupId>
+          <artifactId>jakarta.xml.ws-api</artifactId>
+          <version>3.0.1</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>jakarta.xml.ws</groupId>
+          <artifactId>jakarta.xml.ws-api</artifactId>
+          <version>4.0.3</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
           <groupId>javax.servlet</groupId>
           <artifactId>javax.servlet-api</artifactId>
           <version>3.1.0</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>javax.servlet</groupId>
+          <artifactId>javax.servlet-api</artifactId>
+          <version>4.0.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -596,6 +710,24 @@
           <groupId>org.apache.felix</groupId>
           <artifactId>org.apache.felix.http.servlet-api</artifactId>
           <version>1.2.0</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>org.apache.felix</groupId>
+          <artifactId>org.apache.felix.http.servlet-api</artifactId>
+          <version>2.1.0</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>org.apache.felix</groupId>
+          <artifactId>org.apache.felix.http.servlet-api</artifactId>
+          <version>3.0.0</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>org.apache.felix</groupId>
+          <artifactId>org.apache.felix.http.servlet-api</artifactId>
+          <version>6.1.0</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -791,9 +923,21 @@
           <type>jar</type>
         </dependency>
         <dependency>
+          <groupId>org.glassfish</groupId>
+          <artifactId>jakarta.el</artifactId>
+          <version>4.0.2</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
           <groupId>org.glassfish.expressly</groupId>
           <artifactId>expressly</artifactId>
           <version>5.0.0</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>org.glassfish.expressly</groupId>
+          <artifactId>expressly</artifactId>
+          <version>6.0.0</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -854,6 +998,12 @@
           <groupId>org.glassfish.jersey.containers</groupId>
           <artifactId>jersey-container-servlet</artifactId>
           <version>3.1.12</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>org.glassfish.jersey.containers</groupId>
+          <artifactId>jersey-container-servlet</artifactId>
+          <version>4.0.3</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -1178,6 +1328,12 @@
           <groupId>org.snakeyaml</groupId>
           <artifactId>snakeyaml-engine</artifactId>
           <version>2.10</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>org.snakeyaml</groupId>
+          <artifactId>snakeyaml-engine</artifactId>
+          <version>3.1.1</version>
           <type>jar</type>
         </dependency>
       </dependencies>
