@@ -239,6 +239,12 @@
           <type>jar</type>
         </dependency>
         <dependency>
+          <groupId>com.sun.xml.bind</groupId>
+          <artifactId>jaxb-osgi</artifactId>
+          <version>4.0.9</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
           <groupId>com.twelvemonkeys.common</groupId>
           <artifactId>common-image</artifactId>
           <version>3.15.2</version>
@@ -587,6 +593,12 @@
           <type>jar</type>
         </dependency>
         <dependency>
+          <groupId>jakarta.xml.bind</groupId>
+          <artifactId>jakarta.xml.bind-api</artifactId>
+          <version>4.0.5</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
           <groupId>jakarta.xml.rpc</groupId>
           <artifactId>jakarta.xml.rpc-api</artifactId>
           <version>1.1.4</version>
@@ -925,6 +937,12 @@
         <dependency>
           <groupId>org.glassfish</groupId>
           <artifactId>jakarta.el</artifactId>
+          <version>3.0.4</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>org.glassfish</groupId>
+          <artifactId>jakarta.el</artifactId>
           <version>4.0.2</version>
           <type>jar</type>
         </dependency>
@@ -948,8 +966,20 @@
         </dependency>
         <dependency>
           <groupId>org.glassfish.hk2</groupId>
+          <artifactId>hk2-api</artifactId>
+          <version>4.0.3</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>org.glassfish.hk2</groupId>
           <artifactId>hk2-locator</artifactId>
           <version>2.6.1</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>org.glassfish.hk2</groupId>
+          <artifactId>hk2-locator</artifactId>
+          <version>4.0.3</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -960,8 +990,20 @@
         </dependency>
         <dependency>
           <groupId>org.glassfish.hk2</groupId>
+          <artifactId>hk2-utils</artifactId>
+          <version>4.0.3</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>org.glassfish.hk2</groupId>
           <artifactId>osgi-resource-locator</artifactId>
           <version>1.0.4</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>org.glassfish.hk2</groupId>
+          <artifactId>osgi-resource-locator</artifactId>
+          <version>3.0.0</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -986,6 +1028,12 @@
           <groupId>org.glassfish.jersey.connectors</groupId>
           <artifactId>jersey-apache5-connector</artifactId>
           <version>3.1.12</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>org.glassfish.jersey.connectors</groupId>
+          <artifactId>jersey-apache5-connector</artifactId>
+          <version>4.0.3</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -1032,6 +1080,12 @@
         </dependency>
         <dependency>
           <groupId>org.glassfish.jersey.core</groupId>
+          <artifactId>jersey-client</artifactId>
+          <version>4.0.3</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>org.glassfish.jersey.core</groupId>
           <artifactId>jersey-common</artifactId>
           <version>2.48</version>
           <type>jar</type>
@@ -1040,6 +1094,12 @@
           <groupId>org.glassfish.jersey.core</groupId>
           <artifactId>jersey-common</artifactId>
           <version>3.1.12</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>org.glassfish.jersey.core</groupId>
+          <artifactId>jersey-common</artifactId>
+          <version>4.0.3</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -1055,6 +1115,12 @@
           <type>jar</type>
         </dependency>
         <dependency>
+          <groupId>org.glassfish.jersey.core</groupId>
+          <artifactId>jersey-server</artifactId>
+          <version>4.0.3</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
           <groupId>org.glassfish.jersey.ext</groupId>
           <artifactId>jersey-entity-filtering</artifactId>
           <version>2.48</version>
@@ -1064,6 +1130,12 @@
           <groupId>org.glassfish.jersey.ext</groupId>
           <artifactId>jersey-entity-filtering</artifactId>
           <version>3.1.12</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>org.glassfish.jersey.ext</groupId>
+          <artifactId>jersey-entity-filtering</artifactId>
+          <version>4.0.3</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -1073,6 +1145,12 @@
           <type>jar</type>
         </dependency>
         <dependency>
+          <groupId>org.glassfish.jersey.inject</groupId>
+          <artifactId>jersey-hk2</artifactId>
+          <version>4.0.3</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
           <groupId>org.glassfish.jersey.media</groupId>
           <artifactId>jersey-media-json-jackson</artifactId>
           <version>2.48</version>
@@ -1082,6 +1160,12 @@
           <groupId>org.glassfish.jersey.media</groupId>
           <artifactId>jersey-media-json-jackson</artifactId>
           <version>3.1.12</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>org.glassfish.jersey.media</groupId>
+          <artifactId>jersey-media-json-jackson</artifactId>
+          <version>4.0.3</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -1124,6 +1208,12 @@
           <groupId>org.mandas</groupId>
           <artifactId>docker-client</artifactId>
           <version>9.0.4</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>org.mandas</groupId>
+          <artifactId>docker-client</artifactId>
+          <version>11.0.2</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -1302,6 +1392,12 @@
         </dependency>
         <dependency>
           <groupId>org.slf4j</groupId>
+          <artifactId>slf4j-api</artifactId>
+          <version>2.0.20</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>org.slf4j</groupId>
           <artifactId>slf4j-nop</artifactId>
           <version>1.7.36</version>
           <type>jar</type>
@@ -1322,6 +1418,12 @@
           <groupId>org.slf4j</groupId>
           <artifactId>slf4j-simple</artifactId>
           <version>1.7.36</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>org.slf4j</groupId>
+          <artifactId>slf4j-simple</artifactId>
+          <version>2.0.20</version>
           <type>jar</type>
         </dependency>
         <dependency>
