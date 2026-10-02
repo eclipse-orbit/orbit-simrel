@@ -221,6 +221,12 @@
           <type>jar</type>
         </dependency>
         <dependency>
+          <groupId>com.networknt</groupId>
+          <artifactId>json-schema-validator</artifactId>
+          <version>3.0.8</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
           <groupId>com.sun.xml.bind</groupId>
           <artifactId>jaxb-core</artifactId>
           <version>4.0.9</version>
@@ -1436,6 +1442,24 @@
           <groupId>org.snakeyaml</groupId>
           <artifactId>snakeyaml-engine</artifactId>
           <version>3.1.1</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>tools.jackson.core</groupId>
+          <artifactId>jackson-core</artifactId>
+          <version>3.2.3</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>tools.jackson.core</groupId>
+          <artifactId>jackson-databind</artifactId>
+          <version>3.2.3</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>tools.jackson.dataformat</groupId>
+          <artifactId>jackson-dataformat-yaml</artifactId>
+          <version>3.2.3</version>
           <type>jar</type>
         </dependency>
       </dependencies>

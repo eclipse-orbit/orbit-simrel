@@ -1,9 +1,6 @@
 # Target Platform: [merged-target](https://github.com/eclipse-orbit/orbit-simrel/blob/main/maven-osgi/tp/Maven.target)
 
 ## Major Updates
- - [com.networknt](https://repo.maven.apache.org/maven2/com/networknt/)
-    - [json-schema-validator](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/) **[1.5.9](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/1.5.9)** < [3.0.8](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/3.0.8/)
-    - [json-schema-validator](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/) **[2.0.8](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/2.0.8)** < [3.0.8](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/3.0.8/)
  - [org.apache.tika](https://repo.maven.apache.org/maven2/org/apache/tika/)
     - [tika-core](https://repo.maven.apache.org/maven2/org/apache/tika/tika-core/) **[3.3.2](https://repo.maven.apache.org/maven2/org/apache/tika/tika-core/3.3.2)** < [4.1.0](https://repo.maven.apache.org/maven2/org/apache/tika/tika-core/4.1.0/)
 
@@ -102,6 +99,7 @@
  - [com.networknt](https://repo.maven.apache.org/maven2/com/networknt/)
     - [json-schema-validator](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/) **[1.5.9](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/1.5.9)**
     - [json-schema-validator](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/) **[2.0.8](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/2.0.8)**
+    - [json-schema-validator](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/) **[3.0.8](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/3.0.8)**
  - [com.sun.xml.bind](https://repo.maven.apache.org/maven2/com/sun/xml/bind/)
     - [jaxb-core](https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-core/) **[4.0.9](https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-core/4.0.9)**
     - [jaxb-impl](https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-impl/) **[4.0.9](https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-impl/4.0.9)**
@@ -512,3 +510,8 @@
     - [xz](https://repo.maven.apache.org/maven2/org/tukaani/xz/) **[1.12](https://repo.maven.apache.org/maven2/org/tukaani/xz/1.12)**
  - [org.yaml](https://repo.maven.apache.org/maven2/org/yaml/)
     - [snakeyaml](https://repo.maven.apache.org/maven2/org/yaml/snakeyaml/) **[2.7](https://repo.maven.apache.org/maven2/org/yaml/snakeyaml/2.7)**
+ - [tools.jackson.core](https://repo.maven.apache.org/maven2/tools/jackson/core/)
+    - [jackson-core](https://repo.maven.apache.org/maven2/tools/jackson/core/jackson-core/) **[3.2.3](https://repo.maven.apache.org/maven2/tools/jackson/core/jackson-core/3.2.3)**
+    - [jackson-databind](https://repo.maven.apache.org/maven2/tools/jackson/core/jackson-databind/) **[3.2.3](https://repo.maven.apache.org/maven2/tools/jackson/core/jackson-databind/3.2.3)**
+ - [tools.jackson.dataformat](https://repo.maven.apache.org/maven2/tools/jackson/dataformat/)
+    - [jackson-dataformat-yaml](https://repo.maven.apache.org/maven2/tools/jackson/dataformat/jackson-dataformat-yaml/) **[3.2.3](https://repo.maven.apache.org/maven2/tools/jackson/dataformat/jackson-dataformat-yaml/3.2.3)**
