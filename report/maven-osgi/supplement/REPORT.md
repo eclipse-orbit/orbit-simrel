@@ -3,7 +3,7 @@
 ## Major Updates
  - [com.networknt](https://repo.maven.apache.org/maven2/com/networknt/)
     - [json-schema-validator](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/) **[1.5.9](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/1.5.9)** < [3.0.8](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/3.0.8/)
-    - [json-schema-validator](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/) **[2.0.7](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/2.0.7)** < [3.0.8](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/3.0.8/)
+    - [json-schema-validator](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/) **[2.0.8](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/2.0.8)** < [3.0.8](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/3.0.8/)
  - [com.sun.xml.bind](https://repo.maven.apache.org/maven2/com/sun/xml/bind/)
     - [jaxb-osgi](https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-osgi/) **[2.3.9](https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-osgi/2.3.9)** < [4.0.9](https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-osgi/4.0.9/)
  - [jakarta.xml.bind](https://repo.maven.apache.org/maven2/jakarta/xml/bind/)
@@ -94,7 +94,7 @@
     - [icu4j](https://repo.maven.apache.org/maven2/com/ibm/icu/icu4j/) **[78.3](https://repo.maven.apache.org/maven2/com/ibm/icu/icu4j/78.3)**
  - [com.networknt](https://repo.maven.apache.org/maven2/com/networknt/)
     - [json-schema-validator](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/) **[1.5.9](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/1.5.9)**
-    - [json-schema-validator](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/) **[2.0.7](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/2.0.7)**
+    - [json-schema-validator](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/) **[2.0.8](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/2.0.8)**
  - [com.sun.xml.bind](https://repo.maven.apache.org/maven2/com/sun/xml/bind/)
     - [jaxb-core](https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-core/) **[4.0.9](https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-core/4.0.9)**
     - [jaxb-impl](https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-impl/) **[4.0.9](https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-impl/4.0.9)**

@@ -3,7 +3,7 @@
 ## Major Updates
  - [com.networknt](https://repo.maven.apache.org/maven2/com/networknt/)
     - [json-schema-validator](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/) **[1.5.9](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/1.5.9)** < [3.0.8](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/3.0.8/)
-    - [json-schema-validator](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/) **[2.0.7](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/2.0.7)** < [3.0.8](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/3.0.8/)
+    - [json-schema-validator](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/) **[2.0.8](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/2.0.8)** < [3.0.8](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/3.0.8/)
  - [org.apache.tika](https://repo.maven.apache.org/maven2/org/apache/tika/)
     - [tika-core](https://repo.maven.apache.org/maven2/org/apache/tika/tika-core/) **[3.3.2](https://repo.maven.apache.org/maven2/org/apache/tika/tika-core/3.3.2)** < [4.1.0](https://repo.maven.apache.org/maven2/org/apache/tika/tika-core/4.1.0/)
 
@@ -101,7 +101,7 @@
     - [miglayout-swing](https://repo.maven.apache.org/maven2/com/miglayout/miglayout-swing/) **[11.4.3](https://repo.maven.apache.org/maven2/com/miglayout/miglayout-swing/11.4.3)**
  - [com.networknt](https://repo.maven.apache.org/maven2/com/networknt/)
     - [json-schema-validator](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/) **[1.5.9](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/1.5.9)**
-    - [json-schema-validator](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/) **[2.0.7](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/2.0.7)**
+    - [json-schema-validator](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/) **[2.0.8](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/2.0.8)**
  - [com.sun.xml.bind](https://repo.maven.apache.org/maven2/com/sun/xml/bind/)
     - [jaxb-core](https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-core/) **[4.0.9](https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-core/4.0.9)**
     - [jaxb-impl](https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-impl/) **[4.0.9](https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-impl/4.0.9)**
