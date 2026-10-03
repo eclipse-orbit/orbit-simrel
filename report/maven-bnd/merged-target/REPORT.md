@@ -14,7 +14,7 @@
  - [com.github.package-url](https://repo.maven.apache.org/maven2/com/github/package-url/)
     - [packageurl-java](https://repo.maven.apache.org/maven2/com/github/package-url/packageurl-java/) **[1.5.0](https://repo.maven.apache.org/maven2/com/github/package-url/packageurl-java/1.5.0)**
  - [com.github.virtuald](https://repo.maven.apache.org/maven2/com/github/virtuald/)
-    - [curvesapi](https://repo.maven.apache.org/maven2/com/github/virtuald/curvesapi/) **[1.8](https://repo.maven.apache.org/maven2/com/github/virtuald/curvesapi/1.8)**
+    - [curvesapi](https://repo.maven.apache.org/maven2/com/github/virtuald/curvesapi/) **[1.08](https://repo.maven.apache.org/maven2/com/github/virtuald/curvesapi/1.08)**
  - [com.google.javascript](https://repo.maven.apache.org/maven2/com/google/javascript/)
     - [closure-compiler](https://repo.maven.apache.org/maven2/com/google/javascript/closure-compiler/) **[v20260930](https://repo.maven.apache.org/maven2/com/google/javascript/closure-compiler/v20260930)**
  - [com.jcraft](https://repo.maven.apache.org/maven2/com/jcraft/)

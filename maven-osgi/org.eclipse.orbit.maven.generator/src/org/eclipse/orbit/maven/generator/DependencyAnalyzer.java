@@ -622,9 +622,99 @@ public class DependencyAnalyzer {
 						out.print(dependency.classifier);
 						out.print("*");
 					}
+					if (Boolean.FALSE) {
+						var scm = getSCM(contentHandler, dependency);
+						if (scm != null) {
+							out.print(" [\uD83D\uDD17](");
+							out.print(scm);
+							out.print(")");
+						}
+					}
 					out.println();
 				}
 			}
+		}
+
+		private String getSCM(ContentHandler contentHandler, Dependency dependency) throws IOException {
+			var scm = getSCM(contentHandler, dependency, new HashMap<>());
+			{
+				var gitHosted = Pattern.compile("https://osgi.org/git.*");
+				var matcher = gitHosted.matcher(scm);
+				if (matcher.matches()) {
+					return scm;
+				}
+			}
+			{
+				var gitHosted = Pattern.compile(
+						"(scm:)?(git:)?git@(?<host>github.com|gitlab.ow2.org|codeberg.org):(?<org>[^/]+)/(?<repo>[^/]+).*");
+				var matcher = gitHosted.matcher(scm);
+				if (matcher.matches()) {
+					return scm;
+				}
+			}
+			{
+				var gitHosted = Pattern.compile(
+						"(scm:git:)?https?://(?<host>github.com|gitlab.ow2.org|codeberg.org)/(?<org>[^/]+)/(?<repo>[^/]+).*");
+				var matcher = gitHosted.matcher(scm);
+				if (matcher.matches()) {
+					return scm;
+				}
+			}
+			{
+				var gitboxHosted = Pattern.compile(
+						"https://(gitbox\\.apache\\.org|git-wip-us\\.apache\\.org)/repos/asf\\?p=(?<repo>.*?)\\.git(;.*)?");
+				var matcher = gitboxHosted.matcher(scm);
+				if (matcher.matches()) {
+					return scm;
+				}
+			}
+			{
+				var gitboxHosted = Pattern.compile("https://gitbox\\.apache\\.org/repos/asf/(?<repo>.*?)(\\.git)?");
+				var matcher = gitboxHosted.matcher(scm);
+				if (matcher.matches()) {
+					return scm;
+				}
+			}
+			System.err.println("###" + scm);
+			return scm;
+		}
+
+		private String getSCM(ContentHandler contentHandler, Dependency dependency, Map<String, String> properties)
+				throws IOException {
+			var pomURI = dependency.getPOMURI();
+			var xmlDocument = contentHandler.getXMLContent(pomURI);
+			var urlElements = evaluate(xmlDocument, "//*[local-name()='scm']/*[local-name()='url']");
+			for (var urlElement : urlElements) {
+				var url = urlElement.getTextContent();
+				if (url != null) {
+					return url;
+				}
+			}
+			var parentGroupId = evaluate(xmlDocument, "//*[local-name()='parent']/*[local-name()='groupId']");
+			if (parentGroupId.size() == 1) {
+				var parentArtifactId = evaluate(xmlDocument, "//*[local-name()='parent']/*[local-name()='artifactId']");
+				if (parentArtifactId.size() == 1) {
+					var parentVersion = evaluate(xmlDocument, "//*[local-name()='parent']/*[local-name()='version']");
+					if (parentVersion.size() == 1) {
+						var parent = new Dependency(parentGroupId.get(0).getTextContent(),
+								parentArtifactId.get(0).getTextContent(), "pom",
+								Version.create(parentVersion.get(0).getTextContent()), null, dependency.repositoryURL);
+						return getSCM(contentHandler, parent);
+					}
+				}
+			}
+
+			var projectURLElements = evaluate(xmlDocument, "//*[local-name()='project']/*[local-name()='url']");
+			for (var urlElement : projectURLElements) {
+				var url = urlElement.getTextContent();
+				if (url != null) {
+					return url;
+				}
+			}
+
+			System.err.println("###" + pomURI);
+
+			return null;
 		}
 
 		private static String getMDLink(Object label, Object uri) {
@@ -718,8 +808,8 @@ public class DependencyAnalyzer {
 			var result = new TreeSet<Dependency>();
 			for (var dependency : dependencies) {
 				if ("pom".equals(dependency.type)) {
-					URI pomURI = dependency.getPOMURI();
-					Document xmlDocument = contentHandler.getXMLContent(pomURI);
+					var pomURI = dependency.getPOMURI();
+					var xmlDocument = contentHandler.getXMLContent(pomURI);
 					var bomDependencies = evaluate(xmlDocument, "//*[local-name()='dependency']");
 					for (var mavenDependency : bomDependencies) {
 						var groupId = getText(mavenDependency, "groupId");
@@ -841,6 +931,7 @@ public class DependencyAnalyzer {
 	private static class Version implements Comparable<Version> {
 		private static final Pattern VERSION_PATTERN = Pattern.compile("(?:([0-9]+)\\.([0-9]+)(?:\\.([0-9]+))?)?(.+)?");
 
+		private final String original;
 		private final int major;
 		private final int minor;
 		private final int micro;
@@ -860,6 +951,8 @@ public class DependencyAnalyzer {
 			if (!matcher.matches()) {
 				throw new IllegalArgumentException("Invalid version" + value);
 			}
+
+			original = value;
 
 			if (matcher.group(1) != null) {
 				major = Integer.parseInt(matcher.group(1));
@@ -899,6 +992,7 @@ public class DependencyAnalyzer {
 			this.micro = micro;
 			this.qualifier = qualifier;
 			this.qualifierVersion = qualifierVersion;
+			original = computeString();
 		}
 
 		public Version nextMajor() {
@@ -907,6 +1001,10 @@ public class DependencyAnalyzer {
 
 		@Override
 		public String toString() {
+			return original;
+		}
+
+		private String computeString() {
 			if (major == -1) {
 				return qualifier;
 			}
@@ -1144,6 +1242,10 @@ public class DependencyAnalyzer {
 
 			var path = getCachePath(uri);
 			if (Files.isRegularFile(path)) {
+				// POMs don't expire.
+				if (uri.toString().endsWith(".pom")) {
+					return Files.readString(path);
+				}
 				var lastModifiedTime = Files.getLastModifiedTime(path);
 				var now = System.currentTimeMillis();
 				var age = now - lastModifiedTime.toMillis();
