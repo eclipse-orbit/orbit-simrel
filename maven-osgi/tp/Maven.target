@@ -3,7 +3,7 @@
 <target name="Maven" sequenceNumber="1">
   <locations>
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="error" type="Maven">
-      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.42.0.v20261002-1200">
+      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.42.0.v20261004-1000">
         <description>This feature's dependencies are pulled directly from Maven central.</description>
         <copyright>
 Copyright (c) 2026 Eclipse contributors and others.
@@ -16,7 +16,7 @@ https://www.eclipse.org/legal/epl-2.0/
 SPDX-License-Identifier: EPL-2.0
         </copyright>
         <license url="https://www.eclipse.org/legal/epl-2.0/"/>
-        <!-- SHA1 d5248267cc4efdbcaec8bde05ad1c5af48f62316 -->
+        <!-- SHA1 2f5f6be656bf99a1f51cd09d22207ac752034744 -->
       </feature>
       <dependencies>
         <dependency>
@@ -2249,7 +2249,7 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>org.snakeyaml</groupId>
           <artifactId>snakeyaml-engine</artifactId>
-          <version>3.1.1</version>
+          <version>3.2</version>
           <type>jar</type>
         </dependency>
         <dependency>
