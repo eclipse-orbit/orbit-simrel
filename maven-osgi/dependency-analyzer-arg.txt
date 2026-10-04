@@ -75,6 +75,7 @@ org.bndtools:org.bndtools.templating:7.2.0 // Bad guava dependency https://githu
 org.ow2.asm:asm.*:999.10(.1)? // Ignore until jacoco updates
 com.github.librepdf:openpdf:x3.0.5 // Bad transitive dependencies
 org.conscrypt:conscrypt-openjdk-uber:2\.6\.0 // Bad android dependency
+com.miglayout:miglayout-.*:11\.5\.0 // Bad EE dependency https://github.com/mikaelgrev/miglayout/issues/121
 
 -keep
 commons-logging:commons-logging:1.2
