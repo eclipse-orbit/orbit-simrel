@@ -94,8 +94,8 @@
  - [com.ibm.icu](https://repo.maven.apache.org/maven2/com/ibm/icu/)
     - [icu4j](https://repo.maven.apache.org/maven2/com/ibm/icu/icu4j/) **[78.3](https://repo.maven.apache.org/maven2/com/ibm/icu/icu4j/78.3)**
  - [com.miglayout](https://repo.maven.apache.org/maven2/com/miglayout/)
-    - [miglayout-core](https://repo.maven.apache.org/maven2/com/miglayout/miglayout-core/) **[11.4.3](https://repo.maven.apache.org/maven2/com/miglayout/miglayout-core/11.4.3)**
-    - [miglayout-swing](https://repo.maven.apache.org/maven2/com/miglayout/miglayout-swing/) **[11.4.3](https://repo.maven.apache.org/maven2/com/miglayout/miglayout-swing/11.4.3)**
+    - [miglayout-core](https://repo.maven.apache.org/maven2/com/miglayout/miglayout-core/) **[11.5.1](https://repo.maven.apache.org/maven2/com/miglayout/miglayout-core/11.5.1)**
+    - [miglayout-swing](https://repo.maven.apache.org/maven2/com/miglayout/miglayout-swing/) **[11.5.1](https://repo.maven.apache.org/maven2/com/miglayout/miglayout-swing/11.5.1)**
  - [com.networknt](https://repo.maven.apache.org/maven2/com/networknt/)
     - [json-schema-validator](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/) **[1.5.9](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/1.5.9)**
     - [json-schema-validator](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/) **[2.0.8](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/2.0.8)**
