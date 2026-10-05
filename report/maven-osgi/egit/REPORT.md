@@ -1,5 +1,20 @@
 # Target Platform: [egit](https://raw.githubusercontent.com/eclipse-egit/egit/master/org.eclipse.egit.target/maven/dependencies.tpd)
 
+## Minor Updates
+ - [org.eclipse.jetty](https://repo.maven.apache.org/maven2/org/eclipse/jetty/)
+    - [jetty-http](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-http/) **[12.1.13](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-http/12.1.13)** < [12.1.14](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-http/12.1.14/)
+    - [jetty-io](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-io/) **[12.1.13](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-io/12.1.13)** < [12.1.14](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-io/12.1.14/)
+    - [jetty-security](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-security/) **[12.1.13](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-security/12.1.13)** < [12.1.14](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-security/12.1.14/)
+    - [jetty-server](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-server/) **[12.1.13](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-server/12.1.13)** < [12.1.14](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-server/12.1.14/)
+    - [jetty-session](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-session/) **[12.1.13](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-session/12.1.13)** < [12.1.14](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-session/12.1.14/)
+    - [jetty-util](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util/) **[12.1.13](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util/12.1.13)** < [12.1.14](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util/12.1.14/)
+    - [jetty-util-ajax](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util-ajax/) **[12.1.13](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util-ajax/12.1.13)** < [12.1.14](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util-ajax/12.1.14/)
+ - [org.eclipse.jetty.ee11](https://repo.maven.apache.org/maven2/org/eclipse/jetty/ee11/)
+    - [jetty-ee11-servlet](https://repo.maven.apache.org/maven2/org/eclipse/jetty/ee11/jetty-ee11-servlet/) **[12.1.13](https://repo.maven.apache.org/maven2/org/eclipse/jetty/ee11/jetty-ee11-servlet/12.1.13)** < [12.1.14](https://repo.maven.apache.org/maven2/org/eclipse/jetty/ee11/jetty-ee11-servlet/12.1.14/)
+
+## Updates Applied
+[updated.tpd](updated.tpd)
+
 ## Content
  - [args4j](https://repo.maven.apache.org/maven2/args4j/)
     - [args4j](https://repo.maven.apache.org/maven2/args4j/args4j/) **[2.37](https://repo.maven.apache.org/maven2/args4j/args4j/2.37)**
