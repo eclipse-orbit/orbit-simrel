@@ -183,6 +183,7 @@
     - [commons-fileupload2-javax](https://repo.maven.apache.org/maven2/org/apache/commons/commons-fileupload2-javax/) **[2.0.0-M5](https://repo.maven.apache.org/maven2/org/apache/commons/commons-fileupload2-javax/2.0.0-M5)**
     - [commons-lang3](https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/) **[3.21.0](https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.21.0)**
     - [commons-math3](https://repo.maven.apache.org/maven2/org/apache/commons/commons-math3/) **[3.6.1](https://repo.maven.apache.org/maven2/org/apache/commons/commons-math3/3.6.1)**
+    - [commons-secure-xml](https://repo.maven.apache.org/maven2/org/apache/commons/commons-secure-xml/) **[1.0.0](https://repo.maven.apache.org/maven2/org/apache/commons/commons-secure-xml/1.0.0)**
  - [org.apache.felix](https://repo.maven.apache.org/maven2/org/apache/felix/)
     - [org.apache.felix.http.servlet-api](https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.http.servlet-api/) **[1.2.0](https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.http.servlet-api/1.2.0)**
     - [org.apache.felix.http.servlet-api](https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.http.servlet-api/) **[2.1.0](https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.http.servlet-api/2.1.0)**
