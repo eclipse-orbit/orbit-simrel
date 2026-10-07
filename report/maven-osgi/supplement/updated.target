@@ -19,7 +19,7 @@
         <dependency>
           <groupId>com.ethlo.time</groupId>
           <artifactId>itu</artifactId>
-          <version>1.16.0</version>
+          <version>1.17.0</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -349,7 +349,7 @@
         <dependency>
           <groupId>io.github.classgraph</groupId>
           <artifactId>classgraph</artifactId>
-          <version>4.8.196</version>
+          <version>4.8.197</version>
           <type>jar</type>
         </dependency>
         <dependency>
