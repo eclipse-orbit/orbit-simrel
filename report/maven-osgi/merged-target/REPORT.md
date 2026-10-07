@@ -106,14 +106,14 @@
     - [jaxb-osgi](https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-osgi/) **[2.3.9](https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-osgi/2.3.9)**
     - [jaxb-osgi](https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-osgi/) **[4.0.9](https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-osgi/4.0.9)**
  - [com.twelvemonkeys.common](https://repo.maven.apache.org/maven2/com/twelvemonkeys/common/)
-    - [common-image](https://repo.maven.apache.org/maven2/com/twelvemonkeys/common/common-image/) **[3.15.2](https://repo.maven.apache.org/maven2/com/twelvemonkeys/common/common-image/3.15.2)**
-    - [common-io](https://repo.maven.apache.org/maven2/com/twelvemonkeys/common/common-io/) **[3.15.2](https://repo.maven.apache.org/maven2/com/twelvemonkeys/common/common-io/3.15.2)**
-    - [common-lang](https://repo.maven.apache.org/maven2/com/twelvemonkeys/common/common-lang/) **[3.15.2](https://repo.maven.apache.org/maven2/com/twelvemonkeys/common/common-lang/3.15.2)**
+    - [common-image](https://repo.maven.apache.org/maven2/com/twelvemonkeys/common/common-image/) **[3.15.3](https://repo.maven.apache.org/maven2/com/twelvemonkeys/common/common-image/3.15.3)**
+    - [common-io](https://repo.maven.apache.org/maven2/com/twelvemonkeys/common/common-io/) **[3.15.3](https://repo.maven.apache.org/maven2/com/twelvemonkeys/common/common-io/3.15.3)**
+    - [common-lang](https://repo.maven.apache.org/maven2/com/twelvemonkeys/common/common-lang/) **[3.15.3](https://repo.maven.apache.org/maven2/com/twelvemonkeys/common/common-lang/3.15.3)**
  - [com.twelvemonkeys.imageio](https://repo.maven.apache.org/maven2/com/twelvemonkeys/imageio/)
-    - [imageio-core](https://repo.maven.apache.org/maven2/com/twelvemonkeys/imageio/imageio-core/) **[3.15.2](https://repo.maven.apache.org/maven2/com/twelvemonkeys/imageio/imageio-core/3.15.2)**
-    - [imageio-metadata](https://repo.maven.apache.org/maven2/com/twelvemonkeys/imageio/imageio-metadata/) **[3.15.2](https://repo.maven.apache.org/maven2/com/twelvemonkeys/imageio/imageio-metadata/3.15.2)**
-    - [imageio-psd](https://repo.maven.apache.org/maven2/com/twelvemonkeys/imageio/imageio-psd/) **[3.15.2](https://repo.maven.apache.org/maven2/com/twelvemonkeys/imageio/imageio-psd/3.15.2)**
-    - [imageio-webp](https://repo.maven.apache.org/maven2/com/twelvemonkeys/imageio/imageio-webp/) **[3.15.2](https://repo.maven.apache.org/maven2/com/twelvemonkeys/imageio/imageio-webp/3.15.2)**
+    - [imageio-core](https://repo.maven.apache.org/maven2/com/twelvemonkeys/imageio/imageio-core/) **[3.15.3](https://repo.maven.apache.org/maven2/com/twelvemonkeys/imageio/imageio-core/3.15.3)**
+    - [imageio-metadata](https://repo.maven.apache.org/maven2/com/twelvemonkeys/imageio/imageio-metadata/) **[3.15.3](https://repo.maven.apache.org/maven2/com/twelvemonkeys/imageio/imageio-metadata/3.15.3)**
+    - [imageio-psd](https://repo.maven.apache.org/maven2/com/twelvemonkeys/imageio/imageio-psd/) **[3.15.3](https://repo.maven.apache.org/maven2/com/twelvemonkeys/imageio/imageio-psd/3.15.3)**
+    - [imageio-webp](https://repo.maven.apache.org/maven2/com/twelvemonkeys/imageio/imageio-webp/) **[3.15.3](https://repo.maven.apache.org/maven2/com/twelvemonkeys/imageio/imageio-webp/3.15.3)**
  - [com.vegardit.no-npe](https://repo.maven.apache.org/maven2/com/vegardit/no-npe/)
     - [no-npe-eea-all](https://repo.maven.apache.org/maven2/com/vegardit/no-npe/no-npe-eea-all/) **[1.3.14](https://repo.maven.apache.org/maven2/com/vegardit/no-npe/no-npe-eea-all/1.3.14)**
     - [no-npe-eea-all](https://repo.maven.apache.org/maven2/com/vegardit/no-npe/no-npe-eea-all/) **[2.0.1](https://repo.maven.apache.org/maven2/com/vegardit/no-npe/no-npe-eea-all/2.0.1)**

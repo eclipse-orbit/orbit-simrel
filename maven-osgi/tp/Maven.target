@@ -3,7 +3,7 @@
 <target name="Maven" sequenceNumber="1">
   <locations>
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="error" type="Maven">
-      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.42.0.v20261006-1200">
+      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.42.0.v20261007-1000">
         <description>This feature's dependencies are pulled directly from Maven central.</description>
         <copyright>
 Copyright (c) 2026 Eclipse contributors and others.
@@ -16,7 +16,7 @@ https://www.eclipse.org/legal/epl-2.0/
 SPDX-License-Identifier: EPL-2.0
         </copyright>
         <license url="https://www.eclipse.org/legal/epl-2.0/"/>
-        <!-- SHA1 6ab28852a471dd633fbfbc32ae15bf5f68e555a0 -->
+        <!-- SHA1 96ceb1156f76e7600117671aaf95f85e143eefee -->
       </feature>
       <dependencies>
         <dependency>
@@ -437,43 +437,43 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>com.twelvemonkeys.common</groupId>
           <artifactId>common-image</artifactId>
-          <version>3.15.2</version>
+          <version>3.15.3</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>com.twelvemonkeys.common</groupId>
           <artifactId>common-io</artifactId>
-          <version>3.15.2</version>
+          <version>3.15.3</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>com.twelvemonkeys.common</groupId>
           <artifactId>common-lang</artifactId>
-          <version>3.15.2</version>
+          <version>3.15.3</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>com.twelvemonkeys.imageio</groupId>
           <artifactId>imageio-core</artifactId>
-          <version>3.15.2</version>
+          <version>3.15.3</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>com.twelvemonkeys.imageio</groupId>
           <artifactId>imageio-metadata</artifactId>
-          <version>3.15.2</version>
+          <version>3.15.3</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>com.twelvemonkeys.imageio</groupId>
           <artifactId>imageio-psd</artifactId>
-          <version>3.15.2</version>
+          <version>3.15.3</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>com.twelvemonkeys.imageio</groupId>
           <artifactId>imageio-webp</artifactId>
-          <version>3.15.2</version>
+          <version>3.15.3</version>
           <type>jar</type>
         </dependency>
         <dependency>
