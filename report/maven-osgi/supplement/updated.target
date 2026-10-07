@@ -1236,8 +1236,20 @@
         </dependency>
         <dependency>
           <groupId>org.mongodb</groupId>
+          <artifactId>bson</artifactId>
+          <version>5.13.0</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>org.mongodb</groupId>
           <artifactId>mongo-java-driver</artifactId>
           <version>3.12.14</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>org.mongodb</groupId>
+          <artifactId>mongodb-driver-core</artifactId>
+          <version>5.13.0</version>
           <type>jar</type>
         </dependency>
         <dependency>
