@@ -173,11 +173,11 @@
     - [org.osgi.util.xml](https://repo.maven.apache.org/maven2/org/osgi/org.osgi.util.xml/) **[1.0.2](https://repo.maven.apache.org/maven2/org/osgi/org.osgi.util.xml/1.0.2)**
     - [osgi.annotation](https://repo.maven.apache.org/maven2/org/osgi/osgi.annotation/) **[8.1.0](https://repo.maven.apache.org/maven2/org/osgi/osgi.annotation/8.1.0)**
  - [org.ow2.asm](https://repo.maven.apache.org/maven2/org/ow2/asm/)
-    - [asm](https://repo.maven.apache.org/maven2/org/ow2/asm/asm/) **[9.10.1](https://repo.maven.apache.org/maven2/org/ow2/asm/asm/9.10.1)**
-    - [asm-analysis](https://repo.maven.apache.org/maven2/org/ow2/asm/asm-analysis/) **[9.10.1](https://repo.maven.apache.org/maven2/org/ow2/asm/asm-analysis/9.10.1)**
-    - [asm-commons](https://repo.maven.apache.org/maven2/org/ow2/asm/asm-commons/) **[9.10.1](https://repo.maven.apache.org/maven2/org/ow2/asm/asm-commons/9.10.1)**
-    - [asm-tree](https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/) **[9.10.1](https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/9.10.1)**
-    - [asm-util](https://repo.maven.apache.org/maven2/org/ow2/asm/asm-util/) **[9.10.1](https://repo.maven.apache.org/maven2/org/ow2/asm/asm-util/9.10.1)**
+    - [asm](https://repo.maven.apache.org/maven2/org/ow2/asm/asm/) **[9.11](https://repo.maven.apache.org/maven2/org/ow2/asm/asm/9.11)**
+    - [asm-analysis](https://repo.maven.apache.org/maven2/org/ow2/asm/asm-analysis/) **[9.11](https://repo.maven.apache.org/maven2/org/ow2/asm/asm-analysis/9.11)**
+    - [asm-commons](https://repo.maven.apache.org/maven2/org/ow2/asm/asm-commons/) **[9.11](https://repo.maven.apache.org/maven2/org/ow2/asm/asm-commons/9.11)**
+    - [asm-tree](https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/) **[9.11](https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/9.11)**
+    - [asm-util](https://repo.maven.apache.org/maven2/org/ow2/asm/asm-util/) **[9.11](https://repo.maven.apache.org/maven2/org/ow2/asm/asm-util/9.11)**
  - [org.ow2.sat4j](https://repo.maven.apache.org/maven2/org/ow2/sat4j/)
     - [org.ow2.sat4j.core](https://repo.maven.apache.org/maven2/org/ow2/sat4j/org.ow2.sat4j.core/) **[2.3.6](https://repo.maven.apache.org/maven2/org/ow2/sat4j/org.ow2.sat4j.core/2.3.6)**
     - [org.ow2.sat4j.pb](https://repo.maven.apache.org/maven2/org/ow2/sat4j/org.ow2.sat4j.pb/) **[2.3.6](https://repo.maven.apache.org/maven2/org/ow2/sat4j/org.ow2.sat4j.pb/2.3.6)**
