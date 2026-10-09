@@ -25,4 +25,5 @@ org.eclipse.jetty.compression:(jetty-compression-brotli|jetty-compression-zstand
 //
 -ignore
 org\.slf4j:slf4j-.*:2\.0\.14 // Broken exported package versions
-org.ow2.asm:asm.*:999.10(.1)? // Ignore until jacoco updates
+org.conscrypt:conscrypt-openjdk-uber:2\.6\.0 // Bad android dependency
+org.ow2.asm:asm.*:9.11(.1)? // Ignore until jacoco updates
