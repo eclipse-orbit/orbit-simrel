@@ -305,14 +305,14 @@
  - [org.codelibs](https://repo.maven.apache.org/maven2/org/codelibs/)
     - [nekohtml](https://repo.maven.apache.org/maven2/org/codelibs/nekohtml/) **[3.0.4](https://repo.maven.apache.org/maven2/org/codelibs/nekohtml/3.0.4)**
  - [org.commonmark](https://repo.maven.apache.org/maven2/org/commonmark/)
-    - [commonmark](https://repo.maven.apache.org/maven2/org/commonmark/commonmark/) **[0.30.0](https://repo.maven.apache.org/maven2/org/commonmark/commonmark/0.30.0)**
-    - [commonmark-ext-gfm-strikethrough](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-gfm-strikethrough/) **[0.30.0](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-gfm-strikethrough/0.30.0)**
-    - [commonmark-ext-gfm-tables](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-gfm-tables/) **[0.30.0](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-gfm-tables/0.30.0)**
-    - [commonmark-ext-heading-anchor](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-heading-anchor/) **[0.30.0](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-heading-anchor/0.30.0)**
-    - [commonmark-ext-image-attributes](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-image-attributes/) **[0.30.0](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-image-attributes/0.30.0)**
-    - [commonmark-ext-ins](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-ins/) **[0.30.0](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-ins/0.30.0)**
-    - [commonmark-ext-task-list-items](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-task-list-items/) **[0.30.0](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-task-list-items/0.30.0)**
-    - [commonmark-ext-yaml-front-matter](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-yaml-front-matter/) **[0.30.0](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-yaml-front-matter/0.30.0)**
+    - [commonmark](https://repo.maven.apache.org/maven2/org/commonmark/commonmark/) **[0.30.1](https://repo.maven.apache.org/maven2/org/commonmark/commonmark/0.30.1)**
+    - [commonmark-ext-gfm-strikethrough](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-gfm-strikethrough/) **[0.30.1](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-gfm-strikethrough/0.30.1)**
+    - [commonmark-ext-gfm-tables](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-gfm-tables/) **[0.30.1](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-gfm-tables/0.30.1)**
+    - [commonmark-ext-heading-anchor](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-heading-anchor/) **[0.30.1](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-heading-anchor/0.30.1)**
+    - [commonmark-ext-image-attributes](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-image-attributes/) **[0.30.1](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-image-attributes/0.30.1)**
+    - [commonmark-ext-ins](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-ins/) **[0.30.1](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-ins/0.30.1)**
+    - [commonmark-ext-task-list-items](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-task-list-items/) **[0.30.1](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-task-list-items/0.30.1)**
+    - [commonmark-ext-yaml-front-matter](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-yaml-front-matter/) **[0.30.1](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-yaml-front-matter/0.30.1)**
  - [org.conscrypt](https://repo.maven.apache.org/maven2/org/conscrypt/)
     - [conscrypt-openjdk-uber](https://repo.maven.apache.org/maven2/org/conscrypt/conscrypt-openjdk-uber/) **[2.7.0](https://repo.maven.apache.org/maven2/org/conscrypt/conscrypt-openjdk-uber/2.7.0)**
  - [org.easymock](https://repo.maven.apache.org/maven2/org/easymock/)
