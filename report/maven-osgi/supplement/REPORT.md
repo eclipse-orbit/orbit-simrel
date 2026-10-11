@@ -40,9 +40,9 @@
  - [com.github.mwiede](https://repo.maven.apache.org/maven2/com/github/mwiede/)
     - [jsch](https://repo.maven.apache.org/maven2/com/github/mwiede/jsch/) **[2.28.8](https://repo.maven.apache.org/maven2/com/github/mwiede/jsch/2.28.8)**
  - [com.github.oshi](https://repo.maven.apache.org/maven2/com/github/oshi/)
-    - [oshi-common](https://repo.maven.apache.org/maven2/com/github/oshi/oshi-common/) **[7.7.0](https://repo.maven.apache.org/maven2/com/github/oshi/oshi-common/7.7.0)**
+    - [oshi-common](https://repo.maven.apache.org/maven2/com/github/oshi/oshi-common/) **[7.7.1](https://repo.maven.apache.org/maven2/com/github/oshi/oshi-common/7.7.1)**
     - [oshi-core](https://repo.maven.apache.org/maven2/com/github/oshi/oshi-core/) **[6.12.0](https://repo.maven.apache.org/maven2/com/github/oshi/oshi-core/6.12.0)**
-    - [oshi-core](https://repo.maven.apache.org/maven2/com/github/oshi/oshi-core/) **[7.7.0](https://repo.maven.apache.org/maven2/com/github/oshi/oshi-core/7.7.0)**
+    - [oshi-core](https://repo.maven.apache.org/maven2/com/github/oshi/oshi-core/) **[7.7.1](https://repo.maven.apache.org/maven2/com/github/oshi/oshi-core/7.7.1)**
  - [com.github.weisj](https://repo.maven.apache.org/maven2/com/github/weisj/)
     - [jsvg-slf4j](https://repo.maven.apache.org/maven2/com/github/weisj/jsvg-slf4j/) **[2.2.0](https://repo.maven.apache.org/maven2/com/github/weisj/jsvg-slf4j/2.2.0)**
     - [jsvg-systemlogger](https://repo.maven.apache.org/maven2/com/github/weisj/jsvg-systemlogger/) **[2.2.0](https://repo.maven.apache.org/maven2/com/github/weisj/jsvg-systemlogger/2.2.0)**
@@ -292,7 +292,7 @@
     - [json](https://repo.maven.apache.org/maven2/org/json/json/) **[20260814](https://repo.maven.apache.org/maven2/org/json/json/20260814)**
  - [org.mandas](https://repo.maven.apache.org/maven2/org/mandas/)
     - [docker-client](https://repo.maven.apache.org/maven2/org/mandas/docker-client/) **[9.0.4](https://repo.maven.apache.org/maven2/org/mandas/docker-client/9.0.4)**
-    - [docker-client](https://repo.maven.apache.org/maven2/org/mandas/docker-client/) **[11.0.2](https://repo.maven.apache.org/maven2/org/mandas/docker-client/11.0.2)**
+    - [docker-client](https://repo.maven.apache.org/maven2/org/mandas/docker-client/) **[11.0.3](https://repo.maven.apache.org/maven2/org/mandas/docker-client/11.0.3)**
  - [org.mockito](https://repo.maven.apache.org/maven2/org/mockito/)
     - [mockito-junit-jupiter](https://repo.maven.apache.org/maven2/org/mockito/mockito-junit-jupiter/) **[5.24.0](https://repo.maven.apache.org/maven2/org/mockito/mockito-junit-jupiter/5.24.0)**
  - [org.mongodb](https://repo.maven.apache.org/maven2/org/mongodb/)

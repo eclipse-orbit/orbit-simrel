@@ -30,7 +30,7 @@
  - [commons-httpclient](https://repo.maven.apache.org/maven2/commons-httpclient/)
     - [commons-httpclient](https://repo.maven.apache.org/maven2/commons-httpclient/commons-httpclient/) **[3.1](https://repo.maven.apache.org/maven2/commons-httpclient/commons-httpclient/3.1)**
  - [io.github.humbleui](https://repo.maven.apache.org/maven2/io/github/humbleui/)
-    - [skija-shared](https://repo.maven.apache.org/maven2/io/github/humbleui/skija-shared/) **[0.143.17](https://repo.maven.apache.org/maven2/io/github/humbleui/skija-shared/0.143.17)**
+    - [skija-shared](https://repo.maven.apache.org/maven2/io/github/humbleui/skija-shared/) **[0.143.18](https://repo.maven.apache.org/maven2/io/github/humbleui/skija-shared/0.143.18)**
     - [types](https://repo.maven.apache.org/maven2/io/github/humbleui/types/) **[0.2.0](https://repo.maven.apache.org/maven2/io/github/humbleui/types/0.2.0)**
  - [junit](https://repo.maven.apache.org/maven2/junit/)
     - [junit](https://repo.maven.apache.org/maven2/junit/junit/) **[4.13.2](https://repo.maven.apache.org/maven2/junit/junit/4.13.2)**

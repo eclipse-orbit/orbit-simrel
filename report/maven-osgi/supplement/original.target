@@ -145,7 +145,7 @@
         <dependency>
           <groupId>com.github.oshi</groupId>
           <artifactId>oshi-common</artifactId>
-          <version>7.7.0</version>
+          <version>7.7.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -157,7 +157,7 @@
         <dependency>
           <groupId>com.github.oshi</groupId>
           <artifactId>oshi-core</artifactId>
-          <version>7.7.0</version>
+          <version>7.7.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -1225,7 +1225,7 @@
         <dependency>
           <groupId>org.mandas</groupId>
           <artifactId>docker-client</artifactId>
-          <version>11.0.2</version>
+          <version>11.0.3</version>
           <type>jar</type>
         </dependency>
         <dependency>
