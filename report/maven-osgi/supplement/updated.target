@@ -115,7 +115,7 @@
         <dependency>
           <groupId>com.github.ben-manes.caffeine</groupId>
           <artifactId>caffeine</artifactId>
-          <version>3.3.0</version>
+          <version>3.3.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -349,7 +349,7 @@
         <dependency>
           <groupId>io.github.classgraph</groupId>
           <artifactId>classgraph</artifactId>
-          <version>4.8.198</version>
+          <version>4.8.199</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -1249,6 +1249,12 @@
         <dependency>
           <groupId>org.mongodb</groupId>
           <artifactId>mongodb-driver-core</artifactId>
+          <version>5.13.0</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>org.mongodb</groupId>
+          <artifactId>mongodb-driver-sync</artifactId>
           <version>5.13.0</version>
           <type>jar</type>
         </dependency>

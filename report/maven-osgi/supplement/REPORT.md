@@ -1,6 +1,8 @@
 # Target Platform: [supplement](https://raw.githubusercontent.com/eclipse-orbit/orbit-simrel/main/maven-osgi/tp/other/MavenSupplement.target)
 
 ## Major Updates
+ - [io.github.classgraph](https://repo.maven.apache.org/maven2/io/github/classgraph/)
+    - [classgraph](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph/) **[4.8.199](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph/4.8.199)** < [6.0.0](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph/6.0.0/)
  - [org.apache.tika](https://repo.maven.apache.org/maven2/org/apache/tika/)
     - [tika-core](https://repo.maven.apache.org/maven2/org/apache/tika/tika-core/) **[3.3.2](https://repo.maven.apache.org/maven2/org/apache/tika/tika-core/3.3.2)** < [4.1.0](https://repo.maven.apache.org/maven2/org/apache/tika/tika-core/4.1.0/)
 
@@ -32,7 +34,7 @@
     - [woodstox-core](https://repo.maven.apache.org/maven2/com/fasterxml/woodstox/woodstox-core/) **[6.7.0](https://repo.maven.apache.org/maven2/com/fasterxml/woodstox/woodstox-core/6.7.0)**
     - [woodstox-core](https://repo.maven.apache.org/maven2/com/fasterxml/woodstox/woodstox-core/) **[7.3.0](https://repo.maven.apache.org/maven2/com/fasterxml/woodstox/woodstox-core/7.3.0)**
  - [com.github.ben-manes.caffeine](https://repo.maven.apache.org/maven2/com/github/ben-manes/caffeine/)
-    - [caffeine](https://repo.maven.apache.org/maven2/com/github/ben-manes/caffeine/caffeine/) **[3.3.0](https://repo.maven.apache.org/maven2/com/github/ben-manes/caffeine/caffeine/3.3.0)**
+    - [caffeine](https://repo.maven.apache.org/maven2/com/github/ben-manes/caffeine/caffeine/) **[3.3.1](https://repo.maven.apache.org/maven2/com/github/ben-manes/caffeine/caffeine/3.3.1)**
  - [com.github.librepdf](https://repo.maven.apache.org/maven2/com/github/librepdf/)
     - [openpdf](https://repo.maven.apache.org/maven2/com/github/librepdf/openpdf/) **[1.4.2](https://repo.maven.apache.org/maven2/com/github/librepdf/openpdf/1.4.2)**
     - [openpdf](https://repo.maven.apache.org/maven2/com/github/librepdf/openpdf/) **[2.4.0](https://repo.maven.apache.org/maven2/com/github/librepdf/openpdf/2.4.0)**
@@ -94,7 +96,7 @@
  - [dnsjava](https://repo.maven.apache.org/maven2/dnsjava/)
     - [dnsjava](https://repo.maven.apache.org/maven2/dnsjava/dnsjava/) **[3.6.5](https://repo.maven.apache.org/maven2/dnsjava/dnsjava/3.6.5)**
  - [io.github.classgraph](https://repo.maven.apache.org/maven2/io/github/classgraph/)
-    - [classgraph](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph/) **[4.8.198](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph/4.8.198)**
+    - [classgraph](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph/) **[4.8.199](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph/4.8.199)**
  - [jakarta.activation](https://repo.maven.apache.org/maven2/jakarta/activation/)
     - [jakarta.activation-api](https://repo.maven.apache.org/maven2/jakarta/activation/jakarta.activation-api/) **[1.2.2](https://repo.maven.apache.org/maven2/jakarta/activation/jakarta.activation-api/1.2.2)**
     - [jakarta.activation-api](https://repo.maven.apache.org/maven2/jakarta/activation/jakarta.activation-api/) **[2.1.4](https://repo.maven.apache.org/maven2/jakarta/activation/jakarta.activation-api/2.1.4)**
@@ -299,6 +301,7 @@
     - [bson](https://repo.maven.apache.org/maven2/org/mongodb/bson/) **[5.13.0](https://repo.maven.apache.org/maven2/org/mongodb/bson/5.13.0)**
     - [mongo-java-driver](https://repo.maven.apache.org/maven2/org/mongodb/mongo-java-driver/) **[3.12.14](https://repo.maven.apache.org/maven2/org/mongodb/mongo-java-driver/3.12.14)**
     - [mongodb-driver-core](https://repo.maven.apache.org/maven2/org/mongodb/mongodb-driver-core/) **[5.13.0](https://repo.maven.apache.org/maven2/org/mongodb/mongodb-driver-core/5.13.0)**
+    - [mongodb-driver-sync](https://repo.maven.apache.org/maven2/org/mongodb/mongodb-driver-sync/) **[5.13.0](https://repo.maven.apache.org/maven2/org/mongodb/mongodb-driver-sync/5.13.0)**
  - [org.mortbay.jasper](https://repo.maven.apache.org/maven2/org/mortbay/jasper/)
     - [mortbay-apache-el](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-el/) **[9.0.119](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-el/9.0.119)**
     - [mortbay-apache-el](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-el/) **[10.1.56](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-el/10.1.56)**
