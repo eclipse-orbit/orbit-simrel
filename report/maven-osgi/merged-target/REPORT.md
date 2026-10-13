@@ -427,7 +427,6 @@
     - [mockito-junit-jupiter](https://repo.maven.apache.org/maven2/org/mockito/mockito-junit-jupiter/) **[5.24.0](https://repo.maven.apache.org/maven2/org/mockito/mockito-junit-jupiter/5.24.0)**
  - [org.mongodb](https://repo.maven.apache.org/maven2/org/mongodb/)
     - [bson](https://repo.maven.apache.org/maven2/org/mongodb/bson/) **[5.13.0](https://repo.maven.apache.org/maven2/org/mongodb/bson/5.13.0)**
-    - [mongo-java-driver](https://repo.maven.apache.org/maven2/org/mongodb/mongo-java-driver/) **[3.12.14](https://repo.maven.apache.org/maven2/org/mongodb/mongo-java-driver/3.12.14)**
     - [mongodb-driver-core](https://repo.maven.apache.org/maven2/org/mongodb/mongodb-driver-core/) **[5.13.0](https://repo.maven.apache.org/maven2/org/mongodb/mongodb-driver-core/5.13.0)**
     - [mongodb-driver-sync](https://repo.maven.apache.org/maven2/org/mongodb/mongodb-driver-sync/) **[5.13.0](https://repo.maven.apache.org/maven2/org/mongodb/mongodb-driver-sync/5.13.0)**
  - [org.mortbay.jasper](https://repo.maven.apache.org/maven2/org/mortbay/jasper/)
