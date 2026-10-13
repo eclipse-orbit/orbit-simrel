@@ -1,8 +1,6 @@
 # Target Platform: [supplement](https://raw.githubusercontent.com/eclipse-orbit/orbit-simrel/main/maven-osgi/tp/other/MavenSupplement.target)
 
 ## Major Updates
- - [io.github.classgraph](https://repo.maven.apache.org/maven2/io/github/classgraph/)
-    - [classgraph](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph/) **[4.8.199](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph/4.8.199)** < [6.0.0](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph/6.0.0/)
  - [org.apache.tika](https://repo.maven.apache.org/maven2/org/apache/tika/)
     - [tika-core](https://repo.maven.apache.org/maven2/org/apache/tika/tika-core/) **[3.3.2](https://repo.maven.apache.org/maven2/org/apache/tika/tika-core/3.3.2)** < [4.1.0](https://repo.maven.apache.org/maven2/org/apache/tika/tika-core/4.1.0/)
 
@@ -97,6 +95,16 @@
     - [dnsjava](https://repo.maven.apache.org/maven2/dnsjava/dnsjava/) **[3.6.5](https://repo.maven.apache.org/maven2/dnsjava/dnsjava/3.6.5)**
  - [io.github.classgraph](https://repo.maven.apache.org/maven2/io/github/classgraph/)
     - [classgraph](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph/) **[4.8.199](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph/4.8.199)**
+    - [classgraph](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph/) **[5.0.0](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph/5.0.0)**
+    - [classgraph](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph/) **[6.0.0](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph/6.0.0)**
+    - [classgraph-base](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph-base/) **[5.0.0](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph-base/5.0.0)**
+    - [classgraph-base](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph-base/) **[6.0.0](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph-base/6.0.0)**
+    - [classgraph-classpath](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph-classpath/) **[5.0.0](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph-classpath/5.0.0)**
+    - [classgraph-classpath](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph-classpath/) **[6.0.0](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph-classpath/6.0.0)**
+    - [classgraph-vfs](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph-vfs/) **[5.0.0](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph-vfs/5.0.0)**
+    - [classgraph-vfs](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph-vfs/) **[6.0.0](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph-vfs/6.0.0)**
+    - [classgraph-viz](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph-viz/) **[5.0.0](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph-viz/5.0.0)**
+    - [classgraph-viz](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph-viz/) **[6.0.0](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph-viz/6.0.0)**
  - [jakarta.activation](https://repo.maven.apache.org/maven2/jakarta/activation/)
     - [jakarta.activation-api](https://repo.maven.apache.org/maven2/jakarta/activation/jakarta.activation-api/) **[1.2.2](https://repo.maven.apache.org/maven2/jakarta/activation/jakarta.activation-api/1.2.2)**
     - [jakarta.activation-api](https://repo.maven.apache.org/maven2/jakarta/activation/jakarta.activation-api/) **[2.1.4](https://repo.maven.apache.org/maven2/jakarta/activation/jakarta.activation-api/2.1.4)**
