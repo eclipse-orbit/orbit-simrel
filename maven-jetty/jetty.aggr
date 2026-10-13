@@ -12,7 +12,7 @@
         <bundles name="org.eclipse.osgi"/>
       </repositories>
     </contributions>
-    <validationRepositories location="https://download.eclipse.org/eclipse/updates/4.29/R-4.29-202309031000"/>
+    <validationRepositories location="https://download.eclipse.org/eclipse/updates/4.41/R-4.41-202608281142"/>
   </validationSets>
   <configurations operatingSystem="linux" windowSystem="gtk" architecture="aarch64">
     <properties key="org.eclipse.orbit.maven.bnd.buildtime" value="true"/>
