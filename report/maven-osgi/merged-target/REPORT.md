@@ -2,7 +2,7 @@
 
 ## Major Updates
  - [org.apache.tika](https://repo.maven.apache.org/maven2/org/apache/tika/)
-    - [tika-core](https://repo.maven.apache.org/maven2/org/apache/tika/tika-core/) **[3.3.2](https://repo.maven.apache.org/maven2/org/apache/tika/tika-core/3.3.2)** < [4.1.0](https://repo.maven.apache.org/maven2/org/apache/tika/tika-core/4.1.0/)
+    - [tika-core](https://repo.maven.apache.org/maven2/org/apache/tika/tika-core/) **[3.3.3](https://repo.maven.apache.org/maven2/org/apache/tika/tika-core/3.3.3)** < [4.1.0](https://repo.maven.apache.org/maven2/org/apache/tika/tika-core/4.1.0/)
 
 ## Content
  - [args4j](https://repo.maven.apache.org/maven2/args4j/)
@@ -287,7 +287,7 @@
     - [sshd-osgi](https://repo.maven.apache.org/maven2/org/apache/sshd/sshd-osgi/) **[2.20.0](https://repo.maven.apache.org/maven2/org/apache/sshd/sshd-osgi/2.20.0)**
     - [sshd-sftp](https://repo.maven.apache.org/maven2/org/apache/sshd/sshd-sftp/) **[2.20.0](https://repo.maven.apache.org/maven2/org/apache/sshd/sshd-sftp/2.20.0)**
  - [org.apache.tika](https://repo.maven.apache.org/maven2/org/apache/tika/)
-    - [tika-core](https://repo.maven.apache.org/maven2/org/apache/tika/tika-core/) **[3.3.2](https://repo.maven.apache.org/maven2/org/apache/tika/tika-core/3.3.2)**
+    - [tika-core](https://repo.maven.apache.org/maven2/org/apache/tika/tika-core/) **[3.3.3](https://repo.maven.apache.org/maven2/org/apache/tika/tika-core/3.3.3)**
  - [org.apache.velocity](https://repo.maven.apache.org/maven2/org/apache/velocity/)
     - [velocity-engine-core](https://repo.maven.apache.org/maven2/org/apache/velocity/velocity-engine-core/) **[2.4.1](https://repo.maven.apache.org/maven2/org/apache/velocity/velocity-engine-core/2.4.1)**
  - [org.apiguardian](https://repo.maven.apache.org/maven2/org/apiguardian/)
