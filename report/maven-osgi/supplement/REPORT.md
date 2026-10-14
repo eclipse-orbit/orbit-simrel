@@ -8,7 +8,7 @@
  - [ch.qos.logback](https://repo.maven.apache.org/maven2/ch/qos/logback/)
     - [logback-core](https://repo.maven.apache.org/maven2/ch/qos/logback/logback-core/) **[1.6.5](https://repo.maven.apache.org/maven2/ch/qos/logback/logback-core/1.6.5)**
  - [ch.qos.reload4j](https://repo.maven.apache.org/maven2/ch/qos/reload4j/)
-    - [reload4j](https://repo.maven.apache.org/maven2/ch/qos/reload4j/reload4j/) **[1.2.26](https://repo.maven.apache.org/maven2/ch/qos/reload4j/reload4j/1.2.26)**
+    - [reload4j](https://repo.maven.apache.org/maven2/ch/qos/reload4j/reload4j/) **[1.2.27](https://repo.maven.apache.org/maven2/ch/qos/reload4j/reload4j/1.2.27)**
  - [com.ethlo.time](https://repo.maven.apache.org/maven2/com/ethlo/time/)
     - [itu](https://repo.maven.apache.org/maven2/com/ethlo/time/itu/) **[1.17.0](https://repo.maven.apache.org/maven2/com/ethlo/time/itu/1.17.0)**
  - [com.evolvedbinary.thirdparty.org.apache.xmlrpc](https://repo.maven.apache.org/maven2/com/evolvedbinary/thirdparty/org/apache/xmlrpc/)
