@@ -445,7 +445,7 @@
     - [mortbay-apache-jsp](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-jsp/) **[10.1.56](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-jsp/10.1.56)**
     - [mortbay-apache-jsp](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-jsp/) **[11.0.23](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-jsp/11.0.23)**
  - [org.mvel](https://repo.maven.apache.org/maven2/org/mvel/)
-    - [mvel2](https://repo.maven.apache.org/maven2/org/mvel/mvel2/) **[2.5.4.Final](https://repo.maven.apache.org/maven2/org/mvel/mvel2/2.5.4.Final)**
+    - [mvel2](https://repo.maven.apache.org/maven2/org/mvel/mvel2/) **[2.6.0.Final](https://repo.maven.apache.org/maven2/org/mvel/mvel2/2.6.0.Final)**
  - [org.objenesis](https://repo.maven.apache.org/maven2/org/objenesis/)
     - [objenesis](https://repo.maven.apache.org/maven2/org/objenesis/objenesis/) **[3.6](https://repo.maven.apache.org/maven2/org/objenesis/objenesis/3.6)**
  - [org.opentest4j](https://repo.maven.apache.org/maven2/org/opentest4j/)
@@ -524,7 +524,7 @@
  - [org.yaml](https://repo.maven.apache.org/maven2/org/yaml/)
     - [snakeyaml](https://repo.maven.apache.org/maven2/org/yaml/snakeyaml/) **[2.7](https://repo.maven.apache.org/maven2/org/yaml/snakeyaml/2.7)**
  - [tools.jackson.core](https://repo.maven.apache.org/maven2/tools/jackson/core/)
-    - [jackson-core](https://repo.maven.apache.org/maven2/tools/jackson/core/jackson-core/) **[3.2.3](https://repo.maven.apache.org/maven2/tools/jackson/core/jackson-core/3.2.3)**
-    - [jackson-databind](https://repo.maven.apache.org/maven2/tools/jackson/core/jackson-databind/) **[3.2.3](https://repo.maven.apache.org/maven2/tools/jackson/core/jackson-databind/3.2.3)**
+    - [jackson-core](https://repo.maven.apache.org/maven2/tools/jackson/core/jackson-core/) **[3.2.4](https://repo.maven.apache.org/maven2/tools/jackson/core/jackson-core/3.2.4)**
+    - [jackson-databind](https://repo.maven.apache.org/maven2/tools/jackson/core/jackson-databind/) **[3.2.4](https://repo.maven.apache.org/maven2/tools/jackson/core/jackson-databind/3.2.4)**
  - [tools.jackson.dataformat](https://repo.maven.apache.org/maven2/tools/jackson/dataformat/)
-    - [jackson-dataformat-yaml](https://repo.maven.apache.org/maven2/tools/jackson/dataformat/jackson-dataformat-yaml/) **[3.2.3](https://repo.maven.apache.org/maven2/tools/jackson/dataformat/jackson-dataformat-yaml/3.2.3)**
+    - [jackson-dataformat-yaml](https://repo.maven.apache.org/maven2/tools/jackson/dataformat/jackson-dataformat-yaml/) **[3.2.4](https://repo.maven.apache.org/maven2/tools/jackson/dataformat/jackson-dataformat-yaml/3.2.4)**

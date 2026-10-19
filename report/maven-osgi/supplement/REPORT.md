@@ -349,7 +349,7 @@
     - [snakeyaml-engine](https://repo.maven.apache.org/maven2/org/snakeyaml/snakeyaml-engine/) **[2.10](https://repo.maven.apache.org/maven2/org/snakeyaml/snakeyaml-engine/2.10)**
     - [snakeyaml-engine](https://repo.maven.apache.org/maven2/org/snakeyaml/snakeyaml-engine/) **[3.2](https://repo.maven.apache.org/maven2/org/snakeyaml/snakeyaml-engine/3.2)**
  - [tools.jackson.core](https://repo.maven.apache.org/maven2/tools/jackson/core/)
-    - [jackson-core](https://repo.maven.apache.org/maven2/tools/jackson/core/jackson-core/) **[3.2.3](https://repo.maven.apache.org/maven2/tools/jackson/core/jackson-core/3.2.3)**
-    - [jackson-databind](https://repo.maven.apache.org/maven2/tools/jackson/core/jackson-databind/) **[3.2.3](https://repo.maven.apache.org/maven2/tools/jackson/core/jackson-databind/3.2.3)**
+    - [jackson-core](https://repo.maven.apache.org/maven2/tools/jackson/core/jackson-core/) **[3.2.4](https://repo.maven.apache.org/maven2/tools/jackson/core/jackson-core/3.2.4)**
+    - [jackson-databind](https://repo.maven.apache.org/maven2/tools/jackson/core/jackson-databind/) **[3.2.4](https://repo.maven.apache.org/maven2/tools/jackson/core/jackson-databind/3.2.4)**
  - [tools.jackson.dataformat](https://repo.maven.apache.org/maven2/tools/jackson/dataformat/)
-    - [jackson-dataformat-yaml](https://repo.maven.apache.org/maven2/tools/jackson/dataformat/jackson-dataformat-yaml/) **[3.2.3](https://repo.maven.apache.org/maven2/tools/jackson/dataformat/jackson-dataformat-yaml/3.2.3)**
+    - [jackson-dataformat-yaml](https://repo.maven.apache.org/maven2/tools/jackson/dataformat/jackson-dataformat-yaml/) **[3.2.4](https://repo.maven.apache.org/maven2/tools/jackson/dataformat/jackson-dataformat-yaml/3.2.4)**

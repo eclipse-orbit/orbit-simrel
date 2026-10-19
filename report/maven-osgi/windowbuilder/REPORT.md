@@ -9,6 +9,8 @@
     - [byte-buddy-agent](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/) **[1.18.14](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.18.14)** < [1.18.15](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.18.15/)
  - [org.apache.commons](https://repo.maven.apache.org/maven2/org/apache/commons/)
     - [commons-lang3](https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/) **[3.20.0](https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.20.0)** < [3.21.0](https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.21.0/)
+ - [org.mvel](https://repo.maven.apache.org/maven2/org/mvel/)
+    - [mvel2](https://repo.maven.apache.org/maven2/org/mvel/mvel2/) **[2.5.4.Final](https://repo.maven.apache.org/maven2/org/mvel/mvel2/2.5.4.Final)** < [2.6.0.Final](https://repo.maven.apache.org/maven2/org/mvel/mvel2/2.6.0.Final/)
 
 ## Updates Applied
 [updated.target](updated.target)
