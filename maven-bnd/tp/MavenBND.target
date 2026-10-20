@@ -1363,7 +1363,7 @@ Export-Package:         *;version="${version}";-noimport:=true
 <!-- ______________________________________________________ org.apache.xmlgraphics __________________________________________________________________________________________________-->
 
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
-      <feature id="org.eclipse.orbit.maven.org.apache.xmlgraphics" label="Orbit Maven BND org.apache.xmlgraphics" provider-name="Eclipse Orbit" version="4.42.0">
+      <feature id="org.eclipse.orbit.maven.org.apache.xmlgraphics" label="Orbit Maven BND org.apache.xmlgraphics" provider-name="Eclipse Orbit" version="4.42.0.v20261020-1000">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
 Copyright (c) 2026 Eclipse contributors and others.
@@ -1381,17 +1381,17 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>org.apache.xmlgraphics</groupId>
           <artifactId>xmlgraphics-commons</artifactId>
-          <version>2.11</version>
+          <version>2.12</version>
           <type>jar</type>
         </dependency>
       </dependencies>
       <instructions>
-<!-- SHA1 184b0f27ebe165363c6b151daccff4cce2e211ff -->
+<!-- SHA1 914c36d35e03c4c9d1938e123849f6f98851dbe3 -->
 <![CDATA[
 Bundle-Name:            Bundle ${mvnGroupId} : ${mvnArtifactId}
 version:                ${versionmask;===;${version_cleanup;${mvnVersion}}}
 Bundle-SymbolicName:    ${mvnGroupId}
-Bundle-Version:         ${version}.v20250506-1400
+Bundle-Version:         ${version}.v20261020-1000
 Eclipse-Wrapped-Bundle: ${mvnGroupId}:${mvnArtifactId}:${mvnVersion}
 Import-Package:         *
 Export-Package:         *;version="${version}"
@@ -1405,7 +1405,7 @@ Export-Package:         *;version="${version}"
 <!-- _____________________________________________________ org.apache.xmlgraphics.fop ___________________________________________________________________________________________________-->
 
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
-      <feature id="org.eclipse.orbit.maven.org.apache.xmlgraphics.fop" label="Orbit Maven BND org.apache.xmlgraphics.fop" provider-name="Eclipse Orbit" version="4.42.0">
+      <feature id="org.eclipse.orbit.maven.org.apache.xmlgraphics.fop" label="Orbit Maven BND org.apache.xmlgraphics.fop" provider-name="Eclipse Orbit" version="4.42.0.v20261020-1000">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
 Copyright (c) 2026 Eclipse contributors and others.
@@ -1423,32 +1423,32 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>org.apache.xmlgraphics</groupId>
           <artifactId>fop-core</artifactId>
-          <version>2.11</version>
+          <version>2.12</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.apache.xmlgraphics</groupId>
           <artifactId>fop-events</artifactId>
-          <version>2.11</version>
+          <version>2.12</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.apache.xmlgraphics</groupId>
           <artifactId>fop-util</artifactId>
-          <version>2.11</version>
+          <version>2.12</version>
           <type>jar</type>
         </dependency>
       </dependencies>
       <instructions>
-<!-- SHA1 cfcd90a0e3696696002906f6089201336fd8b5ba -->
+<!-- SHA1 dcf34a7b488669f5a8446821a9ffd3315c8ec71e -->
 <![CDATA[
 Bundle-Name:            Bundle ${mvnGroupId} : ${mvnArtifactId}
 version:                ${versionmask;===;${version_cleanup;${mvnVersion}}}
 Bundle-SymbolicName:    ${mvnGroupId}.${mvnArtifactId}
-Bundle-Version:         ${version}.v20250506-1400
+Bundle-Version:         ${version}.v20261020-1000
 Automatic-Module-Name:  ${mvnGroupId}.${mvnArtifactId}
 Eclipse-Wrapped-Bundle: ${mvnGroupId}:${mvnArtifactId}:${mvnVersion}
-Import-Package:         javax.media.jai|org.apache.fontbox.cff|org.apache.pdfbox.io|com.thoughtworks.qdox*|org.apache.tools.ant*|javax.servlet*|jakarta.servlet*|org.apache.fop.events.model|org.bouncycastle*;resolution:=optional,\
+Import-Package:         org.apache.fontbox.ttf|javax.media.jai|org.apache.fontbox.cff|org.apache.pdfbox.io|com.thoughtworks.qdox*|org.apache.tools.ant*|javax.servlet*|jakarta.servlet*|org.apache.fop.events.model|org.bouncycastle*;resolution:=optional,\
                         *
 Export-Package:         *;version="${version}";-noimport:=true
 -noextraheaders:        true
@@ -1461,7 +1461,7 @@ Export-Package:         *;version="${version}";-noimport:=true
 <!-- ______________________________________________________ org.apache.batik __________________________________________________________________________________________________-->
 
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
-      <feature id="org.eclipse.orbit.maven.org.apache.batik" label="Orbit Maven BND org.apache.batik" provider-name="Eclipse Orbit" version="4.42.0">
+      <feature id="org.eclipse.orbit.maven.org.apache.batik" label="Orbit Maven BND org.apache.batik" provider-name="Eclipse Orbit" version="4.42.0.v20261020-1200">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
 Copyright (c) 2026 Eclipse contributors and others.
@@ -1479,135 +1479,137 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>org.apache.xmlgraphics</groupId>
           <artifactId>batik-anim</artifactId>
-          <version>1.19</version>
+          <version>1.20</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.apache.xmlgraphics</groupId>
           <artifactId>batik-awt-util</artifactId>
-          <version>1.19</version>
+          <version>1.20</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.apache.xmlgraphics</groupId>
           <artifactId>batik-bridge</artifactId>
-          <version>1.19</version>
+          <version>1.20</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.apache.xmlgraphics</groupId>
           <artifactId>batik-codec</artifactId>
-          <version>1.19</version>
+          <version>1.20</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.apache.xmlgraphics</groupId>
           <artifactId>batik-constants</artifactId>
-          <version>1.19</version>
+          <version>1.20</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.apache.xmlgraphics</groupId>
           <artifactId>batik-css</artifactId>
-          <version>1.19</version>
+          <version>1.20</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.apache.xmlgraphics</groupId>
           <artifactId>batik-dom</artifactId>
-          <version>1.19</version>
+          <version>1.20</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.apache.xmlgraphics</groupId>
           <artifactId>batik-svg-dom</artifactId>
-          <version>1.19</version>
+          <version>1.20</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.apache.xmlgraphics</groupId>
           <artifactId>batik-ext</artifactId>
-          <version>1.19</version>
+          <version>1.20</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.apache.xmlgraphics</groupId>
           <artifactId>batik-extension</artifactId>
-          <version>1.19</version>
+          <version>1.20</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.apache.xmlgraphics</groupId>
           <artifactId>batik-gvt</artifactId>
-          <version>1.19</version>
+          <version>1.20</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.apache.xmlgraphics</groupId>
           <artifactId>batik-i18n</artifactId>
-          <version>1.19</version>
+          <version>1.20</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.apache.xmlgraphics</groupId>
           <artifactId>batik-parser</artifactId>
-          <version>1.19</version>
+          <version>1.20</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.apache.xmlgraphics</groupId>
           <artifactId>batik-script</artifactId>
-          <version>1.19</version>
+          <version>1.20</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.apache.xmlgraphics</groupId>
           <artifactId>batik-shared-resources</artifactId>
-          <version>1.19</version>
+          <version>1.20</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.apache.xmlgraphics</groupId>
           <artifactId>batik-svggen</artifactId>
-          <version>1.19</version>
+          <version>1.20</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.apache.xmlgraphics</groupId>
           <artifactId>batik-transcoder</artifactId>
-          <version>1.19</version>
+          <version>1.20</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.apache.xmlgraphics</groupId>
           <artifactId>batik-util</artifactId>
-          <version>1.19</version>
+          <version>1.20</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.apache.xmlgraphics</groupId>
           <artifactId>batik-xml</artifactId>
-          <version>1.19</version>
+          <version>1.20</version>
           <type>jar</type>
         </dependency>
       </dependencies>
       <instructions>
-<!-- SHA1 6d021b794cffe5fc7cceddf4912cc487537ca0af -->
+<!-- SHA1 d3613565b7f7bfb064090df45ecb9068668a3658 -->
 <![CDATA[
 Bundle-Name:            Bundle ${mvnGroupId} : ${mvnArtifactId}
 version:                ${versionmask;===;${version_cleanup;${mvnVersion}}}
 mappedId:               ${replacestring;${mvnArtifactId};batik-svg-dom;batik-dom-svg}
 suffix:                 ${replacestring;${mappedId};-;.}
 Bundle-SymbolicName:    org.apache.${suffix}
-Bundle-Version:         ${version}.v20250506-1400
+Bundle-Version:         ${version}.v20261020-1200
 Eclipse-Wrapped-Bundle: ${mvnGroupId}:${mvnArtifactId}:${mvnVersion}
 Import-Package:         org.w3c.dom.smil*;version="1.0.0",\
                         org.w3c.dom.svg*;version="1.1.0",\
                         javax.xml*|org.w3c.dom*|org.xml.sax*;version=!,\
                         org.mozilla.javascript*|org.python*;resolution:=optional,\
+                        org.apache.xmlgraphics.image.loader.util;version="[2,3)",\
                         org.apache.xmlgraphics*;version="${range;[=,+);${@}}",\
                         *
-Export-Package:         *;version="${version}";-noimport:=true
+Export-Package:         !org.apache.xmlgraphics.image.loader.util,\
+                        *;version="${version}";-noimport:=true
 Eclipse-BuddyPolicy:    registered
 Eclipse-RegisterBuddy:  org.apache.batik.awt.util,org.apache.batik.transcoder,org.apache.batik.svggen,org.apache.batik.dom
 -noextraheaders:        true

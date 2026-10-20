@@ -40,9 +40,9 @@
  - [com.github.mwiede](https://repo.maven.apache.org/maven2/com/github/mwiede/)
     - [jsch](https://repo.maven.apache.org/maven2/com/github/mwiede/jsch/) **[2.28.8](https://repo.maven.apache.org/maven2/com/github/mwiede/jsch/2.28.8)**
  - [com.github.oshi](https://repo.maven.apache.org/maven2/com/github/oshi/)
-    - [oshi-common](https://repo.maven.apache.org/maven2/com/github/oshi/oshi-common/) **[7.7.1](https://repo.maven.apache.org/maven2/com/github/oshi/oshi-common/7.7.1)**
+    - [oshi-common](https://repo.maven.apache.org/maven2/com/github/oshi/oshi-common/) **[7.7.2](https://repo.maven.apache.org/maven2/com/github/oshi/oshi-common/7.7.2)**
     - [oshi-core](https://repo.maven.apache.org/maven2/com/github/oshi/oshi-core/) **[6.12.0](https://repo.maven.apache.org/maven2/com/github/oshi/oshi-core/6.12.0)**
-    - [oshi-core](https://repo.maven.apache.org/maven2/com/github/oshi/oshi-core/) **[7.7.1](https://repo.maven.apache.org/maven2/com/github/oshi/oshi-core/7.7.1)**
+    - [oshi-core](https://repo.maven.apache.org/maven2/com/github/oshi/oshi-core/) **[7.7.2](https://repo.maven.apache.org/maven2/com/github/oshi/oshi-core/7.7.2)**
  - [com.github.weisj](https://repo.maven.apache.org/maven2/com/github/weisj/)
     - [jsvg-slf4j](https://repo.maven.apache.org/maven2/com/github/weisj/jsvg-slf4j/) **[2.2.0](https://repo.maven.apache.org/maven2/com/github/weisj/jsvg-slf4j/2.2.0)**
     - [jsvg-systemlogger](https://repo.maven.apache.org/maven2/com/github/weisj/jsvg-systemlogger/) **[2.2.0](https://repo.maven.apache.org/maven2/com/github/weisj/jsvg-systemlogger/2.2.0)**
