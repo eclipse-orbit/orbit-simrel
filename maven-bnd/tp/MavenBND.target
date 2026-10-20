@@ -1461,7 +1461,7 @@ Export-Package:         *;version="${version}";-noimport:=true
 <!-- ______________________________________________________ org.apache.batik __________________________________________________________________________________________________-->
 
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
-      <feature id="org.eclipse.orbit.maven.org.apache.batik" label="Orbit Maven BND org.apache.batik" provider-name="Eclipse Orbit" version="4.42.0.v20261020-1200">
+      <feature id="org.eclipse.orbit.maven.org.apache.batik" label="Orbit Maven BND org.apache.batik" provider-name="Eclipse Orbit" version="4.42.0.v20261020-1000">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
 Copyright (c) 2026 Eclipse contributors and others.
@@ -1592,14 +1592,14 @@ SPDX-License-Identifier: EPL-2.0
         </dependency>
       </dependencies>
       <instructions>
-<!-- SHA1 d3613565b7f7bfb064090df45ecb9068668a3658 -->
+<!-- SHA1 d1587eeeb48a465e0b5288b462fbb337dd61c4d0 -->
 <![CDATA[
 Bundle-Name:            Bundle ${mvnGroupId} : ${mvnArtifactId}
 version:                ${versionmask;===;${version_cleanup;${mvnVersion}}}
 mappedId:               ${replacestring;${mvnArtifactId};batik-svg-dom;batik-dom-svg}
 suffix:                 ${replacestring;${mappedId};-;.}
 Bundle-SymbolicName:    org.apache.${suffix}
-Bundle-Version:         ${version}.v20261020-1200
+Bundle-Version:         ${version}.v20261020-1000
 Eclipse-Wrapped-Bundle: ${mvnGroupId}:${mvnArtifactId}:${mvnVersion}
 Import-Package:         org.w3c.dom.smil*;version="1.0.0",\
                         org.w3c.dom.svg*;version="1.1.0",\
