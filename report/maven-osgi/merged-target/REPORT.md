@@ -94,8 +94,8 @@
  - [com.ibm.icu](https://repo.maven.apache.org/maven2/com/ibm/icu/)
     - [icu4j](https://repo.maven.apache.org/maven2/com/ibm/icu/icu4j/) **[78.3](https://repo.maven.apache.org/maven2/com/ibm/icu/icu4j/78.3)**
  - [com.miglayout](https://repo.maven.apache.org/maven2/com/miglayout/)
-    - [miglayout-core](https://repo.maven.apache.org/maven2/com/miglayout/miglayout-core/) **[11.5.1](https://repo.maven.apache.org/maven2/com/miglayout/miglayout-core/11.5.1)**
-    - [miglayout-swing](https://repo.maven.apache.org/maven2/com/miglayout/miglayout-swing/) **[11.5.1](https://repo.maven.apache.org/maven2/com/miglayout/miglayout-swing/11.5.1)**
+    - [miglayout-core](https://repo.maven.apache.org/maven2/com/miglayout/miglayout-core/) **[11.5.2](https://repo.maven.apache.org/maven2/com/miglayout/miglayout-core/11.5.2)**
+    - [miglayout-swing](https://repo.maven.apache.org/maven2/com/miglayout/miglayout-swing/) **[11.5.2](https://repo.maven.apache.org/maven2/com/miglayout/miglayout-swing/11.5.2)**
  - [com.networknt](https://repo.maven.apache.org/maven2/com/networknt/)
     - [json-schema-validator](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/) **[1.5.9](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/1.5.9)**
     - [json-schema-validator](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/) **[2.0.8](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/2.0.8)**
@@ -324,7 +324,7 @@
     - [commonmark-ext-task-list-items](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-task-list-items/) **[0.30.1](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-task-list-items/0.30.1)**
     - [commonmark-ext-yaml-front-matter](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-yaml-front-matter/) **[0.30.1](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-yaml-front-matter/0.30.1)**
  - [org.conscrypt](https://repo.maven.apache.org/maven2/org/conscrypt/)
-    - [conscrypt-openjdk-uber](https://repo.maven.apache.org/maven2/org/conscrypt/conscrypt-openjdk-uber/) **[2.7.0](https://repo.maven.apache.org/maven2/org/conscrypt/conscrypt-openjdk-uber/2.7.0)**
+    - [conscrypt-openjdk-uber](https://repo.maven.apache.org/maven2/org/conscrypt/conscrypt-openjdk-uber/) **[2.8.0](https://repo.maven.apache.org/maven2/org/conscrypt/conscrypt-openjdk-uber/2.8.0)**
  - [org.easymock](https://repo.maven.apache.org/maven2/org/easymock/)
     - [easymock](https://repo.maven.apache.org/maven2/org/easymock/easymock/) **[5.7.0](https://repo.maven.apache.org/maven2/org/easymock/easymock/5.7.0)**
  - [org.eclipse.collections](https://repo.maven.apache.org/maven2/org/eclipse/collections/)

@@ -33,6 +33,11 @@
     - [woodstox-core](https://repo.maven.apache.org/maven2/com/fasterxml/woodstox/woodstox-core/) **[7.3.0](https://repo.maven.apache.org/maven2/com/fasterxml/woodstox/woodstox-core/7.3.0)**
  - [com.github.ben-manes.caffeine](https://repo.maven.apache.org/maven2/com/github/ben-manes/caffeine/)
     - [caffeine](https://repo.maven.apache.org/maven2/com/github/ben-manes/caffeine/caffeine/) **[3.3.1](https://repo.maven.apache.org/maven2/com/github/ben-manes/caffeine/caffeine/3.3.1)**
+ - [com.github.jnr](https://repo.maven.apache.org/maven2/com/github/jnr/)
+    - [jnr-enxio](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-enxio/) **[0.33.3](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-enxio/0.33.3)**
+    - [jnr-ffi](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-ffi/) **[2.3.3](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-ffi/2.3.3)**
+    - [jnr-posix](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-posix/) **[3.2.4](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-posix/3.2.4)**
+    - [jnr-unixsocket](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-unixsocket/) **[0.39.5](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-unixsocket/0.39.5)**
  - [com.github.librepdf](https://repo.maven.apache.org/maven2/com/github/librepdf/)
     - [openpdf](https://repo.maven.apache.org/maven2/com/github/librepdf/openpdf/) **[1.4.2](https://repo.maven.apache.org/maven2/com/github/librepdf/openpdf/1.4.2)**
     - [openpdf](https://repo.maven.apache.org/maven2/com/github/librepdf/openpdf/) **[2.4.0](https://repo.maven.apache.org/maven2/com/github/librepdf/openpdf/2.4.0)**
@@ -230,7 +235,7 @@
     - [commonmark-ext-task-list-items](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-task-list-items/) **[0.30.1](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-task-list-items/0.30.1)**
     - [commonmark-ext-yaml-front-matter](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-yaml-front-matter/) **[0.30.1](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-yaml-front-matter/0.30.1)**
  - [org.conscrypt](https://repo.maven.apache.org/maven2/org/conscrypt/)
-    - [conscrypt-openjdk-uber](https://repo.maven.apache.org/maven2/org/conscrypt/conscrypt-openjdk-uber/) **[2.7.0](https://repo.maven.apache.org/maven2/org/conscrypt/conscrypt-openjdk-uber/2.7.0)**
+    - [conscrypt-openjdk-uber](https://repo.maven.apache.org/maven2/org/conscrypt/conscrypt-openjdk-uber/) **[2.8.0](https://repo.maven.apache.org/maven2/org/conscrypt/conscrypt-openjdk-uber/2.8.0)**
  - [org.easymock](https://repo.maven.apache.org/maven2/org/easymock/)
     - [easymock](https://repo.maven.apache.org/maven2/org/easymock/easymock/) **[5.7.0](https://repo.maven.apache.org/maven2/org/easymock/easymock/5.7.0)**
  - [org.eclipse.collections](https://repo.maven.apache.org/maven2/org/eclipse/collections/)

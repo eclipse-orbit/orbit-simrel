@@ -2,8 +2,8 @@
 
 ## Minor Updates
  - [com.miglayout](https://repo.maven.apache.org/maven2/com/miglayout/)
-    - [miglayout-core](https://repo.maven.apache.org/maven2/com/miglayout/miglayout-core/) **[11.4.3](https://repo.maven.apache.org/maven2/com/miglayout/miglayout-core/11.4.3)** < [11.5.1](https://repo.maven.apache.org/maven2/com/miglayout/miglayout-core/11.5.1/)
-    - [miglayout-swing](https://repo.maven.apache.org/maven2/com/miglayout/miglayout-swing/) **[11.4.3](https://repo.maven.apache.org/maven2/com/miglayout/miglayout-swing/11.4.3)** < [11.5.1](https://repo.maven.apache.org/maven2/com/miglayout/miglayout-swing/11.5.1/)
+    - [miglayout-core](https://repo.maven.apache.org/maven2/com/miglayout/miglayout-core/) **[11.4.3](https://repo.maven.apache.org/maven2/com/miglayout/miglayout-core/11.4.3)** < [11.5.2](https://repo.maven.apache.org/maven2/com/miglayout/miglayout-core/11.5.2/)
+    - [miglayout-swing](https://repo.maven.apache.org/maven2/com/miglayout/miglayout-swing/) **[11.4.3](https://repo.maven.apache.org/maven2/com/miglayout/miglayout-swing/11.4.3)** < [11.5.2](https://repo.maven.apache.org/maven2/com/miglayout/miglayout-swing/11.5.2/)
  - [net.bytebuddy](https://repo.maven.apache.org/maven2/net/bytebuddy/)
     - [byte-buddy](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/) **[1.18.14](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.18.14)** < [1.18.15](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.18.15/)
     - [byte-buddy-agent](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/) **[1.18.14](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.18.14)** < [1.18.15](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.18.15/)
