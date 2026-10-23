@@ -1,11 +1,5 @@
 # Target Platform: [merged-target](https://github.com/eclipse-orbit/orbit-simrel/blob/main/maven-bnd/tp/MavenBND.target)
 
-## Major Updates
- - [org.apache.poi](https://repo.maven.apache.org/maven2/org/apache/poi/)
-    - [poi](https://repo.maven.apache.org/maven2/org/apache/poi/poi/) **[5.5.1](https://repo.maven.apache.org/maven2/org/apache/poi/poi/5.5.1)** < [6.0.0](https://repo.maven.apache.org/maven2/org/apache/poi/poi/6.0.0/)
-    - [poi-ooxml](https://repo.maven.apache.org/maven2/org/apache/poi/poi-ooxml/) **[5.5.1](https://repo.maven.apache.org/maven2/org/apache/poi/poi-ooxml/5.5.1)** < [6.0.0](https://repo.maven.apache.org/maven2/org/apache/poi/poi-ooxml/6.0.0/)
-    - [poi-ooxml-lite](https://repo.maven.apache.org/maven2/org/apache/poi/poi-ooxml-lite/) **[5.5.1](https://repo.maven.apache.org/maven2/org/apache/poi/poi-ooxml-lite/5.5.1)** < [6.0.0](https://repo.maven.apache.org/maven2/org/apache/poi/poi-ooxml-lite/6.0.0/)
-
 ## Content
  - [aopalliance](https://repo.maven.apache.org/maven2/aopalliance/)
     - [aopalliance](https://repo.maven.apache.org/maven2/aopalliance/aopalliance/) **[1.0](https://repo.maven.apache.org/maven2/aopalliance/aopalliance/1.0)**
@@ -71,8 +65,11 @@
     - [lucene-sandbox](https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-sandbox/) **[10.5.2](https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-sandbox/10.5.2)**
  - [org.apache.poi](https://repo.maven.apache.org/maven2/org/apache/poi/)
     - [poi](https://repo.maven.apache.org/maven2/org/apache/poi/poi/) **[5.5.1](https://repo.maven.apache.org/maven2/org/apache/poi/poi/5.5.1)**
+    - [poi](https://repo.maven.apache.org/maven2/org/apache/poi/poi/) **[6.0.0](https://repo.maven.apache.org/maven2/org/apache/poi/poi/6.0.0)**
     - [poi-ooxml](https://repo.maven.apache.org/maven2/org/apache/poi/poi-ooxml/) **[5.5.1](https://repo.maven.apache.org/maven2/org/apache/poi/poi-ooxml/5.5.1)**
+    - [poi-ooxml](https://repo.maven.apache.org/maven2/org/apache/poi/poi-ooxml/) **[6.0.0](https://repo.maven.apache.org/maven2/org/apache/poi/poi-ooxml/6.0.0)**
     - [poi-ooxml-lite](https://repo.maven.apache.org/maven2/org/apache/poi/poi-ooxml-lite/) **[5.5.1](https://repo.maven.apache.org/maven2/org/apache/poi/poi-ooxml-lite/5.5.1)**
+    - [poi-ooxml-lite](https://repo.maven.apache.org/maven2/org/apache/poi/poi-ooxml-lite/) **[6.0.0](https://repo.maven.apache.org/maven2/org/apache/poi/poi-ooxml-lite/6.0.0)**
  - [org.apache.ws.commons.util](https://repo.maven.apache.org/maven2/org/apache/ws/commons/util/)
     - [ws-commons-util](https://repo.maven.apache.org/maven2/org/apache/ws/commons/util/ws-commons-util/) **[1.0.2](https://repo.maven.apache.org/maven2/org/apache/ws/commons/util/ws-commons-util/1.0.2)**
  - [org.apache.xmlbeans](https://repo.maven.apache.org/maven2/org/apache/xmlbeans/)
