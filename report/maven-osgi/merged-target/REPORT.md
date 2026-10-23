@@ -92,7 +92,7 @@
  - [com.h2database](https://repo.maven.apache.org/maven2/com/h2database/)
     - [h2](https://repo.maven.apache.org/maven2/com/h2database/h2/) **[2.5.252](https://repo.maven.apache.org/maven2/com/h2database/h2/2.5.252)**
  - [com.ibm.icu](https://repo.maven.apache.org/maven2/com/ibm/icu/)
-    - [icu4j](https://repo.maven.apache.org/maven2/com/ibm/icu/icu4j/) **[78.3](https://repo.maven.apache.org/maven2/com/ibm/icu/icu4j/78.3)**
+    - [icu4j](https://repo.maven.apache.org/maven2/com/ibm/icu/icu4j/) **[79.1](https://repo.maven.apache.org/maven2/com/ibm/icu/icu4j/79.1)**
  - [com.miglayout](https://repo.maven.apache.org/maven2/com/miglayout/)
     - [miglayout-core](https://repo.maven.apache.org/maven2/com/miglayout/miglayout-core/) **[11.5.2](https://repo.maven.apache.org/maven2/com/miglayout/miglayout-core/11.5.2)**
     - [miglayout-swing](https://repo.maven.apache.org/maven2/com/miglayout/miglayout-swing/) **[11.5.2](https://repo.maven.apache.org/maven2/com/miglayout/miglayout-swing/11.5.2)**

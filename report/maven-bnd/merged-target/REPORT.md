@@ -1,5 +1,11 @@
 # Target Platform: [merged-target](https://github.com/eclipse-orbit/orbit-simrel/blob/main/maven-bnd/tp/MavenBND.target)
 
+## Major Updates
+ - [org.apache.poi](https://repo.maven.apache.org/maven2/org/apache/poi/)
+    - [poi](https://repo.maven.apache.org/maven2/org/apache/poi/poi/) **[5.5.1](https://repo.maven.apache.org/maven2/org/apache/poi/poi/5.5.1)** < [6.0.0](https://repo.maven.apache.org/maven2/org/apache/poi/poi/6.0.0/)
+    - [poi-ooxml](https://repo.maven.apache.org/maven2/org/apache/poi/poi-ooxml/) **[5.5.1](https://repo.maven.apache.org/maven2/org/apache/poi/poi-ooxml/5.5.1)** < [6.0.0](https://repo.maven.apache.org/maven2/org/apache/poi/poi-ooxml/6.0.0/)
+    - [poi-ooxml-lite](https://repo.maven.apache.org/maven2/org/apache/poi/poi-ooxml-lite/) **[5.5.1](https://repo.maven.apache.org/maven2/org/apache/poi/poi-ooxml-lite/5.5.1)** < [6.0.0](https://repo.maven.apache.org/maven2/org/apache/poi/poi-ooxml-lite/6.0.0/)
+
 ## Content
  - [aopalliance](https://repo.maven.apache.org/maven2/aopalliance/)
     - [aopalliance](https://repo.maven.apache.org/maven2/aopalliance/aopalliance/) **[1.0](https://repo.maven.apache.org/maven2/aopalliance/aopalliance/1.0)**
@@ -16,7 +22,7 @@
  - [com.github.virtuald](https://repo.maven.apache.org/maven2/com/github/virtuald/)
     - [curvesapi](https://repo.maven.apache.org/maven2/com/github/virtuald/curvesapi/) **[1.08](https://repo.maven.apache.org/maven2/com/github/virtuald/curvesapi/1.08)**
  - [com.google.javascript](https://repo.maven.apache.org/maven2/com/google/javascript/)
-    - [closure-compiler](https://repo.maven.apache.org/maven2/com/google/javascript/closure-compiler/) **[v20261020](https://repo.maven.apache.org/maven2/com/google/javascript/closure-compiler/v20261020)**
+    - [closure-compiler](https://repo.maven.apache.org/maven2/com/google/javascript/closure-compiler/) **[v20261021](https://repo.maven.apache.org/maven2/com/google/javascript/closure-compiler/v20261021)**
  - [com.jcraft](https://repo.maven.apache.org/maven2/com/jcraft/)
     - [jsch](https://repo.maven.apache.org/maven2/com/jcraft/jsch/) **[0.1.55](https://repo.maven.apache.org/maven2/com/jcraft/jsch/0.1.55)**
     - [jzlib](https://repo.maven.apache.org/maven2/com/jcraft/jzlib/) **[1.1.3](https://repo.maven.apache.org/maven2/com/jcraft/jzlib/1.1.3)**
