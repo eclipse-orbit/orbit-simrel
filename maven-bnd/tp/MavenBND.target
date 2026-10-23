@@ -1936,68 +1936,7 @@ Export-Package:         *;version="${version}"
 <!-- _____________________________________________________ org.apache.poi ___________________________________________________________________________________________________-->
 
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
-      <feature id="org.eclipse.orbit.maven.org.apache.poi" label="Orbit Maven BND org.apache.poi" provider-name="Eclipse Orbit" version="4.42.0">
-        <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
-        <copyright>
-Copyright (c) 2026 Eclipse contributors and others.
-
-This program and the accompanying materials
-are made available under the terms of the Eclipse Public License 2.0
-which accompanies this distribution, and is available at
-https://www.eclipse.org/legal/epl-2.0/
-
-SPDX-License-Identifier: EPL-2.0
-        </copyright>
-        <license url="https://www.eclipse.org/legal/epl-2.0/"/>
-      </feature>
-      <dependencies>
-        <dependency>
-          <groupId>org.apache.poi</groupId>
-          <artifactId>poi</artifactId>
-          <version>5.5.1</version>
-          <type>jar</type>
-        </dependency>
-        <dependency>
-          <groupId>org.apache.poi</groupId>
-          <artifactId>poi-ooxml</artifactId>
-          <version>5.5.1</version>
-          <type>jar</type>
-        </dependency>
-        <dependency>
-          <groupId>org.apache.poi</groupId>
-          <artifactId>poi-ooxml-lite</artifactId>
-          <version>5.5.1</version>
-          <type>jar</type>
-        </dependency>
-      </dependencies>
-      <instructions>
-<!-- SHA1 ba1c5e7693f9a45525bb80787436c7114c9faa06 -->
-<![CDATA[
-Bundle-Name:            Bundle ${mvnGroupId} : ${mvnArtifactId}
-version:                ${versionmask;===;${version_cleanup;${mvnVersion}}}
-base-suffix             ${replacestring;${mvnArtifactId};-;.}
-suffix                  ${replacestring;${base-suffix};lite;schemas}
-name:                   org.apache.${suffix}
-Bundle-SymbolicName:    ${name}
-Bundle-Version:         ${version}.v20251201-1000
-Automatic-Module-Name:  ${name}
-Eclipse-Wrapped-Bundle: ${mvnGroupId}:${mvnArtifactId}:${mvnVersion}
-Import-Package:         de.rototor.pdfbox*|org.bouncycastle*|org.apache.pdfbox*|org.apache.xmlgraphics*|org.apache.jcp*|org.apache.xml.security*;resolution:=optional,\
-                        com.microsoft.schemas*|org.openxmlformats.schemas*;resolution:=optional,\
-                        *
-Export-Package:         *;version="${version}"
-Eclipse-BuddyPolicy:    registered
-Eclipse-RegisterBuddy:  org.apache.poi
--noextraheaders:        true
--removeheaders:         Private-Package
-]]>
-      </instructions>
-    </location>
-
-<!-- _____________________________________________________ org.apache.poi.6x ___________________________________________________________________________________________________-->
-
-    <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
-      <feature id="org.eclipse.orbit.maven.org.apache.poi.6x" label="Orbit Maven BND org.apache.poi 6x" provider-name="Eclipse Orbit" version="4.42.0.v20261023-1000">
+      <feature id="org.eclipse.orbit.maven.org.apache.poi" label="Orbit Maven BND org.apache.poi" provider-name="Eclipse Orbit" version="4.42.0.v20261023-1400">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
 Copyright (c) 2026 Eclipse contributors and others.
