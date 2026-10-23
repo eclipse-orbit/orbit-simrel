@@ -1,15 +1,8 @@
 # Target Platform: [supplement](https://raw.githubusercontent.com/eclipse-orbit/orbit-simrel/main/maven-osgi/tp/other/MavenSupplement.target)
 
-## Minor Updates
- - [com.ibm.icu](https://repo.maven.apache.org/maven2/com/ibm/icu/)
-    - [icu4j](https://repo.maven.apache.org/maven2/com/ibm/icu/icu4j/) **[78.3](https://repo.maven.apache.org/maven2/com/ibm/icu/icu4j/78.3)** < [79.1](https://repo.maven.apache.org/maven2/com/ibm/icu/icu4j/79.1/)
-
 ## Major Updates
  - [org.apache.tika](https://repo.maven.apache.org/maven2/org/apache/tika/)
     - [tika-core](https://repo.maven.apache.org/maven2/org/apache/tika/tika-core/) **[3.3.3](https://repo.maven.apache.org/maven2/org/apache/tika/tika-core/3.3.3)** < [4.1.0](https://repo.maven.apache.org/maven2/org/apache/tika/tika-core/4.1.0/)
-
-## Updates Applied
-[updated.target](updated.target)
 
 ## Content
  - [ch.qos.logback](https://repo.maven.apache.org/maven2/ch/qos/logback/)
@@ -69,7 +62,7 @@
  - [com.h2database](https://repo.maven.apache.org/maven2/com/h2database/)
     - [h2](https://repo.maven.apache.org/maven2/com/h2database/h2/) **[2.5.252](https://repo.maven.apache.org/maven2/com/h2database/h2/2.5.252)**
  - [com.ibm.icu](https://repo.maven.apache.org/maven2/com/ibm/icu/)
-    - [icu4j](https://repo.maven.apache.org/maven2/com/ibm/icu/icu4j/) **[78.3](https://repo.maven.apache.org/maven2/com/ibm/icu/icu4j/78.3)**
+    - [icu4j](https://repo.maven.apache.org/maven2/com/ibm/icu/icu4j/) **[79.1](https://repo.maven.apache.org/maven2/com/ibm/icu/icu4j/79.1)**
  - [com.networknt](https://repo.maven.apache.org/maven2/com/networknt/)
     - [json-schema-validator](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/) **[1.5.9](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/1.5.9)**
     - [json-schema-validator](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/) **[2.0.8](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/2.0.8)**
