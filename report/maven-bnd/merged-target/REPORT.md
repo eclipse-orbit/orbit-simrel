@@ -4,8 +4,8 @@
  - [aopalliance](https://repo.maven.apache.org/maven2/aopalliance/)
     - [aopalliance](https://repo.maven.apache.org/maven2/aopalliance/aopalliance/) **[1.0](https://repo.maven.apache.org/maven2/aopalliance/aopalliance/1.0)**
  - [com.aayushatharva.brotli4j](https://repo.maven.apache.org/maven2/com/aayushatharva/brotli4j/)
-    - [brotli4j](https://repo.maven.apache.org/maven2/com/aayushatharva/brotli4j/brotli4j/) **[1.23.0](https://repo.maven.apache.org/maven2/com/aayushatharva/brotli4j/brotli4j/1.23.0)**
-    - [service](https://repo.maven.apache.org/maven2/com/aayushatharva/brotli4j/service/) **[1.23.0](https://repo.maven.apache.org/maven2/com/aayushatharva/brotli4j/service/1.23.0)**
+    - [brotli4j](https://repo.maven.apache.org/maven2/com/aayushatharva/brotli4j/brotli4j/) **[1.24.0](https://repo.maven.apache.org/maven2/com/aayushatharva/brotli4j/brotli4j/1.24.0)**
+    - [service](https://repo.maven.apache.org/maven2/com/aayushatharva/brotli4j/service/) **[1.24.0](https://repo.maven.apache.org/maven2/com/aayushatharva/brotli4j/service/1.24.0)**
  - [com.github.jnr](https://repo.maven.apache.org/maven2/com/github/jnr/)
     - [jnr-a64asm](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-a64asm/) **[1.0.0](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-a64asm/1.0.0)**
     - [jnr-x86asm](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-x86asm/) **[1.0.2](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-x86asm/1.0.2)**
@@ -88,7 +88,7 @@
     - [fop-util](https://repo.maven.apache.org/maven2/org/apache/xmlgraphics/fop-util/) **[2.12](https://repo.maven.apache.org/maven2/org/apache/xmlgraphics/fop-util/2.12)**
     - [xmlgraphics-commons](https://repo.maven.apache.org/maven2/org/apache/xmlgraphics/xmlgraphics-commons/) **[2.12](https://repo.maven.apache.org/maven2/org/apache/xmlgraphics/xmlgraphics-commons/2.12)**
  - [org.cyclonedx](https://repo.maven.apache.org/maven2/org/cyclonedx/)
-    - [cyclonedx-core-java](https://repo.maven.apache.org/maven2/org/cyclonedx/cyclonedx-core-java/) **[13.3.0](https://repo.maven.apache.org/maven2/org/cyclonedx/cyclonedx-core-java/13.3.0)**
+    - [cyclonedx-core-java](https://repo.maven.apache.org/maven2/org/cyclonedx/cyclonedx-core-java/) **[13.4.0](https://repo.maven.apache.org/maven2/org/cyclonedx/cyclonedx-core-java/13.4.0)**
  - [org.dom4j](https://repo.maven.apache.org/maven2/org/dom4j/)
     - [dom4j](https://repo.maven.apache.org/maven2/org/dom4j/dom4j/) **[2.2.0](https://repo.maven.apache.org/maven2/org/dom4j/dom4j/2.2.0)**
  - [org.eclipse.orbit](https://repo.eclipse.org/service/rest/repository/browse/orbit-maven2-approved-artifacts/org/eclipse/orbit/)

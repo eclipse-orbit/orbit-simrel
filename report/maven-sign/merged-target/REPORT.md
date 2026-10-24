@@ -2,15 +2,15 @@
 
 ## Content
  - [com.aayushatharva.brotli4j](https://repo.maven.apache.org/maven2/com/aayushatharva/brotli4j/)
-    - [native-linux-aarch64](https://repo.maven.apache.org/maven2/com/aayushatharva/brotli4j/native-linux-aarch64/) **[1.23.0](https://repo.maven.apache.org/maven2/com/aayushatharva/brotli4j/native-linux-aarch64/1.23.0)**
-    - [native-linux-ppc64le](https://repo.maven.apache.org/maven2/com/aayushatharva/brotli4j/native-linux-ppc64le/) **[1.23.0](https://repo.maven.apache.org/maven2/com/aayushatharva/brotli4j/native-linux-ppc64le/1.23.0)**
-    - [native-linux-riscv64](https://repo.maven.apache.org/maven2/com/aayushatharva/brotli4j/native-linux-riscv64/) **[1.23.0](https://repo.maven.apache.org/maven2/com/aayushatharva/brotli4j/native-linux-riscv64/1.23.0)**
-    - [native-linux-s390x](https://repo.maven.apache.org/maven2/com/aayushatharva/brotli4j/native-linux-s390x/) **[1.23.0](https://repo.maven.apache.org/maven2/com/aayushatharva/brotli4j/native-linux-s390x/1.23.0)**
-    - [native-linux-x86_64](https://repo.maven.apache.org/maven2/com/aayushatharva/brotli4j/native-linux-x86_64/) **[1.23.0](https://repo.maven.apache.org/maven2/com/aayushatharva/brotli4j/native-linux-x86_64/1.23.0)**
-    - [native-osx-aarch64](https://repo.maven.apache.org/maven2/com/aayushatharva/brotli4j/native-osx-aarch64/) **[1.23.0](https://repo.maven.apache.org/maven2/com/aayushatharva/brotli4j/native-osx-aarch64/1.23.0)**
-    - [native-osx-x86_64](https://repo.maven.apache.org/maven2/com/aayushatharva/brotli4j/native-osx-x86_64/) **[1.23.0](https://repo.maven.apache.org/maven2/com/aayushatharva/brotli4j/native-osx-x86_64/1.23.0)**
-    - [native-windows-aarch64](https://repo.maven.apache.org/maven2/com/aayushatharva/brotli4j/native-windows-aarch64/) **[1.23.0](https://repo.maven.apache.org/maven2/com/aayushatharva/brotli4j/native-windows-aarch64/1.23.0)**
-    - [native-windows-x86_64](https://repo.maven.apache.org/maven2/com/aayushatharva/brotli4j/native-windows-x86_64/) **[1.23.0](https://repo.maven.apache.org/maven2/com/aayushatharva/brotli4j/native-windows-x86_64/1.23.0)**
+    - [native-linux-aarch64](https://repo.maven.apache.org/maven2/com/aayushatharva/brotli4j/native-linux-aarch64/) **[1.24.0](https://repo.maven.apache.org/maven2/com/aayushatharva/brotli4j/native-linux-aarch64/1.24.0)**
+    - [native-linux-ppc64le](https://repo.maven.apache.org/maven2/com/aayushatharva/brotli4j/native-linux-ppc64le/) **[1.24.0](https://repo.maven.apache.org/maven2/com/aayushatharva/brotli4j/native-linux-ppc64le/1.24.0)**
+    - [native-linux-riscv64](https://repo.maven.apache.org/maven2/com/aayushatharva/brotli4j/native-linux-riscv64/) **[1.24.0](https://repo.maven.apache.org/maven2/com/aayushatharva/brotli4j/native-linux-riscv64/1.24.0)**
+    - [native-linux-s390x](https://repo.maven.apache.org/maven2/com/aayushatharva/brotli4j/native-linux-s390x/) **[1.24.0](https://repo.maven.apache.org/maven2/com/aayushatharva/brotli4j/native-linux-s390x/1.24.0)**
+    - [native-linux-x86_64](https://repo.maven.apache.org/maven2/com/aayushatharva/brotli4j/native-linux-x86_64/) **[1.24.0](https://repo.maven.apache.org/maven2/com/aayushatharva/brotli4j/native-linux-x86_64/1.24.0)**
+    - [native-osx-aarch64](https://repo.maven.apache.org/maven2/com/aayushatharva/brotli4j/native-osx-aarch64/) **[1.24.0](https://repo.maven.apache.org/maven2/com/aayushatharva/brotli4j/native-osx-aarch64/1.24.0)**
+    - [native-osx-x86_64](https://repo.maven.apache.org/maven2/com/aayushatharva/brotli4j/native-osx-x86_64/) **[1.24.0](https://repo.maven.apache.org/maven2/com/aayushatharva/brotli4j/native-osx-x86_64/1.24.0)**
+    - [native-windows-aarch64](https://repo.maven.apache.org/maven2/com/aayushatharva/brotli4j/native-windows-aarch64/) **[1.24.0](https://repo.maven.apache.org/maven2/com/aayushatharva/brotli4j/native-windows-aarch64/1.24.0)**
+    - [native-windows-x86_64](https://repo.maven.apache.org/maven2/com/aayushatharva/brotli4j/native-windows-x86_64/) **[1.24.0](https://repo.maven.apache.org/maven2/com/aayushatharva/brotli4j/native-windows-x86_64/1.24.0)**
  - [com.github.jnr](https://repo.maven.apache.org/maven2/com/github/jnr/)
     - [jffi](https://repo.maven.apache.org/maven2/com/github/jnr/jffi/) **[1.4.3](https://repo.maven.apache.org/maven2/com/github/jnr/jffi/1.4.3)** - *native*
  - [io.github.humbleui](https://repo.maven.apache.org/maven2/io/github/humbleui/)

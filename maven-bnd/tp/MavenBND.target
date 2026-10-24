@@ -233,7 +233,7 @@ Export-Package:         *;version="${version}";-noimport:=true
 <!-- _______________________________________________________ com.aayushatharva.brotli4j _________________________________________________________________________________________________-->
 
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
-      <feature id="com.aayushatharva.brotli4j" label="Orbit Maven BND com.aayushatharva.brotli4j" provider-name="Eclipse Orbit" version="4.42.0">
+      <feature id="com.aayushatharva.brotli4j" label="Orbit Maven BND com.aayushatharva.brotli4j" provider-name="Eclipse Orbit" version="4.42.0.v20261024-1000">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
 Copyright (c) 2026 Eclipse contributors and others.
@@ -251,23 +251,23 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>com.aayushatharva.brotli4j</groupId>
           <artifactId>brotli4j</artifactId>
-          <version>1.23.0</version>
+          <version>1.24.0</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>com.aayushatharva.brotli4j</groupId>
           <artifactId>service</artifactId>
-          <version>1.23.0</version>
+          <version>1.24.0</version>
           <type>jar</type>
         </dependency>
       </dependencies>
       <instructions>
-<!-- SHA1 6d256e7d19281a2f468781951fb2e790d2a7d36f -->
+<!-- SHA1 a2cca26a49e44c5f6503d64fb4931600165d07ab -->
 <![CDATA[
 Bundle-Name:            Bundle ${mvnGroupId} : ${mvnArtifactId}
 version:                ${versionmask;===;${version_cleanup;${mvnVersion}}}
 Bundle-SymbolicName:    ${mvnGroupId}.${mvnArtifactId}
-Bundle-Version:         ${version}.v20260610-1000
+Bundle-Version:         ${version}.v20261024-1000
 Eclipse-Wrapped-Bundle: ${mvnGroupId}:${mvnArtifactId}:${mvnVersion}
 Require-Capability:     ${mvnGroupId};resolution:=optional;filter:="(library=native)"
 Import-Package:         io.netty.*;resolution:=optional,\
@@ -2180,7 +2180,7 @@ Export-Package:         !*swing,\
 <!-- _____________________________________________________ org.cyclonedx for sbom ___________________________________________________________________________________________________-->
 
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
-      <feature id="org.eclipse.orbit.maven.org.cyclonedx" label="Orbit Maven BND org.cyclonedx" provider-name="Eclipse Orbit" version="4.42.0.v20261018-1000">
+      <feature id="org.eclipse.orbit.maven.org.cyclonedx" label="Orbit Maven BND org.cyclonedx" provider-name="Eclipse Orbit" version="4.42.0.v20261024-1000">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
 Copyright (c) 2026 Eclipse contributors and others.
@@ -2198,18 +2198,18 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>org.cyclonedx</groupId>
           <artifactId>cyclonedx-core-java</artifactId>
-          <version>13.3.0</version>
+          <version>13.4.0</version>
           <type>jar</type>
         </dependency>
       </dependencies>
       <instructions>
-<!-- SHA1 49c9d727fcef57e4397d5218b7030fda6a3855d1 -->
+<!-- SHA1 bfd8b9ed9e9e40013acff1daefb607d095bfa2a3 -->
 <![CDATA[
 Bundle-Name:            Bundle ${mvnGroupId} : ${mvnArtifactId}
 version:                ${versionmask;===;${version_cleanup;${mvnVersion}}}
 bsn:                    ${mvnGroupId}.${replacestring;${mvnArtifactId};cyclonedx-}
 Bundle-SymbolicName:    ${bsn}
-Bundle-Version:         ${version}.v20261018-1000
+Bundle-Version:         ${version}.v20261024-1000
 Automatic-Module-Name:  ${bsn}
 Eclipse-Wrapped-Bundle: ${mvnGroupId}:${mvnArtifactId}:${mvnVersion}
 Import-Package:         *

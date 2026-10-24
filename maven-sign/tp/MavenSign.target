@@ -161,7 +161,7 @@ Eclipse-PlatformFilter: (|(&(osgi.os=${os})(osgi.arch=${arch}))(org.eclipse.orbi
  <!-- _______________________________________________________ com.aayushatharva.brotli4j-native _________________________________________________________________________________________________-->
 
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
-      <feature id="com.aayushatharva.brotli4j-native" label="Orbit Maven BND com.aayushatharva.brotli4j-native" provider-name="Eclipse Orbit" version="4.42.0">
+      <feature id="com.aayushatharva.brotli4j-native" label="Orbit Maven BND com.aayushatharva.brotli4j-native" provider-name="Eclipse Orbit" version="4.42.0.v20261024-1000">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
 Copyright (c) 2026 Eclipse contributors and others.
@@ -179,66 +179,66 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>com.aayushatharva.brotli4j</groupId>
           <artifactId>native-linux-aarch64</artifactId>
-          <version>1.23.0</version>
+          <version>1.24.0</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>com.aayushatharva.brotli4j</groupId>
           <artifactId>native-linux-x86_64</artifactId>
-          <version>1.23.0</version>
+          <version>1.24.0</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>com.aayushatharva.brotli4j</groupId>
           <artifactId>native-linux-s390x</artifactId>
-          <version>1.23.0</version>
+          <version>1.24.0</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>com.aayushatharva.brotli4j</groupId>
           <artifactId>native-linux-riscv64</artifactId>
-          <version>1.23.0</version>
+          <version>1.24.0</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>com.aayushatharva.brotli4j</groupId>
           <artifactId>native-linux-ppc64le</artifactId>
-          <version>1.23.0</version>
+          <version>1.24.0</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>com.aayushatharva.brotli4j</groupId>
           <artifactId>native-osx-x86_64</artifactId>
-          <version>1.23.0</version>
+          <version>1.24.0</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>com.aayushatharva.brotli4j</groupId>
           <artifactId>native-osx-aarch64</artifactId>
-          <version>1.23.0</version>
+          <version>1.24.0</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>com.aayushatharva.brotli4j</groupId>
           <artifactId>native-windows-aarch64</artifactId>
-          <version>1.23.0</version>
+          <version>1.24.0</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>com.aayushatharva.brotli4j</groupId>
           <artifactId>native-windows-x86_64</artifactId>
-          <version>1.23.0</version>
+          <version>1.24.0</version>
           <type>jar</type>
         </dependency>
       </dependencies>
       <instructions>
-<!-- SHA1 e02aed0e32146d987a9d7bbc5f232b07b4e01a05 -->
+<!-- SHA1 f87b7ded21ac13b6e9bc91c969e277fc7c717f7b -->
 <![CDATA[
 # These instructions are actually used.
 version:                ${versionmask;===;${version_cleanup;${mvnVersion}}}
 # Bundles that match this pattern will be updated to use this qualifier.
 # bundle-pattern:       com.aayushatharva.brotli4j.native-(linux|osx|windows)-(x86_64|aarch64|ppc64le|riscv64|s390x)(.source)?
-Bundle-Version:         ${version}.v20260526-1000
+Bundle-Version:         ${version}.v20261024-1000
 Bundle-Name:            Bundle ${mvnGroupId} : ${mvnArtifactId}
 Bundle-SymbolicName:    ${mvnGroupId}.${mvnArtifactId}
 Eclipse-Wrapped-Bundle: ${mvnGroupId}:${mvnArtifactId}:${mvnVersion}
@@ -379,7 +379,7 @@ Export-Package:         *;version="${version}";-noimport:=true
 <!-- _______________________________________________________ com.aayushatharva.brotli4j _________________________________________________________________________________________________-->
 
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
-      <feature id="com.aayushatharva.brotli4j.exclude" label="Orbit Maven BND com.aayushatharva.brotli4j.exclude" provider-name="Eclipse Orbit" version="4.42.0">
+      <feature id="com.aayushatharva.brotli4j.exclude" label="Orbit Maven BND com.aayushatharva.brotli4j.exclude" provider-name="Eclipse Orbit" version="4.42.0.v20261024-1000">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
 Copyright (c) 2026 Eclipse contributors and others.
@@ -397,23 +397,23 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>com.aayushatharva.brotli4j</groupId>
           <artifactId>brotli4j</artifactId>
-          <version>1.23.0</version>
+          <version>1.24.0</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>com.aayushatharva.brotli4j</groupId>
           <artifactId>service</artifactId>
-          <version>1.23.0</version>
+          <version>1.24.0</version>
           <type>jar</type>
         </dependency>
       </dependencies>
       <instructions>
-<!-- SHA1 9b7051b723659f4e3c73269840e0bc3ad353c482 -->
+<!-- SHA1 5111edd902e8a162b6fac1942818b68840b33f02 -->
 <![CDATA[
 Bundle-Name:            Bundle ${mvnGroupId} : ${mvnArtifactId}
 version:                ${versionmask;===;${version_cleanup;${mvnVersion}}}
 Bundle-SymbolicName:    ${mvnGroupId}.${mvnArtifactId}
-Bundle-Version:         ${version}.v20260526-1000
+Bundle-Version:         ${version}.v20261024-1000
 Eclipse-Wrapped-Bundle: ${mvnGroupId}:${mvnArtifactId}:${mvnVersion}
 Require-Capability:     ${mvnGroupId};filter:="(library=native)"
 Import-Package:         io.netty.*;resolution:=optional,\
