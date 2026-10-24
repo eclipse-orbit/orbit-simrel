@@ -1,6 +1,8 @@
 # Target Platform: [jgit](https://raw.githubusercontent.com/eclipse-jgit/jgit/master/org.eclipse.jgit.packaging/org.eclipse.jgit.target/maven/dependencies.tpd)
 
 ## Minor Updates
+ - [com.google.code.gson](https://repo.maven.apache.org/maven2/com/google/code/gson/)
+    - [gson](https://repo.maven.apache.org/maven2/com/google/code/gson/gson/) **[2.14.0](https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.14.0)** < [2.15.0](https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.15.0/)
  - [net.bytebuddy](https://repo.maven.apache.org/maven2/net/bytebuddy/)
     - [byte-buddy](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/) **[1.18.15](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.18.15)** < [1.18.16](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.18.16/)
     - [byte-buddy-agent](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/) **[1.18.15](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.18.15)** < [1.18.16](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.18.16/)
