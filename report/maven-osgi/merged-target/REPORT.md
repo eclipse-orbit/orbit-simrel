@@ -134,7 +134,7 @@
  - [commons-net](https://repo.maven.apache.org/maven2/commons-net/)
     - [commons-net](https://repo.maven.apache.org/maven2/commons-net/commons-net/) **[3.13.0](https://repo.maven.apache.org/maven2/commons-net/commons-net/3.13.0)**
  - [dnsjava](https://repo.maven.apache.org/maven2/dnsjava/)
-    - [dnsjava](https://repo.maven.apache.org/maven2/dnsjava/dnsjava/) **[3.6.5](https://repo.maven.apache.org/maven2/dnsjava/dnsjava/3.6.5)**
+    - [dnsjava](https://repo.maven.apache.org/maven2/dnsjava/dnsjava/) **[3.7.0](https://repo.maven.apache.org/maven2/dnsjava/dnsjava/3.7.0)**
  - [io.github.classgraph](https://repo.maven.apache.org/maven2/io/github/classgraph/)
     - [classgraph](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph/) **[4.8.199](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph/4.8.199)**
     - [classgraph](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph/) **[5.0.0](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph/5.0.0)**
