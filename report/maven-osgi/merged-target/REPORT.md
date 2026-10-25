@@ -18,8 +18,8 @@
     - [biz.aQute.tester](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.tester/) **[7.4.0](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.tester/7.4.0)**
     - [biz.aQute.tester.junit-platform](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.tester.junit-platform/) **[7.4.0](https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.tester.junit-platform/7.4.0)**
  - [ch.qos.logback](https://repo.maven.apache.org/maven2/ch/qos/logback/)
-    - [logback-classic](https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/) **[1.6.5](https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/1.6.5)**
-    - [logback-core](https://repo.maven.apache.org/maven2/ch/qos/logback/logback-core/) **[1.6.5](https://repo.maven.apache.org/maven2/ch/qos/logback/logback-core/1.6.5)**
+    - [logback-classic](https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/) **[1.6.6](https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/1.6.6)**
+    - [logback-core](https://repo.maven.apache.org/maven2/ch/qos/logback/logback-core/) **[1.6.6](https://repo.maven.apache.org/maven2/ch/qos/logback/logback-core/1.6.6)**
  - [ch.qos.reload4j](https://repo.maven.apache.org/maven2/ch/qos/reload4j/)
     - [reload4j](https://repo.maven.apache.org/maven2/ch/qos/reload4j/reload4j/) **[1.2.27](https://repo.maven.apache.org/maven2/ch/qos/reload4j/reload4j/1.2.27)**
  - [com.ethlo.time](https://repo.maven.apache.org/maven2/com/ethlo/time/)
