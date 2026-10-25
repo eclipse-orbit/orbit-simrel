@@ -103,12 +103,6 @@
         <dependency>
           <groupId>com.fasterxml.woodstox</groupId>
           <artifactId>woodstox-core</artifactId>
-          <version>6.7.0</version>
-          <type>jar</type>
-        </dependency>
-        <dependency>
-          <groupId>com.fasterxml.woodstox</groupId>
-          <artifactId>woodstox-core</artifactId>
           <version>7.3.0</version>
           <type>jar</type>
         </dependency>
@@ -218,12 +212,6 @@
           <groupId>com.ibm.icu</groupId>
           <artifactId>icu4j</artifactId>
           <version>79.1</version>
-          <type>jar</type>
-        </dependency>
-        <dependency>
-          <groupId>com.networknt</groupId>
-          <artifactId>json-schema-validator</artifactId>
-          <version>1.5.9</version>
           <type>jar</type>
         </dependency>
         <dependency>
