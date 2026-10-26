@@ -110,7 +110,6 @@
     - [imageio-psd](https://repo.maven.apache.org/maven2/com/twelvemonkeys/imageio/imageio-psd/) **[3.15.3](https://repo.maven.apache.org/maven2/com/twelvemonkeys/imageio/imageio-psd/3.15.3)**
     - [imageio-webp](https://repo.maven.apache.org/maven2/com/twelvemonkeys/imageio/imageio-webp/) **[3.15.3](https://repo.maven.apache.org/maven2/com/twelvemonkeys/imageio/imageio-webp/3.15.3)**
  - [com.vegardit.no-npe](https://repo.maven.apache.org/maven2/com/vegardit/no-npe/)
-    - [no-npe-eea-all](https://repo.maven.apache.org/maven2/com/vegardit/no-npe/no-npe-eea-all/) **[1.3.14](https://repo.maven.apache.org/maven2/com/vegardit/no-npe/no-npe-eea-all/1.3.14)**
     - [no-npe-eea-all](https://repo.maven.apache.org/maven2/com/vegardit/no-npe/no-npe-eea-all/) **[2.0.1](https://repo.maven.apache.org/maven2/com/vegardit/no-npe/no-npe-eea-all/2.0.1)**
  - [commons-beanutils](https://repo.maven.apache.org/maven2/commons-beanutils/)
     - [commons-beanutils](https://repo.maven.apache.org/maven2/commons-beanutils/commons-beanutils/) **[1.11.0](https://repo.maven.apache.org/maven2/commons-beanutils/commons-beanutils/1.11.0)**
