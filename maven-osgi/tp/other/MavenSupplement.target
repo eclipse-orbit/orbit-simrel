@@ -343,12 +343,6 @@
         <dependency>
           <groupId>io.github.classgraph</groupId>
           <artifactId>classgraph</artifactId>
-          <version>4.8.199</version>
-          <type>jar</type>
-        </dependency>
-        <dependency>
-          <groupId>io.github.classgraph</groupId>
-          <artifactId>classgraph</artifactId>
           <version>5.0.0</version>
           <type>jar</type>
         </dependency>

@@ -136,7 +136,6 @@
  - [dnsjava](https://repo.maven.apache.org/maven2/dnsjava/)
     - [dnsjava](https://repo.maven.apache.org/maven2/dnsjava/dnsjava/) **[3.7.0](https://repo.maven.apache.org/maven2/dnsjava/dnsjava/3.7.0)**
  - [io.github.classgraph](https://repo.maven.apache.org/maven2/io/github/classgraph/)
-    - [classgraph](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph/) **[4.8.199](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph/4.8.199)**
     - [classgraph](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph/) **[5.0.0](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph/5.0.0)**
     - [classgraph](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph/) **[6.0.0](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph/6.0.0)**
     - [classgraph-base](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph-base/) **[5.0.0](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph-base/5.0.0)**
