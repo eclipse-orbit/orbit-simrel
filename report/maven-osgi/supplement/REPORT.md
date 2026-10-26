@@ -33,10 +33,10 @@
  - [com.github.ben-manes.caffeine](https://repo.maven.apache.org/maven2/com/github/ben-manes/caffeine/)
     - [caffeine](https://repo.maven.apache.org/maven2/com/github/ben-manes/caffeine/caffeine/) **[3.3.1](https://repo.maven.apache.org/maven2/com/github/ben-manes/caffeine/caffeine/3.3.1)**
  - [com.github.jnr](https://repo.maven.apache.org/maven2/com/github/jnr/)
-    - [jnr-enxio](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-enxio/) **[0.33.3](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-enxio/0.33.3)**
-    - [jnr-ffi](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-ffi/) **[2.3.3](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-ffi/2.3.3)**
-    - [jnr-posix](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-posix/) **[3.2.4](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-posix/3.2.4)**
-    - [jnr-unixsocket](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-unixsocket/) **[0.39.5](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-unixsocket/0.39.5)**
+    - [jnr-enxio](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-enxio/) **[0.33.4](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-enxio/0.33.4)**
+    - [jnr-ffi](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-ffi/) **[2.3.4](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-ffi/2.3.4)**
+    - [jnr-posix](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-posix/) **[3.2.5](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-posix/3.2.5)**
+    - [jnr-unixsocket](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-unixsocket/) **[0.39.6](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-unixsocket/0.39.6)**
  - [com.github.librepdf](https://repo.maven.apache.org/maven2/com/github/librepdf/)
     - [openpdf](https://repo.maven.apache.org/maven2/com/github/librepdf/openpdf/) **[3.0.5](https://repo.maven.apache.org/maven2/com/github/librepdf/openpdf/3.0.5)**
  - [com.github.mwiede](https://repo.maven.apache.org/maven2/com/github/mwiede/)
@@ -269,9 +269,9 @@
     - [hamcrest](https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest/) **[2.2](https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest/2.2)**
     - [hamcrest](https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest/) **[3.0](https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest/3.0)**
  - [org.jacoco](https://repo.maven.apache.org/maven2/org/jacoco/)
-    - [org.jacoco.agent](https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.agent/) **[0.8.15](https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.agent/0.8.15)**
-    - [org.jacoco.core](https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.core/) **[0.8.15](https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.core/0.8.15)**
-    - [org.jacoco.report](https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.report/) **[0.8.15](https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.report/0.8.15)**
+    - [org.jacoco.agent](https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.agent/) **[0.8.16](https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.agent/0.8.16)**
+    - [org.jacoco.core](https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.core/) **[0.8.16](https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.core/0.8.16)**
+    - [org.jacoco.report](https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.report/) **[0.8.16](https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.report/0.8.16)**
  - [org.json](https://repo.maven.apache.org/maven2/org/json/)
     - [json](https://repo.maven.apache.org/maven2/org/json/json/) **[20260814](https://repo.maven.apache.org/maven2/org/json/json/20260814)**
  - [org.mandas](https://repo.maven.apache.org/maven2/org/mandas/)

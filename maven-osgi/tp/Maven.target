@@ -3,7 +3,7 @@
 <target name="Maven" sequenceNumber="1">
   <locations>
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="error" type="Maven">
-      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.42.0.v20261026-1200">
+      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.42.0.v20261026-1000">
         <description>This feature's dependencies are pulled directly from Maven central.</description>
         <copyright>
 Copyright (c) 2026 Eclipse contributors and others.
@@ -16,7 +16,7 @@ https://www.eclipse.org/legal/epl-2.0/
 SPDX-License-Identifier: EPL-2.0
         </copyright>
         <license url="https://www.eclipse.org/legal/epl-2.0/"/>
-        <!-- SHA1 c80d73675d77d50bd8d6cdd4d9ab125384c2fcda -->
+        <!-- SHA1 1c199b85eb698b6057196f225041a932b100b852 -->
       </feature>
       <dependencies>
         <dependency>
@@ -227,25 +227,25 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>com.github.jnr</groupId>
           <artifactId>jnr-enxio</artifactId>
-          <version>0.33.3</version>
+          <version>0.33.4</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>com.github.jnr</groupId>
           <artifactId>jnr-ffi</artifactId>
-          <version>2.3.3</version>
+          <version>2.3.4</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>com.github.jnr</groupId>
           <artifactId>jnr-posix</artifactId>
-          <version>3.2.4</version>
+          <version>3.2.5</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>com.github.jnr</groupId>
           <artifactId>jnr-unixsocket</artifactId>
-          <version>0.39.5</version>
+          <version>0.39.6</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -1499,19 +1499,19 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>org.jacoco</groupId>
           <artifactId>org.jacoco.agent</artifactId>
-          <version>0.8.15</version>
+          <version>0.8.16</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.jacoco</groupId>
           <artifactId>org.jacoco.core</artifactId>
-          <version>0.8.15</version>
+          <version>0.8.16</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.jacoco</groupId>
           <artifactId>org.jacoco.report</artifactId>
-          <version>0.8.15</version>
+          <version>0.8.16</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -2039,31 +2039,31 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>org.ow2.asm</groupId>
           <artifactId>asm</artifactId>
-          <version>9.10.1</version>
+          <version>9.11.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.ow2.asm</groupId>
           <artifactId>asm-analysis</artifactId>
-          <version>9.10.1</version>
+          <version>9.11.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.ow2.asm</groupId>
           <artifactId>asm-commons</artifactId>
-          <version>9.10.1</version>
+          <version>9.11.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.ow2.asm</groupId>
           <artifactId>asm-tree</artifactId>
-          <version>9.10.1</version>
+          <version>9.11.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.ow2.asm</groupId>
           <artifactId>asm-util</artifactId>
-          <version>9.10.1</version>
+          <version>9.11.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
