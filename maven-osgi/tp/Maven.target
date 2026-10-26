@@ -3,7 +3,7 @@
 <target name="Maven" sequenceNumber="1">
   <locations>
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="error" type="Maven">
-      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.42.0.v20261025-1200">
+      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.42.0.v20261026-1000">
         <description>This feature's dependencies are pulled directly from Maven central.</description>
         <copyright>
 Copyright (c) 2026 Eclipse contributors and others.
@@ -16,7 +16,7 @@ https://www.eclipse.org/legal/epl-2.0/
 SPDX-License-Identifier: EPL-2.0
         </copyright>
         <license url="https://www.eclipse.org/legal/epl-2.0/"/>
-        <!-- SHA1 1c4c45fd0c70ee9a90abb15856958ff15a4ad40e -->
+        <!-- SHA1 ba2c50e1e3adc06e69378721e5b5442b2b285748 -->
       </feature>
       <dependencies>
         <dependency>
@@ -1068,24 +1068,6 @@ SPDX-License-Identifier: EPL-2.0
           <groupId>org.apache.felix</groupId>
           <artifactId>org.apache.felix.gogo.shell</artifactId>
           <version>1.1.4</version>
-          <type>jar</type>
-        </dependency>
-        <dependency>
-          <groupId>org.apache.felix</groupId>
-          <artifactId>org.apache.felix.http.servlet-api</artifactId>
-          <version>1.2.0</version>
-          <type>jar</type>
-        </dependency>
-        <dependency>
-          <groupId>org.apache.felix</groupId>
-          <artifactId>org.apache.felix.http.servlet-api</artifactId>
-          <version>2.1.0</version>
-          <type>jar</type>
-        </dependency>
-        <dependency>
-          <groupId>org.apache.felix</groupId>
-          <artifactId>org.apache.felix.http.servlet-api</artifactId>
-          <version>3.0.0</version>
           <type>jar</type>
         </dependency>
         <dependency>
