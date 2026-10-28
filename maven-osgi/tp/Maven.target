@@ -3,7 +3,7 @@
 <target name="Maven" sequenceNumber="1">
   <locations>
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="error" type="Maven">
-      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.42.0.v20261026-1200">
+      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.42.0.v20261028-1000">
         <description>This feature's dependencies are pulled directly from Maven central.</description>
         <copyright>
 Copyright (c) 2026 Eclipse contributors and others.
@@ -16,7 +16,7 @@ https://www.eclipse.org/legal/epl-2.0/
 SPDX-License-Identifier: EPL-2.0
         </copyright>
         <license url="https://www.eclipse.org/legal/epl-2.0/"/>
-        <!-- SHA1 bb572c86c128a7d63120383858232d9cc9bbb7c9 -->
+        <!-- SHA1 f1b3fc659e4bba3382e827954161afcf03be9d13 -->
       </feature>
       <dependencies>
         <dependency>
@@ -527,61 +527,61 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>io.github.classgraph</groupId>
           <artifactId>classgraph</artifactId>
-          <version>5.0.0</version>
+          <version>5.0.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>io.github.classgraph</groupId>
           <artifactId>classgraph</artifactId>
-          <version>6.0.0</version>
+          <version>6.0.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>io.github.classgraph</groupId>
           <artifactId>classgraph-base</artifactId>
-          <version>5.0.0</version>
+          <version>5.0.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>io.github.classgraph</groupId>
           <artifactId>classgraph-base</artifactId>
-          <version>6.0.0</version>
+          <version>6.0.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>io.github.classgraph</groupId>
           <artifactId>classgraph-classpath</artifactId>
-          <version>5.0.0</version>
+          <version>5.0.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>io.github.classgraph</groupId>
           <artifactId>classgraph-classpath</artifactId>
-          <version>6.0.0</version>
+          <version>6.0.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>io.github.classgraph</groupId>
           <artifactId>classgraph-vfs</artifactId>
-          <version>5.0.0</version>
+          <version>5.0.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>io.github.classgraph</groupId>
           <artifactId>classgraph-vfs</artifactId>
-          <version>6.0.0</version>
+          <version>6.0.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>io.github.classgraph</groupId>
           <artifactId>classgraph-viz</artifactId>
-          <version>5.0.0</version>
+          <version>5.0.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>io.github.classgraph</groupId>
           <artifactId>classgraph-viz</artifactId>
-          <version>6.0.0</version>
+          <version>6.0.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -1679,19 +1679,19 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>org.mongodb</groupId>
           <artifactId>bson</artifactId>
-          <version>5.13.0</version>
+          <version>5.14.0</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.mongodb</groupId>
           <artifactId>mongodb-driver-core</artifactId>
-          <version>5.13.0</version>
+          <version>5.14.0</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.mongodb</groupId>
           <artifactId>mongodb-driver-sync</artifactId>
-          <version>5.13.0</version>
+          <version>5.14.0</version>
           <type>jar</type>
         </dependency>
         <dependency>

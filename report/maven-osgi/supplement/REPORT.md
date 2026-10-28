@@ -94,16 +94,16 @@
  - [dnsjava](https://repo.maven.apache.org/maven2/dnsjava/)
     - [dnsjava](https://repo.maven.apache.org/maven2/dnsjava/dnsjava/) **[3.7.0](https://repo.maven.apache.org/maven2/dnsjava/dnsjava/3.7.0)**
  - [io.github.classgraph](https://repo.maven.apache.org/maven2/io/github/classgraph/)
-    - [classgraph](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph/) **[5.0.0](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph/5.0.0)**
-    - [classgraph](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph/) **[6.0.0](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph/6.0.0)**
-    - [classgraph-base](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph-base/) **[5.0.0](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph-base/5.0.0)**
-    - [classgraph-base](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph-base/) **[6.0.0](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph-base/6.0.0)**
-    - [classgraph-classpath](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph-classpath/) **[5.0.0](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph-classpath/5.0.0)**
-    - [classgraph-classpath](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph-classpath/) **[6.0.0](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph-classpath/6.0.0)**
-    - [classgraph-vfs](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph-vfs/) **[5.0.0](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph-vfs/5.0.0)**
-    - [classgraph-vfs](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph-vfs/) **[6.0.0](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph-vfs/6.0.0)**
-    - [classgraph-viz](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph-viz/) **[5.0.0](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph-viz/5.0.0)**
-    - [classgraph-viz](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph-viz/) **[6.0.0](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph-viz/6.0.0)**
+    - [classgraph](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph/) **[5.0.1](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph/5.0.1)**
+    - [classgraph](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph/) **[6.0.1](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph/6.0.1)**
+    - [classgraph-base](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph-base/) **[5.0.1](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph-base/5.0.1)**
+    - [classgraph-base](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph-base/) **[6.0.1](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph-base/6.0.1)**
+    - [classgraph-classpath](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph-classpath/) **[5.0.1](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph-classpath/5.0.1)**
+    - [classgraph-classpath](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph-classpath/) **[6.0.1](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph-classpath/6.0.1)**
+    - [classgraph-vfs](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph-vfs/) **[5.0.1](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph-vfs/5.0.1)**
+    - [classgraph-vfs](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph-vfs/) **[6.0.1](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph-vfs/6.0.1)**
+    - [classgraph-viz](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph-viz/) **[5.0.1](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph-viz/5.0.1)**
+    - [classgraph-viz](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph-viz/) **[6.0.1](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph-viz/6.0.1)**
  - [jakarta.activation](https://repo.maven.apache.org/maven2/jakarta/activation/)
     - [jakarta.activation-api](https://repo.maven.apache.org/maven2/jakarta/activation/jakarta.activation-api/) **[1.2.2](https://repo.maven.apache.org/maven2/jakarta/activation/jakarta.activation-api/1.2.2)**
     - [jakarta.activation-api](https://repo.maven.apache.org/maven2/jakarta/activation/jakarta.activation-api/) **[2.1.4](https://repo.maven.apache.org/maven2/jakarta/activation/jakarta.activation-api/2.1.4)**
@@ -279,9 +279,9 @@
  - [org.mockito](https://repo.maven.apache.org/maven2/org/mockito/)
     - [mockito-junit-jupiter](https://repo.maven.apache.org/maven2/org/mockito/mockito-junit-jupiter/) **[5.24.0](https://repo.maven.apache.org/maven2/org/mockito/mockito-junit-jupiter/5.24.0)**
  - [org.mongodb](https://repo.maven.apache.org/maven2/org/mongodb/)
-    - [bson](https://repo.maven.apache.org/maven2/org/mongodb/bson/) **[5.13.0](https://repo.maven.apache.org/maven2/org/mongodb/bson/5.13.0)**
-    - [mongodb-driver-core](https://repo.maven.apache.org/maven2/org/mongodb/mongodb-driver-core/) **[5.13.0](https://repo.maven.apache.org/maven2/org/mongodb/mongodb-driver-core/5.13.0)**
-    - [mongodb-driver-sync](https://repo.maven.apache.org/maven2/org/mongodb/mongodb-driver-sync/) **[5.13.0](https://repo.maven.apache.org/maven2/org/mongodb/mongodb-driver-sync/5.13.0)**
+    - [bson](https://repo.maven.apache.org/maven2/org/mongodb/bson/) **[5.14.0](https://repo.maven.apache.org/maven2/org/mongodb/bson/5.14.0)**
+    - [mongodb-driver-core](https://repo.maven.apache.org/maven2/org/mongodb/mongodb-driver-core/) **[5.14.0](https://repo.maven.apache.org/maven2/org/mongodb/mongodb-driver-core/5.14.0)**
+    - [mongodb-driver-sync](https://repo.maven.apache.org/maven2/org/mongodb/mongodb-driver-sync/) **[5.14.0](https://repo.maven.apache.org/maven2/org/mongodb/mongodb-driver-sync/5.14.0)**
  - [org.mortbay.jasper](https://repo.maven.apache.org/maven2/org/mortbay/jasper/)
     - [mortbay-apache-el](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-el/) **[9.0.119](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-el/9.0.119)**
     - [mortbay-apache-el](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-el/) **[10.1.56](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-el/10.1.56)**

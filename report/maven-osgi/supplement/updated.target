@@ -343,61 +343,61 @@
         <dependency>
           <groupId>io.github.classgraph</groupId>
           <artifactId>classgraph</artifactId>
-          <version>5.0.0</version>
+          <version>5.0.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>io.github.classgraph</groupId>
           <artifactId>classgraph</artifactId>
-          <version>6.0.0</version>
+          <version>6.0.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>io.github.classgraph</groupId>
           <artifactId>classgraph-base</artifactId>
-          <version>5.0.0</version>
+          <version>5.0.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>io.github.classgraph</groupId>
           <artifactId>classgraph-base</artifactId>
-          <version>6.0.0</version>
+          <version>6.0.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>io.github.classgraph</groupId>
           <artifactId>classgraph-classpath</artifactId>
-          <version>5.0.0</version>
+          <version>5.0.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>io.github.classgraph</groupId>
           <artifactId>classgraph-classpath</artifactId>
-          <version>6.0.0</version>
+          <version>6.0.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>io.github.classgraph</groupId>
           <artifactId>classgraph-vfs</artifactId>
-          <version>5.0.0</version>
+          <version>5.0.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>io.github.classgraph</groupId>
           <artifactId>classgraph-vfs</artifactId>
-          <version>6.0.0</version>
+          <version>6.0.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>io.github.classgraph</groupId>
           <artifactId>classgraph-viz</artifactId>
-          <version>5.0.0</version>
+          <version>5.0.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>io.github.classgraph</groupId>
           <artifactId>classgraph-viz</artifactId>
-          <version>6.0.0</version>
+          <version>6.0.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -1129,19 +1129,19 @@
         <dependency>
           <groupId>org.mongodb</groupId>
           <artifactId>bson</artifactId>
-          <version>5.13.0</version>
+          <version>5.14.0</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.mongodb</groupId>
           <artifactId>mongodb-driver-core</artifactId>
-          <version>5.13.0</version>
+          <version>5.14.0</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.mongodb</groupId>
           <artifactId>mongodb-driver-sync</artifactId>
-          <version>5.13.0</version>
+          <version>5.14.0</version>
           <type>jar</type>
         </dependency>
         <dependency>
