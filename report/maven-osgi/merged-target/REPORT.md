@@ -51,7 +51,7 @@
  - [com.github.ben-manes.caffeine](https://repo.maven.apache.org/maven2/com/github/ben-manes/caffeine/)
     - [caffeine](https://repo.maven.apache.org/maven2/com/github/ben-manes/caffeine/caffeine/) **[3.3.1](https://repo.maven.apache.org/maven2/com/github/ben-manes/caffeine/caffeine/3.3.1)**
  - [com.github.jnr](https://repo.maven.apache.org/maven2/com/github/jnr/)
-    - [jffi](https://repo.maven.apache.org/maven2/com/github/jnr/jffi/) **[1.4.3](https://repo.maven.apache.org/maven2/com/github/jnr/jffi/1.4.3)** - *complete*
+    - [jffi](https://repo.maven.apache.org/maven2/com/github/jnr/jffi/) **[1.4.4](https://repo.maven.apache.org/maven2/com/github/jnr/jffi/1.4.4)** - *complete*
     - [jnr-constants](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-constants/) **[0.11.2](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-constants/0.11.2)**
     - [jnr-enxio](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-enxio/) **[0.33.4](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-enxio/0.33.4)**
     - [jnr-ffi](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-ffi/) **[2.3.4](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-ffi/2.3.4)**
