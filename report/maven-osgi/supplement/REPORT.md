@@ -2,7 +2,7 @@
 
 ## Major Updates
  - [org.apache.tika](https://repo.maven.apache.org/maven2/org/apache/tika/)
-    - [tika-core](https://repo.maven.apache.org/maven2/org/apache/tika/tika-core/) **[3.3.3](https://repo.maven.apache.org/maven2/org/apache/tika/tika-core/3.3.3)** < [4.1.0](https://repo.maven.apache.org/maven2/org/apache/tika/tika-core/4.1.0/)
+    - [tika-core](https://repo.maven.apache.org/maven2/org/apache/tika/tika-core/) **[3.3.3](https://repo.maven.apache.org/maven2/org/apache/tika/tika-core/3.3.3)** < [4.2.0](https://repo.maven.apache.org/maven2/org/apache/tika/tika-core/4.2.0/)
 
 ## Content
  - [ch.qos.logback](https://repo.maven.apache.org/maven2/ch/qos/logback/)

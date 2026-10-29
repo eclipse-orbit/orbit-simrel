@@ -6,6 +6,9 @@
  - [net.bytebuddy](https://repo.maven.apache.org/maven2/net/bytebuddy/)
     - [byte-buddy](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/) **[1.18.15](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.18.15)** < [1.18.16](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.18.16/)
     - [byte-buddy-agent](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/) **[1.18.15](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.18.15)** < [1.18.16](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.18.16/)
+ - [org.apache.sshd](https://repo.maven.apache.org/maven2/org/apache/sshd/)
+    - [sshd-osgi](https://repo.maven.apache.org/maven2/org/apache/sshd/sshd-osgi/) **[2.20.0](https://repo.maven.apache.org/maven2/org/apache/sshd/sshd-osgi/2.20.0)** < [2.20.1](https://repo.maven.apache.org/maven2/org/apache/sshd/sshd-osgi/2.20.1/)
+    - [sshd-sftp](https://repo.maven.apache.org/maven2/org/apache/sshd/sshd-sftp/) **[2.20.0](https://repo.maven.apache.org/maven2/org/apache/sshd/sshd-sftp/2.20.0)** < [2.20.1](https://repo.maven.apache.org/maven2/org/apache/sshd/sshd-sftp/2.20.1/)
 
 ## Updates Applied
 [updated.tpd](updated.tpd)
