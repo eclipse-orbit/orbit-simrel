@@ -6,7 +6,7 @@
 <!-- _______________________________________________________ com.github.jnr.jffi _________________________________________________________________________________________________-->
 
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="error" type="Maven">
-      <feature id="org.eclipse.orbit.maven.com.github.jnr.jffi" label="Orbit Maven BND com.github.jnr.jffi" provider-name="Eclipse Orbit" version="4.42.0.v20261028-1000">
+      <feature id="org.eclipse.orbit.maven.com.github.jnr.jffi" label="Orbit Maven BND com.github.jnr.jffi" provider-name="Eclipse Orbit" version="4.42.0.v20261030-1000">
         <description>This feature's dependencies are pulled directly from Maven central and is signed.</description>
         <copyright>
 Copyright (c) 2026 Eclipse contributors and others.
@@ -24,19 +24,19 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>com.github.jnr</groupId>
           <artifactId>jffi</artifactId>
-          <version>1.4.4</version>
+          <version>1.4.5</version>
           <type>jar</type>
           <classifier>native</classifier>
         </dependency>
       </dependencies>
       <instructions>
-<!-- SHA1 7d2da05dabc4325dbcb8bbdba60be83d3b7b1c98 -->
+<!-- SHA1 f5b355ddf5d6421789a3252bc5a0b1689fe5b85a -->
 <![CDATA[
 # These instructions are not actually used because this is an OSGi artifact
 version:                ${versionmask;===;${version_cleanup;${mvnVersion}}}
 # Bundles that match this pattern will be updated to use this qualifier.
 # bundle-pattern:       com\.github\.jnr\.jffi\.native(\.source)?
-Bundle-Version:         ${version}.v20261028-1000
+Bundle-Version:         ${version}.v20261030-1000
 ]]>
       </instructions>
     </location>
@@ -257,7 +257,7 @@ Eclipse-PlatformFilter: (|(&(osgi.os=${os})(osgi.arch=${arch}))(org.eclipse.orbi
 <!-- _______________________________________________________ EXCLUDE _________________________________________________________________________________________________-->
 
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
-      <feature id="org.eclipse.orbit.maven.com.exclude" label="Orbit Maven BND exclude" provider-name="Eclipse Orbit" version="4.42.0.v20261028-1000">
+      <feature id="org.eclipse.orbit.maven.com.exclude" label="Orbit Maven BND exclude" provider-name="Eclipse Orbit" version="4.42.0.v20261030-1000">
         <description>This feature's dependencies are pulled directly from Maven central and is signed.</description>
         <copyright>
 Copyright (c) 2026 Eclipse contributors and others.
@@ -275,18 +275,18 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>com.github.jnr</groupId>
           <artifactId>jffi</artifactId>
-          <version>1.4.4</version>
+          <version>1.4.5</version>
           <type>jar</type>
           <classifier>complete</classifier>
         </dependency>
       </dependencies>
       <instructions>
-<!-- SHA1 6485761237f83a0ac2db1a5d34bce2839e1d23a1 -->
+<!-- SHA1 b69140ad94bd1694c3786ea6b058a46dd50c2517 -->
 <![CDATA[
 Bundle-Name:            Bundle ${mvnGroupId} : ${mvnArtifactId}
 version:                ${versionmask;===;${version_cleanup;${mvnVersion}}}
 Bundle-SymbolicName:    org.${mvnArtifactId}
-Bundle-Version:         ${version}.v20261028-1000
+Bundle-Version:         ${version}.v20261030-1000
 Eclipse-Wrapped-Bundle: ${mvnGroupId}:${mvnArtifactId}:${mvnVersion}
 Import-Package:         *
 Export-Package:         *;version="${version}";-noimport:=true

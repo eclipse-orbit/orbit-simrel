@@ -1,5 +1,17 @@
 # Target Platform: [linuxtools](https://raw.githubusercontent.com/eclipse-linuxtools/org.eclipse.linuxtools/refs/heads/master/releng/org.eclipse.linuxtools.target/linuxtools-latest.target)
 
+## Minor Updates
+ - [com.github.jnr](https://repo.maven.apache.org/maven2/com/github/jnr/)
+    - [jffi](https://repo.maven.apache.org/maven2/com/github/jnr/jffi/) **[1.4.4](https://repo.maven.apache.org/maven2/com/github/jnr/jffi/1.4.4)** < [1.4.5](https://repo.maven.apache.org/maven2/com/github/jnr/jffi/1.4.5/)
+    - [jnr-constants](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-constants/) **[0.11.2](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-constants/0.11.2)** < [0.11.3](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-constants/0.11.3/)
+    - [jnr-enxio](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-enxio/) **[0.33.4](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-enxio/0.33.4)** < [0.33.5](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-enxio/0.33.5/)
+    - [jnr-ffi](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-ffi/) **[2.3.4](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-ffi/2.3.4)** < [2.3.6](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-ffi/2.3.6/)
+    - [jnr-posix](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-posix/) **[3.2.5](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-posix/3.2.5)** < [3.2.6](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-posix/3.2.6/)
+    - [jnr-unixsocket](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-unixsocket/) **[0.39.6](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-unixsocket/0.39.6)** < [0.39.7](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-unixsocket/0.39.7/)
+
+## Updates Applied
+[updated.target](updated.target)
+
 ## Content
  - [com.fasterxml.jackson.core](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/)
     - [jackson-annotations](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/) **[2.22](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.22)**
