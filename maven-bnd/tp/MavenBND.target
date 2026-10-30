@@ -59,7 +59,7 @@ Export-Package:         *;version="${version}";-noimport:=true
 <!-- _____________________________________________________ org.apache.lucene ___________________________________________________________________________________________________-->
 
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
-      <feature id="org.eclipse.orbit.maven.lucene" label="Orbit Maven BND org.apache.lucene" provider-name="Eclipse Orbit" version="4.42.0.v20261004-1200">
+      <feature id="org.eclipse.orbit.maven.lucene" label="Orbit Maven BND org.apache.lucene" provider-name="Eclipse Orbit" version="4.42.0.v20261030-1000">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
 Copyright (c) 2026 Eclipse contributors and others.
@@ -77,65 +77,65 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>org.apache.lucene</groupId>
           <artifactId>lucene-analysis-common</artifactId>
-          <version>10.5.2</version>
+          <version>10.6.0</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.apache.lucene</groupId>
           <artifactId>lucene-analysis-smartcn</artifactId>
-          <version>10.5.2</version>
+          <version>10.6.0</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.apache.lucene</groupId>
           <artifactId>lucene-core</artifactId>
-          <version>10.5.2</version>
+          <version>10.6.0</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.apache.lucene</groupId>
           <artifactId>lucene-expressions</artifactId>
-          <version>10.5.2</version>
+          <version>10.6.0</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.apache.lucene</groupId>
           <artifactId>lucene-misc</artifactId>
-          <version>10.5.2</version>
+          <version>10.6.0</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.apache.lucene</groupId>
           <artifactId>lucene-queries</artifactId>
-          <version>10.5.2</version>
+          <version>10.6.0</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.apache.lucene</groupId>
           <artifactId>lucene-queryparser</artifactId>
-          <version>10.5.2</version>
+          <version>10.6.0</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.apache.lucene</groupId>
           <artifactId>lucene-sandbox</artifactId>
-          <version>10.5.2</version>
+          <version>10.6.0</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>org.apache.lucene</groupId>
           <artifactId>lucene-facet</artifactId>
-          <version>10.5.2</version>
+          <version>10.6.0</version>
           <type>jar</type>
         </dependency>
       </dependencies>
       <instructions>
-<!-- SHA1 a6e8b6fb6733ff4b66e057bda5e3c7b4837445d9 -->
+<!-- SHA1 9cd476d3ec6ef061dd98c0f2f9dfc3cb5ca05cf7 -->
 <![CDATA[
 Bundle-Name:            Bundle ${mvnGroupId} : ${mvnArtifactId}
 version:                ${versionmask;===;${version_cleanup;${mvnVersion}}}
 Bundle-SymbolicName:    ${mvnGroupId}.${replacestring;${mvnArtifactId};lucene-}
-Bundle-Version:         ${version}.v20261004-1000
+Bundle-Version:         ${version}.v20261030-1000
 Eclipse-Wrapped-Bundle: ${mvnGroupId}:${mvnArtifactId}:${mvnVersion}
 Import-Package:         org.apache.lucene.*;version="${range;[==,+);${version}}",\
                         jdk.incubator.*;resolution:=optional,\
@@ -1662,7 +1662,7 @@ Export-Package:         *;version="${version}";-noimport:=true
 
 <!-- WTP can't compile with this version yet -->
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
-      <feature id="org.eclipse.orbit.maven.com.google.javascript" label="Orbit Maven BND com.google.javascript" provider-name="Eclipse Orbit" version="4.42.0.v20261028-1000">
+      <feature id="org.eclipse.orbit.maven.com.google.javascript" label="Orbit Maven BND com.google.javascript" provider-name="Eclipse Orbit" version="4.42.0.v20261030-1000">
         <description>This feature's dependencies are pulled directly from Maven central and wrapped via BND recipe as OSGi artifacts.</description>
         <copyright>
 Copyright (c) 2026 Eclipse contributors and others.
@@ -1680,18 +1680,18 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>com.google.javascript</groupId>
           <artifactId>closure-compiler</artifactId>
-          <version>v20261026</version>
+          <version>v20261028</version>
           <type>jar</type>
         </dependency>
       </dependencies>
       <instructions>
-<!-- SHA1 0c8cf9520d941d082d6a006171259163efd113f6 -->
+<!-- SHA1 8b7b4c5dd2d40983092da78718c280ebba4ee9cc -->
 <![CDATA[
 Bundle-Name:            Bundle ${mvnGroupId} : ${mvnArtifactId
 # The version is purely qualifier, so we promote the value after the v to the micro version as has been historically the case.
 version:                ${replacestring;${mvnVersion};^v;0.0.}
 Bundle-SymbolicName:    ${mvnGroupId}
-Bundle-Version:         ${version}.v20261028-1000
+Bundle-Version:         ${version}.v20261030-1000
 Automatic-Module-Name:  ${mvnGroupId}
 Eclipse-Wrapped-Bundle: ${mvnGroupId}:${mvnArtifactId}:${mvnVersion}
 Import-Package:         java.*,org.w3c.dom,org.xml.sax.*,\
