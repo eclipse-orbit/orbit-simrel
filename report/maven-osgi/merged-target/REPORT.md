@@ -69,7 +69,7 @@
     - [jsvg-slf4j](https://repo.maven.apache.org/maven2/com/github/weisj/jsvg-slf4j/) **[2.2.0](https://repo.maven.apache.org/maven2/com/github/weisj/jsvg-slf4j/2.2.0)**
     - [jsvg-systemlogger](https://repo.maven.apache.org/maven2/com/github/weisj/jsvg-systemlogger/) **[2.2.0](https://repo.maven.apache.org/maven2/com/github/weisj/jsvg-systemlogger/2.2.0)**
  - [com.glazedlists](https://repo.maven.apache.org/maven2/com/glazedlists/)
-    - [glazedlists](https://repo.maven.apache.org/maven2/com/glazedlists/glazedlists/) **[1.11.0](https://repo.maven.apache.org/maven2/com/glazedlists/glazedlists/1.11.0)**
+    - [glazedlists](https://repo.maven.apache.org/maven2/com/glazedlists/glazedlists/) **[1.12.0](https://repo.maven.apache.org/maven2/com/glazedlists/glazedlists/1.12.0)**
  - [com.google.code.gson](https://repo.maven.apache.org/maven2/com/google/code/gson/)
     - [gson](https://repo.maven.apache.org/maven2/com/google/code/gson/gson/) **[2.15.0](https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.15.0)**
  - [com.google.errorprone](https://repo.maven.apache.org/maven2/com/google/errorprone/)
@@ -133,7 +133,7 @@
  - [commons-net](https://repo.maven.apache.org/maven2/commons-net/)
     - [commons-net](https://repo.maven.apache.org/maven2/commons-net/commons-net/) **[3.13.0](https://repo.maven.apache.org/maven2/commons-net/commons-net/3.13.0)**
  - [dnsjava](https://repo.maven.apache.org/maven2/dnsjava/)
-    - [dnsjava](https://repo.maven.apache.org/maven2/dnsjava/dnsjava/) **[3.7.0](https://repo.maven.apache.org/maven2/dnsjava/dnsjava/3.7.0)**
+    - [dnsjava](https://repo.maven.apache.org/maven2/dnsjava/dnsjava/) **[3.7.1](https://repo.maven.apache.org/maven2/dnsjava/dnsjava/3.7.1)**
  - [io.github.classgraph](https://repo.maven.apache.org/maven2/io/github/classgraph/)
     - [classgraph](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph/) **[5.0.1](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph/5.0.1)**
     - [classgraph](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph/) **[6.0.1](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph/6.0.1)**

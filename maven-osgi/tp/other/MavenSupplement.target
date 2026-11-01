@@ -175,7 +175,7 @@
         <dependency>
           <groupId>com.glazedlists</groupId>
           <artifactId>glazedlists</artifactId>
-          <version>1.11.0</version>
+          <version>1.12.0</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -337,7 +337,7 @@
         <dependency>
           <groupId>dnsjava</groupId>
           <artifactId>dnsjava</artifactId>
-          <version>3.7.0</version>
+          <version>3.7.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
