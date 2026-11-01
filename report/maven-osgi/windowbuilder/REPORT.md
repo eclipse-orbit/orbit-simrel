@@ -4,6 +4,8 @@
  - [com.miglayout](https://repo.maven.apache.org/maven2/com/miglayout/)
     - [miglayout-core](https://repo.maven.apache.org/maven2/com/miglayout/miglayout-core/) **[11.4.3](https://repo.maven.apache.org/maven2/com/miglayout/miglayout-core/11.4.3)** < [11.5.2](https://repo.maven.apache.org/maven2/com/miglayout/miglayout-core/11.5.2/)
     - [miglayout-swing](https://repo.maven.apache.org/maven2/com/miglayout/miglayout-swing/) **[11.4.3](https://repo.maven.apache.org/maven2/com/miglayout/miglayout-swing/11.4.3)** < [11.5.2](https://repo.maven.apache.org/maven2/com/miglayout/miglayout-swing/11.5.2/)
+ - [io.github.toolfactory](https://repo.maven.apache.org/maven2/io/github/toolfactory/)
+    - [narcissus](https://repo.maven.apache.org/maven2/io/github/toolfactory/narcissus/) **[1.0.13](https://repo.maven.apache.org/maven2/io/github/toolfactory/narcissus/1.0.13)** < [1.0.14](https://repo.maven.apache.org/maven2/io/github/toolfactory/narcissus/1.0.14/)
  - [net.bytebuddy](https://repo.maven.apache.org/maven2/net/bytebuddy/)
     - [byte-buddy](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/) **[1.18.14](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.18.14)** < [1.18.16](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.18.16/)
     - [byte-buddy-agent](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/) **[1.18.14](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.18.14)** < [1.18.16](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.18.16/)
