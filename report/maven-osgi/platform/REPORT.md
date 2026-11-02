@@ -1,9 +1,9 @@
 # Target Platform: [platform](https://raw.githubusercontent.com/eclipse-platform/eclipse.platform.releng.aggregator/master/eclipse.platform.releng.prereqs.sdk/eclipse-sdk-prereqs.target)
 
 ## Minor Updates
- - [net.bytebuddy](https://repo.maven.apache.org/maven2/net/bytebuddy/)
-    - [byte-buddy](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/) **[1.18.16](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.18.16)** < [1.18.17](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.18.17/)
-    - [byte-buddy-agent](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/) **[1.18.16](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.18.16)** < [1.18.17](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.18.17/)
+ - [org.apache.felix](https://repo.maven.apache.org/maven2/org/apache/felix/)
+    - [org.apache.felix.gogo.runtime](https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.gogo.runtime/) **[1.1.6](https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.gogo.runtime/1.1.6)** < [1.2.0](https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.gogo.runtime/1.2.0/)
+    - [org.apache.felix.scr](https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.scr/) **[2.2.18](https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.scr/2.2.18)** < [2.3.0](https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.scr/2.3.0/)
 
 ## Major Updates
  - [jakarta.el](https://repo.maven.apache.org/maven2/jakarta/el/)
@@ -57,8 +57,8 @@
  - [javax.servlet.jsp](https://repo.maven.apache.org/maven2/javax/servlet/jsp/)
     - [javax.servlet.jsp-api](https://repo.maven.apache.org/maven2/javax/servlet/jsp/javax.servlet.jsp-api/) **[2.3.3](https://repo.maven.apache.org/maven2/javax/servlet/jsp/javax.servlet.jsp-api/2.3.3)**
  - [net.bytebuddy](https://repo.maven.apache.org/maven2/net/bytebuddy/)
-    - [byte-buddy](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/) **[1.18.16](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.18.16)**
-    - [byte-buddy-agent](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/) **[1.18.16](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.18.16)**
+    - [byte-buddy](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/) **[1.18.17](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.18.17)**
+    - [byte-buddy-agent](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/) **[1.18.17](https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.18.17)**
  - [net.java.dev.jna](https://repo.maven.apache.org/maven2/net/java/dev/jna/)
     - [jna-platform](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna-platform/) **[5.19.1](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna-platform/5.19.1)**
  - [org.apache.felix](https://repo.maven.apache.org/maven2/org/apache/felix/)

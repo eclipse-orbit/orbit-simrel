@@ -50,7 +50,7 @@
  - [com.glazedlists](https://repo.maven.apache.org/maven2/com/glazedlists/)
     - [glazedlists](https://repo.maven.apache.org/maven2/com/glazedlists/glazedlists/) **[1.12.0](https://repo.maven.apache.org/maven2/com/glazedlists/glazedlists/1.12.0)**
  - [com.google.errorprone](https://repo.maven.apache.org/maven2/com/google/errorprone/)
-    - [error_prone_annotations](https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/) **[2.51.0](https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.51.0)**
+    - [error_prone_annotations](https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/) **[2.52.0](https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.52.0)**
  - [com.google.inject](https://repo.maven.apache.org/maven2/com/google/inject/)
     - [guice](https://repo.maven.apache.org/maven2/com/google/inject/guice/) **[7.0.0](https://repo.maven.apache.org/maven2/com/google/inject/guice/7.0.0)**
  - [com.google.inject.extensions](https://repo.maven.apache.org/maven2/com/google/inject/extensions/)

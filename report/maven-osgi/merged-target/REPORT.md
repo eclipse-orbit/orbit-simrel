@@ -73,7 +73,7 @@
  - [com.google.code.gson](https://repo.maven.apache.org/maven2/com/google/code/gson/)
     - [gson](https://repo.maven.apache.org/maven2/com/google/code/gson/gson/) **[2.15.0](https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.15.0)**
  - [com.google.errorprone](https://repo.maven.apache.org/maven2/com/google/errorprone/)
-    - [error_prone_annotations](https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/) **[2.51.0](https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.51.0)**
+    - [error_prone_annotations](https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/) **[2.52.0](https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.52.0)**
  - [com.google.guava](https://repo.maven.apache.org/maven2/com/google/guava/)
     - [failureaccess](https://repo.maven.apache.org/maven2/com/google/guava/failureaccess/) **[1.0.3](https://repo.maven.apache.org/maven2/com/google/guava/failureaccess/1.0.3)**
     - [guava](https://repo.maven.apache.org/maven2/com/google/guava/guava/) **[33.7.2-jre](https://repo.maven.apache.org/maven2/com/google/guava/guava/33.7.2-jre)**
@@ -254,10 +254,10 @@
     - [commons-text](https://repo.maven.apache.org/maven2/org/apache/commons/commons-text/) **[1.15.0](https://repo.maven.apache.org/maven2/org/apache/commons/commons-text/1.15.0)**
  - [org.apache.felix](https://repo.maven.apache.org/maven2/org/apache/felix/)
     - [org.apache.felix.gogo.command](https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.gogo.command/) **[1.1.2](https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.gogo.command/1.1.2)**
-    - [org.apache.felix.gogo.runtime](https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.gogo.runtime/) **[1.1.6](https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.gogo.runtime/1.1.6)**
+    - [org.apache.felix.gogo.runtime](https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.gogo.runtime/) **[1.2.0](https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.gogo.runtime/1.2.0)**
     - [org.apache.felix.gogo.shell](https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.gogo.shell/) **[1.1.4](https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.gogo.shell/1.1.4)**
     - [org.apache.felix.http.servlet-api](https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.http.servlet-api/) **[6.1.0](https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.http.servlet-api/6.1.0)**
-    - [org.apache.felix.scr](https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.scr/) **[2.2.18](https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.scr/2.2.18)**
+    - [org.apache.felix.scr](https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.scr/) **[2.3.0](https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.scr/2.3.0)**
  - [org.apache.httpcomponents](https://repo.maven.apache.org/maven2/org/apache/httpcomponents/)
     - [httpasyncclient-osgi](https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpasyncclient-osgi/) **[4.1.5](https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpasyncclient-osgi/4.1.5)**
     - [httpclient-osgi](https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpclient-osgi/) **[4.5.14](https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpclient-osgi/4.5.14)**
