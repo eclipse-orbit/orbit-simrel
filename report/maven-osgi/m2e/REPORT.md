@@ -5,6 +5,8 @@
     - [logback-classic](https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/) **[1.6.5](https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/1.6.5)** < [1.6.6](https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/1.6.6/)
  - [com.google.code.gson](https://repo.maven.apache.org/maven2/com/google/code/gson/)
     - [gson](https://repo.maven.apache.org/maven2/com/google/code/gson/gson/) **[2.14.0](https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.14.0)** < [2.15.0](https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.15.0/)
+ - [com.google.guava](https://repo.maven.apache.org/maven2/com/google/guava/)
+    - [guava](https://repo.maven.apache.org/maven2/com/google/guava/guava/) **[33.7.2-jre](https://repo.maven.apache.org/maven2/com/google/guava/guava/33.7.2-jre)** < [33.8.0-jre](https://repo.maven.apache.org/maven2/com/google/guava/guava/33.8.0-jre/)
  - [commons-codec](https://repo.maven.apache.org/maven2/commons-codec/)
     - [commons-codec](https://repo.maven.apache.org/maven2/commons-codec/commons-codec/) **[1.22.1](https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.22.1)** < [1.23.0](https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.23.0/)
  - [org.apache.maven.archetype](https://repo.maven.apache.org/maven2/org/apache/maven/archetype/)

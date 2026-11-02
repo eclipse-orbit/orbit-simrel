@@ -111,7 +111,7 @@
 			<dependency>
 				<groupId>com.github.jnr</groupId>
 				<artifactId>jffi</artifactId>
-				<version>1.4.5</version>
+				<version>1.4.6</version>
 				<type>jar</type>
 				<classifier>complete</classifier>
 			</dependency>
@@ -154,7 +154,7 @@
 			<dependency>
 				<groupId>com.google.guava</groupId>
 				<artifactId>guava</artifactId>
-				<version>33.7.2-jre</version>
+				<version>33.8.0-jre</version>
 				<type>jar</type>
 			</dependency>
 			<dependency>
