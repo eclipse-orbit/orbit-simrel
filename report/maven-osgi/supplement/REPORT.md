@@ -33,10 +33,10 @@
  - [com.github.ben-manes.caffeine](https://repo.maven.apache.org/maven2/com/github/ben-manes/caffeine/)
     - [caffeine](https://repo.maven.apache.org/maven2/com/github/ben-manes/caffeine/caffeine/) **[3.3.1](https://repo.maven.apache.org/maven2/com/github/ben-manes/caffeine/caffeine/3.3.1)**
  - [com.github.jnr](https://repo.maven.apache.org/maven2/com/github/jnr/)
-    - [jnr-enxio](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-enxio/) **[0.33.5](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-enxio/0.33.5)**
-    - [jnr-ffi](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-ffi/) **[2.3.6](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-ffi/2.3.6)**
-    - [jnr-posix](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-posix/) **[3.2.6](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-posix/3.2.6)**
-    - [jnr-unixsocket](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-unixsocket/) **[0.39.7](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-unixsocket/0.39.7)**
+    - [jnr-enxio](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-enxio/) **[0.33.6](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-enxio/0.33.6)**
+    - [jnr-ffi](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-ffi/) **[2.3.7](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-ffi/2.3.7)**
+    - [jnr-posix](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-posix/) **[3.2.7](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-posix/3.2.7)**
+    - [jnr-unixsocket](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-unixsocket/) **[0.39.8](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-unixsocket/0.39.8)**
  - [com.github.librepdf](https://repo.maven.apache.org/maven2/com/github/librepdf/)
     - [openpdf](https://repo.maven.apache.org/maven2/com/github/librepdf/openpdf/) **[3.0.5](https://repo.maven.apache.org/maven2/com/github/librepdf/openpdf/3.0.5)**
  - [com.github.mwiede](https://repo.maven.apache.org/maven2/com/github/mwiede/)

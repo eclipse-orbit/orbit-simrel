@@ -2,7 +2,12 @@
 
 ## Minor Updates
  - [com.github.jnr](https://repo.maven.apache.org/maven2/com/github/jnr/)
-    - [jffi](https://repo.maven.apache.org/maven2/com/github/jnr/jffi/) **[1.4.5](https://repo.maven.apache.org/maven2/com/github/jnr/jffi/1.4.5)** < [1.4.6](https://repo.maven.apache.org/maven2/com/github/jnr/jffi/1.4.6/)
+    - [jffi](https://repo.maven.apache.org/maven2/com/github/jnr/jffi/) **[1.4.5](https://repo.maven.apache.org/maven2/com/github/jnr/jffi/1.4.5)** < [1.4.7](https://repo.maven.apache.org/maven2/com/github/jnr/jffi/1.4.7/)
+    - [jnr-constants](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-constants/) **[0.11.3](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-constants/0.11.3)** < [0.11.4](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-constants/0.11.4/)
+    - [jnr-enxio](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-enxio/) **[0.33.5](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-enxio/0.33.5)** < [0.33.6](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-enxio/0.33.6/)
+    - [jnr-ffi](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-ffi/) **[2.3.6](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-ffi/2.3.6)** < [2.3.7](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-ffi/2.3.7/)
+    - [jnr-posix](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-posix/) **[3.2.6](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-posix/3.2.6)** < [3.2.7](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-posix/3.2.7/)
+    - [jnr-unixsocket](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-unixsocket/) **[0.39.7](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-unixsocket/0.39.7)** < [0.39.8](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-unixsocket/0.39.8/)
  - [com.google.guava](https://repo.maven.apache.org/maven2/com/google/guava/)
     - [guava](https://repo.maven.apache.org/maven2/com/google/guava/guava/) **[33.7.2-jre](https://repo.maven.apache.org/maven2/com/google/guava/guava/33.7.2-jre)** < [33.8.0-jre](https://repo.maven.apache.org/maven2/com/google/guava/guava/33.8.0-jre/)
 
