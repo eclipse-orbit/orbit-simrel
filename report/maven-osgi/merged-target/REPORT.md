@@ -94,7 +94,7 @@
     - [miglayout-swing](https://repo.maven.apache.org/maven2/com/miglayout/miglayout-swing/) **[11.5.2](https://repo.maven.apache.org/maven2/com/miglayout/miglayout-swing/11.5.2)**
  - [com.networknt](https://repo.maven.apache.org/maven2/com/networknt/)
     - [json-schema-validator](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/) **[2.0.8](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/2.0.8)**
-    - [json-schema-validator](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/) **[3.0.8](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/3.0.8)**
+    - [json-schema-validator](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/) **[3.0.9](https://repo.maven.apache.org/maven2/com/networknt/json-schema-validator/3.0.9)**
  - [com.sun.xml.bind](https://repo.maven.apache.org/maven2/com/sun/xml/bind/)
     - [jaxb-core](https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-core/) **[4.0.9](https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-core/4.0.9)**
     - [jaxb-impl](https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-impl/) **[4.0.9](https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-impl/4.0.9)**
@@ -110,7 +110,7 @@
     - [imageio-psd](https://repo.maven.apache.org/maven2/com/twelvemonkeys/imageio/imageio-psd/) **[3.15.3](https://repo.maven.apache.org/maven2/com/twelvemonkeys/imageio/imageio-psd/3.15.3)**
     - [imageio-webp](https://repo.maven.apache.org/maven2/com/twelvemonkeys/imageio/imageio-webp/) **[3.15.3](https://repo.maven.apache.org/maven2/com/twelvemonkeys/imageio/imageio-webp/3.15.3)**
  - [com.vegardit.no-npe](https://repo.maven.apache.org/maven2/com/vegardit/no-npe/)
-    - [no-npe-eea-all](https://repo.maven.apache.org/maven2/com/vegardit/no-npe/no-npe-eea-all/) **[2.0.1](https://repo.maven.apache.org/maven2/com/vegardit/no-npe/no-npe-eea-all/2.0.1)**
+    - [no-npe-eea-all](https://repo.maven.apache.org/maven2/com/vegardit/no-npe/no-npe-eea-all/) **[2.0.2](https://repo.maven.apache.org/maven2/com/vegardit/no-npe/no-npe-eea-all/2.0.2)**
  - [commons-beanutils](https://repo.maven.apache.org/maven2/commons-beanutils/)
     - [commons-beanutils](https://repo.maven.apache.org/maven2/commons-beanutils/commons-beanutils/) **[1.11.0](https://repo.maven.apache.org/maven2/commons-beanutils/commons-beanutils/1.11.0)**
  - [commons-cli](https://repo.maven.apache.org/maven2/commons-cli/)
