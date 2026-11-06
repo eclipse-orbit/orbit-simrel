@@ -55,8 +55,8 @@
     - [jnr-constants](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-constants/) **[0.11.4](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-constants/0.11.4)**
     - [jnr-enxio](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-enxio/) **[0.33.6](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-enxio/0.33.6)**
     - [jnr-ffi](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-ffi/) **[2.3.7](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-ffi/2.3.7)**
-    - [jnr-posix](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-posix/) **[3.2.7](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-posix/3.2.7)**
-    - [jnr-unixsocket](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-unixsocket/) **[0.39.8](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-unixsocket/0.39.8)**
+    - [jnr-posix](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-posix/) **[3.2.8](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-posix/3.2.8)**
+    - [jnr-unixsocket](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-unixsocket/) **[0.39.9](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-unixsocket/0.39.9)**
  - [com.github.librepdf](https://repo.maven.apache.org/maven2/com/github/librepdf/)
     - [openpdf](https://repo.maven.apache.org/maven2/com/github/librepdf/openpdf/) **[3.0.5](https://repo.maven.apache.org/maven2/com/github/librepdf/openpdf/3.0.5)**
  - [com.github.mwiede](https://repo.maven.apache.org/maven2/com/github/mwiede/)
@@ -135,16 +135,16 @@
  - [dnsjava](https://repo.maven.apache.org/maven2/dnsjava/)
     - [dnsjava](https://repo.maven.apache.org/maven2/dnsjava/dnsjava/) **[3.7.1](https://repo.maven.apache.org/maven2/dnsjava/dnsjava/3.7.1)**
  - [io.github.classgraph](https://repo.maven.apache.org/maven2/io/github/classgraph/)
-    - [classgraph](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph/) **[5.0.1](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph/5.0.1)**
-    - [classgraph](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph/) **[6.0.1](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph/6.0.1)**
-    - [classgraph-base](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph-base/) **[5.0.1](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph-base/5.0.1)**
-    - [classgraph-base](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph-base/) **[6.0.1](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph-base/6.0.1)**
-    - [classgraph-classpath](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph-classpath/) **[5.0.1](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph-classpath/5.0.1)**
-    - [classgraph-classpath](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph-classpath/) **[6.0.1](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph-classpath/6.0.1)**
-    - [classgraph-vfs](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph-vfs/) **[5.0.1](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph-vfs/5.0.1)**
-    - [classgraph-vfs](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph-vfs/) **[6.0.1](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph-vfs/6.0.1)**
-    - [classgraph-viz](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph-viz/) **[5.0.1](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph-viz/5.0.1)**
-    - [classgraph-viz](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph-viz/) **[6.0.1](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph-viz/6.0.1)**
+    - [classgraph](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph/) **[5.0.2](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph/5.0.2)**
+    - [classgraph](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph/) **[6.0.2](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph/6.0.2)**
+    - [classgraph-base](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph-base/) **[5.0.2](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph-base/5.0.2)**
+    - [classgraph-base](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph-base/) **[6.0.2](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph-base/6.0.2)**
+    - [classgraph-classpath](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph-classpath/) **[5.0.2](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph-classpath/5.0.2)**
+    - [classgraph-classpath](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph-classpath/) **[6.0.2](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph-classpath/6.0.2)**
+    - [classgraph-vfs](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph-vfs/) **[5.0.2](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph-vfs/5.0.2)**
+    - [classgraph-vfs](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph-vfs/) **[6.0.2](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph-vfs/6.0.2)**
+    - [classgraph-viz](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph-viz/) **[5.0.2](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph-viz/5.0.2)**
+    - [classgraph-viz](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph-viz/) **[6.0.2](https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph-viz/6.0.2)**
  - [io.github.toolfactory](https://repo.maven.apache.org/maven2/io/github/toolfactory/)
     - [jvm-driver](https://repo.maven.apache.org/maven2/io/github/toolfactory/jvm-driver/) **[9.10.1](https://repo.maven.apache.org/maven2/io/github/toolfactory/jvm-driver/9.10.1)**
     - [narcissus](https://repo.maven.apache.org/maven2/io/github/toolfactory/narcissus/) **[1.0.14](https://repo.maven.apache.org/maven2/io/github/toolfactory/narcissus/1.0.14)**

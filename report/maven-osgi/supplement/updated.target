@@ -127,13 +127,13 @@
         <dependency>
           <groupId>com.github.jnr</groupId>
           <artifactId>jnr-posix</artifactId>
-          <version>3.2.7</version>
+          <version>3.2.8</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>com.github.jnr</groupId>
           <artifactId>jnr-unixsocket</artifactId>
-          <version>0.39.8</version>
+          <version>0.39.9</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -343,61 +343,61 @@
         <dependency>
           <groupId>io.github.classgraph</groupId>
           <artifactId>classgraph</artifactId>
-          <version>5.0.1</version>
+          <version>5.0.2</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>io.github.classgraph</groupId>
           <artifactId>classgraph</artifactId>
-          <version>6.0.1</version>
+          <version>6.0.2</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>io.github.classgraph</groupId>
           <artifactId>classgraph-base</artifactId>
-          <version>5.0.1</version>
+          <version>5.0.2</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>io.github.classgraph</groupId>
           <artifactId>classgraph-base</artifactId>
-          <version>6.0.1</version>
+          <version>6.0.2</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>io.github.classgraph</groupId>
           <artifactId>classgraph-classpath</artifactId>
-          <version>5.0.1</version>
+          <version>5.0.2</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>io.github.classgraph</groupId>
           <artifactId>classgraph-classpath</artifactId>
-          <version>6.0.1</version>
+          <version>6.0.2</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>io.github.classgraph</groupId>
           <artifactId>classgraph-vfs</artifactId>
-          <version>5.0.1</version>
+          <version>5.0.2</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>io.github.classgraph</groupId>
           <artifactId>classgraph-vfs</artifactId>
-          <version>6.0.1</version>
+          <version>6.0.2</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>io.github.classgraph</groupId>
           <artifactId>classgraph-viz</artifactId>
-          <version>5.0.1</version>
+          <version>5.0.2</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>io.github.classgraph</groupId>
           <artifactId>classgraph-viz</artifactId>
-          <version>6.0.1</version>
+          <version>6.0.2</version>
           <type>jar</type>
         </dependency>
         <dependency>

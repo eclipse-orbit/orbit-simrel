@@ -3,7 +3,7 @@
 <target name="Maven" sequenceNumber="1">
   <locations>
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="error" type="Maven">
-      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.42.0.v20261104-1200">
+      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.42.0.v20261106-1000">
         <description>This feature's dependencies are pulled directly from Maven central.</description>
         <copyright>
 Copyright (c) 2026 Eclipse contributors and others.
@@ -16,7 +16,7 @@ https://www.eclipse.org/legal/epl-2.0/
 SPDX-License-Identifier: EPL-2.0
         </copyright>
         <license url="https://www.eclipse.org/legal/epl-2.0/"/>
-        <!-- SHA1 8e56ed909606ff11bd512956de3702a75b6201d5 -->
+        <!-- SHA1 c7ca31dff5a33e45ac8b8e456a8d7a1d8fdfe48d -->
       </feature>
       <dependencies>
         <dependency>
@@ -239,13 +239,13 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>com.github.jnr</groupId>
           <artifactId>jnr-posix</artifactId>
-          <version>3.2.7</version>
+          <version>3.2.8</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>com.github.jnr</groupId>
           <artifactId>jnr-unixsocket</artifactId>
-          <version>0.39.8</version>
+          <version>0.39.9</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -527,61 +527,61 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>io.github.classgraph</groupId>
           <artifactId>classgraph</artifactId>
-          <version>5.0.1</version>
+          <version>5.0.2</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>io.github.classgraph</groupId>
           <artifactId>classgraph</artifactId>
-          <version>6.0.1</version>
+          <version>6.0.2</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>io.github.classgraph</groupId>
           <artifactId>classgraph-base</artifactId>
-          <version>5.0.1</version>
+          <version>5.0.2</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>io.github.classgraph</groupId>
           <artifactId>classgraph-base</artifactId>
-          <version>6.0.1</version>
+          <version>6.0.2</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>io.github.classgraph</groupId>
           <artifactId>classgraph-classpath</artifactId>
-          <version>5.0.1</version>
+          <version>5.0.2</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>io.github.classgraph</groupId>
           <artifactId>classgraph-classpath</artifactId>
-          <version>6.0.1</version>
+          <version>6.0.2</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>io.github.classgraph</groupId>
           <artifactId>classgraph-vfs</artifactId>
-          <version>5.0.1</version>
+          <version>5.0.2</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>io.github.classgraph</groupId>
           <artifactId>classgraph-vfs</artifactId>
-          <version>6.0.1</version>
+          <version>6.0.2</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>io.github.classgraph</groupId>
           <artifactId>classgraph-viz</artifactId>
-          <version>5.0.1</version>
+          <version>5.0.2</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>io.github.classgraph</groupId>
           <artifactId>classgraph-viz</artifactId>
-          <version>6.0.1</version>
+          <version>6.0.2</version>
           <type>jar</type>
         </dependency>
         <dependency>
