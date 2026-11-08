@@ -318,7 +318,7 @@ public class Analyzer {
 		var currentQualifier = versionQualifierMatcher.group("qualifier");
 		for (var time : List.of("1000", "1200", "1400", "1600", "1800", "2000", "2200")) {
 			var niceQualifier = '.'+ qualifier.replaceAll("-.*", '-' + time);
-			if (!currentQualifier.equals(niceQualifier)) {
+			if (niceQualifier.compareTo(currentQualifier) > 0) {
 				return niceQualifier;
 			}
 		}
