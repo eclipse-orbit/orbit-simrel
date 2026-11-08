@@ -16,9 +16,10 @@
 		<location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="planner" includeSource="true" type="InstallableUnit">
 			<repository location="https://download.eclipse.org/tools/orbit/simrel/orbit-aggregation/2026-12"/>
 			<unit id="org.jdom2"/>
+			<unit id="org.apache.commons.commons-io"/>
 		</location>
 		<location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="planner" includeSource="true" type="InstallableUnit">
-			<repository location="https://download.eclipse.org/egit/updates-7.8"/>
+			<repository location="https://download.eclipse.org/egit/updates-7.8.1"/>
 			<unit id="org.eclipse.jgit"/>
 		</location>
 		<location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="planner" includeSource="true" type="InstallableUnit">
@@ -33,9 +34,9 @@
 			<unit id="org.eclipse.wst.xsd.core"/>
 		</location>
 		<location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="planner" includeSource="true" type="InstallableUnit">
-			<repository location="https://download.eclipse.org/lsp4e/releases/0.30.8"/>
+			<repository location="https://download.eclipse.org/lsp4e/releases/0.30.9"/>
 			<repository location="https://download.eclipse.org/tm4e/releases/0.18.0"/>
-			<repository location="https://download.eclipse.org/wildwebdeveloper/updates/release/1.4.1"/>
+			<repository location="https://download.eclipse.org/wildwebdeveloper/updates/release/1.4.2"/>
 			<unit id="org.eclipse.lsp4e"/>
 			<unit id="org.eclipse.wildwebdeveloper.xml.feature.feature.group"/>
 		</location>
