@@ -2,7 +2,6 @@
 
 ## Minor Updates
  - [com.fasterxml.jackson.core](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/)
-    - [jackson-annotations](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/) **[2.22](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.22)** < [2.23](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.23/)
     - [jackson-core](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/) **[2.22.4](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.22.4)** < [2.23.0](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.23.0/)
     - [jackson-databind](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/) **[2.22.4](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.22.4)** < [2.23.0](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.23.0/)
  - [com.fasterxml.jackson.datatype](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/)
@@ -10,22 +9,13 @@
  - [com.fasterxml.jackson.module](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/)
     - [jackson-module-jakarta-xmlbind-annotations](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-jakarta-xmlbind-annotations/) **[2.22.4](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-jakarta-xmlbind-annotations/2.22.4)** < [2.23.0](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-jakarta-xmlbind-annotations/2.23.0/)
     - [jackson-module-jaxb-annotations](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/) **[2.22.4](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.22.4)** < [2.23.0](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.23.0/)
- - [com.github.jnr](https://repo.maven.apache.org/maven2/com/github/jnr/)
-    - [jffi](https://repo.maven.apache.org/maven2/com/github/jnr/jffi/) **[1.4.5](https://repo.maven.apache.org/maven2/com/github/jnr/jffi/1.4.5)** < [1.4.7](https://repo.maven.apache.org/maven2/com/github/jnr/jffi/1.4.7/)
-    - [jnr-constants](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-constants/) **[0.11.3](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-constants/0.11.3)** < [0.11.4](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-constants/0.11.4/)
-    - [jnr-enxio](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-enxio/) **[0.33.5](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-enxio/0.33.5)** < [0.33.6](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-enxio/0.33.6/)
-    - [jnr-ffi](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-ffi/) **[2.3.6](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-ffi/2.3.6)** < [2.3.7](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-ffi/2.3.7/)
-    - [jnr-posix](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-posix/) **[3.2.6](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-posix/3.2.6)** < [3.2.8](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-posix/3.2.8/)
-    - [jnr-unixsocket](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-unixsocket/) **[0.39.7](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-unixsocket/0.39.7)** < [0.39.9](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-unixsocket/0.39.9/)
- - [com.google.guava](https://repo.maven.apache.org/maven2/com/google/guava/)
-    - [guava](https://repo.maven.apache.org/maven2/com/google/guava/guava/) **[33.7.2-jre](https://repo.maven.apache.org/maven2/com/google/guava/guava/33.7.2-jre)** < [33.8.0-jre](https://repo.maven.apache.org/maven2/com/google/guava/guava/33.8.0-jre/)
 
 ## Updates Applied
 [updated.target](updated.target)
 
 ## Content
  - [com.fasterxml.jackson.core](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/)
-    - [jackson-annotations](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/) **[2.22](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.22)**
+    - [jackson-annotations](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/) **[2.23](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.23)**
     - [jackson-core](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/) **[2.22.4](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.22.4)**
     - [jackson-databind](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/) **[2.22.4](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.22.4)**
  - [com.fasterxml.jackson.datatype](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/)
@@ -34,15 +24,15 @@
     - [jackson-module-jakarta-xmlbind-annotations](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-jakarta-xmlbind-annotations/) **[2.22.4](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-jakarta-xmlbind-annotations/2.22.4)**
     - [jackson-module-jaxb-annotations](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/) **[2.22.4](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.22.4)**
  - [com.github.jnr](https://repo.maven.apache.org/maven2/com/github/jnr/)
-    - [jffi](https://repo.maven.apache.org/maven2/com/github/jnr/jffi/) **[1.4.5](https://repo.maven.apache.org/maven2/com/github/jnr/jffi/1.4.5)** - *complete*
-    - [jnr-constants](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-constants/) **[0.11.3](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-constants/0.11.3)**
-    - [jnr-enxio](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-enxio/) **[0.33.5](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-enxio/0.33.5)**
-    - [jnr-ffi](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-ffi/) **[2.3.6](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-ffi/2.3.6)**
-    - [jnr-posix](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-posix/) **[3.2.6](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-posix/3.2.6)**
-    - [jnr-unixsocket](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-unixsocket/) **[0.39.7](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-unixsocket/0.39.7)**
+    - [jffi](https://repo.maven.apache.org/maven2/com/github/jnr/jffi/) **[1.4.7](https://repo.maven.apache.org/maven2/com/github/jnr/jffi/1.4.7)** - *complete*
+    - [jnr-constants](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-constants/) **[0.11.4](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-constants/0.11.4)**
+    - [jnr-enxio](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-enxio/) **[0.33.6](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-enxio/0.33.6)**
+    - [jnr-ffi](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-ffi/) **[2.3.7](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-ffi/2.3.7)**
+    - [jnr-posix](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-posix/) **[3.2.8](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-posix/3.2.8)**
+    - [jnr-unixsocket](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-unixsocket/) **[0.39.9](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-unixsocket/0.39.9)**
  - [com.google.guava](https://repo.maven.apache.org/maven2/com/google/guava/)
     - [failureaccess](https://repo.maven.apache.org/maven2/com/google/guava/failureaccess/) **[1.0.3](https://repo.maven.apache.org/maven2/com/google/guava/failureaccess/1.0.3)**
-    - [guava](https://repo.maven.apache.org/maven2/com/google/guava/guava/) **[33.7.2-jre](https://repo.maven.apache.org/maven2/com/google/guava/guava/33.7.2-jre)**
+    - [guava](https://repo.maven.apache.org/maven2/com/google/guava/guava/) **[33.8.0-jre](https://repo.maven.apache.org/maven2/com/google/guava/guava/33.8.0-jre)**
  - [jakarta.annotation](https://repo.maven.apache.org/maven2/jakarta/annotation/)
     - [jakarta.annotation-api](https://repo.maven.apache.org/maven2/jakarta/annotation/jakarta.annotation-api/) **[3.0.0](https://repo.maven.apache.org/maven2/jakarta/annotation/jakarta.annotation-api/3.0.0)**
  - [jakarta.ws.rs](https://repo.maven.apache.org/maven2/jakarta/ws/rs/)
