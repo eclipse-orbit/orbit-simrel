@@ -40,14 +40,14 @@
     </location>
 
     <location includeAllPlatforms="true" includeConfigurePhase="false" includeMode="slicer" includeSource="true" type="InstallableUnit">
-      <unit id="org.eclipse.emf.common" version="2.47.0.v20260909-1131"/>
+      <unit id="org.eclipse.emf.common" version="2.47.0.v20261109-1524"/>
       <unit id="org.eclipse.emf.ecore" version="2.44.0.v20260909-1318"/>
       <unit id="org.eclipse.emf.ecore.change" version="2.18.0.v20260704-1256"/>
       <unit id="org.eclipse.emf.ecore.xmi" version="2.41.0.v20260704-1256"/>
       <unit id="org.eclipse.emf.edit" version="2.25.0.v20260909-1131"/>
       <unit id="org.eclipse.emf.databinding" version="1.11.0.v20260909-1131"/>
       <unit id="org.eclipse.emf.databinding.edit" version="1.12.0.v20260909-1131"/>
-      <repository location="https://download.eclipse.org/modeling/emf/emf/builds/milestone/S202610100703"/>
+      <repository location="https://download.eclipse.org/modeling/emf/emf/builds/milestone/S202611091621"/>
     </location>
 
     <location includeAllPlatforms="true" includeConfigurePhase="false" includeMode="slicer" includeSource="true" type="InstallableUnit">
@@ -218,25 +218,25 @@
 			  <dependency>
 				  <groupId>org.eclipse.jetty.ee8</groupId>
 				  <artifactId>jetty-ee8-apache-jsp</artifactId>
-				  <version>12.1.14</version>
+				  <version>12.1.15</version>
 				  <type>jar</type>
 			  </dependency>
 			  <dependency>
 				  <groupId>org.eclipse.jetty.ee8</groupId>
 				  <artifactId>jetty-ee8-nested</artifactId>
-				  <version>12.1.14</version>
+				  <version>12.1.15</version>
 				  <type>jar</type>
 			  </dependency>
 			  <dependency>
 				  <groupId>org.eclipse.jetty.ee8</groupId>
 				  <artifactId>jetty-ee8-security</artifactId>
-				  <version>12.1.14</version>
+				  <version>12.1.15</version>
 				  <type>jar</type>
 			  </dependency>
 			  <dependency>
 				  <groupId>org.eclipse.jetty.ee8</groupId>
 				  <artifactId>jetty-ee8-servlet</artifactId>
-				  <version>12.1.14</version>
+				  <version>12.1.15</version>
 				  <type>jar</type>
 			  </dependency>
 			  <dependency>
@@ -248,43 +248,43 @@
 			  <dependency>
 				  <groupId>org.eclipse.jetty</groupId>
 				  <artifactId>jetty-http</artifactId>
-				  <version>12.1.14</version>
+				  <version>12.1.15</version>
 				  <type>jar</type>
 			  </dependency>
 			  <dependency>
 				  <groupId>org.eclipse.jetty</groupId>
 				  <artifactId>jetty-io</artifactId>
-				  <version>12.1.14</version>
+				  <version>12.1.15</version>
 				  <type>jar</type>
 			  </dependency>
 			  <dependency>
 				  <groupId>org.eclipse.jetty</groupId>
 				  <artifactId>jetty-security</artifactId>
-				  <version>12.1.14</version>
+				  <version>12.1.15</version>
 				  <type>jar</type>
 			  </dependency>
 			  <dependency>
 				  <groupId>org.eclipse.jetty</groupId>
 				  <artifactId>jetty-server</artifactId>
-				  <version>12.1.14</version>
+				  <version>12.1.15</version>
 				  <type>jar</type>
 			  </dependency>
 			  <dependency>
 				  <groupId>org.eclipse.jetty</groupId>
 				  <artifactId>jetty-session</artifactId>
-				  <version>12.1.14</version>
+				  <version>12.1.15</version>
 				  <type>jar</type>
 			  </dependency>
 			  <dependency>
 				  <groupId>org.eclipse.jetty</groupId>
 				  <artifactId>jetty-util-ajax</artifactId>
-				  <version>12.1.14</version>
+				  <version>12.1.15</version>
 				  <type>jar</type>
 			  </dependency>
 			  <dependency>
 				  <groupId>org.eclipse.jetty</groupId>
 				  <artifactId>jetty-util</artifactId>
-				  <version>12.1.14</version>
+				  <version>12.1.15</version>
 				  <type>jar</type>
 			  </dependency>
 			  <dependency>
