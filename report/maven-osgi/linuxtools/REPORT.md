@@ -9,6 +9,8 @@
  - [com.fasterxml.jackson.module](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/)
     - [jackson-module-jakarta-xmlbind-annotations](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-jakarta-xmlbind-annotations/) **[2.22.4](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-jakarta-xmlbind-annotations/2.22.4)** < [2.23.0](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-jakarta-xmlbind-annotations/2.23.0/)
     - [jackson-module-jaxb-annotations](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/) **[2.22.4](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.22.4)** < [2.23.0](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.23.0/)
+ - [org.bouncycastle](https://repo.maven.apache.org/maven2/org/bouncycastle/)
+    - [bcpkix-jdk18on](https://repo.maven.apache.org/maven2/org/bouncycastle/bcpkix-jdk18on/) **[1.86](https://repo.maven.apache.org/maven2/org/bouncycastle/bcpkix-jdk18on/1.86)** < [1.87](https://repo.maven.apache.org/maven2/org/bouncycastle/bcpkix-jdk18on/1.87/)
 
 ## Updates Applied
 [updated.target](updated.target)

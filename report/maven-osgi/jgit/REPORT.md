@@ -1,6 +1,11 @@
 # Target Platform: [jgit](https://raw.githubusercontent.com/eclipse-jgit/jgit/master/org.eclipse.jgit.packaging/org.eclipse.jgit.target/maven/dependencies.tpd)
 
 ## Minor Updates
+ - [org.bouncycastle](https://repo.maven.apache.org/maven2/org/bouncycastle/)
+    - [bcpg-jdk18on](https://repo.maven.apache.org/maven2/org/bouncycastle/bcpg-jdk18on/) **[1.86](https://repo.maven.apache.org/maven2/org/bouncycastle/bcpg-jdk18on/1.86)** < [1.87](https://repo.maven.apache.org/maven2/org/bouncycastle/bcpg-jdk18on/1.87/)
+    - [bcpkix-jdk18on](https://repo.maven.apache.org/maven2/org/bouncycastle/bcpkix-jdk18on/) **[1.86](https://repo.maven.apache.org/maven2/org/bouncycastle/bcpkix-jdk18on/1.86)** < [1.87](https://repo.maven.apache.org/maven2/org/bouncycastle/bcpkix-jdk18on/1.87/)
+    - [bcprov-jdk18on](https://repo.maven.apache.org/maven2/org/bouncycastle/bcprov-jdk18on/) **[1.86](https://repo.maven.apache.org/maven2/org/bouncycastle/bcprov-jdk18on/1.86)** < [1.87](https://repo.maven.apache.org/maven2/org/bouncycastle/bcprov-jdk18on/1.87/)
+    - [bcutil-jdk18on](https://repo.maven.apache.org/maven2/org/bouncycastle/bcutil-jdk18on/) **[1.86](https://repo.maven.apache.org/maven2/org/bouncycastle/bcutil-jdk18on/1.86)** < [1.87](https://repo.maven.apache.org/maven2/org/bouncycastle/bcutil-jdk18on/1.87/)
  - [org.eclipse.jetty](https://repo.maven.apache.org/maven2/org/eclipse/jetty/)
     - [jetty-http](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-http/) **[12.1.14](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-http/12.1.14)** < [12.1.15](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-http/12.1.15/)
     - [jetty-io](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-io/) **[12.1.14](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-io/12.1.14)** < [12.1.15](https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-io/12.1.15/)
