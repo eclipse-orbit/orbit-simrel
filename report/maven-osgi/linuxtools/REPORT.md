@@ -1,12 +1,5 @@
 # Target Platform: [linuxtools](https://raw.githubusercontent.com/eclipse-linuxtools/org.eclipse.linuxtools/refs/heads/master/releng/org.eclipse.linuxtools.target/linuxtools-latest.target)
 
-## Minor Updates
- - [org.bouncycastle](https://repo.maven.apache.org/maven2/org/bouncycastle/)
-    - [bcpkix-jdk18on](https://repo.maven.apache.org/maven2/org/bouncycastle/bcpkix-jdk18on/) **[1.86](https://repo.maven.apache.org/maven2/org/bouncycastle/bcpkix-jdk18on/1.86)** < [1.87](https://repo.maven.apache.org/maven2/org/bouncycastle/bcpkix-jdk18on/1.87/)
-
-## Updates Applied
-[updated.target](updated.target)
-
 ## Content
  - [com.fasterxml.jackson.core](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/)
     - [jackson-annotations](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/) **[2.23](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.23)**
@@ -36,7 +29,7 @@
  - [org.apache.commons](https://repo.maven.apache.org/maven2/org/apache/commons/)
     - [commons-compress](https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/) **[1.28.0](https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.28.0)**
  - [org.bouncycastle](https://repo.maven.apache.org/maven2/org/bouncycastle/)
-    - [bcpkix-jdk18on](https://repo.maven.apache.org/maven2/org/bouncycastle/bcpkix-jdk18on/) **[1.86](https://repo.maven.apache.org/maven2/org/bouncycastle/bcpkix-jdk18on/1.86)**
+    - [bcpkix-jdk18on](https://repo.maven.apache.org/maven2/org/bouncycastle/bcpkix-jdk18on/) **[1.87](https://repo.maven.apache.org/maven2/org/bouncycastle/bcpkix-jdk18on/1.87)**
  - [org.codelibs](https://repo.maven.apache.org/maven2/org/codelibs/)
     - [nekohtml](https://repo.maven.apache.org/maven2/org/codelibs/nekohtml/) **[3.0.4](https://repo.maven.apache.org/maven2/org/codelibs/nekohtml/3.0.4)**
  - [org.eclipse.swtchart](https://repo.maven.apache.org/maven2/org/eclipse/swtchart/)
