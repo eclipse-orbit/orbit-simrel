@@ -1,12 +1,5 @@
 # Target Platform: [egit](https://raw.githubusercontent.com/eclipse-egit/egit/master/org.eclipse.egit.target/maven/dependencies.tpd)
 
-## Minor Updates
- - [org.apache.commons](https://repo.maven.apache.org/maven2/org/apache/commons/)
-    - [commons-lang3](https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/) **[3.21.0](https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.21.0)** < [3.22.0](https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.22.0/)
-
-## Updates Applied
-[updated.tpd](updated.tpd)
-
 ## Content
  - [args4j](https://repo.maven.apache.org/maven2/args4j/)
     - [args4j](https://repo.maven.apache.org/maven2/args4j/args4j/) **[2.37](https://repo.maven.apache.org/maven2/args4j/args4j/2.37)**
@@ -30,7 +23,7 @@
     - [jna-platform](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna-platform/) **[5.19.1](https://repo.maven.apache.org/maven2/net/java/dev/jna/jna-platform/5.19.1)**
  - [org.apache.commons](https://repo.maven.apache.org/maven2/org/apache/commons/)
     - [commons-compress](https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/) **[1.28.0](https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.28.0)**
-    - [commons-lang3](https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/) **[3.21.0](https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.21.0)**
+    - [commons-lang3](https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/) **[3.22.0](https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.22.0)**
  - [org.apache.sshd](https://repo.maven.apache.org/maven2/org/apache/sshd/)
     - [sshd-osgi](https://repo.maven.apache.org/maven2/org/apache/sshd/sshd-osgi/) **[2.20.1](https://repo.maven.apache.org/maven2/org/apache/sshd/sshd-osgi/2.20.1)**
     - [sshd-sftp](https://repo.maven.apache.org/maven2/org/apache/sshd/sshd-sftp/) **[2.20.1](https://repo.maven.apache.org/maven2/org/apache/sshd/sshd-sftp/2.20.1)**
