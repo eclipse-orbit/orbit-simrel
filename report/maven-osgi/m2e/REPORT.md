@@ -1,6 +1,8 @@
 # Target Platform: [m2e](https://raw.githubusercontent.com/eclipse-m2e/m2e-core/main/target-platform/target-platform.target)
 
 ## Minor Updates
+ - [ch.qos.logback](https://repo.maven.apache.org/maven2/ch/qos/logback/)
+    - [logback-classic](https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/) **[1.6.6](https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/1.6.6)** < [1.6.7](https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/1.6.7/)
  - [org.apache.commons](https://repo.maven.apache.org/maven2/org/apache/commons/)
     - [commons-lang3](https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/) **[3.21.0](https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.21.0)** < [3.22.0](https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.22.0/)
  - [org.apache.maven.archetype](https://repo.maven.apache.org/maven2/org/apache/maven/archetype/)
@@ -8,9 +10,9 @@
     - [archetype-common](https://repo.maven.apache.org/maven2/org/apache/maven/archetype/archetype-common/) **[3.2.1](https://repo.maven.apache.org/maven2/org/apache/maven/archetype/archetype-common/3.2.1)** < [3.4.1](https://repo.maven.apache.org/maven2/org/apache/maven/archetype/archetype-common/3.4.1/)
     - [archetype-descriptor](https://repo.maven.apache.org/maven2/org/apache/maven/archetype/archetype-descriptor/) **[3.2.1](https://repo.maven.apache.org/maven2/org/apache/maven/archetype/archetype-descriptor/3.2.1)** < [3.4.1](https://repo.maven.apache.org/maven2/org/apache/maven/archetype/archetype-descriptor/3.4.1/)
  - [org.codehaus.mojo.versions](https://repo.maven.apache.org/maven2/org/codehaus/mojo/versions/)
-    - [versions-api](https://repo.maven.apache.org/maven2/org/codehaus/mojo/versions/versions-api/) **[2.22.0](https://repo.maven.apache.org/maven2/org/codehaus/mojo/versions/versions-api/2.22.0)** < [2.25.1](https://repo.maven.apache.org/maven2/org/codehaus/mojo/versions/versions-api/2.25.1/)
-    - [versions-common](https://repo.maven.apache.org/maven2/org/codehaus/mojo/versions/versions-common/) **[2.22.0](https://repo.maven.apache.org/maven2/org/codehaus/mojo/versions/versions-common/2.22.0)** < [2.25.1](https://repo.maven.apache.org/maven2/org/codehaus/mojo/versions/versions-common/2.25.1/)
-    - [versions-model](https://repo.maven.apache.org/maven2/org/codehaus/mojo/versions/versions-model/) **[2.22.0](https://repo.maven.apache.org/maven2/org/codehaus/mojo/versions/versions-model/2.22.0)** < [2.25.1](https://repo.maven.apache.org/maven2/org/codehaus/mojo/versions/versions-model/2.25.1/)
+    - [versions-api](https://repo.maven.apache.org/maven2/org/codehaus/mojo/versions/versions-api/) **[2.22.0](https://repo.maven.apache.org/maven2/org/codehaus/mojo/versions/versions-api/2.22.0)** < [2.25.2](https://repo.maven.apache.org/maven2/org/codehaus/mojo/versions/versions-api/2.25.2/)
+    - [versions-common](https://repo.maven.apache.org/maven2/org/codehaus/mojo/versions/versions-common/) **[2.22.0](https://repo.maven.apache.org/maven2/org/codehaus/mojo/versions/versions-common/2.22.0)** < [2.25.2](https://repo.maven.apache.org/maven2/org/codehaus/mojo/versions/versions-common/2.25.2/)
+    - [versions-model](https://repo.maven.apache.org/maven2/org/codehaus/mojo/versions/versions-model/) **[2.22.0](https://repo.maven.apache.org/maven2/org/codehaus/mojo/versions/versions-model/2.22.0)** < [2.25.2](https://repo.maven.apache.org/maven2/org/codehaus/mojo/versions/versions-model/2.25.2/)
 
 ## Updates Applied
 [updated.target](updated.target)

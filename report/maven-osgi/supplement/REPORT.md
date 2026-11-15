@@ -6,7 +6,7 @@
 
 ## Content
  - [ch.qos.logback](https://repo.maven.apache.org/maven2/ch/qos/logback/)
-    - [logback-core](https://repo.maven.apache.org/maven2/ch/qos/logback/logback-core/) **[1.6.6](https://repo.maven.apache.org/maven2/ch/qos/logback/logback-core/1.6.6)**
+    - [logback-core](https://repo.maven.apache.org/maven2/ch/qos/logback/logback-core/) **[1.6.7](https://repo.maven.apache.org/maven2/ch/qos/logback/logback-core/1.6.7)**
  - [ch.qos.reload4j](https://repo.maven.apache.org/maven2/ch/qos/reload4j/)
     - [reload4j](https://repo.maven.apache.org/maven2/ch/qos/reload4j/reload4j/) **[1.2.27](https://repo.maven.apache.org/maven2/ch/qos/reload4j/reload4j/1.2.27)**
  - [com.ethlo.time](https://repo.maven.apache.org/maven2/com/ethlo/time/)
@@ -42,8 +42,8 @@
  - [com.github.mwiede](https://repo.maven.apache.org/maven2/com/github/mwiede/)
     - [jsch](https://repo.maven.apache.org/maven2/com/github/mwiede/jsch/) **[2.28.8](https://repo.maven.apache.org/maven2/com/github/mwiede/jsch/2.28.8)**
  - [com.github.oshi](https://repo.maven.apache.org/maven2/com/github/oshi/)
-    - [oshi-common](https://repo.maven.apache.org/maven2/com/github/oshi/oshi-common/) **[7.7.3](https://repo.maven.apache.org/maven2/com/github/oshi/oshi-common/7.7.3)**
-    - [oshi-core](https://repo.maven.apache.org/maven2/com/github/oshi/oshi-core/) **[7.7.3](https://repo.maven.apache.org/maven2/com/github/oshi/oshi-core/7.7.3)**
+    - [oshi-common](https://repo.maven.apache.org/maven2/com/github/oshi/oshi-common/) **[7.8.0](https://repo.maven.apache.org/maven2/com/github/oshi/oshi-common/7.8.0)**
+    - [oshi-core](https://repo.maven.apache.org/maven2/com/github/oshi/oshi-core/) **[7.8.0](https://repo.maven.apache.org/maven2/com/github/oshi/oshi-core/7.8.0)**
  - [com.github.weisj](https://repo.maven.apache.org/maven2/com/github/weisj/)
     - [jsvg-slf4j](https://repo.maven.apache.org/maven2/com/github/weisj/jsvg-slf4j/) **[2.2.0](https://repo.maven.apache.org/maven2/com/github/weisj/jsvg-slf4j/2.2.0)**
     - [jsvg-systemlogger](https://repo.maven.apache.org/maven2/com/github/weisj/jsvg-systemlogger/) **[2.2.0](https://repo.maven.apache.org/maven2/com/github/weisj/jsvg-systemlogger/2.2.0)**
@@ -192,7 +192,7 @@
     - [commons-fileupload2-javax](https://repo.maven.apache.org/maven2/org/apache/commons/commons-fileupload2-javax/) **[2.0.0-M5](https://repo.maven.apache.org/maven2/org/apache/commons/commons-fileupload2-javax/2.0.0-M5)**
     - [commons-lang3](https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/) **[3.22.0](https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.22.0)**
     - [commons-math3](https://repo.maven.apache.org/maven2/org/apache/commons/commons-math3/) **[3.6.1](https://repo.maven.apache.org/maven2/org/apache/commons/commons-math3/3.6.1)**
-    - [commons-secure-xml](https://repo.maven.apache.org/maven2/org/apache/commons/commons-secure-xml/) **[1.1.0](https://repo.maven.apache.org/maven2/org/apache/commons/commons-secure-xml/1.1.0)**
+    - [commons-secure-xml](https://repo.maven.apache.org/maven2/org/apache/commons/commons-secure-xml/) **[1.1.1](https://repo.maven.apache.org/maven2/org/apache/commons/commons-secure-xml/1.1.1)**
  - [org.apache.felix](https://repo.maven.apache.org/maven2/org/apache/felix/)
     - [org.apache.felix.http.servlet-api](https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.http.servlet-api/) **[6.1.0](https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.http.servlet-api/6.1.0)**
  - [org.apache.httpcomponents](https://repo.maven.apache.org/maven2/org/apache/httpcomponents/)

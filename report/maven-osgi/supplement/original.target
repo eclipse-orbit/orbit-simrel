@@ -7,7 +7,7 @@
         <dependency>
           <groupId>ch.qos.logback</groupId>
           <artifactId>logback-core</artifactId>
-          <version>1.6.6</version>
+          <version>1.6.7</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -151,13 +151,13 @@
         <dependency>
           <groupId>com.github.oshi</groupId>
           <artifactId>oshi-common</artifactId>
-          <version>7.7.3</version>
+          <version>7.8.0</version>
           <type>jar</type>
         </dependency>
         <dependency>
           <groupId>com.github.oshi</groupId>
           <artifactId>oshi-core</artifactId>
-          <version>7.7.3</version>
+          <version>7.8.0</version>
           <type>jar</type>
         </dependency>
         <dependency>
@@ -775,7 +775,7 @@
         <dependency>
           <groupId>org.apache.commons</groupId>
           <artifactId>commons-secure-xml</artifactId>
-          <version>1.1.0</version>
+          <version>1.1.1</version>
           <type>jar</type>
         </dependency>
         <dependency>
