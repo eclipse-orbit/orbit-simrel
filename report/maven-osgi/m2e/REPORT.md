@@ -29,6 +29,8 @@
     - [commons-cli](https://repo.maven.apache.org/maven2/commons-cli/commons-cli/) **[1.11.0](https://repo.maven.apache.org/maven2/commons-cli/commons-cli/1.11.0)**
  - [commons-codec](https://repo.maven.apache.org/maven2/commons-codec/)
     - [commons-codec](https://repo.maven.apache.org/maven2/commons-codec/commons-codec/) **[1.23.0](https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.23.0)**
+ - [commons-io](https://repo.maven.apache.org/maven2/commons-io/)
+    - [commons-io](https://repo.maven.apache.org/maven2/commons-io/commons-io/) **[2.22.0](https://repo.maven.apache.org/maven2/commons-io/commons-io/2.22.0)**
  - [io.takari.m2e.workspace](https://repo.maven.apache.org/maven2/io/takari/m2e/workspace/)
     - [org.eclipse.m2e.workspace.cli](https://repo.maven.apache.org/maven2/io/takari/m2e/workspace/org.eclipse.m2e.workspace.cli/) **[0.4.0](https://repo.maven.apache.org/maven2/io/takari/m2e/workspace/org.eclipse.m2e.workspace.cli/0.4.0)**
  - [org.apache.aries.spifly](https://repo.maven.apache.org/maven2/org/apache/aries/spifly/)
