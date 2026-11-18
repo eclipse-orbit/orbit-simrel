@@ -1,25 +1,17 @@
 # Target Platform: [m2e](https://raw.githubusercontent.com/eclipse-m2e/m2e-core/main/target-platform/target-platform.target)
 
 ## Minor Updates
- - [ch.qos.logback](https://repo.maven.apache.org/maven2/ch/qos/logback/)
-    - [logback-classic](https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/) **[1.6.6](https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/1.6.6)** < [1.6.7](https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/1.6.7/)
- - [org.apache.commons](https://repo.maven.apache.org/maven2/org/apache/commons/)
-    - [commons-lang3](https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/) **[3.21.0](https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.21.0)** < [3.22.0](https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.22.0/)
  - [org.apache.maven.archetype](https://repo.maven.apache.org/maven2/org/apache/maven/archetype/)
     - [archetype-catalog](https://repo.maven.apache.org/maven2/org/apache/maven/archetype/archetype-catalog/) **[3.2.1](https://repo.maven.apache.org/maven2/org/apache/maven/archetype/archetype-catalog/3.2.1)** < [3.4.1](https://repo.maven.apache.org/maven2/org/apache/maven/archetype/archetype-catalog/3.4.1/)
     - [archetype-common](https://repo.maven.apache.org/maven2/org/apache/maven/archetype/archetype-common/) **[3.2.1](https://repo.maven.apache.org/maven2/org/apache/maven/archetype/archetype-common/3.2.1)** < [3.4.1](https://repo.maven.apache.org/maven2/org/apache/maven/archetype/archetype-common/3.4.1/)
     - [archetype-descriptor](https://repo.maven.apache.org/maven2/org/apache/maven/archetype/archetype-descriptor/) **[3.2.1](https://repo.maven.apache.org/maven2/org/apache/maven/archetype/archetype-descriptor/3.2.1)** < [3.4.1](https://repo.maven.apache.org/maven2/org/apache/maven/archetype/archetype-descriptor/3.4.1/)
- - [org.codehaus.mojo.versions](https://repo.maven.apache.org/maven2/org/codehaus/mojo/versions/)
-    - [versions-api](https://repo.maven.apache.org/maven2/org/codehaus/mojo/versions/versions-api/) **[2.22.0](https://repo.maven.apache.org/maven2/org/codehaus/mojo/versions/versions-api/2.22.0)** < [2.25.2](https://repo.maven.apache.org/maven2/org/codehaus/mojo/versions/versions-api/2.25.2/)
-    - [versions-common](https://repo.maven.apache.org/maven2/org/codehaus/mojo/versions/versions-common/) **[2.22.0](https://repo.maven.apache.org/maven2/org/codehaus/mojo/versions/versions-common/2.22.0)** < [2.25.2](https://repo.maven.apache.org/maven2/org/codehaus/mojo/versions/versions-common/2.25.2/)
-    - [versions-model](https://repo.maven.apache.org/maven2/org/codehaus/mojo/versions/versions-model/) **[2.22.0](https://repo.maven.apache.org/maven2/org/codehaus/mojo/versions/versions-model/2.22.0)** < [2.25.2](https://repo.maven.apache.org/maven2/org/codehaus/mojo/versions/versions-model/2.25.2/)
 
 ## Updates Applied
 [updated.target](updated.target)
 
 ## Content
  - [ch.qos.logback](https://repo.maven.apache.org/maven2/ch/qos/logback/)
-    - [logback-classic](https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/) **[1.6.6](https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/1.6.6)**
+    - [logback-classic](https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/) **[1.6.7](https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/1.6.7)**
  - [com.google.code.gson](https://repo.maven.apache.org/maven2/com/google/code/gson/)
     - [gson](https://repo.maven.apache.org/maven2/com/google/code/gson/gson/) **[2.15.0](https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.15.0)**
  - [com.google.guava](https://repo.maven.apache.org/maven2/com/google/guava/)
@@ -39,7 +31,7 @@
     - [org.apache.aries.spifly.dynamic.bundle](https://repo.maven.apache.org/maven2/org/apache/aries/spifly/org.apache.aries.spifly.dynamic.bundle/) **[1.3.8](https://repo.maven.apache.org/maven2/org/apache/aries/spifly/org.apache.aries.spifly.dynamic.bundle/1.3.8)**
  - [org.apache.commons](https://repo.maven.apache.org/maven2/org/apache/commons/)
     - [commons-collections4](https://repo.maven.apache.org/maven2/org/apache/commons/commons-collections4/) **[4.6.0](https://repo.maven.apache.org/maven2/org/apache/commons/commons-collections4/4.6.0)**
-    - [commons-lang3](https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/) **[3.21.0](https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.21.0)**
+    - [commons-lang3](https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/) **[3.22.0](https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.22.0)**
  - [org.apache.maven.archetype](https://repo.maven.apache.org/maven2/org/apache/maven/archetype/)
     - [archetype-catalog](https://repo.maven.apache.org/maven2/org/apache/maven/archetype/archetype-catalog/) **[3.2.1](https://repo.maven.apache.org/maven2/org/apache/maven/archetype/archetype-catalog/3.2.1)**
     - [archetype-common](https://repo.maven.apache.org/maven2/org/apache/maven/archetype/archetype-common/) **[3.2.1](https://repo.maven.apache.org/maven2/org/apache/maven/archetype/archetype-common/3.2.1)**
@@ -47,9 +39,9 @@
  - [org.apache.maven.shared](https://repo.maven.apache.org/maven2/org/apache/maven/shared/)
     - [maven-artifact-transfer](https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-artifact-transfer/) **[0.13.1](https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-artifact-transfer/0.13.1)**
  - [org.codehaus.mojo.versions](https://repo.maven.apache.org/maven2/org/codehaus/mojo/versions/)
-    - [versions-api](https://repo.maven.apache.org/maven2/org/codehaus/mojo/versions/versions-api/) **[2.22.0](https://repo.maven.apache.org/maven2/org/codehaus/mojo/versions/versions-api/2.22.0)**
-    - [versions-common](https://repo.maven.apache.org/maven2/org/codehaus/mojo/versions/versions-common/) **[2.22.0](https://repo.maven.apache.org/maven2/org/codehaus/mojo/versions/versions-common/2.22.0)**
-    - [versions-model](https://repo.maven.apache.org/maven2/org/codehaus/mojo/versions/versions-model/) **[2.22.0](https://repo.maven.apache.org/maven2/org/codehaus/mojo/versions/versions-model/2.22.0)**
+    - [versions-api](https://repo.maven.apache.org/maven2/org/codehaus/mojo/versions/versions-api/) **[2.25.2](https://repo.maven.apache.org/maven2/org/codehaus/mojo/versions/versions-api/2.25.2)**
+    - [versions-common](https://repo.maven.apache.org/maven2/org/codehaus/mojo/versions/versions-common/) **[2.25.2](https://repo.maven.apache.org/maven2/org/codehaus/mojo/versions/versions-common/2.25.2)**
+    - [versions-model](https://repo.maven.apache.org/maven2/org/codehaus/mojo/versions/versions-model/) **[2.25.2](https://repo.maven.apache.org/maven2/org/codehaus/mojo/versions/versions-model/2.25.2)**
  - [org.codehaus.woodstox](https://repo.maven.apache.org/maven2/org/codehaus/woodstox/)
     - [stax2-api](https://repo.maven.apache.org/maven2/org/codehaus/woodstox/stax2-api/) **[4.3.2](https://repo.maven.apache.org/maven2/org/codehaus/woodstox/stax2-api/4.3.2)**
  - [org.eclipse.lemminx](https://repo.eclipse.org/service/rest/repository/browse/lemminx-maven2-releases/org/eclipse/lemminx/)
