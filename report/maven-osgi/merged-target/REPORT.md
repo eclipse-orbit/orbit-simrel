@@ -73,7 +73,7 @@
  - [com.google.code.gson](https://repo.maven.apache.org/maven2/com/google/code/gson/)
     - [gson](https://repo.maven.apache.org/maven2/com/google/code/gson/gson/) **[2.15.0](https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.15.0)**
  - [com.google.errorprone](https://repo.maven.apache.org/maven2/com/google/errorprone/)
-    - [error_prone_annotations](https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/) **[2.52.0](https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.52.0)**
+    - [error_prone_annotations](https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/) **[2.53.0](https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.53.0)**
  - [com.google.guava](https://repo.maven.apache.org/maven2/com/google/guava/)
     - [failureaccess](https://repo.maven.apache.org/maven2/com/google/guava/failureaccess/) **[1.0.3](https://repo.maven.apache.org/maven2/com/google/guava/failureaccess/1.0.3)**
     - [guava](https://repo.maven.apache.org/maven2/com/google/guava/guava/) **[33.8.0-jre](https://repo.maven.apache.org/maven2/com/google/guava/guava/33.8.0-jre)**

@@ -33,6 +33,8 @@
     - [commons-io](https://repo.maven.apache.org/maven2/commons-io/commons-io/) **[2.22.0](https://repo.maven.apache.org/maven2/commons-io/commons-io/2.22.0)**
  - [io.takari.m2e.workspace](https://repo.maven.apache.org/maven2/io/takari/m2e/workspace/)
     - [org.eclipse.m2e.workspace.cli](https://repo.maven.apache.org/maven2/io/takari/m2e/workspace/org.eclipse.m2e.workspace.cli/) **[0.4.0](https://repo.maven.apache.org/maven2/io/takari/m2e/workspace/org.eclipse.m2e.workspace.cli/0.4.0)**
+ - [jaxen](https://repo.maven.apache.org/maven2/jaxen/)
+    - [jaxen](https://repo.maven.apache.org/maven2/jaxen/jaxen/) **[2.0.6](https://repo.maven.apache.org/maven2/jaxen/jaxen/2.0.6)**
  - [org.apache.aries.spifly](https://repo.maven.apache.org/maven2/org/apache/aries/spifly/)
     - [org.apache.aries.spifly.dynamic.bundle](https://repo.maven.apache.org/maven2/org/apache/aries/spifly/org.apache.aries.spifly.dynamic.bundle/) **[1.3.8](https://repo.maven.apache.org/maven2/org/apache/aries/spifly/org.apache.aries.spifly.dynamic.bundle/1.3.8)**
  - [org.apache.commons](https://repo.maven.apache.org/maven2/org/apache/commons/)
