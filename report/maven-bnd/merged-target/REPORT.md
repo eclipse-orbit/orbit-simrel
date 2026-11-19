@@ -16,7 +16,7 @@
  - [com.github.virtuald](https://repo.maven.apache.org/maven2/com/github/virtuald/)
     - [curvesapi](https://repo.maven.apache.org/maven2/com/github/virtuald/curvesapi/) **[1.08](https://repo.maven.apache.org/maven2/com/github/virtuald/curvesapi/1.08)**
  - [com.google.javascript](https://repo.maven.apache.org/maven2/com/google/javascript/)
-    - [closure-compiler](https://repo.maven.apache.org/maven2/com/google/javascript/closure-compiler/) **[v20261116](https://repo.maven.apache.org/maven2/com/google/javascript/closure-compiler/v20261116)**
+    - [closure-compiler](https://repo.maven.apache.org/maven2/com/google/javascript/closure-compiler/) **[v20261117](https://repo.maven.apache.org/maven2/com/google/javascript/closure-compiler/v20261117)**
  - [com.jcraft](https://repo.maven.apache.org/maven2/com/jcraft/)
     - [jsch](https://repo.maven.apache.org/maven2/com/jcraft/jsch/) **[0.1.55](https://repo.maven.apache.org/maven2/com/jcraft/jsch/0.1.55)**
     - [jzlib](https://repo.maven.apache.org/maven2/com/jcraft/jzlib/) **[1.1.3](https://repo.maven.apache.org/maven2/com/jcraft/jzlib/1.1.3)**
@@ -43,8 +43,8 @@
     - [httpclient5](https://repo.maven.apache.org/maven2/org/apache/httpcomponents/client5/httpclient5/) **[5.6.5](https://repo.maven.apache.org/maven2/org/apache/httpcomponents/client5/httpclient5/5.6.5)**
     - [httpclient5-win](https://repo.maven.apache.org/maven2/org/apache/httpcomponents/client5/httpclient5-win/) **[5.2.3](https://repo.maven.apache.org/maven2/org/apache/httpcomponents/client5/httpclient5-win/5.2.3)**
  - [org.apache.httpcomponents.core5](https://repo.maven.apache.org/maven2/org/apache/httpcomponents/core5/)
-    - [httpcore5](https://repo.maven.apache.org/maven2/org/apache/httpcomponents/core5/httpcore5/) **[5.4.4](https://repo.maven.apache.org/maven2/org/apache/httpcomponents/core5/httpcore5/5.4.4)**
-    - [httpcore5-h2](https://repo.maven.apache.org/maven2/org/apache/httpcomponents/core5/httpcore5-h2/) **[5.4.4](https://repo.maven.apache.org/maven2/org/apache/httpcomponents/core5/httpcore5-h2/5.4.4)**
+    - [httpcore5](https://repo.maven.apache.org/maven2/org/apache/httpcomponents/core5/httpcore5/) **[5.5](https://repo.maven.apache.org/maven2/org/apache/httpcomponents/core5/httpcore5/5.5)**
+    - [httpcore5-h2](https://repo.maven.apache.org/maven2/org/apache/httpcomponents/core5/httpcore5-h2/) **[5.5](https://repo.maven.apache.org/maven2/org/apache/httpcomponents/core5/httpcore5-h2/5.5)**
  - [org.apache.lucene](https://repo.maven.apache.org/maven2/org/apache/lucene/)
     - [lucene-analysis-common](https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-analysis-common/) **[10.6.0](https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-analysis-common/10.6.0)**
     - [lucene-analysis-smartcn](https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-analysis-smartcn/) **[10.6.0](https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-analysis-smartcn/10.6.0)**
