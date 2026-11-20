@@ -305,14 +305,14 @@
  - [org.codelibs](https://repo.maven.apache.org/maven2/org/codelibs/)
     - [nekohtml](https://repo.maven.apache.org/maven2/org/codelibs/nekohtml/) **[3.0.4](https://repo.maven.apache.org/maven2/org/codelibs/nekohtml/3.0.4)**
  - [org.commonmark](https://repo.maven.apache.org/maven2/org/commonmark/)
-    - [commonmark](https://repo.maven.apache.org/maven2/org/commonmark/commonmark/) **[0.32.0](https://repo.maven.apache.org/maven2/org/commonmark/commonmark/0.32.0)**
-    - [commonmark-ext-gfm-strikethrough](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-gfm-strikethrough/) **[0.32.0](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-gfm-strikethrough/0.32.0)**
-    - [commonmark-ext-gfm-tables](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-gfm-tables/) **[0.32.0](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-gfm-tables/0.32.0)**
-    - [commonmark-ext-heading-anchor](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-heading-anchor/) **[0.32.0](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-heading-anchor/0.32.0)**
-    - [commonmark-ext-image-attributes](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-image-attributes/) **[0.32.0](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-image-attributes/0.32.0)**
-    - [commonmark-ext-ins](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-ins/) **[0.32.0](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-ins/0.32.0)**
-    - [commonmark-ext-task-list-items](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-task-list-items/) **[0.32.0](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-task-list-items/0.32.0)**
-    - [commonmark-ext-yaml-front-matter](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-yaml-front-matter/) **[0.32.0](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-yaml-front-matter/0.32.0)**
+    - [commonmark](https://repo.maven.apache.org/maven2/org/commonmark/commonmark/) **[0.33.0](https://repo.maven.apache.org/maven2/org/commonmark/commonmark/0.33.0)**
+    - [commonmark-ext-gfm-strikethrough](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-gfm-strikethrough/) **[0.33.0](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-gfm-strikethrough/0.33.0)**
+    - [commonmark-ext-gfm-tables](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-gfm-tables/) **[0.33.0](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-gfm-tables/0.33.0)**
+    - [commonmark-ext-heading-anchor](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-heading-anchor/) **[0.33.0](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-heading-anchor/0.33.0)**
+    - [commonmark-ext-image-attributes](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-image-attributes/) **[0.33.0](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-image-attributes/0.33.0)**
+    - [commonmark-ext-ins](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-ins/) **[0.33.0](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-ins/0.33.0)**
+    - [commonmark-ext-task-list-items](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-task-list-items/) **[0.33.0](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-task-list-items/0.33.0)**
+    - [commonmark-ext-yaml-front-matter](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-yaml-front-matter/) **[0.33.0](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-yaml-front-matter/0.33.0)**
  - [org.conscrypt](https://repo.maven.apache.org/maven2/org/conscrypt/)
     - [conscrypt-openjdk-uber](https://repo.maven.apache.org/maven2/org/conscrypt/conscrypt-openjdk-uber/) **[2.9.0](https://repo.maven.apache.org/maven2/org/conscrypt/conscrypt-openjdk-uber/2.9.0)**
  - [org.easymock](https://repo.maven.apache.org/maven2/org/easymock/)
@@ -401,9 +401,9 @@
     - [mockito-core](https://repo.maven.apache.org/maven2/org/mockito/mockito-core/) **[5.24.0](https://repo.maven.apache.org/maven2/org/mockito/mockito-core/5.24.0)**
     - [mockito-junit-jupiter](https://repo.maven.apache.org/maven2/org/mockito/mockito-junit-jupiter/) **[5.24.0](https://repo.maven.apache.org/maven2/org/mockito/mockito-junit-jupiter/5.24.0)**
  - [org.mongodb](https://repo.maven.apache.org/maven2/org/mongodb/)
-    - [bson](https://repo.maven.apache.org/maven2/org/mongodb/bson/) **[5.14.0](https://repo.maven.apache.org/maven2/org/mongodb/bson/5.14.0)**
-    - [mongodb-driver-core](https://repo.maven.apache.org/maven2/org/mongodb/mongodb-driver-core/) **[5.14.0](https://repo.maven.apache.org/maven2/org/mongodb/mongodb-driver-core/5.14.0)**
-    - [mongodb-driver-sync](https://repo.maven.apache.org/maven2/org/mongodb/mongodb-driver-sync/) **[5.14.0](https://repo.maven.apache.org/maven2/org/mongodb/mongodb-driver-sync/5.14.0)**
+    - [bson](https://repo.maven.apache.org/maven2/org/mongodb/bson/) **[5.15.0](https://repo.maven.apache.org/maven2/org/mongodb/bson/5.15.0)**
+    - [mongodb-driver-core](https://repo.maven.apache.org/maven2/org/mongodb/mongodb-driver-core/) **[5.15.0](https://repo.maven.apache.org/maven2/org/mongodb/mongodb-driver-core/5.15.0)**
+    - [mongodb-driver-sync](https://repo.maven.apache.org/maven2/org/mongodb/mongodb-driver-sync/) **[5.15.0](https://repo.maven.apache.org/maven2/org/mongodb/mongodb-driver-sync/5.15.0)**
  - [org.mortbay.jasper](https://repo.maven.apache.org/maven2/org/mortbay/jasper/)
     - [mortbay-apache-el](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-el/) **[9.0.119](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-el/9.0.119)**
     - [mortbay-apache-el](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-el/) **[10.1.56](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-el/10.1.56)**
