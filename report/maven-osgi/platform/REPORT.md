@@ -20,6 +20,9 @@
     - [org.bndtools.templating](https://repo.maven.apache.org/maven2/org/bndtools/org.bndtools.templating/) **[7.4.0](https://repo.maven.apache.org/maven2/org/bndtools/org.bndtools.templating/7.4.0)** < [7.5.0](https://repo.maven.apache.org/maven2/org/bndtools/org.bndtools.templating/7.5.0/)
     - [org.bndtools.versioncontrol.ignores.manager](https://repo.maven.apache.org/maven2/org/bndtools/org.bndtools.versioncontrol.ignores.manager/) **[7.4.0](https://repo.maven.apache.org/maven2/org/bndtools/org.bndtools.versioncontrol.ignores.manager/7.4.0)** < [7.5.0](https://repo.maven.apache.org/maven2/org/bndtools/org.bndtools.versioncontrol.ignores.manager/7.5.0/)
     - [org.bndtools.versioncontrol.ignores.plugin.git](https://repo.maven.apache.org/maven2/org/bndtools/org.bndtools.versioncontrol.ignores.plugin.git/) **[7.4.0](https://repo.maven.apache.org/maven2/org/bndtools/org.bndtools.versioncontrol.ignores.plugin.git/7.4.0)** < [7.5.0](https://repo.maven.apache.org/maven2/org/bndtools/org.bndtools.versioncontrol.ignores.plugin.git/7.5.0/)
+ - [org.commonmark](https://repo.maven.apache.org/maven2/org/commonmark/)
+    - [commonmark](https://repo.maven.apache.org/maven2/org/commonmark/commonmark/) **[0.32.0](https://repo.maven.apache.org/maven2/org/commonmark/commonmark/0.32.0)** < [0.33.0](https://repo.maven.apache.org/maven2/org/commonmark/commonmark/0.33.0/)
+    - [commonmark-ext-gfm-tables](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-gfm-tables/) **[0.32.0](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-gfm-tables/0.32.0)** < [0.33.0](https://repo.maven.apache.org/maven2/org/commonmark/commonmark-ext-gfm-tables/0.33.0/)
 
 ## Major Updates
  - [jakarta.el](https://repo.maven.apache.org/maven2/jakarta/el/)
