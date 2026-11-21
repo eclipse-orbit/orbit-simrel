@@ -38,7 +38,7 @@
     - [jnr-posix](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-posix/) **[3.2.8](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-posix/3.2.8)**
     - [jnr-unixsocket](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-unixsocket/) **[0.39.9](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-unixsocket/0.39.9)**
  - [com.github.librepdf](https://repo.maven.apache.org/maven2/com/github/librepdf/)
-    - [openpdf](https://repo.maven.apache.org/maven2/com/github/librepdf/openpdf/) **[3.0.5](https://repo.maven.apache.org/maven2/com/github/librepdf/openpdf/3.0.5)**
+    - [openpdf](https://repo.maven.apache.org/maven2/com/github/librepdf/openpdf/) **[3.0.6](https://repo.maven.apache.org/maven2/com/github/librepdf/openpdf/3.0.6)**
  - [com.github.mwiede](https://repo.maven.apache.org/maven2/com/github/mwiede/)
     - [jsch](https://repo.maven.apache.org/maven2/com/github/mwiede/jsch/) **[2.28.8](https://repo.maven.apache.org/maven2/com/github/mwiede/jsch/2.28.8)**
  - [com.github.oshi](https://repo.maven.apache.org/maven2/com/github/oshi/)
