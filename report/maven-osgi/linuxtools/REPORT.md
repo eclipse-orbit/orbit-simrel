@@ -1,5 +1,13 @@
 # Target Platform: [linuxtools](https://raw.githubusercontent.com/eclipse-linuxtools/org.eclipse.linuxtools/refs/heads/master/releng/org.eclipse.linuxtools.target/linuxtools-latest.target)
 
+## Minor Updates
+ - [com.github.jnr](https://repo.maven.apache.org/maven2/com/github/jnr/)
+    - [jnr-posix](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-posix/) **[3.2.8](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-posix/3.2.8)** < [3.2.9](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-posix/3.2.9/)
+    - [jnr-unixsocket](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-unixsocket/) **[0.39.9](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-unixsocket/0.39.9)** < [0.39.10](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-unixsocket/0.39.10/)
+
+## Updates Applied
+[updated.target](updated.target)
+
 ## Content
  - [com.fasterxml.jackson.core](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/)
     - [jackson-annotations](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/) **[2.23](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.23)**
