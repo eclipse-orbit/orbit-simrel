@@ -2,7 +2,7 @@
 
 ## Major Updates
  - [org.apache.tika](https://repo.maven.apache.org/maven2/org/apache/tika/)
-    - [tika-core](https://repo.maven.apache.org/maven2/org/apache/tika/tika-core/) **[3.3.3](https://repo.maven.apache.org/maven2/org/apache/tika/tika-core/3.3.3)** < [4.2.0](https://repo.maven.apache.org/maven2/org/apache/tika/tika-core/4.2.0/)
+    - [tika-core](https://repo.maven.apache.org/maven2/org/apache/tika/tika-core/) **[3.4.0](https://repo.maven.apache.org/maven2/org/apache/tika/tika-core/3.4.0)** < [4.2.0](https://repo.maven.apache.org/maven2/org/apache/tika/tika-core/4.2.0/)
 
 ## Content
  - [ch.qos.logback](https://repo.maven.apache.org/maven2/ch/qos/logback/)
@@ -211,7 +211,7 @@
     - [preflight](https://repo.maven.apache.org/maven2/org/apache/pdfbox/preflight/) **[3.0.8](https://repo.maven.apache.org/maven2/org/apache/pdfbox/preflight/3.0.8)**
     - [xmpbox](https://repo.maven.apache.org/maven2/org/apache/pdfbox/xmpbox/) **[3.0.8](https://repo.maven.apache.org/maven2/org/apache/pdfbox/xmpbox/3.0.8)**
  - [org.apache.tika](https://repo.maven.apache.org/maven2/org/apache/tika/)
-    - [tika-core](https://repo.maven.apache.org/maven2/org/apache/tika/tika-core/) **[3.3.3](https://repo.maven.apache.org/maven2/org/apache/tika/tika-core/3.3.3)**
+    - [tika-core](https://repo.maven.apache.org/maven2/org/apache/tika/tika-core/) **[3.4.0](https://repo.maven.apache.org/maven2/org/apache/tika/tika-core/3.4.0)**
  - [org.apache.velocity](https://repo.maven.apache.org/maven2/org/apache/velocity/)
     - [velocity-engine-core](https://repo.maven.apache.org/maven2/org/apache/velocity/velocity-engine-core/) **[2.4.1](https://repo.maven.apache.org/maven2/org/apache/velocity/velocity-engine-core/2.4.1)**
  - [org.codehaus.woodstox](https://repo.maven.apache.org/maven2/org/codehaus/woodstox/)
