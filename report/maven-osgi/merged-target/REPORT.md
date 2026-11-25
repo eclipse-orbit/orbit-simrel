@@ -299,7 +299,7 @@
     - [bcutil-jdk18on](https://repo.maven.apache.org/maven2/org/bouncycastle/bcutil-jdk18on/) **[1.87](https://repo.maven.apache.org/maven2/org/bouncycastle/bcutil-jdk18on/1.87)**
  - [org.burningwave](https://repo.maven.apache.org/maven2/org/burningwave/)
     - [core](https://repo.maven.apache.org/maven2/org/burningwave/core/) **[12.67.0](https://repo.maven.apache.org/maven2/org/burningwave/core/12.67.0)**
-    - [jvm-driver](https://repo.maven.apache.org/maven2/org/burningwave/jvm-driver/) **[8.20.1](https://repo.maven.apache.org/maven2/org/burningwave/jvm-driver/8.20.1)**
+    - [jvm-driver](https://repo.maven.apache.org/maven2/org/burningwave/jvm-driver/) **[8.21.0](https://repo.maven.apache.org/maven2/org/burningwave/jvm-driver/8.21.0)**
  - [org.codehaus.woodstox](https://repo.maven.apache.org/maven2/org/codehaus/woodstox/)
     - [stax2-api](https://repo.maven.apache.org/maven2/org/codehaus/woodstox/stax2-api/) **[4.3.2](https://repo.maven.apache.org/maven2/org/codehaus/woodstox/stax2-api/4.3.2)**
  - [org.codelibs](https://repo.maven.apache.org/maven2/org/codelibs/)

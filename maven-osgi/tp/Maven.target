@@ -3,7 +3,7 @@
 <target name="Maven" sequenceNumber="1">
   <locations>
     <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="error" type="Maven">
-      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.42.0.v20261125-1000">
+      <feature id="org.eclipse.orbit.maven.osgi.all" label="Orbit Maven OSGi All" provider-name="Eclipse Orbit" version="4.42.0.v20261125-1200">
         <description>This feature's dependencies are pulled directly from Maven central.</description>
         <copyright>
 Copyright (c) 2026 Eclipse contributors and others.
@@ -16,7 +16,7 @@ https://www.eclipse.org/legal/epl-2.0/
 SPDX-License-Identifier: EPL-2.0
         </copyright>
         <license url="https://www.eclipse.org/legal/epl-2.0/"/>
-        <!-- SHA1 554cb7ea1547238ebae1e620f60fb9a6f15720e6 -->
+        <!-- SHA1 2884705fd7e6f99e603f0a8871d305e3a1796643 -->
       </feature>
       <dependencies>
         <dependency>
@@ -1253,7 +1253,7 @@ SPDX-License-Identifier: EPL-2.0
         <dependency>
           <groupId>org.burningwave</groupId>
           <artifactId>jvm-driver</artifactId>
-          <version>8.20.1</version>
+          <version>8.21.0</version>
           <type>jar</type>
         </dependency>
         <dependency>
