@@ -20,6 +20,17 @@
     - [org.bndtools.templating](https://repo.maven.apache.org/maven2/org/bndtools/org.bndtools.templating/) **[7.4.0](https://repo.maven.apache.org/maven2/org/bndtools/org.bndtools.templating/7.4.0)** < [7.5.0](https://repo.maven.apache.org/maven2/org/bndtools/org.bndtools.templating/7.5.0/)
     - [org.bndtools.versioncontrol.ignores.manager](https://repo.maven.apache.org/maven2/org/bndtools/org.bndtools.versioncontrol.ignores.manager/) **[7.4.0](https://repo.maven.apache.org/maven2/org/bndtools/org.bndtools.versioncontrol.ignores.manager/7.4.0)** < [7.5.0](https://repo.maven.apache.org/maven2/org/bndtools/org.bndtools.versioncontrol.ignores.manager/7.5.0/)
     - [org.bndtools.versioncontrol.ignores.plugin.git](https://repo.maven.apache.org/maven2/org/bndtools/org.bndtools.versioncontrol.ignores.plugin.git/) **[7.4.0](https://repo.maven.apache.org/maven2/org/bndtools/org.bndtools.versioncontrol.ignores.plugin.git/7.4.0)** < [7.5.0](https://repo.maven.apache.org/maven2/org/bndtools/org.bndtools.versioncontrol.ignores.plugin.git/7.5.0/)
+ - [org.mortbay.jasper](https://repo.maven.apache.org/maven2/org/mortbay/jasper/)
+    - [mortbay-apache-el](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-el/) **[9.0.119](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-el/9.0.119)** < [9.0.124](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-el/9.0.124/)
+    - [mortbay-apache-jsp](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-jsp/) **[9.0.119](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-jsp/9.0.119)** < [9.0.124](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-jsp/9.0.124/)
+ - [org.osgi](https://repo.maven.apache.org/maven2/org/osgi/)
+    - [org.osgi.test.assertj.framework](https://repo.maven.apache.org/maven2/org/osgi/org.osgi.test.assertj.framework/) **[1.3.0](https://repo.maven.apache.org/maven2/org/osgi/org.osgi.test.assertj.framework/1.3.0)** < [1.4.0](https://repo.maven.apache.org/maven2/org/osgi/org.osgi.test.assertj.framework/1.4.0/)
+    - [org.osgi.test.assertj.log](https://repo.maven.apache.org/maven2/org/osgi/org.osgi.test.assertj.log/) **[1.3.0](https://repo.maven.apache.org/maven2/org/osgi/org.osgi.test.assertj.log/1.3.0)** < [1.4.0](https://repo.maven.apache.org/maven2/org/osgi/org.osgi.test.assertj.log/1.4.0/)
+    - [org.osgi.test.assertj.promise](https://repo.maven.apache.org/maven2/org/osgi/org.osgi.test.assertj.promise/) **[1.3.0](https://repo.maven.apache.org/maven2/org/osgi/org.osgi.test.assertj.promise/1.3.0)** < [1.4.0](https://repo.maven.apache.org/maven2/org/osgi/org.osgi.test.assertj.promise/1.4.0/)
+    - [org.osgi.test.common](https://repo.maven.apache.org/maven2/org/osgi/org.osgi.test.common/) **[1.3.0](https://repo.maven.apache.org/maven2/org/osgi/org.osgi.test.common/1.3.0)** < [1.4.0](https://repo.maven.apache.org/maven2/org/osgi/org.osgi.test.common/1.4.0/)
+    - [org.osgi.test.junit4](https://repo.maven.apache.org/maven2/org/osgi/org.osgi.test.junit4/) **[1.3.0](https://repo.maven.apache.org/maven2/org/osgi/org.osgi.test.junit4/1.3.0)** < [1.4.0](https://repo.maven.apache.org/maven2/org/osgi/org.osgi.test.junit4/1.4.0/)
+    - [org.osgi.test.junit5](https://repo.maven.apache.org/maven2/org/osgi/org.osgi.test.junit5/) **[1.3.0](https://repo.maven.apache.org/maven2/org/osgi/org.osgi.test.junit5/1.3.0)** < [1.4.0](https://repo.maven.apache.org/maven2/org/osgi/org.osgi.test.junit5/1.4.0/)
+    - [org.osgi.test.junit5.cm](https://repo.maven.apache.org/maven2/org/osgi/org.osgi.test.junit5.cm/) **[1.3.0](https://repo.maven.apache.org/maven2/org/osgi/org.osgi.test.junit5.cm/1.3.0)** < [1.4.0](https://repo.maven.apache.org/maven2/org/osgi/org.osgi.test.junit5.cm/1.4.0/)
 
 ## Major Updates
  - [jakarta.el](https://repo.maven.apache.org/maven2/jakarta/el/)
@@ -29,8 +40,8 @@
  - [org.glassfish](https://repo.maven.apache.org/maven2/org/glassfish/)
     - [jakarta.el](https://repo.maven.apache.org/maven2/org/glassfish/jakarta.el/) **[3.0.4](https://repo.maven.apache.org/maven2/org/glassfish/jakarta.el/3.0.4)** < [4.0.2](https://repo.maven.apache.org/maven2/org/glassfish/jakarta.el/4.0.2/)
  - [org.mortbay.jasper](https://repo.maven.apache.org/maven2/org/mortbay/jasper/)
-    - [mortbay-apache-el](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-el/) **[9.0.119](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-el/9.0.119)** < [11.0.23](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-el/11.0.23/)
-    - [mortbay-apache-jsp](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-jsp/) **[9.0.119](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-jsp/9.0.119)** < [11.0.23](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-jsp/11.0.23/)
+    - [mortbay-apache-el](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-el/) **[9.0.119](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-el/9.0.119)** < [11.0.29](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-el/11.0.29/)
+    - [mortbay-apache-jsp](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-jsp/) **[9.0.119](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-jsp/9.0.119)** < [11.0.29](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-jsp/11.0.29/)
 
 ## Updates Applied
 [updated.target](updated.target)

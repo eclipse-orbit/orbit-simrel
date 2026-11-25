@@ -296,13 +296,13 @@
 			  <dependency>
 				  <groupId>org.mortbay.jasper</groupId>
 				  <artifactId>mortbay-apache-el</artifactId>
-				  <version>9.0.119</version>
+				  <version>9.0.124</version>
 				  <type>jar</type>
 			  </dependency>
 			  <dependency>
 				  <groupId>org.mortbay.jasper</groupId>
 				  <artifactId>mortbay-apache-jsp</artifactId>
-				  <version>9.0.119</version>
+				  <version>9.0.124</version>
 				  <type>jar</type>
 			  </dependency>
 		  </dependencies>
@@ -884,43 +884,43 @@
 			  <dependency>
 				  <groupId>org.osgi</groupId>
 				  <artifactId>org.osgi.test.assertj.framework</artifactId>
-				  <version>1.3.0</version>
+				  <version>1.4.0</version>
 				  <type>jar</type>
 			  </dependency>
 			  <dependency>
 				  <groupId>org.osgi</groupId>
 				  <artifactId>org.osgi.test.assertj.log</artifactId>
-				  <version>1.3.0</version>
+				  <version>1.4.0</version>
 				  <type>jar</type>
 			  </dependency>
 			  <dependency>
 				  <groupId>org.osgi</groupId>
 				  <artifactId>org.osgi.test.assertj.promise</artifactId>
-				  <version>1.3.0</version>
+				  <version>1.4.0</version>
 				  <type>jar</type>
 			  </dependency>
 			  <dependency>
 				  <groupId>org.osgi</groupId>
 				  <artifactId>org.osgi.test.common</artifactId>
-				  <version>1.3.0</version>
+				  <version>1.4.0</version>
 				  <type>jar</type>
 			  </dependency>
 			  <dependency>
 				  <groupId>org.osgi</groupId>
 				  <artifactId>org.osgi.test.junit4</artifactId>
-				  <version>1.3.0</version>
+				  <version>1.4.0</version>
 				  <type>jar</type>
 			  </dependency>
 			  <dependency>
 				  <groupId>org.osgi</groupId>
 				  <artifactId>org.osgi.test.junit5.cm</artifactId>
-				  <version>1.3.0</version>
+				  <version>1.4.0</version>
 				  <type>jar</type>
 			  </dependency>
 			  <dependency>
 				  <groupId>org.osgi</groupId>
 				  <artifactId>org.osgi.test.junit5</artifactId>
-				  <version>1.3.0</version>
+				  <version>1.4.0</version>
 				  <type>jar</type>
 			  </dependency>
 		  </dependencies>

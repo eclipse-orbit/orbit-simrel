@@ -1,13 +1,5 @@
 # Target Platform: [linuxtools](https://raw.githubusercontent.com/eclipse-linuxtools/org.eclipse.linuxtools/refs/heads/master/releng/org.eclipse.linuxtools.target/linuxtools-latest.target)
 
-## Minor Updates
- - [com.github.jnr](https://repo.maven.apache.org/maven2/com/github/jnr/)
-    - [jnr-posix](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-posix/) **[3.2.8](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-posix/3.2.8)** < [3.2.9](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-posix/3.2.9/)
-    - [jnr-unixsocket](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-unixsocket/) **[0.39.9](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-unixsocket/0.39.9)** < [0.39.10](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-unixsocket/0.39.10/)
-
-## Updates Applied
-[updated.target](updated.target)
-
 ## Content
  - [com.fasterxml.jackson.core](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/)
     - [jackson-annotations](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/) **[2.23](https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.23)**
@@ -23,8 +15,8 @@
     - [jnr-constants](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-constants/) **[0.11.4](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-constants/0.11.4)**
     - [jnr-enxio](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-enxio/) **[0.33.6](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-enxio/0.33.6)**
     - [jnr-ffi](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-ffi/) **[2.3.7](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-ffi/2.3.7)**
-    - [jnr-posix](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-posix/) **[3.2.8](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-posix/3.2.8)**
-    - [jnr-unixsocket](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-unixsocket/) **[0.39.9](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-unixsocket/0.39.9)**
+    - [jnr-posix](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-posix/) **[3.2.9](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-posix/3.2.9)**
+    - [jnr-unixsocket](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-unixsocket/) **[0.39.10](https://repo.maven.apache.org/maven2/com/github/jnr/jnr-unixsocket/0.39.10)**
  - [com.google.guava](https://repo.maven.apache.org/maven2/com/google/guava/)
     - [failureaccess](https://repo.maven.apache.org/maven2/com/google/guava/failureaccess/) **[1.0.3](https://repo.maven.apache.org/maven2/com/google/guava/failureaccess/1.0.3)**
     - [guava](https://repo.maven.apache.org/maven2/com/google/guava/guava/) **[33.8.0-jre](https://repo.maven.apache.org/maven2/com/google/guava/guava/33.8.0-jre)**

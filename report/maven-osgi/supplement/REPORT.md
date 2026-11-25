@@ -283,12 +283,12 @@
     - [mongodb-driver-core](https://repo.maven.apache.org/maven2/org/mongodb/mongodb-driver-core/) **[5.15.0](https://repo.maven.apache.org/maven2/org/mongodb/mongodb-driver-core/5.15.0)**
     - [mongodb-driver-sync](https://repo.maven.apache.org/maven2/org/mongodb/mongodb-driver-sync/) **[5.15.0](https://repo.maven.apache.org/maven2/org/mongodb/mongodb-driver-sync/5.15.0)**
  - [org.mortbay.jasper](https://repo.maven.apache.org/maven2/org/mortbay/jasper/)
-    - [mortbay-apache-el](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-el/) **[9.0.119](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-el/9.0.119)**
-    - [mortbay-apache-el](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-el/) **[10.1.56](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-el/10.1.56)**
-    - [mortbay-apache-el](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-el/) **[11.0.23](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-el/11.0.23)**
-    - [mortbay-apache-jsp](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-jsp/) **[9.0.119](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-jsp/9.0.119)**
-    - [mortbay-apache-jsp](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-jsp/) **[10.1.56](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-jsp/10.1.56)**
-    - [mortbay-apache-jsp](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-jsp/) **[11.0.23](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-jsp/11.0.23)**
+    - [mortbay-apache-el](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-el/) **[9.0.124](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-el/9.0.124)**
+    - [mortbay-apache-el](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-el/) **[10.1.62](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-el/10.1.62)**
+    - [mortbay-apache-el](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-el/) **[11.0.29](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-el/11.0.29)**
+    - [mortbay-apache-jsp](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-jsp/) **[9.0.124](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-jsp/9.0.124)**
+    - [mortbay-apache-jsp](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-jsp/) **[10.1.62](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-jsp/10.1.62)**
+    - [mortbay-apache-jsp](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-jsp/) **[11.0.29](https://repo.maven.apache.org/maven2/org/mortbay/jasper/mortbay-apache-jsp/11.0.29)**
  - [org.osgi](https://repo.maven.apache.org/maven2/org/osgi/)
     - [org.osgi.dto](https://repo.maven.apache.org/maven2/org/osgi/org.osgi.dto/) **[1.1.1](https://repo.maven.apache.org/maven2/org/osgi/org.osgi.dto/1.1.1)**
     - [org.osgi.framework](https://repo.maven.apache.org/maven2/org/osgi/org.osgi.framework/) **[1.10.0](https://repo.maven.apache.org/maven2/org/osgi/org.osgi.framework/1.10.0)**
@@ -301,13 +301,13 @@
     - [org.osgi.service.resolver](https://repo.maven.apache.org/maven2/org/osgi/org.osgi.service.resolver/) **[1.1.1](https://repo.maven.apache.org/maven2/org/osgi/org.osgi.service.resolver/1.1.1)**
     - [org.osgi.service.startlevel](https://repo.maven.apache.org/maven2/org/osgi/org.osgi.service.startlevel/) **[1.1.1](https://repo.maven.apache.org/maven2/org/osgi/org.osgi.service.startlevel/1.1.1)**
     - [org.osgi.service.url](https://repo.maven.apache.org/maven2/org/osgi/org.osgi.service.url/) **[1.0.1](https://repo.maven.apache.org/maven2/org/osgi/org.osgi.service.url/1.0.1)**
-    - [org.osgi.test.assertj.framework](https://repo.maven.apache.org/maven2/org/osgi/org.osgi.test.assertj.framework/) **[1.3.0](https://repo.maven.apache.org/maven2/org/osgi/org.osgi.test.assertj.framework/1.3.0)**
-    - [org.osgi.test.assertj.log](https://repo.maven.apache.org/maven2/org/osgi/org.osgi.test.assertj.log/) **[1.3.0](https://repo.maven.apache.org/maven2/org/osgi/org.osgi.test.assertj.log/1.3.0)**
-    - [org.osgi.test.assertj.promise](https://repo.maven.apache.org/maven2/org/osgi/org.osgi.test.assertj.promise/) **[1.3.0](https://repo.maven.apache.org/maven2/org/osgi/org.osgi.test.assertj.promise/1.3.0)**
-    - [org.osgi.test.common](https://repo.maven.apache.org/maven2/org/osgi/org.osgi.test.common/) **[1.3.0](https://repo.maven.apache.org/maven2/org/osgi/org.osgi.test.common/1.3.0)**
-    - [org.osgi.test.junit4](https://repo.maven.apache.org/maven2/org/osgi/org.osgi.test.junit4/) **[1.3.0](https://repo.maven.apache.org/maven2/org/osgi/org.osgi.test.junit4/1.3.0)**
-    - [org.osgi.test.junit5](https://repo.maven.apache.org/maven2/org/osgi/org.osgi.test.junit5/) **[1.3.0](https://repo.maven.apache.org/maven2/org/osgi/org.osgi.test.junit5/1.3.0)**
-    - [org.osgi.test.junit5.cm](https://repo.maven.apache.org/maven2/org/osgi/org.osgi.test.junit5.cm/) **[1.3.0](https://repo.maven.apache.org/maven2/org/osgi/org.osgi.test.junit5.cm/1.3.0)**
+    - [org.osgi.test.assertj.framework](https://repo.maven.apache.org/maven2/org/osgi/org.osgi.test.assertj.framework/) **[1.4.0](https://repo.maven.apache.org/maven2/org/osgi/org.osgi.test.assertj.framework/1.4.0)**
+    - [org.osgi.test.assertj.log](https://repo.maven.apache.org/maven2/org/osgi/org.osgi.test.assertj.log/) **[1.4.0](https://repo.maven.apache.org/maven2/org/osgi/org.osgi.test.assertj.log/1.4.0)**
+    - [org.osgi.test.assertj.promise](https://repo.maven.apache.org/maven2/org/osgi/org.osgi.test.assertj.promise/) **[1.4.0](https://repo.maven.apache.org/maven2/org/osgi/org.osgi.test.assertj.promise/1.4.0)**
+    - [org.osgi.test.common](https://repo.maven.apache.org/maven2/org/osgi/org.osgi.test.common/) **[1.4.0](https://repo.maven.apache.org/maven2/org/osgi/org.osgi.test.common/1.4.0)**
+    - [org.osgi.test.junit4](https://repo.maven.apache.org/maven2/org/osgi/org.osgi.test.junit4/) **[1.4.0](https://repo.maven.apache.org/maven2/org/osgi/org.osgi.test.junit4/1.4.0)**
+    - [org.osgi.test.junit5](https://repo.maven.apache.org/maven2/org/osgi/org.osgi.test.junit5/) **[1.4.0](https://repo.maven.apache.org/maven2/org/osgi/org.osgi.test.junit5/1.4.0)**
+    - [org.osgi.test.junit5.cm](https://repo.maven.apache.org/maven2/org/osgi/org.osgi.test.junit5.cm/) **[1.4.0](https://repo.maven.apache.org/maven2/org/osgi/org.osgi.test.junit5.cm/1.4.0)**
     - [org.osgi.util.tracker](https://repo.maven.apache.org/maven2/org/osgi/org.osgi.util.tracker/) **[1.5.4](https://repo.maven.apache.org/maven2/org/osgi/org.osgi.util.tracker/1.5.4)**
     - [osgi.annotation](https://repo.maven.apache.org/maven2/org/osgi/osgi.annotation/) **[8.1.0](https://repo.maven.apache.org/maven2/org/osgi/osgi.annotation/8.1.0)**
  - [org.slf4j](https://repo.maven.apache.org/maven2/org/slf4j/)
